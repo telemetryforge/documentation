@@ -1,0 +1,5 @@
+[book]
+authors = ["Patrick Stephens"]
+language = "en"
+src = "src"
+title = "FluentDo Agent Documentation"
