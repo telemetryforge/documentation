@@ -1,2 +1,21 @@
 site_name: FluentDo Agent Documentation
 
+theme:
+  name: null
+  custom_dir: fluent_theme/
+
+extra_css:
+  - css/custom.css  # Optional additional styles
+
+extra_javascript:
+  - js/custom.js    # Optional additional scripts
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  # - Getting Started: getting-started.md
+  # - Documentation:
+  #   - Overview: docs/overview.md
+  #   - API Reference: docs/api.md

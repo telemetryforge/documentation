@@ -1,0 +1,23 @@
+{% if page.meta.description %}
+    <p class="fluent-description">{{ page.meta.description }}</p>
+{% endif %}
+
+{{ page.content }}
+
+{% if page.next_page or page.previous_page %}
+    <nav class="fluent-pagination">
+        {% if page.previous_page %}
+            <a href="{{ page.previous_page.url|url }}" class="fluent-pagination-prev">
+                <span class="fluent-pagination-direction">← Previous</span>
+                <span class="fluent-pagination-title">{{ page.previous_page.title }}</span>
+            </a>
+        {% endif %}
+        
+        {% if page.next_page %}
+            <a href="{{ page.next_page.url|url }}" class="fluent-pagination-next">
+                <span class="fluent-pagination-direction">Next →</span>
+                <span class="fluent-pagination-title">{{ page.next_page.title }}</span>
+            </a>
+        {% endif %}
+    </nav>
+{% endif %}

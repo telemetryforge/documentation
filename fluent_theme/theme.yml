@@ -1,0 +1,4 @@
+name: fluent
+custom_dir: fluent_theme/
+static_templates:
+  - 404.html

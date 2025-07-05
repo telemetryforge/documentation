@@ -1,0 +1,22 @@
+<div class="fluent-main">
+    <!-- Sidebar -->
+    <aside class="fluent-sidebar">
+        <nav class="fluent-sidebar-nav">
+            {% include "nav.html" %}
+        </nav>
+    </aside>
+
+    <!-- Content -->
+    <main class="fluent-content">
+        <article class="fluent-article">
+            {% include "content.html" %}
+        </article>
+        
+        <!-- Table of Contents -->
+        {% if page.toc %}
+        <aside class="fluent-toc">
+            {% include "toc.html" %}
+        </aside>
+        {% endif %}
+    </main>
+</div>

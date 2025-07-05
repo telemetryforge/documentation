@@ -1,0 +1,26 @@
+<ul class="fluent-nav-list">
+    {% for nav_item in nav %}
+        {% if nav_item.children %}
+            <li class="fluent-nav-section">
+                <a href="{{ nav_item.url|url }}" class="fluent-nav-section-title{% if nav_item.active %} current{% endif %}">
+                    {{ nav_item.title }}
+                </a>
+                <ul class="fluent-nav-subsection">
+                    {% for nav_item in nav_item.children %}
+                        <li>
+                            <a href="{{ nav_item.url|url }}"{% if nav_item.active %} class="current"{% endif %}>
+                                {{ nav_item.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% else %}
+            <li>
+                <a href="{{ nav_item.url|url }}"{% if nav_item.active %} class="current"{% endif %}>
+                    {{ nav_item.title }}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
