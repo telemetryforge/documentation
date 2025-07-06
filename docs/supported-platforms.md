@@ -2,7 +2,7 @@
 
 The FluentDo agent supports all major architectures including x86_64 and arm64 as well as optionally riscv64, s390x and others.
 
-Releases can be found or watched here: <>
+Releases can be found or watched here: <https://github.com/FluentDo/releases>
 
 ## Container images
 
