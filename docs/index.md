@@ -7,11 +7,11 @@ We include only stable and widely used plugins by default.
 We also support tailor-made builds with custom plugin sets or for white-labelling requirements.
 We disable unused plugins and developer-only features at compile time, along with using secure defaults for network connections and similar features.
 
-- [Fluent Bit](docs.fluentbit.io)
+- [Fluent Bit](https://docs.fluentbit.io)
 - [Security](./security.md)
 - [Supported Platforms](./supported-platforms.md)
 
-We build on OSS Fluent Bit (as core maintainers of OSS too) and provide some specific FluentDo enhancements
+We build on OSS Fluent Bit (as core maintainers of OSS) and provide some specific FluentDo enhancements:
 
 - Performant log deduplication at source
 - AI-based filtering and routing
