@@ -1,7 +1,5 @@
 # Security information
 
-This page hosts all known information about any security issues, mitigations and triaged CVEs.
-
 FluentDo provides an agent with the following security and compliance considerations:
 
 - 24-month LTS support

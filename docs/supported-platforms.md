@@ -1,6 +1,6 @@
 # Supported Platforms
 
-The FluentDo agent supports all major architectures including x86_64 and arm64 as well as optionally riscv64, s390x and others.
+The FluentDo agent supports all major architectures including `x86_64` and `arm64` as well as optionally `riscv64`, `s390x` and others.
 
 Releases can be found or watched here: <https://github.com/FluentDo/releases>
 
@@ -8,7 +8,7 @@ Releases can be found or watched here: <https://github.com/FluentDo/releases>
 
 Hardened container images are provided for:
 
-- Openshift via quay.io
+- Openshift via `quay.io`
 - AWS via ECS
 - Google Cloud via Artifact Registry
 - All images are in docker.io and ghcr.io as well
