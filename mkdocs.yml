@@ -1,4 +1,10 @@
 site_name: FluentDo Agent Documentation
+nav:
+  - Home: index.md
+  - Features:
+    - Record Deduplication: features/record-deduplication.md
+  - Security: security.md
+  - Supported Platforms: supported-platforms.md
 plugins:
   - privacy
 
