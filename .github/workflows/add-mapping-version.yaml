@@ -1,0 +1,53 @@
+name: Manually trigger to add mapping version
+on:
+  workflow_dispatch:
+    inputs:
+      agent-version:
+        description: "The version of the FluentDo agent to add"
+        required: true
+        type: string
+      oss-version:
+        description: "The version of the underlying OSS Fluent Bit that the agent is based on"
+        required: true
+        type: string
+      dry-run:
+        description: "Whether to run in dry-run mode"
+        required: false
+        type: boolean
+        default: false
+jobs:
+  get-github-token:
+    name: Get GitHub Token
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    outputs:
+      GITHUB_TOKEN: ${{ steps.get-secrets.outputs.github-pat }}
+    steps:
+      - name: Authenticate with GCP
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: "projects/841522437311/locations/global/workloadIdentityPools/github-actions/providers/github-actions"
+          service_account: "terraform-infra@infrastructure-464010.iam.gserviceaccount.com"
+          create_credentials_file: true
+          export_environment_variables: true
+
+      - id: get-secrets
+        name: Get secrets from GCP Secret Manager
+        # This step retrieves secrets from GCP Secret Manager and sets them as outputs
+        # The secrets can then be accessed in subsequent steps using ${{ steps.get-secrets.outputs.<secret_name> }}
+        uses: "google-github-actions/get-secretmanager-secrets@v2"
+        with:
+          secrets: |-
+            github-pat:projects/626836145334/secrets/GITHUB_CI_PAT
+
+  add-mapping-version:
+    needs: get-github-token
+    uses: ./.github/workflows/call-add-mapping-version.yaml
+    with:
+      agent-version: ${{ github.event.inputs.agent-version }}
+      oss-version: ${{ github.event.inputs.oss-version }}
+      dry-run: ${{ github.event.inputs.dry-run }}
+    secrets:
+      GITHUB_TOKEN: ${{ needs.get-github-token.outputs.GITHUB_TOKEN }}
