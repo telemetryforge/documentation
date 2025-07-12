@@ -23,7 +23,7 @@ jobs:
       contents: read
       id-token: write
     outputs:
-      GITHUB_TOKEN: ${{ steps.get-secrets.outputs.github-pat }}
+      github-token: ${{ steps.get-secrets.outputs.github-pat }}
     steps:
       - name: Authenticate with GCP
         uses: google-github-actions/auth@v2
@@ -50,4 +50,4 @@ jobs:
       oss-version: ${{ github.event.inputs.oss-version }}
       dry-run: ${{ github.event.inputs.dry-run }}
     secrets:
-      GITHUB_TOKEN: ${{ needs.get-github-token.outputs.GITHUB_TOKEN }}
+      github-token: ${{ needs.get-github-token.outputs.github-token }}
