@@ -6,4 +6,4 @@ The following shows the underlying [OSS version of Fluent Bit](https://github.co
 
 |FluentDo Agent Version|OSS Version Base|
 |----------------------|----------------|
-| 25.7.1               | 4.0.3          |
+| 25.7.1 | 4.0.3 |

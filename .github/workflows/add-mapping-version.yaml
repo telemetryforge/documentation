@@ -19,6 +19,6 @@ jobs:
   add-mapping-version:
     uses: ./.github/workflows/call-add-mapping-version.yaml
     with:
-      agent-version: ${{ github.event.inputs.agent-version }}
-      oss-version: ${{ github.event.inputs.oss-version }}
-      dry-run: ${{ github.event.inputs.dry-run }}
+      agent-version: ${{ inputs.agent-version }}
+      oss-version: ${{ inputs.oss-version }}
+      dry-run: ${{ inputs.dry-run }}

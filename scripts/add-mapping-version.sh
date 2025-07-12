@@ -18,6 +18,24 @@ MAPPING_FILE=${MAPPING_FILE:-$DOCS_DIR/version-mapping.md}
 NEW_OSS_VERSION=${NEW_OSS_VERSION:?}
 NEW_AGENT_VERSION=${NEW_AGENT_VERSION:?}
 
+# Handle version string with or without a v prefix - we just want semver
+if [[ "$NEW_OSS_VERSION" =~ ^v?([0-9]+\.[0-9]+\.[0-9]+)$ ]] ; then
+    NEW_OSS_VERSION=${BASH_REMATCH[1]}
+    echo "Valid OSS version string: $NEW_OSS_VERSION"
+else
+    echo "ERROR: Invalid OSS semver string: $NEW_OSS_VERSION"
+    exit 1
+fi
+
+# Handle version string with or without a v prefix - we just want semver
+if [[ "$NEW_AGENT_VERSION" =~ ^v?([0-9]+\.[0-9]+\.[0-9]+)$ ]] ; then
+    NEW_AGENT_VERSION=${BASH_REMATCH[1]}
+    echo "Valid FluentDo agent version string: $NEW_AGENT_VERSION"
+else
+    echo "ERROR: Invalid FluentDo agent semver string: $NEW_AGENT_VERSION"
+    exit 1
+fi
+
 # Check if the mapping file exists
 if [[ ! -f "$MAPPING_FILE" ]]; then
     echo "ERROR: Mapping file $MAPPING_FILE does not exist."
