@@ -15,18 +15,35 @@ on:
         required: false
         type: boolean
         default: false
-    secrets:
-      github-token:
-        description: 'GitHub token for authentication'
 jobs:
   add-mapping-version:
+    name: Add Mapping Version ${{ inputs.agent-version }} --> ${{ inputs.oss-version }}
+    permissions:
+      contents: read
+      pull-requests: write
+      id-token: write
     runs-on: ubuntu-latest
     steps:
+      - name: Authenticate with GCP
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: "projects/841522437311/locations/global/workloadIdentityPools/github-actions/providers/github-actions"
+          service_account: "terraform-infra@infrastructure-464010.iam.gserviceaccount.com"
+
+      - id: get-secrets
+        name: Get secrets from GCP Secret Manager
+        # This step retrieves secrets from GCP Secret Manager and sets them as outputs
+        # The secrets can then be accessed in subsequent steps using ${{ steps.get-secrets.outputs.<secret_name> }}
+        uses: "google-github-actions/get-secretmanager-secrets@v2"
+        with:
+          secrets: |-
+            github-pat:projects/626836145334/secrets/GITHUB_CI_PAT
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
             repository: fluentdo/documentation
-            token: ${{ secrets.github-token }}
+            token: ${{ steps.get-secrets.outputs.github-pat }}
 
       - name: Add mapping version
         run: |
@@ -49,7 +66,7 @@ jobs:
           branch: ci_update-version-${{ inputs.agent-version }}
           delete-branch: true
           title: "ci: add mapping version for agent ${{ inputs.agent-version }}"
-          token: ${{ secrets.github-token }}
+          token: ${{ steps.get-secrets.outputs.github-pat }}
           labels: ci,automerge
           body: |
             Mapping version added for FluentDo agent ${{ inputs.agent-version }}:
@@ -73,4 +90,4 @@ jobs:
     #     if: ${{ steps.cpr.outputs.pull-request-number }}
     #     run: gh pr merge --squash --auto "${{ steps.cpr.outputs.pull-request-number }}"
     #     env:
-    #       GH_TOKEN: ${{ secrets.github-token }}
+    #       GH_TOKEN: ${{ steps.get-secrets.outputs.github-pat }}
