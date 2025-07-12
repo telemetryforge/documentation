@@ -5,6 +5,7 @@ nav:
     - Record Deduplication: features/record-deduplication.md
   - Security: security.md
   - Supported Platforms: supported-platforms.md
+  - Version Mapping: version-mapping.md
 plugins:
   - privacy
 
