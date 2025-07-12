@@ -10,6 +10,7 @@ We disable unused plugins and developer-only features at compile time, along wit
 - [Fluent Bit](https://docs.fluentbit.io)
 - [Security](./security.md)
 - [Supported Platforms](./supported-platforms.md)
+- [FluentDo to OSS version mapping](version-mapping.md)
 
 We build on OSS Fluent Bit (as core maintainers of OSS) and provide some specific FluentDo enhancements:
 

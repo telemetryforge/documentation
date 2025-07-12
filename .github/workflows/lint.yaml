@@ -1,0 +1,38 @@
+name: Lint PRs
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - synchronize
+      - reopened
+      - labeled
+  workflow_dispatch:
+
+jobs:
+  shellcheck-pr:
+    runs-on: ubuntu-latest
+    name: PR - Shellcheck
+    steps:
+      - uses: actions/checkout@v4
+      - uses: reviewdog/action-shellcheck@v1.30.0
+        with:
+          reporter: github-pr-review
+          fail_level: error
+          pattern: |
+            *.bash
+            *.sh
+          exclude: |
+            */.git/*
+            ./source/*
+
+  actionlint-pr:
+    runs-on: ubuntu-latest
+    name: PR - Actionlint
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          echo "::add-matcher::.github/actionlint-matcher.json"
+          bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
+          ./actionlint -color -shellcheck=
+        shell: bash
