@@ -4,6 +4,7 @@ nav:
   - Features:
     - Record Deduplication: features/record-deduplication.md
   - Security: security.md
+    - CVE Information: security/cves.md
   - Supported Platforms: supported-platforms.md
   - Version Mapping: version-mapping.md
 plugins:
