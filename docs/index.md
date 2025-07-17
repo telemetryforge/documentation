@@ -19,8 +19,11 @@ We build on OSS Fluent Bit (as core maintainers of OSS) and provide some specifi
 - Tail sampling and OTTL-style logic
 - Efficient filesystem storage buffer
 - Dedicated integration and regression testing
+- Native flattening filtering to prevent field explosion and type mismatches (e.g. in Opensearch or Elasticsearch)
 
 A major long-term support (LTS) release is created every 12 months.
 This will then include weekly patch releases for CVEs and critical bugs.
 No breaking changes added during the support window and backports will be made for critical features.
 End-of-life 24 months after initial release.
+
+We provide a dedicated VEX feed as well to integrate with security tooling to simplify usage by removing false positives.
