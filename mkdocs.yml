@@ -12,6 +12,7 @@ plugins:
   - privacy
   - offline
   - search
+  - social
   - meta
 
 theme:

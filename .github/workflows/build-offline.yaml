@@ -1,0 +1,27 @@
+name: Build an offline version of the documentation
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Generate documentation and upload
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: scripts/generate-offline.sh
+        shell: bash
+
+      - name: Debug
+        if: always()
+        continue-on-error: true
+        run: ls -lR
+        shell: bash
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fluentdo-agent-documentation
+          path: "*.tgz"
+          if-no-files-found: error
