@@ -16,7 +16,7 @@ REPO_ROOT=${REPO_ROOT:-$SCRIPT_DIR/..}
 GENERATED_DOC_DIR=${GENERATED_DOC_DIR:-$REPO_ROOT/site}
 OUTPUT_FILE=${OUTPUT_FILE:-$REPO_ROOT/fluentdo-agent-documentation.tgz}
 
-rm -rf "$GENERATED_DOC_DIR"
+rm -rf "$GENERATED_DOC_DIR" "$REPO_ROOT/.cache"
 
 echo "Generating documentation"
 ${CONTAINER_RUNTIME:-docker} run --rm -t \
