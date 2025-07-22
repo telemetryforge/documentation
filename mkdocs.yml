@@ -10,6 +10,10 @@ nav:
   - Version Mapping: version-mapping.md
 plugins:
   - privacy
+  - offline
+  - search
+  - social
+  - meta
 
 theme:
   name: material
