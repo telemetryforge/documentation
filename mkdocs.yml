@@ -1,4 +1,5 @@
 site_name: FluentDo Agent Documentation
+site_url: https://fluent.do
 nav:
   - Home: index.md
   - Features:
