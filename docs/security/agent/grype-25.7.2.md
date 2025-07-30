@@ -1,4 +1,4 @@
-# Grype Vulnerabilities for ghcr.io/fluentdo/agent:25.7.1
+# Grype Vulnerabilities for ghcr.io/fluentdo/agent:25.7.2
 
 | Package | Version Installed | Vulnerability ID | Severity |
 | --- | --- | --- | --- |
