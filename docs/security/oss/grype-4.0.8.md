@@ -1,4 +1,4 @@
-# Grype Vulnerabilities for ghcr.io/fluent/fluent-bit:4.0.5
+# Grype Vulnerabilities for ghcr.io/fluent/fluent-bit:4.0.8
 
 | Package | Version Installed | Vulnerability ID | Severity |
 | --- | --- | --- | --- |
@@ -48,7 +48,7 @@
 | libkrb5support0 | 1.20.1-2+deb12u3 | [CVE-2024-26461](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461) | Negligible |
 | libsystemd0 | 254.26-1~bpo12+1 | [CVE-2013-4392](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4392) | Negligible |
 | systemd | 254.26-1~bpo12+1 | [CVE-2013-4392](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4392) | Negligible |
-| libssl3 | 3.0.16-1~deb12u1 | [CVE-2025-27587](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-27587) | Negligible |
+| libssl3 | 3.0.17-1~deb12u2 | [CVE-2025-27587](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-27587) | Negligible |
 | gcc-12-base | 12.2.0-14+deb12u1 | [CVE-2022-27943](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943) | Negligible |
 | libatomic1 | 12.2.0-14+deb12u1 | [CVE-2022-27943](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943) | Negligible |
 | libgcc-s1 | 12.2.0-14+deb12u1 | [CVE-2022-27943](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943) | Negligible |
