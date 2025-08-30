@@ -26,10 +26,9 @@ jobs:
           service_account: "terraform-infra@infrastructure-464010.iam.gserviceaccount.com"
 
       - id: get-secrets
-        name:
-          Get secrets from GCP Secret Manager
-          # This step retrieves secrets from GCP Secret Manager and sets them as outputs
-          # The secrets can then be accessed in subsequent steps using ${{ steps.get-secrets.outputs.<secret_name> }}
+        name: Get secrets from GCP Secret Manager
+        # This step retrieves secrets from GCP Secret Manager and sets them as outputs
+        # The secrets can then be accessed in subsequent steps using ${{ steps.get-secrets.outputs.<secret_name> }}
         uses: "google-github-actions/get-secretmanager-secrets@v2"
         with:
           secrets: |-
