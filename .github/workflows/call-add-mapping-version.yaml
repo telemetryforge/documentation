@@ -55,6 +55,12 @@ jobs:
           NEW_OSS_VERSION: ${{ inputs.oss-version }}
           DRY_RUN: ${{ inputs.dry-run }}
 
+      - name: Debug info
+        run: |
+          git status
+          git diff
+        shell: bash
+
       - name: Create a PR with the update
         if: ${{ !inputs.dry-run }}
         id: cpr
