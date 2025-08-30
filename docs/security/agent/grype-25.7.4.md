@@ -1,12 +1,10 @@
-# Grype Vulnerabilities for ghcr.io/fluentdo/agent:25.7.1
+# Grype Vulnerabilities for ghcr.io/fluentdo/agent:25.7.4
 
 | Package | Version Installed | Vulnerability ID | Severity |
 | --- | --- | --- | --- |
 | sqlite-libs | 3.34.1-7.el9_3 | [CVE-2025-6965](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6965) | High |
 | libarchive | 3.5.3-5.el9_6 | [CVE-2025-5914](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5914) | High |
 | libxml2 | 2.9.13-10.el9_6 | [CVE-2025-7425](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-7425) | High |
-| glib2 | 2.68.4-16.el9 | [CVE-2024-52533](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52533) | Medium |
-| glib2 | 2.68.4-16.el9 | [CVE-2025-4373](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4373) | Medium |
 | libpq | 13.20-1.el9_5 | [CVE-2025-4207](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4207) | Medium |
 | gnutls | 3.8.3-6.el9 | [CVE-2025-32990](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990) | Medium |
 | gnutls | 3.8.3-6.el9 | [CVE-2025-6395](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6395) | Medium |
@@ -27,14 +25,14 @@
 | shadow-utils | 2:4.9-12.el9 | [CVE-2024-56433](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433) | Low |
 | curl-minimal | 7.76.1-31.el9 | [CVE-2024-9681](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9681) | Low |
 | libcurl-minimal | 7.76.1-31.el9 | [CVE-2024-9681](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9681) | Low |
-| glib2 | 2.68.4-16.el9 | [CVE-2023-32636](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32636) | Low |
+| glib2 | 2.68.4-16.el9_6.2 | [CVE-2023-32636](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32636) | Low |
 | curl-minimal | 7.76.1-31.el9 | [CVE-2024-11053](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11053) | Low |
 | libcurl-minimal | 7.76.1-31.el9 | [CVE-2024-11053](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11053) | Low |
 | openssl | 1:3.2.2-6.el9_5.1 | [CVE-2024-41996](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-41996) | Low |
 | openssl-libs | 1:3.2.2-6.el9_5.1 | [CVE-2024-41996](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-41996) | Low |
 | libxml2 | 2.9.13-10.el9_6 | [CVE-2024-34459](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34459) | Low |
 | libarchive | 3.5.3-5.el9_6 | [CVE-2025-1632](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-1632) | Low |
-| glib2 | 2.68.4-16.el9 | [CVE-2025-3360](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3360) | Low |
+| glib2 | 2.68.4-16.el9_6.2 | [CVE-2025-3360](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3360) | Low |
 | libxml2 | 2.9.13-10.el9_6 | [CVE-2023-45322](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45322) | Low |
 | openssl | 1:3.2.2-6.el9_5.1 | [CVE-2024-13176](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-13176) | Low |
 | openssl-libs | 1:3.2.2-6.el9_5.1 | [CVE-2024-13176](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-13176) | Low |
