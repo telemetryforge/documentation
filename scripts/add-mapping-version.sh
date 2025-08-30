@@ -15,6 +15,8 @@ REPO_ROOT=${REPO_ROOT:-$SCRIPT_DIR/..}
 DOCS_DIR=${DOCS_DIR:-$REPO_ROOT/docs}
 MAPPING_FILE=${MAPPING_FILE:-$DOCS_DIR/version-mapping.md}
 
+SCAN_FILE=${SCAN_FILE:-$SCRIPT_DIR/security/scan-config.json}
+
 NEW_OSS_VERSION=${NEW_OSS_VERSION:?}
 NEW_AGENT_VERSION=${NEW_AGENT_VERSION:?}
 
@@ -41,6 +43,13 @@ if [[ ! -f "$MAPPING_FILE" ]]; then
     echo "ERROR: Mapping file $MAPPING_FILE does not exist."
     exit 1
 fi
+
+# Check if the scan file exists
+if [[ ! -f "$SCAN_FILE" ]]; then
+	echo "ERROR: Scan file $SCAN_FILE does not exist."
+	exit 1
+fi
+
 # Update the mapping file with the new version
 if grep -q "| $NEW_AGENT_VERSION |" "$MAPPING_FILE"; then
     echo "ERROR: Mapping for FluentDo Agent version $NEW_AGENT_VERSION already exists in $MAPPING_FILE."
@@ -62,3 +71,26 @@ echo "Updated $MAPPING_FILE with new mapping: $NEW_MAPPING"
 # Output the updated mapping file
 echo "Current version mapping:"
 cat "$MAPPING_FILE"
+
+# Update the scan file with the new versions
+# Use jq to add the new versions to the respective arrays if they don't already exist
+if jq -e --arg ver "$NEW_AGENT_VERSION" '.agent_versions | index($ver)' "$SCAN_FILE" > /dev/null; then
+	echo "Agent version $NEW_AGENT_VERSION already exists in $SCAN_FILE."
+else
+	jq --arg ver "$NEW_AGENT_VERSION" '.agent_versions += [$ver]' "$SCAN_FILE" | jq '.agent_versions |= unique' > "$SCAN_FILE.tmp" && mv "$SCAN_FILE.tmp" "$SCAN_FILE"
+	echo "Added Agent version $NEW_AGENT_VERSION to $SCAN_FILE."
+fi
+if jq -e --arg ver "$NEW_OSS_VERSION" '.oss_versions | index($ver)' "$SCAN_FILE" > /dev/null; then
+	echo "OSS version $NEW_OSS_VERSION already exists in $SCAN_FILE."
+else
+	jq --arg ver "$NEW_OSS_VERSION" '.oss_versions += [$ver]' "$SCAN_FILE" | jq '.oss_versions |= unique' > "$SCAN_FILE.tmp" && mv "$SCAN_FILE.tmp" "$SCAN_FILE"
+	echo "Added OSS version $NEW_OSS_VERSION to $SCAN_FILE."
+fi
+# Output the updated scan file
+echo "Current scan configuration:"
+cat "$SCAN_FILE"
+
+# Run the security scan now with the updated versions
+echo "Running security scans with updated versions..."
+"$SCRIPT_DIR/security/run-scans.sh"
+echo "Security scans completed."
