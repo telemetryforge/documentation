@@ -15,7 +15,7 @@ jobs:
     name: PR - Shellcheck
     steps:
       - uses: actions/checkout@v5
-      - uses: reviewdog/action-shellcheck@v1.30.0
+      - uses: reviewdog/action-shellcheck@v1.31.0
         with:
           reporter: github-pr-review
           fail_level: error
