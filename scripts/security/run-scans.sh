@@ -13,7 +13,7 @@ done
 SCRIPT_DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
 
 REPO_ROOT=${REPO_ROOT:-$SCRIPT_DIR/../..}
-CVE_DIR=${SOURCE_DIR:-$REPO_ROOT/docs/security}
+CVE_DIR=${CVE_DIR:-$REPO_ROOT/docs/security}
 TEMPLATE_DIR=${TEMPLATE_DIR:-$SCRIPT_DIR/templates}
 SCAN_FILE=${SCAN_FILE:-$SCRIPT_DIR/scan-config.json}
 
