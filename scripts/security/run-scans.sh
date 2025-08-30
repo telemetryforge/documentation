@@ -107,7 +107,7 @@ for oss_version in "${OSS_VERSIONS[@]}"; do
     echo "Running syft for OSS version: $oss_version"
     if ! syft "ghcr.io/fluent/fluent-bit:$oss_version" --output json="$CVE_DIR/oss/syft-$oss_version.json" --output cyclonedx-json="$CVE_DIR/oss/cyclonedx-$oss_version.json" --output spdx-json="$CVE_DIR/oss/spdx-$oss_version.json"; then
         echo "Failed to run syft for OSS version: $oss_version, skipping grype scan."
-        rm -f "$CVE_DIR/oss/syft-$oss_version.json"
+        rm -f "$CVE_DIR/oss/*-$oss_version.json"
         continue
     fi
 
