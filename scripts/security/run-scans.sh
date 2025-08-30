@@ -13,7 +13,7 @@ done
 SCRIPT_DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
 
 REPO_ROOT=${REPO_ROOT:-$SCRIPT_DIR/../..}
-CVE_DIR=${SOURCE_DIR:-$REPO_ROOT/docs/security}
+CVE_DIR=${CVE_DIR:-$REPO_ROOT/docs/security}
 TEMPLATE_DIR=${TEMPLATE_DIR:-$SCRIPT_DIR/templates}
 SCAN_FILE=${SCAN_FILE:-$SCRIPT_DIR/scan-config.json}
 
@@ -107,7 +107,7 @@ for oss_version in "${OSS_VERSIONS[@]}"; do
     echo "Running syft for OSS version: $oss_version"
     if ! syft "ghcr.io/fluent/fluent-bit:$oss_version" --output json="$CVE_DIR/oss/syft-$oss_version.json" --output cyclonedx-json="$CVE_DIR/oss/cyclonedx-$oss_version.json" --output spdx-json="$CVE_DIR/oss/spdx-$oss_version.json"; then
         echo "Failed to run syft for OSS version: $oss_version, skipping grype scan."
-        rm -f "$CVE_DIR/oss/syft-$oss_version.json"
+        rm -f "$CVE_DIR/oss/*-$oss_version.json"
         continue
     fi
 
