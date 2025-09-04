@@ -34,7 +34,7 @@ jobs:
         name: Get secrets from GCP Secret Manager
         # This step retrieves secrets from GCP Secret Manager and sets them as outputs
         # The secrets can then be accessed in subsequent steps using ${{ steps.get-secrets.outputs.<secret_name> }}
-        uses: "google-github-actions/get-secretmanager-secrets@v2"
+        uses: "google-github-actions/get-secretmanager-secrets@v3"
         with:
           secrets: |-
             github-pat:projects/626836145334/secrets/GITHUB_CI_PAT
