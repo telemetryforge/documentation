@@ -72,7 +72,7 @@ EOF
 # Run grype for each Agent version
 for agent_version in "${AGENT_VERSIONS[@]}"; do
     echo "Running syft for Agent version: $agent_version"
-    if ! syft "ghcr.io/fluentdo/agent:$agent_version" --output json="$CVE_DIR/agent/syft-$agent_version.json" --output cyclonedx-json="$CVE_DIR/agent/cyclonedx-$agent_version.json" --output spdx-json="$CVE_DIR/agent/spdx-$agent_version.json"; then
+    if ! syft "ghcr.io/fluentdo/agent:$agent_version" --output json="$CVE_DIR/agent/syft-$agent_version.json" --output cyclonedx-json="$CVE_DIR/agent/cyclonedx-$agent_version.cdx.json" --output spdx-json="$CVE_DIR/agent/spdx-$agent_version.spdx.json"; then
         echo "Failed to run syft for Agent version: $agent_version, skipping grype scan."
         rm -f "$CVE_DIR/agent/*-$agent_version.json"
         continue
@@ -96,8 +96,8 @@ for agent_version in "${AGENT_VERSIONS[@]}"; do
     echo "- [Grype JSON Report](agent/grype-$agent_version.json)"
 	echo ""
     echo "- [Syft JSON SBOM](agent/syft-$agent_version.json)"
-    echo "- [CycloneDX JSON SBOM](agent/cyclonedx-$agent_version.json)"
-    echo "- [SPDX JSON SBOM](agent/spdx-$agent_version.json)"
+    echo "- [CycloneDX JSON SBOM](agent/cyclonedx-$agent_version.cdx.json)"
+    echo "- [SPDX JSON SBOM](agent/spdx-$agent_version.spdx.json)"
     } >> "$CVE_DIR/cves.md"
 done
 
@@ -105,7 +105,7 @@ done
 for oss_version in "${OSS_VERSIONS[@]}"; do
     # Generate syft output first as one-off that can then be fed to grype for each output format
     echo "Running syft for OSS version: $oss_version"
-    if ! syft "ghcr.io/fluent/fluent-bit:$oss_version" --output json="$CVE_DIR/oss/syft-$oss_version.json" --output cyclonedx-json="$CVE_DIR/oss/cyclonedx-$oss_version.json" --output spdx-json="$CVE_DIR/oss/spdx-$oss_version.json"; then
+    if ! syft "ghcr.io/fluent/fluent-bit:$oss_version" --output json="$CVE_DIR/oss/syft-$oss_version.json" --output cyclonedx-json="$CVE_DIR/oss/cyclonedx-$oss_version.cdx.json" --output spdx-json="$CVE_DIR/oss/spdx-$oss_version.spdx.json"; then
         echo "Failed to run syft for OSS version: $oss_version, skipping grype scan."
         rm -f "$CVE_DIR/oss/*-$oss_version.json"
         continue
@@ -129,8 +129,8 @@ for oss_version in "${OSS_VERSIONS[@]}"; do
     echo "- [Grype JSON Report](oss/grype-$oss_version.json)"
     echo ""
     echo "- [Syft JSON SBOM](oss/syft-$oss_version.json)"
-    echo "- [CycloneDX JSON SBOM](oss/cyclonedx-$oss_version.json)"
-    echo "- [SPDX JSON SBOM](oss/spdx-$oss_version.json)"
+    echo "- [CycloneDX JSON SBOM](oss/cyclonedx-$oss_version.cdx.json)"
+    echo "- [SPDX JSON SBOM](oss/spdx-$oss_version.spdx.json)"
     } >> "$CVE_DIR/cves.md"
 done
 

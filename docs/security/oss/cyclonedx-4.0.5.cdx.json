@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:f1bfa8c8-ba21-4743-835f-645b31a9ab6b",
+  "serialNumber": "urn:uuid:f3fd22de-23e1-4446-af9c-c03181dde05a",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-09-04T14:28:11+01:00",
+    "timestamp": "2025-09-04T14:34:11+01:00",
     "tools": {
       "components": [
         {
@@ -17,10 +17,10 @@
       ]
     },
     "component": {
-      "bom-ref": "9633c9de8192ceae",
+      "bom-ref": "08319fe4bcf59bb2",
       "type": "container",
       "name": "ghcr.io/fluent/fluent-bit",
-      "version": "4.0.4"
+      "version": "4.0.5"
     },
     "properties": [
       {
@@ -61,7 +61,7 @@
       },
       {
         "name": "syft:image:labels:org.opencontainers.image.version",
-        "value": "4.0.4"
+        "value": "4.0.5"
       },
       {
         "name": "syft:image:labels:vendor",
@@ -69,7 +69,7 @@
       },
       {
         "name": "syft:image:labels:version",
-        "value": "4.0.4"
+        "value": "4.0.5"
       }
     ]
   },
@@ -212,7 +212,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -233,12 +233,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:github/fluent/fluent-bit@4.0.4?package-id=b2a47700449dfa91",
+      "bom-ref": "pkg:github/fluent/fluent-bit@4.0.5?package-id=0b4dc2620c0fb58e",
       "type": "application",
       "name": "fluent-bit",
-      "version": "4.0.4",
-      "cpe": "cpe:2.3:a:treasuredata:fluent_bit:4.0.4:*:*:*:*:*:*:*",
-      "purl": "pkg:github/fluent/fluent-bit@4.0.4",
+      "version": "4.0.5",
+      "cpe": "cpe:2.3:a:treasuredata:fluent_bit:4.0.5:*:*:*:*:*:*:*",
+      "purl": "pkg:github/fluent/fluent-bit@4.0.5",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -254,7 +254,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:5bf46ecf63e66e9acb5c21a721d986d2d672d90d4e7f3c6020d296f85803ef81"
+          "value": "sha256:1ae57ae677bae63479d9a00d7d3a0400e1a361f66b1afb20f917df29c042a77f"
         },
         {
           "name": "syft:location:0:path",
@@ -408,7 +408,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -447,7 +447,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -557,7 +557,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -612,7 +612,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -651,7 +651,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -690,7 +690,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -836,7 +836,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -871,7 +871,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -888,13 +888,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u4?arch=amd64&distro=debian-12&package-id=323290daf0bb11df&upstream=gnutls28",
+      "bom-ref": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u5?arch=amd64&distro=debian-12&package-id=5458fd103c1e4fd3&upstream=gnutls28",
       "type": "library",
       "publisher": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>",
       "name": "libgnutls30",
-      "version": "3.7.9-2+deb12u4",
-      "cpe": "cpe:2.3:a:libgnutls30:libgnutls30:3.7.9-2\\+deb12u4:*:*:*:*:*:*:*",
-      "purl": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u4?arch=amd64&distro=debian-12&upstream=gnutls28",
+      "version": "3.7.9-2+deb12u5",
+      "cpe": "cpe:2.3:a:libgnutls30:libgnutls30:3.7.9-2\\+deb12u5:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u5?arch=amd64&distro=debian-12&upstream=gnutls28",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -910,7 +910,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1056,7 +1056,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1131,7 +1131,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1170,7 +1170,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1229,7 +1229,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1272,7 +1272,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1311,7 +1311,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1370,7 +1370,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1409,7 +1409,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1484,7 +1484,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1543,7 +1543,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1582,7 +1582,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1621,7 +1621,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1680,7 +1680,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1739,7 +1739,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1778,7 +1778,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1817,7 +1817,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1856,7 +1856,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1919,7 +1919,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -1978,7 +1978,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -2043,7 +2043,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -2185,7 +2185,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -2244,7 +2244,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -2279,7 +2279,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -2354,7 +2354,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -2393,7 +2393,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -2510,7 +2510,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -2548,7 +2548,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -2637,7 +2637,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:1c3c5b9e02f8172ebd6cb9474721807064773a5f70d3d21a8b3ddf6dc45985d2"
+          "value": "sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
         },
         {
           "name": "syft:location:0:path",
@@ -21584,7 +21584,7 @@
       ]
     },
     {
-      "bom-ref": "926a537cba4c564e",
+      "bom-ref": "9da2029c39dd9f31",
       "type": "file",
       "name": "/usr/lib/x86_64-linux-gnu/libsystemd.so.0.37.0",
       "hashes": [
@@ -21599,7 +21599,7 @@
       ]
     },
     {
-      "bom-ref": "5645180070fd2444",
+      "bom-ref": "bd2154b4401b30f3",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/ca-certificates",
       "hashes": [
@@ -21614,7 +21614,7 @@
       ]
     },
     {
-      "bom-ref": "28e59056c19a4bd6",
+      "bom-ref": "9aec276cfe092761",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libatomic1",
       "hashes": [
@@ -21629,7 +21629,7 @@
       ]
     },
     {
-      "bom-ref": "bb485516a4236948",
+      "bom-ref": "31342617513b62c3",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libbrotli1",
       "hashes": [
@@ -21644,7 +21644,7 @@
       ]
     },
     {
-      "bom-ref": "8a5109c9a688f46d",
+      "bom-ref": "80c02bc52f85e696",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libcap2",
       "hashes": [
@@ -21659,7 +21659,7 @@
       ]
     },
     {
-      "bom-ref": "b607a594b65ba704",
+      "bom-ref": "35f1d6f0298928db",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libcom-err2",
       "hashes": [
@@ -21674,7 +21674,7 @@
       ]
     },
     {
-      "bom-ref": "9e984dcdcd2f9c57",
+      "bom-ref": "328a6113d9c50adc",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libcurl4",
       "hashes": [
@@ -21689,7 +21689,7 @@
       ]
     },
     {
-      "bom-ref": "94e7a369b3c1b7d6",
+      "bom-ref": "277a2d9639ccd975",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libffi8",
       "hashes": [
@@ -21704,7 +21704,7 @@
       ]
     },
     {
-      "bom-ref": "980a2ac074a8fd27",
+      "bom-ref": "e97ac58d25c9b92c",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libgcrypt20",
       "hashes": [
@@ -21719,7 +21719,7 @@
       ]
     },
     {
-      "bom-ref": "6e7e3c792151017b",
+      "bom-ref": "a99408b08281ebd0",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libgmp10",
       "hashes": [
@@ -21734,22 +21734,22 @@
       ]
     },
     {
-      "bom-ref": "2e6349d0a6e293d4",
+      "bom-ref": "7283afa08d8118b3",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libgnutls30",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "7b7f9aaefdf3578cff9fc681cff70c6db448af71"
+          "content": "81d591df625e40d95e1f4717667c58b6ff46b926"
         },
         {
           "alg": "SHA-256",
-          "content": "d2cfd71563cc0c93d81a72b8db52697f602bf9c73c0fa44f9fb9a128ebc0ebb6"
+          "content": "2921af993fd8346f45ecf40eb1f0eac5a80d4acb6813b4026ac8814f7400053a"
         }
       ]
     },
     {
-      "bom-ref": "aa20c7f0bbd08947",
+      "bom-ref": "65fb551e288a1c84",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libgpg-error0",
       "hashes": [
@@ -21764,7 +21764,7 @@
       ]
     },
     {
-      "bom-ref": "f374019135a83297",
+      "bom-ref": "6073b5b47fb607e4",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
       "hashes": [
@@ -21779,7 +21779,7 @@
       ]
     },
     {
-      "bom-ref": "689c2cad8d919ef7",
+      "bom-ref": "b598ff4220abb64c",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libhogweed6",
       "hashes": [
@@ -21794,7 +21794,7 @@
       ]
     },
     {
-      "bom-ref": "d477f3ab7bffa343",
+      "bom-ref": "5279b009c8226644",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libidn2-0",
       "hashes": [
@@ -21809,7 +21809,7 @@
       ]
     },
     {
-      "bom-ref": "56e72ab0830d2e4c",
+      "bom-ref": "aeec8730ae3b740b",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libk5crypto3",
       "hashes": [
@@ -21824,7 +21824,7 @@
       ]
     },
     {
-      "bom-ref": "d6a364f447e00311",
+      "bom-ref": "3c01e9340ecea8f6",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libkeyutils1",
       "hashes": [
@@ -21839,7 +21839,7 @@
       ]
     },
     {
-      "bom-ref": "a7d537c4b47846c8",
+      "bom-ref": "7ca4af7c6f2b1033",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libkrb5-3",
       "hashes": [
@@ -21854,7 +21854,7 @@
       ]
     },
     {
-      "bom-ref": "6bb94cb8db5303b2",
+      "bom-ref": "cd6149d8d3f45911",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libkrb5support0",
       "hashes": [
@@ -21869,7 +21869,7 @@
       ]
     },
     {
-      "bom-ref": "0f16a31efa3f60d2",
+      "bom-ref": "b9c119848baa654d",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libldap-2.5-0",
       "hashes": [
@@ -21884,7 +21884,7 @@
       ]
     },
     {
-      "bom-ref": "fbb8b607953ddc80",
+      "bom-ref": "4efe4d93c13362d3",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/liblz4-1",
       "hashes": [
@@ -21899,7 +21899,7 @@
       ]
     },
     {
-      "bom-ref": "282d9bc2423ece05",
+      "bom-ref": "dfe5d695d3181ade",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/liblzma5",
       "hashes": [
@@ -21914,7 +21914,7 @@
       ]
     },
     {
-      "bom-ref": "4efcd2b33daa8825",
+      "bom-ref": "94012c2351bab8a6",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libnettle8",
       "hashes": [
@@ -21929,7 +21929,7 @@
       ]
     },
     {
-      "bom-ref": "476995a979c8deea",
+      "bom-ref": "58fe2e05bcde3a79",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libnghttp2-14",
       "hashes": [
@@ -21944,7 +21944,7 @@
       ]
     },
     {
-      "bom-ref": "92a789857137bfe2",
+      "bom-ref": "60144bfeb973195d",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libp11-kit0",
       "hashes": [
@@ -21959,7 +21959,7 @@
       ]
     },
     {
-      "bom-ref": "04780d83dd5a36fa",
+      "bom-ref": "1692c87758fb3af9",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libpq5",
       "hashes": [
@@ -21974,7 +21974,7 @@
       ]
     },
     {
-      "bom-ref": "e46cb72d5433bfd9",
+      "bom-ref": "2077da3494f143a2",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libpsl5",
       "hashes": [
@@ -21989,7 +21989,7 @@
       ]
     },
     {
-      "bom-ref": "5bd521bf126f01fc",
+      "bom-ref": "8ddba6cdc573f5bb",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/librtmp1",
       "hashes": [
@@ -22004,7 +22004,7 @@
       ]
     },
     {
-      "bom-ref": "1a7530b01f331949",
+      "bom-ref": "cfc6f41d9478bb86",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libsasl2-2",
       "hashes": [
@@ -22019,7 +22019,7 @@
       ]
     },
     {
-      "bom-ref": "1294151432934e81",
+      "bom-ref": "812fc5f2473ce20e",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libssh2-1",
       "hashes": [
@@ -22034,7 +22034,7 @@
       ]
     },
     {
-      "bom-ref": "a368a379a838900f",
+      "bom-ref": "6a5e55c3a5448764",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libssl3",
       "hashes": [
@@ -22049,7 +22049,7 @@
       ]
     },
     {
-      "bom-ref": "685581545a4cf229",
+      "bom-ref": "7f45fa5c5f33c906",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libsystemd0",
       "hashes": [
@@ -22064,7 +22064,7 @@
       ]
     },
     {
-      "bom-ref": "3422acf6a16c5c81",
+      "bom-ref": "683901e8ba8b41b2",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libtasn1-6",
       "hashes": [
@@ -22079,7 +22079,7 @@
       ]
     },
     {
-      "bom-ref": "562009c5f8d58b6c",
+      "bom-ref": "e151056c6ea733b7",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libunistring2",
       "hashes": [
@@ -22094,7 +22094,7 @@
       ]
     },
     {
-      "bom-ref": "4b8b26506584f763",
+      "bom-ref": "0e2f92aeac705c9c",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libyaml-0-2",
       "hashes": [
@@ -22109,7 +22109,7 @@
       ]
     },
     {
-      "bom-ref": "6d792a88767f2ca5",
+      "bom-ref": "5ab640ee03da1276",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libzstd1",
       "hashes": [
@@ -22124,7 +22124,7 @@
       ]
     },
     {
-      "bom-ref": "8f5bc71d2bd3ad2b",
+      "bom-ref": "b435671983fdc6c4",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/pkg-config",
       "hashes": [
@@ -22139,7 +22139,7 @@
       ]
     },
     {
-      "bom-ref": "21bbbbfaec1b4ddf",
+      "bom-ref": "0c49b0a496a8e808",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/zlib1g",
       "hashes": [
@@ -22154,17 +22154,17 @@
       ]
     },
     {
-      "bom-ref": "a9aba4d158bae5f0",
+      "bom-ref": "aaf43e77d4b153d9",
       "type": "file",
       "name": "/fluent-bit/bin/fluent-bit",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "ec10d79f75e43733c43158d8c8db217fe23811cb"
+          "content": "625738d4e6f8199af5da53f6ea3d84e10a3a2e50"
         },
         {
           "alg": "SHA-256",
-          "content": "1a1306331165726525087e3ad9d007da49c714b4dd0dc9567a48b26d043a5c20"
+          "content": "fc3138235da44a8f2d44a57be3161042163098dce7f657c002bd001506f5b5cb"
         }
       ]
     }
@@ -22245,7 +22245,7 @@
       ]
     },
     {
-      "ref": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u4?arch=amd64&distro=debian-12&package-id=323290daf0bb11df&upstream=gnutls28",
+      "ref": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u5?arch=amd64&distro=debian-12&package-id=5458fd103c1e4fd3&upstream=gnutls28",
       "dependsOn": [
         "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&package-id=c924a822eab59d9a&upstream=glibc",
         "pkg:deb/debian/libgmp10@2%3A6.2.1%2Bdfsg1-1.1?arch=amd64&distro=debian-12&package-id=f6d1dead66cdc801&upstream=gmp",
@@ -22329,7 +22329,7 @@
       "ref": "pkg:deb/debian/libldap-2.5-0@2.5.13%2Bdfsg-5?arch=amd64&distro=debian-12&package-id=919a44d8cbaa32e2&upstream=openldap",
       "dependsOn": [
         "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&package-id=c924a822eab59d9a&upstream=glibc",
-        "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u4?arch=amd64&distro=debian-12&package-id=323290daf0bb11df&upstream=gnutls28",
+        "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u5?arch=amd64&distro=debian-12&package-id=5458fd103c1e4fd3&upstream=gnutls28",
         "pkg:deb/debian/libsasl2-2@2.1.28%2Bdfsg-10?arch=amd64&distro=debian-12&package-id=76e875c485ac6ca4&upstream=cyrus-sasl2"
       ]
     },
@@ -22386,7 +22386,7 @@
       "dependsOn": [
         "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&package-id=c924a822eab59d9a&upstream=glibc",
         "pkg:deb/debian/libgmp10@2%3A6.2.1%2Bdfsg1-1.1?arch=amd64&distro=debian-12&package-id=f6d1dead66cdc801&upstream=gmp",
-        "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u4?arch=amd64&distro=debian-12&package-id=323290daf0bb11df&upstream=gnutls28",
+        "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u5?arch=amd64&distro=debian-12&package-id=5458fd103c1e4fd3&upstream=gnutls28",
         "pkg:deb/debian/libhogweed6@3.8.1-2?arch=amd64&distro=debian-12&package-id=9534d60a97673a0b&upstream=nettle",
         "pkg:deb/debian/libnettle8@3.8.1-2?arch=amd64&distro=debian-12&package-id=22ee1f32510608b7&upstream=nettle",
         "pkg:deb/debian/zlib1g@1%3A1.2.13.dfsg-1?arch=amd64&distro=debian-12&package-id=ca40227a4415e447&upstream=zlib"

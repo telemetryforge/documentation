@@ -3,14 +3,14 @@
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
   "name": "ghcr.io/fluent/fluent-bit",
-  "documentNamespace": "https://anchore.com/syft/image/ghcr.io/fluent/fluent-bit-ae1a78a3-f800-4751-9115-52be4ff5a0fc",
+  "documentNamespace": "https://anchore.com/syft/image/ghcr.io/fluent/fluent-bit-66e7f10b-60cb-4423-9901-46ddbd230a4c",
   "creationInfo": {
     "licenseListVersion": "3.27",
     "creators": [
       "Organization: Anchore, Inc",
       "Tool: syft-1.32.0"
     ],
-    "created": "2025-09-04T13:28:04Z"
+    "created": "2025-09-04T13:34:11Z"
   },
   "packages": [
     {
@@ -68,8 +68,8 @@
     },
     {
       "name": "ca-certificates",
-      "SPDXID": "SPDXRef-Package-deb-ca-certificates-1ba1320ed6937584",
-      "versionInfo": "20230311",
+      "SPDXID": "SPDXRef-Package-deb-ca-certificates-fc9f32d36e0ec03a",
+      "versionInfo": "20230311+deb12u1",
       "supplier": "Person: Julien Cristau (jcristau@debian.org)",
       "originator": "Person: Julien Cristau (jcristau@debian.org)",
       "downloadLocation": "NOASSERTION",
@@ -82,44 +82,44 @@
         {
           "referenceCategory": "SECURITY",
           "referenceType": "cpe23Type",
-          "referenceLocator": "cpe:2.3:a:ca-certificates:ca-certificates:20230311:*:*:*:*:*:*:*"
+          "referenceLocator": "cpe:2.3:a:ca-certificates:ca-certificates:20230311\\+deb12u1:*:*:*:*:*:*:*"
         },
         {
           "referenceCategory": "SECURITY",
           "referenceType": "cpe23Type",
-          "referenceLocator": "cpe:2.3:a:ca-certificates:ca_certificates:20230311:*:*:*:*:*:*:*"
+          "referenceLocator": "cpe:2.3:a:ca-certificates:ca_certificates:20230311\\+deb12u1:*:*:*:*:*:*:*"
         },
         {
           "referenceCategory": "SECURITY",
           "referenceType": "cpe23Type",
-          "referenceLocator": "cpe:2.3:a:ca_certificates:ca-certificates:20230311:*:*:*:*:*:*:*"
+          "referenceLocator": "cpe:2.3:a:ca_certificates:ca-certificates:20230311\\+deb12u1:*:*:*:*:*:*:*"
         },
         {
           "referenceCategory": "SECURITY",
           "referenceType": "cpe23Type",
-          "referenceLocator": "cpe:2.3:a:ca_certificates:ca_certificates:20230311:*:*:*:*:*:*:*"
+          "referenceLocator": "cpe:2.3:a:ca_certificates:ca_certificates:20230311\\+deb12u1:*:*:*:*:*:*:*"
         },
         {
           "referenceCategory": "SECURITY",
           "referenceType": "cpe23Type",
-          "referenceLocator": "cpe:2.3:a:ca:ca-certificates:20230311:*:*:*:*:*:*:*"
+          "referenceLocator": "cpe:2.3:a:ca:ca-certificates:20230311\\+deb12u1:*:*:*:*:*:*:*"
         },
         {
           "referenceCategory": "SECURITY",
           "referenceType": "cpe23Type",
-          "referenceLocator": "cpe:2.3:a:ca:ca_certificates:20230311:*:*:*:*:*:*:*"
+          "referenceLocator": "cpe:2.3:a:ca:ca_certificates:20230311\\+deb12u1:*:*:*:*:*:*:*"
         },
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceType": "purl",
-          "referenceLocator": "pkg:deb/debian/ca-certificates@20230311?arch=all&distro=debian-12"
+          "referenceLocator": "pkg:deb/debian/ca-certificates@20230311%2Bdeb12u1?arch=all&distro=debian-12"
         }
       ]
     },
     {
       "name": "fluent-bit",
-      "SPDXID": "SPDXRef-Package-binary-fluent-bit-4a91e02ef47904f6",
-      "versionInfo": "4.0.3",
+      "SPDXID": "SPDXRef-Package-binary-fluent-bit-0b4dc2620c0fb58e",
+      "versionInfo": "4.0.5",
       "supplier": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
@@ -131,12 +131,12 @@
         {
           "referenceCategory": "SECURITY",
           "referenceType": "cpe23Type",
-          "referenceLocator": "cpe:2.3:a:treasuredata:fluent_bit:4.0.3:*:*:*:*:*:*:*"
+          "referenceLocator": "cpe:2.3:a:treasuredata:fluent_bit:4.0.5:*:*:*:*:*:*:*"
         },
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceType": "purl",
-          "referenceLocator": "pkg:github/fluent/fluent-bit@4.0.3"
+          "referenceLocator": "pkg:github/fluent/fluent-bit@4.0.5"
         }
       ]
     },
@@ -514,8 +514,8 @@
     },
     {
       "name": "libgnutls30",
-      "SPDXID": "SPDXRef-Package-deb-libgnutls30-323290daf0bb11df",
-      "versionInfo": "3.7.9-2+deb12u4",
+      "SPDXID": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
+      "versionInfo": "3.7.9-2+deb12u5",
       "supplier": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
@@ -527,12 +527,12 @@
         {
           "referenceCategory": "SECURITY",
           "referenceType": "cpe23Type",
-          "referenceLocator": "cpe:2.3:a:libgnutls30:libgnutls30:3.7.9-2\\+deb12u4:*:*:*:*:*:*:*"
+          "referenceLocator": "cpe:2.3:a:libgnutls30:libgnutls30:3.7.9-2\\+deb12u5:*:*:*:*:*:*:*"
         },
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceType": "purl",
-          "referenceLocator": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u4?arch=amd64&distro=debian-12&upstream=gnutls28"
+          "referenceLocator": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u5?arch=amd64&distro=debian-12&upstream=gnutls28"
         }
       ]
     },
@@ -1378,8 +1378,8 @@
     },
     {
       "name": "libsystemd0",
-      "SPDXID": "SPDXRef-Package-deb-libsystemd0-ac76f985fe0fef44",
-      "versionInfo": "254.22-1~bpo12+1",
+      "SPDXID": "SPDXRef-Package-deb-libsystemd0-a48fdf88485dfed0",
+      "versionInfo": "254.26-1~bpo12+1",
       "supplier": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
@@ -1391,12 +1391,12 @@
         {
           "referenceCategory": "SECURITY",
           "referenceType": "cpe23Type",
-          "referenceLocator": "cpe:2.3:a:libsystemd0:libsystemd0:254.22-1\\~bpo12\\+1:*:*:*:*:*:*:*"
+          "referenceLocator": "cpe:2.3:a:libsystemd0:libsystemd0:254.26-1\\~bpo12\\+1:*:*:*:*:*:*:*"
         },
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceType": "purl",
-          "referenceLocator": "pkg:deb/debian/libsystemd0@254.22-1~bpo12%2B1?arch=amd64&distro=debian-12&upstream=systemd"
+          "referenceLocator": "pkg:deb/debian/libsystemd0@254.26-1~bpo12%2B1?arch=amd64&distro=debian-12&upstream=systemd"
         }
       ]
     },
@@ -1648,8 +1648,8 @@
     },
     {
       "name": "systemd",
-      "SPDXID": "SPDXRef-Package-deb-systemd-3238f47753cffa25",
-      "versionInfo": "254.22-1~bpo12+1",
+      "SPDXID": "SPDXRef-Package-deb-systemd-fbdf5e39d3c6b8fd",
+      "versionInfo": "254.26-1~bpo12+1",
       "supplier": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
@@ -1661,12 +1661,12 @@
         {
           "referenceCategory": "SECURITY",
           "referenceType": "cpe23Type",
-          "referenceLocator": "cpe:2.3:a:systemd:systemd:254.22-1\\~bpo12\\+1:*:*:*:*:*:*:*"
+          "referenceLocator": "cpe:2.3:a:systemd:systemd:254.26-1\\~bpo12\\+1:*:*:*:*:*:*:*"
         },
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceType": "purl",
-          "referenceLocator": "pkg:deb/systemd@254.22-1~bpo12%2B1"
+          "referenceLocator": "pkg:deb/systemd@254.26-1~bpo12%2B1"
         }
       ]
     },
@@ -1725,14 +1725,14 @@
     {
       "name": "ghcr.io/fluent/fluent-bit",
       "SPDXID": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "versionInfo": "4.0.3",
+      "versionInfo": "4.0.5",
       "supplier": "NOASSERTION",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "de9265ae9c60e129b3c67f4a23ba3b6e7d00c65b21aef6adb246ecbeff490edc"
+          "checksumValue": "4bdba739a28338584f4c34b6cb5f71c7d066af5f0ba25ce2b258b14fe350d238"
         }
       ],
       "licenseConcluded": "NOASSERTION",
@@ -1742,7 +1742,7 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceType": "purl",
-          "referenceLocator": "pkg:oci/ghcr.io%2Ffluent%2Ffluent-bit@sha256%3Ade9265ae9c60e129b3c67f4a23ba3b6e7d00c65b21aef6adb246ecbeff490edc?arch=amd64&tag=4.0.3"
+          "referenceLocator": "pkg:oci/ghcr.io%2Ffluent%2Ffluent-bit@sha256%3A4bdba739a28338584f4c34b6cb5f71c7d066af5f0ba25ce2b258b14fe350d238?arch=amd64&tag=4.0.5"
         }
       ],
       "primaryPackagePurpose": "CONTAINER"
@@ -1751,7 +1751,7 @@
   "files": [
     {
       "fileName": "fluent-bit/bin/fluent-bit",
-      "SPDXID": "SPDXRef-File-fluent-bit-bin-fluent-bit-19f1f2531baf7987",
+      "SPDXID": "SPDXRef-File-fluent-bit-bin-fluent-bit-aaf43e77d4b153d9",
       "fileTypes": [
         "APPLICATION",
         "BINARY"
@@ -1759,11 +1759,11 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "cfb17d22f1b02457abe0ea193773d2fed1952eb8"
+          "checksumValue": "625738d4e6f8199af5da53f6ea3d84e10a3a2e50"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "2f9b960664962a7648ad411a0435d4dae384886385a9421189366e9adac74de0"
+          "checksumValue": "fc3138235da44a8f2d44a57be3161042163098dce7f657c002bd001506f5b5cb"
         }
       ],
       "licenseConcluded": "NOASSERTION",
@@ -1771,7 +1771,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:898af578770d19ceb6c408bc72724ec61e690dfa18e56dea99bcd77e549296fe"
+      "comment": "layerID: sha256:1ae57ae677bae63479d9a00d7d3a0400e1a361f66b1afb20f917df29c042a77f"
     },
     {
       "fileName": "lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
@@ -1895,7 +1895,7 @@
     },
     {
       "fileName": "lib/x86_64-linux-gnu/libcap.so.2.66",
-      "SPDXID": "SPDXRef-File-lib-x86-64-linux-gnu-libcap.so.2.66-e64a6e33298cc695",
+      "SPDXID": "SPDXRef-File-lib-x86-64-linux-gnu-libcap.so.2.66-3a68e229a1c20ece",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -1907,11 +1907,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "lib/x86_64-linux-gnu/libcom_err.so.2.1",
-      "SPDXID": "SPDXRef-File-lib-x86-64-linux-gnu-libcom-err.so.2.1-4323e798775506ef",
+      "SPDXID": "SPDXRef-File-lib-x86-64-linux-gnu-libcom-err.so.2.1-0f366488e3dc3354",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -1923,7 +1923,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "lib/x86_64-linux-gnu/libdl.so.2",
@@ -1975,7 +1975,7 @@
     },
     {
       "fileName": "lib/x86_64-linux-gnu/libgpg-error.so.0.33.1",
-      "SPDXID": "SPDXRef-File-...libgpg-error.so.0.33.1-efc297f2e82530cd",
+      "SPDXID": "SPDXRef-File-...libgpg-error.so.0.33.1-76949c62f698050e",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -1987,11 +1987,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "lib/x86_64-linux-gnu/libkeyutils.so.1.10",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libkeyutils.so.1.10-bf3fe647bdfb2028",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libkeyutils.so.1.10-ce07b4d21ec1df4b",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -2003,11 +2003,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "lib/x86_64-linux-gnu/liblzma.so.5.4.1",
-      "SPDXID": "SPDXRef-File-lib-x86-64-linux-gnu-liblzma.so.5.4.1-d8689613c7b2e98a",
+      "SPDXID": "SPDXRef-File-lib-x86-64-linux-gnu-liblzma.so.5.4.1-9d4cbc948cb53b01",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -2019,7 +2019,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "lib/x86_64-linux-gnu/libm.so.6",
@@ -2239,7 +2239,7 @@
     },
     {
       "fileName": "lib/x86_64-linux-gnu/libpsx.so.2.66",
-      "SPDXID": "SPDXRef-File-lib-x86-64-linux-gnu-libpsx.so.2.66-e57d9a6ccab3a3ad",
+      "SPDXID": "SPDXRef-File-lib-x86-64-linux-gnu-libpsx.so.2.66-1ee2a64e5171d06a",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -2251,7 +2251,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "lib/x86_64-linux-gnu/libpthread.so.0",
@@ -2375,7 +2375,7 @@
     },
     {
       "fileName": "lib/x86_64-linux-gnu/libz.so.1.2.13",
-      "SPDXID": "SPDXRef-File-lib-x86-64-linux-gnu-libz.so.1.2.13-678dee1e77b11a5b",
+      "SPDXID": "SPDXRef-File-lib-x86-64-linux-gnu-libz.so.1.2.13-004055cd7bd7d2f0",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -2387,7 +2387,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/os-release",
@@ -8627,7 +8627,7 @@
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/krb5/plugins/preauth/spake.so",
-      "SPDXID": "SPDXRef-File-...krb5-plugins-preauth-spake.so-e4a085aab158f2fa",
+      "SPDXID": "SPDXRef-File-...krb5-plugins-preauth-spake.so-099d7a70377aa039",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8639,11 +8639,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libatomic.so.1.2.0",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libatomic.so.1.2.0-2635a08402af9e30",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libatomic.so.1.2.0-4f574f850808c2cf",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8655,11 +8655,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9",
-      "SPDXID": "SPDXRef-File-...libbrotlicommon.so.1.0.9-677ef6f7f4d2144c",
+      "SPDXID": "SPDXRef-File-...libbrotlicommon.so.1.0.9-71acb653253c0a5b",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8671,11 +8671,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libbrotlidec.so.1.0.9-ef4f42ffbfbdccdd",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libbrotlidec.so.1.0.9-36738e259784a3f6",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8687,11 +8687,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libbrotlienc.so.1.0.9",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libbrotlienc.so.1.0.9-3840500b5ee05771",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libbrotlienc.so.1.0.9-7ca7d562d0268e5e",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8703,7 +8703,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libcrypto.so.3",
@@ -8731,7 +8731,7 @@
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libcurl.so.4.8.0",
-      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libcurl.so.4.8.0-d9a27415ea586e90",
+      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libcurl.so.4.8.0-323df58456de9d1f",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8743,11 +8743,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libffi.so.8.1.2",
-      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libffi.so.8.1.2-5f72f45559bf9260",
+      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libffi.so.8.1.2-6a822be485dae177",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8759,11 +8759,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.1",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libgcrypt.so.20.4.1-ffca0ac47e9ec73b",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libgcrypt.so.20.4.1-61286cd15f9e5c7c",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8775,11 +8775,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libgmp.so.10.4.1",
-      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libgmp.so.10.4.1-6ff5705a9968a10e",
+      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libgmp.so.10.4.1-c82de5f89ae8aa95",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8791,11 +8791,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libgnutls.so.30.34.3",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libgnutls.so.30.34.3-767472411343b4d3",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libgnutls.so.30.34.3-e586aa382cc00a30",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8807,7 +8807,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0",
@@ -8835,7 +8835,7 @@
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libgssapi-krb5.so.2.2-9b2c848b233f829f",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libgssapi-krb5.so.2.2-3ceecc080822a2b4",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8847,11 +8847,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libhogweed.so.6.6",
-      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libhogweed.so.6.6-8608d192eeae6b9b",
+      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libhogweed.so.6.6-eccdf3cdbe9aa3f8",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8863,11 +8863,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libidn2.so.0.3.8",
-      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libidn2.so.0.3.8-e629927866d3167b",
+      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libidn2.so.0.3.8-4b19accd5b14e29c",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8879,11 +8879,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libk5crypto.so.3.1-0618a2ef9bf9fe6f",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libk5crypto.so.3.1-0a0937b2d6680714",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8895,11 +8895,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libkrb5.so.3.3",
-      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libkrb5.so.3.3-b37d98249e87c680",
+      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libkrb5.so.3.3-f96ba401ca09348b",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8911,11 +8911,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libkrb5support.so.0.1-c62f268a3f622047",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libkrb5support.so.0.1-c83617984df4282c",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8927,11 +8927,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/liblber-2.5.so.0.1.8",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-liblber-2.5.so.0.1.8-12b2c6f8688320a0",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-liblber-2.5.so.0.1.8-993c9a025fa34f5b",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8943,11 +8943,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libldap-2.5.so.0.1.8",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libldap-2.5.so.0.1.8-453330ae70c5d268",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libldap-2.5.so.0.1.8-17d323c5b37588db",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8959,11 +8959,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4",
-      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-liblz4.so.1.9.4-850d2c083a0d14b3",
+      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-liblz4.so.1.9.4-0c49247568f26548",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8975,11 +8975,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libnettle.so.8.6",
-      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libnettle.so.8.6-2cd61e4b4d13a191",
+      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libnettle.so.8.6-7bcba1258c5cc55a",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -8991,11 +8991,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libnghttp2.so.14.24.1",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libnghttp2.so.14.24.1-c855a464e9873247",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libnghttp2.so.14.24.1-f18705b49ee083f4",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -9007,11 +9007,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.0",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libp11-kit.so.0.3.0-3954c9acdf3b590a",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libp11-kit.so.0.3.0-a50a2bc302686659",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -9023,11 +9023,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libpq.so.5.15",
-      "SPDXID": "SPDXRef-File-usr-lib-x86-64-linux-gnu-libpq.so.5.15-4fb344c1c5ebb024",
+      "SPDXID": "SPDXRef-File-usr-lib-x86-64-linux-gnu-libpq.so.5.15-8a7cb0358b035773",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -9039,11 +9039,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libpsl.so.5.3.4",
-      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libpsl.so.5.3.4-2675bf6d270b0553",
+      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libpsl.so.5.3.4-8aa455fb20fae7a8",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -9055,11 +9055,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/librtmp.so.1",
-      "SPDXID": "SPDXRef-File-usr-lib-x86-64-linux-gnu-librtmp.so.1-755fbb9e82761783",
+      "SPDXID": "SPDXRef-File-usr-lib-x86-64-linux-gnu-librtmp.so.1-dc5de33f73104d84",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -9071,11 +9071,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libsasl2.so.2.0.25-59a7a7b6667381d6",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libsasl2.so.2.0.25-58481425fd3b4669",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -9087,11 +9087,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libssh2.so.1.0.1",
-      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libssh2.so.1.0.1-d3b4bdc0f21f910d",
+      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libssh2.so.1.0.1-a7b62cbeac76bde2",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -9103,7 +9103,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libssl.so.3",
@@ -9155,7 +9155,7 @@
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libsystemd.so.0.37.0",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libsystemd.so.0.37.0-7d7073502f65b1ae",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libsystemd.so.0.37.0-9da2029c39dd9f31",
       "fileTypes": [
         "APPLICATION",
         "BINARY"
@@ -9163,11 +9163,11 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "b72b1020520fb14aaf634b2e6c83932bcc6e8dce"
+          "checksumValue": "c9104b26f1e9c3beff642dba70cd6fe9d01667b7"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "dc40966765090c74805f0f11e1e13152ac5ae5a65ab014e98ec0919085398254"
+          "checksumValue": "10668427d5aaa7ed4f54045a1b28513b859fc881f072c4bf0087a71a37ee6fd6"
         }
       ],
       "licenseConcluded": "NOASSERTION",
@@ -9175,11 +9175,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.3",
-      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libtasn1.so.6.6.3-4c38fa5a788baa87",
+      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libtasn1.so.6.6.3-a110fa19a578edd8",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -9191,11 +9191,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libunistring.so.2.2.0",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libunistring.so.2.2.0-1e0fa08bc35dead0",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libunistring.so.2.2.0-d7c4430f970e8b2b",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -9207,11 +9207,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.9",
-      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libyaml-0.so.2.0.9-c0a7282aabd729c6",
+      "SPDXID": "SPDXRef-File-...x86-64-linux-gnu-libyaml-0.so.2.0.9-b1b9192a4e8e036d",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -9223,11 +9223,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/libzstd.so.1.5.4",
-      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libzstd.so.1.5.4-25ef88aeafa0bd98",
+      "SPDXID": "SPDXRef-File-...lib-x86-64-linux-gnu-libzstd.so.1.5.4-a840fe6a8afe8f47",
       "checksums": [
         {
           "algorithm": "SHA1",
@@ -9239,7 +9239,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "usr/lib/x86_64-linux-gnu/ossl-modules/legacy.so",
@@ -9866,7 +9866,7 @@
     },
     {
       "fileName": "usr/share/doc/ca-certificates/copyright",
-      "SPDXID": "SPDXRef-File-...share-doc-ca-certificates-copyright-7bdb890c8b5fb309",
+      "SPDXID": "SPDXRef-File-...share-doc-ca-certificates-copyright-5e075c0fd077508d",
       "fileTypes": [
         "TEXT"
       ],
@@ -9885,7 +9885,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:b336e209998fa5cf0eec3dabf93a21194198a35f4f75612d8da03693f8c30217"
+      "comment": "layerID: sha256:bfe9137a1b044e8097cdfcb6899137a8a984ed70931ed1e8ef0cf7e023a139fc"
     },
     {
       "fileName": "usr/share/doc/gcc-12-base/README.Debian.amd64.gz",
@@ -31315,18 +31315,18 @@
     },
     {
       "fileName": "var/lib/dpkg/status.d/ca-certificates",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-ca-certificates-6dc75c8b0f48a770",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-ca-certificates-bd2154b4401b30f3",
       "fileTypes": [
         "TEXT"
       ],
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "5a428c3a03284770953769803fa15cd5fc6bc65e"
+          "checksumValue": "bdd7e36be82fbebcce93ac17751621ca4106a195"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "1e7e2d650e1aa33e18d2ce2c5a6415bac50ff5eb07321a3fc68dd71e309f86e3"
+          "checksumValue": "ee4ef87b107ee974e9d010e31d5e5985350284cc95b30a1cd3badbc47c9cef14"
         }
       ],
       "licenseConcluded": "NOASSERTION",
@@ -31334,7 +31334,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/gcc-12-base",
@@ -31384,7 +31384,7 @@
     },
     {
       "fileName": "var/lib/dpkg/status.d/libatomic1",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libatomic1-b06f63a282f1dd1a",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libatomic1-9aec276cfe092761",
       "fileTypes": [
         "TEXT"
       ],
@@ -31403,11 +31403,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libbrotli1",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libbrotli1-a5478161abe8b680",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libbrotli1-31342617513b62c3",
       "fileTypes": [
         "TEXT"
       ],
@@ -31426,7 +31426,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libc6",
@@ -31476,7 +31476,7 @@
     },
     {
       "fileName": "var/lib/dpkg/status.d/libcap2",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libcap2-f1bcddcca46df26d",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libcap2-80c02bc52f85e696",
       "fileTypes": [
         "TEXT"
       ],
@@ -31495,11 +31495,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libcom-err2",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libcom-err2-f92fe063c67f7edc",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libcom-err2-35f1d6f0298928db",
       "fileTypes": [
         "TEXT"
       ],
@@ -31518,11 +31518,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libcurl4",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libcurl4-4ba8cc5f83515c7f",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libcurl4-328a6113d9c50adc",
       "fileTypes": [
         "TEXT"
       ],
@@ -31541,11 +31541,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libffi8",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libffi8-6eeb2a663293703a",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libffi8-277a2d9639ccd975",
       "fileTypes": [
         "TEXT"
       ],
@@ -31564,7 +31564,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libgcc-s1",
@@ -31614,7 +31614,7 @@
     },
     {
       "fileName": "var/lib/dpkg/status.d/libgcrypt20",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libgcrypt20-e625bb0f4f836cb3",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libgcrypt20-e97ac58d25c9b92c",
       "fileTypes": [
         "TEXT"
       ],
@@ -31633,11 +31633,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libgmp10",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libgmp10-933f168c1ec4daef",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libgmp10-a99408b08281ebd0",
       "fileTypes": [
         "TEXT"
       ],
@@ -31656,22 +31656,22 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libgnutls30",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libgnutls30-1975fe0413dd6f78",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libgnutls30-7283afa08d8118b3",
       "fileTypes": [
         "TEXT"
       ],
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "7b7f9aaefdf3578cff9fc681cff70c6db448af71"
+          "checksumValue": "81d591df625e40d95e1f4717667c58b6ff46b926"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "d2cfd71563cc0c93d81a72b8db52697f602bf9c73c0fa44f9fb9a128ebc0ebb6"
+          "checksumValue": "2921af993fd8346f45ecf40eb1f0eac5a80d4acb6813b4026ac8814f7400053a"
         }
       ],
       "licenseConcluded": "NOASSERTION",
@@ -31679,7 +31679,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libgomp1",
@@ -31729,7 +31729,7 @@
     },
     {
       "fileName": "var/lib/dpkg/status.d/libgpg-error0",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libgpg-error0-eb2086045f926ad7",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libgpg-error0-65fb551e288a1c84",
       "fileTypes": [
         "TEXT"
       ],
@@ -31748,11 +31748,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libgssapi-krb5-2",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libgssapi-krb5-2-2438d851ae36c6fb",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libgssapi-krb5-2-6073b5b47fb607e4",
       "fileTypes": [
         "TEXT"
       ],
@@ -31771,11 +31771,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libhogweed6",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libhogweed6-8091cf281ee46883",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libhogweed6-b598ff4220abb64c",
       "fileTypes": [
         "TEXT"
       ],
@@ -31794,11 +31794,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libidn2-0",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libidn2-0-953199dae8a65b17",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libidn2-0-5279b009c8226644",
       "fileTypes": [
         "TEXT"
       ],
@@ -31817,11 +31817,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libk5crypto3",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libk5crypto3-fe2b9642de4f76c8",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libk5crypto3-aeec8730ae3b740b",
       "fileTypes": [
         "TEXT"
       ],
@@ -31840,11 +31840,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libkeyutils1",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libkeyutils1-9ca43dc22609dba9",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libkeyutils1-3c01e9340ecea8f6",
       "fileTypes": [
         "TEXT"
       ],
@@ -31863,11 +31863,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libkrb5-3",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libkrb5-3-4ba59832dd890354",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libkrb5-3-7ca4af7c6f2b1033",
       "fileTypes": [
         "TEXT"
       ],
@@ -31886,11 +31886,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libkrb5support0",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libkrb5support0-7aef946bbc7947aa",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libkrb5support0-cd6149d8d3f45911",
       "fileTypes": [
         "TEXT"
       ],
@@ -31909,11 +31909,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libldap-2.5-0",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libldap-2.5-0-83fc07cfa3c79b72",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libldap-2.5-0-b9c119848baa654d",
       "fileTypes": [
         "TEXT"
       ],
@@ -31932,11 +31932,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/liblz4-1",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-liblz4-1-0d7442aacd698a48",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-liblz4-1-4efe4d93c13362d3",
       "fileTypes": [
         "TEXT"
       ],
@@ -31955,11 +31955,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/liblzma5",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-liblzma5-c77608095a7d2905",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-liblzma5-dfe5d695d3181ade",
       "fileTypes": [
         "TEXT"
       ],
@@ -31978,11 +31978,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libnettle8",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libnettle8-f2011da9e3d983c1",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libnettle8-94012c2351bab8a6",
       "fileTypes": [
         "TEXT"
       ],
@@ -32001,11 +32001,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libnghttp2-14",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libnghttp2-14-633a203d9117d872",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libnghttp2-14-58fe2e05bcde3a79",
       "fileTypes": [
         "TEXT"
       ],
@@ -32024,11 +32024,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libp11-kit0",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libp11-kit0-850136ab897ed5d6",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libp11-kit0-60144bfeb973195d",
       "fileTypes": [
         "TEXT"
       ],
@@ -32047,11 +32047,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libpq5",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libpq5-0e0d45167bf0223a",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libpq5-1692c87758fb3af9",
       "fileTypes": [
         "TEXT"
       ],
@@ -32070,11 +32070,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libpsl5",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libpsl5-8e7c3d0db2002dc5",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libpsl5-2077da3494f143a2",
       "fileTypes": [
         "TEXT"
       ],
@@ -32093,11 +32093,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/librtmp1",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-librtmp1-ae6931823a878cb0",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-librtmp1-8ddba6cdc573f5bb",
       "fileTypes": [
         "TEXT"
       ],
@@ -32116,11 +32116,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libsasl2-2",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libsasl2-2-e9187d034e296c25",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libsasl2-2-cfc6f41d9478bb86",
       "fileTypes": [
         "TEXT"
       ],
@@ -32139,11 +32139,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libssh2-1",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libssh2-1-6de227ca4e59551d",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libssh2-1-812fc5f2473ce20e",
       "fileTypes": [
         "TEXT"
       ],
@@ -32162,11 +32162,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libssl3",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libssl3-188c51503a7fd8f7",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libssl3-6a5e55c3a5448764",
       "fileTypes": [
         "TEXT"
       ],
@@ -32185,7 +32185,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libssl3.md5sums",
@@ -32258,18 +32258,18 @@
     },
     {
       "fileName": "var/lib/dpkg/status.d/libsystemd0",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libsystemd0-11f4f6b2da2a3ad1",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libsystemd0-7f45fa5c5f33c906",
       "fileTypes": [
         "TEXT"
       ],
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "c7928c8e40e888a84ff52d76ad2cd1dc71f1320a"
+          "checksumValue": "e5b26665f6dc7e58c8e152a8a94d11b954216e6a"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "620470749eb4cb9a1a4e5201757f6144a8748cdf15afb255ea8afc38e78ed21b"
+          "checksumValue": "796273224d97bf93c8333d33696031ceb730a4f12d57a6866a928c95d3bacc1e"
         }
       ],
       "licenseConcluded": "NOASSERTION",
@@ -32277,11 +32277,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libtasn1-6",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libtasn1-6-3aa4f97f18ac1ff1",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libtasn1-6-683901e8ba8b41b2",
       "fileTypes": [
         "TEXT"
       ],
@@ -32300,11 +32300,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libunistring2",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libunistring2-4c8dc6147e99e460",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libunistring2-e151056c6ea733b7",
       "fileTypes": [
         "TEXT"
       ],
@@ -32323,11 +32323,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libyaml-0-2",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libyaml-0-2-ab5e69852ea86463",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libyaml-0-2-0e2f92aeac705c9c",
       "fileTypes": [
         "TEXT"
       ],
@@ -32346,11 +32346,11 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/libzstd1",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libzstd1-c58bdafd7cba3a3d",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-libzstd1-5ab640ee03da1276",
       "fileTypes": [
         "TEXT"
       ],
@@ -32369,7 +32369,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/netbase",
@@ -32419,7 +32419,7 @@
     },
     {
       "fileName": "var/lib/dpkg/status.d/pkg-config",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-pkg-config-349b85dedf063503",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-pkg-config-b435671983fdc6c4",
       "fileTypes": [
         "TEXT"
       ],
@@ -32438,7 +32438,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     },
     {
       "fileName": "var/lib/dpkg/status.d/tzdata",
@@ -32488,7 +32488,7 @@
     },
     {
       "fileName": "var/lib/dpkg/status.d/zlib1g",
-      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-zlib1g-43ef6b4a51e06493",
+      "SPDXID": "SPDXRef-File-var-lib-dpkg-status.d-zlib1g-0c49b0a496a8e808",
       "fileTypes": [
         "TEXT"
       ],
@@ -32507,7 +32507,7 @@
         "NOASSERTION"
       ],
       "copyrightText": "NOASSERTION",
-      "comment": "layerID: sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+      "comment": "layerID: sha256:2c48143b46c0c37e19b24b81b44f4c3620784ae714155891d332b1b1a59c8ca8"
     }
   ],
   "hasExtractedLicensingInfos": [
@@ -38775,12 +38775,12 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libnettle8-22ee1f32510608b7",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-323290daf0bb11df",
+      "relatedSpdxElement": "SPDXRef-Package-deb-librtmp1-4332a74a6aafcedd",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libnettle8-22ee1f32510608b7",
-      "relatedSpdxElement": "SPDXRef-Package-deb-librtmp1-4332a74a6aafcedd",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -38801,16 +38801,6 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libcom-err2-2924434014f09e00",
       "relatedSpdxElement": "SPDXRef-Package-deb-libkrb5-3-a9152735ac194d5d",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgnutls30-323290daf0bb11df",
-      "relatedSpdxElement": "SPDXRef-Package-deb-librtmp1-4332a74a6aafcedd",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgnutls30-323290daf0bb11df",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libldap-2.5-0-919a44d8cbaa32e2",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -38850,17 +38840,27 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-liblzma5-472c1368193da0b1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-ac76f985fe0fef44",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-a48fdf88485dfed0",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libtasn1-6-48b70e4d102cdd4b",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-323290daf0bb11df",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-liblz4-1-4b24c77f0499bf0c",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-ac76f985fe0fef44",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-a48fdf88485dfed0",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
+      "relatedSpdxElement": "SPDXRef-Package-deb-librtmp1-4332a74a6aafcedd",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libldap-2.5-0-919a44d8cbaa32e2",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -38875,7 +38875,7 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libidn2-0-5ab8f828207bcd0f",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-323290daf0bb11df",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -38885,7 +38885,7 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libunistring2-6a8ad0923210971a",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-323290daf0bb11df",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -38925,7 +38925,7 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libzstd1-8ebb6fc734ae3ca2",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-ac76f985fe0fef44",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-a48fdf88485dfed0",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -38940,17 +38940,17 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libhogweed6-9534d60a97673a0b",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-323290daf0bb11df",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libhogweed6-9534d60a97673a0b",
       "relatedSpdxElement": "SPDXRef-Package-deb-librtmp1-4332a74a6aafcedd",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
+      "spdxElementId": "SPDXRef-Package-deb-libhogweed6-9534d60a97673a0b",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
       "spdxElementId": "SPDXRef-Package-deb-libp11-kit0-a45a1ff230c2a77b",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-323290daf0bb11df",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -38960,7 +38960,7 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libgcrypt20-aa143951e2980797",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-ac76f985fe0fef44",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-a48fdf88485dfed0",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -39005,16 +39005,6 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libc6-c924a822eab59d9a",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-323290daf0bb11df",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-c924a822eab59d9a",
-      "relatedSpdxElement": "SPDXRef-Package-deb-systemd-3238f47753cffa25",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-c924a822eab59d9a",
       "relatedSpdxElement": "SPDXRef-Package-deb-libgssapi-krb5-2-3472c9903aced6bd",
       "relationshipType": "DEPENDENCY_OF"
     },
@@ -39046,6 +39036,11 @@
     {
       "spdxElementId": "SPDXRef-Package-deb-libc6-c924a822eab59d9a",
       "relatedSpdxElement": "SPDXRef-Package-deb-liblz4-1-4b24c77f0499bf0c",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-c924a822eab59d9a",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -39105,17 +39100,17 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libc6-c924a822eab59d9a",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-a48fdf88485dfed0",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-c924a822eab59d9a",
       "relatedSpdxElement": "SPDXRef-Package-deb-libkrb5-3-a9152735ac194d5d",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libc6-c924a822eab59d9a",
       "relatedSpdxElement": "SPDXRef-Package-deb-libgcrypt20-aa143951e2980797",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libc6-c924a822eab59d9a",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-ac76f985fe0fef44",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -39165,6 +39160,11 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libc6-c924a822eab59d9a",
+      "relatedSpdxElement": "SPDXRef-Package-deb-systemd-fbdf5e39d3c6b8fd",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libc6-c924a822eab59d9a",
       "relatedSpdxElement": "SPDXRef-Package-deb-libkeyutils1-fffb37b9240d6c2f",
       "relationshipType": "DEPENDENCY_OF"
     },
@@ -39200,17 +39200,17 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libcap2-f58b88babd1049a1",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-ac76f985fe0fef44",
-      "relationshipType": "DEPENDENCY_OF"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgmp10-f6d1dead66cdc801",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-323290daf0bb11df",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-a48fdf88485dfed0",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libgmp10-f6d1dead66cdc801",
       "relatedSpdxElement": "SPDXRef-Package-deb-librtmp1-4332a74a6aafcedd",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgmp10-f6d1dead66cdc801",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
       "relationshipType": "DEPENDENCY_OF"
     },
     {
@@ -39225,7 +39225,7 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libkrb5support0-04174b0fa1866e36",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libkrb5support0-7aef946bbc7947aa",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libkrb5support0-cd6149d8d3f45911",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39248,80 +39248,56 @@
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
+      "spdxElementId": "SPDXRef-Package-binary-fluent-bit-0b4dc2620c0fb58e",
+      "relatedSpdxElement": "SPDXRef-File-fluent-bit-bin-fluent-bit-aaf43e77d4b153d9",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
       "spdxElementId": "SPDXRef-Package-deb-libpq5-11769cd41fdc5daa",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libpq5-0e0d45167bf0223a",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-ca-certificates-1ba1320ed6937584",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-ca-certificates-6dc75c8b0f48a770",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-ca-certificates-1ba1320ed6937584",
-      "relatedSpdxElement": "SPDXRef-File-...share-doc-ca-certificates-copyright-7bdb890c8b5fb309",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libpq5-1692c87758fb3af9",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libnettle8-22ee1f32510608b7",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libnettle8-f2011da9e3d983c1",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libnettle8-94012c2351bab8a6",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libcurl4-24ac2ca249a444cf",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libcurl4-4ba8cc5f83515c7f",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libcurl4-328a6113d9c50adc",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libpsl5-26ecde7e69dbfa04",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libpsl5-8e7c3d0db2002dc5",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libpsl5-2077da3494f143a2",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libcom-err2-2924434014f09e00",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libcom-err2-f92fe063c67f7edc",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libgnutls30-323290daf0bb11df",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgnutls30-1975fe0413dd6f78",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-systemd-3238f47753cffa25",
-      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-libsystemd.so.0.37.0-7d7073502f65b1ae",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libcom-err2-35f1d6f0298928db",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libgssapi-krb5-2-3472c9903aced6bd",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgssapi-krb5-2-2438d851ae36c6fb",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgssapi-krb5-2-6073b5b47fb607e4",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libyaml-0-2-3fc6ff121848d01d",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libyaml-0-2-ab5e69852ea86463",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libyaml-0-2-0e2f92aeac705c9c",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-librtmp1-4332a74a6aafcedd",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-librtmp1-ae6931823a878cb0",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libssl3-43f3f021651a28d7",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libssl3-188c51503a7fd8f7",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-librtmp1-8ddba6cdc573f5bb",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39333,43 +39309,49 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libssl3-43f3f021651a28d7",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libssl3-6a5e55c3a5448764",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libssl3-43f3f021651a28d7",
       "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libssl3.md5sums-7436bc44dc553331",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-liblzma5-472c1368193da0b1",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-liblzma5-c77608095a7d2905",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-liblzma5-dfe5d695d3181ade",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libtasn1-6-48b70e4d102cdd4b",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libtasn1-6-3aa4f97f18ac1ff1",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-binary-fluent-bit-4a91e02ef47904f6",
-      "relatedSpdxElement": "SPDXRef-File-fluent-bit-bin-fluent-bit-19f1f2531baf7987",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libtasn1-6-683901e8ba8b41b2",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-liblz4-1-4b24c77f0499bf0c",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-liblz4-1-0d7442aacd698a48",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-liblz4-1-4efe4d93c13362d3",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgnutls30-7283afa08d8118b3",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libidn2-0-5ab8f828207bcd0f",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libidn2-0-953199dae8a65b17",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libidn2-0-5279b009c8226644",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libunistring2-6a8ad0923210971a",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libunistring2-4c8dc6147e99e460",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libunistring2-e151056c6ea733b7",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39393,37 +39375,37 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libsasl2-2-76e875c485ac6ca4",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libsasl2-2-e9187d034e296c25",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libsasl2-2-cfc6f41d9478bb86",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libnghttp2-14-7fba61587556f31d",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libnghttp2-14-633a203d9117d872",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libnghttp2-14-58fe2e05bcde3a79",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libssh2-1-8905b74027385650",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libssh2-1-6de227ca4e59551d",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libssh2-1-812fc5f2473ce20e",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libzstd1-8ebb6fc734ae3ca2",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libzstd1-c58bdafd7cba3a3d",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libzstd1-5ab640ee03da1276",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libldap-2.5-0-919a44d8cbaa32e2",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libldap-2.5-0-83fc07cfa3c79b72",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libldap-2.5-0-b9c119848baa654d",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libhogweed6-9534d60a97673a0b",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libhogweed6-8091cf281ee46883",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libhogweed6-b598ff4220abb64c",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39447,31 +39429,31 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libp11-kit0-a45a1ff230c2a77b",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libp11-kit0-850136ab897ed5d6",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libp11-kit0-60144bfeb973195d",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-libsystemd0-a48fdf88485dfed0",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libsystemd0-7f45fa5c5f33c906",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libkrb5-3-a9152735ac194d5d",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libkrb5-3-4ba59832dd890354",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libkrb5-3-7ca4af7c6f2b1033",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libgcrypt20-aa143951e2980797",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgcrypt20-e625bb0f4f836cb3",
-      "relationshipType": "OTHER",
-      "comment": "evident-by: indicates the package's existence is evident by the given file"
-    },
-    {
-      "spdxElementId": "SPDXRef-Package-deb-libsystemd0-ac76f985fe0fef44",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libsystemd0-11f4f6b2da2a3ad1",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgcrypt20-e97ac58d25c9b92c",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libgpg-error0-aefc39f8981b26da",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgpg-error0-eb2086045f926ad7",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgpg-error0-65fb551e288a1c84",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39495,7 +39477,7 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libbrotli1-c635b43528452638",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libbrotli1-a5478161abe8b680",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libbrotli1-31342617513b62c3",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39537,7 +39519,7 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-zlib1g-ca40227a4415e447",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-zlib1g-43ef6b4a51e06493",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-zlib1g-0c49b0a496a8e808",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39561,25 +39543,25 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libatomic1-d36a882b8a3ded0b",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libatomic1-b06f63a282f1dd1a",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libatomic1-9aec276cfe092761",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libk5crypto3-dc5610a2a1a5ad4f",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libk5crypto3-fe2b9642de4f76c8",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libk5crypto3-aeec8730ae3b740b",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libffi8-dca42f6ba1d88ca7",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libffi8-6eeb2a663293703a",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libffi8-277a2d9639ccd975",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-pkg-config-e258a08cab218252",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-pkg-config-349b85dedf063503",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-pkg-config-b435671983fdc6c4",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39603,19 +39585,37 @@
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libcap2-f58b88babd1049a1",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libcap2-f1bcddcca46df26d",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libcap2-80c02bc52f85e696",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libgmp10-f6d1dead66cdc801",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgmp10-933f168c1ec4daef",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libgmp10-a99408b08281ebd0",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-systemd-fbdf5e39d3c6b8fd",
+      "relatedSpdxElement": "SPDXRef-File-...x86-64-linux-gnu-libsystemd.so.0.37.0-9da2029c39dd9f31",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-ca-certificates-fc9f32d36e0ec03a",
+      "relatedSpdxElement": "SPDXRef-File-...share-doc-ca-certificates-copyright-5e075c0fd077508d",
+      "relationshipType": "OTHER",
+      "comment": "evident-by: indicates the package's existence is evident by the given file"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-deb-ca-certificates-fc9f32d36e0ec03a",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-ca-certificates-bd2154b4401b30f3",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
     {
       "spdxElementId": "SPDXRef-Package-deb-libkeyutils1-fffb37b9240d6c2f",
-      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libkeyutils1-9ca43dc22609dba9",
+      "relatedSpdxElement": "SPDXRef-File-var-lib-dpkg-status.d-libkeyutils1-3c01e9340ecea8f6",
       "relationshipType": "OTHER",
       "comment": "evident-by: indicates the package's existence is evident by the given file"
     },
@@ -39626,12 +39626,12 @@
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-deb-ca-certificates-1ba1320ed6937584",
+      "relatedSpdxElement": "SPDXRef-Package-deb-ca-certificates-fc9f32d36e0ec03a",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-binary-fluent-bit-4a91e02ef47904f6",
+      "relatedSpdxElement": "SPDXRef-Package-binary-fluent-bit-0b4dc2620c0fb58e",
       "relationshipType": "CONTAINS"
     },
     {
@@ -39691,7 +39691,7 @@
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-323290daf0bb11df",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libgnutls30-5458fd103c1e4fd3",
       "relationshipType": "CONTAINS"
     },
     {
@@ -39806,7 +39806,7 @@
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-ac76f985fe0fef44",
+      "relatedSpdxElement": "SPDXRef-Package-deb-libsystemd0-a48fdf88485dfed0",
       "relationshipType": "CONTAINS"
     },
     {
@@ -39841,7 +39841,7 @@
     },
     {
       "spdxElementId": "SPDXRef-DocumentRoot-Image-ghcr.io-fluent-fluent-bit",
-      "relatedSpdxElement": "SPDXRef-Package-deb-systemd-3238f47753cffa25",
+      "relatedSpdxElement": "SPDXRef-Package-deb-systemd-fbdf5e39d3c6b8fd",
       "relationshipType": "CONTAINS"
     },
     {

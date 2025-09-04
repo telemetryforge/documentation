@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "serialNumber": "urn:uuid:b459ea0c-600e-4e5e-a030-8bb664902f72",
+  "serialNumber": "urn:uuid:94fbcb79-026d-48c2-9fac-540a63d71e68",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-09-04T14:28:03+01:00",
+    "timestamp": "2025-09-04T14:34:19+01:00",
     "tools": {
       "components": [
         {
@@ -17,10 +17,10 @@
       ]
     },
     "component": {
-      "bom-ref": "47cdf9409d8c3d17",
+      "bom-ref": "cef9d097ad166f89",
       "type": "container",
       "name": "ghcr.io/fluent/fluent-bit",
-      "version": "4.0.3"
+      "version": "4.0.6"
     },
     "properties": [
       {
@@ -61,7 +61,7 @@
       },
       {
         "name": "syft:image:labels:org.opencontainers.image.version",
-        "value": "4.0.3"
+        "value": "4.0.6"
       },
       {
         "name": "syft:image:labels:vendor",
@@ -69,7 +69,7 @@
       },
       {
         "name": "syft:image:labels:version",
-        "value": "4.0.3"
+        "value": "4.0.6"
       }
     ]
   },
@@ -153,11 +153,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:deb/debian/ca-certificates@20230311?arch=all&distro=debian-12&package-id=1ba1320ed6937584",
+      "bom-ref": "pkg:deb/debian/ca-certificates@20230311%2Bdeb12u1?arch=all&distro=debian-12&package-id=fc9f32d36e0ec03a",
       "type": "library",
       "publisher": "Julien Cristau <jcristau@debian.org>",
       "name": "ca-certificates",
-      "version": "20230311",
+      "version": "20230311+deb12u1",
       "licenses": [
         {
           "license": {
@@ -175,8 +175,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:ca-certificates:ca-certificates:20230311:*:*:*:*:*:*:*",
-      "purl": "pkg:deb/debian/ca-certificates@20230311?arch=all&distro=debian-12",
+      "cpe": "cpe:2.3:a:ca-certificates:ca-certificates:20230311\\+deb12u1:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/debian/ca-certificates@20230311%2Bdeb12u1?arch=all&distro=debian-12",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -192,27 +192,27 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ca-certificates:ca_certificates:20230311:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ca-certificates:ca_certificates:20230311\\+deb12u1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ca_certificates:ca-certificates:20230311:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ca_certificates:ca-certificates:20230311\\+deb12u1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ca_certificates:ca_certificates:20230311:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ca_certificates:ca_certificates:20230311\\+deb12u1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ca:ca-certificates:20230311:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ca:ca-certificates:20230311\\+deb12u1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ca:ca_certificates:20230311:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ca:ca_certificates:20230311\\+deb12u1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -220,7 +220,7 @@
         },
         {
           "name": "syft:location:1:layerID",
-          "value": "sha256:b336e209998fa5cf0eec3dabf93a21194198a35f4f75612d8da03693f8c30217"
+          "value": "sha256:bfe9137a1b044e8097cdfcb6899137a8a984ed70931ed1e8ef0cf7e023a139fc"
         },
         {
           "name": "syft:location:1:path",
@@ -228,17 +228,17 @@
         },
         {
           "name": "syft:metadata:installedSize",
-          "value": "384"
+          "value": "387"
         }
       ]
     },
     {
-      "bom-ref": "pkg:github/fluent/fluent-bit@4.0.3?package-id=4a91e02ef47904f6",
+      "bom-ref": "pkg:github/fluent/fluent-bit@4.0.6?package-id=3707ded65fc1f95c",
       "type": "application",
       "name": "fluent-bit",
-      "version": "4.0.3",
-      "cpe": "cpe:2.3:a:treasuredata:fluent_bit:4.0.3:*:*:*:*:*:*:*",
-      "purl": "pkg:github/fluent/fluent-bit@4.0.3",
+      "version": "4.0.6",
+      "cpe": "cpe:2.3:a:treasuredata:fluent_bit:4.0.6:*:*:*:*:*:*:*",
+      "purl": "pkg:github/fluent/fluent-bit@4.0.6",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -254,7 +254,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:898af578770d19ceb6c408bc72724ec61e690dfa18e56dea99bcd77e549296fe"
+          "value": "sha256:a3268f0af6d8d4480ab48ddd5abe5b1c845bf5e06151729f6c902fb00a92a461"
         },
         {
           "name": "syft:location:0:path",
@@ -408,7 +408,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -447,7 +447,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -557,7 +557,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -612,7 +612,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -651,7 +651,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -690,7 +690,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -836,7 +836,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -871,7 +871,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -888,13 +888,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u4?arch=amd64&distro=debian-12&package-id=323290daf0bb11df&upstream=gnutls28",
+      "bom-ref": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u5?arch=amd64&distro=debian-12&package-id=5458fd103c1e4fd3&upstream=gnutls28",
       "type": "library",
       "publisher": "Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>",
       "name": "libgnutls30",
-      "version": "3.7.9-2+deb12u4",
-      "cpe": "cpe:2.3:a:libgnutls30:libgnutls30:3.7.9-2\\+deb12u4:*:*:*:*:*:*:*",
-      "purl": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u4?arch=amd64&distro=debian-12&upstream=gnutls28",
+      "version": "3.7.9-2+deb12u5",
+      "cpe": "cpe:2.3:a:libgnutls30:libgnutls30:3.7.9-2\\+deb12u5:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u5?arch=amd64&distro=debian-12&upstream=gnutls28",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -910,7 +910,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1056,7 +1056,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1131,7 +1131,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1170,7 +1170,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1229,7 +1229,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1272,7 +1272,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1311,7 +1311,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1370,7 +1370,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1409,7 +1409,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1484,7 +1484,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1543,7 +1543,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1582,7 +1582,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1621,7 +1621,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1680,7 +1680,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1739,7 +1739,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1778,7 +1778,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1817,7 +1817,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1856,7 +1856,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1919,7 +1919,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1978,7 +1978,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -1999,11 +1999,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:deb/debian/libssl3@3.0.16-1~deb12u1?arch=amd64&distro=debian-12&package-id=43f3f021651a28d7&upstream=openssl",
+      "bom-ref": "pkg:deb/debian/libssl3@3.0.17-1~deb12u1?arch=amd64&distro=debian-12&package-id=9865de4d59903aa0&upstream=openssl",
       "type": "library",
       "publisher": "Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>",
       "name": "libssl3",
-      "version": "3.0.16-1~deb12u1",
+      "version": "3.0.17-1~deb12u1",
       "licenses": [
         {
           "license": {
@@ -2026,8 +2026,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:libssl3:libssl3:3.0.16-1\\~deb12u1:*:*:*:*:*:*:*",
-      "purl": "pkg:deb/debian/libssl3@3.0.16-1~deb12u1?arch=amd64&distro=debian-12&upstream=openssl",
+      "cpe": "cpe:2.3:a:libssl3:libssl3:3.0.17-1\\~deb12u1:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/debian/libssl3@3.0.17-1~deb12u1?arch=amd64&distro=debian-12&upstream=openssl",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2043,7 +2043,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -2051,7 +2051,7 @@
         },
         {
           "name": "syft:location:1:layerID",
-          "value": "sha256:0711ad304a055c3c5d8fa5a9dab4a1bc1463599b8618d4b8c045edce85c79ce5"
+          "value": "sha256:cc0c314018b19c7e7ad99f1ecb56281061eea966cd85b745f04a0b3951390b6f"
         },
         {
           "name": "syft:location:1:path",
@@ -2059,7 +2059,7 @@
         },
         {
           "name": "syft:location:2:layerID",
-          "value": "sha256:0711ad304a055c3c5d8fa5a9dab4a1bc1463599b8618d4b8c045edce85c79ce5"
+          "value": "sha256:cc0c314018b19c7e7ad99f1ecb56281061eea966cd85b745f04a0b3951390b6f"
         },
         {
           "name": "syft:location:2:path",
@@ -2163,13 +2163,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:deb/debian/libsystemd0@254.22-1~bpo12%2B1?arch=amd64&distro=debian-12&package-id=ac76f985fe0fef44&upstream=systemd",
+      "bom-ref": "pkg:deb/debian/libsystemd0@254.26-1~bpo12%2B1?arch=amd64&distro=debian-12&package-id=a48fdf88485dfed0&upstream=systemd",
       "type": "library",
       "publisher": "Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>",
       "name": "libsystemd0",
-      "version": "254.22-1~bpo12+1",
-      "cpe": "cpe:2.3:a:libsystemd0:libsystemd0:254.22-1\\~bpo12\\+1:*:*:*:*:*:*:*",
-      "purl": "pkg:deb/debian/libsystemd0@254.22-1~bpo12%2B1?arch=amd64&distro=debian-12&upstream=systemd",
+      "version": "254.26-1~bpo12+1",
+      "cpe": "cpe:2.3:a:libsystemd0:libsystemd0:254.26-1\\~bpo12\\+1:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/debian/libsystemd0@254.26-1~bpo12%2B1?arch=amd64&distro=debian-12&upstream=systemd",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2185,7 +2185,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -2193,7 +2193,7 @@
         },
         {
           "name": "syft:metadata:installedSize",
-          "value": "965"
+          "value": "969"
         },
         {
           "name": "syft:metadata:source",
@@ -2244,7 +2244,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -2279,7 +2279,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -2354,7 +2354,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -2393,7 +2393,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -2510,7 +2510,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -2527,12 +2527,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:deb/systemd@254.22-1~bpo12%2B1?package-id=3238f47753cffa25",
+      "bom-ref": "pkg:deb/systemd@254.26-1~bpo12%2B1?package-id=fbdf5e39d3c6b8fd",
       "type": "library",
       "name": "systemd",
-      "version": "254.22-1~bpo12+1",
-      "cpe": "cpe:2.3:a:systemd:systemd:254.22-1\\~bpo12\\+1:*:*:*:*:*:*:*",
-      "purl": "pkg:deb/systemd@254.22-1~bpo12%2B1",
+      "version": "254.26-1~bpo12+1",
+      "cpe": "cpe:2.3:a:systemd:systemd:254.26-1\\~bpo12\\+1:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/systemd@254.26-1~bpo12%2B1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -2548,7 +2548,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -2637,7 +2637,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:52e55bb5fc324478ddc62ebaec39a618e9b33d61041b37b718f41563baaaee59"
+          "value": "sha256:c50e2491877490906be6ab542e8699363b77483314e53074ead89a6c34f9dc7d"
         },
         {
           "name": "syft:location:0:path",
@@ -16814,7 +16814,7 @@
       ]
     },
     {
-      "bom-ref": "7bdb890c8b5fb309",
+      "bom-ref": "5e075c0fd077508d",
       "type": "file",
       "name": "/usr/share/doc/ca-certificates/copyright",
       "hashes": [
@@ -21119,127 +21119,127 @@
       ]
     },
     {
-      "bom-ref": "94cd91f9510d8617",
+      "bom-ref": "c9e28966f591e560",
       "type": "file",
       "name": "/usr/lib/x86_64-linux-gnu/engines-3/afalg.so",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "31e0a8f88c5385c933cc455e836cfd70580cd2da"
+          "content": "8b731cc04cef8f892eb34dc2d73c38deaf84a93b"
         },
         {
           "alg": "SHA-256",
-          "content": "24d72c5d2b517cdb6661645ab5e463ebf9055396363c70afdf30548c6dab82b0"
+          "content": "05f90a4298d6d6d645f069726f16a296944c8351ee182630c879726dc6bff9e1"
         }
       ]
     },
     {
-      "bom-ref": "a2bbc714b86b098c",
+      "bom-ref": "c7305f28e93b8b43",
       "type": "file",
       "name": "/usr/lib/x86_64-linux-gnu/engines-3/loader_attic.so",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "843db74710bdfcd91ad7109c3dbb800f5030938d"
+          "content": "39b33204ffd28375644359d1a4a089ffd25296d8"
         },
         {
           "alg": "SHA-256",
-          "content": "cebd945561e55d6012cb3777aabd8e2a6cbe1dbdaff5420fa650e4b92296e0e0"
+          "content": "5e360e73caf63c4a1d839fabab0ecf51cb7377b7348eefadb70ff769e58355b8"
         }
       ]
     },
     {
-      "bom-ref": "ccbebe7cb3e43971",
+      "bom-ref": "0949da7575a2500e",
       "type": "file",
       "name": "/usr/lib/x86_64-linux-gnu/engines-3/padlock.so",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "768576258cd3e6bb27bf28e96141d6dea3160d74"
+          "content": "61f9b470e66a41e7c5d5b0384ac26e01a0f3b9f8"
         },
         {
           "alg": "SHA-256",
-          "content": "03c61427e9de45dd26afa7810870845a62f9c46d766e338a402ed3d07165f7f5"
+          "content": "3c77ee612e582b71b48dbb85d0ecbc6b0bf51a96de6f16d54300de38f7d65670"
         }
       ]
     },
     {
-      "bom-ref": "99d633035f766bda",
+      "bom-ref": "86356902fd1203fd",
       "type": "file",
       "name": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "9c5bc952219d736e45b1ea344428da671480f246"
+          "content": "845a3f9faf64bb02feaa1fadf761f1e0240219f2"
         },
         {
           "alg": "SHA-256",
-          "content": "f12d9946b6c7b1a21b9a1b0b4086a2220320210339e3b729b48cc8c397cdc110"
+          "content": "55cdf59ace91d73968c82eb6a57357fc936b2e3331582be870baccadb6a21a76"
         }
       ]
     },
     {
-      "bom-ref": "00be6cd8e2936b85",
+      "bom-ref": "e797748294530f9e",
       "type": "file",
       "name": "/usr/lib/x86_64-linux-gnu/libssl.so.3",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "e9fef2e762fa36c40ad79c1ede89ef86ddfdedfd"
+          "content": "dd0081f41601786106628edd492141e3ecd569ea"
         },
         {
           "alg": "SHA-256",
-          "content": "4a764d83ab327f6ccb0f5269956dec4972b0104811ff968e1a1bf45355415e78"
+          "content": "a3035eb28fa9f42630142755c20b5796ce687bddbc601dfcc3e9c5cf18b2726c"
         }
       ]
     },
     {
-      "bom-ref": "e5a509e843281b1a",
+      "bom-ref": "2997898e37181589",
       "type": "file",
       "name": "/usr/lib/x86_64-linux-gnu/ossl-modules/legacy.so",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "f83cd91f5c8b5cb0a9f767c1ff45680a151cec1b"
+          "content": "439a63435d60c82ecbd7198db722e91701292009"
         },
         {
           "alg": "SHA-256",
-          "content": "24de344a7024cc570244a00cd3461b730e767f7d587ef5bf9c20a2f98c9f2b7f"
+          "content": "d7d3eeda44b2ef29b055490e17b79c58d60fcbfda630c6539873145520fd003d"
         }
       ]
     },
     {
-      "bom-ref": "d90493c4abf59f1f",
+      "bom-ref": "ac418b90d7e105e0",
       "type": "file",
       "name": "/usr/share/doc/libssl3/changelog.Debian.gz",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "71af1f49ff3194f9fdc7d8de1e91912e05edb58f"
+          "content": "bf8e654f21bb37d9e75200c9b0e4fa894b87b04d"
         },
         {
           "alg": "SHA-256",
-          "content": "05b05497942419ac68a7449c1eeee00295c96699578521868b613690f63d7142"
+          "content": "e02a8c20225e5d8867549cbf473806c6f5ad6836368cc28e936a6ae9e76a21cc"
         }
       ]
     },
     {
-      "bom-ref": "75325d09e8c6f7f2",
+      "bom-ref": "863090949c673e85",
       "type": "file",
       "name": "/usr/share/doc/libssl3/changelog.gz",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "653fa8b91524a2c489922bf82353d4faccadf6a5"
+          "content": "b16389cf272c62bc45e043b26bee0fcf8f6c5ae6"
         },
         {
           "alg": "SHA-256",
-          "content": "87336eb2813b0b5e257af6edba992975e19eab6dc21ff0379b129cff5c97e8a1"
+          "content": "ba752336d46e767b66c61d5847aaf7920cde4df9a80210b462f4261f768928dd"
         }
       ]
     },
     {
-      "bom-ref": "2ceab8f072e6f67e",
+      "bom-ref": "7358832033f4f945",
       "type": "file",
       "name": "/usr/share/doc/libssl3/copyright",
       "hashes": [
@@ -21254,17 +21254,17 @@
       ]
     },
     {
-      "bom-ref": "7436bc44dc553331",
+      "bom-ref": "a5abcb798ac1d8e2",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libssl3.md5sums",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "31ecbe8433bcd4d660841c1417d30d162234590e"
+          "content": "3971bf1e290a3612a7c3735cfd1f517dedd90e9b"
         },
         {
           "alg": "SHA-256",
-          "content": "7e3c904e5197ba6d467979cc2a246a0432e710d75a75ba4875f1dceef8a24fe9"
+          "content": "15497394622ffc539597c7c94b403c51b5fae0444993618e489a5658e805c73e"
         }
       ]
     },
@@ -21584,37 +21584,37 @@
       ]
     },
     {
-      "bom-ref": "7d7073502f65b1ae",
+      "bom-ref": "1a5a74032b76a6d3",
       "type": "file",
       "name": "/usr/lib/x86_64-linux-gnu/libsystemd.so.0.37.0",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "b72b1020520fb14aaf634b2e6c83932bcc6e8dce"
+          "content": "c9104b26f1e9c3beff642dba70cd6fe9d01667b7"
         },
         {
           "alg": "SHA-256",
-          "content": "dc40966765090c74805f0f11e1e13152ac5ae5a65ab014e98ec0919085398254"
+          "content": "10668427d5aaa7ed4f54045a1b28513b859fc881f072c4bf0087a71a37ee6fd6"
         }
       ]
     },
     {
-      "bom-ref": "6dc75c8b0f48a770",
+      "bom-ref": "6151cf4e47dda555",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/ca-certificates",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "5a428c3a03284770953769803fa15cd5fc6bc65e"
+          "content": "bdd7e36be82fbebcce93ac17751621ca4106a195"
         },
         {
           "alg": "SHA-256",
-          "content": "1e7e2d650e1aa33e18d2ce2c5a6415bac50ff5eb07321a3fc68dd71e309f86e3"
+          "content": "ee4ef87b107ee974e9d010e31d5e5985350284cc95b30a1cd3badbc47c9cef14"
         }
       ]
     },
     {
-      "bom-ref": "b06f63a282f1dd1a",
+      "bom-ref": "ad153045d043f11b",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libatomic1",
       "hashes": [
@@ -21629,7 +21629,7 @@
       ]
     },
     {
-      "bom-ref": "a5478161abe8b680",
+      "bom-ref": "16d55c653bdfd331",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libbrotli1",
       "hashes": [
@@ -21644,7 +21644,7 @@
       ]
     },
     {
-      "bom-ref": "f1bcddcca46df26d",
+      "bom-ref": "9e916c1d050919e0",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libcap2",
       "hashes": [
@@ -21659,7 +21659,7 @@
       ]
     },
     {
-      "bom-ref": "f92fe063c67f7edc",
+      "bom-ref": "98d7e6ef60c420dd",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libcom-err2",
       "hashes": [
@@ -21674,7 +21674,7 @@
       ]
     },
     {
-      "bom-ref": "4ba8cc5f83515c7f",
+      "bom-ref": "991641a8e34a94e2",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libcurl4",
       "hashes": [
@@ -21689,7 +21689,7 @@
       ]
     },
     {
-      "bom-ref": "6eeb2a663293703a",
+      "bom-ref": "248082dd265d3c4f",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libffi8",
       "hashes": [
@@ -21704,7 +21704,7 @@
       ]
     },
     {
-      "bom-ref": "e625bb0f4f836cb3",
+      "bom-ref": "6df49e82a28f784e",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libgcrypt20",
       "hashes": [
@@ -21719,7 +21719,7 @@
       ]
     },
     {
-      "bom-ref": "933f168c1ec4daef",
+      "bom-ref": "0b098cdeb3528d56",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libgmp10",
       "hashes": [
@@ -21734,22 +21734,22 @@
       ]
     },
     {
-      "bom-ref": "1975fe0413dd6f78",
+      "bom-ref": "4cf922819689c1b1",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libgnutls30",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "7b7f9aaefdf3578cff9fc681cff70c6db448af71"
+          "content": "81d591df625e40d95e1f4717667c58b6ff46b926"
         },
         {
           "alg": "SHA-256",
-          "content": "d2cfd71563cc0c93d81a72b8db52697f602bf9c73c0fa44f9fb9a128ebc0ebb6"
+          "content": "2921af993fd8346f45ecf40eb1f0eac5a80d4acb6813b4026ac8814f7400053a"
         }
       ]
     },
     {
-      "bom-ref": "eb2086045f926ad7",
+      "bom-ref": "e5cc8887361e56c6",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libgpg-error0",
       "hashes": [
@@ -21764,7 +21764,7 @@
       ]
     },
     {
-      "bom-ref": "2438d851ae36c6fb",
+      "bom-ref": "4788aaef4c11aff2",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
       "hashes": [
@@ -21779,7 +21779,7 @@
       ]
     },
     {
-      "bom-ref": "8091cf281ee46883",
+      "bom-ref": "e6e28ff221674cc2",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libhogweed6",
       "hashes": [
@@ -21794,7 +21794,7 @@
       ]
     },
     {
-      "bom-ref": "953199dae8a65b17",
+      "bom-ref": "6f4317dfbbb79ace",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libidn2-0",
       "hashes": [
@@ -21809,7 +21809,7 @@
       ]
     },
     {
-      "bom-ref": "fe2b9642de4f76c8",
+      "bom-ref": "af2f08433056efe5",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libk5crypto3",
       "hashes": [
@@ -21824,7 +21824,7 @@
       ]
     },
     {
-      "bom-ref": "9ca43dc22609dba9",
+      "bom-ref": "9c073ab38d214dc0",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libkeyutils1",
       "hashes": [
@@ -21839,7 +21839,7 @@
       ]
     },
     {
-      "bom-ref": "4ba59832dd890354",
+      "bom-ref": "a6d0a901a9539059",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libkrb5-3",
       "hashes": [
@@ -21854,7 +21854,7 @@
       ]
     },
     {
-      "bom-ref": "7aef946bbc7947aa",
+      "bom-ref": "647f5f8605479957",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libkrb5support0",
       "hashes": [
@@ -21869,7 +21869,7 @@
       ]
     },
     {
-      "bom-ref": "83fc07cfa3c79b72",
+      "bom-ref": "c691b8a239a1a3e3",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libldap-2.5-0",
       "hashes": [
@@ -21884,7 +21884,7 @@
       ]
     },
     {
-      "bom-ref": "0d7442aacd698a48",
+      "bom-ref": "f013c39830d6a455",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/liblz4-1",
       "hashes": [
@@ -21899,7 +21899,7 @@
       ]
     },
     {
-      "bom-ref": "c77608095a7d2905",
+      "bom-ref": "cabdb8bc5f84fb10",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/liblzma5",
       "hashes": [
@@ -21914,7 +21914,7 @@
       ]
     },
     {
-      "bom-ref": "f2011da9e3d983c1",
+      "bom-ref": "9225fe16e3277430",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libnettle8",
       "hashes": [
@@ -21929,7 +21929,7 @@
       ]
     },
     {
-      "bom-ref": "633a203d9117d872",
+      "bom-ref": "5abce3497ee4d9f3",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libnghttp2-14",
       "hashes": [
@@ -21944,7 +21944,7 @@
       ]
     },
     {
-      "bom-ref": "850136ab897ed5d6",
+      "bom-ref": "89ce28dc2b22617b",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libp11-kit0",
       "hashes": [
@@ -21959,7 +21959,7 @@
       ]
     },
     {
-      "bom-ref": "0e0d45167bf0223a",
+      "bom-ref": "554111ff3f2e319b",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libpq5",
       "hashes": [
@@ -21974,7 +21974,7 @@
       ]
     },
     {
-      "bom-ref": "8e7c3d0db2002dc5",
+      "bom-ref": "bd1fb3a2dd4bdbbc",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libpsl5",
       "hashes": [
@@ -21989,7 +21989,7 @@
       ]
     },
     {
-      "bom-ref": "ae6931823a878cb0",
+      "bom-ref": "2315059eb63757f9",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/librtmp1",
       "hashes": [
@@ -22004,7 +22004,7 @@
       ]
     },
     {
-      "bom-ref": "e9187d034e296c25",
+      "bom-ref": "e0a8ad6d92a842f4",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libsasl2-2",
       "hashes": [
@@ -22019,7 +22019,7 @@
       ]
     },
     {
-      "bom-ref": "6de227ca4e59551d",
+      "bom-ref": "98c2e599235bf65c",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libssh2-1",
       "hashes": [
@@ -22034,37 +22034,37 @@
       ]
     },
     {
-      "bom-ref": "188c51503a7fd8f7",
+      "bom-ref": "473f2cab788f9bf2",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libssl3",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "6f372bb6b824ca2841d851152c017b9bb02545ae"
+          "content": "f2abf852ca976f2a714b7e4194f502a980d98c79"
         },
         {
           "alg": "SHA-256",
-          "content": "1d0632454bbc75c569facf1d15158ef76b05550c983c245cf4a98382cafaa580"
+          "content": "892e0a39bc3db72da65e37c3d363b3b434b75fcbc9b624b1178fc4ac231e0080"
         }
       ]
     },
     {
-      "bom-ref": "11f4f6b2da2a3ad1",
+      "bom-ref": "e0ed97a191d8df04",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libsystemd0",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "c7928c8e40e888a84ff52d76ad2cd1dc71f1320a"
+          "content": "e5b26665f6dc7e58c8e152a8a94d11b954216e6a"
         },
         {
           "alg": "SHA-256",
-          "content": "620470749eb4cb9a1a4e5201757f6144a8748cdf15afb255ea8afc38e78ed21b"
+          "content": "796273224d97bf93c8333d33696031ceb730a4f12d57a6866a928c95d3bacc1e"
         }
       ]
     },
     {
-      "bom-ref": "3aa4f97f18ac1ff1",
+      "bom-ref": "21744720514b4ca8",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libtasn1-6",
       "hashes": [
@@ -22079,7 +22079,7 @@
       ]
     },
     {
-      "bom-ref": "4c8dc6147e99e460",
+      "bom-ref": "4e516ca58ebb3b75",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libunistring2",
       "hashes": [
@@ -22094,7 +22094,7 @@
       ]
     },
     {
-      "bom-ref": "ab5e69852ea86463",
+      "bom-ref": "7c8d2114fcb6420a",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libyaml-0-2",
       "hashes": [
@@ -22109,7 +22109,7 @@
       ]
     },
     {
-      "bom-ref": "c58bdafd7cba3a3d",
+      "bom-ref": "a55c139b6ed56930",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/libzstd1",
       "hashes": [
@@ -22124,7 +22124,7 @@
       ]
     },
     {
-      "bom-ref": "349b85dedf063503",
+      "bom-ref": "bc3c845ea7b80012",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/pkg-config",
       "hashes": [
@@ -22139,7 +22139,7 @@
       ]
     },
     {
-      "bom-ref": "43ef6b4a51e06493",
+      "bom-ref": "0a69c367c39d66ee",
       "type": "file",
       "name": "/var/lib/dpkg/status.d/zlib1g",
       "hashes": [
@@ -22154,17 +22154,17 @@
       ]
     },
     {
-      "bom-ref": "19f1f2531baf7987",
+      "bom-ref": "69850912c5894a10",
       "type": "file",
       "name": "/fluent-bit/bin/fluent-bit",
       "hashes": [
         {
           "alg": "SHA-1",
-          "content": "cfb17d22f1b02457abe0ea193773d2fed1952eb8"
+          "content": "5393cdfedb11c0a8483d0ce7aee8a932e9583c8e"
         },
         {
           "alg": "SHA-256",
-          "content": "2f9b960664962a7648ad411a0435d4dae384886385a9421189366e9adac74de0"
+          "content": "bd4a796cd36d42ec24a9263d4a5425bc0e9eabe9236c87e37facf43c6ae199b9"
         }
       ]
     }
@@ -22213,7 +22213,7 @@
         "pkg:deb/debian/libpsl5@0.21.2-1?arch=amd64&distro=debian-12&package-id=26ecde7e69dbfa04&upstream=libpsl",
         "pkg:deb/debian/librtmp1@2.4%2B20151223.gitfa8646d.1-2%2Bb2?arch=amd64&distro=debian-12&package-id=4332a74a6aafcedd&upstream=rtmpdump%402.4%2B20151223.gitfa8646d.1-2",
         "pkg:deb/debian/libssh2-1@1.10.0-3%2Bb1?arch=amd64&distro=debian-12&package-id=8905b74027385650&upstream=libssh2%401.10.0-3",
-        "pkg:deb/debian/libssl3@3.0.16-1~deb12u1?arch=amd64&distro=debian-12&package-id=43f3f021651a28d7&upstream=openssl",
+        "pkg:deb/debian/libssl3@3.0.17-1~deb12u1?arch=amd64&distro=debian-12&package-id=9865de4d59903aa0&upstream=openssl",
         "pkg:deb/debian/libzstd1@1.5.4%2Bdfsg2-5?arch=amd64&distro=debian-12&package-id=8ebb6fc734ae3ca2&upstream=libzstd",
         "pkg:deb/debian/zlib1g@1%3A1.2.13.dfsg-1?arch=amd64&distro=debian-12&package-id=ca40227a4415e447&upstream=zlib"
       ]
@@ -22245,7 +22245,7 @@
       ]
     },
     {
-      "ref": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u4?arch=amd64&distro=debian-12&package-id=323290daf0bb11df&upstream=gnutls28",
+      "ref": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u5?arch=amd64&distro=debian-12&package-id=5458fd103c1e4fd3&upstream=gnutls28",
       "dependsOn": [
         "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&package-id=c924a822eab59d9a&upstream=glibc",
         "pkg:deb/debian/libgmp10@2%3A6.2.1%2Bdfsg1-1.1?arch=amd64&distro=debian-12&package-id=f6d1dead66cdc801&upstream=gmp",
@@ -22316,7 +22316,7 @@
         "pkg:deb/debian/libk5crypto3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&package-id=dc5610a2a1a5ad4f&upstream=krb5",
         "pkg:deb/debian/libkeyutils1@1.6.3-2?arch=amd64&distro=debian-12&package-id=fffb37b9240d6c2f&upstream=keyutils",
         "pkg:deb/debian/libkrb5support0@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&package-id=04174b0fa1866e36&upstream=krb5",
-        "pkg:deb/debian/libssl3@3.0.16-1~deb12u1?arch=amd64&distro=debian-12&package-id=43f3f021651a28d7&upstream=openssl"
+        "pkg:deb/debian/libssl3@3.0.17-1~deb12u1?arch=amd64&distro=debian-12&package-id=9865de4d59903aa0&upstream=openssl"
       ]
     },
     {
@@ -22329,7 +22329,7 @@
       "ref": "pkg:deb/debian/libldap-2.5-0@2.5.13%2Bdfsg-5?arch=amd64&distro=debian-12&package-id=919a44d8cbaa32e2&upstream=openldap",
       "dependsOn": [
         "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&package-id=c924a822eab59d9a&upstream=glibc",
-        "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u4?arch=amd64&distro=debian-12&package-id=323290daf0bb11df&upstream=gnutls28",
+        "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u5?arch=amd64&distro=debian-12&package-id=5458fd103c1e4fd3&upstream=gnutls28",
         "pkg:deb/debian/libsasl2-2@2.1.28%2Bdfsg-10?arch=amd64&distro=debian-12&package-id=76e875c485ac6ca4&upstream=cyrus-sasl2"
       ]
     },
@@ -22370,7 +22370,7 @@
         "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&package-id=c924a822eab59d9a&upstream=glibc",
         "pkg:deb/debian/libgssapi-krb5-2@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&package-id=3472c9903aced6bd&upstream=krb5",
         "pkg:deb/debian/libldap-2.5-0@2.5.13%2Bdfsg-5?arch=amd64&distro=debian-12&package-id=919a44d8cbaa32e2&upstream=openldap",
-        "pkg:deb/debian/libssl3@3.0.16-1~deb12u1?arch=amd64&distro=debian-12&package-id=43f3f021651a28d7&upstream=openssl"
+        "pkg:deb/debian/libssl3@3.0.17-1~deb12u1?arch=amd64&distro=debian-12&package-id=9865de4d59903aa0&upstream=openssl"
       ]
     },
     {
@@ -22386,7 +22386,7 @@
       "dependsOn": [
         "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&package-id=c924a822eab59d9a&upstream=glibc",
         "pkg:deb/debian/libgmp10@2%3A6.2.1%2Bdfsg1-1.1?arch=amd64&distro=debian-12&package-id=f6d1dead66cdc801&upstream=gmp",
-        "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u4?arch=amd64&distro=debian-12&package-id=323290daf0bb11df&upstream=gnutls28",
+        "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u5?arch=amd64&distro=debian-12&package-id=5458fd103c1e4fd3&upstream=gnutls28",
         "pkg:deb/debian/libhogweed6@3.8.1-2?arch=amd64&distro=debian-12&package-id=9534d60a97673a0b&upstream=nettle",
         "pkg:deb/debian/libnettle8@3.8.1-2?arch=amd64&distro=debian-12&package-id=22ee1f32510608b7&upstream=nettle",
         "pkg:deb/debian/zlib1g@1%3A1.2.13.dfsg-1?arch=amd64&distro=debian-12&package-id=ca40227a4415e447&upstream=zlib"
@@ -22402,12 +22402,12 @@
       "ref": "pkg:deb/debian/libssh2-1@1.10.0-3%2Bb1?arch=amd64&distro=debian-12&package-id=8905b74027385650&upstream=libssh2%401.10.0-3",
       "dependsOn": [
         "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&package-id=c924a822eab59d9a&upstream=glibc",
-        "pkg:deb/debian/libssl3@3.0.16-1~deb12u1?arch=amd64&distro=debian-12&package-id=43f3f021651a28d7&upstream=openssl",
+        "pkg:deb/debian/libssl3@3.0.17-1~deb12u1?arch=amd64&distro=debian-12&package-id=9865de4d59903aa0&upstream=openssl",
         "pkg:deb/debian/zlib1g@1%3A1.2.13.dfsg-1?arch=amd64&distro=debian-12&package-id=ca40227a4415e447&upstream=zlib"
       ]
     },
     {
-      "ref": "pkg:deb/debian/libssl3@3.0.16-1~deb12u1?arch=amd64&distro=debian-12&package-id=43f3f021651a28d7&upstream=openssl",
+      "ref": "pkg:deb/debian/libssl3@3.0.17-1~deb12u1?arch=amd64&distro=debian-12&package-id=9865de4d59903aa0&upstream=openssl",
       "dependsOn": [
         "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&package-id=c924a822eab59d9a&upstream=glibc"
       ]
@@ -22421,7 +22421,7 @@
       ]
     },
     {
-      "ref": "pkg:deb/debian/libsystemd0@254.22-1~bpo12%2B1?arch=amd64&distro=debian-12&package-id=ac76f985fe0fef44&upstream=systemd",
+      "ref": "pkg:deb/debian/libsystemd0@254.26-1~bpo12%2B1?arch=amd64&distro=debian-12&package-id=a48fdf88485dfed0&upstream=systemd",
       "dependsOn": [
         "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&package-id=c924a822eab59d9a&upstream=glibc",
         "pkg:deb/debian/libcap2@1%3A2.66-4%2Bdeb12u1?arch=amd64&distro=debian-12&package-id=f58b88babd1049a1",
@@ -22462,7 +22462,7 @@
       ]
     },
     {
-      "ref": "pkg:deb/systemd@254.22-1~bpo12%2B1?package-id=3238f47753cffa25",
+      "ref": "pkg:deb/systemd@254.26-1~bpo12%2B1?package-id=fbdf5e39d3c6b8fd",
       "dependsOn": [
         "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&package-id=c924a822eab59d9a&upstream=glibc"
       ]
