@@ -133,3 +133,13 @@ for oss_version in "${OSS_VERSIONS[@]}"; do
     echo "- [SPDX JSON SBOM](oss/spdx-$oss_version.json)"
     } >> "$CVE_DIR/cves.md"
 done
+
+# Now iterate over each JSON file and ensure we pretty-print it rather than all on one line.
+for json_file in "$CVE_DIR"/oss/*.json "$CVE_DIR"/agent/*.json; do
+	if [[ -f "$json_file" ]]; then
+		echo "Pretty-printing JSON file: $json_file"
+		jq . "$json_file" > "$json_file.tmp" && mv "$json_file.tmp" "$json_file"
+	fi
+done
+
+echo "CVE scans completed. Reports are available in $CVE_DIR"

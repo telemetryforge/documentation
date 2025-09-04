@@ -49,6 +49,15 @@ Please reach out to us at <info@fluent.do> directly for any specific concerns or
 - [CycloneDX JSON SBOM](agent/cyclonedx-25.8.4.json)
 - [SPDX JSON SBOM](agent/spdx-25.8.4.json)
 
+## Agent Version: 25.9.1
+
+- [Grype Markdown Report](agent/grype-25.9.1.md)
+- [Grype JSON Report](agent/grype-25.9.1.json)
+
+- [Syft JSON SBOM](agent/syft-25.9.1.json)
+- [CycloneDX JSON SBOM](agent/cyclonedx-25.9.1.json)
+- [SPDX JSON SBOM](agent/spdx-25.9.1.json)
+
 ## OSS Version: 4.0.3
 
 - [Grype Markdown Report](oss/grype-4.0.3.md)
