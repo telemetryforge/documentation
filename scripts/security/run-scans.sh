@@ -71,14 +71,26 @@ EOF
 
 # Run grype for each Agent version
 for agent_version in "${AGENT_VERSIONS[@]}"; do
-    echo "Running syft for Agent version: $agent_version"
-    if ! syft "ghcr.io/fluentdo/agent:$agent_version" --output json="$CVE_DIR/agent/syft-$agent_version.json" --output cyclonedx-json="$CVE_DIR/agent/cyclonedx-$agent_version.cdx.json" --output spdx-json="$CVE_DIR/agent/spdx-$agent_version.spdx.json"; then
-        echo "Failed to run syft for Agent version: $agent_version, skipping grype scan."
-        rm -f "$CVE_DIR/agent/*-$agent_version.json"
-        continue
+
+	# Check if SBOMs are already provided, if so skip generation to prevent any issues with non-reproducible builds
+	# as some fields may change each time we run in each format.
+	# We check for the JSON format as that is the most likely to be used for scans.
+	# Syft seems to not want to support this: https://github.com/anchore/syft/issues/1100
+	if [[ -f "$CVE_DIR/agent/syft-$agent_version.json" ]]; then
+		echo "SBOMs already exist for Agent version: $agent_version, skipping syft generation."
+	else
+	    echo "Running syft for Agent version: $agent_version"
+		if ! syft "ghcr.io/fluentdo/agent:$agent_version" --output json="$CVE_DIR/agent/syft-$agent_version.json" --output cyclonedx-json="$CVE_DIR/agent/cyclonedx-$agent_version.cdx.json" --output spdx-json="$CVE_DIR/agent/spdx-$agent_version.spdx.json"; then
+			echo "Failed to run syft for Agent version: $agent_version, skipping grype scan."
+			rm -f "$CVE_DIR/agent/*-$agent_version.json"
+			continue
+		fi
     fi
 
     [[ ! -f "$CVE_DIR/agent/syft-$agent_version.json" ]] && continue
+
+	# We always run CVE scans though as new ones may appear.
+	# Grype supports reproducible builds as you can disable timestamps in the output which are the only thing that would change.
 
     echo "Running grype for Agent version: $agent_version"
     grype "sbom:$CVE_DIR/agent/syft-$agent_version.json" --output json --file "$CVE_DIR/agent/grype-$agent_version.json"
@@ -103,12 +115,15 @@ done
 
 # Run grype for each OSS version
 for oss_version in "${OSS_VERSIONS[@]}"; do
-    # Generate syft output first as one-off that can then be fed to grype for each output format
-    echo "Running syft for OSS version: $oss_version"
-    if ! syft "ghcr.io/fluent/fluent-bit:$oss_version" --output json="$CVE_DIR/oss/syft-$oss_version.json" --output cyclonedx-json="$CVE_DIR/oss/cyclonedx-$oss_version.cdx.json" --output spdx-json="$CVE_DIR/oss/spdx-$oss_version.spdx.json"; then
-        echo "Failed to run syft for OSS version: $oss_version, skipping grype scan."
-        rm -f "$CVE_DIR/oss/*-$oss_version.json"
-        continue
+    if [[ -f "$CVE_DIR/oss/syft-$oss_version.json" ]]; then
+		echo "SBOMs already exist for OSS version: $oss_version, skipping syft generation."
+	else
+    	echo "Running syft for OSS version: $oss_version"
+		if ! syft "ghcr.io/fluent/fluent-bit:$oss_version" --output json="$CVE_DIR/oss/syft-$oss_version.json" --output cyclonedx-json="$CVE_DIR/oss/cyclonedx-$oss_version.cdx.json" --output spdx-json="$CVE_DIR/oss/spdx-$oss_version.spdx.json"; then
+			echo "Failed to run syft for OSS version: $oss_version, skipping grype scan."
+			rm -f "$CVE_DIR/oss/*-$oss_version.json"
+			continue
+		fi
     fi
 
     [[ ! -f "$CVE_DIR/oss/syft-$oss_version.json" ]] && continue
@@ -120,7 +135,6 @@ for oss_version in "${OSS_VERSIONS[@]}"; do
 
     echo "Grype scan completed for OSS version: $oss_version"
 
-    # Add to the index file
     {
     echo ""
     echo "## OSS Version: $oss_version"

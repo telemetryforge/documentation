@@ -111,3 +111,12 @@ Please reach out to us at <info@fluent.do> directly for any specific concerns or
 - [Syft JSON SBOM](oss/syft-4.0.8.json)
 - [CycloneDX JSON SBOM](oss/cyclonedx-4.0.8.cdx.json)
 - [SPDX JSON SBOM](oss/spdx-4.0.8.spdx.json)
+
+## OSS Version: 4.0.9
+
+- [Grype Markdown Report](oss/grype-4.0.9.md)
+- [Grype JSON Report](oss/grype-4.0.9.json)
+
+- [Syft JSON SBOM](oss/syft-4.0.9.json)
+- [CycloneDX JSON SBOM](oss/cyclonedx-4.0.9.cdx.json)
+- [SPDX JSON SBOM](oss/spdx-4.0.9.spdx.json)
