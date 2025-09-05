@@ -160,7 +160,7 @@ LATEST_AGENT_VERSION=$(echo -n "$LATEST_AGENT_VERSION" | xargs)
 
 if [[ -z "$LATEST_AGENT_VERSION" ]]; then
 	echo "ERROR: Could not determine latest agent version from GitHub API, ensure gh CLI is authenticated correctly."
-	exit 0
+	exit 1
 else
 	# Check if latest version scan already exists
 	if [[ -f "$CVE_DIR/agent/grype-$LATEST_AGENT_VERSION.md" ]]; then
@@ -169,9 +169,15 @@ else
 		echo "Generating latest agent version scan for version: $LATEST_AGENT_VERSION"
 		generateReports "$LATEST_AGENT_VERSION" "agent"
 	fi
-	# We copy the agent grype report to a "latest" file for easy reference in the main security.md document
-	cp -f "$CVE_DIR/agent/grype-$LATEST_AGENT_VERSION.md" "$CVE_DIR/agent/grype-latest.md"
 fi
+
+if [[ ! -f "$CVE_DIR/agent/grype-$LATEST_AGENT_VERSION.md" ]]; then
+	echo "ERROR: Latest agent version scan file not found after generation attempt."
+	exit 1
+fi
+
+# We copy the agent grype report to a "latest" file for easy reference in the main security.md document
+cp -f "$CVE_DIR/agent/grype-$LATEST_AGENT_VERSION.md" "$CVE_DIR/agent/grype-latest.md"
 
 # Run grype for each OSS version
 for oss_version in "${OSS_VERSIONS[@]}"; do
