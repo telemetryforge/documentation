@@ -124,6 +124,9 @@ function generateReports() {
 # Run grype for each Agent version
 for agent_version in "${AGENT_VERSIONS[@]}"; do
 	generateReports "$agent_version" "agent"
+	# We copy the agent grype report to a "latest" file for easy reference in the main security.md document
+	cp "$CVE_DIR/agent/grype-$agent_version.md" "$CVE_DIR/agent/grype-latest.md"
+	# We update latest until the final one so assuming the scan config is in order of releases.
 done
 
 # Run grype for each OSS version
