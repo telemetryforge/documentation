@@ -6,11 +6,11 @@ FluentDo Agent is an **enterprise-hardened distribution of Fluent Bit**, maintai
 
 ### Key Differentiators
 
-✅ **70% smaller than OSS Fluent Bit** - Optimized for production deployments  
-✅ **Security-hardened by default** - FORTIFY_SOURCE, stack protection, and reduced attack surface  
-✅ **24-month LTS support** - Weekly security patches and critical bug fixes  
-✅ **Enterprise features** - Advanced deduplication, AI filtering, and compliance tools  
-✅ **Fully supported** - Direct access to core Fluent Bit maintainers  
+✅ **70% smaller than OSS Fluent Bit** - Optimised for production deployments
+✅ **Security-hardened by default** - FORTIFY_SOURCE, stack protection, and reduced attack surface
+✅ **24-month LTS support** - Weekly security patches and critical bug fixes
+✅ **Enterprise features** - Advanced deduplication, AI filtering, and compliance tools
+✅ **Fully supported** - Direct access to core Fluent Bit maintainers
 
 ## Documentation
 
@@ -22,29 +22,32 @@ FluentDo Agent is an **enterprise-hardened distribution of Fluent Bit**, maintai
 ## Enterprise Features
 
 ### Performance & Reliability
+
 - **[Log Deduplication](./features/record-deduplication.md)** - Eliminate duplicate logs at source, reducing costs by up to 40%
 - **Efficient Storage Buffer** - Advanced filesystem buffering for reliability
 - **Tail Sampling** - Smart sampling with OTTL-style logic for high-volume environments
 
 ### Data Processing
+
 - **AI-Powered Filtering** - Intelligent log routing and filtering
 - **Native Field Flattening** - Prevent field explosion in Elasticsearch/OpenSearch
 - **Type Safety** - Automatic type conflict resolution
 
 ### Enterprise Hardening
+
 - **Reduced Attack Surface** - 17 vendor-specific plugins disabled by default
 - **Security by Default** - All remote interfaces disabled, authentication required
 - **Compliance Ready** - FIPS-compliant builds with OpenSSL in FIPS mode
 
-## Build Optimizations
+## Build Optimisations
 
 FluentDo Agent is **70% smaller than OSS Fluent Bit** through:
 
 - **Reduced scope** - Only production-essential plugins included
 - **Secure defaults** - Vendor-specific and risky plugins disabled
-- **Optimized compilation** - Size-focused builds with dead code elimination
+- **Optimised compilation** - Size-focused builds with dead code elimination
 
-[Learn more about build optimizations →](./build-optimizations.md)
+[Learn more about build optimisations →](./build-optimisations.md)
 
 ## Support & Lifecycle
 
@@ -60,6 +63,7 @@ FluentDo Agent is **70% smaller than OSS Fluent Bit** through:
 ## Testing & Quality
 
 ### Continuous Validation
+
 - **Daily Security Scans** - Core and dependency vulnerability scanning
 - **Integration Testing** - Full regression suite for enterprise scenarios
 - **Memory Safety** - Valgrind and AddressSanitizer validation
@@ -68,10 +72,11 @@ FluentDo Agent is **70% smaller than OSS Fluent Bit** through:
 ## Resources
 
 ### Technical Documentation
-- [Build Optimizations](./build-optimizations.md) - Size and performance improvements
+
+- [Build Optimisations](./build-optimisations.md) - Size and performance improvements
 - [Security Hardening](./security.md) - Comprehensive security features
 - [Feature Documentation](./features/) - Enterprise feature guides
 
 ### Contact
 
-For custom builds, white-label solutions, or enterprise support: **info@fluent.do**
+For custom builds, white-label solutions, or enterprise support: **<info@fluent.do>**
