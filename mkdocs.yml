@@ -4,9 +4,11 @@ nav:
   - Home: index.md
   - Features:
     - Record Deduplication: features/record-deduplication.md
+    - Hardening and Optimisation: build-optimisations.md
   - Security:
     - Overview: security.md
     - CVE Information: security/cves.md
+    - Current Triaged Vulnerabilities: security/triaged.md
   - Supported Platforms: supported-platforms.md
   - Version Mapping: version-mapping.md
 plugins:

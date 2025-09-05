@@ -27,7 +27,7 @@ FluentDo provides an agent with the following security and compliance considerat
 All release builds are compiled with comprehensive security hardening:
 
 - **Stack Protector Strong** (`-fstack-protector-strong`) - Enhanced buffer overflow detection
-- **Buffer Size Protection** (`--param ssp-buffer-size=4`) - Protects buffers ≥4 bytes  
+- **Buffer Size Protection** (`--param ssp-buffer-size=4`) - Protects buffers ≥4 bytes
 - **FORTIFY_SOURCE Level 2** (`-D_FORTIFY_SOURCE=2`) - Runtime bounds checking
 - **Integer Overflow Trapping** (`-ftrapv`) - Traps signed integer overflow
 - **Position Independent Executable** (PIE/ASLR) - Address space layout randomization
@@ -42,9 +42,10 @@ All release builds are compiled with comprehensive security hardening:
 To minimize attack surface and binary size, the following 17 plugins are **disabled by default**:
 
 #### Disabled Input Plugins (9 total)
+
 - `FLB_IN_CALYPTIA_FLEET` - Calyptia fleet management (vendor-specific)
 - `FLB_IN_DOCKER` - Docker container metrics
-- `FLB_IN_DOCKER_EVENTS` - Docker events monitoring  
+- `FLB_IN_DOCKER_EVENTS` - Docker events monitoring 
 - `FLB_IN_EXEC_WASI` - WebAssembly System Interface executor
 - `FLB_IN_MQTT` - MQTT broker input
 - `FLB_IN_NETIF` - Network interface statistics
@@ -53,6 +54,7 @@ To minimize attack surface and binary size, the following 17 plugins are **disab
 - `FLB_IN_THERMAL` - Thermal sensors monitoring
 
 #### Disabled Filter Plugins (5 total)
+
 - `FLB_FILTER_ALTER_SIZE` - Record size alteration
 - `FLB_FILTER_CHECKLIST` - Checklist validation
 - `FLB_FILTER_GEOIP2` - GeoIP2 location enrichment (includes MaxMind database)
@@ -60,6 +62,7 @@ To minimize attack surface and binary size, the following 17 plugins are **disab
 - `FLB_FILTER_WASM` - WebAssembly filter
 
 #### Disabled Output Plugins (3 total)
+
 - `FLB_OUT_CALYPTIA` - Calyptia monitoring (vendor-specific)
 - `FLB_OUT_LOGDNA` - LogDNA/Mezmo service (vendor-specific)
 - `FLB_OUT_TD` - Treasure Data (vendor-specific)
@@ -79,4 +82,4 @@ To minimize attack surface and binary size, the following 17 plugins are **disab
 
 We triage and resolve all CVEs reported against the FluentDo agent (and to some degree OSS too), please see [this page](./security/cves.md).
 
-We also provide a VEX endpoint to integrate with existing tooling to automatically provide this information to security tooling deployed in your infrastructure.
+We provide triaged CVE reports both as a [web page](./security/triaged.md) or a [VEX endpoint](./security/vex.json) for easy inclusion in security tooling deployed in your infrastructure.
