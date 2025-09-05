@@ -1,0 +1,11 @@
+## Known agent vulnerabilities
+
+High and critical vulnerabilities not triaged for the latest version ({{.Source.Target.UserInput}}) of the agent are shown below, as reported by Grype.
+
+| Package | Version Installed | Vulnerability ID | Severity |
+| --- | --- | --- | --- |
+{{- range .Matches}}
+{{- if or (eq .Vulnerability.Severity "High") (eq .Vulnerability.Severity "Critical")}}
+| {{.Artifact.Name}} | {{.Artifact.Version}} | [{{.Vulnerability.ID}}](https://cve.mitre.org/cgi-bin/cvename.cgi?name={{.Vulnerability.ID}}) | {{.Vulnerability.Severity}} |
+{{- end }}
+{{- end}}

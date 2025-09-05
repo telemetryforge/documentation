@@ -1,5 +1,8 @@
 # Grype Vulnerabilities for ghcr.io/fluentdo/agent:25.7.4
 
+Unfiltered vulnerability scan results for ghcr.io/fluentdo/agent:25.7.4 using Grype.
+Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.html) or [VEX endpoint](https://docs.fluent.do/security/vex.json) for more information on vulnerabilities that have been reviewed.
+
 | Package | Version Installed | Vulnerability ID | Severity |
 | --- | --- | --- | --- |
 | sqlite-libs | 3.34.1-7.el9_3 | [CVE-2025-6965](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6965) | High |
