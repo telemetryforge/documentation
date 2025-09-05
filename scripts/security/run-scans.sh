@@ -52,9 +52,14 @@ echo "All versions are valid semver format."
 mkdir -p "$CVE_DIR"/oss "$CVE_DIR"/agent
 
 # Check if syft and grype are installed
-if ! command -v syft &> /dev/null || ! command -v grype &> /dev/null || ! command -v grype &> /dev/null; then
-    echo "ERROR: jq, syft and grype must be installed to run this script."
+if ! command -v syft &> /dev/null || ! command -v grype &> /dev/null || ! command -v jq &> /dev/null || ! command -v gh &> /dev/null; then
+    echo "ERROR: gh, jq, syft and grype must be installed to run this script."
     exit 1
+fi
+
+if ! gh auth status &> /dev/null; then
+	echo "ERROR: gh CLI is not authenticated. Please run 'gh auth login' to authenticate."
+	exit 1
 fi
 
 # Start constructing a top-level index of all the OSS and Agent scans
@@ -64,6 +69,12 @@ cat <<EOF > "$CVE_DIR/cves.md"
 This page hosts all known information about any security issues, mitigations and triaged CVEs.
 
 Please reach out to us at <info@fluent.do> directly for any specific concerns or queries.
+
+--8<-- "docs/security/triaged.md"
+
+--8<-- "docs/security/agent/grype-latest.md"
+
+## Previous and OSS versions
 EOF
 
 function generateReports() {
@@ -96,21 +107,33 @@ function generateReports() {
 
 	# Disable timestamp usage otherwise we get deltas for every run: https://github.com/anchore/grype/pull/2724
 	export GRYPE_TIMESTAMP=false
+	# Pretty-print JSON output by default
+	export GRYPE_PRETTY=true
 
     echo "Running grype for $type_capitalised version: $version"
-    grype "sbom:$dir/syft-$version.json" --output json --file "$dir/grype-$version.json"
+	# Use our VEX file to exclude any triaged CVEs from the report
+    grype "sbom:$dir/syft-$version.json" --output json --file "$dir/grype-$version.json" --vex "$CVE_DIR/vex.json" --quiet
+
+	# Remove any local filesystem information in the output file
+	sed -i "s|$REPO_ROOT/docs/||g" "$dir/grype-$version.json"
+	sed -i "s|$REPO_ROOT/||g" "$dir/grype-$version.json"
+	sed -i "s|$HOME/||g" "$dir/grype-$version.json"
+	# Update the VEX reference to reference our published VEX file
+	sed -i "s|security/vex.json|https://docs.fluent.do/security/vex.json|g" "$dir/grype-$version.json"
+
     grype "sbom:$dir/syft-$version.json" \
 		--output template \
 		--template "$TEMPLATE_DIR/grype-markdown.tmpl" \
 		--file "$dir/grype-$version.md" \
-		--sort-by severity
+		--sort-by severity \
+		--vex "$CVE_DIR/vex.json"
 
     echo "Grype scan completed for $type_capitalised version: $version"
 
     # Add to the index file
     {
     echo ""
-    echo "## $type_capitalised Version: $version"
+    echo "### $type_capitalised Version: $version"
     echo ""
     echo "- [Grype Markdown Report]($type/grype-$version.md)"
     echo "- [Grype JSON Report]($type/grype-$version.json)"
@@ -125,6 +148,36 @@ function generateReports() {
 for agent_version in "${AGENT_VERSIONS[@]}"; do
 	generateReports "$agent_version" "agent"
 done
+
+# Get latest release version of the agent from GitHub API using gh client
+# We require GITHUB_TOKEN to be set in the environment for this to work reliably
+# See https://docs.github.com/en/rest/releases/releases?apiVersion=2022-1128#get-the-latest-release
+LATEST_AGENT_VERSION=$(gh api /repos/fluentdo/agent/releases/latest | jq -r .tag_name)
+# Remove any leading 'v' from the version
+LATEST_AGENT_VERSION=${LATEST_AGENT_VERSION#v}
+# Trim any whitespace
+LATEST_AGENT_VERSION=$(echo -n "$LATEST_AGENT_VERSION" | xargs)
+
+if [[ -z "$LATEST_AGENT_VERSION" ]]; then
+	echo "ERROR: Could not determine latest agent version from GitHub API, ensure gh CLI is authenticated correctly."
+	exit 1
+else
+	# Check if latest version scan already exists
+	if [[ -f "$CVE_DIR/agent/grype-$LATEST_AGENT_VERSION.md" ]]; then
+		echo "Latest agent version scan already exists for version: $LATEST_AGENT_VERSION, skipping generation."
+	else
+		echo "Generating latest agent version scan for version: $LATEST_AGENT_VERSION"
+		generateReports "$LATEST_AGENT_VERSION" "agent"
+	fi
+fi
+
+if [[ ! -f "$CVE_DIR/agent/grype-$LATEST_AGENT_VERSION.md" ]]; then
+	echo "ERROR: Latest agent version scan file not found after generation attempt."
+	exit 1
+fi
+
+# We copy the agent grype report to a "latest" file for easy reference in the main security.md document
+cp -f "$CVE_DIR/agent/grype-$LATEST_AGENT_VERSION.md" "$CVE_DIR/agent/grype-latest.md"
 
 # Run grype for each OSS version
 for oss_version in "${OSS_VERSIONS[@]}"; do
@@ -178,5 +231,6 @@ if [[ "$validation_failed" == "true" ]]; then
     echo "ERROR: Validation failed - some files are missing, empty, or contain invalid JSON"
     exit 1
 fi
+echo "All generated files are valid."
 
 echo "CVE scans completed. Reports are available in $CVE_DIR"

@@ -17,6 +17,8 @@ plugins:
   - search
   - social
   - meta
+markdown_extensions:
+  - pymdownx.snippets
 
 theme:
   name: material

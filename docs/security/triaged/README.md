@@ -13,7 +13,7 @@ Using CVE-2023-2953 as an example, we do the following:
 
     ```shell
     cd docs/security/triaged/CVE-2023-2953
-    vexctl create --product="pkg:docker/fluent/fluent-bit:4.0.9" \
+    vexctl create --product="pkg:oci/fluent-bit" \
                 --vuln="CVE-2023-2953" \
                 --status="under_investigation" \
                 --author="info@fluent.do" \
@@ -25,14 +25,16 @@ Using CVE-2023-2953 as an example, we do the following:
 
     ```shell
     cd docs/security/triaged/CVE-2023-2953
-    vexctl create --product="pkg:docker/fluent/fluent-bit:4.0.9" \
+    vexctl create --product="pkg:oci/fluent-bit" \
                 --vuln="CVE-2023-2953" \
                 --status="not_affected" \
-                --justification="inline_mitigations_already_exist" \
+                --justification="vulnerable_code_not_in_execute_path" \
                 --author="info@fluent.do" \
                 --impact-statement="Fluent Bit does not use this component directly or in the way affected in the CVE." \
                  | tee triaged.vex.json
     ```
+
+    Note that we use the `oci/fluent-bit` pURL which will target any image ending in `fluent-bit`, the full pURL spec lets you specify registry and other information: <https://github.com/package-url/purl-spec>.
 
     For justification you must use one of the expected values: <https://github.com/openvex/spec/blob/main/OPENVEX-SPEC.md#status-justifications>.
     The impact statement is freeform text and will be what we display for user-readable documentation so ensure it is well written and helpful for users.
@@ -51,9 +53,20 @@ The generation process will loop through all CVE directories and merge any VEX f
 cd docs/security/triaged/CVE-2023-2953
 vexctl merge --author="info@fluent.do" \
             investigation.vex.json \
-            triaged.vex.json
+            triaged.vex.json | tee vex.json
 ```
 
 From these we then create a top-level VEX feed/file of everything.
 
 Ensure all new files are added to Git.
+
+## Testing
+
+We can use the VEX document locally to run with Trivy or Grype:
+
+```shell
+trivy image fluent/fluent-bit:4.0.9 --vex docs/security/vex.json
+grype fluent/fluent-bit:4.0.9 --vex docs/security/vex.json
+```
+
+In each case, neither should show the presence of CVE-2023-2953.
