@@ -107,14 +107,26 @@ function generateReports() {
 
 	# Disable timestamp usage otherwise we get deltas for every run: https://github.com/anchore/grype/pull/2724
 	export GRYPE_TIMESTAMP=false
+	# Pretty-print JSON output by default
+	export GRYPE_PRETTY=true
 
     echo "Running grype for $type_capitalised version: $version"
-    grype "sbom:$dir/syft-$version.json" --output json --file "$dir/grype-$version.json"
+	# Use our VEX file to exclude any triaged CVEs from the report
+    grype "sbom:$dir/syft-$version.json" --output json --file "$dir/grype-$version.json" --vex "$CVE_DIR/vex.json" --quiet
+
+	# Remove any local filesystem information in the output file
+	sed -i "s|$REPO_ROOT/docs/||g" "$dir/grype-$version.json"
+	sed -i "s|$REPO_ROOT/||g" "$dir/grype-$version.json"
+	sed -i "s|$HOME/||g" "$dir/grype-$version.json"
+	# Update the VEX reference to reference our published VEX file
+	sed -i "s|security/vex.json|https://docs.fluent.do/security/vex.json|g" "$dir/grype-$version.json"
+
     grype "sbom:$dir/syft-$version.json" \
 		--output template \
 		--template "$TEMPLATE_DIR/grype-markdown.tmpl" \
 		--file "$dir/grype-$version.md" \
-		--sort-by severity
+		--sort-by severity \
+		--vex "$CVE_DIR/vex.json"
 
     echo "Grype scan completed for $type_capitalised version: $version"
 

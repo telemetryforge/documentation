@@ -7783,8 +7783,8 @@
       "output": [
         "json"
       ],
-      "file": "/home/pat/github/fluent-do/documentation/scripts/security/../../docs/security/agent/grype-25.7.1.json",
-      "pretty": false,
+      "file": "security/agent/grype-25.7.1.json",
+      "pretty": true,
       "distro": "",
       "add-cpes-if-none": false,
       "output-template-file": "",
@@ -7852,6 +7852,42 @@
           "vex-status": "",
           "vex-justification": "",
           "match-type": "exact-indirect-match"
+        },
+        {
+          "vulnerability": "",
+          "include-aliases": false,
+          "reason": "",
+          "namespace": "",
+          "fix-state": "",
+          "package": {
+            "name": "",
+            "version": "",
+            "language": "",
+            "type": "",
+            "location": "",
+            "upstream-name": ""
+          },
+          "vex-status": "not_affected",
+          "vex-justification": "",
+          "match-type": ""
+        },
+        {
+          "vulnerability": "",
+          "include-aliases": false,
+          "reason": "",
+          "namespace": "",
+          "fix-state": "",
+          "package": {
+            "name": "",
+            "version": "",
+            "language": "",
+            "type": "",
+            "location": "",
+            "upstream-name": ""
+          },
+          "vex-status": "fixed",
+          "vex-justification": "",
+          "match-type": ""
         }
       ],
       "exclude": [],
@@ -7908,7 +7944,9 @@
       },
       "name": "",
       "default-image-pull-source": "",
-      "vex-documents": [],
+      "vex-documents": [
+        "https://docs.fluent.do/security/vex.json"
+      ],
       "vex-add": [],
       "match-upstream-kernel-headers": false,
       "fix-channel": {
@@ -7919,7 +7957,7 @@
       },
       "timestamp": false,
       "db": {
-        "cache-dir": "/home/pat/.cache/grype/db",
+        "cache-dir": ".cache/grype/db",
         "update-url": "https://grype.anchore.io/databases",
         "ca-cert": "",
         "auto-update": true,
@@ -7943,7 +7981,7 @@
         "schemaVersion": "v6.1.0",
         "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.0_2025-09-04T01:32:37Z_1756966195.tar.zst?checksum=sha256%3A1e86c44a864a6ababc85be32425c6c8d28c72ef0124e5d7ea582db6044545b4d",
         "built": "2025-09-04T06:09:55Z",
-        "path": "/home/pat/.cache/grype/db/6/vulnerability.db",
+        "path": ".cache/grype/db/6/vulnerability.db",
         "valid": true
       },
       "providers": {
