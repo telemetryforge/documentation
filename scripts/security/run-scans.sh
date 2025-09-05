@@ -64,6 +64,12 @@ cat <<EOF > "$CVE_DIR/cves.md"
 This page hosts all known information about any security issues, mitigations and triaged CVEs.
 
 Please reach out to us at <info@fluent.do> directly for any specific concerns or queries.
+
+--8<-- "docs/security/triaged.md"
+
+--8<-- "docs/security/agent/grype-latest.md"
+
+## Previous and OSS versions
 EOF
 
 function generateReports() {
@@ -110,7 +116,7 @@ function generateReports() {
     # Add to the index file
     {
     echo ""
-    echo "## $type_capitalised Version: $version"
+    echo "### $type_capitalised Version: $version"
     echo ""
     echo "- [Grype Markdown Report]($type/grype-$version.md)"
     echo "- [Grype JSON Report]($type/grype-$version.json)"
