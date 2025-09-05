@@ -52,9 +52,14 @@ echo "All versions are valid semver format."
 mkdir -p "$CVE_DIR"/oss "$CVE_DIR"/agent
 
 # Check if syft and grype are installed
-if ! command -v syft &> /dev/null || ! command -v grype &> /dev/null || ! command -v grype &> /dev/null; then
-    echo "ERROR: jq, syft and grype must be installed to run this script."
+if ! command -v syft &> /dev/null || ! command -v grype &> /dev/null || ! command -v jq &> /dev/null || ! command -v gh; then
+    echo "ERROR: gh, jq, syft and grype must be installed to run this script."
     exit 1
+fi
+
+if ! gh auth status &> /dev/null; then
+	echo "ERROR: gh CLI is not authenticated. Please run 'gh auth login' to authenticate."
+	exit 1
 fi
 
 # Start constructing a top-level index of all the OSS and Agent scans
@@ -130,10 +135,31 @@ function generateReports() {
 # Run grype for each Agent version
 for agent_version in "${AGENT_VERSIONS[@]}"; do
 	generateReports "$agent_version" "agent"
+done
+
+# Get latest release version of the agent from GitHub API using gh client
+# We require GITHUB_TOKEN to be set in the environment for this to work reliably
+# See https://docs.github.com/en/rest/releases/releases?apiVersion=2022-1128#get-the-latest-release
+LATEST_AGENT_VERSION=$(gh api /repos/fluentdo/agent/releases/latest | jq -r .tag_name)
+# Remove any leading 'v' from the version
+LATEST_AGENT_VERSION=${LATEST_AGENT_VERSION#v}
+# Trim any whitespace
+LATEST_AGENT_VERSION=$(echo -n "$LATEST_AGENT_VERSION" | xargs)
+
+if [[ -z "$LATEST_AGENT_VERSION" ]]; then
+	echo "ERROR: Could not determine latest agent version from GitHub API, ensure gh CLI is authenticated correctly."
+	exit 0
+else
+	# Check if latest version scan already exists
+	if [[ -f "$CVE_DIR/agent/grype-$LATEST_AGENT_VERSION.md" ]]; then
+		echo "Latest agent version scan already exists for version: $LATEST_AGENT_VERSION, skipping generation."
+	else
+		echo "Generating latest agent version scan for version: $LATEST_AGENT_VERSION"
+		generateReports "$LATEST_AGENT_VERSION" "agent"
+	fi
 	# We copy the agent grype report to a "latest" file for easy reference in the main security.md document
 	cp "$CVE_DIR/agent/grype-$agent_version.md" "$CVE_DIR/agent/grype-latest.md"
-	# We update latest until the final one so assuming the scan config is in order of releases.
-done
+fi
 
 # Run grype for each OSS version
 for oss_version in "${OSS_VERSIONS[@]}"; do
@@ -187,5 +213,6 @@ if [[ "$validation_failed" == "true" ]]; then
     echo "ERROR: Validation failed - some files are missing, empty, or contain invalid JSON"
     exit 1
 fi
+echo "All generated files are valid."
 
 echo "CVE scans completed. Reports are available in $CVE_DIR"
