@@ -74,12 +74,15 @@ Please reach out to us at <info@fluent.do> directly for any specific concerns or
 
 --8<-- "docs/security/agent/grype-latest.md"
 
-## Previous and OSS versions
+## All agent and OSS versions
+
+Full unfiltered reports are shown below, covering all severities and without any filtering for triaged issues.
 EOF
 
 function generateReports() {
 	local version="${1:?Version is required}"
 	local type="${2:?Type is required}"
+	local repository=${3:?Repository is required}
 
 	# Set the first character to uppercase in the type for display purposes
 	local type_capitalised="${type^}"
@@ -95,7 +98,7 @@ function generateReports() {
 		echo "SBOMs already exist for $type_capitalised version: $version, skipping syft generation."
 	else
 	    echo "Running syft for $type_capitalised version: $version"
-		if ! syft "ghcr.io/fluentdo/agent:$version" --output json="$dir/syft-$version.json" --output cyclonedx-json="$dir/cyclonedx-$version.cdx.json" --output spdx-json="$dir/spdx-$version.spdx.json"; then
+		if ! syft "$repository:$version" --output json="$dir/syft-$version.json" --output cyclonedx-json="$dir/cyclonedx-$version.cdx.json" --output spdx-json="$dir/spdx-$version.spdx.json"; then
 			echo "ERROR: Failed to run syft for $type version: $version, skipping grype scan."
 			rm -f "$dir/*-$version.json"
 			exit 1
@@ -121,6 +124,7 @@ function generateReports() {
 	sed -i "s|$REPO_ROOT/docs/||g" "$dir/syft-$version.json"
 	sed -i "s|$REPO_ROOT/||g" "$dir/syft-$version.json"
 	sed -i "s|$HOME/||g" "$dir/syft-$version.json"
+
     grype "sbom:$dir/syft-$version.json" \
 		--output template \
 		--template "$TEMPLATE_DIR/grype-markdown.tmpl" \
@@ -145,7 +149,7 @@ function generateReports() {
 
 # Run grype for each Agent version
 for agent_version in "${AGENT_VERSIONS[@]}"; do
-	generateReports "$agent_version" "agent"
+	generateReports "$agent_version" "agent" "ghcr.io/fluentdo/agent"
 done
 
 # Get latest release version of the agent from GitHub API using gh client
@@ -161,26 +165,22 @@ if [[ -z "$LATEST_AGENT_VERSION" ]]; then
 	echo "ERROR: Could not determine latest agent version from GitHub API, ensure gh CLI is authenticated correctly."
 	exit 1
 else
-	# Check if latest version scan already exists
-	if [[ -f "$CVE_DIR/agent/grype-$LATEST_AGENT_VERSION.md" ]]; then
-		echo "Latest agent version scan already exists for version: $LATEST_AGENT_VERSION, skipping generation."
-	else
-		echo "Generating latest agent version scan for version: $LATEST_AGENT_VERSION"
-		generateReports "$LATEST_AGENT_VERSION" "agent"
-	fi
-fi
+	# We customise the latest agent version scan generation to use the VEX file to exclude any triaged CVEs.
+	# We remove any CVEs that are medium or lower severity as well to reduce noise.
+	echo "Latest agent version from GitHub API is: $LATEST_AGENT_VERSION"
+	echo "Generating latest agent version scan with VEX filtering for version: $LATEST_AGENT_VERSION"
 
-if [[ ! -f "$CVE_DIR/agent/grype-$LATEST_AGENT_VERSION.md" ]]; then
-	echo "ERROR: Latest agent version scan file not found after generation attempt."
-	exit 1
+	grype "ghcr.io/fluentdo/agent:$LATEST_AGENT_VERSION" \
+		--output template \
+		--template "$TEMPLATE_DIR/grype-markdown-table-above-high.tmpl" \
+		--file "$CVE_DIR/agent/grype-latest.md" \
+		--sort-by severity \
+		--vex "$CVE_DIR/vex.json"
 fi
-
-# We copy the agent grype report to a "latest" file for easy reference in the main security.md document
-cp -f "$CVE_DIR/agent/grype-$LATEST_AGENT_VERSION.md" "$CVE_DIR/agent/grype-latest.md"
 
 # Run grype for each OSS version
 for oss_version in "${OSS_VERSIONS[@]}"; do
-	generateReports "$oss_version" "oss"
+	generateReports "$oss_version" "oss" "ghcr.io/fluent/fluent-bit"
 done
 
 # Now iterate over each JSON file and ensure we pretty-print it rather than all on one line.

@@ -8,7 +8,9 @@ Please reach out to us at <info@fluent.do> directly for any specific concerns or
 
 --8<-- "docs/security/agent/grype-latest.md"
 
-## Previous and OSS versions
+## All agent and OSS versions
+
+Full unfiltered reports are shown below, covering all severities and without any filtering for triaged issues.
 
 ### Agent Version: 25.7.1
 
