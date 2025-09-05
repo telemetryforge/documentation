@@ -59157,7 +59157,7 @@
           "relax-dll-claims-when-bundling-detected": true
         },
         "golang": {
-          "local-mod-cache-dir": "/home/pat/go/pkg/mod",
+          "local-mod-cache-dir": "go/pkg/mod",
           "local-vendor-dir": "",
           "main-module-version": {
             "from-build-settings": true,
@@ -59176,7 +59176,7 @@
           "include-indexed-archives": true,
           "include-unindexed-archives": false,
           "maven-base-url": "https://repo1.maven.org/maven2",
-          "maven-localrepository-dir": "/home/pat/.m2/repository",
+          "maven-localrepository-dir": ".m2/repository",
           "max-parent-recursive-depth": 0,
           "resolve-transitive-dependencies": false,
           "use-maven-localrepository": false,

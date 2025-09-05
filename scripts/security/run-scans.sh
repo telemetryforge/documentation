@@ -112,21 +112,20 @@ function generateReports() {
 
     echo "Running grype for $type_capitalised version: $version"
 	# Use our VEX file to exclude any triaged CVEs from the report
-    grype "sbom:$dir/syft-$version.json" --output json --file "$dir/grype-$version.json" --vex "$CVE_DIR/vex.json" --quiet
+    grype "sbom:$dir/syft-$version.json" --output json --file "$dir/grype-$version.json" --quiet
 
-	# Remove any local filesystem information in the output file
+	# Remove any local filesystem information in the output files
 	sed -i "s|$REPO_ROOT/docs/||g" "$dir/grype-$version.json"
 	sed -i "s|$REPO_ROOT/||g" "$dir/grype-$version.json"
 	sed -i "s|$HOME/||g" "$dir/grype-$version.json"
-	# Update the VEX reference to reference our published VEX file
-	sed -i "s|security/vex.json|https://docs.fluent.do/security/vex.json|g" "$dir/grype-$version.json"
-
+	sed -i "s|$REPO_ROOT/docs/||g" "$dir/syft-$version.json"
+	sed -i "s|$REPO_ROOT/||g" "$dir/syft-$version.json"
+	sed -i "s|$HOME/||g" "$dir/syft-$version.json"
     grype "sbom:$dir/syft-$version.json" \
 		--output template \
 		--template "$TEMPLATE_DIR/grype-markdown.tmpl" \
 		--file "$dir/grype-$version.md" \
-		--sort-by severity \
-		--vex "$CVE_DIR/vex.json"
+		--sort-by severity
 
     echo "Grype scan completed for $type_capitalised version: $version"
 

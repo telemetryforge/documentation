@@ -1,5 +1,8 @@
 # Grype Vulnerabilities for ghcr.io/fluent/fluent-bit:4.0.8
 
+Unfiltered vulnerability scan results for ghcr.io/fluent/fluent-bit:4.0.8 using Grype.
+Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.html) or [VEX endpoint](https://docs.fluent.do/security/vex.json) for more information on vulnerabilities that have been reviewed.
+
 | Package | Version Installed | Vulnerability ID | Severity |
 | --- | --- | --- | --- |
 | libldap-2.5-0 | 2.5.13+dfsg-5 | [CVE-2023-2953](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2953) | High |

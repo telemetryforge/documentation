@@ -1,5 +1,8 @@
 # Grype Vulnerabilities for ghcr.io/fluentdo/agent:25.8.4
 
+Unfiltered vulnerability scan results for ghcr.io/fluentdo/agent:25.8.4 using Grype.
+Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.html) or [VEX endpoint](https://docs.fluent.do/security/vex.json) for more information on vulnerabilities that have been reviewed.
+
 | Package | Version Installed | Vulnerability ID | Severity |
 | --- | --- | --- | --- |
 | gnutls | 3.8.3-6.el9 | [CVE-2025-32990](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990) | Medium |

@@ -5664,42 +5664,6 @@
           "vex-status": "",
           "vex-justification": "",
           "match-type": "exact-indirect-match"
-        },
-        {
-          "vulnerability": "",
-          "include-aliases": false,
-          "reason": "",
-          "namespace": "",
-          "fix-state": "",
-          "package": {
-            "name": "",
-            "version": "",
-            "language": "",
-            "type": "",
-            "location": "",
-            "upstream-name": ""
-          },
-          "vex-status": "not_affected",
-          "vex-justification": "",
-          "match-type": ""
-        },
-        {
-          "vulnerability": "",
-          "include-aliases": false,
-          "reason": "",
-          "namespace": "",
-          "fix-state": "",
-          "package": {
-            "name": "",
-            "version": "",
-            "language": "",
-            "type": "",
-            "location": "",
-            "upstream-name": ""
-          },
-          "vex-status": "fixed",
-          "vex-justification": "",
-          "match-type": ""
         }
       ],
       "exclude": [],
@@ -5756,9 +5720,7 @@
       },
       "name": "",
       "default-image-pull-source": "",
-      "vex-documents": [
-        "https://docs.fluent.do/security/vex.json"
-      ],
+      "vex-documents": [],
       "vex-add": [],
       "match-upstream-kernel-headers": false,
       "fix-channel": {
