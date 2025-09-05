@@ -4,6 +4,8 @@ This page hosts all known information about any security issues, mitigations and
 
 Please reach out to us at <info@fluent.do> directly for any specific concerns or queries.
 
+--8<-- "docs/security/agent/grype-latest.md"
+
 ## Agent Version: 25.7.1
 
 - [Grype Markdown Report](agent/grype-25.7.1.md)

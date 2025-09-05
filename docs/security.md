@@ -18,8 +18,6 @@ We triage and resolve all CVEs reported against the FluentDo agent (and to some 
 
 We provide triaged CVE reports both as a [web page](./security/triaged.md) or a [VEX endpoint](./security/vex.json) for easy inclusion in security tooling deployed in your infrastructure.
 
---8<-- "docs/security/agent/grype-latest.md"
-
 ## Build and binary security
 
 ### Security Hardening Features
