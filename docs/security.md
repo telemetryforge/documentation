@@ -12,6 +12,12 @@ FluentDo provides an agent with the following security and compliance considerat
 - Full integration and regression testing in place
 - Hardened container images and best practice helm charts
 
+## CVEs
+
+We triage and resolve all CVEs reported against the FluentDo agent (and to some degree OSS too), please see [this page](./security/cves.md).
+
+We provide triaged CVE reports both as a [web page](./security/triaged.md) or a [VEX endpoint](./security/vex.json) for easy inclusion in security tooling deployed in your infrastructure.
+
 ## Build and binary security
 
 ### Security Hardening Features
@@ -78,8 +84,3 @@ To minimize attack surface and binary size, the following 17 plugins are **disab
 - `FLB_EXAMPLES` - Example binaries
 - `FLB_CHUNK_TRACE` - Debug chunk tracing
 
-## CVEs
-
-We triage and resolve all CVEs reported against the FluentDo agent (and to some degree OSS too), please see [this page](./security/cves.md).
-
-We provide triaged CVE reports both as a [web page](./security/triaged.md) or a [VEX endpoint](./security/vex.json) for easy inclusion in security tooling deployed in your infrastructure.
