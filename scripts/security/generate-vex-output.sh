@@ -98,6 +98,12 @@ done
 echo "Triaged vulnerabilities documentation generated at $OUTPUT_MD"
 
 # Combine all individual vex.json files into a single vex.json file in the root of the repository
-find "$TRIAGED_DIR" -type f -name "vex.json" -exec vexctl merge --author "$AUTHOR" {} + | tee "$COMBINED_VEX_FILE"
+# Combine all individual vex.json files into a single vex.json file in the root of the repository
+vex_files=$(find "$TRIAGED_DIR" -type f -name "vex.json")
+if [ -z "$vex_files" ]; then
+	echo "ERROR: No vex.json files found in $TRIAGED_DIR subdirectories"
+	exit 1
+fi
+echo "$vex_files" | xargs vexctl merge --author "$AUTHOR" | tee "$COMBINED_VEX_FILE"
 
 echo "Combined VEX file generated at $COMBINED_VEX_FILE"
