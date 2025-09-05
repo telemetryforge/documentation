@@ -94,6 +94,27 @@ for dir in "$TRIAGED_DIR"/*/; do
 			exit 1
 		fi
 
+		# Update the status to use spaces instead of underscores for markdown
+		STATUS=${STATUS//_/ }
+		# Update the status to capitalise the first letter of each word but keep spaces
+		STATUS=$(echo "$STATUS" | awk '{for(i=1;i<=NF;i++) $i=toupper(substr($i,1,1)) tolower(substr($i,2))}1')
+		echo "Formatted Status: $STATUS"
+
+		# If IMPACT_STATEMENT is null or empty, set to a default message
+		if [ -z "$IMPACT_STATEMENT" ] || [ "$IMPACT_STATEMENT" == "null" ]; then
+			IMPACT_STATEMENT="No additional information provided."
+		else
+			# Escape pipe characters in the impact statement for markdown table
+			IMPACT_STATEMENT=${IMPACT_STATEMENT//|/\\|}
+		fi
+		# Trim leading and trailing whitespace from impact statement
+		IMPACT_STATEMENT=$(echo "$IMPACT_STATEMENT" | xargs)
+		# Limit impact statement to 200 characters for readability
+		if [ ${#IMPACT_STATEMENT} -gt 200 ]; then
+			IMPACT_STATEMENT="${IMPACT_STATEMENT:0:197}..."
+		fi
+		echo "Impact Statement: $IMPACT_STATEMENT"
+
 		# Append to markdown table
 		RELATIVE_PATH=$(realpath --relative-to="$(dirname "$OUTPUT_MD")" "$MERGED_VEX_FILE")
 		echo "| [$CVE_ID]($RELATIVE_PATH) | $STATUS | $IMPACT_STATEMENT |" >> "$OUTPUT_MD"
