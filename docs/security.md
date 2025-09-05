@@ -18,6 +18,14 @@ We triage and resolve all CVEs reported against the FluentDo agent (and to some 
 
 We provide triaged CVE reports both as a [web page](./security/triaged.md) or a [VEX endpoint](./security/vex.json) for easy inclusion in security tooling deployed in your infrastructure.
 
+The VEX endpoint can be downloaded and used like so:
+
+```shell
+curl -sSfLO https://fluent.do/security/vex.json
+trivy image fluent/fluent-bit:4.0.9 --vex vex.json
+grype fluent/fluent-bit:4.0.9 --vex vex.json
+```
+
 ## Build and binary security
 
 ### Security Hardening Features
