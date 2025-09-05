@@ -66,7 +66,12 @@ for dir in "$TRIAGED_DIR"/*/; do
 		MERGED_VEX_FILE="$dir/vex.json"
 
 		# Merge all *.vex.json files into a single vex.json file
-		vexctl merge --author "$AUTHOR" "$dir"/*.vex.json | tee "$MERGED_VEX_FILE"
+		if ls "$dir"/*.vex.json 1> /dev/null 2>&1; then
+			vexctl merge --author "$AUTHOR" "$dir"/*.vex.json | tee "$MERGED_VEX_FILE"
+		else
+			echo "ERROR: No *.vex.json files found in $dir, skipping."
+			exit 1
+		fi
 
 		# Extract CVE and status from the merged vex.json file
 		CVE_ID=$(jq -r '.statements[0].vulnerability.name' "$MERGED_VEX_FILE")
