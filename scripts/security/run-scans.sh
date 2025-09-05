@@ -170,7 +170,7 @@ else
 		generateReports "$LATEST_AGENT_VERSION" "agent"
 	fi
 	# We copy the agent grype report to a "latest" file for easy reference in the main security.md document
-	cp "$CVE_DIR/agent/grype-$agent_version.md" "$CVE_DIR/agent/grype-latest.md"
+	cp -f "$CVE_DIR/agent/grype-$LATEST_AGENT_VERSION.md" "$CVE_DIR/agent/grype-latest.md"
 fi
 
 # Run grype for each OSS version
