@@ -52,7 +52,7 @@ echo "All versions are valid semver format."
 mkdir -p "$CVE_DIR"/oss "$CVE_DIR"/agent
 
 # Check if syft and grype are installed
-if ! command -v syft &> /dev/null || ! command -v grype &> /dev/null || ! command -v jq &> /dev/null || ! command -v gh; then
+if ! command -v syft &> /dev/null || ! command -v grype &> /dev/null || ! command -v jq &> /dev/null || ! command -v gh &> /dev/null; then
     echo "ERROR: gh, jq, syft and grype must be installed to run this script."
     exit 1
 fi
