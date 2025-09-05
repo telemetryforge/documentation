@@ -49,6 +49,7 @@ for file in $MARKDOWN_FILES; do
     # Check if file should be ignored
     SHOULD_IGNORE=false
     for pattern in "${IGNORE_PATTERNS[@]}"; do
+        # shellcheck disable=SC2053
         if [[ "$REL_PATH" == $pattern ]]; then
             echo "Ignoring: $REL_PATH (matches pattern: $pattern)"
             SHOULD_IGNORE=true
