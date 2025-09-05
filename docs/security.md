@@ -21,7 +21,7 @@ We provide triaged CVE reports both as a [web page](./security/triaged.md) or a 
 The VEX endpoint can be downloaded and used like so:
 
 ```shell
-curl -sSfLO https://fluent.do/security/vex.json
+curl -sSfLO https://docs.fluent.do/security/vex.json
 trivy image fluent/fluent-bit:4.0.9 --vex vex.json
 grype fluent/fluent-bit:4.0.9 --vex vex.json
 ```
