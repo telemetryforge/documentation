@@ -1,0 +1,14 @@
+# Patterns for markdown files that should be ignored by orphaned docs check
+# One pattern per line, supports shell glob patterns
+# Lines starting with # are treated as comments
+
+# README files that don't need to be in navigation
+README.md
+*/README.md
+
+# Template or example files
+**/templates/*.md
+
+# Grype generated files as linked from CVEs page
+security/agent/grype-*.md
+security/oss/grype-*.md

@@ -36,3 +36,12 @@ jobs:
           bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
           ./actionlint -color -shellcheck=
         shell: bash
+
+  check-orphaned-docs:
+    runs-on: ubuntu-latest
+    name: PR - Check Orphaned Documentation
+    steps:
+      - uses: actions/checkout@v5
+      - name: Check for orphaned markdown files
+        run: bash ./scripts/check-orphaned-docs.sh
+        shell: bash
