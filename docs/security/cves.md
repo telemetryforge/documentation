@@ -58,7 +58,7 @@ Please reach out to us at <info@fluent.do> directly for any specific concerns or
 - [CycloneDX JSON SBOM](agent/cyclonedx-25.9.1.cdx.json)
 - [SPDX JSON SBOM](agent/spdx-25.9.1.spdx.json)
 
-## OSS Version: 4.0.3
+## Oss Version: 4.0.3
 
 - [Grype Markdown Report](oss/grype-4.0.3.md)
 - [Grype JSON Report](oss/grype-4.0.3.json)
@@ -67,7 +67,7 @@ Please reach out to us at <info@fluent.do> directly for any specific concerns or
 - [CycloneDX JSON SBOM](oss/cyclonedx-4.0.3.cdx.json)
 - [SPDX JSON SBOM](oss/spdx-4.0.3.spdx.json)
 
-## OSS Version: 4.0.4
+## Oss Version: 4.0.4
 
 - [Grype Markdown Report](oss/grype-4.0.4.md)
 - [Grype JSON Report](oss/grype-4.0.4.json)
@@ -76,7 +76,7 @@ Please reach out to us at <info@fluent.do> directly for any specific concerns or
 - [CycloneDX JSON SBOM](oss/cyclonedx-4.0.4.cdx.json)
 - [SPDX JSON SBOM](oss/spdx-4.0.4.spdx.json)
 
-## OSS Version: 4.0.5
+## Oss Version: 4.0.5
 
 - [Grype Markdown Report](oss/grype-4.0.5.md)
 - [Grype JSON Report](oss/grype-4.0.5.json)
@@ -85,7 +85,7 @@ Please reach out to us at <info@fluent.do> directly for any specific concerns or
 - [CycloneDX JSON SBOM](oss/cyclonedx-4.0.5.cdx.json)
 - [SPDX JSON SBOM](oss/spdx-4.0.5.spdx.json)
 
-## OSS Version: 4.0.6
+## Oss Version: 4.0.6
 
 - [Grype Markdown Report](oss/grype-4.0.6.md)
 - [Grype JSON Report](oss/grype-4.0.6.json)
@@ -94,7 +94,7 @@ Please reach out to us at <info@fluent.do> directly for any specific concerns or
 - [CycloneDX JSON SBOM](oss/cyclonedx-4.0.6.cdx.json)
 - [SPDX JSON SBOM](oss/spdx-4.0.6.spdx.json)
 
-## OSS Version: 4.0.7
+## Oss Version: 4.0.7
 
 - [Grype Markdown Report](oss/grype-4.0.7.md)
 - [Grype JSON Report](oss/grype-4.0.7.json)
@@ -103,7 +103,7 @@ Please reach out to us at <info@fluent.do> directly for any specific concerns or
 - [CycloneDX JSON SBOM](oss/cyclonedx-4.0.7.cdx.json)
 - [SPDX JSON SBOM](oss/spdx-4.0.7.spdx.json)
 
-## OSS Version: 4.0.8
+## Oss Version: 4.0.8
 
 - [Grype Markdown Report](oss/grype-4.0.8.md)
 - [Grype JSON Report](oss/grype-4.0.8.json)
@@ -112,7 +112,7 @@ Please reach out to us at <info@fluent.do> directly for any specific concerns or
 - [CycloneDX JSON SBOM](oss/cyclonedx-4.0.8.cdx.json)
 - [SPDX JSON SBOM](oss/spdx-4.0.8.spdx.json)
 
-## OSS Version: 4.0.9
+## Oss Version: 4.0.9
 
 - [Grype Markdown Report](oss/grype-4.0.9.md)
 - [Grype JSON Report](oss/grype-4.0.9.json)
