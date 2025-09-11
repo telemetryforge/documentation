@@ -6,7 +6,7 @@ Releases can be found or watched here: <https://github.com/FluentDo/releases>
 
 ## Kubernetes versions
 
-We support all mainstream Kubernetes providers including Digital Ocean, Openshift, EKS (AWS), GKS (Google), AKS (Microsoft) and all their supported versions as well.
+We support all mainstream Kubernetes providers including Digital Ocean, Openshift, EKS (AWS), GKE (Google), AKS (Microsoft) and all their supported versions as well.
 
 We test against a matrix of vanilla Kubernetes versions along with the various distributions and configurations required by customers to guarantee the use cases they require are supported.
 
