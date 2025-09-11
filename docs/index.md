@@ -12,6 +12,15 @@ FluentDo Agent is an **enterprise-hardened distribution of Fluent Bit**, maintai
 ✅ **Enterprise features** - Advanced deduplication, AI filtering, and compliance tools
 ✅ **Fully supported** - Direct access to core Fluent Bit maintainers
 
+### Main features
+- [Performant log deduplication at source](./features/record-deduplication.md)
+- [Log sampling processor](./features/log-sampling.md)
+- AI-based filtering and routing
+- Tail sampling and OTTL-style logic
+- Efficient filesystem storage buffer
+- Dedicated integration and regression testing
+- Native flattening filtering to prevent field explosion and type mismatches (e.g. in Opensearch or Elasticsearch)
+
 ## Documentation
 
 - [Supported Platforms](./supported-platforms.md) - Verified OS and architecture support
@@ -29,6 +38,7 @@ FluentDo Agent is an **enterprise-hardened distribution of Fluent Bit**, maintai
 
 ### Data Processing
 
+- **[Log sampling processor](./features/log-sampling.md)**
 - **AI-Powered Filtering** - Intelligent log routing and filtering
 - **Native Field Flattening** - Prevent field explosion in Elasticsearch/OpenSearch
 - **Type Safety** - Automatic type conflict resolution
