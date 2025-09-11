@@ -5,6 +5,7 @@ nav:
   - Features:
     - Record Deduplication: features/record-deduplication.md
     - Hardening and Optimisation: build-optimisations.md
+    - Log Sampling: features/log-sampling.md
   - Security:
     - Overview: security.md
     - CVE Information: security/cves.md
