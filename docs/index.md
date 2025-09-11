@@ -15,6 +15,7 @@ We disable unused plugins and developer-only features at compile time, along wit
 We build on OSS Fluent Bit (as core maintainers of OSS) and provide some specific FluentDo enhancements:
 
 - [Performant log deduplication at source](./features/record-deduplication.md)
+- [Log sampling processor](./features/log-sampling.md)
 - AI-based filtering and routing
 - Tail sampling and OTTL-style logic
 - Efficient filesystem storage buffer
