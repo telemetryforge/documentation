@@ -51,6 +51,13 @@ jobs:
           curl -sSfL https://get.anchore.io/syft | sudo sh -s -- -b /usr/local/bin
         shell: bash
 
+      - name: Ensure we authenticate the GH CLI
+        run: |
+          gh auth status || echo "Not authenticated"
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.get-secrets.outputs.github-pat }}
+
       - name: Add mapping version
         run: |
           chmod +x scripts/add-mapping-version.sh
@@ -60,6 +67,7 @@ jobs:
           NEW_AGENT_VERSION: ${{ inputs.agent-version }}
           NEW_OSS_VERSION: ${{ inputs.oss-version }}
           DRY_RUN: ${{ inputs.dry-run }}
+          GH_TOKEN: ${{ steps.get-secrets.outputs.github-pat }}
 
       - name: Debug info
         run: |
