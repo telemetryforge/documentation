@@ -52,9 +52,18 @@ jobs:
           curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b /usr/local/bin
         shell: bash
 
+      - name: Ensure we authenticate the GH CLI
+        run: |
+          gh auth status || echo "Not authenticated"
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.get-secrets.outputs.github-pat }}
+
       - name: Run CVE scan
         run: ./scripts/security/run-scans.sh
         shell: bash
+        env:
+          GH_TOKEN: ${{ steps.get-secrets.outputs.github-pat }}
 
       - name: Create a PR with the update
         if: ${{ !inputs.dry-run }}
