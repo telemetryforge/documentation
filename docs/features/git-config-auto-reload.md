@@ -17,7 +17,7 @@ State is persisted between restarts, preventing unnecessary reloads when Fluent 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
 | `git_url` | String | Yes | - | Git repository URL (HTTPS, SSH, or file://) |
-| `git_ref` | String | Yes | `main` | Git reference: branch name, tag, or commit SHA |
+| `git_ref` | String | No | `main` | Git reference: branch name, tag, or commit SHA |
 | `config_file` | String | Yes | - | Path to configuration file within the repository |
 | `git_clone_path` | String | No | `/tmp/fluentbit-git-repo` | Local directory for git clone and state storage |
 | `poll_interval_sec` | Integer | No | `60` | Polling interval in seconds to check for updates |
