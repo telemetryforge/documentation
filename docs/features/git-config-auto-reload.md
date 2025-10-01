@@ -125,9 +125,9 @@ pipeline:
 
 **Use case**: Lock configuration to a specific tested commit during development. Fast polling (10s) enables quick iteration. Update `git_ref` to a new commit SHA to deploy changes.
 
-### Example 3: Multiple Environments with Different Polling
+### Example 3: Monitor with Custom Polling Interval
 
-Monitor different branches with environment-specific polling intervals:
+Adjust polling frequency based on environment needs:
 
 ```yaml
 service:
@@ -137,39 +137,19 @@ service:
 
 pipeline:
   inputs:
-    # Production: stable branch, infrequent checks
     - name: git_config
-      alias: git_config_production
       git_url: https://github.com/myorg/configs.git
       git_ref: production
-      config_file: environments/production/fluent-bit.yaml
-      git_clone_path: /var/lib/fluent-bit/prod-config
-      poll_interval_sec: 300
-
-    # Staging: active branch, moderate checks
-    - name: git_config
-      alias: git_config_staging
-      git_url: https://github.com/myorg/configs.git
-      git_ref: staging
-      config_file: environments/staging/fluent-bit.yaml
-      git_clone_path: /var/lib/fluent-bit/staging-config
-      poll_interval_sec: 60
-
-    # Development: fast iteration
-    - name: git_config
-      alias: git_config_dev
-      git_url: https://github.com/myorg/configs.git
-      git_ref: develop
-      config_file: environments/dev/fluent-bit.yaml
-      git_clone_path: /var/lib/fluent-bit/dev-config
-      poll_interval_sec: 10
+      config_file: fluent-bit.yaml
+      git_clone_path: /var/lib/fluent-bit/git-config
+      poll_interval_sec: 300  # Check every 5 minutes
 
   outputs:
     - name: stdout
       match: '*'
 ```
 
-**Use case**: Run separate Fluent Bit instances for different environments, each tracking its own branch with appropriate polling intervals. Production checks every 5 minutes, development checks every 10 seconds.
+**Use case**: Production environment with infrequent configuration changes. Slower polling (300s) reduces network overhead while still detecting updates within an acceptable timeframe.
 
 ## How It Works
 
