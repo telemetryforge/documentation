@@ -15,6 +15,7 @@ FluentDo Agent is an **enterprise-hardened distribution of Fluent Bit**, maintai
 ### Main features
 - [Performant log deduplication at source](./features/record-deduplication.md)
 - [Log sampling processor](./features/log-sampling.md)
+- [Git configuration auto-reload](./features/git-config-auto-reload.md)
 - AI-based filtering and routing
 - Tail sampling and OTTL-style logic
 - Efficient filesystem storage buffer
@@ -35,6 +36,10 @@ FluentDo Agent is an **enterprise-hardened distribution of Fluent Bit**, maintai
 - **[Log Deduplication](./features/record-deduplication.md)** - Eliminate duplicate logs at source, reducing costs by up to 40%
 - **Efficient Storage Buffer** - Advanced filesystem buffering for reliability
 - **Tail Sampling** - Smart sampling with OTTL-style logic for high-volume environments
+
+### Configuration Management
+
+- **[Git Configuration Auto-Reload](./features/git-config-auto-reload.md)** - Automatically reload configuration from Git repositories when changes are detected
 
 ### Data Processing
 

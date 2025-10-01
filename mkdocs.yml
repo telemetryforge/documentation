@@ -3,9 +3,11 @@ site_url: https://fluent.do
 nav:
   - Home: index.md
   - Features:
+    - Overview: features/index.md
     - Record Deduplication: features/record-deduplication.md
-    - Hardening and Optimisation: build-optimisations.md
     - Log Sampling: features/log-sampling.md
+    - Git Configuration Auto-Reload: features/git-config-auto-reload.md
+    - Hardening and Optimisation: build-optimisations.md
   - Security:
     - Overview: security.md
     - CVE Information: security/cves.md
