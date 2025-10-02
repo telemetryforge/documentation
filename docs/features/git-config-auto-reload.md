@@ -1,6 +1,6 @@
 # Git Configuration Auto-Reload
 
-The `git_config` input plugin enables automatic configuration reloading by monitoring a Git repository for changes. When changes are detected, Fluent Bit automatically reloads its configuration without manual intervention or service restarts.
+The `git_config` custom plugin enables automatic configuration reloading by monitoring a Git repository for changes. When changes are detected, Fluent Bit automatically reloads its configuration without manual intervention or service restarts.
 
 ## Overview
 
@@ -12,19 +12,18 @@ This plugin continuously polls a Git repository at a configurable interval. When
 
 State is persisted between restarts, preventing unnecessary reloads when Fluent Bit restarts with an unchanged configuration.
 
+The plugin also exposes Prometheus-compatible metrics for monitoring repository polling and reload operations.
+
 ## Configuration Options
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
-| `git_url` | String | Yes | - | Git repository URL (HTTPS, SSH, or file://) |
-| `git_ref` | String | No | `main` | Git reference: branch name, tag, or commit SHA |
-| `config_file` | String | Yes | - | Path to configuration file within the repository |
-| `git_clone_path` | String | No | `/tmp/fluentbit-git-repo` | Local directory for git clone and state storage |
-| `poll_interval_sec` | Integer | No | `60` | Polling interval in seconds to check for updates |
+| `repo` | String | Yes | - | Git repository URL (HTTPS, SSH, or file://) |
+| `ref` | String | No | `main` | Git reference: branch name, tag, or commit SHA |
+| `path` | String | Yes | - | Path to configuration file within the repository |
+| `clone_path` | String | No | `/tmp/fluentbit-git-repo` | Local directory for git clone and state storage |
+| `poll_interval` | Integer | No | `60` | Polling interval in seconds to check for updates |
 
-### Parameter Details
-
-#### `git_url`
 
 The Git repository URL. Supports multiple protocols:
 
@@ -36,7 +35,7 @@ For private repositories:
 - **HTTPS**: Use personal access tokens in the URL: `https://token@github.com/user/repo.git`
 - **SSH**: Configure SSH keys in `~/.ssh/` (requires `id_rsa` or `id_ed25519`)
 
-#### `git_ref`
+#### `ref`
 
 The Git reference to track. Can be:
 
@@ -46,7 +45,7 @@ The Git reference to track. Can be:
 
 The plugin monitors this reference for changes. When the commit SHA at this ref changes, a reload is triggered.
 
-#### `config_file`
+#### `path`
 
 Path to the configuration file within the repository, relative to the repository root.
 
@@ -55,15 +54,16 @@ Examples:
 - `config/production.yaml`
 - `environments/prod/fluent-bit.conf`
 
-#### `git_clone_path`
+#### `clone_path`
 
 Local directory where:
 - The Git repository is cloned
-- The state file (`.git_last_sha`) is stored
+- SHA-based configuration files are stored
+- The state file (`.last_sha`) is stored
 
 The directory will be created if it doesn't exist. Must be writable by the Fluent Bit process.
 
-#### `poll_interval_sec`
+#### `poll_interval`
 
 How frequently (in seconds) to check the remote repository for changes.
 
@@ -82,19 +82,17 @@ service:
   flush: 1
   daemon: off
   log_level: info
+  http_server: on
+  http_listen: 0.0.0.0
+  http_port: 2020
 
-pipeline:
-  inputs:
-    - name: git_config
-      git_url: https://github.com/myorg/fluent-bit-configs.git
-      git_ref: main
-      config_file: fluent-bit.yaml
-      git_clone_path: /tmp/fluentbit-git
-      poll_interval_sec: 60
-
-  outputs:
-    - name: stdout
-      match: '*'
+customs:
+  - name: git_config
+    repo: https://github.com/myorg/fluent-bit-configs.git
+    ref: main
+    path: fluent-bit.yaml
+    clone_path: /tmp/fluentbit-git
+    poll_interval: 60
 ```
 
 **Use case**: Track the latest configuration on the main branch. Any commits pushed to `main` will trigger a reload within 60 seconds.
@@ -108,22 +106,20 @@ service:
   flush: 1
   daemon: off
   log_level: debug
+  http_server: on
+  http_listen: 0.0.0.0
+  http_port: 2020
 
-pipeline:
-  inputs:
-    - name: git_config
-      git_url: https://github.com/myorg/configs.git
-      git_ref: a3f5c89d124b3e567890abcdef123456789abcde
-      config_file: config/development.yaml
-      git_clone_path: /var/lib/fluent-bit/git-clone
-      poll_interval_sec: 10
-
-  outputs:
-    - name: stdout
-      match: '*'
+customs:
+  - name: git_config
+    repo: https://github.com/myorg/configs.git
+    ref: a3f5c89d124b3e567890abcdef123456789abcde
+    path: config/development.yaml
+    clone_path: /var/lib/fluent-bit/git-clone
+    poll_interval: 10
 ```
 
-**Use case**: Lock configuration to a specific tested commit during development. Fast polling (10s) enables quick iteration. Update `git_ref` to a new commit SHA to deploy changes.
+**Use case**: Lock configuration to a specific tested commit during development. Fast polling (10s) enables quick iteration. Update `ref` to a new commit SHA to deploy changes.
 
 ### Example 3: Monitor with Custom Polling Interval
 
@@ -134,16 +130,19 @@ service:
   flush: 1
   daemon: off
   log_level: info
+  http_server: on
+  http_listen: 0.0.0.0
+  http_port: 2020
+
+customs:
+  - name: git_config
+    repo: https://github.com/myorg/configs.git
+    ref: production
+    path: fluent-bit.yaml
+    clone_path: /var/lib/fluent-bit/git-config
+    poll_interval: 300  # Check every 5 minutes
 
 pipeline:
-  inputs:
-    - name: git_config
-      git_url: https://github.com/myorg/configs.git
-      git_ref: production
-      config_file: fluent-bit.yaml
-      git_clone_path: /var/lib/fluent-bit/git-config
-      poll_interval_sec: 300  # Check every 5 minutes
-
   outputs:
     - name: stdout
       match: '*'
@@ -157,7 +156,7 @@ pipeline:
 
 The plugin stores the last processed commit SHA in a state file:
 ```
-{git_clone_path}/.git_last_sha
+{clone_path}/.last_sha
 ```
 
 This state file:
@@ -171,43 +170,134 @@ When a configuration change is detected:
 
 1. **Sync**: Clone or pull the latest changes from the repository
 2. **Extract**: Read the specified configuration file from the repository
-3. **Write**: Write the configuration to `{git_clone_path}/{config_file}`
-4. **Save State**: Update `.git_last_sha` with the new commit SHA
+3. **Write**: Write the configuration to `{clone_path}/{sha}.yaml`
+4. **Save State**: Update `.last_sha` with the new commit SHA
 5. **Reload**: Send `SIGHUP` signal (Unix) or `CTRL_BREAK` event (Windows) to trigger Fluent Bit reload
 6. **Pause**: Collector is paused during reload to prevent conflicts
 
 ### Change Detection
 
 The plugin uses Git commit SHAs for change detection:
-- Fetches the commit SHA at the specified `git_ref`
+- Fetches the commit SHA at the specified `ref`
 - Compares with the last processed SHA from state file
 - If different, triggers sync and reload
 
 This approach works with:
 - Branch updates (SHA changes when new commits are pushed)
 - Tag updates (if tag is moved to a different commit)
-- Direct SHA monitoring (only reloads if you manually update the `git_ref` parameter)
+- Direct SHA monitoring (only reloads if you manually update the `ref` parameter)
+
+## Metrics and Monitoring
+
+The plugin exposes Prometheus-compatible metrics for monitoring repository polling and reload operations.
+
+### Available Metrics
+
+| Metric | Type | Labels | Description |
+|--------|------|--------|-------------|
+| `fluentbit_git_config_last_poll_timestamp_seconds` | Gauge | `name` | Unix timestamp of the last repository poll |
+| `fluentbit_git_config_last_reload_timestamp_seconds` | Gauge | `name` | Unix timestamp of the last configuration reload |
+| `fluentbit_git_config_poll_errors_total` | Counter | `name` | Total number of repository poll errors |
+| `fluentbit_git_config_sync_errors_total` | Counter | `name` | Total number of git sync errors |
+| `fluentbit_git_config_info` | Gauge | `sha`, `repo` | Plugin information with current SHA and repository |
+
+### Accessing Metrics
+
+Metrics are automatically exposed when the HTTP server is enabled. Access them at the `/api/v1/metrics/prometheus` endpoint:
+
+```bash
+curl http://localhost:2020/api/v1/metrics/prometheus
+```
+
+Example output:
+```
+# HELP fluentbit_git_config_last_poll_timestamp_seconds Unix timestamp of last repository poll
+# TYPE fluentbit_git_config_last_poll_timestamp_seconds gauge
+fluentbit_git_config_last_poll_timestamp_seconds{name="git_config.0"} 1696349234
+
+# HELP fluentbit_git_config_last_reload_timestamp_seconds Unix timestamp of last configuration reload
+# TYPE fluentbit_git_config_last_reload_timestamp_seconds gauge
+fluentbit_git_config_last_reload_timestamp_seconds{name="git_config.0"} 1696349234
+
+# HELP fluentbit_git_config_poll_errors_total Total number of repository poll errors
+# TYPE fluentbit_git_config_poll_errors_total counter
+fluentbit_git_config_poll_errors_total{name="git_config.0"} 0
+
+# HELP fluentbit_git_config_sync_errors_total Total number of git sync errors
+# TYPE fluentbit_git_config_sync_errors_total counter
+fluentbit_git_config_sync_errors_total{name="git_config.0"} 0
+
+# HELP fluentbit_git_config_info Git config plugin info
+# TYPE fluentbit_git_config_info gauge
+fluentbit_git_config_info{sha="abc123def",repo="https://github.com/myorg/configs.git"} 1
+```
+
+### Using Metrics for Alerting
+
+You can use these metrics with monitoring systems like Prometheus and Grafana:
+
+**Prometheus Alert Examples:**
+```yaml
+groups:
+  - name: fluent_bit_git_config
+    rules:
+      - alert: GitConfigStale
+        expr: (time() - fluentbit_git_config_last_poll_timestamp_seconds) > 300
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Git configuration check is stale"
+          description: "No git config poll in the last 5 minutes for {{ $labels.name }}"
+
+      - alert: GitConfigPollErrors
+        expr: rate(fluentbit_git_config_poll_errors_total[5m]) > 0.1
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Git configuration poll errors"
+          description: "{{ $labels.name }} is experiencing poll errors"
+
+      - alert: GitConfigSyncErrors
+        expr: rate(fluentbit_git_config_sync_errors_total[5m]) > 0.1
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Git configuration sync errors"
+          description: "{{ $labels.name }} is experiencing sync errors"
+
+      - alert: GitConfigNotReloaded
+        expr: (time() - fluentbit_git_config_last_reload_timestamp_seconds) > 86400
+        for: 10m
+        labels:
+          severity: info
+        annotations:
+          summary: "Git configuration hasn't been reloaded recently"
+          description: "No config reload in the last 24 hours for {{ $labels.name }} (may be normal if no changes)"
+```
 
 ## Authentication
 
 ### HTTPS with Personal Access Token
 
 ```yaml
-inputs:
+customs:
   - name: git_config
-    git_url: https://ghp_yourtoken123456@github.com/myorg/private-repo.git
-    git_ref: main
-    config_file: fluent-bit.yaml
+    repo: https://ghp_yourtoken123456@github.com/myorg/private-repo.git
+    ref: main
+    path: fluent-bit.yaml
 ```
 
 ### SSH with Key Authentication
 
 ```yaml
-inputs:
+customs:
   - name: git_config
-    git_url: git@github.com:myorg/private-repo.git
-    git_ref: main
-    config_file: fluent-bit.yaml
+    repo: git@github.com:myorg/private-repo.git
+    ref: main
+    path: fluent-bit.yaml
 ```
 
 Requirements:
@@ -219,12 +309,10 @@ Requirements:
 
 The plugin is designed to be resilient to transient errors:
 
-- **Network failures**: Logged as errors, polling continues
-- **Git operation failures**: Logged as errors, retry on next poll
+- **Network failures**: Logged as errors, polling continues, `poll_errors_total` incremented
+- **Git operation failures**: Logged as errors, retry on next poll, `sync_errors_total` incremented
 - **Invalid configuration files**: Reload skipped, polling continues
 - **Missing files**: Logged as errors, polling continues
-
-The collector will never stop due to temporary failures. Check logs for error details.
 
 ## Performance Considerations
 
@@ -253,12 +341,6 @@ Large repositories with extensive history may slow initial cloning. Consider:
 
 ## Troubleshooting
 
-### Plugin Not Loading
-
-Check that libgit2 is available:
-```bash
-ldd /path/to/fluent-bit | grep git2
-```
 
 ### Authentication Failures
 
@@ -288,9 +370,10 @@ service:
 
 Check:
 - Remote repository actually has new commits
-- `git_ref` points to the branch/tag you expect
+- `ref` points to the branch/tag you expect
 - Polling interval hasn't elapsed yet
-- State file permissions: `ls -la {git_clone_path}/.git_last_sha`
+- State file permissions: `ls -la {clone_path}/.last_sha`
+- Metrics: `curl http://localhost:2020/api/v1/metrics/prometheus | grep git_config`
 
 ### Reload Failures
 
@@ -299,6 +382,19 @@ Check:
 - All referenced plugins are available
 - File paths and permissions are correct
 - System allows process to send signals (SIGHUP)
+
+### High Error Rates
+
+Monitor the error metrics:
+```bash
+curl -s http://localhost:2020/api/v1/metrics/prometheus | grep -E "git_config_(poll|sync)_errors"
+```
+
+Common causes:
+- Network connectivity issues
+- Authentication failures
+- Repository access problems
+- Disk space issues in clone_path
 
 ## Security Considerations
 
@@ -309,7 +405,7 @@ Check:
 
 2. **State File**:
    - Contains only the commit SHA (no sensitive data)
-   - Ensure `git_clone_path` permissions prevent unauthorized access
+   - Ensure `clone_path` permissions prevent unauthorized access
 
 3. **Configuration Files**:
    - Validate configuration before pushing to Git
@@ -328,9 +424,11 @@ Check:
 - Does not support git submodules
 - Requires network access to remote repository during polling
 - Configuration file must be tracked in Git (untracked files are not detected)
+- Metrics require HTTP server to be enabled (`http_server: on`)
 
 ## See Also
 
 - [Fluent Bit Hot Reload](https://docs.fluentbit.io/manual/administration/hot-reload)
 - [Git Configuration Best Practices](https://docs.fluentbit.io/manual/administration/configuring-fluent-bit)
-- [Input Plugins Overview](https://docs.fluentbit.io/manual/pipeline/inputs)
+- [Custom Plugins Overview](https://docs.fluentbit.io/manual/development/custom-plugins)
+- [Fluent Bit Metrics](https://docs.fluentbit.io/manual/administration/monitoring)
