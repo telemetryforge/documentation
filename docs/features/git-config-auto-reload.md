@@ -24,9 +24,6 @@ The plugin also exposes Prometheus-compatible metrics for monitoring repository 
 | `clone_path` | String | No | `/tmp/fluentbit-git-repo` | Local directory for git clone and state storage |
 | `poll_interval` | Integer | No | `60` | Polling interval in seconds to check for updates |
 
-### Parameter Details
-
-#### `repo`
 
 The Git repository URL. Supports multiple protocols:
 
@@ -96,11 +93,6 @@ customs:
     path: fluent-bit.yaml
     clone_path: /tmp/fluentbit-git
     poll_interval: 60
-
-pipeline:
-  outputs:
-    - name: stdout
-      match: '*'
 ```
 
 **Use case**: Track the latest configuration on the main branch. Any commits pushed to `main` will trigger a reload within 60 seconds.
@@ -125,11 +117,6 @@ customs:
     path: config/development.yaml
     clone_path: /var/lib/fluent-bit/git-clone
     poll_interval: 10
-
-pipeline:
-  outputs:
-    - name: stdout
-      match: '*'
 ```
 
 **Use case**: Lock configuration to a specific tested commit during development. Fast polling (10s) enables quick iteration. Update `ref` to a new commit SHA to deploy changes.
@@ -327,8 +314,6 @@ The plugin is designed to be resilient to transient errors:
 - **Invalid configuration files**: Reload skipped, polling continues
 - **Missing files**: Logged as errors, polling continues
 
-The collector will never stop due to temporary failures. Check logs and metrics for error details.
-
 ## Performance Considerations
 
 ### Polling Interval
@@ -356,12 +341,6 @@ Large repositories with extensive history may slow initial cloning. Consider:
 
 ## Troubleshooting
 
-### Plugin Not Loading
-
-Check that libgit2 is available:
-```bash
-ldd /path/to/fluent-bit | grep git2
-```
 
 ### Authentication Failures
 
