@@ -1,18 +1,13 @@
-# Grype Vulnerabilities for ghcr.io/fluentdo/agent:25.8.4
+# Grype Vulnerabilities for ghcr.io/fluentdo/agent:25.10.1
 
-Unfiltered vulnerability scan results for ghcr.io/fluentdo/agent:25.8.4 using Grype.
+Unfiltered vulnerability scan results for ghcr.io/fluentdo/agent:25.10.1 using Grype.
 Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.html) or [VEX endpoint](https://docs.fluent.do/security/vex.json) for more information on vulnerabilities that have been reviewed.
 
 | Package | Version Installed | Vulnerability ID | Severity |
 | --- | --- | --- | --- |
-| libpq | 13.20-1.el9_5 | [CVE-2025-4207](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4207) | Medium |
-| gnutls | 3.8.3-6.el9 | [CVE-2025-32990](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990) | Medium |
-| gnutls | 3.8.3-6.el9 | [CVE-2025-6395](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6395) | Medium |
-| gnutls | 3.8.3-6.el9 | [CVE-2025-32988](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32988) | Medium |
 | curl-minimal | 7.76.1-31.el9_6.1 | [CVE-2025-9086](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086) | Medium |
 | libcurl-minimal | 7.76.1-31.el9_6.1 | [CVE-2025-9086](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086) | Medium |
-| systemd-libs | 252-51.el9_6.1 | [CVE-2025-4598](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4598) | Medium |
-| gnutls | 3.8.3-6.el9 | [CVE-2025-32989](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32989) | Medium |
+| systemd-libs | 252-51.el9_6.2 | [CVE-2025-4598](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4598) | Medium |
 | coreutils-single | 8.32-39.el9 | [CVE-2025-5278](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5278) | Medium |
 | openssl | 1:3.2.2-6.el9_5.1 | [CVE-2025-9230](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9230) | Medium |
 | openssl-libs | 1:3.2.2-6.el9_5.1 | [CVE-2025-9230](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9230) | Medium |
