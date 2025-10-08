@@ -24,9 +24,9 @@
         "epss": [
           {
             "cve": "CVE-2024-7264",
-            "epss": 0.04965,
-            "percentile": 0.89253,
-            "date": "2025-10-03"
+            "epss": 0.071,
+            "percentile": 0.91164,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -34,7 +34,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 2.0604750000000003
+        "risk": 2.9465000000000003
       },
       "relatedVulnerabilities": [
         {
@@ -81,9 +81,9 @@
           "epss": [
             {
               "cve": "CVE-2024-7264",
-              "epss": 0.04965,
-              "percentile": 0.89253,
-              "date": "2025-10-03"
+              "epss": 0.071,
+              "percentile": 0.91164,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -176,9 +176,9 @@
         "epss": [
           {
             "cve": "CVE-2024-7264",
-            "epss": 0.04965,
-            "percentile": 0.89253,
-            "date": "2025-10-03"
+            "epss": 0.071,
+            "percentile": 0.91164,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -186,7 +186,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 2.0604750000000003
+        "risk": 2.9465000000000003
       },
       "relatedVulnerabilities": [
         {
@@ -233,9 +233,9 @@
           "epss": [
             {
               "cve": "CVE-2024-7264",
-              "epss": 0.04965,
-              "percentile": 0.89253,
-              "date": "2025-10-03"
+              "epss": 0.071,
+              "percentile": 0.91164,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -329,8 +329,8 @@
           {
             "cve": "CVE-2024-56433",
             "epss": 0.03604,
-            "percentile": 0.87348,
-            "date": "2025-10-03"
+            "percentile": 0.87288,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -370,8 +370,8 @@
             {
               "cve": "CVE-2024-56433",
               "epss": 0.03604,
-              "percentile": 0.87348,
-              "date": "2025-10-03"
+              "percentile": 0.87288,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -459,9 +459,9 @@
         "epss": [
           {
             "cve": "CVE-2024-9681",
-            "epss": 0.00488,
-            "percentile": 0.64701,
-            "date": "2025-10-03"
+            "epss": 0.00571,
+            "percentile": 0.67654,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -469,7 +469,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.16835999999999998
+        "risk": 0.19699499999999998
       },
       "relatedVulnerabilities": [
         {
@@ -514,9 +514,9 @@
           "epss": [
             {
               "cve": "CVE-2024-9681",
-              "epss": 0.00488,
-              "percentile": 0.64701,
-              "date": "2025-10-03"
+              "epss": 0.00571,
+              "percentile": 0.67654,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -609,9 +609,9 @@
         "epss": [
           {
             "cve": "CVE-2024-9681",
-            "epss": 0.00488,
-            "percentile": 0.64701,
-            "date": "2025-10-03"
+            "epss": 0.00571,
+            "percentile": 0.67654,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -619,7 +619,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.16835999999999998
+        "risk": 0.19699499999999998
       },
       "relatedVulnerabilities": [
         {
@@ -664,9 +664,9 @@
           "epss": [
             {
               "cve": "CVE-2024-9681",
-              "epss": 0.00488,
-              "percentile": 0.64701,
-              "date": "2025-10-03"
+              "epss": 0.00571,
+              "percentile": 0.67654,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -737,6 +737,267 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2024-41996",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2024-41996",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "A vulnerability was found in the Diffie-Hellman Ephemeral (DHE) Key Agreement Protocol, where a malicious client can exploit the server's public key validation process. By forcing the server to use DHE and validating the order of public keys, the client can trigger expensive server-side modular exponentiation calculations. This issue results in asymmetric resource consumption, potentially leading to a denial of service (DoS) attack by overwhelming the server with computationally intensive operations.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "metrics": {
+              "baseScore": 5.9,
+              "exploitabilityScore": 2.3,
+              "impactScore": 3.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2024-41996",
+            "epss": 0.00434,
+            "percentile": 0.62022,
+            "date": "2025-10-06"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "wont-fix"
+        },
+        "advisories": [],
+        "risk": 0.19313000000000002
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-41996",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-41996",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://dheatattack.gitlab.io/details/",
+            "https://dheatattack.gitlab.io/faq/",
+            "https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a77fa5ca255d1"
+          ],
+          "description": "Validating the order of the public keys in the Diffie-Hellman Key Agreement Protocol, when an approved safe prime is used, allows remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations. The client may cause asymmetric resource consumption. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE and validate the order of the public key.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2024-41996",
+              "epss": 0.00434,
+              "percentile": 0.62022,
+              "date": "2025-10-06"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "openssl",
+              "version": "1:3.2.2-6.el9_5.1"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-41996",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "7dc75dc862d10c78",
+        "name": "openssl",
+        "version": "1:3.2.2-6.el9_5.1",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "ASL 2.0"
+        ],
+        "cpes": [
+          "cpe:2.3:a:openssl:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/openssl@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": 1,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-41996",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2024-41996",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "A vulnerability was found in the Diffie-Hellman Ephemeral (DHE) Key Agreement Protocol, where a malicious client can exploit the server's public key validation process. By forcing the server to use DHE and validating the order of public keys, the client can trigger expensive server-side modular exponentiation calculations. This issue results in asymmetric resource consumption, potentially leading to a denial of service (DoS) attack by overwhelming the server with computationally intensive operations.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "metrics": {
+              "baseScore": 5.9,
+              "exploitabilityScore": 2.3,
+              "impactScore": 3.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2024-41996",
+            "epss": 0.00434,
+            "percentile": 0.62022,
+            "date": "2025-10-06"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "wont-fix"
+        },
+        "advisories": [],
+        "risk": 0.19313000000000002
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-41996",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-41996",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://dheatattack.gitlab.io/details/",
+            "https://dheatattack.gitlab.io/faq/",
+            "https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a77fa5ca255d1"
+          ],
+          "description": "Validating the order of the public keys in the Diffie-Hellman Key Agreement Protocol, when an approved safe prime is used, allows remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations. The client may cause asymmetric resource consumption. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE and validate the order of the public key.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2024-41996",
+              "epss": 0.00434,
+              "percentile": 0.62022,
+              "date": "2025-10-06"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "openssl",
+              "version": "3.2.2-6.el9_5.1"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-41996",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "58e683943e8aac02",
+        "name": "openssl-libs",
+        "version": "1:3.2.2-6.el9_5.1",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "ASL 2.0"
+        ],
+        "cpes": [
+          "cpe:2.3:a:openssl-libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl-libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl_libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl_libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
+        "upstreams": [
+          {
+            "name": "openssl",
+            "version": "3.2.2-6.el9_5.1"
+          }
+        ],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": 1,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2024-11053",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2024-11053",
         "namespace": "redhat:distro:redhat:9",
@@ -760,8 +1021,8 @@
           {
             "cve": "CVE-2024-11053",
             "epss": 0.00287,
-            "percentile": 0.52039,
-            "date": "2025-10-03"
+            "percentile": 0.51846,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -804,8 +1065,8 @@
             {
               "cve": "CVE-2024-11053",
               "epss": 0.00287,
-              "percentile": 0.52039,
-              "date": "2025-10-03"
+              "percentile": 0.51846,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -899,8 +1160,8 @@
           {
             "cve": "CVE-2024-11053",
             "epss": 0.00287,
-            "percentile": 0.52039,
-            "date": "2025-10-03"
+            "percentile": 0.51846,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -943,8 +1204,8 @@
             {
               "cve": "CVE-2024-11053",
               "epss": 0.00287,
-              "percentile": 0.52039,
-              "date": "2025-10-03"
+              "percentile": 0.51846,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -1038,8 +1299,8 @@
           {
             "cve": "CVE-2024-34459",
             "epss": 0.00208,
-            "percentile": 0.43517,
-            "date": "2025-10-03"
+            "percentile": 0.43357,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -1088,8 +1349,8 @@
             {
               "cve": "CVE-2024-34459",
               "epss": 0.00208,
-              "percentile": 0.43517,
-              "date": "2025-10-03"
+              "percentile": 0.43357,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -1171,9 +1432,9 @@
         "epss": [
           {
             "cve": "CVE-2023-32636",
-            "epss": 0.00179,
-            "percentile": 0.40048,
-            "date": "2025-10-03"
+            "epss": 0.00165,
+            "percentile": 0.38121,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -1181,7 +1442,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.08233999999999998
+        "risk": 0.0759
       },
       "relatedVulnerabilities": [
         {
@@ -1227,9 +1488,9 @@
           "epss": [
             {
               "cve": "CVE-2023-32636",
-              "epss": 0.00179,
-              "percentile": 0.40048,
-              "date": "2025-10-03"
+              "epss": 0.00165,
+              "percentile": 0.38121,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -1289,72 +1550,101 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2024-41996",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2024-41996",
+        "id": "CVE-2025-32990",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-32990",
         "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
+        "severity": "Medium",
         "urls": [],
-        "description": "A vulnerability was found in the Diffie-Hellman Ephemeral (DHE) Key Agreement Protocol, where a malicious client can exploit the server's public key validation process. By forcing the server to use DHE and validating the order of public keys, the client can trigger expensive server-side modular exponentiation calculations. This issue results in asymmetric resource consumption, potentially leading to a denial of service (DoS) attack by overwhelming the server with computationally intensive operations.",
+        "description": "A heap-buffer-overflow (off-by-one) flaw was found in the GnuTLS software in the template parsing logic within the certtool utility. When it reads certain settings from a template file, it allows an attacker to cause an out-of-bounds (OOB) NULL pointer write, resulting in memory corruption and a denial-of-service (DoS) that could potentially crash the system.",
         "cvss": [
           {
             "type": "Secondary",
             "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
             "metrics": {
-              "baseScore": 5.9,
-              "exploitabilityScore": 2.3,
-              "impactScore": 3.6
+              "baseScore": 6.5,
+              "exploitabilityScore": 3.9,
+              "impactScore": 2.6
             },
             "vendorMetadata": {}
           }
         ],
         "epss": [
           {
-            "cve": "CVE-2024-41996",
-            "epss": 0.00166,
-            "percentile": 0.38375,
-            "date": "2025-10-03"
+            "cve": "CVE-2025-32990",
+            "epss": 0.00101,
+            "percentile": 0.28466,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
-          "versions": [],
-          "state": "wont-fix"
+          "versions": [
+            "0:3.8.3-6.el9_6.2"
+          ],
+          "state": "fixed",
+          "available": [
+            {
+              "version": "0:3.8.3-6.el9_6.2",
+              "date": "2025-09-18",
+              "kind": "first-observed"
+            }
+          ]
         },
-        "advisories": [],
-        "risk": 0.07387000000000002
+        "advisories": [
+          {
+            "id": "",
+            "link": "https://access.redhat.com/errata/RHSA-2025:16116"
+          }
+        ],
+        "risk": 0.058075
       },
       "relatedVulnerabilities": [
         {
-          "id": "CVE-2024-41996",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-41996",
+          "id": "CVE-2025-32990",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-32990",
           "namespace": "nvd:cpe",
           "severity": "High",
           "urls": [
-            "https://dheatattack.gitlab.io/details/",
-            "https://dheatattack.gitlab.io/faq/",
-            "https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a77fa5ca255d1"
+            "https://access.redhat.com/errata/RHSA-2025:16115",
+            "https://access.redhat.com/errata/RHSA-2025:16116",
+            "https://access.redhat.com/errata/RHSA-2025:17348",
+            "https://access.redhat.com/errata/RHSA-2025:17361",
+            "https://access.redhat.com/security/cve/CVE-2025-32990",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359620"
           ],
-          "description": "Validating the order of the public keys in the Diffie-Hellman Key Agreement Protocol, when an approved safe prime is used, allows remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations. The client may cause asymmetric resource consumption. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE and validate the order of the public key.",
+          "description": "A heap-buffer-overflow (off-by-one) flaw was found in the GnuTLS software in the template parsing logic within the certtool utility. When it reads certain settings from a template file, it allows an attacker to cause an out-of-bounds (OOB) NULL pointer write, resulting in memory corruption and a denial-of-service (DoS) that could potentially crash the system.",
           "cvss": [
             {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+              "metrics": {
+                "baseScore": 8.2,
+                "exploitabilityScore": 3.9,
+                "impactScore": 4.3
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "secalert@redhat.com",
               "type": "Secondary",
               "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
               "metrics": {
-                "baseScore": 7.5,
+                "baseScore": 6.5,
                 "exploitabilityScore": 3.9,
-                "impactScore": 3.6
+                "impactScore": 2.6
               },
               "vendorMetadata": {}
             }
           ],
           "epss": [
             {
-              "cve": "CVE-2024-41996",
-              "epss": 0.00166,
-              "percentile": 0.38375,
-              "date": "2025-10-03"
+              "cve": "CVE-2025-32990",
+              "epss": 0.00101,
+              "percentile": 0.28466,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -1369,21 +1659,24 @@
               "version": "9.6"
             },
             "package": {
-              "name": "openssl",
-              "version": "1:3.2.2-6.el9_5.1"
+              "name": "gnutls",
+              "version": "0:3.8.3-6.el9"
             },
             "namespace": "redhat:distro:redhat:9"
           },
           "found": {
-            "vulnerabilityID": "CVE-2024-41996",
-            "versionConstraint": "none (unknown)"
+            "vulnerabilityID": "CVE-2025-32990",
+            "versionConstraint": "< 0:3.8.3-6.el9_6.2 (rpm)"
+          },
+          "fix": {
+            "suggestedVersion": "0:3.8.3-6.el9_6.2"
           }
         }
       ],
       "artifact": {
-        "id": "7dc75dc862d10c78",
-        "name": "openssl",
-        "version": "1:3.2.2-6.el9_5.1",
+        "id": "1f56fd24429e9f5d",
+        "name": "gnutls",
+        "version": "3.8.3-6.el9",
         "type": "rpm",
         "locations": [
           {
@@ -1397,96 +1690,125 @@
         ],
         "language": "",
         "licenses": [
-          "ASL 2.0"
+          "GPLv3+ and LGPLv2+"
         ],
         "cpes": [
-          "cpe:2.3:a:openssl:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
+          "cpe:2.3:a:gnutls:gnutls:3.8.3-6.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:gnutls:3.8.3-6.el9:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:rpm/redhat/openssl@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
+        "purl": "pkg:rpm/redhat/gnutls@3.8.3-6.el9?arch=x86_64&distro=rhel-9.6&upstream=gnutls-3.8.3-6.el9.src.rpm",
         "upstreams": [],
         "metadataType": "RpmMetadata",
         "metadata": {
-          "epoch": 1,
+          "epoch": null,
           "modularityLabel": ""
         }
       }
     },
     {
       "vulnerability": {
-        "id": "CVE-2024-41996",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2024-41996",
+        "id": "CVE-2025-32988",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-32988",
         "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
+        "severity": "Medium",
         "urls": [],
-        "description": "A vulnerability was found in the Diffie-Hellman Ephemeral (DHE) Key Agreement Protocol, where a malicious client can exploit the server's public key validation process. By forcing the server to use DHE and validating the order of public keys, the client can trigger expensive server-side modular exponentiation calculations. This issue results in asymmetric resource consumption, potentially leading to a denial of service (DoS) attack by overwhelming the server with computationally intensive operations.",
+        "description": "A flaw was found in GnuTLS. A double-free vulnerability exists in GnuTLS due to incorrect ownership handling in the export logic of Subject Alternative Name (SAN) entries containing an otherName. If the type-id OID is invalid or malformed, GnuTLS will call asn1_delete_structure() on an ASN.1 node it does not own, leading to a double-free condition when the parent function or caller later attempts to free the same structure.\nThis vulnerability can be triggered using only public GnuTLS APIs and may result in denial of service or memory corruption, depending on allocator behavior.",
         "cvss": [
           {
             "type": "Secondary",
             "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H",
             "metrics": {
-              "baseScore": 5.9,
+              "baseScore": 6.5,
               "exploitabilityScore": 2.3,
-              "impactScore": 3.6
+              "impactScore": 4.3
             },
             "vendorMetadata": {}
           }
         ],
         "epss": [
           {
-            "cve": "CVE-2024-41996",
-            "epss": 0.00166,
-            "percentile": 0.38375,
-            "date": "2025-10-03"
+            "cve": "CVE-2025-32988",
+            "epss": 0.00096,
+            "percentile": 0.27597,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
-          "versions": [],
-          "state": "wont-fix"
+          "versions": [
+            "0:3.8.3-6.el9_6.2"
+          ],
+          "state": "fixed",
+          "available": [
+            {
+              "version": "0:3.8.3-6.el9_6.2",
+              "date": "2025-09-18",
+              "kind": "first-observed"
+            }
+          ]
         },
-        "advisories": [],
-        "risk": 0.07387000000000002
+        "advisories": [
+          {
+            "id": "",
+            "link": "https://access.redhat.com/errata/RHSA-2025:16116"
+          }
+        ],
+        "risk": 0.0552
       },
       "relatedVulnerabilities": [
         {
-          "id": "CVE-2024-41996",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-41996",
+          "id": "CVE-2025-32988",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-32988",
           "namespace": "nvd:cpe",
           "severity": "High",
           "urls": [
-            "https://dheatattack.gitlab.io/details/",
-            "https://dheatattack.gitlab.io/faq/",
-            "https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a77fa5ca255d1"
+            "https://access.redhat.com/errata/RHSA-2025:16115",
+            "https://access.redhat.com/errata/RHSA-2025:16116",
+            "https://access.redhat.com/errata/RHSA-2025:17348",
+            "https://access.redhat.com/errata/RHSA-2025:17361",
+            "https://access.redhat.com/security/cve/CVE-2025-32988",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2359622"
           ],
-          "description": "Validating the order of the public keys in the Diffie-Hellman Key Agreement Protocol, when an approved safe prime is used, allows remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations. The client may cause asymmetric resource consumption. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE and validate the order of the public key.",
+          "description": "A flaw was found in GnuTLS. A double-free vulnerability exists in GnuTLS due to incorrect ownership handling in the export logic of Subject Alternative Name (SAN) entries containing an otherName. If the type-id OID is invalid or malformed, GnuTLS will call asn1_delete_structure() on an ASN.1 node it does not own, leading to a double-free condition when the parent function or caller later attempts to free the same structure.\n\nThis vulnerability can be triggered using only public GnuTLS APIs and may result in denial of service or memory corruption, depending on allocator behavior.",
           "cvss": [
             {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+              "metrics": {
+                "baseScore": 8.2,
+                "exploitabilityScore": 3.9,
+                "impactScore": 4.3
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "secalert@redhat.com",
               "type": "Secondary",
               "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H",
               "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
+                "baseScore": 6.5,
+                "exploitabilityScore": 2.3,
+                "impactScore": 4.3
               },
               "vendorMetadata": {}
             }
           ],
           "epss": [
             {
-              "cve": "CVE-2024-41996",
-              "epss": 0.00166,
-              "percentile": 0.38375,
-              "date": "2025-10-03"
+              "cve": "CVE-2025-32988",
+              "epss": 0.00096,
+              "percentile": 0.27597,
+              "date": "2025-10-06"
             }
           ]
         }
       ],
       "matchDetails": [
         {
-          "type": "exact-indirect-match",
+          "type": "exact-direct-match",
           "matcher": "rpm-matcher",
           "searchedBy": {
             "distro": {
@@ -1494,21 +1816,24 @@
               "version": "9.6"
             },
             "package": {
-              "name": "openssl",
-              "version": "3.2.2-6.el9_5.1"
+              "name": "gnutls",
+              "version": "0:3.8.3-6.el9"
             },
             "namespace": "redhat:distro:redhat:9"
           },
           "found": {
-            "vulnerabilityID": "CVE-2024-41996",
-            "versionConstraint": "none (unknown)"
+            "vulnerabilityID": "CVE-2025-32988",
+            "versionConstraint": "< 0:3.8.3-6.el9_6.2 (rpm)"
+          },
+          "fix": {
+            "suggestedVersion": "0:3.8.3-6.el9_6.2"
           }
         }
       ],
       "artifact": {
-        "id": "58e683943e8aac02",
-        "name": "openssl-libs",
-        "version": "1:3.2.2-6.el9_5.1",
+        "id": "1f56fd24429e9f5d",
+        "name": "gnutls",
+        "version": "3.8.3-6.el9",
         "type": "rpm",
         "locations": [
           {
@@ -1522,28 +1847,17 @@
         ],
         "language": "",
         "licenses": [
-          "ASL 2.0"
+          "GPLv3+ and LGPLv2+"
         ],
         "cpes": [
-          "cpe:2.3:a:openssl-libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl-libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl_libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl_libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
+          "cpe:2.3:a:gnutls:gnutls:3.8.3-6.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:gnutls:3.8.3-6.el9:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
-        "upstreams": [
-          {
-            "name": "openssl",
-            "version": "3.2.2-6.el9_5.1"
-          }
-        ],
+        "purl": "pkg:rpm/redhat/gnutls@3.8.3-6.el9?arch=x86_64&distro=rhel-9.6&upstream=gnutls-3.8.3-6.el9.src.rpm",
+        "upstreams": [],
         "metadataType": "RpmMetadata",
         "metadata": {
-          "epoch": 1,
+          "epoch": null,
           "modularityLabel": ""
         }
       }
@@ -1573,8 +1887,8 @@
           {
             "cve": "CVE-2025-1632",
             "epss": 0.00156,
-            "percentile": 0.37161,
-            "date": "2025-10-03"
+            "percentile": 0.37007,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -1650,8 +1964,8 @@
             {
               "cve": "CVE-2025-1632",
               "epss": 0.00156,
-              "percentile": 0.37161,
-              "date": "2025-10-03"
+              "percentile": 0.37007,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -1711,161 +2025,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-32990",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-32990",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Medium",
-        "urls": [],
-        "description": "A heap-buffer-overflow (off-by-one) flaw was found in the GnuTLS software in the template parsing logic within the certtool utility. When it reads certain settings from a template file, it allows an attacker to cause an out-of-bounds (OOB) NULL pointer write, resulting in memory corruption and a denial-of-service (DoS) that could potentially crash the system.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
-            "metrics": {
-              "baseScore": 6.5,
-              "exploitabilityScore": 3.9,
-              "impactScore": 2.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-32990",
-            "epss": 0.00079,
-            "percentile": 0.24422,
-            "date": "2025-10-03"
-          }
-        ],
-        "fix": {
-          "versions": [
-            "0:3.8.3-6.el9_6.2"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "0:3.8.3-6.el9_6.2",
-              "date": "2025-09-18",
-              "kind": "first-observed"
-            }
-          ]
-        },
-        "advisories": [
-          {
-            "id": "",
-            "link": "https://access.redhat.com/errata/RHSA-2025:16116"
-          }
-        ],
-        "risk": 0.04542499999999999
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-32990",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-32990",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://access.redhat.com/errata/RHSA-2025:16115",
-            "https://access.redhat.com/errata/RHSA-2025:16116",
-            "https://access.redhat.com/security/cve/CVE-2025-32990",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2359620"
-          ],
-          "description": "A heap-buffer-overflow (off-by-one) flaw was found in the GnuTLS software in the template parsing logic within the certtool utility. When it reads certain settings from a template file, it allows an attacker to cause an out-of-bounds (OOB) NULL pointer write, resulting in memory corruption and a denial-of-service (DoS) that could potentially crash the system.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
-              "metrics": {
-                "baseScore": 8.2,
-                "exploitabilityScore": 3.9,
-                "impactScore": 4.3
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
-              "metrics": {
-                "baseScore": 6.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 2.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-32990",
-              "epss": 0.00079,
-              "percentile": 0.24422,
-              "date": "2025-10-03"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "gnutls",
-              "version": "0:3.8.3-6.el9"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-32990",
-            "versionConstraint": "< 0:3.8.3-6.el9_6.2 (rpm)"
-          },
-          "fix": {
-            "suggestedVersion": "0:3.8.3-6.el9_6.2"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "1f56fd24429e9f5d",
-        "name": "gnutls",
-        "version": "3.8.3-6.el9",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "GPLv3+ and LGPLv2+"
-        ],
-        "cpes": [
-          "cpe:2.3:a:gnutls:gnutls:3.8.3-6.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:gnutls:3.8.3-6.el9:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/gnutls@3.8.3-6.el9?arch=x86_64&distro=rhel-9.6&upstream=gnutls-3.8.3-6.el9.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-6395",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-6395",
         "namespace": "redhat:distro:redhat:9",
@@ -1888,9 +2047,9 @@
         "epss": [
           {
             "cve": "CVE-2025-6395",
-            "epss": 0.00062,
-            "percentile": 0.19839,
-            "date": "2025-10-03"
+            "epss": 0.0008,
+            "percentile": 0.24407,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -1912,7 +2071,7 @@
             "link": "https://access.redhat.com/errata/RHSA-2025:16116"
           }
         ],
-        "risk": 0.03565
+        "risk": 0.046
       },
       "relatedVulnerabilities": [
         {
@@ -1923,6 +2082,8 @@
           "urls": [
             "https://access.redhat.com/errata/RHSA-2025:16115",
             "https://access.redhat.com/errata/RHSA-2025:16116",
+            "https://access.redhat.com/errata/RHSA-2025:17348",
+            "https://access.redhat.com/errata/RHSA-2025:17361",
             "https://access.redhat.com/security/cve/CVE-2025-6395",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2376755"
           ],
@@ -1944,9 +2105,9 @@
           "epss": [
             {
               "cve": "CVE-2025-6395",
-              "epss": 0.00062,
-              "percentile": 0.19839,
-              "date": "2025-10-03"
+              "epss": 0.0008,
+              "percentile": 0.24407,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -2009,106 +2170,79 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-32988",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-32988",
+        "id": "CVE-2025-9086",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9086",
         "namespace": "redhat:distro:redhat:9",
         "severity": "Medium",
         "urls": [],
-        "description": "A flaw was found in GnuTLS. A double-free vulnerability exists in GnuTLS due to incorrect ownership handling in the export logic of Subject Alternative Name (SAN) entries containing an otherName. If the type-id OID is invalid or malformed, GnuTLS will call asn1_delete_structure() on an ASN.1 node it does not own, leading to a double-free condition when the parent function or caller later attempts to free the same structure.\nThis vulnerability can be triggered using only public GnuTLS APIs and may result in denial of service or memory corruption, depending on allocator behavior.",
+        "description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\nhostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\nSince this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\nboundary\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
         "cvss": [
           {
             "type": "Secondary",
             "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
             "metrics": {
-              "baseScore": 6.5,
-              "exploitabilityScore": 2.3,
-              "impactScore": 4.3
+              "baseScore": 5.3,
+              "exploitabilityScore": 3.9,
+              "impactScore": 1.5
             },
             "vendorMetadata": {}
           }
         ],
         "epss": [
           {
-            "cve": "CVE-2025-32988",
-            "epss": 0.00061,
-            "percentile": 0.19352,
-            "date": "2025-10-03"
+            "cve": "CVE-2025-9086",
+            "epss": 0.00071,
+            "percentile": 0.22183,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
-          "versions": [
-            "0:3.8.3-6.el9_6.2"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "0:3.8.3-6.el9_6.2",
-              "date": "2025-09-18",
-              "kind": "first-observed"
-            }
-          ]
+          "versions": [],
+          "state": "not-fixed"
         },
-        "advisories": [
-          {
-            "id": "",
-            "link": "https://access.redhat.com/errata/RHSA-2025:16116"
-          }
-        ],
-        "risk": 0.035074999999999995
+        "advisories": [],
+        "risk": 0.036565
       },
       "relatedVulnerabilities": [
         {
-          "id": "CVE-2025-32988",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-32988",
+          "id": "CVE-2025-9086",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9086",
           "namespace": "nvd:cpe",
           "severity": "High",
           "urls": [
-            "https://access.redhat.com/errata/RHSA-2025:16115",
-            "https://access.redhat.com/errata/RHSA-2025:16116",
-            "https://access.redhat.com/security/cve/CVE-2025-32988",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2359622"
+            "https://curl.se/docs/CVE-2025-9086.html",
+            "https://curl.se/docs/CVE-2025-9086.json",
+            "https://hackerone.com/reports/3294999"
           ],
-          "description": "A flaw was found in GnuTLS. A double-free vulnerability exists in GnuTLS due to incorrect ownership handling in the export logic of Subject Alternative Name (SAN) entries containing an otherName. If the type-id OID is invalid or malformed, GnuTLS will call asn1_delete_structure() on an ASN.1 node it does not own, leading to a double-free condition when the parent function or caller later attempts to free the same structure.\n\nThis vulnerability can be triggered using only public GnuTLS APIs and may result in denial of service or memory corruption, depending on allocator behavior.",
+          "description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\n   hostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\n   Since this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\n   boundary\n\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\n\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
           "cvss": [
             {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
-              "metrics": {
-                "baseScore": 8.2,
-                "exploitabilityScore": 3.9,
-                "impactScore": 4.3
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "secalert@redhat.com",
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
               "type": "Secondary",
               "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
               "metrics": {
-                "baseScore": 6.5,
-                "exploitabilityScore": 2.3,
-                "impactScore": 4.3
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
               },
               "vendorMetadata": {}
             }
           ],
           "epss": [
             {
-              "cve": "CVE-2025-32988",
-              "epss": 0.00061,
-              "percentile": 0.19352,
-              "date": "2025-10-03"
+              "cve": "CVE-2025-9086",
+              "epss": 0.00071,
+              "percentile": 0.22183,
+              "date": "2025-10-06"
             }
           ]
         }
       ],
       "matchDetails": [
         {
-          "type": "exact-direct-match",
+          "type": "exact-indirect-match",
           "matcher": "rpm-matcher",
           "searchedBy": {
             "distro": {
@@ -2116,24 +2250,21 @@
               "version": "9.6"
             },
             "package": {
-              "name": "gnutls",
-              "version": "0:3.8.3-6.el9"
+              "name": "curl",
+              "version": "7.76.1-31.el9_6.1"
             },
             "namespace": "redhat:distro:redhat:9"
           },
           "found": {
-            "vulnerabilityID": "CVE-2025-32988",
-            "versionConstraint": "< 0:3.8.3-6.el9_6.2 (rpm)"
-          },
-          "fix": {
-            "suggestedVersion": "0:3.8.3-6.el9_6.2"
+            "vulnerabilityID": "CVE-2025-9086",
+            "versionConstraint": "none (unknown)"
           }
         }
       ],
       "artifact": {
-        "id": "1f56fd24429e9f5d",
-        "name": "gnutls",
-        "version": "3.8.3-6.el9",
+        "id": "707ec843794b77ca",
+        "name": "curl-minimal",
+        "version": "7.76.1-31.el9_6.1",
         "type": "rpm",
         "locations": [
           {
@@ -2147,14 +2278,161 @@
         ],
         "language": "",
         "licenses": [
-          "GPLv3+ and LGPLv2+"
+          "MIT"
         ],
         "cpes": [
-          "cpe:2.3:a:gnutls:gnutls:3.8.3-6.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:gnutls:3.8.3-6.el9:*:*:*:*:*:*:*"
+          "cpe:2.3:a:curl-minimal:curl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:curl-minimal:curl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:curl_minimal:curl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:curl_minimal:curl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:curl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:curl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:curl:curl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:curl:curl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:rpm/redhat/gnutls@3.8.3-6.el9?arch=x86_64&distro=rhel-9.6&upstream=gnutls-3.8.3-6.el9.src.rpm",
-        "upstreams": [],
+        "purl": "pkg:rpm/redhat/curl-minimal@7.76.1-31.el9_6.1?arch=x86_64&distro=rhel-9.6&upstream=curl-7.76.1-31.el9_6.1.src.rpm",
+        "upstreams": [
+          {
+            "name": "curl",
+            "version": "7.76.1-31.el9_6.1"
+          }
+        ],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-9086",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9086",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Medium",
+        "urls": [],
+        "description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\nhostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\nSince this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\nboundary\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "metrics": {
+              "baseScore": 5.3,
+              "exploitabilityScore": 3.9,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-9086",
+            "epss": 0.00071,
+            "percentile": 0.22183,
+            "date": "2025-10-06"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.036565
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-9086",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9086",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://curl.se/docs/CVE-2025-9086.html",
+            "https://curl.se/docs/CVE-2025-9086.json",
+            "https://hackerone.com/reports/3294999"
+          ],
+          "description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\n   hostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\n   Since this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\n   boundary\n\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\n\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-9086",
+              "epss": 0.00071,
+              "percentile": 0.22183,
+              "date": "2025-10-06"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "curl",
+              "version": "7.76.1-31.el9_6.1"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-9086",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "220f5f360bc1aff5",
+        "name": "libcurl-minimal",
+        "version": "7.76.1-31.el9_6.1",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "MIT"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libcurl-minimal:libcurl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libcurl-minimal:libcurl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libcurl_minimal:libcurl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libcurl_minimal:libcurl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libcurl:libcurl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libcurl:libcurl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:libcurl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:libcurl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9_6.1?arch=x86_64&distro=rhel-9.6&upstream=curl-7.76.1-31.el9_6.1.src.rpm",
+        "upstreams": [
+          {
+            "name": "curl",
+            "version": "7.76.1-31.el9_6.1"
+          }
+        ],
         "metadataType": "RpmMetadata",
         "metadata": {
           "epoch": null,
@@ -2187,8 +2465,8 @@
           {
             "cve": "CVE-2024-13176",
             "epss": 0.00089,
-            "percentile": 0.26537,
-            "date": "2025-10-03"
+            "percentile": 0.26402,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -2237,8 +2515,8 @@
             {
               "cve": "CVE-2024-13176",
               "epss": 0.00089,
-              "percentile": 0.26537,
-              "date": "2025-10-03"
+              "percentile": 0.26402,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -2321,8 +2599,8 @@
           {
             "cve": "CVE-2024-13176",
             "epss": 0.00089,
-            "percentile": 0.26537,
-            "date": "2025-10-03"
+            "percentile": 0.26402,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -2371,8 +2649,8 @@
             {
               "cve": "CVE-2024-13176",
               "epss": 0.00089,
-              "percentile": 0.26537,
-              "date": "2025-10-03"
+              "percentile": 0.26402,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -2466,8 +2744,8 @@
           {
             "cve": "CVE-2023-45322",
             "epss": 0.00076,
-            "percentile": 0.23771,
-            "date": "2025-10-03"
+            "percentile": 0.23616,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -2510,8 +2788,8 @@
             {
               "cve": "CVE-2023-45322",
               "epss": 0.00076,
-              "percentile": 0.23771,
-              "date": "2025-10-03"
+              "percentile": 0.23616,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -2571,278 +2849,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-9086",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9086",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Medium",
-        "urls": [],
-        "description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\nhostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\nSince this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\nboundary\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-            "metrics": {
-              "baseScore": 5.3,
-              "exploitabilityScore": 3.9,
-              "impactScore": 1.5
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-9086",
-            "epss": 0.0005,
-            "percentile": 0.15303,
-            "date": "2025-10-03"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.025750000000000002
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-9086",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9086",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://curl.se/docs/CVE-2025-9086.html",
-            "https://curl.se/docs/CVE-2025-9086.json",
-            "https://hackerone.com/reports/3294999"
-          ],
-          "description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\n   hostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\n   Since this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\n   boundary\n\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\n\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-9086",
-              "epss": 0.0005,
-              "percentile": 0.15303,
-              "date": "2025-10-03"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "curl",
-              "version": "7.76.1-31.el9_6.1"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-9086",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "707ec843794b77ca",
-        "name": "curl-minimal",
-        "version": "7.76.1-31.el9_6.1",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "MIT"
-        ],
-        "cpes": [
-          "cpe:2.3:a:curl-minimal:curl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:curl-minimal:curl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:curl_minimal:curl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:curl_minimal:curl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:curl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:curl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:curl:curl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:curl:curl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/curl-minimal@7.76.1-31.el9_6.1?arch=x86_64&distro=rhel-9.6&upstream=curl-7.76.1-31.el9_6.1.src.rpm",
-        "upstreams": [
-          {
-            "name": "curl",
-            "version": "7.76.1-31.el9_6.1"
-          }
-        ],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-9086",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9086",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Medium",
-        "urls": [],
-        "description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\nhostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\nSince this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\nboundary\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-            "metrics": {
-              "baseScore": 5.3,
-              "exploitabilityScore": 3.9,
-              "impactScore": 1.5
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-9086",
-            "epss": 0.0005,
-            "percentile": 0.15303,
-            "date": "2025-10-03"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.025750000000000002
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-9086",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9086",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://curl.se/docs/CVE-2025-9086.html",
-            "https://curl.se/docs/CVE-2025-9086.json",
-            "https://hackerone.com/reports/3294999"
-          ],
-          "description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\n   hostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\n   Since this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\n   boundary\n\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\n\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-9086",
-              "epss": 0.0005,
-              "percentile": 0.15303,
-              "date": "2025-10-03"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "curl",
-              "version": "7.76.1-31.el9_6.1"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-9086",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "220f5f360bc1aff5",
-        "name": "libcurl-minimal",
-        "version": "7.76.1-31.el9_6.1",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "MIT"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libcurl-minimal:libcurl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libcurl-minimal:libcurl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libcurl_minimal:libcurl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libcurl_minimal:libcurl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libcurl:libcurl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libcurl:libcurl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:libcurl-minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:libcurl_minimal:7.76.1-31.el9_6.1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9_6.1?arch=x86_64&distro=rhel-9.6&upstream=curl-7.76.1-31.el9_6.1.src.rpm",
-        "upstreams": [
-          {
-            "name": "curl",
-            "version": "7.76.1-31.el9_6.1"
-          }
-        ],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-4598",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-4598",
         "namespace": "redhat:distro:redhat:9",
@@ -2866,8 +2872,8 @@
           {
             "cve": "CVE-2025-4598",
             "epss": 0.00053,
-            "percentile": 0.16771,
-            "date": "2025-10-03"
+            "percentile": 0.16658,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -2912,8 +2918,8 @@
             {
               "cve": "CVE-2025-4598",
               "epss": 0.00053,
-              "percentile": 0.16771,
-              "date": "2025-10-03"
+              "percentile": 0.16658,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -3007,8 +3013,8 @@
           {
             "cve": "CVE-2022-41409",
             "epss": 0.00061,
-            "percentile": 0.19315,
-            "date": "2025-10-03"
+            "percentile": 0.19195,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -3049,8 +3055,8 @@
             {
               "cve": "CVE-2022-41409",
               "epss": 0.00061,
-              "percentile": 0.19315,
-              "date": "2025-10-03"
+              "percentile": 0.19195,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -3133,8 +3139,8 @@
           {
             "cve": "CVE-2022-41409",
             "epss": 0.00061,
-            "percentile": 0.19315,
-            "date": "2025-10-03"
+            "percentile": 0.19195,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -3175,8 +3181,8 @@
             {
               "cve": "CVE-2022-41409",
               "epss": 0.00061,
-              "percentile": 0.19315,
-              "date": "2025-10-03"
+              "percentile": 0.19195,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -3269,9 +3275,9 @@
         "epss": [
           {
             "cve": "CVE-2023-50495",
-            "epss": 0.00051,
-            "percentile": 0.15957,
-            "date": "2025-10-03"
+            "epss": 0.0005,
+            "percentile": 0.15274,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -3279,7 +3285,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.024225
+        "risk": 0.02375
       },
       "relatedVulnerabilities": [
         {
@@ -3315,9 +3321,9 @@
           "epss": [
             {
               "cve": "CVE-2023-50495",
-              "epss": 0.00051,
-              "percentile": 0.15957,
-              "date": "2025-10-03"
+              "epss": 0.0005,
+              "percentile": 0.15274,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -3410,9 +3416,9 @@
         "epss": [
           {
             "cve": "CVE-2023-50495",
-            "epss": 0.00051,
-            "percentile": 0.15957,
-            "date": "2025-10-03"
+            "epss": 0.0005,
+            "percentile": 0.15274,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -3420,7 +3426,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.024225
+        "risk": 0.02375
       },
       "relatedVulnerabilities": [
         {
@@ -3456,9 +3462,9 @@
           "epss": [
             {
               "cve": "CVE-2023-50495",
-              "epss": 0.00051,
-              "percentile": 0.15957,
-              "date": "2025-10-03"
+              "epss": 0.0005,
+              "percentile": 0.15274,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -3551,9 +3557,9 @@
         "epss": [
           {
             "cve": "CVE-2022-27943",
-            "epss": 0.00051,
-            "percentile": 0.15894,
-            "date": "2025-10-03"
+            "epss": 0.0005,
+            "percentile": 0.15232,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -3561,7 +3567,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.021675000000000003
+        "risk": 0.02125
       },
       "relatedVulnerabilities": [
         {
@@ -3607,9 +3613,9 @@
           "epss": [
             {
               "cve": "CVE-2022-27943",
-              "epss": 0.00051,
-              "percentile": 0.15894,
-              "date": "2025-10-03"
+              "epss": 0.0005,
+              "percentile": 0.15232,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -3696,9 +3702,9 @@
         "epss": [
           {
             "cve": "CVE-2022-27943",
-            "epss": 0.00051,
-            "percentile": 0.15894,
-            "date": "2025-10-03"
+            "epss": 0.0005,
+            "percentile": 0.15232,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -3706,7 +3712,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.021675000000000003
+        "risk": 0.02125
       },
       "relatedVulnerabilities": [
         {
@@ -3752,9 +3758,9 @@
           "epss": [
             {
               "cve": "CVE-2022-27943",
-              "epss": 0.00051,
-              "percentile": 0.15894,
-              "date": "2025-10-03"
+              "epss": 0.0005,
+              "percentile": 0.15232,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -3842,8 +3848,8 @@
           {
             "cve": "CVE-2025-3360",
             "epss": 0.00061,
-            "percentile": 0.19565,
-            "date": "2025-10-03"
+            "percentile": 0.19444,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -3883,8 +3889,8 @@
             {
               "cve": "CVE-2025-3360",
               "epss": 0.00061,
-              "percentile": 0.19565,
-              "date": "2025-10-03"
+              "percentile": 0.19444,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -3967,8 +3973,8 @@
           {
             "cve": "CVE-2025-27113",
             "epss": 0.00059,
-            "percentile": 0.18802,
-            "date": "2025-10-03"
+            "percentile": 0.18687,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -4019,8 +4025,8 @@
             {
               "cve": "CVE-2025-27113",
               "epss": 0.00059,
-              "percentile": 0.18802,
-              "date": "2025-10-03"
+              "percentile": 0.18687,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -4102,9 +4108,9 @@
         "epss": [
           {
             "cve": "CVE-2025-32989",
-            "epss": 0.00029,
-            "percentile": 0.06968,
-            "date": "2025-10-03"
+            "epss": 0.00034,
+            "percentile": 0.09059,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -4126,7 +4132,7 @@
             "link": "https://access.redhat.com/errata/RHSA-2025:16116"
           }
         ],
-        "risk": 0.014935
+        "risk": 0.01751
       },
       "relatedVulnerabilities": [
         {
@@ -4137,6 +4143,8 @@
           "urls": [
             "https://access.redhat.com/errata/RHSA-2025:16115",
             "https://access.redhat.com/errata/RHSA-2025:16116",
+            "https://access.redhat.com/errata/RHSA-2025:17348",
+            "https://access.redhat.com/errata/RHSA-2025:17361",
             "https://access.redhat.com/security/cve/CVE-2025-32989",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2359621"
           ],
@@ -4158,9 +4166,9 @@
           "epss": [
             {
               "cve": "CVE-2025-32989",
-              "epss": 0.00029,
-              "percentile": 0.06968,
-              "date": "2025-10-03"
+              "epss": 0.00034,
+              "percentile": 0.09059,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -4246,8 +4254,8 @@
           {
             "cve": "CVE-2023-4156",
             "epss": 0.00031,
-            "percentile": 0.07803,
-            "date": "2025-10-03"
+            "percentile": 0.07785,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -4300,8 +4308,8 @@
             {
               "cve": "CVE-2023-4156",
               "epss": 0.00031,
-              "percentile": 0.07803,
-              "date": "2025-10-03"
+              "percentile": 0.07785,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -4361,147 +4369,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-5278",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5278",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Medium",
-        "urls": [],
-        "description": "A flaw was found in GNU Coreutils. The sort utility's begfield() function is vulnerable to a heap buffer under-read. The program may access memory outside the allocated buffer if a user runs a crafted command using the traditional key format. A malicious input could lead to a crash or leak sensitive data.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
-            "metrics": {
-              "baseScore": 4.4,
-              "exploitabilityScore": 1.9,
-              "impactScore": 2.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-5278",
-            "epss": 0.00025,
-            "percentile": 0.05538,
-            "date": "2025-10-03"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.011750000000000002
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-5278",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5278",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2025-5278",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2368764",
-            "http://www.openwall.com/lists/oss-security/2025/05/27/2",
-            "http://www.openwall.com/lists/oss-security/2025/05/29/1",
-            "http://www.openwall.com/lists/oss-security/2025/05/29/2",
-            "https://cgit.git.savannah.gnu.org/cgit/coreutils.git/commit/?id=8c9602e3a145e9596dc1a63c6ed67865814b6633",
-            "https://cgit.git.savannah.gnu.org/cgit/coreutils.git/tree/NEWS?id=8c9602e3a145e9596dc1a63c6ed67865814b6633#n14",
-            "https://security-tracker.debian.org/tracker/CVE-2025-5278"
-          ],
-          "description": "A flaw was found in GNU Coreutils. The sort utility's begfield() function is vulnerable to a heap buffer under-read. The program may access memory outside the allocated buffer if a user runs a crafted command using the traditional key format. A malicious input could lead to a crash or leak sensitive data.",
-          "cvss": [
-            {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
-              "metrics": {
-                "baseScore": 4.4,
-                "exploitabilityScore": 1.9,
-                "impactScore": 2.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-5278",
-              "epss": 0.00025,
-              "percentile": 0.05538,
-              "date": "2025-10-03"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "coreutils",
-              "version": "8.32-39.el9"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-5278",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "8ef168befafd7b27",
-        "name": "coreutils-single",
-        "version": "8.32-39.el9",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "GPLv3+"
-        ],
-        "cpes": [
-          "cpe:2.3:a:coreutils-single:coreutils-single:8.32-39.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:coreutils-single:coreutils_single:8.32-39.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:coreutils_single:coreutils-single:8.32-39.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:coreutils_single:coreutils_single:8.32-39.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:coreutils:coreutils-single:8.32-39.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:coreutils:coreutils_single:8.32-39.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:coreutils-single:8.32-39.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:coreutils_single:8.32-39.el9:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/coreutils-single@8.32-39.el9?arch=x86_64&distro=rhel-9.6&upstream=coreutils-8.32-39.el9.src.rpm",
-        "upstreams": [
-          {
-            "name": "coreutils",
-            "version": "8.32-39.el9"
-          }
-        ],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-9230",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9230",
         "namespace": "redhat:distro:redhat:9",
@@ -4524,9 +4391,9 @@
         "epss": [
           {
             "cve": "CVE-2025-9230",
-            "epss": 0.00019,
-            "percentile": 0.03761,
-            "date": "2025-10-03"
+            "epss": 0.00025,
+            "percentile": 0.05572,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -4534,7 +4401,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.01007
+        "risk": 0.013250000000000001
       },
       "relatedVulnerabilities": [
         {
@@ -4570,9 +4437,9 @@
           "epss": [
             {
               "cve": "CVE-2025-9230",
-              "epss": 0.00019,
-              "percentile": 0.03761,
-              "date": "2025-10-03"
+              "epss": 0.00025,
+              "percentile": 0.05572,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -4654,9 +4521,9 @@
         "epss": [
           {
             "cve": "CVE-2025-9230",
-            "epss": 0.00019,
-            "percentile": 0.03761,
-            "date": "2025-10-03"
+            "epss": 0.00025,
+            "percentile": 0.05572,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -4664,7 +4531,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.01007
+        "risk": 0.013250000000000001
       },
       "relatedVulnerabilities": [
         {
@@ -4700,9 +4567,9 @@
           "epss": [
             {
               "cve": "CVE-2025-9230",
-              "epss": 0.00019,
-              "percentile": 0.03761,
-              "date": "2025-10-03"
+              "epss": 0.00025,
+              "percentile": 0.05572,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -4724,6 +4591,679 @@
           },
           "found": {
             "vulnerabilityID": "CVE-2025-9230",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "58e683943e8aac02",
+        "name": "openssl-libs",
+        "version": "1:3.2.2-6.el9_5.1",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "ASL 2.0"
+        ],
+        "cpes": [
+          "cpe:2.3:a:openssl-libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl-libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl_libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl_libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
+        "upstreams": [
+          {
+            "name": "openssl",
+            "version": "3.2.2-6.el9_5.1"
+          }
+        ],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": 1,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-5278",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5278",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Medium",
+        "urls": [],
+        "description": "A flaw was found in GNU Coreutils. The sort utility's begfield() function is vulnerable to a heap buffer under-read. The program may access memory outside the allocated buffer if a user runs a crafted command using the traditional key format. A malicious input could lead to a crash or leak sensitive data.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+            "metrics": {
+              "baseScore": 4.4,
+              "exploitabilityScore": 1.9,
+              "impactScore": 2.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-5278",
+            "epss": 0.00025,
+            "percentile": 0.05481,
+            "date": "2025-10-06"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.011750000000000002
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-5278",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5278",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-5278",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2368764",
+            "http://www.openwall.com/lists/oss-security/2025/05/27/2",
+            "http://www.openwall.com/lists/oss-security/2025/05/29/1",
+            "http://www.openwall.com/lists/oss-security/2025/05/29/2",
+            "https://cgit.git.savannah.gnu.org/cgit/coreutils.git/commit/?id=8c9602e3a145e9596dc1a63c6ed67865814b6633",
+            "https://cgit.git.savannah.gnu.org/cgit/coreutils.git/tree/NEWS?id=8c9602e3a145e9596dc1a63c6ed67865814b6633#n14",
+            "https://security-tracker.debian.org/tracker/CVE-2025-5278"
+          ],
+          "description": "A flaw was found in GNU Coreutils. The sort utility's begfield() function is vulnerable to a heap buffer under-read. The program may access memory outside the allocated buffer if a user runs a crafted command using the traditional key format. A malicious input could lead to a crash or leak sensitive data.",
+          "cvss": [
+            {
+              "source": "secalert@redhat.com",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+              "metrics": {
+                "baseScore": 4.4,
+                "exploitabilityScore": 1.9,
+                "impactScore": 2.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-5278",
+              "epss": 0.00025,
+              "percentile": 0.05481,
+              "date": "2025-10-06"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "coreutils",
+              "version": "8.32-39.el9"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-5278",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "8ef168befafd7b27",
+        "name": "coreutils-single",
+        "version": "8.32-39.el9",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPLv3+"
+        ],
+        "cpes": [
+          "cpe:2.3:a:coreutils-single:coreutils-single:8.32-39.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:coreutils-single:coreutils_single:8.32-39.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:coreutils_single:coreutils-single:8.32-39.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:coreutils_single:coreutils_single:8.32-39.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:coreutils:coreutils-single:8.32-39.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:coreutils:coreutils_single:8.32-39.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:coreutils-single:8.32-39.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:coreutils_single:8.32-39.el9:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/coreutils-single@8.32-39.el9?arch=x86_64&distro=rhel-9.6&upstream=coreutils-8.32-39.el9.src.rpm",
+        "upstreams": [
+          {
+            "name": "coreutils",
+            "version": "8.32-39.el9"
+          }
+        ],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-9232",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9232",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
+            "metrics": {
+              "baseScore": 3.1,
+              "exploitabilityScore": 1.7,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-9232",
+            "epss": 0.00032,
+            "percentile": 0.07958,
+            "date": "2025-10-06"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.00976
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-9232",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9232",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35",
+            "https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b",
+            "https://github.com/openssl/openssl/commit/7cf21a30513c9e43c4bc3836c237cf086e194af3",
+            "https://github.com/openssl/openssl/commit/89e790ac431125a4849992858490bed6b225eadf",
+            "https://github.com/openssl/openssl/commit/bbf38c034cdabd0a13330abcc4855c866f53d2e0",
+            "https://openssl-library.org/news/secadv/20250930.txt"
+          ],
+          "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\n\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\n\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\n\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\n\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "metrics": {
+                "baseScore": 5.9,
+                "exploitabilityScore": 2.3,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-9232",
+              "epss": 0.00032,
+              "percentile": 0.07958,
+              "date": "2025-10-06"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "openssl",
+              "version": "1:3.2.2-6.el9_5.1"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-9232",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "7dc75dc862d10c78",
+        "name": "openssl",
+        "version": "1:3.2.2-6.el9_5.1",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "ASL 2.0"
+        ],
+        "cpes": [
+          "cpe:2.3:a:openssl:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/openssl@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": 1,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-9232",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9232",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
+            "metrics": {
+              "baseScore": 3.1,
+              "exploitabilityScore": 1.7,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-9232",
+            "epss": 0.00032,
+            "percentile": 0.07958,
+            "date": "2025-10-06"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.00976
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-9232",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9232",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35",
+            "https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b",
+            "https://github.com/openssl/openssl/commit/7cf21a30513c9e43c4bc3836c237cf086e194af3",
+            "https://github.com/openssl/openssl/commit/89e790ac431125a4849992858490bed6b225eadf",
+            "https://github.com/openssl/openssl/commit/bbf38c034cdabd0a13330abcc4855c866f53d2e0",
+            "https://openssl-library.org/news/secadv/20250930.txt"
+          ],
+          "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\n\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\n\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\n\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\n\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "metrics": {
+                "baseScore": 5.9,
+                "exploitabilityScore": 2.3,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-9232",
+              "epss": 0.00032,
+              "percentile": 0.07958,
+              "date": "2025-10-06"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "openssl",
+              "version": "3.2.2-6.el9_5.1"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-9232",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "58e683943e8aac02",
+        "name": "openssl-libs",
+        "version": "1:3.2.2-6.el9_5.1",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "ASL 2.0"
+        ],
+        "cpes": [
+          "cpe:2.3:a:openssl-libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl-libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl_libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl_libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
+        "upstreams": [
+          {
+            "name": "openssl",
+            "version": "3.2.2-6.el9_5.1"
+          }
+        ],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": 1,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-9231",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9231",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Medium",
+        "urls": [],
+        "description": "Issue summary: A timing side-channel which could potentially allow remote\nrecovery of the private key exists in the SM2 algorithm implementation on 64 bit\nARM platforms.\nImpact summary: A timing side-channel in SM2 signature computations on 64 bit\nARM platforms could allow recovering the private key by an attacker..\nWhile remote key recovery over a network was not attempted by the reporter,\ntiming measurements revealed a timing signal which may allow such an attack.\nOpenSSL does not directly support certificates with SM2 keys in TLS, and so\nthis CVE is not relevant in most TLS contexts.  However, given that it is\npossible to add support for such certificates via a custom provider, coupled\nwith the fact that in such a custom provider context the private key may be\nrecoverable via remote timing measurements, we consider this to be a Moderate\nseverity issue.\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as SM2 is not an approved algorithm.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "metrics": {
+              "baseScore": 5.9,
+              "exploitabilityScore": 2.3,
+              "impactScore": 3.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-9231",
+            "epss": 0.00017,
+            "percentile": 0.02974,
+            "date": "2025-10-06"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.009265000000000002
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-9231",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9231",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://github.com/openssl/openssl/commit/567f64386e43683888212226824b6a179885a0fe",
+            "https://github.com/openssl/openssl/commit/cba616c26ac8e7b37de5e77762e505ba5ca51698",
+            "https://github.com/openssl/openssl/commit/eed5adc9f969d77c94f213767acbb41ff923b6f4",
+            "https://github.com/openssl/openssl/commit/fc47a2ec078912b3e914fab5734535e76c4820c2",
+            "https://openssl-library.org/news/secadv/20250930.txt"
+          ],
+          "description": "Issue summary: A timing side-channel which could potentially allow remote\nrecovery of the private key exists in the SM2 algorithm implementation on 64 bit\nARM platforms.\n\nImpact summary: A timing side-channel in SM2 signature computations on 64 bit\nARM platforms could allow recovering the private key by an attacker..\n\nWhile remote key recovery over a network was not attempted by the reporter,\ntiming measurements revealed a timing signal which may allow such an attack.\n\nOpenSSL does not directly support certificates with SM2 keys in TLS, and so\nthis CVE is not relevant in most TLS contexts.  However, given that it is\npossible to add support for such certificates via a custom provider, coupled\nwith the fact that in such a custom provider context the private key may be\nrecoverable via remote timing measurements, we consider this to be a Moderate\nseverity issue.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as SM2 is not an approved algorithm.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+              "metrics": {
+                "baseScore": 6.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 2.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-9231",
+              "epss": 0.00017,
+              "percentile": 0.02974,
+              "date": "2025-10-06"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "openssl",
+              "version": "1:3.2.2-6.el9_5.1"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-9231",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "7dc75dc862d10c78",
+        "name": "openssl",
+        "version": "1:3.2.2-6.el9_5.1",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "ASL 2.0"
+        ],
+        "cpes": [
+          "cpe:2.3:a:openssl:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/openssl@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": 1,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-9231",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9231",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Medium",
+        "urls": [],
+        "description": "Issue summary: A timing side-channel which could potentially allow remote\nrecovery of the private key exists in the SM2 algorithm implementation on 64 bit\nARM platforms.\nImpact summary: A timing side-channel in SM2 signature computations on 64 bit\nARM platforms could allow recovering the private key by an attacker..\nWhile remote key recovery over a network was not attempted by the reporter,\ntiming measurements revealed a timing signal which may allow such an attack.\nOpenSSL does not directly support certificates with SM2 keys in TLS, and so\nthis CVE is not relevant in most TLS contexts.  However, given that it is\npossible to add support for such certificates via a custom provider, coupled\nwith the fact that in such a custom provider context the private key may be\nrecoverable via remote timing measurements, we consider this to be a Moderate\nseverity issue.\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as SM2 is not an approved algorithm.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "metrics": {
+              "baseScore": 5.9,
+              "exploitabilityScore": 2.3,
+              "impactScore": 3.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-9231",
+            "epss": 0.00017,
+            "percentile": 0.02974,
+            "date": "2025-10-06"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.009265000000000002
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-9231",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9231",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://github.com/openssl/openssl/commit/567f64386e43683888212226824b6a179885a0fe",
+            "https://github.com/openssl/openssl/commit/cba616c26ac8e7b37de5e77762e505ba5ca51698",
+            "https://github.com/openssl/openssl/commit/eed5adc9f969d77c94f213767acbb41ff923b6f4",
+            "https://github.com/openssl/openssl/commit/fc47a2ec078912b3e914fab5734535e76c4820c2",
+            "https://openssl-library.org/news/secadv/20250930.txt"
+          ],
+          "description": "Issue summary: A timing side-channel which could potentially allow remote\nrecovery of the private key exists in the SM2 algorithm implementation on 64 bit\nARM platforms.\n\nImpact summary: A timing side-channel in SM2 signature computations on 64 bit\nARM platforms could allow recovering the private key by an attacker..\n\nWhile remote key recovery over a network was not attempted by the reporter,\ntiming measurements revealed a timing signal which may allow such an attack.\n\nOpenSSL does not directly support certificates with SM2 keys in TLS, and so\nthis CVE is not relevant in most TLS contexts.  However, given that it is\npossible to add support for such certificates via a custom provider, coupled\nwith the fact that in such a custom provider context the private key may be\nrecoverable via remote timing measurements, we consider this to be a Moderate\nseverity issue.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as SM2 is not an approved algorithm.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+              "metrics": {
+                "baseScore": 6.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 2.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-9231",
+              "epss": 0.00017,
+              "percentile": 0.02974,
+              "date": "2025-10-06"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "openssl",
+              "version": "3.2.2-6.el9_5.1"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-9231",
             "versionConstraint": "none (unknown)"
           }
         }
@@ -4796,8 +5336,8 @@
           {
             "cve": "CVE-2025-9714",
             "epss": 0.00014,
-            "percentile": 0.01938,
-            "date": "2025-10-03"
+            "percentile": 0.0187,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -4847,8 +5387,8 @@
             {
               "cve": "CVE-2025-9714",
               "epss": 0.00014,
-              "percentile": 0.01938,
-              "date": "2025-10-03"
+              "percentile": 0.0187,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -4931,8 +5471,8 @@
           {
             "cve": "CVE-2025-5916",
             "epss": 0.00022,
-            "percentile": 0.04446,
-            "date": "2025-10-03"
+            "percentile": 0.0433,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -4985,8 +5525,8 @@
             {
               "cve": "CVE-2025-5916",
               "epss": 0.00022,
-              "percentile": 0.04446,
-              "date": "2025-10-03"
+              "percentile": 0.0433,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -5046,538 +5586,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-9232",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9232",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
-        "urls": [],
-        "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
-            "metrics": {
-              "baseScore": 3.1,
-              "exploitabilityScore": 1.7,
-              "impactScore": 1.5
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-9232",
-            "epss": 0.00024,
-            "percentile": 0.05307,
-            "date": "2025-10-03"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.00732
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-9232",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9232",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35",
-            "https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b",
-            "https://github.com/openssl/openssl/commit/7cf21a30513c9e43c4bc3836c237cf086e194af3",
-            "https://github.com/openssl/openssl/commit/89e790ac431125a4849992858490bed6b225eadf",
-            "https://github.com/openssl/openssl/commit/bbf38c034cdabd0a13330abcc4855c866f53d2e0",
-            "https://openssl-library.org/news/secadv/20250930.txt"
-          ],
-          "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\n\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\n\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\n\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\n\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "metrics": {
-                "baseScore": 5.9,
-                "exploitabilityScore": 2.3,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-9232",
-              "epss": 0.00024,
-              "percentile": 0.05307,
-              "date": "2025-10-03"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "openssl",
-              "version": "1:3.2.2-6.el9_5.1"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-9232",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "7dc75dc862d10c78",
-        "name": "openssl",
-        "version": "1:3.2.2-6.el9_5.1",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "ASL 2.0"
-        ],
-        "cpes": [
-          "cpe:2.3:a:openssl:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/openssl@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": 1,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-9232",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9232",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
-        "urls": [],
-        "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
-            "metrics": {
-              "baseScore": 3.1,
-              "exploitabilityScore": 1.7,
-              "impactScore": 1.5
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-9232",
-            "epss": 0.00024,
-            "percentile": 0.05307,
-            "date": "2025-10-03"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.00732
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-9232",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9232",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35",
-            "https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b",
-            "https://github.com/openssl/openssl/commit/7cf21a30513c9e43c4bc3836c237cf086e194af3",
-            "https://github.com/openssl/openssl/commit/89e790ac431125a4849992858490bed6b225eadf",
-            "https://github.com/openssl/openssl/commit/bbf38c034cdabd0a13330abcc4855c866f53d2e0",
-            "https://openssl-library.org/news/secadv/20250930.txt"
-          ],
-          "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\n\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\n\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\n\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\n\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "metrics": {
-                "baseScore": 5.9,
-                "exploitabilityScore": 2.3,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-9232",
-              "epss": 0.00024,
-              "percentile": 0.05307,
-              "date": "2025-10-03"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "openssl",
-              "version": "3.2.2-6.el9_5.1"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-9232",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "58e683943e8aac02",
-        "name": "openssl-libs",
-        "version": "1:3.2.2-6.el9_5.1",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "ASL 2.0"
-        ],
-        "cpes": [
-          "cpe:2.3:a:openssl-libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl-libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl_libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl_libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
-        "upstreams": [
-          {
-            "name": "openssl",
-            "version": "3.2.2-6.el9_5.1"
-          }
-        ],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": 1,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-9231",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9231",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Medium",
-        "urls": [],
-        "description": "Issue summary: A timing side-channel which could potentially allow remote\nrecovery of the private key exists in the SM2 algorithm implementation on 64 bit\nARM platforms.\nImpact summary: A timing side-channel in SM2 signature computations on 64 bit\nARM platforms could allow recovering the private key by an attacker..\nWhile remote key recovery over a network was not attempted by the reporter,\ntiming measurements revealed a timing signal which may allow such an attack.\nOpenSSL does not directly support certificates with SM2 keys in TLS, and so\nthis CVE is not relevant in most TLS contexts.  However, given that it is\npossible to add support for such certificates via a custom provider, coupled\nwith the fact that in such a custom provider context the private key may be\nrecoverable via remote timing measurements, we consider this to be a Moderate\nseverity issue.\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as SM2 is not an approved algorithm.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
-            "metrics": {
-              "baseScore": 5.9,
-              "exploitabilityScore": 2.3,
-              "impactScore": 3.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-9231",
-            "epss": 0.00013,
-            "percentile": 0.01578,
-            "date": "2025-10-03"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.007085
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-9231",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9231",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://github.com/openssl/openssl/commit/567f64386e43683888212226824b6a179885a0fe",
-            "https://github.com/openssl/openssl/commit/cba616c26ac8e7b37de5e77762e505ba5ca51698",
-            "https://github.com/openssl/openssl/commit/eed5adc9f969d77c94f213767acbb41ff923b6f4",
-            "https://github.com/openssl/openssl/commit/fc47a2ec078912b3e914fab5734535e76c4820c2",
-            "https://openssl-library.org/news/secadv/20250930.txt"
-          ],
-          "description": "Issue summary: A timing side-channel which could potentially allow remote\nrecovery of the private key exists in the SM2 algorithm implementation on 64 bit\nARM platforms.\n\nImpact summary: A timing side-channel in SM2 signature computations on 64 bit\nARM platforms could allow recovering the private key by an attacker..\n\nWhile remote key recovery over a network was not attempted by the reporter,\ntiming measurements revealed a timing signal which may allow such an attack.\n\nOpenSSL does not directly support certificates with SM2 keys in TLS, and so\nthis CVE is not relevant in most TLS contexts.  However, given that it is\npossible to add support for such certificates via a custom provider, coupled\nwith the fact that in such a custom provider context the private key may be\nrecoverable via remote timing measurements, we consider this to be a Moderate\nseverity issue.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as SM2 is not an approved algorithm.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
-              "metrics": {
-                "baseScore": 6.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 2.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-9231",
-              "epss": 0.00013,
-              "percentile": 0.01578,
-              "date": "2025-10-03"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "openssl",
-              "version": "1:3.2.2-6.el9_5.1"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-9231",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "7dc75dc862d10c78",
-        "name": "openssl",
-        "version": "1:3.2.2-6.el9_5.1",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "ASL 2.0"
-        ],
-        "cpes": [
-          "cpe:2.3:a:openssl:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/openssl@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": 1,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-9231",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9231",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Medium",
-        "urls": [],
-        "description": "Issue summary: A timing side-channel which could potentially allow remote\nrecovery of the private key exists in the SM2 algorithm implementation on 64 bit\nARM platforms.\nImpact summary: A timing side-channel in SM2 signature computations on 64 bit\nARM platforms could allow recovering the private key by an attacker..\nWhile remote key recovery over a network was not attempted by the reporter,\ntiming measurements revealed a timing signal which may allow such an attack.\nOpenSSL does not directly support certificates with SM2 keys in TLS, and so\nthis CVE is not relevant in most TLS contexts.  However, given that it is\npossible to add support for such certificates via a custom provider, coupled\nwith the fact that in such a custom provider context the private key may be\nrecoverable via remote timing measurements, we consider this to be a Moderate\nseverity issue.\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as SM2 is not an approved algorithm.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
-            "metrics": {
-              "baseScore": 5.9,
-              "exploitabilityScore": 2.3,
-              "impactScore": 3.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-9231",
-            "epss": 0.00013,
-            "percentile": 0.01578,
-            "date": "2025-10-03"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.007085
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-9231",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9231",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://github.com/openssl/openssl/commit/567f64386e43683888212226824b6a179885a0fe",
-            "https://github.com/openssl/openssl/commit/cba616c26ac8e7b37de5e77762e505ba5ca51698",
-            "https://github.com/openssl/openssl/commit/eed5adc9f969d77c94f213767acbb41ff923b6f4",
-            "https://github.com/openssl/openssl/commit/fc47a2ec078912b3e914fab5734535e76c4820c2",
-            "https://openssl-library.org/news/secadv/20250930.txt"
-          ],
-          "description": "Issue summary: A timing side-channel which could potentially allow remote\nrecovery of the private key exists in the SM2 algorithm implementation on 64 bit\nARM platforms.\n\nImpact summary: A timing side-channel in SM2 signature computations on 64 bit\nARM platforms could allow recovering the private key by an attacker..\n\nWhile remote key recovery over a network was not attempted by the reporter,\ntiming measurements revealed a timing signal which may allow such an attack.\n\nOpenSSL does not directly support certificates with SM2 keys in TLS, and so\nthis CVE is not relevant in most TLS contexts.  However, given that it is\npossible to add support for such certificates via a custom provider, coupled\nwith the fact that in such a custom provider context the private key may be\nrecoverable via remote timing measurements, we consider this to be a Moderate\nseverity issue.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as SM2 is not an approved algorithm.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
-              "metrics": {
-                "baseScore": 6.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 2.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-9231",
-              "epss": 0.00013,
-              "percentile": 0.01578,
-              "date": "2025-10-03"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "openssl",
-              "version": "3.2.2-6.el9_5.1"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-9231",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "58e683943e8aac02",
-        "name": "openssl-libs",
-        "version": "1:3.2.2-6.el9_5.1",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "ASL 2.0"
-        ],
-        "cpes": [
-          "cpe:2.3:a:openssl-libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl-libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl_libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl_libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
-        "upstreams": [
-          {
-            "name": "openssl",
-            "version": "3.2.2-6.el9_5.1"
-          }
-        ],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": 1,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2024-0232",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2024-0232",
         "namespace": "redhat:distro:redhat:9",
@@ -5601,8 +5609,8 @@
           {
             "cve": "CVE-2024-0232",
             "epss": 0.00018,
-            "percentile": 0.03326,
-            "date": "2025-10-03"
+            "percentile": 0.03214,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -5657,8 +5665,8 @@
             {
               "cve": "CVE-2024-0232",
               "epss": 0.00018,
-              "percentile": 0.03326,
-              "date": "2025-10-03"
+              "percentile": 0.03214,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -5752,8 +5760,8 @@
           {
             "cve": "CVE-2023-30571",
             "epss": 0.00013,
-            "percentile": 0.01481,
-            "date": "2025-10-03"
+            "percentile": 0.01431,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -5806,8 +5814,8 @@
             {
               "cve": "CVE-2023-30571",
               "epss": 0.00013,
-              "percentile": 0.01481,
-              "date": "2025-10-03"
+              "percentile": 0.01431,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -5890,8 +5898,8 @@
           {
             "cve": "CVE-2025-5918",
             "epss": 0.00018,
-            "percentile": 0.03362,
-            "date": "2025-10-03"
+            "percentile": 0.03248,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -5944,8 +5952,8 @@
             {
               "cve": "CVE-2025-5918",
               "epss": 0.00018,
-              "percentile": 0.03362,
-              "date": "2025-10-03"
+              "percentile": 0.03248,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -6005,152 +6013,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2022-3219",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2022-3219",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
-        "urls": [],
-        "description": "A vulnerability was found in GnuPG. GnuPG can spin on a relatively small input by crafting a public key with thousands of signatures attached and compressed down to a few kilobytes. This issue can potentially cause a denial of service.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "metrics": {
-              "baseScore": 6.2,
-              "exploitabilityScore": 2.6,
-              "impactScore": 3.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2022-3219",
-            "epss": 0.00013,
-            "percentile": 0.01468,
-            "date": "2025-10-03"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.005979999999999999
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2022-3219",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2022-3219",
-          "namespace": "nvd:cpe",
-          "severity": "Low",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2022-3219",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2127010",
-            "https://dev.gnupg.org/D556",
-            "https://dev.gnupg.org/T5993",
-            "https://marc.info/?l=oss-security&m=165696590211434&w=4",
-            "https://security.netapp.com/advisory/ntap-20230324-0001/",
-            "https://access.redhat.com/security/cve/CVE-2022-3219",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2127010",
-            "https://dev.gnupg.org/D556",
-            "https://dev.gnupg.org/T5993",
-            "https://marc.info/?l=oss-security&m=165696590211434&w=4",
-            "https://security.netapp.com/advisory/ntap-20230324-0001/"
-          ],
-          "description": "GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
-              "metrics": {
-                "baseScore": 3.3,
-                "exploitabilityScore": 1.9,
-                "impactScore": 1.5
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
-              "metrics": {
-                "baseScore": 3.3,
-                "exploitabilityScore": 1.9,
-                "impactScore": 1.5
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2022-3219",
-              "epss": 0.00013,
-              "percentile": 0.01468,
-              "date": "2025-10-03"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "gnupg2",
-              "version": "0:2.3.3-4.el9"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2022-3219",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "4796aaf427df0782",
-        "name": "gnupg2",
-        "version": "2.3.3-4.el9",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "GPLv3+"
-        ],
-        "cpes": [
-          "cpe:2.3:a:gnupg2:gnupg2:2.3.3-4.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:gnupg2:2.3.3-4.el9:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/gnupg2@2.3.3-4.el9?arch=x86_64&distro=rhel-9.6&upstream=gnupg2-2.3.3-4.el9.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-6170",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-6170",
         "namespace": "redhat:distro:redhat:9",
@@ -6174,8 +6036,8 @@
           {
             "cve": "CVE-2025-6170",
             "epss": 0.00021,
-            "percentile": 0.04181,
-            "date": "2025-10-03"
+            "percentile": 0.04072,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -6226,8 +6088,8 @@
             {
               "cve": "CVE-2025-6170",
               "epss": 0.00021,
-              "percentile": 0.04181,
-              "date": "2025-10-03"
+              "percentile": 0.04072,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -6287,6 +6149,152 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2022-3219",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2022-3219",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "A vulnerability was found in GnuPG. GnuPG can spin on a relatively small input by crafting a public key with thousands of signatures attached and compressed down to a few kilobytes. This issue can potentially cause a denial of service.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "metrics": {
+              "baseScore": 6.2,
+              "exploitabilityScore": 2.6,
+              "impactScore": 3.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2022-3219",
+            "epss": 0.00012,
+            "percentile": 0.01329,
+            "date": "2025-10-06"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.00552
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2022-3219",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2022-3219",
+          "namespace": "nvd:cpe",
+          "severity": "Low",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2022-3219",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2127010",
+            "https://dev.gnupg.org/D556",
+            "https://dev.gnupg.org/T5993",
+            "https://marc.info/?l=oss-security&m=165696590211434&w=4",
+            "https://security.netapp.com/advisory/ntap-20230324-0001/",
+            "https://access.redhat.com/security/cve/CVE-2022-3219",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2127010",
+            "https://dev.gnupg.org/D556",
+            "https://dev.gnupg.org/T5993",
+            "https://marc.info/?l=oss-security&m=165696590211434&w=4",
+            "https://security.netapp.com/advisory/ntap-20230324-0001/"
+          ],
+          "description": "GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+              "metrics": {
+                "baseScore": 3.3,
+                "exploitabilityScore": 1.9,
+                "impactScore": 1.5
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+              "metrics": {
+                "baseScore": 3.3,
+                "exploitabilityScore": 1.9,
+                "impactScore": 1.5
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2022-3219",
+              "epss": 0.00012,
+              "percentile": 0.01329,
+              "date": "2025-10-06"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "gnupg2",
+              "version": "0:2.3.3-4.el9"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2022-3219",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "4796aaf427df0782",
+        "name": "gnupg2",
+        "version": "2.3.3-4.el9",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:edd45c7762182a07027035e2eb9b73574f64ed728decb7abff3b667f77c65985",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPLv3+"
+        ],
+        "cpes": [
+          "cpe:2.3:a:gnupg2:gnupg2:2.3.3-4.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:gnupg2:2.3.3-4.el9:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/gnupg2@2.3.3-4.el9?arch=x86_64&distro=rhel-9.6&upstream=gnupg2-2.3.3-4.el9.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-5917",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5917",
         "namespace": "redhat:distro:redhat:9",
@@ -6310,8 +6318,8 @@
           {
             "cve": "CVE-2025-5917",
             "epss": 0.00018,
-            "percentile": 0.0349,
-            "date": "2025-10-03"
+            "percentile": 0.03383,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -6364,8 +6372,8 @@
             {
               "cve": "CVE-2025-5917",
               "epss": 0.00018,
-              "percentile": 0.0349,
-              "date": "2025-10-03"
+              "percentile": 0.03383,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -6448,8 +6456,8 @@
           {
             "cve": "CVE-2025-30258",
             "epss": 0.00017,
-            "percentile": 0.03055,
-            "date": "2025-10-03"
+            "percentile": 0.02945,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -6489,8 +6497,8 @@
             {
               "cve": "CVE-2025-30258",
               "epss": 0.00017,
-              "percentile": 0.03055,
-              "date": "2025-10-03"
+              "percentile": 0.02945,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -6573,8 +6581,8 @@
           {
             "cve": "CVE-2025-5915",
             "epss": 0.00014,
-            "percentile": 0.01864,
-            "date": "2025-10-03"
+            "percentile": 0.01794,
+            "date": "2025-10-06"
           }
         ],
         "fix": {
@@ -6627,8 +6635,8 @@
             {
               "cve": "CVE-2025-5915",
               "epss": 0.00014,
-              "percentile": 0.01864,
-              "date": "2025-10-03"
+              "percentile": 0.01794,
+              "date": "2025-10-06"
             }
           ]
         }
@@ -6948,83 +6956,83 @@
     "db": {
       "status": {
         "schemaVersion": "v6.1.1",
-        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.1_2025-10-04T01:30:05Z_1759558063.tar.zst?checksum=sha256%3A4d3bc83dfe57c00f1fb577f5faa043cd8aae4150a3d5aee435372206ca93a7cc",
-        "built": "2025-10-04T06:07:43Z",
+        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.1_2025-10-07T01:29:36Z_1759817436.tar.zst?checksum=sha256%3Abac7421480164581f993645364085108c923a202348d80c77025ab8205df42f8",
+        "built": "2025-10-07T06:10:36Z",
         "path": ".cache/grype/db/6/vulnerability.db",
         "valid": true
       },
       "providers": {
         "alpine": {
-          "captured": "2025-10-04T01:30:11Z",
-          "input": "xxh64:533f5ea155629392"
+          "captured": "2025-10-07T01:29:41Z",
+          "input": "xxh64:03330798bf460cde"
         },
         "amazon": {
-          "captured": "2025-10-04T01:30:21Z",
-          "input": "xxh64:f8052ab4613509dd"
+          "captured": "2025-10-07T01:29:36Z",
+          "input": "xxh64:8de50bd90fad6287"
         },
         "bitnami": {
-          "captured": "2025-10-04T01:30:14Z",
-          "input": "xxh64:6c3f430ea18d10ae"
+          "captured": "2025-10-07T01:30:01Z",
+          "input": "xxh64:2a7979aa9f333073"
         },
         "chainguard": {
-          "captured": "2025-10-04T01:30:06Z",
-          "input": "xxh64:a74df038aa234fb4"
+          "captured": "2025-10-07T01:29:40Z",
+          "input": "xxh64:d9207be062dcc4f8"
         },
         "chainguard-libraries": {
-          "captured": "2025-10-04T01:30:13Z",
-          "input": "xxh64:a0d69a65c4741818"
+          "captured": "2025-10-07T01:29:38Z",
+          "input": "xxh64:0bfe7dc3c5414322"
         },
         "debian": {
-          "captured": "2025-10-04T01:30:22Z",
-          "input": "xxh64:2ab97c64a256b9ef"
+          "captured": "2025-10-07T01:30:03Z",
+          "input": "xxh64:b4f05de3267ecc84"
         },
         "echo": {
-          "captured": "2025-10-04T01:30:21Z",
-          "input": "xxh64:35898ed8e92ce6b8"
+          "captured": "2025-10-07T01:29:38Z",
+          "input": "xxh64:96392d5c95992655"
         },
         "epss": {
-          "captured": "2025-10-04T01:31:36Z",
-          "input": "xxh64:8f4fc8bc29283fc3"
+          "captured": "2025-10-07T01:29:37Z",
+          "input": "xxh64:28932afa62993815"
         },
         "github": {
-          "captured": "2025-10-04T01:31:47Z",
-          "input": "xxh64:3ac40cca62d39a41"
+          "captured": "2025-10-07T01:29:43Z",
+          "input": "xxh64:e14a43cd24ce6548"
         },
         "kev": {
-          "captured": "2025-10-04T01:30:05Z",
-          "input": "xxh64:751537090544ddd6"
+          "captured": "2025-10-07T01:29:37Z",
+          "input": "xxh64:84c58c7b659bd12d"
         },
         "mariner": {
-          "captured": "2025-10-04T01:31:42Z",
-          "input": "xxh64:1fb18b04f79eff0d"
+          "captured": "2025-10-07T01:29:38Z",
+          "input": "xxh64:f2de8156c7332ecb"
         },
         "minimos": {
-          "captured": "2025-10-04T01:30:10Z",
-          "input": "xxh64:682d0035f222f0be"
+          "captured": "2025-10-07T01:30:18Z",
+          "input": "xxh64:b90893853e89ec70"
         },
         "nvd": {
-          "captured": "2025-10-04T01:31:03Z",
-          "input": "xxh64:fc26c85ed67ce269"
+          "captured": "2025-10-07T01:30:39Z",
+          "input": "xxh64:2960657ddfd869bc"
         },
         "oracle": {
-          "captured": "2025-10-04T01:30:27Z",
+          "captured": "2025-10-07T01:29:39Z",
           "input": "xxh64:f744d75e47e6bd49"
         },
         "rhel": {
-          "captured": "2025-10-04T01:32:14Z",
-          "input": "xxh64:c047ed493e3d9e98"
+          "captured": "2025-10-07T01:30:03Z",
+          "input": "xxh64:0c64736820a962f3"
         },
         "sles": {
-          "captured": "2025-10-04T01:30:27Z",
-          "input": "xxh64:7f03ab9e21b1b3e4"
+          "captured": "2025-10-07T01:29:52Z",
+          "input": "xxh64:73d6594b47f01711"
         },
         "ubuntu": {
-          "captured": "2025-10-04T01:31:24Z",
-          "input": "xxh64:97747109cd19d864"
+          "captured": "2025-10-07T01:30:44Z",
+          "input": "xxh64:7cff8097ab4cbd3d"
         },
         "wolfi": {
-          "captured": "2025-10-04T01:30:24Z",
-          "input": "xxh64:da05650f0caf3cb6"
+          "captured": "2025-10-07T01:29:43Z",
+          "input": "xxh64:8cc068f18022c98b"
         }
       }
     }
