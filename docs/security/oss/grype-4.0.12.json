@@ -129,7 +129,7 @@
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libldap-2.5-0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libldap-2.5-0",
             "annotations": {
               "evidence": "primary"
@@ -432,7 +432,7 @@
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libgnutls30",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libgnutls30",
             "annotations": {
               "evidence": "primary"
@@ -560,7 +560,7 @@
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libldap-2.5-0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libldap-2.5-0",
             "annotations": {
               "evidence": "primary"
@@ -679,7 +679,7 @@
             },
             "package": {
               "name": "glibc",
-              "version": "2.36-9+deb12u10"
+              "version": "2.36-9+deb12u13"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -690,14 +690,14 @@
         }
       ],
       "artifact": {
-        "id": "c924a822eab59d9a",
+        "id": "b1f23f68887853e1",
         "name": "libc6",
-        "version": "2.36-9+deb12u10",
+        "version": "2.36-9+deb12u13",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libc6",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/var/lib/dpkg/status.d/libc6",
             "annotations": {
               "evidence": "primary"
@@ -705,7 +705,7 @@
           },
           {
             "path": "/usr/share/doc/libc6/copyright",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/usr/share/doc/libc6/copyright",
             "annotations": {
               "evidence": "supporting"
@@ -713,7 +713,7 @@
           },
           {
             "path": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
             "annotations": {
               "evidence": "supporting"
@@ -726,9 +726,9 @@
           "LGPL-2.1"
         ],
         "cpes": [
-          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u10:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u13:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&upstream=glibc",
+        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u13?arch=amd64&distro=debian-12&upstream=glibc",
         "upstreams": [
           {
             "name": "glibc"
@@ -842,7 +842,7 @@
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libldap-2.5-0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libldap-2.5-0",
             "annotations": {
               "evidence": "primary"
@@ -955,7 +955,7 @@
             },
             "package": {
               "name": "curl",
-              "version": "7.88.1-10+deb12u12"
+              "version": "7.88.1-10+deb12u14"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -966,14 +966,14 @@
         }
       ],
       "artifact": {
-        "id": "24ac2ca249a444cf",
+        "id": "7b756a4c6b6cb784",
         "name": "libcurl4",
-        "version": "7.88.1-10+deb12u12",
+        "version": "7.88.1-10+deb12u14",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libcurl4",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libcurl4",
             "annotations": {
               "evidence": "primary"
@@ -983,144 +983,12 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u12:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u14:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u12?arch=amd64&distro=debian-12&upstream=curl",
+        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u14?arch=amd64&distro=debian-12&upstream=curl",
         "upstreams": [
           {
             "name": "curl"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-8715",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-8715",
-        "namespace": "debian:distro:debian:12",
-        "severity": "High",
-        "urls": [],
-        "description": "Improper neutralization of newlines in pg_dump in PostgreSQL allows a user of the origin server to inject arbitrary code for restore-time execution as the client operating system account running psql to restore the dump, via psql meta-commands inside a purpose-crafted object name.  The same attacks can achieve SQL injection as a superuser of the restore target server.  pg_dumpall, pg_restore, and pg_upgrade are also affected.  Versions before PostgreSQL 17.6, 16.10, 15.14, 14.19, and 13.22 are affected.  Versions before 11.20 are unaffected.  CVE-2012-0868 had fixed this class of problem, but version 11.20 reintroduced it.",
-        "cvss": [
-          {
-            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-            "metrics": {
-              "baseScore": 8.8,
-              "exploitabilityScore": 2.9,
-              "impactScore": 5.9
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-8715",
-            "epss": 0.00044,
-            "percentile": 0.13272,
-            "date": "2025-10-09"
-          }
-        ],
-        "fix": {
-          "versions": [
-            "15.14-0+deb12u1"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "15.14-0+deb12u1",
-              "date": "2025-09-11",
-              "kind": "first-observed"
-            }
-          ]
-        },
-        "advisories": [],
-        "risk": 0.03586
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-8715",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-8715",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://www.postgresql.org/support/security/CVE-2025-8715/"
-          ],
-          "description": "Improper neutralization of newlines in pg_dump in PostgreSQL allows a user of the origin server to inject arbitrary code for restore-time execution as the client operating system account running psql to restore the dump, via psql meta-commands inside a purpose-crafted object name.  The same attacks can achieve SQL injection as a superuser of the restore target server.  pg_dumpall, pg_restore, and pg_upgrade are also affected.  Versions before PostgreSQL 17.6, 16.10, 15.14, 14.19, and 13.22 are affected.  Versions before 11.20 are unaffected.  CVE-2012-0868 had fixed this class of problem, but version 11.20 reintroduced it.",
-          "cvss": [
-            {
-              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-              "metrics": {
-                "baseScore": 8.8,
-                "exploitabilityScore": 2.9,
-                "impactScore": 5.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-8715",
-              "epss": 0.00044,
-              "percentile": 0.13272,
-              "date": "2025-10-09"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "postgresql-15",
-              "version": "15.13-0+deb12u1"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-8715",
-            "versionConstraint": "< 15.14-0+deb12u1 (deb)"
-          },
-          "fix": {
-            "suggestedVersion": "15.14-0+deb12u1"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "11769cd41fdc5daa",
-        "name": "libpq5",
-        "version": "15.13-0+deb12u1",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libpq5",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libpq5",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libpq5:libpq5:15.13-0\\+deb12u1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libpq5@15.13-0%2Bdeb12u1?arch=amd64&distro=debian-12&upstream=postgresql-15",
-        "upstreams": [
-          {
-            "name": "postgresql-15"
           }
         ]
       }
@@ -1227,7 +1095,7 @@
             },
             "package": {
               "name": "glibc",
-              "version": "2.36-9+deb12u10"
+              "version": "2.36-9+deb12u13"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -1238,14 +1106,14 @@
         }
       ],
       "artifact": {
-        "id": "c924a822eab59d9a",
+        "id": "b1f23f68887853e1",
         "name": "libc6",
-        "version": "2.36-9+deb12u10",
+        "version": "2.36-9+deb12u13",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libc6",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/var/lib/dpkg/status.d/libc6",
             "annotations": {
               "evidence": "primary"
@@ -1253,7 +1121,7 @@
           },
           {
             "path": "/usr/share/doc/libc6/copyright",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/usr/share/doc/libc6/copyright",
             "annotations": {
               "evidence": "supporting"
@@ -1261,7 +1129,7 @@
           },
           {
             "path": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
             "annotations": {
               "evidence": "supporting"
@@ -1274,9 +1142,9 @@
           "LGPL-2.1"
         ],
         "cpes": [
-          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u10:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u13:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&upstream=glibc",
+        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u13?arch=amd64&distro=debian-12&upstream=glibc",
         "upstreams": [
           {
             "name": "glibc"
@@ -1390,7 +1258,7 @@
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libgcrypt20",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libgcrypt20",
             "annotations": {
               "evidence": "primary"
@@ -1408,93 +1276,72 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-3576",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-3576",
+        "id": "CVE-2018-5709",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
         "namespace": "debian:distro:debian:12",
-        "severity": "Medium",
+        "severity": "Negligible",
         "urls": [],
-        "description": "A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.",
-        "cvss": [
-          {
-            "source": "secalert@redhat.com",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
-            "metrics": {
-              "baseScore": 5.9,
-              "exploitabilityScore": 2.3,
-              "impactScore": 3.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
+        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+        "cvss": [],
         "epss": [
           {
-            "cve": "CVE-2025-3576",
-            "epss": 0.00046,
-            "percentile": 0.13963,
+            "cve": "CVE-2018-5709",
+            "epss": 0.00463,
+            "percentile": 0.63322,
             "date": "2025-10-09"
           }
         ],
         "fix": {
-          "versions": [
-            "1.20.1-2+deb12u4"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "1.20.1-2+deb12u4",
-              "date": "2025-09-11",
-              "kind": "first-observed"
-            }
-          ]
+          "versions": [],
+          "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.025070000000000002
+        "risk": 0.02315
       },
       "relatedVulnerabilities": [
         {
-          "id": "CVE-2025-3576",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-3576",
+          "id": "CVE-2018-5709",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
           "namespace": "nvd:cpe",
-          "severity": "Medium",
+          "severity": "High",
           "urls": [
-            "https://access.redhat.com/errata/RHSA-2025:11487",
-            "https://access.redhat.com/errata/RHSA-2025:13664",
-            "https://access.redhat.com/errata/RHSA-2025:13777",
-            "https://access.redhat.com/errata/RHSA-2025:15000",
-            "https://access.redhat.com/errata/RHSA-2025:15001",
-            "https://access.redhat.com/errata/RHSA-2025:15002",
-            "https://access.redhat.com/errata/RHSA-2025:15003",
-            "https://access.redhat.com/errata/RHSA-2025:15004",
-            "https://access.redhat.com/errata/RHSA-2025:8411",
-            "https://access.redhat.com/errata/RHSA-2025:9418",
-            "https://access.redhat.com/errata/RHSA-2025:9430",
-            "https://access.redhat.com/security/cve/CVE-2025-3576",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2359465",
-            "https://web.mit.edu/kerberos/krb5-1.22/krb5-1.22.html",
-            "https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html"
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
           ],
-          "description": "A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.",
+          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
           "cvss": [
             {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.0",
+              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
               "metrics": {
-                "baseScore": 5.9,
-                "exploitabilityScore": 2.3,
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
                 "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
               },
               "vendorMetadata": {}
             }
           ],
           "epss": [
             {
-              "cve": "CVE-2025-3576",
-              "epss": 0.00046,
-              "percentile": 0.13963,
+              "cve": "CVE-2018-5709",
+              "epss": 0.00463,
+              "percentile": 0.63322,
               "date": "2025-10-09"
             }
           ]
@@ -1511,28 +1358,25 @@
             },
             "package": {
               "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
+              "version": "1.20.1-2+deb12u4"
             },
             "namespace": "debian:distro:debian:12"
           },
           "found": {
-            "vulnerabilityID": "CVE-2025-3576",
-            "versionConstraint": "< 1.20.1-2+deb12u4 (deb)"
-          },
-          "fix": {
-            "suggestedVersion": "1.20.1-2+deb12u4"
+            "vulnerabilityID": "CVE-2018-5709",
+            "versionConstraint": "none (unknown)"
           }
         }
       ],
       "artifact": {
-        "id": "3472c9903aced6bd",
+        "id": "c8948b00cda8062b",
         "name": "libgssapi-krb5-2",
-        "version": "1.20.1-2+deb12u3",
+        "version": "1.20.1-2+deb12u4",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
             "annotations": {
               "evidence": "primary"
@@ -1542,18 +1386,18 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libgssapi-krb5-2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5-2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5_2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5_2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libgssapi-krb5-2:libgssapi-krb5-2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi-krb5-2:libgssapi_krb5_2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5_2:libgssapi-krb5-2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5_2:libgssapi_krb5_2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi-krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi-krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi:libgssapi-krb5-2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi:libgssapi_krb5_2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libgssapi-krb5-2@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "purl": "pkg:deb/debian/libgssapi-krb5-2@1.20.1-2%2Bdeb12u4?arch=amd64&distro=debian-12&upstream=krb5",
         "upstreams": [
           {
             "name": "krb5"
@@ -1563,93 +1407,72 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-3576",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-3576",
+        "id": "CVE-2018-5709",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
         "namespace": "debian:distro:debian:12",
-        "severity": "Medium",
+        "severity": "Negligible",
         "urls": [],
-        "description": "A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.",
-        "cvss": [
-          {
-            "source": "secalert@redhat.com",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
-            "metrics": {
-              "baseScore": 5.9,
-              "exploitabilityScore": 2.3,
-              "impactScore": 3.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
+        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+        "cvss": [],
         "epss": [
           {
-            "cve": "CVE-2025-3576",
-            "epss": 0.00046,
-            "percentile": 0.13963,
+            "cve": "CVE-2018-5709",
+            "epss": 0.00463,
+            "percentile": 0.63322,
             "date": "2025-10-09"
           }
         ],
         "fix": {
-          "versions": [
-            "1.20.1-2+deb12u4"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "1.20.1-2+deb12u4",
-              "date": "2025-09-11",
-              "kind": "first-observed"
-            }
-          ]
+          "versions": [],
+          "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.025070000000000002
+        "risk": 0.02315
       },
       "relatedVulnerabilities": [
         {
-          "id": "CVE-2025-3576",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-3576",
+          "id": "CVE-2018-5709",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
           "namespace": "nvd:cpe",
-          "severity": "Medium",
+          "severity": "High",
           "urls": [
-            "https://access.redhat.com/errata/RHSA-2025:11487",
-            "https://access.redhat.com/errata/RHSA-2025:13664",
-            "https://access.redhat.com/errata/RHSA-2025:13777",
-            "https://access.redhat.com/errata/RHSA-2025:15000",
-            "https://access.redhat.com/errata/RHSA-2025:15001",
-            "https://access.redhat.com/errata/RHSA-2025:15002",
-            "https://access.redhat.com/errata/RHSA-2025:15003",
-            "https://access.redhat.com/errata/RHSA-2025:15004",
-            "https://access.redhat.com/errata/RHSA-2025:8411",
-            "https://access.redhat.com/errata/RHSA-2025:9418",
-            "https://access.redhat.com/errata/RHSA-2025:9430",
-            "https://access.redhat.com/security/cve/CVE-2025-3576",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2359465",
-            "https://web.mit.edu/kerberos/krb5-1.22/krb5-1.22.html",
-            "https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html"
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
           ],
-          "description": "A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.",
+          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
           "cvss": [
             {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.0",
+              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
               "metrics": {
-                "baseScore": 5.9,
-                "exploitabilityScore": 2.3,
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
                 "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
               },
               "vendorMetadata": {}
             }
           ],
           "epss": [
             {
-              "cve": "CVE-2025-3576",
-              "epss": 0.00046,
-              "percentile": 0.13963,
+              "cve": "CVE-2018-5709",
+              "epss": 0.00463,
+              "percentile": 0.63322,
               "date": "2025-10-09"
             }
           ]
@@ -1666,28 +1489,25 @@
             },
             "package": {
               "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
+              "version": "1.20.1-2+deb12u4"
             },
             "namespace": "debian:distro:debian:12"
           },
           "found": {
-            "vulnerabilityID": "CVE-2025-3576",
-            "versionConstraint": "< 1.20.1-2+deb12u4 (deb)"
-          },
-          "fix": {
-            "suggestedVersion": "1.20.1-2+deb12u4"
+            "vulnerabilityID": "CVE-2018-5709",
+            "versionConstraint": "none (unknown)"
           }
         }
       ],
       "artifact": {
-        "id": "dc5610a2a1a5ad4f",
+        "id": "8f3a478cb18888b8",
         "name": "libk5crypto3",
-        "version": "1.20.1-2+deb12u3",
+        "version": "1.20.1-2+deb12u4",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libk5crypto3",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libk5crypto3",
             "annotations": {
               "evidence": "primary"
@@ -1697,9 +1517,9 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libk5crypto3:libk5crypto3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libk5crypto3:libk5crypto3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libk5crypto3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "purl": "pkg:deb/debian/libk5crypto3@1.20.1-2%2Bdeb12u4?arch=amd64&distro=debian-12&upstream=krb5",
         "upstreams": [
           {
             "name": "krb5"
@@ -1709,93 +1529,72 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-3576",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-3576",
+        "id": "CVE-2018-5709",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
         "namespace": "debian:distro:debian:12",
-        "severity": "Medium",
+        "severity": "Negligible",
         "urls": [],
-        "description": "A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.",
-        "cvss": [
-          {
-            "source": "secalert@redhat.com",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
-            "metrics": {
-              "baseScore": 5.9,
-              "exploitabilityScore": 2.3,
-              "impactScore": 3.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
+        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+        "cvss": [],
         "epss": [
           {
-            "cve": "CVE-2025-3576",
-            "epss": 0.00046,
-            "percentile": 0.13963,
+            "cve": "CVE-2018-5709",
+            "epss": 0.00463,
+            "percentile": 0.63322,
             "date": "2025-10-09"
           }
         ],
         "fix": {
-          "versions": [
-            "1.20.1-2+deb12u4"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "1.20.1-2+deb12u4",
-              "date": "2025-09-11",
-              "kind": "first-observed"
-            }
-          ]
+          "versions": [],
+          "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.025070000000000002
+        "risk": 0.02315
       },
       "relatedVulnerabilities": [
         {
-          "id": "CVE-2025-3576",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-3576",
+          "id": "CVE-2018-5709",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
           "namespace": "nvd:cpe",
-          "severity": "Medium",
+          "severity": "High",
           "urls": [
-            "https://access.redhat.com/errata/RHSA-2025:11487",
-            "https://access.redhat.com/errata/RHSA-2025:13664",
-            "https://access.redhat.com/errata/RHSA-2025:13777",
-            "https://access.redhat.com/errata/RHSA-2025:15000",
-            "https://access.redhat.com/errata/RHSA-2025:15001",
-            "https://access.redhat.com/errata/RHSA-2025:15002",
-            "https://access.redhat.com/errata/RHSA-2025:15003",
-            "https://access.redhat.com/errata/RHSA-2025:15004",
-            "https://access.redhat.com/errata/RHSA-2025:8411",
-            "https://access.redhat.com/errata/RHSA-2025:9418",
-            "https://access.redhat.com/errata/RHSA-2025:9430",
-            "https://access.redhat.com/security/cve/CVE-2025-3576",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2359465",
-            "https://web.mit.edu/kerberos/krb5-1.22/krb5-1.22.html",
-            "https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html"
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
           ],
-          "description": "A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.",
+          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
           "cvss": [
             {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.0",
+              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
               "metrics": {
-                "baseScore": 5.9,
-                "exploitabilityScore": 2.3,
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
                 "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
               },
               "vendorMetadata": {}
             }
           ],
           "epss": [
             {
-              "cve": "CVE-2025-3576",
-              "epss": 0.00046,
-              "percentile": 0.13963,
+              "cve": "CVE-2018-5709",
+              "epss": 0.00463,
+              "percentile": 0.63322,
               "date": "2025-10-09"
             }
           ]
@@ -1812,28 +1611,25 @@
             },
             "package": {
               "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
+              "version": "1.20.1-2+deb12u4"
             },
             "namespace": "debian:distro:debian:12"
           },
           "found": {
-            "vulnerabilityID": "CVE-2025-3576",
-            "versionConstraint": "< 1.20.1-2+deb12u4 (deb)"
-          },
-          "fix": {
-            "suggestedVersion": "1.20.1-2+deb12u4"
+            "vulnerabilityID": "CVE-2018-5709",
+            "versionConstraint": "none (unknown)"
           }
         }
       ],
       "artifact": {
-        "id": "a9152735ac194d5d",
+        "id": "575c8aeb7addaf05",
         "name": "libkrb5-3",
-        "version": "1.20.1-2+deb12u3",
+        "version": "1.20.1-2+deb12u4",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libkrb5-3",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libkrb5-3",
             "annotations": {
               "evidence": "primary"
@@ -1843,14 +1639,14 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libkrb5-3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5-3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5_3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5_3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libkrb5-3:libkrb5-3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5-3:libkrb5_3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5_3:libkrb5-3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5_3:libkrb5_3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5:libkrb5-3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5:libkrb5_3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libkrb5-3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "purl": "pkg:deb/debian/libkrb5-3@1.20.1-2%2Bdeb12u4?arch=amd64&distro=debian-12&upstream=krb5",
         "upstreams": [
           {
             "name": "krb5"
@@ -1860,93 +1656,72 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-3576",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-3576",
+        "id": "CVE-2018-5709",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
         "namespace": "debian:distro:debian:12",
-        "severity": "Medium",
+        "severity": "Negligible",
         "urls": [],
-        "description": "A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.",
-        "cvss": [
-          {
-            "source": "secalert@redhat.com",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
-            "metrics": {
-              "baseScore": 5.9,
-              "exploitabilityScore": 2.3,
-              "impactScore": 3.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
+        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+        "cvss": [],
         "epss": [
           {
-            "cve": "CVE-2025-3576",
-            "epss": 0.00046,
-            "percentile": 0.13963,
+            "cve": "CVE-2018-5709",
+            "epss": 0.00463,
+            "percentile": 0.63322,
             "date": "2025-10-09"
           }
         ],
         "fix": {
-          "versions": [
-            "1.20.1-2+deb12u4"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "1.20.1-2+deb12u4",
-              "date": "2025-09-11",
-              "kind": "first-observed"
-            }
-          ]
+          "versions": [],
+          "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.025070000000000002
+        "risk": 0.02315
       },
       "relatedVulnerabilities": [
         {
-          "id": "CVE-2025-3576",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-3576",
+          "id": "CVE-2018-5709",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
           "namespace": "nvd:cpe",
-          "severity": "Medium",
+          "severity": "High",
           "urls": [
-            "https://access.redhat.com/errata/RHSA-2025:11487",
-            "https://access.redhat.com/errata/RHSA-2025:13664",
-            "https://access.redhat.com/errata/RHSA-2025:13777",
-            "https://access.redhat.com/errata/RHSA-2025:15000",
-            "https://access.redhat.com/errata/RHSA-2025:15001",
-            "https://access.redhat.com/errata/RHSA-2025:15002",
-            "https://access.redhat.com/errata/RHSA-2025:15003",
-            "https://access.redhat.com/errata/RHSA-2025:15004",
-            "https://access.redhat.com/errata/RHSA-2025:8411",
-            "https://access.redhat.com/errata/RHSA-2025:9418",
-            "https://access.redhat.com/errata/RHSA-2025:9430",
-            "https://access.redhat.com/security/cve/CVE-2025-3576",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2359465",
-            "https://web.mit.edu/kerberos/krb5-1.22/krb5-1.22.html",
-            "https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html"
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
           ],
-          "description": "A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.",
+          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
           "cvss": [
             {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.0",
+              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
               "metrics": {
-                "baseScore": 5.9,
-                "exploitabilityScore": 2.3,
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
                 "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
               },
               "vendorMetadata": {}
             }
           ],
           "epss": [
             {
-              "cve": "CVE-2025-3576",
-              "epss": 0.00046,
-              "percentile": 0.13963,
+              "cve": "CVE-2018-5709",
+              "epss": 0.00463,
+              "percentile": 0.63322,
               "date": "2025-10-09"
             }
           ]
@@ -1963,28 +1738,25 @@
             },
             "package": {
               "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
+              "version": "1.20.1-2+deb12u4"
             },
             "namespace": "debian:distro:debian:12"
           },
           "found": {
-            "vulnerabilityID": "CVE-2025-3576",
-            "versionConstraint": "< 1.20.1-2+deb12u4 (deb)"
-          },
-          "fix": {
-            "suggestedVersion": "1.20.1-2+deb12u4"
+            "vulnerabilityID": "CVE-2018-5709",
+            "versionConstraint": "none (unknown)"
           }
         }
       ],
       "artifact": {
-        "id": "04174b0fa1866e36",
+        "id": "f17cb326c34696aa",
         "name": "libkrb5support0",
-        "version": "1.20.1-2+deb12u3",
+        "version": "1.20.1-2+deb12u4",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libkrb5support0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libkrb5support0",
             "annotations": {
               "evidence": "primary"
@@ -1994,511 +1766,9 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libkrb5support0:libkrb5support0:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libkrb5support0:libkrb5support0:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libkrb5support0@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
-        "upstreams": [
-          {
-            "name": "krb5"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2018-5709",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2018-5709",
-            "epss": 0.00463,
-            "percentile": 0.63322,
-            "date": "2025-10-09"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.02315
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2018-5709",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
-          ],
-          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.0",
-              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2018-5709",
-              "epss": 0.00463,
-              "percentile": 0.63322,
-              "date": "2025-10-09"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2018-5709",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "3472c9903aced6bd",
-        "name": "libgssapi-krb5-2",
-        "version": "1.20.1-2+deb12u3",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libgssapi-krb5-2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5-2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5_2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5_2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libgssapi-krb5-2@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
-        "upstreams": [
-          {
-            "name": "krb5"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2018-5709",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2018-5709",
-            "epss": 0.00463,
-            "percentile": 0.63322,
-            "date": "2025-10-09"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.02315
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2018-5709",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
-          ],
-          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.0",
-              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2018-5709",
-              "epss": 0.00463,
-              "percentile": 0.63322,
-              "date": "2025-10-09"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2018-5709",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "dc5610a2a1a5ad4f",
-        "name": "libk5crypto3",
-        "version": "1.20.1-2+deb12u3",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libk5crypto3",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libk5crypto3",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libk5crypto3:libk5crypto3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libk5crypto3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
-        "upstreams": [
-          {
-            "name": "krb5"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2018-5709",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2018-5709",
-            "epss": 0.00463,
-            "percentile": 0.63322,
-            "date": "2025-10-09"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.02315
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2018-5709",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
-          ],
-          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.0",
-              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2018-5709",
-              "epss": 0.00463,
-              "percentile": 0.63322,
-              "date": "2025-10-09"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2018-5709",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "a9152735ac194d5d",
-        "name": "libkrb5-3",
-        "version": "1.20.1-2+deb12u3",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libkrb5-3",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libkrb5-3",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libkrb5-3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5-3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5_3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5_3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libkrb5-3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
-        "upstreams": [
-          {
-            "name": "krb5"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2018-5709",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2018-5709",
-            "epss": 0.00463,
-            "percentile": 0.63322,
-            "date": "2025-10-09"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.02315
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2018-5709",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
-          ],
-          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.0",
-              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2018-5709",
-              "epss": 0.00463,
-              "percentile": 0.63322,
-              "date": "2025-10-09"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2018-5709",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "04174b0fa1866e36",
-        "name": "libkrb5support0",
-        "version": "1.20.1-2+deb12u3",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libkrb5support0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libkrb5support0",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libkrb5support0:libkrb5support0:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libkrb5support0@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "purl": "pkg:deb/debian/libkrb5support0@1.20.1-2%2Bdeb12u4?arch=amd64&distro=debian-12&upstream=krb5",
         "upstreams": [
           {
             "name": "krb5"
@@ -2582,7 +1852,7 @@
             },
             "package": {
               "name": "curl",
-              "version": "7.88.1-10+deb12u12"
+              "version": "7.88.1-10+deb12u14"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -2593,14 +1863,14 @@
         }
       ],
       "artifact": {
-        "id": "24ac2ca249a444cf",
+        "id": "7b756a4c6b6cb784",
         "name": "libcurl4",
-        "version": "7.88.1-10+deb12u12",
+        "version": "7.88.1-10+deb12u14",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libcurl4",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libcurl4",
             "annotations": {
               "evidence": "primary"
@@ -2610,177 +1880,12 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u12:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u14:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u12?arch=amd64&distro=debian-12&upstream=curl",
+        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u14?arch=amd64&distro=debian-12&upstream=curl",
         "upstreams": [
           {
             "name": "curl"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-9230",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-9230",
-        "namespace": "debian:distro:debian:12",
-        "severity": "High",
-        "urls": [],
-        "description": "Issue summary: An application trying to decrypt CMS messages encrypted using password based encryption can trigger an out-of-bounds read and write.  Impact summary: This out-of-bounds read may trigger a crash which leads to Denial of Service for an application. The out-of-bounds write can cause a memory corruption which can have various consequences including a Denial of Service or Execution of attacker-supplied code.  Although the consequences of a successful exploit of this vulnerability could be severe, the probability that the attacker would be able to perform it is low. Besides, password based (PWRI) encryption support in CMS messages is very rarely used. For that reason the issue was assessed as Moderate severity according to our Security Policy.  The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this issue, as the CMS implementation is outside the OpenSSL FIPS module boundary.",
-        "cvss": [
-          {
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "metrics": {
-              "baseScore": 7.5,
-              "exploitabilityScore": 3.9,
-              "impactScore": 3.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-9230",
-            "epss": 0.00025,
-            "percentile": 0.05574,
-            "date": "2025-10-09"
-          }
-        ],
-        "fix": {
-          "versions": [
-            "3.0.17-1~deb12u3"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "3.0.17-1~deb12u3",
-              "date": "2025-10-01",
-              "kind": "advisory"
-            }
-          ]
-        },
-        "advisories": [
-          {
-            "id": "",
-            "link": "https://security-tracker.debian.org/tracker/DSA-6015-1"
-          }
-        ],
-        "risk": 0.01875
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-9230",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9230",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45",
-            "https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280",
-            "https://github.com/openssl/openssl/commit/a79c4ce559c6a3a8fd4109e9f33c1185d5bf2def",
-            "https://github.com/openssl/openssl/commit/b5282d677551afda7d20e9c00e09561b547b2dfd",
-            "https://github.com/openssl/openssl/commit/bae259a211ada6315dc50900686daaaaaa55f482",
-            "https://github.openssl.org/openssl/extended-releases/commit/c2b96348bfa662f25f4fabf81958ae822063dae3",
-            "https://github.openssl.org/openssl/extended-releases/commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba",
-            "https://openssl-library.org/news/secadv/20250930.txt"
-          ],
-          "description": "Issue summary: An application trying to decrypt CMS messages encrypted using\npassword based encryption can trigger an out-of-bounds read and write.\n\nImpact summary: This out-of-bounds read may trigger a crash which leads to\nDenial of Service for an application. The out-of-bounds write can cause\na memory corruption which can have various consequences including\na Denial of Service or Execution of attacker-supplied code.\n\nAlthough the consequences of a successful exploit of this vulnerability\ncould be severe, the probability that the attacker would be able to\nperform it is low. Besides, password based (PWRI) encryption support in CMS\nmessages is very rarely used. For that reason the issue was assessed as\nModerate severity according to our Security Policy.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the CMS implementation is outside the OpenSSL FIPS module\nboundary.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-9230",
-              "epss": 0.00025,
-              "percentile": 0.05574,
-              "date": "2025-10-09"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "openssl",
-              "version": "3.0.17-1~deb12u2"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-9230",
-            "versionConstraint": "< 3.0.17-1~deb12u3 (deb)"
-          },
-          "fix": {
-            "suggestedVersion": "3.0.17-1~deb12u3"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "0f919d6ebdb73625",
-        "name": "libssl3",
-        "version": "3.0.17-1~deb12u2",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libssl3",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libssl3",
-            "annotations": {
-              "evidence": "primary"
-            }
-          },
-          {
-            "path": "/usr/share/doc/libssl3/copyright",
-            "layerID": "sha256:2e4983c761ce4933ecec23c31173fed551a237c8d0ba359b697de64bd953a7c3",
-            "accessPath": "/usr/share/doc/libssl3/copyright",
-            "annotations": {
-              "evidence": "supporting"
-            }
-          },
-          {
-            "path": "/var/lib/dpkg/status.d/libssl3.md5sums",
-            "layerID": "sha256:2e4983c761ce4933ecec23c31173fed551a237c8d0ba359b697de64bd953a7c3",
-            "accessPath": "/var/lib/dpkg/status.d/libssl3.md5sums",
-            "annotations": {
-              "evidence": "supporting"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "Apache-2.0",
-          "Artistic",
-          "GPL-1",
-          "GPL-1+"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libssl3:libssl3:3.0.17-1\\~deb12u2:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libssl3@3.0.17-1~deb12u2?arch=amd64&distro=debian-12&upstream=openssl",
-        "upstreams": [
-          {
-            "name": "openssl"
           }
         ]
       }
@@ -2877,7 +1982,7 @@
             },
             "package": {
               "name": "glibc",
-              "version": "2.36-9+deb12u10"
+              "version": "2.36-9+deb12u13"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -2888,14 +1993,14 @@
         }
       ],
       "artifact": {
-        "id": "c924a822eab59d9a",
+        "id": "b1f23f68887853e1",
         "name": "libc6",
-        "version": "2.36-9+deb12u10",
+        "version": "2.36-9+deb12u13",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libc6",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/var/lib/dpkg/status.d/libc6",
             "annotations": {
               "evidence": "primary"
@@ -2903,7 +2008,7 @@
           },
           {
             "path": "/usr/share/doc/libc6/copyright",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/usr/share/doc/libc6/copyright",
             "annotations": {
               "evidence": "supporting"
@@ -2911,7 +2016,7 @@
           },
           {
             "path": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
             "annotations": {
               "evidence": "supporting"
@@ -2924,9 +2029,9 @@
           "LGPL-2.1"
         ],
         "cpes": [
-          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u10:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u13:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&upstream=glibc",
+        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u13?arch=amd64&distro=debian-12&upstream=glibc",
         "upstreams": [
           {
             "name": "glibc"
@@ -3012,7 +2117,7 @@
             },
             "package": {
               "name": "glibc",
-              "version": "2.36-9+deb12u10"
+              "version": "2.36-9+deb12u13"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -3023,14 +2128,14 @@
         }
       ],
       "artifact": {
-        "id": "c924a822eab59d9a",
+        "id": "b1f23f68887853e1",
         "name": "libc6",
-        "version": "2.36-9+deb12u10",
+        "version": "2.36-9+deb12u13",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libc6",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/var/lib/dpkg/status.d/libc6",
             "annotations": {
               "evidence": "primary"
@@ -3038,7 +2143,7 @@
           },
           {
             "path": "/usr/share/doc/libc6/copyright",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/usr/share/doc/libc6/copyright",
             "annotations": {
               "evidence": "supporting"
@@ -3046,7 +2151,7 @@
           },
           {
             "path": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
             "annotations": {
               "evidence": "supporting"
@@ -3059,144 +2164,12 @@
           "LGPL-2.1"
         ],
         "cpes": [
-          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u10:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u13:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&upstream=glibc",
+        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u13?arch=amd64&distro=debian-12&upstream=glibc",
         "upstreams": [
           {
             "name": "glibc"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-8714",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-8714",
-        "namespace": "debian:distro:debian:12",
-        "severity": "High",
-        "urls": [],
-        "description": "Untrusted data inclusion in pg_dump in PostgreSQL allows a malicious superuser of the origin server to inject arbitrary code for restore-time execution as the client operating system account running psql to restore the dump, via psql meta-commands.  pg_dumpall is also affected.  pg_restore is affected when used to generate a plain-format dump.  This is similar to MySQL CVE-2024-21096.  Versions before PostgreSQL 17.6, 16.10, 15.14, 14.19, and 13.22 are affected.",
-        "cvss": [
-          {
-            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-            "metrics": {
-              "baseScore": 8.8,
-              "exploitabilityScore": 2.9,
-              "impactScore": 5.9
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-8714",
-            "epss": 0.00022,
-            "percentile": 0.0441,
-            "date": "2025-10-09"
-          }
-        ],
-        "fix": {
-          "versions": [
-            "15.14-0+deb12u1"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "15.14-0+deb12u1",
-              "date": "2025-09-11",
-              "kind": "first-observed"
-            }
-          ]
-        },
-        "advisories": [],
-        "risk": 0.01793
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-8714",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-8714",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://www.postgresql.org/support/security/CVE-2025-8714/"
-          ],
-          "description": "Untrusted data inclusion in pg_dump in PostgreSQL allows a malicious superuser of the origin server to inject arbitrary code for restore-time execution as the client operating system account running psql to restore the dump, via psql meta-commands.  pg_dumpall is also affected.  pg_restore is affected when used to generate a plain-format dump.  This is similar to MySQL CVE-2024-21096.  Versions before PostgreSQL 17.6, 16.10, 15.14, 14.19, and 13.22 are affected.",
-          "cvss": [
-            {
-              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-              "metrics": {
-                "baseScore": 8.8,
-                "exploitabilityScore": 2.9,
-                "impactScore": 5.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-8714",
-              "epss": 0.00022,
-              "percentile": 0.0441,
-              "date": "2025-10-09"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "postgresql-15",
-              "version": "15.13-0+deb12u1"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-8714",
-            "versionConstraint": "< 15.14-0+deb12u1 (deb)"
-          },
-          "fix": {
-            "suggestedVersion": "15.14-0+deb12u1"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "11769cd41fdc5daa",
-        "name": "libpq5",
-        "version": "15.13-0+deb12u1",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libpq5",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libpq5",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libpq5:libpq5:15.13-0\\+deb12u1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libpq5@15.13-0%2Bdeb12u1?arch=amd64&distro=debian-12&upstream=postgresql-15",
-        "upstreams": [
-          {
-            "name": "postgresql-15"
           }
         ]
       }
@@ -3285,7 +2258,7 @@
             },
             "package": {
               "name": "glibc",
-              "version": "2.36-9+deb12u10"
+              "version": "2.36-9+deb12u13"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -3296,14 +2269,14 @@
         }
       ],
       "artifact": {
-        "id": "c924a822eab59d9a",
+        "id": "b1f23f68887853e1",
         "name": "libc6",
-        "version": "2.36-9+deb12u10",
+        "version": "2.36-9+deb12u13",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libc6",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/var/lib/dpkg/status.d/libc6",
             "annotations": {
               "evidence": "primary"
@@ -3311,7 +2284,7 @@
           },
           {
             "path": "/usr/share/doc/libc6/copyright",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/usr/share/doc/libc6/copyright",
             "annotations": {
               "evidence": "supporting"
@@ -3319,7 +2292,7 @@
           },
           {
             "path": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
             "annotations": {
               "evidence": "supporting"
@@ -3332,175 +2305,12 @@
           "LGPL-2.1"
         ],
         "cpes": [
-          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u10:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u13:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&upstream=glibc",
+        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u13?arch=amd64&distro=debian-12&upstream=glibc",
         "upstreams": [
           {
             "name": "glibc"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-9232",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-9232",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Medium",
-        "urls": [],
-        "description": "Issue summary: An application using the OpenSSL HTTP client API functions may trigger an out-of-bounds read if the 'no_proxy' environment variable is set and the host portion of the authority component of the HTTP URL is an IPv6 address.  Impact summary: An out-of-bounds read can trigger a crash which leads to Denial of Service for an application.  The OpenSSL HTTP client API functions can be used directly by applications but they are also used by the OCSP client functions and CMP (Certificate Management Protocol) client implementation in OpenSSL. However the URLs used by these implementations are unlikely to be controlled by an attacker.  In this vulnerable code the out of bounds read can only trigger a crash. Furthermore the vulnerability requires an attacker-controlled URL to be passed from an application to the OpenSSL function and the user has to have a 'no_proxy' environment variable set. For the aforementioned reasons the issue was assessed as Low severity.  The vulnerable code was introduced in the following patch releases: 3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.  The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this issue, as the HTTP client implementation is outside the OpenSSL FIPS module boundary.",
-        "cvss": [
-          {
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "metrics": {
-              "baseScore": 5.9,
-              "exploitabilityScore": 2.3,
-              "impactScore": 3.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-9232",
-            "epss": 0.00032,
-            "percentile": 0.07998,
-            "date": "2025-10-09"
-          }
-        ],
-        "fix": {
-          "versions": [
-            "3.0.17-1~deb12u3"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "3.0.17-1~deb12u3",
-              "date": "2025-10-01",
-              "kind": "advisory"
-            }
-          ]
-        },
-        "advisories": [
-          {
-            "id": "",
-            "link": "https://security-tracker.debian.org/tracker/DSA-6015-1"
-          }
-        ],
-        "risk": 0.017440000000000004
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-9232",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9232",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35",
-            "https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b",
-            "https://github.com/openssl/openssl/commit/7cf21a30513c9e43c4bc3836c237cf086e194af3",
-            "https://github.com/openssl/openssl/commit/89e790ac431125a4849992858490bed6b225eadf",
-            "https://github.com/openssl/openssl/commit/bbf38c034cdabd0a13330abcc4855c866f53d2e0",
-            "https://openssl-library.org/news/secadv/20250930.txt"
-          ],
-          "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\n\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\n\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\n\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\n\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "metrics": {
-                "baseScore": 5.9,
-                "exploitabilityScore": 2.3,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-9232",
-              "epss": 0.00032,
-              "percentile": 0.07998,
-              "date": "2025-10-09"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "openssl",
-              "version": "3.0.17-1~deb12u2"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-9232",
-            "versionConstraint": "< 3.0.17-1~deb12u3 (deb)"
-          },
-          "fix": {
-            "suggestedVersion": "3.0.17-1~deb12u3"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "0f919d6ebdb73625",
-        "name": "libssl3",
-        "version": "3.0.17-1~deb12u2",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libssl3",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libssl3",
-            "annotations": {
-              "evidence": "primary"
-            }
-          },
-          {
-            "path": "/usr/share/doc/libssl3/copyright",
-            "layerID": "sha256:2e4983c761ce4933ecec23c31173fed551a237c8d0ba359b697de64bd953a7c3",
-            "accessPath": "/usr/share/doc/libssl3/copyright",
-            "annotations": {
-              "evidence": "supporting"
-            }
-          },
-          {
-            "path": "/var/lib/dpkg/status.d/libssl3.md5sums",
-            "layerID": "sha256:2e4983c761ce4933ecec23c31173fed551a237c8d0ba359b697de64bd953a7c3",
-            "accessPath": "/var/lib/dpkg/status.d/libssl3.md5sums",
-            "annotations": {
-              "evidence": "supporting"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "Apache-2.0",
-          "Artistic",
-          "GPL-1",
-          "GPL-1+"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libssl3:libssl3:3.0.17-1\\~deb12u2:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libssl3@3.0.17-1~deb12u2?arch=amd64&distro=debian-12&upstream=openssl",
-        "upstreams": [
-          {
-            "name": "openssl"
           }
         ]
       }
@@ -3589,7 +2399,7 @@
             },
             "package": {
               "name": "curl",
-              "version": "7.88.1-10+deb12u12"
+              "version": "7.88.1-10+deb12u14"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -3600,14 +2410,14 @@
         }
       ],
       "artifact": {
-        "id": "24ac2ca249a444cf",
+        "id": "7b756a4c6b6cb784",
         "name": "libcurl4",
-        "version": "7.88.1-10+deb12u12",
+        "version": "7.88.1-10+deb12u14",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libcurl4",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libcurl4",
             "annotations": {
               "evidence": "primary"
@@ -3617,144 +2427,12 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u12:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u14:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u12?arch=amd64&distro=debian-12&upstream=curl",
+        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u14?arch=amd64&distro=debian-12&upstream=curl",
         "upstreams": [
           {
             "name": "curl"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-8713",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-8713",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Low",
-        "urls": [],
-        "description": "PostgreSQL optimizer statistics allow a user to read sampled data within a view that the user cannot access.  Separately, statistics allow a user to read sampled data that a row security policy intended to hide.  PostgreSQL maintains statistics for tables by sampling data available in columns; this data is consulted during the query planning process.  Prior to this release, a user could craft a leaky operator that bypassed view access control lists (ACLs) and bypassed row security policies in partitioning or table inheritance hierarchies.  Reachable statistics data notably included histograms and most-common-values lists.  CVE-2017-7484 and CVE-2019-10130 intended to close this class of vulnerability, but this gap remained.  Versions before PostgreSQL 17.6, 16.10, 15.14, 14.19, and 13.22 are affected.",
-        "cvss": [
-          {
-            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N",
-            "metrics": {
-              "baseScore": 3.1,
-              "exploitabilityScore": 1.7,
-              "impactScore": 1.5
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-8713",
-            "epss": 0.0004,
-            "percentile": 0.11858,
-            "date": "2025-10-09"
-          }
-        ],
-        "fix": {
-          "versions": [
-            "15.14-0+deb12u1"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "15.14-0+deb12u1",
-              "date": "2025-09-11",
-              "kind": "first-observed"
-            }
-          ]
-        },
-        "advisories": [],
-        "risk": 0.012199999999999999
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-8713",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-8713",
-          "namespace": "nvd:cpe",
-          "severity": "Low",
-          "urls": [
-            "https://www.postgresql.org/support/security/CVE-2025-8713/"
-          ],
-          "description": "PostgreSQL optimizer statistics allow a user to read sampled data within a view that the user cannot access.  Separately, statistics allow a user to read sampled data that a row security policy intended to hide.  PostgreSQL maintains statistics for tables by sampling data available in columns; this data is consulted during the query planning process.  Prior to this release, a user could craft a leaky operator that bypassed view access control lists (ACLs) and bypassed row security policies in partitioning or table inheritance hierarchies.  Reachable statistics data notably included histograms and most-common-values lists.  CVE-2017-7484 and CVE-2019-10130 intended to close this class of vulnerability, but this gap remained.  Versions before PostgreSQL 17.6, 16.10, 15.14, 14.19, and 13.22 are affected.",
-          "cvss": [
-            {
-              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N",
-              "metrics": {
-                "baseScore": 3.1,
-                "exploitabilityScore": 1.7,
-                "impactScore": 1.5
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-8713",
-              "epss": 0.0004,
-              "percentile": 0.11858,
-              "date": "2025-10-09"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "postgresql-15",
-              "version": "15.13-0+deb12u1"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-8713",
-            "versionConstraint": "< 15.14-0+deb12u1 (deb)"
-          },
-          "fix": {
-            "suggestedVersion": "15.14-0+deb12u1"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "11769cd41fdc5daa",
-        "name": "libpq5",
-        "version": "15.13-0+deb12u1",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libpq5",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libpq5",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libpq5:libpq5:15.13-0\\+deb12u1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libpq5@15.13-0%2Bdeb12u1?arch=amd64&distro=debian-12&upstream=postgresql-15",
-        "upstreams": [
-          {
-            "name": "postgresql-15"
           }
         ]
       }
@@ -3849,7 +2527,7 @@
             },
             "package": {
               "name": "glibc",
-              "version": "2.36-9+deb12u10"
+              "version": "2.36-9+deb12u13"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -3860,14 +2538,14 @@
         }
       ],
       "artifact": {
-        "id": "c924a822eab59d9a",
+        "id": "b1f23f68887853e1",
         "name": "libc6",
-        "version": "2.36-9+deb12u10",
+        "version": "2.36-9+deb12u13",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libc6",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/var/lib/dpkg/status.d/libc6",
             "annotations": {
               "evidence": "primary"
@@ -3875,7 +2553,7 @@
           },
           {
             "path": "/usr/share/doc/libc6/copyright",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/usr/share/doc/libc6/copyright",
             "annotations": {
               "evidence": "supporting"
@@ -3883,7 +2561,7 @@
           },
           {
             "path": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
             "annotations": {
               "evidence": "supporting"
@@ -3896,9 +2574,9 @@
           "LGPL-2.1"
         ],
         "cpes": [
-          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u10:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u13:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&upstream=glibc",
+        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u13?arch=amd64&distro=debian-12&upstream=glibc",
         "upstreams": [
           {
             "name": "glibc"
@@ -4000,7 +2678,7 @@
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libgcrypt20",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libgcrypt20",
             "annotations": {
               "evidence": "primary"
@@ -4088,7 +2766,7 @@
             },
             "package": {
               "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
+              "version": "1.20.1-2+deb12u4"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -4099,14 +2777,14 @@
         }
       ],
       "artifact": {
-        "id": "3472c9903aced6bd",
+        "id": "c8948b00cda8062b",
         "name": "libgssapi-krb5-2",
-        "version": "1.20.1-2+deb12u3",
+        "version": "1.20.1-2+deb12u4",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
             "annotations": {
               "evidence": "primary"
@@ -4116,18 +2794,18 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libgssapi-krb5-2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5-2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5_2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5_2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libgssapi-krb5-2:libgssapi-krb5-2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi-krb5-2:libgssapi_krb5_2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5_2:libgssapi-krb5-2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5_2:libgssapi_krb5_2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi-krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi-krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi:libgssapi-krb5-2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi:libgssapi_krb5_2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libgssapi-krb5-2@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "purl": "pkg:deb/debian/libgssapi-krb5-2@1.20.1-2%2Bdeb12u4?arch=amd64&distro=debian-12&upstream=krb5",
         "upstreams": [
           {
             "name": "krb5"
@@ -4207,7 +2885,7 @@
             },
             "package": {
               "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
+              "version": "1.20.1-2+deb12u4"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -4218,14 +2896,14 @@
         }
       ],
       "artifact": {
-        "id": "dc5610a2a1a5ad4f",
+        "id": "8f3a478cb18888b8",
         "name": "libk5crypto3",
-        "version": "1.20.1-2+deb12u3",
+        "version": "1.20.1-2+deb12u4",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libk5crypto3",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libk5crypto3",
             "annotations": {
               "evidence": "primary"
@@ -4235,9 +2913,9 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libk5crypto3:libk5crypto3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libk5crypto3:libk5crypto3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libk5crypto3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "purl": "pkg:deb/debian/libk5crypto3@1.20.1-2%2Bdeb12u4?arch=amd64&distro=debian-12&upstream=krb5",
         "upstreams": [
           {
             "name": "krb5"
@@ -4317,7 +2995,7 @@
             },
             "package": {
               "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
+              "version": "1.20.1-2+deb12u4"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -4328,14 +3006,14 @@
         }
       ],
       "artifact": {
-        "id": "a9152735ac194d5d",
+        "id": "575c8aeb7addaf05",
         "name": "libkrb5-3",
-        "version": "1.20.1-2+deb12u3",
+        "version": "1.20.1-2+deb12u4",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libkrb5-3",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libkrb5-3",
             "annotations": {
               "evidence": "primary"
@@ -4345,14 +3023,14 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libkrb5-3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5-3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5_3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5_3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libkrb5-3:libkrb5-3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5-3:libkrb5_3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5_3:libkrb5-3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5_3:libkrb5_3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5:libkrb5-3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5:libkrb5_3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libkrb5-3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "purl": "pkg:deb/debian/libkrb5-3@1.20.1-2%2Bdeb12u4?arch=amd64&distro=debian-12&upstream=krb5",
         "upstreams": [
           {
             "name": "krb5"
@@ -4432,7 +3110,7 @@
             },
             "package": {
               "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
+              "version": "1.20.1-2+deb12u4"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -4443,14 +3121,14 @@
         }
       ],
       "artifact": {
-        "id": "04174b0fa1866e36",
+        "id": "f17cb326c34696aa",
         "name": "libkrb5support0",
-        "version": "1.20.1-2+deb12u3",
+        "version": "1.20.1-2+deb12u4",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libkrb5support0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libkrb5support0",
             "annotations": {
               "evidence": "primary"
@@ -4460,9 +3138,9 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libkrb5support0:libkrb5support0:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libkrb5support0:libkrb5support0:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libkrb5support0@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "purl": "pkg:deb/debian/libkrb5support0@1.20.1-2%2Bdeb12u4?arch=amd64&distro=debian-12&upstream=krb5",
         "upstreams": [
           {
             "name": "krb5"
@@ -4560,7 +3238,7 @@
             },
             "package": {
               "name": "curl",
-              "version": "7.88.1-10+deb12u12"
+              "version": "7.88.1-10+deb12u14"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -4571,14 +3249,14 @@
         }
       ],
       "artifact": {
-        "id": "24ac2ca249a444cf",
+        "id": "7b756a4c6b6cb784",
         "name": "libcurl4",
-        "version": "7.88.1-10+deb12u12",
+        "version": "7.88.1-10+deb12u14",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libcurl4",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libcurl4",
             "annotations": {
               "evidence": "primary"
@@ -4588,166 +3266,12 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u12:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u14:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u12?arch=amd64&distro=debian-12&upstream=curl",
+        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u14?arch=amd64&distro=debian-12&upstream=curl",
         "upstreams": [
           {
             "name": "curl"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-4802",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-4802",
-        "namespace": "debian:distro:debian:12",
-        "severity": "High",
-        "urls": [],
-        "description": "Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).",
-        "cvss": [
-          {
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-            "metrics": {
-              "baseScore": 7.8,
-              "exploitabilityScore": 1.9,
-              "impactScore": 5.9
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-4802",
-            "epss": 0.00011,
-            "percentile": 0.00908,
-            "date": "2025-10-09"
-          }
-        ],
-        "fix": {
-          "versions": [
-            "2.36-9+deb12u11"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "2.36-9+deb12u11",
-              "date": "2025-09-11",
-              "kind": "first-observed"
-            }
-          ]
-        },
-        "advisories": [],
-        "risk": 0.008415
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-4802",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-4802",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://sourceware.org/bugzilla/show_bug.cgi?id=32976",
-            "https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e",
-            "http://www.openwall.com/lists/oss-security/2025/05/16/7",
-            "http://www.openwall.com/lists/oss-security/2025/05/17/2"
-          ],
-          "description": "Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-              "metrics": {
-                "baseScore": 7.8,
-                "exploitabilityScore": 1.9,
-                "impactScore": 5.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-4802",
-              "epss": 0.00011,
-              "percentile": 0.00908,
-              "date": "2025-10-09"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "glibc",
-              "version": "2.36-9+deb12u10"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-4802",
-            "versionConstraint": "< 2.36-9+deb12u11 (deb)"
-          },
-          "fix": {
-            "suggestedVersion": "2.36-9+deb12u11"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "c924a822eab59d9a",
-        "name": "libc6",
-        "version": "2.36-9+deb12u10",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libc6",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
-            "accessPath": "/var/lib/dpkg/status.d/libc6",
-            "annotations": {
-              "evidence": "primary"
-            }
-          },
-          {
-            "path": "/usr/share/doc/libc6/copyright",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
-            "accessPath": "/usr/share/doc/libc6/copyright",
-            "annotations": {
-              "evidence": "supporting"
-            }
-          },
-          {
-            "path": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
-            "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "annotations": {
-              "evidence": "supporting"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "GPL-2",
-          "LGPL-2.1"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u10:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&upstream=glibc",
-        "upstreams": [
-          {
-            "name": "glibc"
           }
         ]
       }
@@ -4840,7 +3364,7 @@
             },
             "package": {
               "name": "glibc",
-              "version": "2.36-9+deb12u10"
+              "version": "2.36-9+deb12u13"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -4851,14 +3375,14 @@
         }
       ],
       "artifact": {
-        "id": "c924a822eab59d9a",
+        "id": "b1f23f68887853e1",
         "name": "libc6",
-        "version": "2.36-9+deb12u10",
+        "version": "2.36-9+deb12u13",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libc6",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/var/lib/dpkg/status.d/libc6",
             "annotations": {
               "evidence": "primary"
@@ -4866,7 +3390,7 @@
           },
           {
             "path": "/usr/share/doc/libc6/copyright",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/usr/share/doc/libc6/copyright",
             "annotations": {
               "evidence": "supporting"
@@ -4874,7 +3398,7 @@
           },
           {
             "path": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
             "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
             "annotations": {
               "evidence": "supporting"
@@ -4887,9 +3411,9 @@
           "LGPL-2.1"
         ],
         "cpes": [
-          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u10:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u13:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&upstream=glibc",
+        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u13?arch=amd64&distro=debian-12&upstream=glibc",
         "upstreams": [
           {
             "name": "glibc"
@@ -5009,7 +3533,7 @@
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libldap-2.5-0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libldap-2.5-0",
             "annotations": {
               "evidence": "primary"
@@ -5142,7 +3666,7 @@
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libsystemd0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libsystemd0",
             "annotations": {
               "evidence": "primary"
@@ -5266,7 +3790,7 @@
         "locations": [
           {
             "path": "/usr/lib/x86_64-linux-gnu/libsystemd.so.0.37.0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/usr/lib/x86_64-linux-gnu/libsystemd.so.0.37.0",
             "annotations": {
               "evidence": "primary"
@@ -5384,7 +3908,7 @@
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libldap-2.5-0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libldap-2.5-0",
             "annotations": {
               "evidence": "primary"
@@ -5415,154 +3939,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-8058",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-8058",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Medium",
-        "urls": [],
-        "description": "The regcomp function in the GNU C library version from 2.4 to 2.41 is  subject to a double free if some previous allocation fails. It can be  accomplished either by a malloc failure or by using an interposed malloc  that injects random malloc failures. The double free can allow buffer  manipulation depending of how the regex is constructed. This issue  affects all architectures and ABIs supported by the GNU C library.",
-        "cvss": [
-          {
-            "source": "3ff69d7a-14f2-4f67-a097-88dee7810d18",
-            "type": "Secondary",
-            "version": "4.0",
-            "vector": "CVSS:4.0/AV:L/AC:H/AT:P/PR:L/UI:P/VC:L/VI:L/VA:H/SC:L/SI:L/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
-            "metrics": {
-              "baseScore": 5.9
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-8058",
-            "epss": 0.0001,
-            "percentile": 0.0072,
-            "date": "2025-10-09"
-          }
-        ],
-        "fix": {
-          "versions": [
-            "2.36-9+deb12u13"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "2.36-9+deb12u13",
-              "date": "2025-09-11",
-              "kind": "first-observed"
-            }
-          ]
-        },
-        "advisories": [],
-        "risk": 0.00545
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-8058",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-8058",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://sourceware.org/bugzilla/show_bug.cgi?id=33185",
-            "https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f"
-          ],
-          "description": "The regcomp function in the GNU C library version from 2.4 to 2.41 is \nsubject to a double free if some previous allocation fails. It can be \naccomplished either by a malloc failure or by using an interposed malloc\n that injects random malloc failures. The double free can allow buffer \nmanipulation depending of how the regex is constructed. This issue \naffects all architectures and ABIs supported by the GNU C library.",
-          "cvss": [
-            {
-              "source": "3ff69d7a-14f2-4f67-a097-88dee7810d18",
-              "type": "Secondary",
-              "version": "4.0",
-              "vector": "CVSS:4.0/AV:L/AC:H/AT:P/PR:L/UI:P/VC:L/VI:L/VA:H/SC:L/SI:L/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
-              "metrics": {
-                "baseScore": 5.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-8058",
-              "epss": 0.0001,
-              "percentile": 0.0072,
-              "date": "2025-10-09"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "glibc",
-              "version": "2.36-9+deb12u10"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-8058",
-            "versionConstraint": "< 2.36-9+deb12u13 (deb)"
-          },
-          "fix": {
-            "suggestedVersion": "2.36-9+deb12u13"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "c924a822eab59d9a",
-        "name": "libc6",
-        "version": "2.36-9+deb12u10",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libc6",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
-            "accessPath": "/var/lib/dpkg/status.d/libc6",
-            "annotations": {
-              "evidence": "primary"
-            }
-          },
-          {
-            "path": "/usr/share/doc/libc6/copyright",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
-            "accessPath": "/usr/share/doc/libc6/copyright",
-            "annotations": {
-              "evidence": "supporting"
-            }
-          },
-          {
-            "path": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
-            "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "annotations": {
-              "evidence": "supporting"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "GPL-2",
-          "LGPL-2.1"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u10:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&upstream=glibc",
-        "upstreams": [
-          {
-            "name": "glibc"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2023-31438",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2023-31438",
         "namespace": "debian:distro:debian:12",
@@ -5655,7 +4031,7 @@
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libsystemd0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libsystemd0",
             "annotations": {
               "evidence": "primary"
@@ -5769,7 +4145,7 @@
         "locations": [
           {
             "path": "/usr/lib/x86_64-linux-gnu/libsystemd.so.0.37.0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/usr/lib/x86_64-linux-gnu/libsystemd.so.0.37.0",
             "annotations": {
               "evidence": "primary"
@@ -5879,7 +4255,7 @@
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libsystemd0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libsystemd0",
             "annotations": {
               "evidence": "primary"
@@ -5993,7 +4369,7 @@
         "locations": [
           {
             "path": "/usr/lib/x86_64-linux-gnu/libsystemd.so.0.37.0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/usr/lib/x86_64-linux-gnu/libsystemd.so.0.37.0",
             "annotations": {
               "evidence": "primary"
@@ -6081,7 +4457,7 @@
             },
             "package": {
               "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
+              "version": "1.20.1-2+deb12u4"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -6092,14 +4468,14 @@
         }
       ],
       "artifact": {
-        "id": "3472c9903aced6bd",
+        "id": "c8948b00cda8062b",
         "name": "libgssapi-krb5-2",
-        "version": "1.20.1-2+deb12u3",
+        "version": "1.20.1-2+deb12u4",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
             "annotations": {
               "evidence": "primary"
@@ -6109,18 +4485,18 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libgssapi-krb5-2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5-2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5_2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5_2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libgssapi-krb5-2:libgssapi-krb5-2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi-krb5-2:libgssapi_krb5_2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5_2:libgssapi-krb5-2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5_2:libgssapi_krb5_2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi-krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi-krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi:libgssapi-krb5-2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi:libgssapi_krb5_2:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libgssapi-krb5-2@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "purl": "pkg:deb/debian/libgssapi-krb5-2@1.20.1-2%2Bdeb12u4?arch=amd64&distro=debian-12&upstream=krb5",
         "upstreams": [
           {
             "name": "krb5"
@@ -6200,7 +4576,7 @@
             },
             "package": {
               "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
+              "version": "1.20.1-2+deb12u4"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -6211,14 +4587,14 @@
         }
       ],
       "artifact": {
-        "id": "dc5610a2a1a5ad4f",
+        "id": "8f3a478cb18888b8",
         "name": "libk5crypto3",
-        "version": "1.20.1-2+deb12u3",
+        "version": "1.20.1-2+deb12u4",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libk5crypto3",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libk5crypto3",
             "annotations": {
               "evidence": "primary"
@@ -6228,9 +4604,9 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libk5crypto3:libk5crypto3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libk5crypto3:libk5crypto3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libk5crypto3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "purl": "pkg:deb/debian/libk5crypto3@1.20.1-2%2Bdeb12u4?arch=amd64&distro=debian-12&upstream=krb5",
         "upstreams": [
           {
             "name": "krb5"
@@ -6310,7 +4686,7 @@
             },
             "package": {
               "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
+              "version": "1.20.1-2+deb12u4"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -6321,14 +4697,14 @@
         }
       ],
       "artifact": {
-        "id": "a9152735ac194d5d",
+        "id": "575c8aeb7addaf05",
         "name": "libkrb5-3",
-        "version": "1.20.1-2+deb12u3",
+        "version": "1.20.1-2+deb12u4",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libkrb5-3",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libkrb5-3",
             "annotations": {
               "evidence": "primary"
@@ -6338,14 +4714,14 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libkrb5-3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5-3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5_3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5_3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libkrb5-3:libkrb5-3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5-3:libkrb5_3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5_3:libkrb5-3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5_3:libkrb5_3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5:libkrb5-3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5:libkrb5_3:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libkrb5-3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "purl": "pkg:deb/debian/libkrb5-3@1.20.1-2%2Bdeb12u4?arch=amd64&distro=debian-12&upstream=krb5",
         "upstreams": [
           {
             "name": "krb5"
@@ -6425,7 +4801,7 @@
             },
             "package": {
               "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
+              "version": "1.20.1-2+deb12u4"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -6436,14 +4812,14 @@
         }
       ],
       "artifact": {
-        "id": "04174b0fa1866e36",
+        "id": "f17cb326c34696aa",
         "name": "libkrb5support0",
-        "version": "1.20.1-2+deb12u3",
+        "version": "1.20.1-2+deb12u4",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libkrb5support0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libkrb5support0",
             "annotations": {
               "evidence": "primary"
@@ -6453,9 +4829,9 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libkrb5support0:libkrb5support0:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libkrb5support0:libkrb5support0:1.20.1-2\\+deb12u4:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libkrb5support0@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "purl": "pkg:deb/debian/libkrb5support0@1.20.1-2%2Bdeb12u4?arch=amd64&distro=debian-12&upstream=krb5",
         "upstreams": [
           {
             "name": "krb5"
@@ -6567,7 +4943,7 @@
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libsystemd0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libsystemd0",
             "annotations": {
               "evidence": "primary"
@@ -6691,7 +5067,7 @@
         "locations": [
           {
             "path": "/usr/lib/x86_64-linux-gnu/libsystemd.so.0.37.0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/usr/lib/x86_64-linux-gnu/libsystemd.so.0.37.0",
             "annotations": {
               "evidence": "primary"
@@ -6777,7 +5153,7 @@
             },
             "package": {
               "name": "openssl",
-              "version": "3.0.17-1~deb12u2"
+              "version": "3.0.17-1~deb12u3"
             },
             "namespace": "debian:distro:debian:12"
           },
@@ -6788,14 +5164,14 @@
         }
       ],
       "artifact": {
-        "id": "0f919d6ebdb73625",
+        "id": "f17ef78f1c42683d",
         "name": "libssl3",
-        "version": "3.0.17-1~deb12u2",
+        "version": "3.0.17-1~deb12u3",
         "type": "deb",
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libssl3",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libssl3",
             "annotations": {
               "evidence": "primary"
@@ -6803,7 +5179,7 @@
           },
           {
             "path": "/usr/share/doc/libssl3/copyright",
-            "layerID": "sha256:2e4983c761ce4933ecec23c31173fed551a237c8d0ba359b697de64bd953a7c3",
+            "layerID": "sha256:8127a9673224dfe54799359062e838de50453d217ddc48df68bf3615828b86d9",
             "accessPath": "/usr/share/doc/libssl3/copyright",
             "annotations": {
               "evidence": "supporting"
@@ -6811,7 +5187,7 @@
           },
           {
             "path": "/var/lib/dpkg/status.d/libssl3.md5sums",
-            "layerID": "sha256:2e4983c761ce4933ecec23c31173fed551a237c8d0ba359b697de64bd953a7c3",
+            "layerID": "sha256:8127a9673224dfe54799359062e838de50453d217ddc48df68bf3615828b86d9",
             "accessPath": "/var/lib/dpkg/status.d/libssl3.md5sums",
             "annotations": {
               "evidence": "supporting"
@@ -6826,9 +5202,9 @@
           "GPL-1+"
         ],
         "cpes": [
-          "cpe:2.3:a:libssl3:libssl3:3.0.17-1\\~deb12u2:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libssl3:libssl3:3.0.17-1\\~deb12u3:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libssl3@3.0.17-1~deb12u2?arch=amd64&distro=debian-12&upstream=openssl",
+        "purl": "pkg:deb/debian/libssl3@3.0.17-1~deb12u3?arch=amd64&distro=debian-12&upstream=openssl",
         "upstreams": [
           {
             "name": "openssl"
@@ -7096,7 +5472,7 @@
         "locations": [
           {
             "path": "/var/lib/dpkg/status.d/libatomic1",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
             "accessPath": "/var/lib/dpkg/status.d/libatomic1",
             "annotations": {
               "evidence": "primary"
@@ -7566,19 +5942,19 @@
   "source": {
     "type": "image",
     "target": {
-      "userInput": "ghcr.io/fluent/fluent-bit:4.0.9",
-      "imageID": "sha256:7aeaaebf1aef7d6ec36188089965e006b2291b08a668bc0f981918345e8fa6ca",
-      "manifestDigest": "sha256:f110b573120a2cad96b47424b3db053f68e33e428c34485430eef9369cc9170c",
+      "userInput": "ghcr.io/fluent/fluent-bit:4.0.12",
+      "imageID": "sha256:f3bff0ce8ce9a764c9d009b8627dfdcc66c7d5a0cc520644e78a6ede2432d8a2",
+      "manifestDigest": "sha256:7867ef0f03489329e606a3fa835037242fd8edfc7bffb1f26fa5fd14094398d7",
       "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
       "tags": [
-        "ghcr.io/fluent/fluent-bit:4.0.9"
+        "ghcr.io/fluent/fluent-bit:4.0.12"
       ],
-      "imageSize": 105493849,
+      "imageSize": 105568060,
       "layers": [
         {
           "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-          "digest": "sha256:f464af4b9b251ebe8a7c2f186aff656f0892f6cb159837a6ce8fd63842e83e35",
-          "size": 270682
+          "digest": "sha256:bff7f7a9d44356d8784500366094c66399aa6a2edd990cc70e02e27c84402753",
+          "size": 270695
         },
         {
           "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
@@ -7587,8 +5963,8 @@
         },
         {
           "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-          "digest": "sha256:48c0fb67386ed713921fcc0468be23231d0872fa67ccc8ea3929df4656b6ddfc",
-          "size": 1462778
+          "digest": "sha256:4840c7c54023c867f19564429c89ddae4e9589c83dce82492183a7e9f7dab1fa",
+          "size": 1464662
         },
         {
           "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
@@ -7637,13 +6013,13 @@
         },
         {
           "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-          "digest": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
-          "size": 12820707
+          "digest": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
+          "size": 12825148
         },
         {
           "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-          "digest": "sha256:2e4983c761ce4933ecec23c31173fed551a237c8d0ba359b697de64bd953a7c3",
-          "size": 5901043
+          "digest": "sha256:8127a9673224dfe54799359062e838de50453d217ddc48df68bf3615828b86d9",
+          "size": 5901135
         },
         {
           "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
@@ -7667,24 +6043,24 @@
         },
         {
           "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-          "digest": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-          "size": 16642639
+          "digest": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
+          "size": 16642538
         },
         {
           "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-          "digest": "sha256:1e82bf14bb9a81c477c4db86ca8fc009bdcdaf1234c2dc7805dbacf77cadce88",
+          "digest": "sha256:4d3b5ca5e306bdea49039cfffb6cf2470ecc446fb61823b810f0bda5907ec860",
           "size": 217681
         },
         {
           "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-          "digest": "sha256:35e26f33315606291ae1e137d2089e5dcdd8d337d1f37f18e0c254fc5fbf2721",
-          "size": 65014252
+          "digest": "sha256:d273ade3b28aaafa210ca38f26be2a1b7bc2ad4647c7702b90db2405b9755bb9",
+          "size": 65082134
         }
       ],
-      "manifest": "eyJzY2hlbWFWZXJzaW9uIjoyLCJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmRpc3RyaWJ1dGlvbi5tYW5pZmVzdC52Mitqc29uIiwiY29uZmlnIjp7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuY29udGFpbmVyLmltYWdlLnYxK2pzb24iLCJzaXplIjo1MjgyLCJkaWdlc3QiOiJzaGEyNTY6N2FlYWFlYmYxYWVmN2Q2ZWMzNjE4ODA4OTk2NWUwMDZiMjI5MWIwOGE2NjhiYzBmOTgxOTE4MzQ1ZThmYTZjYSJ9LCJsYXllcnMiOlt7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjozMjc2ODAsImRpZ2VzdCI6InNoYTI1NjpmNDY0YWY0YjliMjUxZWJlOGE3YzJmMTg2YWZmNjU2ZjA4OTJmNmNiMTU5ODM3YTZjZThmZDYzODQyZTgzZTM1In0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6NDA5NjAsImRpZ2VzdCI6InNoYTI1Njo4ZmExMGMwMTk0ZGY5YjdjMDU0YzkwZGJlNDgyNTg1Zjc2OGE1NDQyOGZjOTBhNWI3OGEwMDY2YTEyM2IxYmJhIn0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6MjQwNjQwMCwiZGlnZXN0Ijoic2hhMjU2OjQ4YzBmYjY3Mzg2ZWQ3MTM5MjFmY2MwNDY4YmUyMzIzMWQwODcyZmE2N2NjYzhlYTM5MjlkZjQ2NTZiNmRkZmMifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjoxMDI0MDAsImRpZ2VzdCI6InNoYTI1NjoxMTRkZGUwZmVmZWJiY2ExMzE2NWQwZGE5YzUwMGE2NjE5MGU0OTdhODJhNTNkY2FhYmMzMTcyZDYzMGJlMWU5In0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6MTUzNiwiZGlnZXN0Ijoic2hhMjU2OjRkMDQ5ZjgzZDljZjIxZDFmNWNjMGUxMWRlYWYzNmRmMDI3OTBkMGU2MGMxYTM4Mjk1MzhmYjRiNjE2ODUzNjgifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjoyNTYwLCJkaWdlc3QiOiJzaGEyNTY6YWY1YWE5N2ViZTZjZTE2MDQ3NDdlYzFlMjFhZjcxMzZkZWQzOTFiY2FiZTRhY2VmODgyZTcxOGE4N2M4NmJjYyJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjI1NjAsImRpZ2VzdCI6InNoYTI1Njo2ZjFjZGNlYjZhMzE0NmYwY2NiOTg2NTIxMTU2YmVmOGE0MjJjZGJiMDg2MzM5NmY3Zjc1MWY1NzViYTMwOGY0In0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6MjU2MCwiZGlnZXN0Ijoic2hhMjU2OmJiYjZjYWNiOGM4MmU0ZGE0ZTgxNDNlMDMzNTFlOTM5ZWFiNWUyMWNlMGVmMzMzYzQyZTYzN2FmODZjNTIxN2IifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjoxNTM2LCJkaWdlc3QiOiJzaGEyNTY6MmE5MmQ2YWM5ZTRmY2MyNzRkNTE2OGIyMTdjYTQ0NThhOWZlYzZmMDk0ZWFkNjhkOTljNzcwNzNmMDhjYWFjMSJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjEwMjQwLCJkaWdlc3QiOiJzaGEyNTY6MWE3M2I1NGY1NTZiNDc3ZjBhOGI5MzlkMTNjNTA0YTNiNGY0ZGI3MWY3YTA5YzYzYWZiYzEwYWNiM2RlNTg0OSJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjMwNzIsImRpZ2VzdCI6InNoYTI1NjpmNGFlZTllNTNjNDJhMjJlZDgyNDUxMjE4YzNlYTAzZDFlZWE4ZDZjYThmYmU4ZWI0ZTk1MDMwNGJhOGE4YmIzIn0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6MjQxNjY0LCJkaWdlc3QiOiJzaGEyNTY6YmZlOTEzN2ExYjA0NGU4MDk3Y2RmY2I2ODk5MTM3YThhOTg0ZWQ3MDkzMWVkMWU4ZWYwY2Y3ZTAyM2ExMzlmYyJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjEzMDU2MDAwLCJkaWdlc3QiOiJzaGEyNTY6ZDVhM2UwMTQxNjFiYjYwMmQ4N2MyMzEyZTM3MWFkMmVhNmY4MDBjN2Y3YWYyNjFhZjRmYWE2NzMwMmI1M2M4OCJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjU5MTg3MjAsImRpZ2VzdCI6InNoYTI1NjoyZTQ5ODNjNzYxY2U0OTMzZWNlYzIzYzMxMTczZmVkNTUxYTIzN2M4ZDBiYTM1OWI2OTdkZTY0YmQ5NTNhN2MzIn0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6MTEyNjQwLCJkaWdlc3QiOiJzaGEyNTY6NzA5NTQxMjQxN2QyZGNlMjg5Yjc3ZjdhOGM2MzJhMDdjODJiNzA3ZmU0M2NmZWY3MzY4YzNiNjVjOGQyNTM4YSJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjMwNzIwMCwiZGlnZXN0Ijoic2hhMjU2OjI0MDFjNWVhMzJhNzU0NTJiYzRiMDJhNjY0YzgwY2Y2M2YxOTc3MDQ2NTM5MjZmY2ExOWUyMmU2Y2JjODU2NTIifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjoyMzM0NzIwLCJkaWdlc3QiOiJzaGEyNTY6NjgxOWExYWYwOTdkZjU0M2Q1OGRjMzBiNTFmNzM3ZTU1ZjNmNDJhOWEwNGU2NDFmMTc1ODM0YTU1YmYwNjI5YyJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjE0MzM2MCwiZGlnZXN0Ijoic2hhMjU2OmMzYWJhZTQ0MjM2OGRjNDQ3ZjE1YzQ2ODkzMzg0M2MzNjFmMjI3ZjVkODdiMmJiODY1MTViNDlmNDA1ODNlZDkifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjoxNjkxNjQ4MCwiZGlnZXN0Ijoic2hhMjU2Ojg5MWRiZGQ1OTFmMTY0ZmQ0ZTE2NjBmN2I3MmU4MmMzZDk5NTA1NzEwOTIwN2YwOGJhZDE4YjIxN2ExNmRmODgifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjozNzAxNzYsImRpZ2VzdCI6InNoYTI1NjoxZTgyYmYxNGJiOWE4MWM0NzdjNGRiODZjYThmYzAwOWJkY2RhZjEyMzRjMmRjNzgwNWRiYWNmNzdjYWRjZTg4In0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6NjUwMjQ1MTIsImRpZ2VzdCI6InNoYTI1NjozNWUyNmYzMzMxNTYwNjI5MWFlMWUxMzdkMjA4OWU1ZGNkZDhkMzM3ZDFmMzdmMThlMGMyNTRmYzVmYmYyNzIxIn1dfQ==",
-      "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImNvbmZpZyI6eyJVc2VyIjoiMCIsIkV4cG9zZWRQb3J0cyI6eyIyMDIwL3RjcCI6e319LCJFbnYiOlsiUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4iLCJTU0xfQ0VSVF9GSUxFPS9ldGMvc3NsL2NlcnRzL2NhLWNlcnRpZmljYXRlcy5jcnQiLCJGTFVFTlRfQklUX1ZFUlNJT049NC4wLjkiXSwiRW50cnlwb2ludCI6WyIvZmx1ZW50LWJpdC9iaW4vZmx1ZW50LWJpdCJdLCJDbWQiOlsiL2ZsdWVudC1iaXQvYmluL2ZsdWVudC1iaXQiLCItYyIsIi9mbHVlbnQtYml0L2V0Yy9mbHVlbnQtYml0LmNvbmYiXSwiV29ya2luZ0RpciI6Ii8iLCJMYWJlbHMiOnsiYXV0aG9yIjoiRWR1YXJkbyBTaWx2YSBcdTAwM2NlZHVhcmRvLnNpbHZhQGNocm9ub3NwaGVyZS5pb1x1MDAzZSIsImRlc2NyaXB0aW9uIjoiRmx1ZW50IEJpdCBtdWx0aS1hcmNoaXRlY3R1cmUgY29udGFpbmVyIGltYWdlIiwib3JnLm9wZW5jb250YWluZXJzLmltYWdlLmF1dGhvcnMiOiJFZHVhcmRvIFNpbHZhIFx1MDAzY2VkdWFyZG8uc2lsdmFAY2hyb25vc3BoZXJlLmlvXHUwMDNlIiwib3JnLm9wZW5jb250YWluZXJzLmltYWdlLmRlc2NyaXB0aW9uIjoiRmx1ZW50IEJpdCBjb250YWluZXIgaW1hZ2UiLCJvcmcub3BlbmNvbnRhaW5lcnMuaW1hZ2UuZG9jdW1lbnRhdGlvbiI6Imh0dHBzOi8vZG9jcy5mbHVlbnRiaXQuaW8vIiwib3JnLm9wZW5jb250YWluZXJzLmltYWdlLmxpY2Vuc2VzIjoiQXBhY2hlLTIuMCIsIm9yZy5vcGVuY29udGFpbmVycy5pbWFnZS5zb3VyY2UiOiJodHRwczovL2dpdGh1Yi5jb20vZmx1ZW50L2ZsdWVudC1iaXQiLCJvcmcub3BlbmNvbnRhaW5lcnMuaW1hZ2UudGl0bGUiOiJGbHVlbnQgQml0Iiwib3JnLm9wZW5jb250YWluZXJzLmltYWdlLnZlbmRvciI6IkZsdWVudCBPcmdhbml6YXRpb24iLCJvcmcub3BlbmNvbnRhaW5lcnMuaW1hZ2UudmVyc2lvbiI6IjQuMC45IiwidmVuZG9yIjoiRmx1ZW50IE9yZ2FuaXphdGlvbiIsInZlcnNpb24iOiI0LjAuOSJ9LCJBcmdzRXNjYXBlZCI6dHJ1ZX0sImNyZWF0ZWQiOiIyMDI1LTA5LTA0VDA3OjA1OjExLjMxNTI1NzIwMVoiLCJoaXN0b3J5IjpbeyJjcmVhdGVkIjoiMDAwMS0wMS0wMVQwMDowMDowMFoifSx7ImNyZWF0ZWQiOiIwMDAxLTAxLTAxVDAwOjAwOjAwWiJ9LHsiY3JlYXRlZCI6IjAwMDEtMDEtMDFUMDA6MDA6MDBaIn0seyJjcmVhdGVkIjoiMDAwMS0wMS0wMVQwMDowMDowMFoifSx7ImNyZWF0ZWQiOiIwMDAxLTAxLTAxVDAwOjAwOjAwWiJ9LHsiY3JlYXRlZCI6IjAwMDEtMDEtMDFUMDA6MDA6MDBaIn0seyJjcmVhdGVkIjoiMDAwMS0wMS0wMVQwMDowMDowMFoifSx7ImNyZWF0ZWQiOiIwMDAxLTAxLTAxVDAwOjAwOjAwWiJ9LHsiY3JlYXRlZCI6IjAwMDEtMDEtMDFUMDA6MDA6MDBaIn0seyJjcmVhdGVkIjoiMDAwMS0wMS0wMVQwMDowMDowMFoifSx7ImNyZWF0ZWQiOiIwMDAxLTAxLTAxVDAwOjAwOjAwWiJ9LHsiY3JlYXRlZCI6IjAwMDEtMDEtMDFUMDA6MDA6MDBaIn0seyJjcmVhdGVkIjoiMDAwMS0wMS0wMVQwMDowMDowMFoifSx7ImNyZWF0ZWQiOiIwMDAxLTAxLTAxVDAwOjAwOjAwWiJ9LHsiY3JlYXRlZCI6IjAwMDEtMDEtMDFUMDA6MDA6MDBaIn0seyJjcmVhdGVkIjoiMDAwMS0wMS0wMVQwMDowMDowMFoifSx7ImNyZWF0ZWQiOiIwMDAxLTAxLTAxVDAwOjAwOjAwWiJ9LHsiY3JlYXRlZCI6IjAwMDEtMDEtMDFUMDA6MDA6MDBaIn0seyJjcmVhdGVkIjoiMjAyNS0wOS0wNFQwNzowMDo0MS43ODIxOTU2MDJaIiwiY3JlYXRlZF9ieSI6IkFSRyBSRUxFQVNFX1ZFUlNJT049NC4wLjkiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDI1LTA5LTA0VDA3OjAwOjQxLjc4MjE5NTYwMloiLCJjcmVhdGVkX2J5IjoiRU5WIEZMVUVOVF9CSVRfVkVSU0lPTj00LjAuOSIsImNvbW1lbnQiOiJidWlsZGtpdC5kb2NrZXJmaWxlLnYwIiwiZW1wdHlfbGF5ZXIiOnRydWV9LHsiY3JlYXRlZCI6IjIwMjUtMDktMDRUMDc6MDA6NDEuNzgyMTk1NjAyWiIsImNyZWF0ZWRfYnkiOiJMQUJFTCBkZXNjcmlwdGlvbj1GbHVlbnQgQml0IG11bHRpLWFyY2hpdGVjdHVyZSBjb250YWluZXIgaW1hZ2UgdmVuZG9yPUZsdWVudCBPcmdhbml6YXRpb24gdmVyc2lvbj00LjAuOSBhdXRob3I9RWR1YXJkbyBTaWx2YSBcdTAwM2NlZHVhcmRvLnNpbHZhQGNocm9ub3NwaGVyZS5pb1x1MDAzZSBvcmcub3BlbmNvbnRhaW5lcnMuaW1hZ2UuZGVzY3JpcHRpb249Rmx1ZW50IEJpdCBjb250YWluZXIgaW1hZ2Ugb3JnLm9wZW5jb250YWluZXJzLmltYWdlLnRpdGxlPUZsdWVudCBCaXQgb3JnLm9wZW5jb250YWluZXJzLmltYWdlLmxpY2Vuc2VzPUFwYWNoZS0yLjAgb3JnLm9wZW5jb250YWluZXJzLmltYWdlLnZlbmRvcj1GbHVlbnQgT3JnYW5pemF0aW9uIG9yZy5vcGVuY29udGFpbmVycy5pbWFnZS52ZXJzaW9uPTQuMC45IG9yZy5vcGVuY29udGFpbmVycy5pbWFnZS5zb3VyY2U9aHR0cHM6Ly9naXRodWIuY29tL2ZsdWVudC9mbHVlbnQtYml0IG9yZy5vcGVuY29udGFpbmVycy5pbWFnZS5kb2N1bWVudGF0aW9uPWh0dHBzOi8vZG9jcy5mbHVlbnRiaXQuaW8vIG9yZy5vcGVuY29udGFpbmVycy5pbWFnZS5hdXRob3JzPUVkdWFyZG8gU2lsdmEgXHUwMDNjZWR1YXJkby5zaWx2YUBjaHJvbm9zcGhlcmUuaW9cdTAwM2UiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDI1LTA5LTA0VDA3OjAwOjQxLjc4MjE5NTYwMloiLCJjcmVhdGVkX2J5IjoiQ09QWSAvZHBrZyAvICMgYnVpbGRraXQiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCJ9LHsiY3JlYXRlZCI6IjIwMjUtMDktMDRUMDc6MDU6MTEuMjM1MDkyODgxWiIsImNyZWF0ZWRfYnkiOiJDT1BZIC9ldGMvc3NsL2NlcnRzIC9ldGMvc3NsL2NlcnRzICMgYnVpbGRraXQiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCJ9LHsiY3JlYXRlZCI6IjIwMjUtMDktMDRUMDc6MDU6MTEuMzE1MjU3MjAxWiIsImNyZWF0ZWRfYnkiOiJDT1BZIC9mbHVlbnQtYml0IC9mbHVlbnQtYml0ICMgYnVpbGRraXQiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCJ9LHsiY3JlYXRlZCI6IjIwMjUtMDktMDRUMDc6MDU6MTEuMzE1MjU3MjAxWiIsImNyZWF0ZWRfYnkiOiJFWFBPU0UgbWFwWzIwMjAvdGNwOnt9XSIsImNvbW1lbnQiOiJidWlsZGtpdC5kb2NrZXJmaWxlLnYwIiwiZW1wdHlfbGF5ZXIiOnRydWV9LHsiY3JlYXRlZCI6IjIwMjUtMDktMDRUMDc6MDU6MTEuMzE1MjU3MjAxWiIsImNyZWF0ZWRfYnkiOiJFTlRSWVBPSU5UIFtcIi9mbHVlbnQtYml0L2Jpbi9mbHVlbnQtYml0XCJdIiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAiLCJlbXB0eV9sYXllciI6dHJ1ZX0seyJjcmVhdGVkIjoiMjAyNS0wOS0wNFQwNzowNToxMS4zMTUyNTcyMDFaIiwiY3JlYXRlZF9ieSI6IkNNRCBbXCIvZmx1ZW50LWJpdC9iaW4vZmx1ZW50LWJpdFwiIFwiLWNcIiBcIi9mbHVlbnQtYml0L2V0Yy9mbHVlbnQtYml0LmNvbmZcIl0iLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCIsImVtcHR5X2xheWVyIjp0cnVlfV0sIm9zIjoibGludXgiLCJyb290ZnMiOnsidHlwZSI6ImxheWVycyIsImRpZmZfaWRzIjpbInNoYTI1NjpmNDY0YWY0YjliMjUxZWJlOGE3YzJmMTg2YWZmNjU2ZjA4OTJmNmNiMTU5ODM3YTZjZThmZDYzODQyZTgzZTM1Iiwic2hhMjU2OjhmYTEwYzAxOTRkZjliN2MwNTRjOTBkYmU0ODI1ODVmNzY4YTU0NDI4ZmM5MGE1Yjc4YTAwNjZhMTIzYjFiYmEiLCJzaGEyNTY6NDhjMGZiNjczODZlZDcxMzkyMWZjYzA0NjhiZTIzMjMxZDA4NzJmYTY3Y2NjOGVhMzkyOWRmNDY1NmI2ZGRmYyIsInNoYTI1NjoxMTRkZGUwZmVmZWJiY2ExMzE2NWQwZGE5YzUwMGE2NjE5MGU0OTdhODJhNTNkY2FhYmMzMTcyZDYzMGJlMWU5Iiwic2hhMjU2OjRkMDQ5ZjgzZDljZjIxZDFmNWNjMGUxMWRlYWYzNmRmMDI3OTBkMGU2MGMxYTM4Mjk1MzhmYjRiNjE2ODUzNjgiLCJzaGEyNTY6YWY1YWE5N2ViZTZjZTE2MDQ3NDdlYzFlMjFhZjcxMzZkZWQzOTFiY2FiZTRhY2VmODgyZTcxOGE4N2M4NmJjYyIsInNoYTI1Njo2ZjFjZGNlYjZhMzE0NmYwY2NiOTg2NTIxMTU2YmVmOGE0MjJjZGJiMDg2MzM5NmY3Zjc1MWY1NzViYTMwOGY0Iiwic2hhMjU2OmJiYjZjYWNiOGM4MmU0ZGE0ZTgxNDNlMDMzNTFlOTM5ZWFiNWUyMWNlMGVmMzMzYzQyZTYzN2FmODZjNTIxN2IiLCJzaGEyNTY6MmE5MmQ2YWM5ZTRmY2MyNzRkNTE2OGIyMTdjYTQ0NThhOWZlYzZmMDk0ZWFkNjhkOTljNzcwNzNmMDhjYWFjMSIsInNoYTI1NjoxYTczYjU0ZjU1NmI0NzdmMGE4YjkzOWQxM2M1MDRhM2I0ZjRkYjcxZjdhMDljNjNhZmJjMTBhY2IzZGU1ODQ5Iiwic2hhMjU2OmY0YWVlOWU1M2M0MmEyMmVkODI0NTEyMThjM2VhMDNkMWVlYThkNmNhOGZiZThlYjRlOTUwMzA0YmE4YThiYjMiLCJzaGEyNTY6YmZlOTEzN2ExYjA0NGU4MDk3Y2RmY2I2ODk5MTM3YThhOTg0ZWQ3MDkzMWVkMWU4ZWYwY2Y3ZTAyM2ExMzlmYyIsInNoYTI1NjpkNWEzZTAxNDE2MWJiNjAyZDg3YzIzMTJlMzcxYWQyZWE2ZjgwMGM3ZjdhZjI2MWFmNGZhYTY3MzAyYjUzYzg4Iiwic2hhMjU2OjJlNDk4M2M3NjFjZTQ5MzNlY2VjMjNjMzExNzNmZWQ1NTFhMjM3YzhkMGJhMzU5YjY5N2RlNjRiZDk1M2E3YzMiLCJzaGEyNTY6NzA5NTQxMjQxN2QyZGNlMjg5Yjc3ZjdhOGM2MzJhMDdjODJiNzA3ZmU0M2NmZWY3MzY4YzNiNjVjOGQyNTM4YSIsInNoYTI1NjoyNDAxYzVlYTMyYTc1NDUyYmM0YjAyYTY2NGM4MGNmNjNmMTk3NzA0NjUzOTI2ZmNhMTllMjJlNmNiYzg1NjUyIiwic2hhMjU2OjY4MTlhMWFmMDk3ZGY1NDNkNThkYzMwYjUxZjczN2U1NWYzZjQyYTlhMDRlNjQxZjE3NTgzNGE1NWJmMDYyOWMiLCJzaGEyNTY6YzNhYmFlNDQyMzY4ZGM0NDdmMTVjNDY4OTMzODQzYzM2MWYyMjdmNWQ4N2IyYmI4NjUxNWI0OWY0MDU4M2VkOSIsInNoYTI1Njo4OTFkYmRkNTkxZjE2NGZkNGUxNjYwZjdiNzJlODJjM2Q5OTUwNTcxMDkyMDdmMDhiYWQxOGIyMTdhMTZkZjg4Iiwic2hhMjU2OjFlODJiZjE0YmI5YTgxYzQ3N2M0ZGI4NmNhOGZjMDA5YmRjZGFmMTIzNGMyZGM3ODA1ZGJhY2Y3N2NhZGNlODgiLCJzaGEyNTY6MzVlMjZmMzMzMTU2MDYyOTFhZTFlMTM3ZDIwODllNWRjZGQ4ZDMzN2QxZjM3ZjE4ZTBjMjU0ZmM1ZmJmMjcyMSJdfX0=",
+      "manifest": "eyJzY2hlbWFWZXJzaW9uIjoyLCJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmRpc3RyaWJ1dGlvbi5tYW5pZmVzdC52Mitqc29uIiwiY29uZmlnIjp7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuY29udGFpbmVyLmltYWdlLnYxK2pzb24iLCJzaXplIjo1MzEzLCJkaWdlc3QiOiJzaGEyNTY6ZjNiZmYwY2U4Y2U5YTc2NGM5ZDAwOWI4NjI3ZGZkY2M2NmM3ZDVhMGNjNTIwNjQ0ZTc4YTZlZGUyNDMyZDhhMiJ9LCJsYXllcnMiOlt7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjozMjc2ODAsImRpZ2VzdCI6InNoYTI1NjpiZmY3ZjdhOWQ0NDM1NmQ4Nzg0NTAwMzY2MDk0YzY2Mzk5YWE2YTJlZGQ5OTBjYzcwZTAyZTI3Yzg0NDAyNzUzIn0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6NDA5NjAsImRpZ2VzdCI6InNoYTI1Njo4ZmExMGMwMTk0ZGY5YjdjMDU0YzkwZGJlNDgyNTg1Zjc2OGE1NDQyOGZjOTBhNWI3OGEwMDY2YTEyM2IxYmJhIn0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6MjQwNjQwMCwiZGlnZXN0Ijoic2hhMjU2OjQ4NDBjN2M1NDAyM2M4NjdmMTk1NjQ0MjljODlkZGFlNGU5NTg5YzgzZGNlODI0OTIxODNhN2U5ZjdkYWIxZmEifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjoxMDI0MDAsImRpZ2VzdCI6InNoYTI1NjoxMTRkZGUwZmVmZWJiY2ExMzE2NWQwZGE5YzUwMGE2NjE5MGU0OTdhODJhNTNkY2FhYmMzMTcyZDYzMGJlMWU5In0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6MTUzNiwiZGlnZXN0Ijoic2hhMjU2OjRkMDQ5ZjgzZDljZjIxZDFmNWNjMGUxMWRlYWYzNmRmMDI3OTBkMGU2MGMxYTM4Mjk1MzhmYjRiNjE2ODUzNjgifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjoyNTYwLCJkaWdlc3QiOiJzaGEyNTY6YWY1YWE5N2ViZTZjZTE2MDQ3NDdlYzFlMjFhZjcxMzZkZWQzOTFiY2FiZTRhY2VmODgyZTcxOGE4N2M4NmJjYyJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjI1NjAsImRpZ2VzdCI6InNoYTI1Njo2ZjFjZGNlYjZhMzE0NmYwY2NiOTg2NTIxMTU2YmVmOGE0MjJjZGJiMDg2MzM5NmY3Zjc1MWY1NzViYTMwOGY0In0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6MjU2MCwiZGlnZXN0Ijoic2hhMjU2OmJiYjZjYWNiOGM4MmU0ZGE0ZTgxNDNlMDMzNTFlOTM5ZWFiNWUyMWNlMGVmMzMzYzQyZTYzN2FmODZjNTIxN2IifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjoxNTM2LCJkaWdlc3QiOiJzaGEyNTY6MmE5MmQ2YWM5ZTRmY2MyNzRkNTE2OGIyMTdjYTQ0NThhOWZlYzZmMDk0ZWFkNjhkOTljNzcwNzNmMDhjYWFjMSJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjEwMjQwLCJkaWdlc3QiOiJzaGEyNTY6MWE3M2I1NGY1NTZiNDc3ZjBhOGI5MzlkMTNjNTA0YTNiNGY0ZGI3MWY3YTA5YzYzYWZiYzEwYWNiM2RlNTg0OSJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjMwNzIsImRpZ2VzdCI6InNoYTI1NjpmNGFlZTllNTNjNDJhMjJlZDgyNDUxMjE4YzNlYTAzZDFlZWE4ZDZjYThmYmU4ZWI0ZTk1MDMwNGJhOGE4YmIzIn0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6MjQxNjY0LCJkaWdlc3QiOiJzaGEyNTY6YmZlOTEzN2ExYjA0NGU4MDk3Y2RmY2I2ODk5MTM3YThhOTg0ZWQ3MDkzMWVkMWU4ZWYwY2Y3ZTAyM2ExMzlmYyJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjEzMDY2MjQwLCJkaWdlc3QiOiJzaGEyNTY6YmQyOTUwMmFkZjE5OWFkOWMwM2FmYmE5YmM3OWRmNTcyYTI2ZWM2MGEyYTZmZmRkYTQ4ODNhNWI3YTE2MzJmZSJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjU5MTg3MjAsImRpZ2VzdCI6InNoYTI1Njo4MTI3YTk2NzMyMjRkZmU1NDc5OTM1OTA2MmU4MzhkZTUwNDUzZDIxN2RkYzQ4ZGY2OGJmMzYxNTgyOGI4NmQ5In0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6MTEyNjQwLCJkaWdlc3QiOiJzaGEyNTY6NzA5NTQxMjQxN2QyZGNlMjg5Yjc3ZjdhOGM2MzJhMDdjODJiNzA3ZmU0M2NmZWY3MzY4YzNiNjVjOGQyNTM4YSJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjMwNzIwMCwiZGlnZXN0Ijoic2hhMjU2OjI0MDFjNWVhMzJhNzU0NTJiYzRiMDJhNjY0YzgwY2Y2M2YxOTc3MDQ2NTM5MjZmY2ExOWUyMmU2Y2JjODU2NTIifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjoyMzM0NzIwLCJkaWdlc3QiOiJzaGEyNTY6NjgxOWExYWYwOTdkZjU0M2Q1OGRjMzBiNTFmNzM3ZTU1ZjNmNDJhOWEwNGU2NDFmMTc1ODM0YTU1YmYwNjI5YyJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjE0MzM2MCwiZGlnZXN0Ijoic2hhMjU2OmMzYWJhZTQ0MjM2OGRjNDQ3ZjE1YzQ2ODkzMzg0M2MzNjFmMjI3ZjVkODdiMmJiODY1MTViNDlmNDA1ODNlZDkifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjoxNjkxNjQ4MCwiZGlnZXN0Ijoic2hhMjU2OjQxN2IxOGUxMjM2MmViMDhiYmVlOTUzYTFhNGZmZTcxNTIxNjJjOTgxNzgwMDZmZDMyNzRlM2E2ZTExZDM2ZGYifSx7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjozNzAxNzYsImRpZ2VzdCI6InNoYTI1Njo0ZDNiNWNhNWUzMDZiZGVhNDkwMzljZmZmYjZjZjI0NzBlY2M0NDZmYjYxODIzYjgxMGYwYmRhNTkwN2VjODYwIn0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6NjUwOTI2MDgsImRpZ2VzdCI6InNoYTI1NjpkMjczYWRlM2IyOGFhYWZhMjEwY2EzOGYyNmJlMmExYjdiYzJhZDQ2NDdjNzcwMmI5MGRiMjQwNWI5NzU1YmI5In1dfQ==",
+      "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImNvbmZpZyI6eyJVc2VyIjoiMCIsIkV4cG9zZWRQb3J0cyI6eyIyMDIwL3RjcCI6e319LCJFbnYiOlsiUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4iLCJTU0xfQ0VSVF9GSUxFPS9ldGMvc3NsL2NlcnRzL2NhLWNlcnRpZmljYXRlcy5jcnQiLCJGTFVFTlRfQklUX1ZFUlNJT049NC4wLjEyIl0sIkVudHJ5cG9pbnQiOlsiL2ZsdWVudC1iaXQvYmluL2ZsdWVudC1iaXQiXSwiQ21kIjpbIi9mbHVlbnQtYml0L2Jpbi9mbHVlbnQtYml0IiwiLWMiLCIvZmx1ZW50LWJpdC9ldGMvZmx1ZW50LWJpdC5jb25mIl0sIldvcmtpbmdEaXIiOiIvIiwiTGFiZWxzIjp7ImF1dGhvciI6IkVkdWFyZG8gU2lsdmEgXHUwMDNjZWR1YXJkby5zaWx2YUBjaHJvbm9zcGhlcmUuaW9cdTAwM2UiLCJkZXNjcmlwdGlvbiI6IkZsdWVudCBCaXQgbXVsdGktYXJjaGl0ZWN0dXJlIGNvbnRhaW5lciBpbWFnZSIsIm9yZy5vcGVuY29udGFpbmVycy5pbWFnZS5hdXRob3JzIjoiRWR1YXJkbyBTaWx2YSBcdTAwM2NlZHVhcmRvLnNpbHZhQGNocm9ub3NwaGVyZS5pb1x1MDAzZSIsIm9yZy5vcGVuY29udGFpbmVycy5pbWFnZS5kZXNjcmlwdGlvbiI6IkZsdWVudCBCaXQgY29udGFpbmVyIGltYWdlIiwib3JnLm9wZW5jb250YWluZXJzLmltYWdlLmRvY3VtZW50YXRpb24iOiJodHRwczovL2RvY3MuZmx1ZW50Yml0LmlvLyIsIm9yZy5vcGVuY29udGFpbmVycy5pbWFnZS5saWNlbnNlcyI6IkFwYWNoZS0yLjAiLCJvcmcub3BlbmNvbnRhaW5lcnMuaW1hZ2Uuc291cmNlIjoiaHR0cHM6Ly9naXRodWIuY29tL2ZsdWVudC9mbHVlbnQtYml0Iiwib3JnLm9wZW5jb250YWluZXJzLmltYWdlLnRpdGxlIjoiRmx1ZW50IEJpdCIsIm9yZy5vcGVuY29udGFpbmVycy5pbWFnZS52ZW5kb3IiOiJGbHVlbnQgT3JnYW5pemF0aW9uIiwib3JnLm9wZW5jb250YWluZXJzLmltYWdlLnZlcnNpb24iOiI0LjAuMTIiLCJ2ZW5kb3IiOiJGbHVlbnQgT3JnYW5pemF0aW9uIiwidmVyc2lvbiI6IjQuMC4xMiJ9LCJBcmdzRXNjYXBlZCI6dHJ1ZX0sImNyZWF0ZWQiOiIyMDI1LTEwLTA3VDA1OjQxOjExLjU1NzMyOTA2MVoiLCJoaXN0b3J5IjpbeyJjcmVhdGVkIjoiMDAwMS0wMS0wMVQwMDowMDowMFoifSx7ImNyZWF0ZWQiOiIwMDAxLTAxLTAxVDAwOjAwOjAwWiJ9LHsiY3JlYXRlZCI6IjAwMDEtMDEtMDFUMDA6MDA6MDBaIn0seyJjcmVhdGVkIjoiMDAwMS0wMS0wMVQwMDowMDowMFoifSx7ImNyZWF0ZWQiOiIwMDAxLTAxLTAxVDAwOjAwOjAwWiJ9LHsiY3JlYXRlZCI6IjAwMDEtMDEtMDFUMDA6MDA6MDBaIn0seyJjcmVhdGVkIjoiMDAwMS0wMS0wMVQwMDowMDowMFoifSx7ImNyZWF0ZWQiOiIwMDAxLTAxLTAxVDAwOjAwOjAwWiJ9LHsiY3JlYXRlZCI6IjAwMDEtMDEtMDFUMDA6MDA6MDBaIn0seyJjcmVhdGVkIjoiMDAwMS0wMS0wMVQwMDowMDowMFoifSx7ImNyZWF0ZWQiOiIwMDAxLTAxLTAxVDAwOjAwOjAwWiJ9LHsiY3JlYXRlZCI6IjAwMDEtMDEtMDFUMDA6MDA6MDBaIn0seyJjcmVhdGVkIjoiMDAwMS0wMS0wMVQwMDowMDowMFoifSx7ImNyZWF0ZWQiOiIwMDAxLTAxLTAxVDAwOjAwOjAwWiJ9LHsiY3JlYXRlZCI6IjAwMDEtMDEtMDFUMDA6MDA6MDBaIn0seyJjcmVhdGVkIjoiMDAwMS0wMS0wMVQwMDowMDowMFoifSx7ImNyZWF0ZWQiOiIwMDAxLTAxLTAxVDAwOjAwOjAwWiJ9LHsiY3JlYXRlZCI6IjAwMDEtMDEtMDFUMDA6MDA6MDBaIn0seyJjcmVhdGVkIjoiMjAyNS0xMC0wN1QwNTozNjo1MC43MzQ2Njk3NTJaIiwiY3JlYXRlZF9ieSI6IkFSRyBSRUxFQVNFX1ZFUlNJT049NC4wLjEyIiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAiLCJlbXB0eV9sYXllciI6dHJ1ZX0seyJjcmVhdGVkIjoiMjAyNS0xMC0wN1QwNTozNjo1MC43MzQ2Njk3NTJaIiwiY3JlYXRlZF9ieSI6IkVOViBGTFVFTlRfQklUX1ZFUlNJT049NC4wLjEyIiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAiLCJlbXB0eV9sYXllciI6dHJ1ZX0seyJjcmVhdGVkIjoiMjAyNS0xMC0wN1QwNTozNjo1MC43MzQ2Njk3NTJaIiwiY3JlYXRlZF9ieSI6IkxBQkVMIGRlc2NyaXB0aW9uPUZsdWVudCBCaXQgbXVsdGktYXJjaGl0ZWN0dXJlIGNvbnRhaW5lciBpbWFnZSB2ZW5kb3I9Rmx1ZW50IE9yZ2FuaXphdGlvbiB2ZXJzaW9uPTQuMC4xMiBhdXRob3I9RWR1YXJkbyBTaWx2YSBcdTAwM2NlZHVhcmRvLnNpbHZhQGNocm9ub3NwaGVyZS5pb1x1MDAzZSBvcmcub3BlbmNvbnRhaW5lcnMuaW1hZ2UuZGVzY3JpcHRpb249Rmx1ZW50IEJpdCBjb250YWluZXIgaW1hZ2Ugb3JnLm9wZW5jb250YWluZXJzLmltYWdlLnRpdGxlPUZsdWVudCBCaXQgb3JnLm9wZW5jb250YWluZXJzLmltYWdlLmxpY2Vuc2VzPUFwYWNoZS0yLjAgb3JnLm9wZW5jb250YWluZXJzLmltYWdlLnZlbmRvcj1GbHVlbnQgT3JnYW5pemF0aW9uIG9yZy5vcGVuY29udGFpbmVycy5pbWFnZS52ZXJzaW9uPTQuMC4xMiBvcmcub3BlbmNvbnRhaW5lcnMuaW1hZ2Uuc291cmNlPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHVlbnQvZmx1ZW50LWJpdCBvcmcub3BlbmNvbnRhaW5lcnMuaW1hZ2UuZG9jdW1lbnRhdGlvbj1odHRwczovL2RvY3MuZmx1ZW50Yml0LmlvLyBvcmcub3BlbmNvbnRhaW5lcnMuaW1hZ2UuYXV0aG9ycz1FZHVhcmRvIFNpbHZhIFx1MDAzY2VkdWFyZG8uc2lsdmFAY2hyb25vc3BoZXJlLmlvXHUwMDNlIiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAiLCJlbXB0eV9sYXllciI6dHJ1ZX0seyJjcmVhdGVkIjoiMjAyNS0xMC0wN1QwNTozNjo1MC43MzQ2Njk3NTJaIiwiY3JlYXRlZF9ieSI6IkNPUFkgL2Rwa2cgLyAjIGJ1aWxka2l0IiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAifSx7ImNyZWF0ZWQiOiIyMDI1LTEwLTA3VDA1OjQxOjEwLjg0MDE1NzQyOVoiLCJjcmVhdGVkX2J5IjoiQ09QWSAvZXRjL3NzbC9jZXJ0cyAvZXRjL3NzbC9jZXJ0cyAjIGJ1aWxka2l0IiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAifSx7ImNyZWF0ZWQiOiIyMDI1LTEwLTA3VDA1OjQxOjExLjU1NzMyOTA2MVoiLCJjcmVhdGVkX2J5IjoiQ09QWSAvZmx1ZW50LWJpdCAvZmx1ZW50LWJpdCAjIGJ1aWxka2l0IiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAifSx7ImNyZWF0ZWQiOiIyMDI1LTEwLTA3VDA1OjQxOjExLjU1NzMyOTA2MVoiLCJjcmVhdGVkX2J5IjoiRVhQT1NFIFx1MDAyNntbe3syMDUgMH0gezIwNSAwfX1dIDB4YzAwMDJiZTFjMH0iLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDI1LTEwLTA3VDA1OjQxOjExLjU1NzMyOTA2MVoiLCJjcmVhdGVkX2J5IjoiRU5UUllQT0lOVCBbXCIvZmx1ZW50LWJpdC9iaW4vZmx1ZW50LWJpdFwiXSIsImNvbW1lbnQiOiJidWlsZGtpdC5kb2NrZXJmaWxlLnYwIiwiZW1wdHlfbGF5ZXIiOnRydWV9LHsiY3JlYXRlZCI6IjIwMjUtMTAtMDdUMDU6NDE6MTEuNTU3MzI5MDYxWiIsImNyZWF0ZWRfYnkiOiJDTUQgW1wiL2ZsdWVudC1iaXQvYmluL2ZsdWVudC1iaXRcIiBcIi1jXCIgXCIvZmx1ZW50LWJpdC9ldGMvZmx1ZW50LWJpdC5jb25mXCJdIiwiY29tbWVudCI6ImJ1aWxka2l0LmRvY2tlcmZpbGUudjAiLCJlbXB0eV9sYXllciI6dHJ1ZX1dLCJvcyI6ImxpbnV4Iiwicm9vdGZzIjp7InR5cGUiOiJsYXllcnMiLCJkaWZmX2lkcyI6WyJzaGEyNTY6YmZmN2Y3YTlkNDQzNTZkODc4NDUwMDM2NjA5NGM2NjM5OWFhNmEyZWRkOTkwY2M3MGUwMmUyN2M4NDQwMjc1MyIsInNoYTI1Njo4ZmExMGMwMTk0ZGY5YjdjMDU0YzkwZGJlNDgyNTg1Zjc2OGE1NDQyOGZjOTBhNWI3OGEwMDY2YTEyM2IxYmJhIiwic2hhMjU2OjQ4NDBjN2M1NDAyM2M4NjdmMTk1NjQ0MjljODlkZGFlNGU5NTg5YzgzZGNlODI0OTIxODNhN2U5ZjdkYWIxZmEiLCJzaGEyNTY6MTE0ZGRlMGZlZmViYmNhMTMxNjVkMGRhOWM1MDBhNjYxOTBlNDk3YTgyYTUzZGNhYWJjMzE3MmQ2MzBiZTFlOSIsInNoYTI1Njo0ZDA0OWY4M2Q5Y2YyMWQxZjVjYzBlMTFkZWFmMzZkZjAyNzkwZDBlNjBjMWEzODI5NTM4ZmI0YjYxNjg1MzY4Iiwic2hhMjU2OmFmNWFhOTdlYmU2Y2UxNjA0NzQ3ZWMxZTIxYWY3MTM2ZGVkMzkxYmNhYmU0YWNlZjg4MmU3MThhODdjODZiY2MiLCJzaGEyNTY6NmYxY2RjZWI2YTMxNDZmMGNjYjk4NjUyMTE1NmJlZjhhNDIyY2RiYjA4NjMzOTZmN2Y3NTFmNTc1YmEzMDhmNCIsInNoYTI1NjpiYmI2Y2FjYjhjODJlNGRhNGU4MTQzZTAzMzUxZTkzOWVhYjVlMjFjZTBlZjMzM2M0MmU2MzdhZjg2YzUyMTdiIiwic2hhMjU2OjJhOTJkNmFjOWU0ZmNjMjc0ZDUxNjhiMjE3Y2E0NDU4YTlmZWM2ZjA5NGVhZDY4ZDk5Yzc3MDczZjA4Y2FhYzEiLCJzaGEyNTY6MWE3M2I1NGY1NTZiNDc3ZjBhOGI5MzlkMTNjNTA0YTNiNGY0ZGI3MWY3YTA5YzYzYWZiYzEwYWNiM2RlNTg0OSIsInNoYTI1NjpmNGFlZTllNTNjNDJhMjJlZDgyNDUxMjE4YzNlYTAzZDFlZWE4ZDZjYThmYmU4ZWI0ZTk1MDMwNGJhOGE4YmIzIiwic2hhMjU2OmJmZTkxMzdhMWIwNDRlODA5N2NkZmNiNjg5OTEzN2E4YTk4NGVkNzA5MzFlZDFlOGVmMGNmN2UwMjNhMTM5ZmMiLCJzaGEyNTY6YmQyOTUwMmFkZjE5OWFkOWMwM2FmYmE5YmM3OWRmNTcyYTI2ZWM2MGEyYTZmZmRkYTQ4ODNhNWI3YTE2MzJmZSIsInNoYTI1Njo4MTI3YTk2NzMyMjRkZmU1NDc5OTM1OTA2MmU4MzhkZTUwNDUzZDIxN2RkYzQ4ZGY2OGJmMzYxNTgyOGI4NmQ5Iiwic2hhMjU2OjcwOTU0MTI0MTdkMmRjZTI4OWI3N2Y3YThjNjMyYTA3YzgyYjcwN2ZlNDNjZmVmNzM2OGMzYjY1YzhkMjUzOGEiLCJzaGEyNTY6MjQwMWM1ZWEzMmE3NTQ1MmJjNGIwMmE2NjRjODBjZjYzZjE5NzcwNDY1MzkyNmZjYTE5ZTIyZTZjYmM4NTY1MiIsInNoYTI1Njo2ODE5YTFhZjA5N2RmNTQzZDU4ZGMzMGI1MWY3MzdlNTVmM2Y0MmE5YTA0ZTY0MWYxNzU4MzRhNTViZjA2MjljIiwic2hhMjU2OmMzYWJhZTQ0MjM2OGRjNDQ3ZjE1YzQ2ODkzMzg0M2MzNjFmMjI3ZjVkODdiMmJiODY1MTViNDlmNDA1ODNlZDkiLCJzaGEyNTY6NDE3YjE4ZTEyMzYyZWIwOGJiZWU5NTNhMWE0ZmZlNzE1MjE2MmM5ODE3ODAwNmZkMzI3NGUzYTZlMTFkMzZkZiIsInNoYTI1Njo0ZDNiNWNhNWUzMDZiZGVhNDkwMzljZmZmYjZjZjI0NzBlY2M0NDZmYjYxODIzYjgxMGYwYmRhNTkwN2VjODYwIiwic2hhMjU2OmQyNzNhZGUzYjI4YWFhZmEyMTBjYTM4ZjI2YmUyYTFiN2JjMmFkNDY0N2M3NzAyYjkwZGIyNDA1Yjk3NTViYjkiXX19",
       "repoDigests": [
-        "ghcr.io/fluent/fluent-bit@sha256:0a207f7ae2341fdacf479c8300c4868ffecbc1eb382371fa75292f182c5ba920"
+        "ghcr.io/fluent/fluent-bit@sha256:5e087228c686c6ba782a6b6efa58658c70ba7faba3eb54f8889a36463ed58abd"
       ],
       "architecture": "amd64",
       "os": "linux",
@@ -7698,9 +6074,9 @@
         "org.opencontainers.image.source": "https://github.com/fluent/fluent-bit",
         "org.opencontainers.image.title": "Fluent Bit",
         "org.opencontainers.image.vendor": "Fluent Organization",
-        "org.opencontainers.image.version": "4.0.9",
+        "org.opencontainers.image.version": "4.0.12",
         "vendor": "Fluent Organization",
-        "version": "4.0.9"
+        "version": "4.0.12"
       }
     }
   },
@@ -7716,7 +6092,7 @@
       "output": [
         "json"
       ],
-      "file": "security/oss/grype-4.0.9.json",
+      "file": "security/oss/grype-4.0.12.json",
       "pretty": true,
       "distro": "",
       "add-cpes-if-none": false,

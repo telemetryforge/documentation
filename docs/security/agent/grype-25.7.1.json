@@ -25,8 +25,8 @@
           {
             "cve": "CVE-2024-7264",
             "epss": 0.071,
-            "percentile": 0.91164,
-            "date": "2025-10-06"
+            "percentile": 0.91075,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -82,8 +82,8 @@
             {
               "cve": "CVE-2024-7264",
               "epss": 0.071,
-              "percentile": 0.91164,
-              "date": "2025-10-06"
+              "percentile": 0.91075,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -177,8 +177,8 @@
           {
             "cve": "CVE-2024-7264",
             "epss": 0.071,
-            "percentile": 0.91164,
-            "date": "2025-10-06"
+            "percentile": 0.91075,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -234,8 +234,8 @@
             {
               "cve": "CVE-2024-7264",
               "epss": 0.071,
-              "percentile": 0.91164,
-              "date": "2025-10-06"
+              "percentile": 0.91075,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -329,8 +329,8 @@
           {
             "cve": "CVE-2024-52533",
             "epss": 0.02455,
-            "percentile": 0.84651,
-            "date": "2025-10-06"
+            "percentile": 0.84593,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -387,8 +387,8 @@
             {
               "cve": "CVE-2024-52533",
               "epss": 0.02455,
-              "percentile": 0.84651,
-              "date": "2025-10-06"
+              "percentile": 0.84593,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -474,8 +474,8 @@
           {
             "cve": "CVE-2024-56433",
             "epss": 0.03604,
-            "percentile": 0.87288,
-            "date": "2025-10-06"
+            "percentile": 0.87219,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -515,8 +515,8 @@
             {
               "cve": "CVE-2024-56433",
               "epss": 0.03604,
-              "percentile": 0.87288,
-              "date": "2025-10-06"
+              "percentile": 0.87219,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -605,8 +605,8 @@
           {
             "cve": "CVE-2024-9681",
             "epss": 0.00571,
-            "percentile": 0.67654,
-            "date": "2025-10-06"
+            "percentile": 0.67621,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -660,8 +660,8 @@
             {
               "cve": "CVE-2024-9681",
               "epss": 0.00571,
-              "percentile": 0.67654,
-              "date": "2025-10-06"
+              "percentile": 0.67621,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -755,8 +755,8 @@
           {
             "cve": "CVE-2024-9681",
             "epss": 0.00571,
-            "percentile": 0.67654,
-            "date": "2025-10-06"
+            "percentile": 0.67621,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -810,8 +810,8 @@
             {
               "cve": "CVE-2024-9681",
               "epss": 0.00571,
-              "percentile": 0.67654,
-              "date": "2025-10-06"
+              "percentile": 0.67621,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -905,8 +905,8 @@
           {
             "cve": "CVE-2024-41996",
             "epss": 0.00434,
-            "percentile": 0.62022,
-            "date": "2025-10-06"
+            "percentile": 0.61995,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -946,8 +946,8 @@
             {
               "cve": "CVE-2024-41996",
               "epss": 0.00434,
-              "percentile": 0.62022,
-              "date": "2025-10-06"
+              "percentile": 0.61995,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -1030,8 +1030,8 @@
           {
             "cve": "CVE-2024-41996",
             "epss": 0.00434,
-            "percentile": 0.62022,
-            "date": "2025-10-06"
+            "percentile": 0.61995,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -1071,8 +1071,8 @@
             {
               "cve": "CVE-2024-41996",
               "epss": 0.00434,
-              "percentile": 0.62022,
-              "date": "2025-10-06"
+              "percentile": 0.61995,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -1165,9 +1165,9 @@
         "epss": [
           {
             "cve": "CVE-2024-11053",
-            "epss": 0.00287,
-            "percentile": 0.51846,
-            "date": "2025-10-06"
+            "epss": 0.00337,
+            "percentile": 0.55917,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -1175,7 +1175,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.12771500000000002
+        "risk": 0.14996500000000004
       },
       "relatedVulnerabilities": [
         {
@@ -1209,9 +1209,9 @@
           "epss": [
             {
               "cve": "CVE-2024-11053",
-              "epss": 0.00287,
-              "percentile": 0.51846,
-              "date": "2025-10-06"
+              "epss": 0.00337,
+              "percentile": 0.55917,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -1304,9 +1304,9 @@
         "epss": [
           {
             "cve": "CVE-2024-11053",
-            "epss": 0.00287,
-            "percentile": 0.51846,
-            "date": "2025-10-06"
+            "epss": 0.00337,
+            "percentile": 0.55917,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -1314,7 +1314,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.12771500000000002
+        "risk": 0.14996500000000004
       },
       "relatedVulnerabilities": [
         {
@@ -1348,9 +1348,9 @@
           "epss": [
             {
               "cve": "CVE-2024-11053",
-              "epss": 0.00287,
-              "percentile": 0.51846,
-              "date": "2025-10-06"
+              "epss": 0.00337,
+              "percentile": 0.55917,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -1444,8 +1444,8 @@
           {
             "cve": "CVE-2024-34459",
             "epss": 0.00208,
-            "percentile": 0.43357,
-            "date": "2025-10-06"
+            "percentile": 0.43345,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -1494,8 +1494,8 @@
             {
               "cve": "CVE-2024-34459",
               "epss": 0.00208,
-              "percentile": 0.43357,
-              "date": "2025-10-06"
+              "percentile": 0.43345,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -1578,8 +1578,8 @@
           {
             "cve": "CVE-2023-32636",
             "epss": 0.00165,
-            "percentile": 0.38121,
-            "date": "2025-10-06"
+            "percentile": 0.38099,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -1634,8 +1634,8 @@
             {
               "cve": "CVE-2023-32636",
               "epss": 0.00165,
-              "percentile": 0.38121,
-              "date": "2025-10-06"
+              "percentile": 0.38099,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -1718,8 +1718,8 @@
           {
             "cve": "CVE-2025-32990",
             "epss": 0.00101,
-            "percentile": 0.28466,
-            "date": "2025-10-06"
+            "percentile": 0.28481,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -1754,6 +1754,7 @@
             "https://access.redhat.com/errata/RHSA-2025:16116",
             "https://access.redhat.com/errata/RHSA-2025:17348",
             "https://access.redhat.com/errata/RHSA-2025:17361",
+            "https://access.redhat.com/errata/RHSA-2025:17415",
             "https://access.redhat.com/security/cve/CVE-2025-32990",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2359620"
           ],
@@ -1788,8 +1789,8 @@
             {
               "cve": "CVE-2025-32990",
               "epss": 0.00101,
-              "percentile": 0.28466,
-              "date": "2025-10-06"
+              "percentile": 0.28481,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -1875,8 +1876,8 @@
           {
             "cve": "CVE-2025-32988",
             "epss": 0.00096,
-            "percentile": 0.27597,
-            "date": "2025-10-06"
+            "percentile": 0.27579,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -1911,6 +1912,7 @@
             "https://access.redhat.com/errata/RHSA-2025:16116",
             "https://access.redhat.com/errata/RHSA-2025:17348",
             "https://access.redhat.com/errata/RHSA-2025:17361",
+            "https://access.redhat.com/errata/RHSA-2025:17415",
             "https://access.redhat.com/security/cve/CVE-2025-32988",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2359622"
           ],
@@ -1945,8 +1947,8 @@
             {
               "cve": "CVE-2025-32988",
               "epss": 0.00096,
-              "percentile": 0.27597,
-              "date": "2025-10-06"
+              "percentile": 0.27579,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -2032,8 +2034,8 @@
           {
             "cve": "CVE-2025-1632",
             "epss": 0.00156,
-            "percentile": 0.37007,
-            "date": "2025-10-06"
+            "percentile": 0.36974,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -2109,8 +2111,8 @@
             {
               "cve": "CVE-2025-1632",
               "epss": 0.00156,
-              "percentile": 0.37007,
-              "date": "2025-10-06"
+              "percentile": 0.36974,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -2193,8 +2195,8 @@
           {
             "cve": "CVE-2025-6395",
             "epss": 0.0008,
-            "percentile": 0.24407,
-            "date": "2025-10-06"
+            "percentile": 0.24382,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -2229,6 +2231,7 @@
             "https://access.redhat.com/errata/RHSA-2025:16116",
             "https://access.redhat.com/errata/RHSA-2025:17348",
             "https://access.redhat.com/errata/RHSA-2025:17361",
+            "https://access.redhat.com/errata/RHSA-2025:17415",
             "https://access.redhat.com/security/cve/CVE-2025-6395",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2376755"
           ],
@@ -2251,8 +2254,8 @@
             {
               "cve": "CVE-2025-6395",
               "epss": 0.0008,
-              "percentile": 0.24407,
-              "date": "2025-10-06"
+              "percentile": 0.24382,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -2315,6 +2318,179 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-5914",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5914",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "High",
+        "urls": [],
+        "description": "A vulnerability has been identified in the libarchive library, specifically within the archive_read_format_rar_seek_data() function. This flaw involves an integer overflow that can ultimately lead to a double-free condition. Exploiting a double-free vulnerability can result in memory corruption, enabling an attacker to execute arbitrary code or cause a denial-of-service condition.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+            "metrics": {
+              "baseScore": 7.3,
+              "exploitabilityScore": 1.4,
+              "impactScore": 5.9
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-5914",
+            "epss": 0.00054,
+            "percentile": 0.17043,
+            "date": "2025-10-09"
+          }
+        ],
+        "fix": {
+          "versions": [
+            "0:3.5.3-6.el9_6"
+          ],
+          "state": "fixed",
+          "available": [
+            {
+              "version": "0:3.5.3-6.el9_6",
+              "date": "2025-08-21",
+              "kind": "first-observed"
+            }
+          ]
+        },
+        "advisories": [
+          {
+            "id": "",
+            "link": "https://access.redhat.com/errata/RHSA-2025:14130"
+          }
+        ],
+        "risk": 0.03996
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-5914",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5914",
+          "namespace": "nvd:cpe",
+          "severity": "Critical",
+          "urls": [
+            "https://access.redhat.com/errata/RHSA-2025:14130",
+            "https://access.redhat.com/errata/RHSA-2025:14135",
+            "https://access.redhat.com/errata/RHSA-2025:14137",
+            "https://access.redhat.com/errata/RHSA-2025:14141",
+            "https://access.redhat.com/errata/RHSA-2025:14142",
+            "https://access.redhat.com/errata/RHSA-2025:14525",
+            "https://access.redhat.com/errata/RHSA-2025:14528",
+            "https://access.redhat.com/errata/RHSA-2025:14594",
+            "https://access.redhat.com/errata/RHSA-2025:14644",
+            "https://access.redhat.com/errata/RHSA-2025:14808",
+            "https://access.redhat.com/errata/RHSA-2025:14810",
+            "https://access.redhat.com/errata/RHSA-2025:14828",
+            "https://access.redhat.com/errata/RHSA-2025:15024",
+            "https://access.redhat.com/errata/RHSA-2025:15709",
+            "https://access.redhat.com/errata/RHSA-2025:15827",
+            "https://access.redhat.com/errata/RHSA-2025:15828",
+            "https://access.redhat.com/errata/RHSA-2025:16524",
+            "https://access.redhat.com/security/cve/CVE-2025-5914",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2370861",
+            "https://github.com/libarchive/libarchive/pull/2598",
+            "https://github.com/libarchive/libarchive/releases/tag/v3.8.0",
+            "https://github.com/libarchive/libarchive/pull/2598"
+          ],
+          "description": "A vulnerability has been identified in the libarchive library, specifically within the archive_read_format_rar_seek_data() function. This flaw involves an integer overflow that can ultimately lead to a double-free condition. Exploiting a double-free vulnerability can result in memory corruption, enabling an attacker to execute arbitrary code or cause a denial-of-service condition.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "metrics": {
+                "baseScore": 9.8,
+                "exploitabilityScore": 3.9,
+                "impactScore": 5.9
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "secalert@redhat.com",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+              "metrics": {
+                "baseScore": 7.3,
+                "exploitabilityScore": 1.4,
+                "impactScore": 5.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-5914",
+              "epss": 0.00054,
+              "percentile": 0.17043,
+              "date": "2025-10-09"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "libarchive",
+              "version": "0:3.5.3-5.el9_6"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-5914",
+            "versionConstraint": "< 0:3.5.3-6.el9_6 (rpm)"
+          },
+          "fix": {
+            "suggestedVersion": "0:3.5.3-6.el9_6"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "026da1974d66f84e",
+        "name": "libarchive",
+        "version": "3.5.3-5.el9_6",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:9f0b79be8c39d3327229ddefe91179edad3699b9049708d43623f4203b3b67fb",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libarchive:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libarchive-3.5.3-5.el9_6.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-9086",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9086",
         "namespace": "redhat:distro:redhat:9",
@@ -2338,8 +2514,8 @@
           {
             "cve": "CVE-2025-9086",
             "epss": 0.00071,
-            "percentile": 0.22183,
-            "date": "2025-10-06"
+            "percentile": 0.22161,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -2379,8 +2555,8 @@
             {
               "cve": "CVE-2025-9086",
               "epss": 0.00071,
-              "percentile": 0.22183,
-              "date": "2025-10-06"
+              "percentile": 0.22161,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -2474,8 +2650,8 @@
           {
             "cve": "CVE-2025-9086",
             "epss": 0.00071,
-            "percentile": 0.22183,
-            "date": "2025-10-06"
+            "percentile": 0.22161,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -2515,8 +2691,8 @@
             {
               "cve": "CVE-2025-9086",
               "epss": 0.00071,
-              "percentile": 0.22183,
-              "date": "2025-10-06"
+              "percentile": 0.22161,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -2610,8 +2786,8 @@
           {
             "cve": "CVE-2025-4373",
             "epss": 0.0007,
-            "percentile": 0.22053,
-            "date": "2025-10-06"
+            "percentile": 0.22033,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -2677,8 +2853,8 @@
             {
               "cve": "CVE-2025-4373",
               "epss": 0.0007,
-              "percentile": 0.22053,
-              "date": "2025-10-06"
+              "percentile": 0.22033,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -2764,8 +2940,8 @@
           {
             "cve": "CVE-2024-13176",
             "epss": 0.00089,
-            "percentile": 0.26402,
-            "date": "2025-10-06"
+            "percentile": 0.26396,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -2814,8 +2990,8 @@
             {
               "cve": "CVE-2024-13176",
               "epss": 0.00089,
-              "percentile": 0.26402,
-              "date": "2025-10-06"
+              "percentile": 0.26396,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -2898,8 +3074,8 @@
           {
             "cve": "CVE-2024-13176",
             "epss": 0.00089,
-            "percentile": 0.26402,
-            "date": "2025-10-06"
+            "percentile": 0.26396,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -2948,8 +3124,8 @@
             {
               "cve": "CVE-2024-13176",
               "epss": 0.00089,
-              "percentile": 0.26402,
-              "date": "2025-10-06"
+              "percentile": 0.26396,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -3043,8 +3219,8 @@
           {
             "cve": "CVE-2023-45322",
             "epss": 0.00076,
-            "percentile": 0.23616,
-            "date": "2025-10-06"
+            "percentile": 0.2359,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -3087,8 +3263,8 @@
             {
               "cve": "CVE-2023-45322",
               "epss": 0.00076,
-              "percentile": 0.23616,
-              "date": "2025-10-06"
+              "percentile": 0.2359,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -3171,8 +3347,8 @@
           {
             "cve": "CVE-2025-4207",
             "epss": 0.00055,
-            "percentile": 0.1722,
-            "date": "2025-10-06"
+            "percentile": 0.17223,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -3212,8 +3388,8 @@
             {
               "cve": "CVE-2025-4207",
               "epss": 0.00055,
-              "percentile": 0.1722,
-              "date": "2025-10-06"
+              "percentile": 0.17223,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -3295,9 +3471,9 @@
         "epss": [
           {
             "cve": "CVE-2025-6965",
-            "epss": 0.00036,
-            "percentile": 0.09699,
-            "date": "2025-10-06"
+            "epss": 0.00038,
+            "percentile": 0.10821,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -3319,7 +3495,7 @@
             "link": "https://access.redhat.com/errata/RHSA-2025:11992"
           }
         ],
-        "risk": 0.027360000000000002
+        "risk": 0.028880000000000003
       },
       "relatedVulnerabilities": [
         {
@@ -3358,9 +3534,9 @@
           "epss": [
             {
               "cve": "CVE-2025-6965",
-              "epss": 0.00036,
-              "percentile": 0.09699,
-              "date": "2025-10-06"
+              "epss": 0.00038,
+              "percentile": 0.10821,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -3434,179 +3610,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-5914",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5914",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "High",
-        "urls": [],
-        "description": "A vulnerability has been identified in the libarchive library, specifically within the archive_read_format_rar_seek_data() function. This flaw involves an integer overflow that can ultimately lead to a double-free condition. Exploiting a double-free vulnerability can result in memory corruption, enabling an attacker to execute arbitrary code or cause a denial-of-service condition.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
-            "metrics": {
-              "baseScore": 7.3,
-              "exploitabilityScore": 1.4,
-              "impactScore": 5.9
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-5914",
-            "epss": 0.00036,
-            "percentile": 0.09561,
-            "date": "2025-10-06"
-          }
-        ],
-        "fix": {
-          "versions": [
-            "0:3.5.3-6.el9_6"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "0:3.5.3-6.el9_6",
-              "date": "2025-08-21",
-              "kind": "first-observed"
-            }
-          ]
-        },
-        "advisories": [
-          {
-            "id": "",
-            "link": "https://access.redhat.com/errata/RHSA-2025:14130"
-          }
-        ],
-        "risk": 0.026640000000000004
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-5914",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5914",
-          "namespace": "nvd:cpe",
-          "severity": "Critical",
-          "urls": [
-            "https://access.redhat.com/errata/RHSA-2025:14130",
-            "https://access.redhat.com/errata/RHSA-2025:14135",
-            "https://access.redhat.com/errata/RHSA-2025:14137",
-            "https://access.redhat.com/errata/RHSA-2025:14141",
-            "https://access.redhat.com/errata/RHSA-2025:14142",
-            "https://access.redhat.com/errata/RHSA-2025:14525",
-            "https://access.redhat.com/errata/RHSA-2025:14528",
-            "https://access.redhat.com/errata/RHSA-2025:14594",
-            "https://access.redhat.com/errata/RHSA-2025:14644",
-            "https://access.redhat.com/errata/RHSA-2025:14808",
-            "https://access.redhat.com/errata/RHSA-2025:14810",
-            "https://access.redhat.com/errata/RHSA-2025:14828",
-            "https://access.redhat.com/errata/RHSA-2025:15024",
-            "https://access.redhat.com/errata/RHSA-2025:15709",
-            "https://access.redhat.com/errata/RHSA-2025:15827",
-            "https://access.redhat.com/errata/RHSA-2025:15828",
-            "https://access.redhat.com/errata/RHSA-2025:16524",
-            "https://access.redhat.com/security/cve/CVE-2025-5914",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2370861",
-            "https://github.com/libarchive/libarchive/pull/2598",
-            "https://github.com/libarchive/libarchive/releases/tag/v3.8.0",
-            "https://github.com/libarchive/libarchive/pull/2598"
-          ],
-          "description": "A vulnerability has been identified in the libarchive library, specifically within the archive_read_format_rar_seek_data() function. This flaw involves an integer overflow that can ultimately lead to a double-free condition. Exploiting a double-free vulnerability can result in memory corruption, enabling an attacker to execute arbitrary code or cause a denial-of-service condition.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-              "metrics": {
-                "baseScore": 9.8,
-                "exploitabilityScore": 3.9,
-                "impactScore": 5.9
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
-              "metrics": {
-                "baseScore": 7.3,
-                "exploitabilityScore": 1.4,
-                "impactScore": 5.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-5914",
-              "epss": 0.00036,
-              "percentile": 0.09561,
-              "date": "2025-10-06"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "libarchive",
-              "version": "0:3.5.3-5.el9_6"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-5914",
-            "versionConstraint": "< 0:3.5.3-6.el9_6 (rpm)"
-          },
-          "fix": {
-            "suggestedVersion": "0:3.5.3-6.el9_6"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "026da1974d66f84e",
-        "name": "libarchive",
-        "version": "3.5.3-5.el9_6",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:9f0b79be8c39d3327229ddefe91179edad3699b9049708d43623f4203b3b67fb",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "BSD"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libarchive:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libarchive-3.5.3-5.el9_6.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-4598",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-4598",
         "namespace": "redhat:distro:redhat:9",
@@ -3630,8 +3633,8 @@
           {
             "cve": "CVE-2025-4598",
             "epss": 0.00053,
-            "percentile": 0.16658,
-            "date": "2025-10-06"
+            "percentile": 0.1664,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -3676,8 +3679,8 @@
             {
               "cve": "CVE-2025-4598",
               "epss": 0.00053,
-              "percentile": 0.16658,
-              "date": "2025-10-06"
+              "percentile": 0.1664,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -3771,8 +3774,8 @@
           {
             "cve": "CVE-2022-41409",
             "epss": 0.00061,
-            "percentile": 0.19195,
-            "date": "2025-10-06"
+            "percentile": 0.19161,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -3813,8 +3816,8 @@
             {
               "cve": "CVE-2022-41409",
               "epss": 0.00061,
-              "percentile": 0.19195,
-              "date": "2025-10-06"
+              "percentile": 0.19161,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -3897,8 +3900,8 @@
           {
             "cve": "CVE-2022-41409",
             "epss": 0.00061,
-            "percentile": 0.19195,
-            "date": "2025-10-06"
+            "percentile": 0.19161,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -3939,8 +3942,8 @@
             {
               "cve": "CVE-2022-41409",
               "epss": 0.00061,
-              "percentile": 0.19195,
-              "date": "2025-10-06"
+              "percentile": 0.19161,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -4034,8 +4037,8 @@
           {
             "cve": "CVE-2023-50495",
             "epss": 0.0005,
-            "percentile": 0.15274,
-            "date": "2025-10-06"
+            "percentile": 0.15262,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -4080,8 +4083,8 @@
             {
               "cve": "CVE-2023-50495",
               "epss": 0.0005,
-              "percentile": 0.15274,
-              "date": "2025-10-06"
+              "percentile": 0.15262,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -4175,8 +4178,8 @@
           {
             "cve": "CVE-2023-50495",
             "epss": 0.0005,
-            "percentile": 0.15274,
-            "date": "2025-10-06"
+            "percentile": 0.15262,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -4221,8 +4224,8 @@
             {
               "cve": "CVE-2023-50495",
               "epss": 0.0005,
-              "percentile": 0.15274,
-              "date": "2025-10-06"
+              "percentile": 0.15262,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -4316,8 +4319,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.15232,
-            "date": "2025-10-06"
+            "percentile": 0.15221,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -4372,8 +4375,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.15232,
-              "date": "2025-10-06"
+              "percentile": 0.15221,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -4461,8 +4464,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.15232,
-            "date": "2025-10-06"
+            "percentile": 0.15221,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -4517,8 +4520,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.15232,
-              "date": "2025-10-06"
+              "percentile": 0.15221,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -4606,8 +4609,8 @@
           {
             "cve": "CVE-2025-7425",
             "epss": 0.00027,
-            "percentile": 0.06011,
-            "date": "2025-10-06"
+            "percentile": 0.06038,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -4685,8 +4688,8 @@
             {
               "cve": "CVE-2025-7425",
               "epss": 0.00027,
-              "percentile": 0.06011,
-              "date": "2025-10-06"
+              "percentile": 0.06038,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -4772,8 +4775,8 @@
           {
             "cve": "CVE-2025-3360",
             "epss": 0.00061,
-            "percentile": 0.19444,
-            "date": "2025-10-06"
+            "percentile": 0.19411,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -4813,8 +4816,8 @@
             {
               "cve": "CVE-2025-3360",
               "epss": 0.00061,
-              "percentile": 0.19444,
-              "date": "2025-10-06"
+              "percentile": 0.19411,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -4897,8 +4900,8 @@
           {
             "cve": "CVE-2022-29458",
             "epss": 0.00044,
-            "percentile": 0.13144,
-            "date": "2025-10-06"
+            "percentile": 0.13207,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -4985,8 +4988,8 @@
             {
               "cve": "CVE-2022-29458",
               "epss": 0.00044,
-              "percentile": 0.13144,
-              "date": "2025-10-06"
+              "percentile": 0.13207,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -5083,8 +5086,8 @@
           {
             "cve": "CVE-2022-29458",
             "epss": 0.00044,
-            "percentile": 0.13144,
-            "date": "2025-10-06"
+            "percentile": 0.13207,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -5171,8 +5174,8 @@
             {
               "cve": "CVE-2022-29458",
               "epss": 0.00044,
-              "percentile": 0.13144,
-              "date": "2025-10-06"
+              "percentile": 0.13207,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -5269,8 +5272,8 @@
           {
             "cve": "CVE-2025-32414",
             "epss": 0.00037,
-            "percentile": 0.10289,
-            "date": "2025-10-06"
+            "percentile": 0.10317,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -5335,8 +5338,8 @@
             {
               "cve": "CVE-2025-32414",
               "epss": 0.00037,
-              "percentile": 0.10289,
-              "date": "2025-10-06"
+              "percentile": 0.10317,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -5422,8 +5425,8 @@
           {
             "cve": "CVE-2025-27113",
             "epss": 0.00059,
-            "percentile": 0.18687,
-            "date": "2025-10-06"
+            "percentile": 0.18659,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -5474,8 +5477,8 @@
             {
               "cve": "CVE-2025-27113",
               "epss": 0.00059,
-              "percentile": 0.18687,
-              "date": "2025-10-06"
+              "percentile": 0.18659,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -5558,8 +5561,8 @@
           {
             "cve": "CVE-2025-32989",
             "epss": 0.00034,
-            "percentile": 0.09059,
-            "date": "2025-10-06"
+            "percentile": 0.09109,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -5616,8 +5619,8 @@
             {
               "cve": "CVE-2025-32989",
               "epss": 0.00034,
-              "percentile": 0.09059,
-              "date": "2025-10-06"
+              "percentile": 0.09109,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -5703,8 +5706,8 @@
           {
             "cve": "CVE-2023-4156",
             "epss": 0.00031,
-            "percentile": 0.07785,
-            "date": "2025-10-06"
+            "percentile": 0.07814,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -5757,8 +5760,8 @@
             {
               "cve": "CVE-2023-4156",
               "epss": 0.00031,
-              "percentile": 0.07785,
-              "date": "2025-10-06"
+              "percentile": 0.07814,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -5841,8 +5844,8 @@
           {
             "cve": "CVE-2025-32415",
             "epss": 0.00022,
-            "percentile": 0.04562,
-            "date": "2025-10-06"
+            "percentile": 0.04554,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -5907,8 +5910,8 @@
             {
               "cve": "CVE-2025-32415",
               "epss": 0.00022,
-              "percentile": 0.04562,
-              "date": "2025-10-06"
+              "percentile": 0.04554,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -5994,8 +5997,8 @@
           {
             "cve": "CVE-2025-9230",
             "epss": 0.00025,
-            "percentile": 0.05572,
-            "date": "2025-10-06"
+            "percentile": 0.05574,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -6040,8 +6043,8 @@
             {
               "cve": "CVE-2025-9230",
               "epss": 0.00025,
-              "percentile": 0.05572,
-              "date": "2025-10-06"
+              "percentile": 0.05574,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -6124,8 +6127,8 @@
           {
             "cve": "CVE-2025-9230",
             "epss": 0.00025,
-            "percentile": 0.05572,
-            "date": "2025-10-06"
+            "percentile": 0.05574,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -6170,8 +6173,8 @@
             {
               "cve": "CVE-2025-9230",
               "epss": 0.00025,
-              "percentile": 0.05572,
-              "date": "2025-10-06"
+              "percentile": 0.05574,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -6242,6 +6245,144 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-5915",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5915",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "A vulnerability has been identified in the libarchive library. This flaw can lead to a heap buffer over-read due to the size of a filter block potentially exceeding the Lempel-Ziv-Storer-Schieber (LZSS) window. This means the library may attempt to read beyond the allocated memory buffer, which can result in unpredictable program behavior, crashes (denial of service), or the disclosure of sensitive information from adjacent memory regions.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
+            "metrics": {
+              "baseScore": 3.9,
+              "exploitabilityScore": 1.4,
+              "impactScore": 2.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-5915",
+            "epss": 0.00035,
+            "percentile": 0.09286,
+            "date": "2025-10-09"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.012074999999999999
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-5915",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5915",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-5915",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2370865",
+            "https://github.com/libarchive/libarchive/pull/2599",
+            "https://github.com/libarchive/libarchive/releases/tag/v3.8.0"
+          ],
+          "description": "A vulnerability has been identified in the libarchive library. This flaw can lead to a heap buffer over-read due to the size of a filter block potentially exceeding the Lempel-Ziv-Storer-Schieber (LZSS) window. This means the library may attempt to read beyond the allocated memory buffer, which can result in unpredictable program behavior, crashes (denial of service), or the disclosure of sensitive information from adjacent memory regions.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:H",
+              "metrics": {
+                "baseScore": 6.6,
+                "exploitabilityScore": 1.4,
+                "impactScore": 5.2
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "secalert@redhat.com",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
+              "metrics": {
+                "baseScore": 3.9,
+                "exploitabilityScore": 1.4,
+                "impactScore": 2.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-5915",
+              "epss": 0.00035,
+              "percentile": 0.09286,
+              "date": "2025-10-09"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "libarchive",
+              "version": "0:3.5.3-5.el9_6"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-5915",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "026da1974d66f84e",
+        "name": "libarchive",
+        "version": "3.5.3-5.el9_6",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:9f0b79be8c39d3327229ddefe91179edad3699b9049708d43623f4203b3b67fb",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libarchive:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libarchive-3.5.3-5.el9_6.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-5278",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5278",
         "namespace": "redhat:distro:redhat:9",
@@ -6265,8 +6406,8 @@
           {
             "cve": "CVE-2025-5278",
             "epss": 0.00025,
-            "percentile": 0.05481,
-            "date": "2025-10-06"
+            "percentile": 0.0548,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -6311,8 +6452,8 @@
             {
               "cve": "CVE-2025-5278",
               "epss": 0.00025,
-              "percentile": 0.05481,
-              "date": "2025-10-06"
+              "percentile": 0.0548,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -6383,6 +6524,144 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-5916",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5916",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
+            "metrics": {
+              "baseScore": 3.9,
+              "exploitabilityScore": 1.4,
+              "impactScore": 2.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-5916",
+            "epss": 0.00031,
+            "percentile": 0.07637,
+            "date": "2025-10-09"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.010695
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-5916",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5916",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-5916",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2370872",
+            "https://github.com/libarchive/libarchive/pull/2568",
+            "https://github.com/libarchive/libarchive/releases/tag/v3.8.0"
+          ],
+          "description": "A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:H",
+              "metrics": {
+                "baseScore": 5.6,
+                "exploitabilityScore": 1.4,
+                "impactScore": 4.3
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "secalert@redhat.com",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
+              "metrics": {
+                "baseScore": 3.9,
+                "exploitabilityScore": 1.4,
+                "impactScore": 2.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-5916",
+              "epss": 0.00031,
+              "percentile": 0.07637,
+              "date": "2025-10-09"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "libarchive",
+              "version": "0:3.5.3-5.el9_6"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-5916",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "026da1974d66f84e",
+        "name": "libarchive",
+        "version": "3.5.3-5.el9_6",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:9f0b79be8c39d3327229ddefe91179edad3699b9049708d43623f4203b3b67fb",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libarchive:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libarchive-3.5.3-5.el9_6.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-9232",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9232",
         "namespace": "redhat:distro:redhat:9",
@@ -6406,8 +6685,8 @@
           {
             "cve": "CVE-2025-9232",
             "epss": 0.00032,
-            "percentile": 0.07958,
-            "date": "2025-10-06"
+            "percentile": 0.07998,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -6450,8 +6729,8 @@
             {
               "cve": "CVE-2025-9232",
               "epss": 0.00032,
-              "percentile": 0.07958,
-              "date": "2025-10-06"
+              "percentile": 0.07998,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -6534,8 +6813,8 @@
           {
             "cve": "CVE-2025-9232",
             "epss": 0.00032,
-            "percentile": 0.07958,
-            "date": "2025-10-06"
+            "percentile": 0.07998,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -6578,8 +6857,8 @@
             {
               "cve": "CVE-2025-9232",
               "epss": 0.00032,
-              "percentile": 0.07958,
-              "date": "2025-10-06"
+              "percentile": 0.07998,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -6673,8 +6952,8 @@
           {
             "cve": "CVE-2025-9231",
             "epss": 0.00017,
-            "percentile": 0.02974,
-            "date": "2025-10-06"
+            "percentile": 0.02993,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -6716,8 +6995,8 @@
             {
               "cve": "CVE-2025-9231",
               "epss": 0.00017,
-              "percentile": 0.02974,
-              "date": "2025-10-06"
+              "percentile": 0.02993,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -6800,8 +7079,8 @@
           {
             "cve": "CVE-2025-9231",
             "epss": 0.00017,
-            "percentile": 0.02974,
-            "date": "2025-10-06"
+            "percentile": 0.02993,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -6843,8 +7122,8 @@
             {
               "cve": "CVE-2025-9231",
               "epss": 0.00017,
-              "percentile": 0.02974,
-              "date": "2025-10-06"
+              "percentile": 0.02993,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -6909,6 +7188,144 @@
         "metadataType": "RpmMetadata",
         "metadata": {
           "epoch": 1,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-5918",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5918",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "A vulnerability has been identified in the libarchive library. This flaw can be triggered when file streams are piped into bsdtar, potentially allowing for reading past the end of the file. This out-of-bounds read can lead to unintended consequences, including unpredictable program behavior, memory corruption, or a denial-of-service condition.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
+            "metrics": {
+              "baseScore": 3.9,
+              "exploitabilityScore": 1.4,
+              "impactScore": 2.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-5918",
+            "epss": 0.00025,
+            "percentile": 0.05636,
+            "date": "2025-10-09"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.008624999999999999
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-5918",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5918",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-5918",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2370877",
+            "https://github.com/libarchive/libarchive/pull/2584",
+            "https://github.com/libarchive/libarchive/releases/tag/v3.8.0"
+          ],
+          "description": "A vulnerability has been identified in the libarchive library. This flaw can be triggered when file streams are piped into bsdtar, potentially allowing for reading past the end of the file. This out-of-bounds read can lead to unintended consequences, including unpredictable program behavior, memory corruption, or a denial-of-service condition.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:H",
+              "metrics": {
+                "baseScore": 6.6,
+                "exploitabilityScore": 1.4,
+                "impactScore": 5.2
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "secalert@redhat.com",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
+              "metrics": {
+                "baseScore": 3.9,
+                "exploitabilityScore": 1.4,
+                "impactScore": 2.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-5918",
+              "epss": 0.00025,
+              "percentile": 0.05636,
+              "date": "2025-10-09"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "libarchive",
+              "version": "0:3.5.3-5.el9_6"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-5918",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "026da1974d66f84e",
+        "name": "libarchive",
+        "version": "3.5.3-5.el9_6",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:9f0b79be8c39d3327229ddefe91179edad3699b9049708d43623f4203b3b67fb",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libarchive:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libarchive-3.5.3-5.el9_6.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
           "modularityLabel": ""
         }
       }
@@ -6938,8 +7355,8 @@
           {
             "cve": "CVE-2025-9714",
             "epss": 0.00014,
-            "percentile": 0.0187,
-            "date": "2025-10-06"
+            "percentile": 0.01886,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -6989,8 +7406,8 @@
             {
               "cve": "CVE-2025-9714",
               "epss": 0.00014,
-              "percentile": 0.0187,
-              "date": "2025-10-06"
+              "percentile": 0.01886,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -7050,31 +7467,31 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-5916",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5916",
+        "id": "CVE-2025-5917",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5917",
         "namespace": "redhat:distro:redhat:9",
         "severity": "Low",
         "urls": [],
-        "description": "A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive.",
+        "description": "A vulnerability has been identified in the libarchive library. This flaw involves an 'off-by-one' miscalculation when handling prefixes and suffixes for file names. This can lead to a 1-byte write overflow. While seemingly small, such an overflow can corrupt adjacent memory, leading to unpredictable program behavior, crashes, or in specific circumstances, could be leveraged as a building block for more sophisticated exploitation.",
         "cvss": [
           {
             "type": "Secondary",
             "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L",
             "metrics": {
-              "baseScore": 3.9,
+              "baseScore": 2.8,
               "exploitabilityScore": 1.4,
-              "impactScore": 2.6
+              "impactScore": 1.5
             },
             "vendorMetadata": {}
           }
         ],
         "epss": [
           {
-            "cve": "CVE-2025-5916",
-            "epss": 0.00022,
-            "percentile": 0.0433,
-            "date": "2025-10-06"
+            "cve": "CVE-2025-5917",
+            "epss": 0.00026,
+            "percentile": 0.05794,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -7082,31 +7499,31 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.00759
+        "risk": 0.007539999999999999
       },
       "relatedVulnerabilities": [
         {
-          "id": "CVE-2025-5916",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5916",
+          "id": "CVE-2025-5917",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5917",
           "namespace": "nvd:cpe",
           "severity": "Medium",
           "urls": [
-            "https://access.redhat.com/security/cve/CVE-2025-5916",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2370872",
-            "https://github.com/libarchive/libarchive/pull/2568",
+            "https://access.redhat.com/security/cve/CVE-2025-5917",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2370874",
+            "https://github.com/libarchive/libarchive/pull/2588",
             "https://github.com/libarchive/libarchive/releases/tag/v3.8.0"
           ],
-          "description": "A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive.",
+          "description": "A vulnerability has been identified in the libarchive library. This flaw involves an 'off-by-one' miscalculation when handling prefixes and suffixes for file names. This can lead to a 1-byte write overflow. While seemingly small, such an overflow can corrupt adjacent memory, leading to unpredictable program behavior, crashes, or in specific circumstances, could be leveraged as a building block for more sophisticated exploitation.",
           "cvss": [
             {
               "source": "nvd@nist.gov",
               "type": "Primary",
               "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:H",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H",
               "metrics": {
-                "baseScore": 5.6,
+                "baseScore": 5,
                 "exploitabilityScore": 1.4,
-                "impactScore": 4.3
+                "impactScore": 3.6
               },
               "vendorMetadata": {}
             },
@@ -7114,21 +7531,21 @@
               "source": "secalert@redhat.com",
               "type": "Secondary",
               "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L",
               "metrics": {
-                "baseScore": 3.9,
+                "baseScore": 2.8,
                 "exploitabilityScore": 1.4,
-                "impactScore": 2.6
+                "impactScore": 1.5
               },
               "vendorMetadata": {}
             }
           ],
           "epss": [
             {
-              "cve": "CVE-2025-5916",
-              "epss": 0.00022,
-              "percentile": 0.0433,
-              "date": "2025-10-06"
+              "cve": "CVE-2025-5917",
+              "epss": 0.00026,
+              "percentile": 0.05794,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -7149,7 +7566,7 @@
             "namespace": "redhat:distro:redhat:9"
           },
           "found": {
-            "vulnerabilityID": "CVE-2025-5916",
+            "vulnerabilityID": "CVE-2025-5917",
             "versionConstraint": "none (unknown)"
           }
         }
@@ -7211,8 +7628,8 @@
           {
             "cve": "CVE-2024-0232",
             "epss": 0.00018,
-            "percentile": 0.03214,
-            "date": "2025-10-06"
+            "percentile": 0.03239,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -7267,8 +7684,8 @@
             {
               "cve": "CVE-2024-0232",
               "epss": 0.00018,
-              "percentile": 0.03214,
-              "date": "2025-10-06"
+              "percentile": 0.03239,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -7362,8 +7779,8 @@
           {
             "cve": "CVE-2023-30571",
             "epss": 0.00013,
-            "percentile": 0.01431,
-            "date": "2025-10-06"
+            "percentile": 0.01444,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -7416,8 +7833,8 @@
             {
               "cve": "CVE-2023-30571",
               "epss": 0.00013,
-              "percentile": 0.01431,
-              "date": "2025-10-06"
+              "percentile": 0.01444,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -7439,144 +7856,6 @@
           },
           "found": {
             "vulnerabilityID": "CVE-2023-30571",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "026da1974d66f84e",
-        "name": "libarchive",
-        "version": "3.5.3-5.el9_6",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:9f0b79be8c39d3327229ddefe91179edad3699b9049708d43623f4203b3b67fb",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "BSD"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libarchive:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libarchive-3.5.3-5.el9_6.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-5918",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5918",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
-        "urls": [],
-        "description": "A vulnerability has been identified in the libarchive library. This flaw can be triggered when file streams are piped into bsdtar, potentially allowing for reading past the end of the file. This out-of-bounds read can lead to unintended consequences, including unpredictable program behavior, memory corruption, or a denial-of-service condition.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
-            "metrics": {
-              "baseScore": 3.9,
-              "exploitabilityScore": 1.4,
-              "impactScore": 2.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-5918",
-            "epss": 0.00018,
-            "percentile": 0.03248,
-            "date": "2025-10-06"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.00621
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-5918",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5918",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2025-5918",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2370877",
-            "https://github.com/libarchive/libarchive/pull/2584",
-            "https://github.com/libarchive/libarchive/releases/tag/v3.8.0"
-          ],
-          "description": "A vulnerability has been identified in the libarchive library. This flaw can be triggered when file streams are piped into bsdtar, potentially allowing for reading past the end of the file. This out-of-bounds read can lead to unintended consequences, including unpredictable program behavior, memory corruption, or a denial-of-service condition.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:H",
-              "metrics": {
-                "baseScore": 6.6,
-                "exploitabilityScore": 1.4,
-                "impactScore": 5.2
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
-              "metrics": {
-                "baseScore": 3.9,
-                "exploitabilityScore": 1.4,
-                "impactScore": 2.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-5918",
-              "epss": 0.00018,
-              "percentile": 0.03248,
-              "date": "2025-10-06"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "libarchive",
-              "version": "0:3.5.3-5.el9_6"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-5918",
             "versionConstraint": "none (unknown)"
           }
         }
@@ -7638,8 +7917,8 @@
           {
             "cve": "CVE-2025-6170",
             "epss": 0.00021,
-            "percentile": 0.04072,
-            "date": "2025-10-06"
+            "percentile": 0.04085,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -7690,8 +7969,8 @@
             {
               "cve": "CVE-2025-6170",
               "epss": 0.00021,
-              "percentile": 0.04072,
-              "date": "2025-10-06"
+              "percentile": 0.04085,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -7774,8 +8053,8 @@
           {
             "cve": "CVE-2022-3219",
             "epss": 0.00012,
-            "percentile": 0.01329,
-            "date": "2025-10-06"
+            "percentile": 0.01336,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -7836,8 +8115,8 @@
             {
               "cve": "CVE-2022-3219",
               "epss": 0.00012,
-              "percentile": 0.01329,
-              "date": "2025-10-06"
+              "percentile": 0.01336,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -7897,144 +8176,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-5917",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5917",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
-        "urls": [],
-        "description": "A vulnerability has been identified in the libarchive library. This flaw involves an 'off-by-one' miscalculation when handling prefixes and suffixes for file names. This can lead to a 1-byte write overflow. While seemingly small, such an overflow can corrupt adjacent memory, leading to unpredictable program behavior, crashes, or in specific circumstances, could be leveraged as a building block for more sophisticated exploitation.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L",
-            "metrics": {
-              "baseScore": 2.8,
-              "exploitabilityScore": 1.4,
-              "impactScore": 1.5
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-5917",
-            "epss": 0.00018,
-            "percentile": 0.03383,
-            "date": "2025-10-06"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.00522
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-5917",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5917",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2025-5917",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2370874",
-            "https://github.com/libarchive/libarchive/pull/2588",
-            "https://github.com/libarchive/libarchive/releases/tag/v3.8.0"
-          ],
-          "description": "A vulnerability has been identified in the libarchive library. This flaw involves an 'off-by-one' miscalculation when handling prefixes and suffixes for file names. This can lead to a 1-byte write overflow. While seemingly small, such an overflow can corrupt adjacent memory, leading to unpredictable program behavior, crashes, or in specific circumstances, could be leveraged as a building block for more sophisticated exploitation.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 1.4,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L",
-              "metrics": {
-                "baseScore": 2.8,
-                "exploitabilityScore": 1.4,
-                "impactScore": 1.5
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-5917",
-              "epss": 0.00018,
-              "percentile": 0.03383,
-              "date": "2025-10-06"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "libarchive",
-              "version": "0:3.5.3-5.el9_6"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-5917",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "026da1974d66f84e",
-        "name": "libarchive",
-        "version": "3.5.3-5.el9_6",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:9f0b79be8c39d3327229ddefe91179edad3699b9049708d43623f4203b3b67fb",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "BSD"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libarchive:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libarchive-3.5.3-5.el9_6.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-30258",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-30258",
         "namespace": "redhat:distro:redhat:9",
@@ -8058,8 +8199,8 @@
           {
             "cve": "CVE-2025-30258",
             "epss": 0.00017,
-            "percentile": 0.02945,
-            "date": "2025-10-06"
+            "percentile": 0.02962,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -8099,8 +8240,8 @@
             {
               "cve": "CVE-2025-30258",
               "epss": 0.00017,
-              "percentile": 0.02945,
-              "date": "2025-10-06"
+              "percentile": 0.02962,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -8160,144 +8301,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-5915",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5915",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
-        "urls": [],
-        "description": "A vulnerability has been identified in the libarchive library. This flaw can lead to a heap buffer over-read due to the size of a filter block potentially exceeding the Lempel-Ziv-Storer-Schieber (LZSS) window. This means the library may attempt to read beyond the allocated memory buffer, which can result in unpredictable program behavior, crashes (denial of service), or the disclosure of sensitive information from adjacent memory regions.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
-            "metrics": {
-              "baseScore": 3.9,
-              "exploitabilityScore": 1.4,
-              "impactScore": 2.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-5915",
-            "epss": 0.00014,
-            "percentile": 0.01794,
-            "date": "2025-10-06"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.004829999999999999
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-5915",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5915",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2025-5915",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2370865",
-            "https://github.com/libarchive/libarchive/pull/2599",
-            "https://github.com/libarchive/libarchive/releases/tag/v3.8.0"
-          ],
-          "description": "A vulnerability has been identified in the libarchive library. This flaw can lead to a heap buffer over-read due to the size of a filter block potentially exceeding the Lempel-Ziv-Storer-Schieber (LZSS) window. This means the library may attempt to read beyond the allocated memory buffer, which can result in unpredictable program behavior, crashes (denial of service), or the disclosure of sensitive information from adjacent memory regions.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:H",
-              "metrics": {
-                "baseScore": 6.6,
-                "exploitabilityScore": 1.4,
-                "impactScore": 5.2
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
-              "metrics": {
-                "baseScore": 3.9,
-                "exploitabilityScore": 1.4,
-                "impactScore": 2.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-5915",
-              "epss": 0.00014,
-              "percentile": 0.01794,
-              "date": "2025-10-06"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "libarchive",
-              "version": "0:3.5.3-5.el9_6"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-5915",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "026da1974d66f84e",
-        "name": "libarchive",
-        "version": "3.5.3-5.el9_6",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:9f0b79be8c39d3327229ddefe91179edad3699b9049708d43623f4203b3b67fb",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "BSD"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libarchive:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libarchive-3.5.3-5.el9_6.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-8058",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-8058",
         "namespace": "redhat:distro:redhat:9",
@@ -8321,8 +8324,8 @@
           {
             "cve": "CVE-2025-8058",
             "epss": 0.0001,
-            "percentile": 0.00727,
-            "date": "2025-10-06"
+            "percentile": 0.0072,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -8373,8 +8376,8 @@
             {
               "cve": "CVE-2025-8058",
               "epss": 0.0001,
-              "percentile": 0.00727,
-              "date": "2025-10-06"
+              "percentile": 0.0072,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -8460,8 +8463,8 @@
           {
             "cve": "CVE-2025-8058",
             "epss": 0.0001,
-            "percentile": 0.00727,
-            "date": "2025-10-06"
+            "percentile": 0.0072,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -8512,8 +8515,8 @@
             {
               "cve": "CVE-2025-8058",
               "epss": 0.0001,
-              "percentile": 0.00727,
-              "date": "2025-10-06"
+              "percentile": 0.0072,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -8610,8 +8613,8 @@
           {
             "cve": "CVE-2025-8058",
             "epss": 0.0001,
-            "percentile": 0.00727,
-            "date": "2025-10-06"
+            "percentile": 0.0072,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -8662,8 +8665,8 @@
             {
               "cve": "CVE-2025-8058",
               "epss": 0.0001,
-              "percentile": 0.00727,
-              "date": "2025-10-06"
+              "percentile": 0.0072,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -8764,8 +8767,8 @@
           {
             "cve": "CVE-2025-8058",
             "epss": 0.0001,
-            "percentile": 0.00727,
-            "date": "2025-10-06"
+            "percentile": 0.0072,
+            "date": "2025-10-09"
           }
         ],
         "fix": {
@@ -8816,8 +8819,8 @@
             {
               "cve": "CVE-2025-8058",
               "epss": 0.0001,
-              "percentile": 0.00727,
-              "date": "2025-10-06"
+              "percentile": 0.0072,
+              "date": "2025-10-09"
             }
           ]
         }
@@ -9155,83 +9158,83 @@
     "db": {
       "status": {
         "schemaVersion": "v6.1.1",
-        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.1_2025-10-07T01:29:36Z_1759817436.tar.zst?checksum=sha256%3Abac7421480164581f993645364085108c923a202348d80c77025ab8205df42f8",
-        "built": "2025-10-07T06:10:36Z",
+        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.1_2025-10-10T01:29:41Z_1760081939.tar.zst?checksum=sha256%3A5f118862d85839d50395bfa21cfc54c7f87c7a62a166386a3908f1f589766222",
+        "built": "2025-10-10T07:38:59Z",
         "path": ".cache/grype/db/6/vulnerability.db",
         "valid": true
       },
       "providers": {
         "alpine": {
-          "captured": "2025-10-07T01:29:41Z",
-          "input": "xxh64:03330798bf460cde"
+          "captured": "2025-10-10T01:31:28Z",
+          "input": "xxh64:993e5afda17ac866"
         },
         "amazon": {
-          "captured": "2025-10-07T01:29:36Z",
-          "input": "xxh64:8de50bd90fad6287"
+          "captured": "2025-10-10T01:29:52Z",
+          "input": "xxh64:d7dd65bea4f16e19"
         },
         "bitnami": {
-          "captured": "2025-10-07T01:30:01Z",
-          "input": "xxh64:2a7979aa9f333073"
+          "captured": "2025-10-10T01:30:08Z",
+          "input": "xxh64:a740e220746eff4d"
         },
         "chainguard": {
-          "captured": "2025-10-07T01:29:40Z",
-          "input": "xxh64:d9207be062dcc4f8"
+          "captured": "2025-10-10T01:29:49Z",
+          "input": "xxh64:c052216f12cdaaa9"
         },
         "chainguard-libraries": {
-          "captured": "2025-10-07T01:29:38Z",
-          "input": "xxh64:0bfe7dc3c5414322"
+          "captured": "2025-10-10T01:29:45Z",
+          "input": "xxh64:f4c946cc64af6a6a"
         },
         "debian": {
-          "captured": "2025-10-07T01:30:03Z",
-          "input": "xxh64:b4f05de3267ecc84"
+          "captured": "2025-10-10T01:29:51Z",
+          "input": "xxh64:bcf6af12485af9ca"
         },
         "echo": {
-          "captured": "2025-10-07T01:29:38Z",
-          "input": "xxh64:96392d5c95992655"
+          "captured": "2025-10-10T01:30:00Z",
+          "input": "xxh64:7656607fef594ebf"
         },
         "epss": {
-          "captured": "2025-10-07T01:29:37Z",
-          "input": "xxh64:28932afa62993815"
+          "captured": "2025-10-10T01:29:41Z",
+          "input": "xxh64:8c2c37cce4c54ecb"
         },
         "github": {
-          "captured": "2025-10-07T01:29:43Z",
-          "input": "xxh64:e14a43cd24ce6548"
+          "captured": "2025-10-10T01:29:47Z",
+          "input": "xxh64:fbce04db235def54"
         },
         "kev": {
-          "captured": "2025-10-07T01:29:37Z",
-          "input": "xxh64:84c58c7b659bd12d"
+          "captured": "2025-10-10T01:29:53Z",
+          "input": "xxh64:733a1e24f5d64956"
         },
         "mariner": {
-          "captured": "2025-10-07T01:29:38Z",
-          "input": "xxh64:f2de8156c7332ecb"
+          "captured": "2025-10-10T01:31:04Z",
+          "input": "xxh64:e735a0e445c63f45"
         },
         "minimos": {
-          "captured": "2025-10-07T01:30:18Z",
-          "input": "xxh64:b90893853e89ec70"
+          "captured": "2025-10-10T01:31:03Z",
+          "input": "xxh64:71886a694cbd08a7"
         },
         "nvd": {
-          "captured": "2025-10-07T01:30:39Z",
-          "input": "xxh64:2960657ddfd869bc"
+          "captured": "2025-10-10T01:30:59Z",
+          "input": "xxh64:0521752d5f96a44f"
         },
         "oracle": {
-          "captured": "2025-10-07T01:29:39Z",
-          "input": "xxh64:f744d75e47e6bd49"
+          "captured": "2025-10-10T01:29:51Z",
+          "input": "xxh64:cc2d406ea0d9f0a3"
         },
         "rhel": {
-          "captured": "2025-10-07T01:30:03Z",
-          "input": "xxh64:0c64736820a962f3"
+          "captured": "2025-10-10T01:30:19Z",
+          "input": "xxh64:af00b80cf4c86e8f"
         },
         "sles": {
-          "captured": "2025-10-07T01:29:52Z",
-          "input": "xxh64:73d6594b47f01711"
+          "captured": "2025-10-10T01:29:52Z",
+          "input": "xxh64:34d40349a7251d84"
         },
         "ubuntu": {
-          "captured": "2025-10-07T01:30:44Z",
-          "input": "xxh64:7cff8097ab4cbd3d"
+          "captured": "2025-10-10T01:32:36Z",
+          "input": "xxh64:5d7b404bb98c9b5a"
         },
         "wolfi": {
-          "captured": "2025-10-07T01:29:43Z",
-          "input": "xxh64:8cc068f18022c98b"
+          "captured": "2025-10-10T01:29:52Z",
+          "input": "xxh64:15939b84bab73452"
         }
       }
     }
