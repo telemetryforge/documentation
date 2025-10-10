@@ -21,6 +21,15 @@ Full unfiltered reports are shown below, covering all severities and without any
 - [CycloneDX JSON SBOM](agent/cyclonedx-25.10.1.cdx.json)
 - [SPDX JSON SBOM](agent/spdx-25.10.1.spdx.json)
 
+### Agent Version: 25.10.2
+
+- [Grype Markdown Report](agent/grype-25.10.2.md)
+- [Grype JSON Report](agent/grype-25.10.2.json)
+
+- [Syft JSON SBOM](agent/syft-25.10.2.json)
+- [CycloneDX JSON SBOM](agent/cyclonedx-25.10.2.cdx.json)
+- [SPDX JSON SBOM](agent/spdx-25.10.2.spdx.json)
+
 ### Agent Version: 25.7.1
 
 - [Grype Markdown Report](agent/grype-25.7.1.md)
@@ -128,6 +137,15 @@ Full unfiltered reports are shown below, covering all severities and without any
 - [Syft JSON SBOM](oss/syft-4.0.11.json)
 - [CycloneDX JSON SBOM](oss/cyclonedx-4.0.11.cdx.json)
 - [SPDX JSON SBOM](oss/spdx-4.0.11.spdx.json)
+
+### Oss Version: 4.0.12
+
+- [Grype Markdown Report](oss/grype-4.0.12.md)
+- [Grype JSON Report](oss/grype-4.0.12.json)
+
+- [Syft JSON SBOM](oss/syft-4.0.12.json)
+- [CycloneDX JSON SBOM](oss/cyclonedx-4.0.12.cdx.json)
+- [SPDX JSON SBOM](oss/spdx-4.0.12.spdx.json)
 
 ### Oss Version: 4.0.3
 
