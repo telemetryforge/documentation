@@ -13,6 +13,7 @@ FluentDo Agent is an **enterprise-hardened distribution of Fluent Bit**, maintai
 ✅ **Fully supported** - Direct access to core Fluent Bit maintainers
 
 ### Main features
+
 - [Performant log deduplication at source](./features/record-deduplication.md)
 - [Log sampling processor](./features/log-sampling.md)
 - AI-based filtering and routing
@@ -29,6 +30,8 @@ FluentDo Agent is an **enterprise-hardened distribution of Fluent Bit**, maintai
 - [OSS Fluent Bit Docs](https://docs.fluentbit.io) - Core documentation reference
 
 ## Enterprise Features
+
+Available directly via [Red Hat catalog](https://catalog.redhat.com/software/container-stacks/detail/68cfeb03e65464ef8fd4d608).
 
 ### Performance & Reliability
 
