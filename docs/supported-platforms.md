@@ -18,6 +18,7 @@ Hardened container images are provided for:
 - AWS via ECS
 - Google Cloud via Artifact Registry
 - All images are in docker.io and ghcr.io as well
+- [Red Hat catalog](https://catalog.redhat.com/software/container-stacks/detail/68cfeb03e65464ef8fd4d608)
 
 ## Native installation
 
@@ -32,6 +33,6 @@ Packages as well as public VM images (AMIs) are available for the following Ente
 |Rocky Linux| 8, 9, 10| RHEL–compatible without breaking changes from  CentOS stream. |
 |SUSE Linux Enterprise Server (SLES)|12, 15||
 |Ubuntu LTS|18.04, 20.04, 22.04, 24.04||
-|Debian|10,11,12||
+|Debian|10,11,12,13||
 
 Part of our support package includes testing against the specific use cases or configurations you may require.
