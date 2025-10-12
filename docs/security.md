@@ -14,7 +14,7 @@ FluentDo provides an agent with the following security and compliance considerat
 
 ## Cosign
 
-All images are signed with Cosign using both the keyless approach with Fulco and a dedicated Cosign private key (from 25.10.3) integrated into Github Actions directly: <https://github.com/FluentDo/agent/blob/main/.github/workflows/call-build-containers.yaml>
+All images are signed with Cosign using both the keyless approach with Fulcio and a dedicated Cosign private key (from 25.10.3) integrated into Github Actions directly: <https://github.com/FluentDo/agent/blob/main/.github/workflows/call-build-containers.yaml>
 
 The private key is available here: <https://raw.githubusercontent.com/FluentDo/agent/refs/heads/main/cosign.pub>
 
