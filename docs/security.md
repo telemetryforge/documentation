@@ -12,6 +12,21 @@ FluentDo provides an agent with the following security and compliance considerat
 - Full integration and regression testing in place
 - Hardened container images and best practice helm charts
 
+## Cosign
+
+All images are signed with Cosign using both the keyless approach with Fulcio and a dedicated Cosign private key (from 25.10.3) integrated into Github Actions directly: <https://github.com/FluentDo/agent/blob/main/.github/workflows/call-build-containers.yaml>
+
+The private key is available here: <https://raw.githubusercontent.com/FluentDo/agent/refs/heads/main/cosign.pub>
+
+```text
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE9ksLCy9rhu8BXj7fSYRczjaI+G2K
+C7z4JI247+HFGdcJSNh9mSV3ZnlvH44fgqISireDyi8d0WVMf9oZhOHV6Q==
+-----END PUBLIC KEY-----
+```
+
+To verify follow the instructions provided by Cosign: <https://docs.sigstore.dev/cosign/verifying/verify/>
+
 ## CVEs
 
 We triage and resolve all CVEs reported against the FluentDo agent (and to some degree OSS too), please see [this page](./security/cves.md).
@@ -91,4 +106,3 @@ To minimize attack surface and binary size, the following 17 plugins are **disab
 - `FLB_SHARED_LIB` - Shared library build (static preferred)
 - `FLB_EXAMPLES` - Example binaries
 - `FLB_CHUNK_TRACE` - Debug chunk tracing
-
