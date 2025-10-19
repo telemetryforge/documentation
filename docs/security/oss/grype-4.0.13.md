@@ -1,6 +1,6 @@
-# Grype Vulnerabilities for ghcr.io/fluent/fluent-bit:4.0.12
+# Grype Vulnerabilities for ghcr.io/fluent/fluent-bit:4.0.13
 
-Unfiltered vulnerability scan results for ghcr.io/fluent/fluent-bit:4.0.12 using Grype.
+Unfiltered vulnerability scan results for ghcr.io/fluent/fluent-bit:4.0.13 using Grype.
 Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.html) or [VEX endpoint](https://docs.fluent.do/security/vex.json) for more information on vulnerabilities that have been reviewed.
 
 | Package | Version Installed | Vulnerability ID | Severity |
