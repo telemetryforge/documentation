@@ -4,7 +4,7 @@ The FluentDo agent supports all major architectures including `x86_64` and `arm6
 
 Releases can be found or watched here: <https://github.com/FluentDo/agent>
 
-Please [contact us](info@fluent.do) for full details.
+Please [contact us](mailto:info@fluent.do) for full details.
 
 ## Kubernetes versions
 
