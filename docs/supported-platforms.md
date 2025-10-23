@@ -2,7 +2,9 @@
 
 The FluentDo agent supports all major architectures including `x86_64` and `arm64` as well as optionally `riscv64`, `s390x` and others.
 
-Releases can be found or watched here: <https://github.com/FluentDo/releases>
+Releases can be found or watched here: <https://github.com/FluentDo/agent>
+
+Please [contact us](info@fluent.do) for full details.
 
 ## Kubernetes versions
 
@@ -34,5 +36,8 @@ Packages as well as public VM images (AMIs) are available for the following Ente
 |SUSE Linux Enterprise Server (SLES)|12, 15||
 |Ubuntu LTS|18.04, 20.04, 22.04, 24.04||
 |Debian|10,11,12,13||
+|Windows|2022,2025| Server versions but compatible with desktop equivalents |
 
 Part of our support package includes testing against the specific use cases or configurations you may require.
+
+Installation of packages is available via <https://packages.fluent.do> following the pattern `/<VERSION>/output/package-<TARGET>/<PACKAGE NAME>`.
