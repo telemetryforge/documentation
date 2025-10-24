@@ -40,4 +40,4 @@ Packages as well as public VM images (AMIs) are available for the following Ente
 
 Part of our support package includes testing against the specific use cases or configurations you may require.
 
-Installation of packages is available via <https://packages.fluent.do> following the pattern `/<VERSION>/output/package-<TARGET>/<PACKAGE NAME>`.
+Installation of packages is available via [https://packages.fluent.do](https://packages.fluent.do/index.html).
