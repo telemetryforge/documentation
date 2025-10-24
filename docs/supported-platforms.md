@@ -4,6 +4,8 @@ The FluentDo agent supports all major architectures including `x86_64` and `arm6
 
 Releases can be found or watched here: <https://github.com/FluentDo/agent>
 
+Packages are available via [https://packages.fluent.do](https://packages.fluent.do/index.html).
+
 Please [contact us](mailto:info@fluent.do) for full details.
 
 ## Kubernetes versions
@@ -14,13 +16,18 @@ We test against a matrix of vanilla Kubernetes versions along with the various d
 
 ## Container images
 
+All images are built from our Github repo and available via ghcr.io: `ghcr.io/fluentdo/agent`
+
+* UBI-based image: uses the `version` tag
+* Distroless image (closer match to OSS): uses the `version-slim` tag
+
 Hardened container images are provided for:
 
-- Openshift via `quay.io`
-- AWS via ECS
-- Google Cloud via Artifact Registry
-- All images are in docker.io and ghcr.io as well
-- [Red Hat catalog](https://catalog.redhat.com/software/container-stacks/detail/68cfeb03e65464ef8fd4d608)
+* Openshift via `quay.io`
+* AWS via ECS
+* Google Cloud via Artifact Registry
+* All images are in docker.io and ghcr.io as well
+* [Red Hat catalog](https://catalog.redhat.com/software/container-stacks/detail/68cfeb03e65464ef8fd4d608)
 
 ## Native installation
 
@@ -40,4 +47,4 @@ Packages as well as public VM images (AMIs) are available for the following Ente
 
 Part of our support package includes testing against the specific use cases or configurations you may require.
 
-Installation of packages is available via <https://packages.fluent.do> following the pattern `/<VERSION>/output/package-<TARGET>/<PACKAGE NAME>`.
+Installation of packages is available via [https://packages.fluent.do](https://packages.fluent.do/index.html).
