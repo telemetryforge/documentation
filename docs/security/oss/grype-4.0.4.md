@@ -21,7 +21,6 @@ Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.h
 | libcurl4 | 7.88.1-10+deb12u12 | [CVE-2025-10148](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-10148) | Medium |
 | libgnutls30 | 3.7.9-2+deb12u4 | [CVE-2025-32989](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32989) | Medium |
 | libssl3 | 3.0.16-1~deb12u1 | [CVE-2025-9232](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9232) | Medium |
-| liblz4-1 | 1.9.4-1 | [CVE-2025-62813](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-62813) | Medium |
 | libc6 | 2.36-9+deb12u10 | [CVE-2025-8058](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8058) | Medium |
 | libpq5 | 15.13-0+deb12u1 | [CVE-2025-8713](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8713) | Low |
 | libgnutls30 | 3.7.9-2+deb12u4 | [CVE-2011-3389](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3389) | Negligible |

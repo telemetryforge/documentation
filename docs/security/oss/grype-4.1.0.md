@@ -10,7 +10,6 @@ Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.h
 | libssl3 | 3.0.17-1~deb12u2 | [CVE-2025-9230](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9230) | High |
 | libcurl4 | 7.88.1-10+deb12u14 | [CVE-2025-10148](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-10148) | Medium |
 | libssl3 | 3.0.17-1~deb12u2 | [CVE-2025-9232](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9232) | Medium |
-| liblz4-1 | 1.9.4-1 | [CVE-2025-62813](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-62813) | Medium |
 | libgnutls30 | 3.7.9-2+deb12u5 | [CVE-2011-3389](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3389) | Negligible |
 | libldap-2.5-0 | 2.5.13+dfsg-5 | [CVE-2017-17740](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17740) | Negligible |
 | libc6 | 2.36-9+deb12u13 | [CVE-2018-20796](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20796) | Negligible |
