@@ -25,9 +25,9 @@
         "epss": [
           {
             "cve": "CVE-2023-2953",
-            "epss": 0.01149,
-            "percentile": 0.77795,
-            "date": "2025-11-10"
+            "epss": 0.01466,
+            "percentile": 0.80326,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -55,7 +55,7 @@
           "state": "wont-fix"
         },
         "advisories": [],
-        "risk": 0.86175
+        "risk": 1.0995
       },
       "relatedVulnerabilities": [
         {
@@ -113,9 +113,9 @@
           "epss": [
             {
               "cve": "CVE-2023-2953",
-              "epss": 0.01149,
-              "percentile": 0.77795,
-              "date": "2025-11-10"
+              "epss": 0.01466,
+              "percentile": 0.80326,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -210,9 +210,9 @@
         "epss": [
           {
             "cve": "CVE-2011-3389",
-            "epss": 0.04338,
-            "percentile": 0.8839,
-            "date": "2025-11-10"
+            "epss": 0.06669,
+            "percentile": 0.90852,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -228,7 +228,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.21690000000000004
+        "risk": 0.33345
       },
       "relatedVulnerabilities": [
         {
@@ -444,9 +444,9 @@
           "epss": [
             {
               "cve": "CVE-2011-3389",
-              "epss": 0.04338,
-              "percentile": 0.8839,
-              "date": "2025-11-10"
+              "epss": 0.06669,
+              "percentile": 0.90852,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -521,8 +521,8 @@
           {
             "cve": "CVE-2017-17740",
             "epss": 0.02838,
-            "percentile": 0.8571,
-            "date": "2025-11-10"
+            "percentile": 0.85746,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -589,8 +589,8 @@
             {
               "cve": "CVE-2017-17740",
               "epss": 0.02838,
-              "percentile": 0.8571,
-              "date": "2025-11-10"
+              "percentile": 0.85746,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -663,141 +663,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2015-3276",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2015-3276",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "The nss_parse_ciphers function in libraries/libldap/tls_m.c in OpenLDAP does not properly parse OpenSSL-style multi-keyword mode cipher strings, which might cause a weaker than intended cipher to be used and allow remote attackers to have unspecified impact via unknown vectors.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2015-3276",
-            "epss": 0.02368,
-            "percentile": 0.84408,
-            "date": "2025-11-10"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.11840000000000002
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2015-3276",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2015-3276",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "http://rhn.redhat.com/errata/RHSA-2015-2131.html",
-            "http://www.oracle.com/technetwork/topics/security/linuxbulletinoct2015-2719645.html",
-            "http://www.securitytracker.com/id/1034221",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=1238322",
-            "http://rhn.redhat.com/errata/RHSA-2015-2131.html",
-            "http://www.oracle.com/technetwork/topics/security/linuxbulletinoct2015-2719645.html",
-            "http://www.securitytracker.com/id/1034221",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=1238322"
-          ],
-          "description": "The nss_parse_ciphers function in libraries/libldap/tls_m.c in OpenLDAP does not properly parse OpenSSL-style multi-keyword mode cipher strings, which might cause a weaker than intended cipher to be used and allow remote attackers to have unspecified impact via unknown vectors.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2015-3276",
-              "epss": 0.02368,
-              "percentile": 0.84408,
-              "date": "2025-11-10"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "openldap",
-              "version": "2.5.13+dfsg-5"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2015-3276",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "919a44d8cbaa32e2",
-        "name": "libldap-2.5-0",
-        "version": "2.5.13+dfsg-5",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libldap-2.5-0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libldap-2.5-0",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libldap-2.5-0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap-2.5-0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5_0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5_0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap-2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap-2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libldap-2.5-0@2.5.13%2Bdfsg-5?arch=amd64&distro=debian-12&upstream=openldap",
-        "upstreams": [
-          {
-            "name": "openldap"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2018-20796",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-20796",
         "namespace": "debian:distro:debian:12",
@@ -809,8 +674,8 @@
           {
             "cve": "CVE-2018-20796",
             "epss": 0.01786,
-            "percentile": 0.82119,
-            "date": "2025-11-10"
+            "percentile": 0.82175,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -877,8 +742,8 @@
             {
               "cve": "CVE-2018-20796",
               "epss": 0.01786,
-              "percentile": 0.82119,
-              "date": "2025-11-10"
+              "percentile": 0.82175,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -961,74 +826,216 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-9086",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-9086",
+        "id": "CVE-2015-3276",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2015-3276",
         "namespace": "debian:distro:debian:12",
-        "severity": "High",
+        "severity": "Negligible",
         "urls": [],
-        "description": "1. A cookie is set using the `secure` keyword for `https://target` 2. curl is redirected to or otherwise made to speak with `http://target` (same    hostname, but using clear text HTTP) using the same cookie set 3. The same cookie name is set - but with just a slash as path (`path='/'`).    Since this site is not secure, the cookie *should* just be ignored. 4. A bug in the path comparison logic makes curl read outside a heap buffer    boundary  The bug either causes a crash or it potentially makes the comparison come to the wrong conclusion and lets the clear-text site override the contents of the secure cookie, contrary to expectations and depending on the memory contents immediately following the single-byte allocation that holds the path.  The presumed and correct behavior would be to plainly ignore the second set of the cookie since it was already set as secure on a secure host so overriding it on an insecure host should not be okay.",
-        "cvss": [
-          {
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "metrics": {
-              "baseScore": 7.5,
-              "exploitabilityScore": 3.9,
-              "impactScore": 3.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
+        "description": "The nss_parse_ciphers function in libraries/libldap/tls_m.c in OpenLDAP does not properly parse OpenSSL-style multi-keyword mode cipher strings, which might cause a weaker than intended cipher to be used and allow remote attackers to have unspecified impact via unknown vectors.",
+        "cvss": [],
         "epss": [
           {
-            "cve": "CVE-2025-9086",
-            "epss": 0.00073,
-            "percentile": 0.2251,
-            "date": "2025-11-10"
+            "cve": "CVE-2015-3276",
+            "epss": 0.01757,
+            "percentile": 0.82045,
+            "date": "2025-11-03"
           }
         ],
         "fix": {
           "versions": [],
-          "state": "wont-fix"
+          "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.05475
+        "risk": 0.08785
       },
       "relatedVulnerabilities": [
         {
-          "id": "CVE-2025-9086",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9086",
+          "id": "CVE-2015-3276",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2015-3276",
           "namespace": "nvd:cpe",
           "severity": "High",
           "urls": [
-            "https://curl.se/docs/CVE-2025-9086.html",
-            "https://curl.se/docs/CVE-2025-9086.json",
-            "https://hackerone.com/reports/3294999",
-            "http://www.openwall.com/lists/oss-security/2025/09/10/1"
+            "http://rhn.redhat.com/errata/RHSA-2015-2131.html",
+            "http://www.oracle.com/technetwork/topics/security/linuxbulletinoct2015-2719645.html",
+            "http://www.securitytracker.com/id/1034221",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=1238322",
+            "http://rhn.redhat.com/errata/RHSA-2015-2131.html",
+            "http://www.oracle.com/technetwork/topics/security/linuxbulletinoct2015-2719645.html",
+            "http://www.securitytracker.com/id/1034221",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=1238322"
           ],
-          "description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\n   hostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\n   Since this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\n   boundary\n\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\n\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
+          "description": "The nss_parse_ciphers function in libraries/libldap/tls_m.c in OpenLDAP does not properly parse OpenSSL-style multi-keyword mode cipher strings, which might cause a weaker than intended cipher to be used and allow remote attackers to have unspecified impact via unknown vectors.",
           "cvss": [
             {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
+              "source": "nvd@nist.gov",
+              "type": "Primary",
               "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
               "metrics": {
                 "baseScore": 7.5,
                 "exploitabilityScore": 3.9,
                 "impactScore": 3.6
               },
               "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
             }
           ],
           "epss": [
             {
-              "cve": "CVE-2025-9086",
-              "epss": 0.00073,
-              "percentile": 0.2251,
-              "date": "2025-11-10"
+              "cve": "CVE-2015-3276",
+              "epss": 0.01757,
+              "percentile": 0.82045,
+              "date": "2025-11-03"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "openldap",
+              "version": "2.5.13+dfsg-5"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2015-3276",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "919a44d8cbaa32e2",
+        "name": "libldap-2.5-0",
+        "version": "2.5.13+dfsg-5",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libldap-2.5-0",
+            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "accessPath": "/var/lib/dpkg/status.d/libldap-2.5-0",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libldap-2.5-0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap-2.5-0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5_0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5_0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap-2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap-2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libldap-2.5-0@2.5.13%2Bdfsg-5?arch=amd64&distro=debian-12&upstream=openldap",
+        "upstreams": [
+          {
+            "name": "openldap"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-0725",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-0725",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "When libcurl is asked to perform automatic gzip decompression of content-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option, **using zlib 1.2.0.3 or older**, an attacker-controlled integer overflow would make libcurl perform a buffer overflow.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-0725",
+            "epss": 0.01638,
+            "percentile": 0.81383,
+            "date": "2025-11-03"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-0725",
+            "cwe": "CWE-120",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0819
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-0725",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-0725",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://curl.se/docs/CVE-2025-0725.html",
+            "https://curl.se/docs/CVE-2025-0725.json",
+            "https://hackerone.com/reports/2956023",
+            "http://www.openwall.com/lists/oss-security/2025/02/05/3",
+            "http://www.openwall.com/lists/oss-security/2025/02/06/2",
+            "http://www.openwall.com/lists/oss-security/2025/02/06/4",
+            "https://github.com/curl/curl/commit/76f83f0db23846e254d940ec7",
+            "https://security.netapp.com/advisory/ntap-20250306-0009/"
+          ],
+          "description": "When libcurl is asked to perform automatic gzip decompression of\ncontent-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option,\n**using zlib 1.2.0.3 or older**, an attacker-controlled integer overflow would\nmake libcurl perform a buffer overflow.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+              "metrics": {
+                "baseScore": 7.3,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.4
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-0725",
+              "epss": 0.01638,
+              "percentile": 0.81383,
+              "date": "2025-11-03"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-0725",
+              "cwe": "CWE-120",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
             }
           ]
         }
@@ -1049,7 +1056,7 @@
             "namespace": "debian:distro:debian:12"
           },
           "found": {
-            "vulnerabilityID": "CVE-2025-9086",
+            "vulnerabilityID": "CVE-2025-0725",
             "versionConstraint": "none (unknown)"
           }
         }
@@ -1108,8 +1115,8 @@
           {
             "cve": "CVE-2025-8715",
             "epss": 0.00051,
-            "percentile": 0.15754,
-            "date": "2025-11-10"
+            "percentile": 0.15765,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -1164,8 +1171,8 @@
             {
               "cve": "CVE-2025-8715",
               "epss": 0.00051,
-              "percentile": 0.15754,
-              "date": "2025-11-10"
+              "percentile": 0.15765,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -1232,81 +1239,73 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-0725",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-0725",
+        "id": "CVE-2025-9086",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-9086",
         "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
+        "severity": "High",
         "urls": [],
-        "description": "When libcurl is asked to perform automatic gzip decompression of content-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option, **using zlib 1.2.0.3 or older**, an attacker-controlled integer overflow would make libcurl perform a buffer overflow.",
-        "cvss": [],
-        "epss": [
+        "description": "1. A cookie is set using the `secure` keyword for `https://target` 2. curl is redirected to or otherwise made to speak with `http://target` (same    hostname, but using clear text HTTP) using the same cookie set 3. The same cookie name is set - but with just a slash as path (`path='/'`).    Since this site is not secure, the cookie *should* just be ignored. 4. A bug in the path comparison logic makes curl read outside a heap buffer    boundary  The bug either causes a crash or it potentially makes the comparison come to the wrong conclusion and lets the clear-text site override the contents of the secure cookie, contrary to expectations and depending on the memory contents immediately following the single-byte allocation that holds the path.  The presumed and correct behavior would be to plainly ignore the second set of the cookie since it was already set as secure on a secure host so overriding it on an insecure host should not be okay.",
+        "cvss": [
           {
-            "cve": "CVE-2025-0725",
-            "epss": 0.00711,
-            "percentile": 0.7146,
-            "date": "2025-11-10"
+            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "metrics": {
+              "baseScore": 7.5,
+              "exploitabilityScore": 3.9,
+              "impactScore": 3.6
+            },
+            "vendorMetadata": {}
           }
         ],
-        "cwes": [
+        "epss": [
           {
-            "cve": "CVE-2025-0725",
-            "cwe": "CWE-120",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
+            "cve": "CVE-2025-9086",
+            "epss": 0.00054,
+            "percentile": 0.16926,
+            "date": "2025-11-03"
           }
         ],
         "fix": {
           "versions": [],
-          "state": "not-fixed"
+          "state": "wont-fix"
         },
         "advisories": [],
-        "risk": 0.035550000000000005
+        "risk": 0.040499999999999994
       },
       "relatedVulnerabilities": [
         {
-          "id": "CVE-2025-0725",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-0725",
+          "id": "CVE-2025-9086",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9086",
           "namespace": "nvd:cpe",
           "severity": "High",
           "urls": [
-            "https://curl.se/docs/CVE-2025-0725.html",
-            "https://curl.se/docs/CVE-2025-0725.json",
-            "https://hackerone.com/reports/2956023",
-            "http://www.openwall.com/lists/oss-security/2025/02/05/3",
-            "http://www.openwall.com/lists/oss-security/2025/02/06/2",
-            "http://www.openwall.com/lists/oss-security/2025/02/06/4",
-            "https://github.com/curl/curl/commit/76f83f0db23846e254d940ec7",
-            "https://security.netapp.com/advisory/ntap-20250306-0009/"
+            "https://curl.se/docs/CVE-2025-9086.html",
+            "https://curl.se/docs/CVE-2025-9086.json",
+            "https://hackerone.com/reports/3294999"
           ],
-          "description": "When libcurl is asked to perform automatic gzip decompression of\ncontent-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option,\n**using zlib 1.2.0.3 or older**, an attacker-controlled integer overflow would\nmake libcurl perform a buffer overflow.",
+          "description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\n   hostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\n   Since this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\n   boundary\n\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\n\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
           "cvss": [
             {
               "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
               "type": "Secondary",
               "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
               "metrics": {
-                "baseScore": 7.3,
+                "baseScore": 7.5,
                 "exploitabilityScore": 3.9,
-                "impactScore": 3.4
+                "impactScore": 3.6
               },
               "vendorMetadata": {}
             }
           ],
           "epss": [
             {
-              "cve": "CVE-2025-0725",
-              "epss": 0.00711,
-              "percentile": 0.7146,
-              "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-0725",
-              "cwe": "CWE-120",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
+              "cve": "CVE-2025-9086",
+              "epss": 0.00054,
+              "percentile": 0.16926,
+              "date": "2025-11-03"
             }
           ]
         }
@@ -1327,7 +1326,7 @@
             "namespace": "debian:distro:debian:12"
           },
           "found": {
-            "vulnerabilityID": "CVE-2025-0725",
+            "vulnerabilityID": "CVE-2025-9086",
             "versionConstraint": "none (unknown)"
           }
         }
@@ -1373,8 +1372,8 @@
           {
             "cve": "CVE-2019-1010023",
             "epss": 0.00703,
-            "percentile": 0.71246,
-            "date": "2025-11-10"
+            "percentile": 0.71401,
+            "date": "2025-11-03"
           }
         ],
         "fix": {
@@ -1445,8 +1444,8 @@
             {
               "cve": "CVE-2019-1010023",
               "epss": 0.00703,
-              "percentile": 0.71246,
-              "date": "2025-11-10"
+              "percentile": 0.71401,
+              "date": "2025-11-03"
             }
           ]
         }
@@ -1521,6 +1520,144 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2018-6829",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-6829",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "cipher/elgamal.c in Libgcrypt through 1.8.2, when used to encrypt messages directly, improperly encodes plaintexts, which allows attackers to obtain sensitive information by reading ciphertext data (i.e., it does not have semantic security in face of a ciphertext-only attack). The Decisional Diffie-Hellman (DDH) assumption does not hold for Libgcrypt's ElGamal implementation.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2018-6829",
+            "epss": 0.00534,
+            "percentile": 0.6668,
+            "date": "2025-11-03"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2018-6829",
+            "cwe": "CWE-327",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.026700000000000005
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2018-6829",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-6829",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://github.com/weikengchen/attack-on-libgcrypt-elgamal",
+            "https://github.com/weikengchen/attack-on-libgcrypt-elgamal/wiki",
+            "https://lists.gnupg.org/pipermail/gcrypt-devel/2018-February/004394.html",
+            "https://www.oracle.com/security-alerts/cpujan2020.html",
+            "https://github.com/weikengchen/attack-on-libgcrypt-elgamal",
+            "https://github.com/weikengchen/attack-on-libgcrypt-elgamal/wiki",
+            "https://lists.gnupg.org/pipermail/gcrypt-devel/2018-February/004394.html",
+            "https://www.oracle.com/security-alerts/cpujan2020.html"
+          ],
+          "description": "cipher/elgamal.c in Libgcrypt through 1.8.2, when used to encrypt messages directly, improperly encodes plaintexts, which allows attackers to obtain sensitive information by reading ciphertext data (i.e., it does not have semantic security in face of a ciphertext-only attack). The Decisional Diffie-Hellman (DDH) assumption does not hold for Libgcrypt's ElGamal implementation.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.0",
+              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2018-6829",
+              "epss": 0.00534,
+              "percentile": 0.6668,
+              "date": "2025-11-03"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2018-6829",
+              "cwe": "CWE-327",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "libgcrypt20",
+              "version": "1.10.1-3"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2018-6829",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "aa143951e2980797",
+        "name": "libgcrypt20",
+        "version": "1.10.1-3",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libgcrypt20",
+            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "accessPath": "/var/lib/dpkg/status.d/libgcrypt20",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libgcrypt20:libgcrypt20:1.10.1-3:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libgcrypt20@1.10.1-3?arch=amd64&distro=debian-12",
+        "upstreams": []
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-3576",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-3576",
         "namespace": "debian:distro:debian:12",
@@ -1544,9 +1681,9 @@
         "epss": [
           {
             "cve": "CVE-2025-3576",
-            "epss": 0.00053,
-            "percentile": 0.16469,
-            "date": "2025-11-10"
+            "epss": 0.00046,
+            "percentile": 0.13971,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -1571,7 +1708,7 @@
           ]
         },
         "advisories": [],
-        "risk": 0.028885
+        "risk": 0.025070000000000002
       },
       "relatedVulnerabilities": [
         {
@@ -1614,9 +1751,9 @@
           "epss": [
             {
               "cve": "CVE-2025-3576",
-              "epss": 0.00053,
-              "percentile": 0.16469,
-              "date": "2025-11-10"
+              "epss": 0.00046,
+              "percentile": 0.13971,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -1715,9 +1852,9 @@
         "epss": [
           {
             "cve": "CVE-2025-3576",
-            "epss": 0.00053,
-            "percentile": 0.16469,
-            "date": "2025-11-10"
+            "epss": 0.00046,
+            "percentile": 0.13971,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -1742,7 +1879,7 @@
           ]
         },
         "advisories": [],
-        "risk": 0.028885
+        "risk": 0.025070000000000002
       },
       "relatedVulnerabilities": [
         {
@@ -1785,9 +1922,9 @@
           "epss": [
             {
               "cve": "CVE-2025-3576",
-              "epss": 0.00053,
-              "percentile": 0.16469,
-              "date": "2025-11-10"
+              "epss": 0.00046,
+              "percentile": 0.13971,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -1877,9 +2014,9 @@
         "epss": [
           {
             "cve": "CVE-2025-3576",
-            "epss": 0.00053,
-            "percentile": 0.16469,
-            "date": "2025-11-10"
+            "epss": 0.00046,
+            "percentile": 0.13971,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -1904,7 +2041,7 @@
           ]
         },
         "advisories": [],
-        "risk": 0.028885
+        "risk": 0.025070000000000002
       },
       "relatedVulnerabilities": [
         {
@@ -1947,9 +2084,9 @@
           "epss": [
             {
               "cve": "CVE-2025-3576",
-              "epss": 0.00053,
-              "percentile": 0.16469,
-              "date": "2025-11-10"
+              "epss": 0.00046,
+              "percentile": 0.13971,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -2044,9 +2181,9 @@
         "epss": [
           {
             "cve": "CVE-2025-3576",
-            "epss": 0.00053,
-            "percentile": 0.16469,
-            "date": "2025-11-10"
+            "epss": 0.00046,
+            "percentile": 0.13971,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -2071,7 +2208,7 @@
           ]
         },
         "advisories": [],
-        "risk": 0.028885
+        "risk": 0.025070000000000002
       },
       "relatedVulnerabilities": [
         {
@@ -2114,9 +2251,9 @@
           "epss": [
             {
               "cve": "CVE-2025-3576",
-              "epss": 0.00053,
-              "percentile": 0.16469,
-              "date": "2025-11-10"
+              "epss": 0.00046,
+              "percentile": 0.13971,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -2183,25 +2320,25 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2018-6829",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-6829",
+        "id": "CVE-2018-5709",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
         "namespace": "debian:distro:debian:12",
         "severity": "Negligible",
         "urls": [],
-        "description": "cipher/elgamal.c in Libgcrypt through 1.8.2, when used to encrypt messages directly, improperly encodes plaintexts, which allows attackers to obtain sensitive information by reading ciphertext data (i.e., it does not have semantic security in face of a ciphertext-only attack). The Decisional Diffie-Hellman (DDH) assumption does not hold for Libgcrypt's ElGamal implementation.",
+        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
         "cvss": [],
         "epss": [
           {
-            "cve": "CVE-2018-6829",
-            "epss": 0.00534,
-            "percentile": 0.66488,
-            "date": "2025-11-10"
+            "cve": "CVE-2018-5709",
+            "epss": 0.00463,
+            "percentile": 0.63551,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
           {
-            "cve": "CVE-2018-6829",
-            "cwe": "CWE-327",
+            "cve": "CVE-2018-5709",
+            "cwe": "CWE-190",
             "source": "nvd@nist.gov",
             "type": "Primary"
           }
@@ -2211,31 +2348,27 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.026700000000000005
+        "risk": 0.02315
       },
       "relatedVulnerabilities": [
         {
-          "id": "CVE-2018-6829",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-6829",
+          "id": "CVE-2018-5709",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
           "namespace": "nvd:cpe",
           "severity": "High",
           "urls": [
-            "https://github.com/weikengchen/attack-on-libgcrypt-elgamal",
-            "https://github.com/weikengchen/attack-on-libgcrypt-elgamal/wiki",
-            "https://lists.gnupg.org/pipermail/gcrypt-devel/2018-February/004394.html",
-            "https://www.oracle.com/security-alerts/cpujan2020.html",
-            "https://github.com/weikengchen/attack-on-libgcrypt-elgamal",
-            "https://github.com/weikengchen/attack-on-libgcrypt-elgamal/wiki",
-            "https://lists.gnupg.org/pipermail/gcrypt-devel/2018-February/004394.html",
-            "https://www.oracle.com/security-alerts/cpujan2020.html"
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
           ],
-          "description": "cipher/elgamal.c in Libgcrypt through 1.8.2, when used to encrypt messages directly, improperly encodes plaintexts, which allows attackers to obtain sensitive information by reading ciphertext data (i.e., it does not have semantic security in face of a ciphertext-only attack). The Decisional Diffie-Hellman (DDH) assumption does not hold for Libgcrypt's ElGamal implementation.",
+          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
           "cvss": [
             {
               "source": "nvd@nist.gov",
               "type": "Primary",
               "version": "3.0",
-              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
               "metrics": {
                 "baseScore": 7.5,
                 "exploitabilityScore": 3.9,
@@ -2247,7 +2380,7 @@
               "source": "nvd@nist.gov",
               "type": "Primary",
               "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
               "metrics": {
                 "baseScore": 5,
                 "exploitabilityScore": 10,
@@ -2258,145 +2391,16 @@
           ],
           "epss": [
             {
-              "cve": "CVE-2018-6829",
-              "epss": 0.00534,
-              "percentile": 0.66488,
-              "date": "2025-11-10"
+              "cve": "CVE-2018-5709",
+              "epss": 0.00463,
+              "percentile": 0.63551,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
             {
-              "cve": "CVE-2018-6829",
-              "cwe": "CWE-327",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "libgcrypt20",
-              "version": "1.10.1-3"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2018-6829",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "aa143951e2980797",
-        "name": "libgcrypt20",
-        "version": "1.10.1-3",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libgcrypt20",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libgcrypt20",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libgcrypt20:libgcrypt20:1.10.1-3:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libgcrypt20@1.10.1-3?arch=amd64&distro=debian-12",
-        "upstreams": []
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2010-4756",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2010-4756",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames, as demonstrated by glob expressions in STAT commands to an FTP daemon, a different vulnerability than CVE-2010-2632.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2010-4756",
-            "epss": 0.0052,
-            "percentile": 0.65923,
-            "date": "2025-11-10"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2010-4756",
-            "cwe": "CWE-399",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.026
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2010-4756",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2010-4756",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "http://cxib.net/stuff/glob-0day.c",
-            "http://securityreason.com/achievement_securityalert/89",
-            "http://securityreason.com/exploitalert/9223",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=681681",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4756",
-            "http://cxib.net/stuff/glob-0day.c",
-            "http://securityreason.com/achievement_securityalert/89",
-            "http://securityreason.com/exploitalert/9223",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=681681",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4756",
-            "https://security.netapp.com/advisory/ntap-20241108-0002/"
-          ],
-          "description": "The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames, as demonstrated by glob expressions in STAT commands to an FTP daemon, a different vulnerability than CVE-2010-2632.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
-              "metrics": {
-                "baseScore": 4,
-                "exploitabilityScore": 8,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2010-4756",
-              "epss": 0.0052,
-              "percentile": 0.65923,
-              "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2010-4756",
-              "cwe": "CWE-399",
+              "cve": "CVE-2018-5709",
+              "cwe": "CWE-190",
               "source": "nvd@nist.gov",
               "type": "Primary"
             }
@@ -2413,60 +2417,469 @@
               "version": "12"
             },
             "package": {
-              "name": "glibc",
-              "version": "2.36-9+deb12u10"
+              "name": "krb5",
+              "version": "1.20.1-2+deb12u3"
             },
             "namespace": "debian:distro:debian:12"
           },
           "found": {
-            "vulnerabilityID": "CVE-2010-4756",
+            "vulnerabilityID": "CVE-2018-5709",
             "versionConstraint": "none (unknown)"
           }
         }
       ],
       "artifact": {
-        "id": "c924a822eab59d9a",
-        "name": "libc6",
-        "version": "2.36-9+deb12u10",
+        "id": "3472c9903aced6bd",
+        "name": "libgssapi-krb5-2",
+        "version": "1.20.1-2+deb12u3",
         "type": "deb",
         "locations": [
           {
-            "path": "/var/lib/dpkg/status.d/libc6",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
-            "accessPath": "/var/lib/dpkg/status.d/libc6",
+            "path": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
+            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "accessPath": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
             "annotations": {
               "evidence": "primary"
-            }
-          },
-          {
-            "path": "/usr/share/doc/libc6/copyright",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
-            "accessPath": "/usr/share/doc/libc6/copyright",
-            "annotations": {
-              "evidence": "supporting"
-            }
-          },
-          {
-            "path": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
-            "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "annotations": {
-              "evidence": "supporting"
             }
           }
         ],
         "language": "",
-        "licenses": [
-          "GPL-2",
-          "LGPL-2.1"
-        ],
+        "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u10:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libgssapi-krb5-2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi-krb5-2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5_2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5_2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi-krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi-krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&upstream=glibc",
+        "purl": "pkg:deb/debian/libgssapi-krb5-2@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
         "upstreams": [
           {
-            "name": "glibc"
+            "name": "krb5"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2018-5709",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2018-5709",
+            "epss": 0.00463,
+            "percentile": 0.63551,
+            "date": "2025-11-03"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2018-5709",
+            "cwe": "CWE-190",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.02315
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2018-5709",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
+          ],
+          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.0",
+              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2018-5709",
+              "epss": 0.00463,
+              "percentile": 0.63551,
+              "date": "2025-11-03"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2018-5709",
+              "cwe": "CWE-190",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "krb5",
+              "version": "1.20.1-2+deb12u3"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2018-5709",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "dc5610a2a1a5ad4f",
+        "name": "libk5crypto3",
+        "version": "1.20.1-2+deb12u3",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libk5crypto3",
+            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "accessPath": "/var/lib/dpkg/status.d/libk5crypto3",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libk5crypto3:libk5crypto3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libk5crypto3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "upstreams": [
+          {
+            "name": "krb5"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2018-5709",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2018-5709",
+            "epss": 0.00463,
+            "percentile": 0.63551,
+            "date": "2025-11-03"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2018-5709",
+            "cwe": "CWE-190",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.02315
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2018-5709",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
+          ],
+          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.0",
+              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2018-5709",
+              "epss": 0.00463,
+              "percentile": 0.63551,
+              "date": "2025-11-03"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2018-5709",
+              "cwe": "CWE-190",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "krb5",
+              "version": "1.20.1-2+deb12u3"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2018-5709",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "a9152735ac194d5d",
+        "name": "libkrb5-3",
+        "version": "1.20.1-2+deb12u3",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libkrb5-3",
+            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "accessPath": "/var/lib/dpkg/status.d/libkrb5-3",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libkrb5-3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5-3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5_3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5_3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libkrb5-3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "upstreams": [
+          {
+            "name": "krb5"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2018-5709",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2018-5709",
+            "epss": 0.00463,
+            "percentile": 0.63551,
+            "date": "2025-11-03"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2018-5709",
+            "cwe": "CWE-190",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.02315
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2018-5709",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
+          ],
+          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.0",
+              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2018-5709",
+              "epss": 0.00463,
+              "percentile": 0.63551,
+              "date": "2025-11-03"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2018-5709",
+              "cwe": "CWE-190",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "krb5",
+              "version": "1.20.1-2+deb12u3"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2018-5709",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "04174b0fa1866e36",
+        "name": "libkrb5support0",
+        "version": "1.20.1-2+deb12u3",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libkrb5support0",
+            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "accessPath": "/var/lib/dpkg/status.d/libkrb5support0",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libkrb5support0:libkrb5support0:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libkrb5support0@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "upstreams": [
+          {
+            "name": "krb5"
           }
         ]
       }
@@ -2496,9 +2909,9 @@
         "epss": [
           {
             "cve": "CVE-2025-9230",
-            "epss": 0.00034,
-            "percentile": 0.09174,
-            "date": "2025-11-10"
+            "epss": 0.00029,
+            "percentile": 0.06914,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -2534,7 +2947,7 @@
             "link": "https://security-tracker.debian.org/tracker/DSA-6015-1"
           }
         ],
-        "risk": 0.025500000000000002
+        "risk": 0.02175
       },
       "relatedVulnerabilities": [
         {
@@ -2551,7 +2964,6 @@
             "https://github.openssl.org/openssl/extended-releases/commit/c2b96348bfa662f25f4fabf81958ae822063dae3",
             "https://github.openssl.org/openssl/extended-releases/commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba",
             "https://openssl-library.org/news/secadv/20250930.txt",
-            "http://www.openwall.com/lists/oss-security/2025/09/30/5",
             "https://lists.debian.org/debian-lts-announce/2025/10/msg00001.html"
           ],
           "description": "Issue summary: An application trying to decrypt CMS messages encrypted using\npassword based encryption can trigger an out-of-bounds read and write.\n\nImpact summary: This out-of-bounds read may trigger a crash which leads to\nDenial of Service for an application. The out-of-bounds write can cause\na memory corruption which can have various consequences including\na Denial of Service or Execution of attacker-supplied code.\n\nAlthough the consequences of a successful exploit of this vulnerability\ncould be severe, the probability that the attacker would be able to\nperform it is low. Besides, password based (PWRI) encryption support in CMS\nmessages is very rarely used. For that reason the issue was assessed as\nModerate severity according to our Security Policy.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the CMS implementation is outside the OpenSSL FIPS module\nboundary.",
@@ -2572,9 +2984,9 @@
           "epss": [
             {
               "cve": "CVE-2025-9230",
-              "epss": 0.00034,
-              "percentile": 0.09174,
-              "date": "2025-11-10"
+              "epss": 0.00029,
+              "percentile": 0.06914,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -2668,572 +3080,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2018-5709",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2018-5709",
-            "epss": 0.00463,
-            "percentile": 0.63371,
-            "date": "2025-11-10"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2018-5709",
-            "cwe": "CWE-190",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.02315
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2018-5709",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
-          ],
-          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.0",
-              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2018-5709",
-              "epss": 0.00463,
-              "percentile": 0.63371,
-              "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2018-5709",
-              "cwe": "CWE-190",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2018-5709",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "3472c9903aced6bd",
-        "name": "libgssapi-krb5-2",
-        "version": "1.20.1-2+deb12u3",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libgssapi-krb5-2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5-2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5_2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5_2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libgssapi-krb5-2@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
-        "upstreams": [
-          {
-            "name": "krb5"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2018-5709",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2018-5709",
-            "epss": 0.00463,
-            "percentile": 0.63371,
-            "date": "2025-11-10"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2018-5709",
-            "cwe": "CWE-190",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.02315
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2018-5709",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
-          ],
-          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.0",
-              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2018-5709",
-              "epss": 0.00463,
-              "percentile": 0.63371,
-              "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2018-5709",
-              "cwe": "CWE-190",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2018-5709",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "dc5610a2a1a5ad4f",
-        "name": "libk5crypto3",
-        "version": "1.20.1-2+deb12u3",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libk5crypto3",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libk5crypto3",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libk5crypto3:libk5crypto3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libk5crypto3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
-        "upstreams": [
-          {
-            "name": "krb5"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2018-5709",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2018-5709",
-            "epss": 0.00463,
-            "percentile": 0.63371,
-            "date": "2025-11-10"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2018-5709",
-            "cwe": "CWE-190",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.02315
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2018-5709",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
-          ],
-          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.0",
-              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2018-5709",
-              "epss": 0.00463,
-              "percentile": 0.63371,
-              "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2018-5709",
-              "cwe": "CWE-190",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2018-5709",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "a9152735ac194d5d",
-        "name": "libkrb5-3",
-        "version": "1.20.1-2+deb12u3",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libkrb5-3",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libkrb5-3",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libkrb5-3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5-3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5_3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5_3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libkrb5-3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
-        "upstreams": [
-          {
-            "name": "krb5"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2018-5709",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2018-5709",
-            "epss": 0.00463,
-            "percentile": 0.63371,
-            "date": "2025-11-10"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2018-5709",
-            "cwe": "CWE-190",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.02315
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2018-5709",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
-          ],
-          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.0",
-              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2018-5709",
-              "epss": 0.00463,
-              "percentile": 0.63371,
-              "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2018-5709",
-              "cwe": "CWE-190",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2018-5709",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "04174b0fa1866e36",
-        "name": "libkrb5support0",
-        "version": "1.20.1-2+deb12u3",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libkrb5support0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libkrb5support0",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libkrb5support0:libkrb5support0:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libkrb5support0@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
-        "upstreams": [
-          {
-            "name": "krb5"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-8714",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-8714",
         "namespace": "debian:distro:debian:12",
@@ -3258,8 +3104,8 @@
           {
             "cve": "CVE-2025-8714",
             "epss": 0.00025,
-            "percentile": 0.05606,
-            "date": "2025-11-10"
+            "percentile": 0.05586,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -3314,8 +3160,8 @@
             {
               "cve": "CVE-2025-8714",
               "epss": 0.00025,
-              "percentile": 0.05606,
-              "date": "2025-11-10"
+              "percentile": 0.05586,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -3405,9 +3251,9 @@
         "epss": [
           {
             "cve": "CVE-2025-10148",
-            "epss": 0.00037,
-            "percentile": 0.10445,
-            "date": "2025-11-10"
+            "epss": 0.00039,
+            "percentile": 0.11347,
+            "date": "2025-11-03"
           }
         ],
         "fix": {
@@ -3415,7 +3261,7 @@
           "state": "wont-fix"
         },
         "advisories": [],
-        "risk": 0.019055
+        "risk": 0.020085
       },
       "relatedVulnerabilities": [
         {
@@ -3426,9 +3272,7 @@
           "urls": [
             "https://curl.se/docs/CVE-2025-10148.html",
             "https://curl.se/docs/CVE-2025-10148.json",
-            "https://hackerone.com/reports/3330839",
-            "http://www.openwall.com/lists/oss-security/2025/09/10/2",
-            "http://www.openwall.com/lists/oss-security/2025/09/10/3"
+            "https://hackerone.com/reports/3330839"
           ],
           "description": "curl's websocket code did not update the 32 bit mask pattern for each new\n outgoing frame as the specification says. Instead it used a fixed mask that\npersisted and was used throughout the entire connection.\n\nA predictable mask pattern allows for a malicious server to induce traffic\nbetween the two communicating parties that could be interpreted by an involved\nproxy (configured or transparent) as genuine, real, HTTP traffic with content\nand thereby poison its cache. That cached poisoned content could then be\nserved to all users of that proxy.",
           "cvss": [
@@ -3448,9 +3292,9 @@
           "epss": [
             {
               "cve": "CVE-2025-10148",
-              "epss": 0.00037,
-              "percentile": 0.10445,
-              "date": "2025-11-10"
+              "epss": 0.00039,
+              "percentile": 0.11347,
+              "date": "2025-11-03"
             }
           ]
         }
@@ -3517,8 +3361,8 @@
           {
             "cve": "CVE-2019-1010024",
             "epss": 0.00375,
-            "percentile": 0.58401,
-            "date": "2025-11-10"
+            "percentile": 0.58595,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -3587,8 +3431,8 @@
             {
               "cve": "CVE-2019-1010024",
               "epss": 0.00375,
-              "percentile": 0.58401,
-              "date": "2025-11-10"
+              "percentile": 0.58595,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -3671,6 +3515,158 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2010-4756",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2010-4756",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames, as demonstrated by glob expressions in STAT commands to an FTP daemon, a different vulnerability than CVE-2010-2632.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2010-4756",
+            "epss": 0.00373,
+            "percentile": 0.58487,
+            "date": "2025-11-03"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2010-4756",
+            "cwe": "CWE-399",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.01865
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2010-4756",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2010-4756",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "http://cxib.net/stuff/glob-0day.c",
+            "http://securityreason.com/achievement_securityalert/89",
+            "http://securityreason.com/exploitalert/9223",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=681681",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4756",
+            "http://cxib.net/stuff/glob-0day.c",
+            "http://securityreason.com/achievement_securityalert/89",
+            "http://securityreason.com/exploitalert/9223",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=681681",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4756",
+            "https://security.netapp.com/advisory/ntap-20241108-0002/"
+          ],
+          "description": "The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames, as demonstrated by glob expressions in STAT commands to an FTP daemon, a different vulnerability than CVE-2010-2632.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+              "metrics": {
+                "baseScore": 4,
+                "exploitabilityScore": 8,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2010-4756",
+              "epss": 0.00373,
+              "percentile": 0.58487,
+              "date": "2025-11-03"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2010-4756",
+              "cwe": "CWE-399",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "glibc",
+              "version": "2.36-9+deb12u10"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2010-4756",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "c924a822eab59d9a",
+        "name": "libc6",
+        "version": "2.36-9+deb12u10",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libc6",
+            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "accessPath": "/var/lib/dpkg/status.d/libc6",
+            "annotations": {
+              "evidence": "primary"
+            }
+          },
+          {
+            "path": "/usr/share/doc/libc6/copyright",
+            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "accessPath": "/usr/share/doc/libc6/copyright",
+            "annotations": {
+              "evidence": "supporting"
+            }
+          },
+          {
+            "path": "/var/lib/dpkg/status.d/libc6.md5sums",
+            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
+            "annotations": {
+              "evidence": "supporting"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPL-2",
+          "LGPL-2.1"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u10:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&upstream=glibc",
+        "upstreams": [
+          {
+            "name": "glibc"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2019-9192",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2019-9192",
         "namespace": "debian:distro:debian:12",
@@ -3682,8 +3678,8 @@
           {
             "cve": "CVE-2019-9192",
             "epss": 0.00353,
-            "percentile": 0.57001,
-            "date": "2025-11-10"
+            "percentile": 0.57201,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -3744,8 +3740,8 @@
             {
               "cve": "CVE-2019-9192",
               "epss": 0.00353,
-              "percentile": 0.57001,
-              "date": "2025-11-10"
+              "percentile": 0.57201,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -3852,8 +3848,8 @@
           {
             "cve": "CVE-2025-8713",
             "epss": 0.00047,
-            "percentile": 0.14145,
-            "date": "2025-11-10"
+            "percentile": 0.14165,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -3908,8 +3904,8 @@
             {
               "cve": "CVE-2025-8713",
               "epss": 0.00047,
-              "percentile": 0.14145,
-              "date": "2025-11-10"
+              "percentile": 0.14165,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -3999,9 +3995,9 @@
         "epss": [
           {
             "cve": "CVE-2025-9232",
-            "epss": 0.00025,
-            "percentile": 0.0574,
-            "date": "2025-11-10"
+            "epss": 0.00026,
+            "percentile": 0.05702,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -4031,7 +4027,7 @@
             "link": "https://security-tracker.debian.org/tracker/DSA-6015-1"
           }
         ],
-        "risk": 0.013625
+        "risk": 0.01417
       },
       "relatedVulnerabilities": [
         {
@@ -4045,8 +4041,7 @@
             "https://github.com/openssl/openssl/commit/7cf21a30513c9e43c4bc3836c237cf086e194af3",
             "https://github.com/openssl/openssl/commit/89e790ac431125a4849992858490bed6b225eadf",
             "https://github.com/openssl/openssl/commit/bbf38c034cdabd0a13330abcc4855c866f53d2e0",
-            "https://openssl-library.org/news/secadv/20250930.txt",
-            "http://www.openwall.com/lists/oss-security/2025/09/30/5"
+            "https://openssl-library.org/news/secadv/20250930.txt"
           ],
           "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\n\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\n\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\n\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\n\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
           "cvss": [
@@ -4066,9 +4061,9 @@
           "epss": [
             {
               "cve": "CVE-2025-9232",
-              "epss": 0.00025,
-              "percentile": 0.0574,
-              "date": "2025-11-10"
+              "epss": 0.00026,
+              "percentile": 0.05702,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -4156,6 +4151,150 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2024-2379",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2024-2379",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "libcurl skips the certificate verification for a QUIC connection under certain conditions, when built to use wolfSSL. If told to use an unknown/bad cipher or curve, the error path accidentally skips the verification and returns OK, thus ignoring any certificate problems.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2024-2379",
+            "epss": 0.00247,
+            "percentile": 0.48006,
+            "date": "2025-11-03"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2024-2379",
+            "cwe": "CWE-295",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.01235
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-2379",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-2379",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "http://seclists.org/fulldisclosure/2024/Jul/18",
+            "http://seclists.org/fulldisclosure/2024/Jul/19",
+            "http://seclists.org/fulldisclosure/2024/Jul/20",
+            "http://www.openwall.com/lists/oss-security/2024/03/27/2",
+            "https://curl.se/docs/CVE-2024-2379.html",
+            "https://curl.se/docs/CVE-2024-2379.json",
+            "https://hackerone.com/reports/2410774",
+            "https://security.netapp.com/advisory/ntap-20240531-0001/",
+            "https://support.apple.com/kb/HT214118",
+            "https://support.apple.com/kb/HT214119",
+            "https://support.apple.com/kb/HT214120",
+            "http://seclists.org/fulldisclosure/2024/Jul/18",
+            "http://seclists.org/fulldisclosure/2024/Jul/19",
+            "http://seclists.org/fulldisclosure/2024/Jul/20",
+            "http://www.openwall.com/lists/oss-security/2024/03/27/2",
+            "https://curl.se/docs/CVE-2024-2379.html",
+            "https://curl.se/docs/CVE-2024-2379.json",
+            "https://hackerone.com/reports/2410774",
+            "https://security.netapp.com/advisory/ntap-20240531-0001/",
+            "https://support.apple.com/kb/HT214118",
+            "https://support.apple.com/kb/HT214119",
+            "https://support.apple.com/kb/HT214120"
+          ],
+          "description": "libcurl skips the certificate verification for a QUIC connection under certain conditions, when built to use wolfSSL. If told to use an unknown/bad cipher or curve, the error path accidentally skips the verification and returns OK, thus ignoring any certificate problems.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+              "metrics": {
+                "baseScore": 6.3,
+                "exploitabilityScore": 2.9,
+                "impactScore": 3.4
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2024-2379",
+              "epss": 0.00247,
+              "percentile": 0.48006,
+              "date": "2025-11-03"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2024-2379",
+              "cwe": "CWE-295",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "curl",
+              "version": "7.88.1-10+deb12u12"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-2379",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "24ac2ca249a444cf",
+        "name": "libcurl4",
+        "version": "7.88.1-10+deb12u12",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libcurl4",
+            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "accessPath": "/var/lib/dpkg/status.d/libcurl4",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u12:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u12?arch=amd64&distro=debian-12&upstream=curl",
+        "upstreams": [
+          {
+            "name": "curl"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2019-1010025",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2019-1010025",
         "namespace": "debian:distro:debian:12",
@@ -4167,8 +4306,8 @@
           {
             "cve": "CVE-2019-1010025",
             "epss": 0.00228,
-            "percentile": 0.45522,
-            "date": "2025-11-10"
+            "percentile": 0.45727,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -4235,8 +4374,8 @@
             {
               "cve": "CVE-2019-1010025",
               "epss": 0.00228,
-              "percentile": 0.45522,
-              "date": "2025-11-10"
+              "percentile": 0.45727,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -4330,8 +4469,8 @@
           {
             "cve": "CVE-2024-2236",
             "epss": 0.00222,
-            "percentile": 0.44675,
-            "date": "2025-11-10"
+            "percentile": 0.44875,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -4384,8 +4523,8 @@
             {
               "cve": "CVE-2024-2236",
               "epss": 0.00222,
-              "percentile": 0.44675,
-              "date": "2025-11-10"
+              "percentile": 0.44875,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -4456,8 +4595,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43032,
-            "date": "2025-11-10"
+            "percentile": 0.43212,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -4506,8 +4645,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43032,
-              "date": "2025-11-10"
+              "percentile": 0.43212,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -4591,8 +4730,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43032,
-            "date": "2025-11-10"
+            "percentile": 0.43212,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -4641,8 +4780,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43032,
-              "date": "2025-11-10"
+              "percentile": 0.43212,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -4717,8 +4856,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43032,
-            "date": "2025-11-10"
+            "percentile": 0.43212,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -4767,8 +4906,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43032,
-              "date": "2025-11-10"
+              "percentile": 0.43212,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -4848,8 +4987,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43032,
-            "date": "2025-11-10"
+            "percentile": 0.43212,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -4898,8 +5037,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43032,
-              "date": "2025-11-10"
+              "percentile": 0.43212,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -4963,150 +5102,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2024-2379",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2024-2379",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "libcurl skips the certificate verification for a QUIC connection under certain conditions, when built to use wolfSSL. If told to use an unknown/bad cipher or curve, the error path accidentally skips the verification and returns OK, thus ignoring any certificate problems.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2024-2379",
-            "epss": 0.00205,
-            "percentile": 0.42747,
-            "date": "2025-11-10"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2024-2379",
-            "cwe": "CWE-295",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.01025
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2024-2379",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-2379",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "http://seclists.org/fulldisclosure/2024/Jul/18",
-            "http://seclists.org/fulldisclosure/2024/Jul/19",
-            "http://seclists.org/fulldisclosure/2024/Jul/20",
-            "http://www.openwall.com/lists/oss-security/2024/03/27/2",
-            "https://curl.se/docs/CVE-2024-2379.html",
-            "https://curl.se/docs/CVE-2024-2379.json",
-            "https://hackerone.com/reports/2410774",
-            "https://security.netapp.com/advisory/ntap-20240531-0001/",
-            "https://support.apple.com/kb/HT214118",
-            "https://support.apple.com/kb/HT214119",
-            "https://support.apple.com/kb/HT214120",
-            "http://seclists.org/fulldisclosure/2024/Jul/18",
-            "http://seclists.org/fulldisclosure/2024/Jul/19",
-            "http://seclists.org/fulldisclosure/2024/Jul/20",
-            "http://www.openwall.com/lists/oss-security/2024/03/27/2",
-            "https://curl.se/docs/CVE-2024-2379.html",
-            "https://curl.se/docs/CVE-2024-2379.json",
-            "https://hackerone.com/reports/2410774",
-            "https://security.netapp.com/advisory/ntap-20240531-0001/",
-            "https://support.apple.com/kb/HT214118",
-            "https://support.apple.com/kb/HT214119",
-            "https://support.apple.com/kb/HT214120"
-          ],
-          "description": "libcurl skips the certificate verification for a QUIC connection under certain conditions, when built to use wolfSSL. If told to use an unknown/bad cipher or curve, the error path accidentally skips the verification and returns OK, thus ignoring any certificate problems.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
-              "metrics": {
-                "baseScore": 6.3,
-                "exploitabilityScore": 2.9,
-                "impactScore": 3.4
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2024-2379",
-              "epss": 0.00205,
-              "percentile": 0.42747,
-              "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2024-2379",
-              "cwe": "CWE-295",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "curl",
-              "version": "7.88.1-10+deb12u12"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2024-2379",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "24ac2ca249a444cf",
-        "name": "libcurl4",
-        "version": "7.88.1-10+deb12u12",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libcurl4",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libcurl4",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u12:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u12?arch=amd64&distro=debian-12&upstream=curl",
-        "upstreams": [
-          {
-            "name": "curl"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-4802",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-4802",
         "namespace": "debian:distro:debian:12",
@@ -5131,8 +5126,8 @@
           {
             "cve": "CVE-2025-4802",
             "epss": 0.0001,
-            "percentile": 0.00801,
-            "date": "2025-11-10"
+            "percentile": 0.00748,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -5191,8 +5186,8 @@
             {
               "cve": "CVE-2025-4802",
               "epss": 0.0001,
-              "percentile": 0.00801,
-              "date": "2025-11-10"
+              "percentile": 0.00748,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -5289,8 +5284,8 @@
           {
             "cve": "CVE-2019-1010022",
             "epss": 0.00145,
-            "percentile": 0.35404,
-            "date": "2025-11-10"
+            "percentile": 0.35603,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -5355,8 +5350,8 @@
             {
               "cve": "CVE-2019-1010022",
               "epss": 0.00145,
-              "percentile": 0.35404,
-              "date": "2025-11-10"
+              "percentile": 0.35603,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -5450,8 +5445,8 @@
           {
             "cve": "CVE-2020-15719",
             "epss": 0.00135,
-            "percentile": 0.33964,
-            "date": "2025-11-10"
+            "percentile": 0.34196,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -5522,8 +5517,8 @@
             {
               "cve": "CVE-2020-15719",
               "epss": 0.00135,
-              "percentile": 0.33964,
-              "date": "2025-11-10"
+              "percentile": 0.34196,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -5607,8 +5602,8 @@
           {
             "cve": "CVE-2023-31437",
             "epss": 0.00128,
-            "percentile": 0.32838,
-            "date": "2025-11-10"
+            "percentile": 0.33068,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -5677,8 +5672,8 @@
             {
               "cve": "CVE-2023-31437",
               "epss": 0.00128,
-              "percentile": 0.32838,
-              "date": "2025-11-10"
+              "percentile": 0.33068,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -5759,8 +5754,8 @@
           {
             "cve": "CVE-2023-31437",
             "epss": 0.00128,
-            "percentile": 0.32838,
-            "date": "2025-11-10"
+            "percentile": 0.33068,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -5829,8 +5824,8 @@
             {
               "cve": "CVE-2023-31437",
               "epss": 0.00128,
-              "percentile": 0.32838,
-              "date": "2025-11-10"
+              "percentile": 0.33068,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -5906,9 +5901,9 @@
         "epss": [
           {
             "cve": "CVE-2017-14159",
-            "epss": 0.00106,
-            "percentile": 0.29286,
-            "date": "2025-11-10"
+            "epss": 0.00113,
+            "percentile": 0.30744,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -5924,7 +5919,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0053
+        "risk": 0.00565
       },
       "relatedVulnerabilities": [
         {
@@ -5968,9 +5963,9 @@
           "epss": [
             {
               "cve": "CVE-2017-14159",
-              "epss": 0.00106,
-              "percentile": 0.29286,
-              "date": "2025-11-10"
+              "epss": 0.00113,
+              "percentile": 0.30744,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -6043,262 +6038,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2023-31438",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2023-31438",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent \"a reply denying that any of the finding was a security vulnerability.\"",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2023-31438",
-            "epss": 0.001,
-            "percentile": 0.2834,
-            "date": "2025-11-10"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2023-31438",
-            "cwe": "CWE-354",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.005
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2023-31438",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-31438",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://github.com/kastel-security/Journald",
-            "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
-            "https://github.com/systemd/systemd/pull/28886",
-            "https://github.com/systemd/systemd/releases",
-            "https://github.com/kastel-security/Journald",
-            "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
-            "https://github.com/systemd/systemd/pull/28886",
-            "https://github.com/systemd/systemd/releases"
-          ],
-          "description": "An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent \"a reply denying that any of the finding was a security vulnerability.\"",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-              "metrics": {
-                "baseScore": 5.3,
-                "exploitabilityScore": 3.9,
-                "impactScore": 1.5
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2023-31438",
-              "epss": 0.001,
-              "percentile": 0.2834,
-              "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2023-31438",
-              "cwe": "CWE-354",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "systemd",
-              "version": "254.26-1~bpo12+1"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2023-31438",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "a48fdf88485dfed0",
-        "name": "libsystemd0",
-        "version": "254.26-1~bpo12+1",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libsystemd0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libsystemd0",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libsystemd0:libsystemd0:254.26-1\\~bpo12\\+1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libsystemd0@254.26-1~bpo12%2B1?arch=amd64&distro=debian-12&upstream=systemd",
-        "upstreams": [
-          {
-            "name": "systemd"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2023-31438",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2023-31438",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent \"a reply denying that any of the finding was a security vulnerability.\"",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2023-31438",
-            "epss": 0.001,
-            "percentile": 0.2834,
-            "date": "2025-11-10"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2023-31438",
-            "cwe": "CWE-354",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.005
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2023-31438",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-31438",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://github.com/kastel-security/Journald",
-            "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
-            "https://github.com/systemd/systemd/pull/28886",
-            "https://github.com/systemd/systemd/releases",
-            "https://github.com/kastel-security/Journald",
-            "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
-            "https://github.com/systemd/systemd/pull/28886",
-            "https://github.com/systemd/systemd/releases"
-          ],
-          "description": "An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent \"a reply denying that any of the finding was a security vulnerability.\"",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-              "metrics": {
-                "baseScore": 5.3,
-                "exploitabilityScore": 3.9,
-                "impactScore": 1.5
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2023-31438",
-              "epss": 0.001,
-              "percentile": 0.2834,
-              "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2023-31438",
-              "cwe": "CWE-354",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "systemd",
-              "version": "254.26-1~bpo12+1"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2023-31438",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "fbdf5e39d3c6b8fd",
-        "name": "systemd",
-        "version": "254.26-1~bpo12+1",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/usr/lib/x86_64-linux-gnu/libsystemd.so.0.37.0",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/usr/lib/x86_64-linux-gnu/libsystemd.so.0.37.0",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:systemd:systemd:254.26-1\\~bpo12\\+1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/systemd@254.26-1~bpo12%2B1",
-        "upstreams": []
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-8058",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-8058",
         "namespace": "debian:distro:debian:12",
@@ -6320,9 +6059,9 @@
         "epss": [
           {
             "cve": "CVE-2025-8058",
-            "epss": 0.00009,
-            "percentile": 0.00568,
-            "date": "2025-11-10"
+            "epss": 0.0001,
+            "percentile": 0.00708,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -6347,7 +6086,7 @@
           ]
         },
         "advisories": [],
-        "risk": 0.0049050000000000005
+        "risk": 0.00545
       },
       "relatedVulnerabilities": [
         {
@@ -6357,8 +6096,7 @@
           "severity": "Medium",
           "urls": [
             "https://sourceware.org/bugzilla/show_bug.cgi?id=33185",
-            "https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f",
-            "http://www.openwall.com/lists/oss-security/2025/07/23/1"
+            "https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f"
           ],
           "description": "The regcomp function in the GNU C library version from 2.4 to 2.41 is \nsubject to a double free if some previous allocation fails. It can be \naccomplished either by a malloc failure or by using an interposed malloc\n that injects random malloc failures. The double free can allow buffer \nmanipulation depending of how the regex is constructed. This issue \naffects all architectures and ABIs supported by the GNU C library.",
           "cvss": [
@@ -6376,9 +6114,9 @@
           "epss": [
             {
               "cve": "CVE-2025-8058",
-              "epss": 0.00009,
-              "percentile": 0.00568,
-              "date": "2025-11-10"
+              "epss": 0.0001,
+              "percentile": 0.00708,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -6464,6 +6202,262 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2023-31438",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2023-31438",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent \"a reply denying that any of the finding was a security vulnerability.\"",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2023-31438",
+            "epss": 0.001,
+            "percentile": 0.2853,
+            "date": "2025-11-03"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2023-31438",
+            "cwe": "CWE-354",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.005
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2023-31438",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-31438",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://github.com/kastel-security/Journald",
+            "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
+            "https://github.com/systemd/systemd/pull/28886",
+            "https://github.com/systemd/systemd/releases",
+            "https://github.com/kastel-security/Journald",
+            "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
+            "https://github.com/systemd/systemd/pull/28886",
+            "https://github.com/systemd/systemd/releases"
+          ],
+          "description": "An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent \"a reply denying that any of the finding was a security vulnerability.\"",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "metrics": {
+                "baseScore": 5.3,
+                "exploitabilityScore": 3.9,
+                "impactScore": 1.5
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2023-31438",
+              "epss": 0.001,
+              "percentile": 0.2853,
+              "date": "2025-11-03"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2023-31438",
+              "cwe": "CWE-354",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "systemd",
+              "version": "254.26-1~bpo12+1"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2023-31438",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "a48fdf88485dfed0",
+        "name": "libsystemd0",
+        "version": "254.26-1~bpo12+1",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libsystemd0",
+            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "accessPath": "/var/lib/dpkg/status.d/libsystemd0",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libsystemd0:libsystemd0:254.26-1\\~bpo12\\+1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libsystemd0@254.26-1~bpo12%2B1?arch=amd64&distro=debian-12&upstream=systemd",
+        "upstreams": [
+          {
+            "name": "systemd"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2023-31438",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2023-31438",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent \"a reply denying that any of the finding was a security vulnerability.\"",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2023-31438",
+            "epss": 0.001,
+            "percentile": 0.2853,
+            "date": "2025-11-03"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2023-31438",
+            "cwe": "CWE-354",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.005
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2023-31438",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-31438",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://github.com/kastel-security/Journald",
+            "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
+            "https://github.com/systemd/systemd/pull/28886",
+            "https://github.com/systemd/systemd/releases",
+            "https://github.com/kastel-security/Journald",
+            "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
+            "https://github.com/systemd/systemd/pull/28886",
+            "https://github.com/systemd/systemd/releases"
+          ],
+          "description": "An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent \"a reply denying that any of the finding was a security vulnerability.\"",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "metrics": {
+                "baseScore": 5.3,
+                "exploitabilityScore": 3.9,
+                "impactScore": 1.5
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2023-31438",
+              "epss": 0.001,
+              "percentile": 0.2853,
+              "date": "2025-11-03"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2023-31438",
+              "cwe": "CWE-354",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "systemd",
+              "version": "254.26-1~bpo12+1"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2023-31438",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "fbdf5e39d3c6b8fd",
+        "name": "systemd",
+        "version": "254.26-1~bpo12+1",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/usr/lib/x86_64-linux-gnu/libsystemd.so.0.37.0",
+            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
+            "accessPath": "/usr/lib/x86_64-linux-gnu/libsystemd.so.0.37.0",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:systemd:systemd:254.26-1\\~bpo12\\+1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/systemd@254.26-1~bpo12%2B1",
+        "upstreams": []
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2023-31439",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2023-31439",
         "namespace": "debian:distro:debian:12",
@@ -6475,8 +6469,8 @@
           {
             "cve": "CVE-2023-31439",
             "epss": 0.00094,
-            "percentile": 0.26929,
-            "date": "2025-11-10"
+            "percentile": 0.27141,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -6529,8 +6523,8 @@
             {
               "cve": "CVE-2023-31439",
               "epss": 0.00094,
-              "percentile": 0.26929,
-              "date": "2025-11-10"
+              "percentile": 0.27141,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -6605,8 +6599,8 @@
           {
             "cve": "CVE-2023-31439",
             "epss": 0.00094,
-            "percentile": 0.26929,
-            "date": "2025-11-10"
+            "percentile": 0.27141,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -6659,8 +6653,8 @@
             {
               "cve": "CVE-2023-31439",
               "epss": 0.00094,
-              "percentile": 0.26929,
-              "date": "2025-11-10"
+              "percentile": 0.27141,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -6730,9 +6724,9 @@
         "epss": [
           {
             "cve": "CVE-2024-26461",
-            "epss": 0.00062,
-            "percentile": 0.1929,
-            "date": "2025-11-10"
+            "epss": 0.00081,
+            "percentile": 0.24755,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -6748,7 +6742,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0031000000000000003
+        "risk": 0.00405
       },
       "relatedVulnerabilities": [
         {
@@ -6780,9 +6774,9 @@
           "epss": [
             {
               "cve": "CVE-2024-26461",
-              "epss": 0.00062,
-              "percentile": 0.1929,
-              "date": "2025-11-10"
+              "epss": 0.00081,
+              "percentile": 0.24755,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -6865,9 +6859,9 @@
         "epss": [
           {
             "cve": "CVE-2024-26461",
-            "epss": 0.00062,
-            "percentile": 0.1929,
-            "date": "2025-11-10"
+            "epss": 0.00081,
+            "percentile": 0.24755,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -6883,7 +6877,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0031000000000000003
+        "risk": 0.00405
       },
       "relatedVulnerabilities": [
         {
@@ -6915,9 +6909,9 @@
           "epss": [
             {
               "cve": "CVE-2024-26461",
-              "epss": 0.00062,
-              "percentile": 0.1929,
-              "date": "2025-11-10"
+              "epss": 0.00081,
+              "percentile": 0.24755,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -6991,9 +6985,9 @@
         "epss": [
           {
             "cve": "CVE-2024-26461",
-            "epss": 0.00062,
-            "percentile": 0.1929,
-            "date": "2025-11-10"
+            "epss": 0.00081,
+            "percentile": 0.24755,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -7009,7 +7003,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0031000000000000003
+        "risk": 0.00405
       },
       "relatedVulnerabilities": [
         {
@@ -7041,9 +7035,9 @@
           "epss": [
             {
               "cve": "CVE-2024-26461",
-              "epss": 0.00062,
-              "percentile": 0.1929,
-              "date": "2025-11-10"
+              "epss": 0.00081,
+              "percentile": 0.24755,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -7122,9 +7116,9 @@
         "epss": [
           {
             "cve": "CVE-2024-26461",
-            "epss": 0.00062,
-            "percentile": 0.1929,
-            "date": "2025-11-10"
+            "epss": 0.00081,
+            "percentile": 0.24755,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -7140,7 +7134,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0031000000000000003
+        "risk": 0.00405
       },
       "relatedVulnerabilities": [
         {
@@ -7172,9 +7166,9 @@
           "epss": [
             {
               "cve": "CVE-2024-26461",
-              "epss": 0.00062,
-              "percentile": 0.1929,
-              "date": "2025-11-10"
+              "epss": 0.00081,
+              "percentile": 0.24755,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -7249,8 +7243,8 @@
           {
             "cve": "CVE-2013-4392",
             "epss": 0.00057,
-            "percentile": 0.17658,
-            "date": "2025-11-10"
+            "percentile": 0.17803,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -7319,8 +7313,8 @@
             {
               "cve": "CVE-2013-4392",
               "epss": 0.00057,
-              "percentile": 0.17658,
-              "date": "2025-11-10"
+              "percentile": 0.17803,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -7401,8 +7395,8 @@
           {
             "cve": "CVE-2013-4392",
             "epss": 0.00057,
-            "percentile": 0.17658,
-            "date": "2025-11-10"
+            "percentile": 0.17803,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -7471,8 +7465,8 @@
             {
               "cve": "CVE-2013-4392",
               "epss": 0.00057,
-              "percentile": 0.17658,
-              "date": "2025-11-10"
+              "percentile": 0.17803,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -7549,8 +7543,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.1529,
-            "date": "2025-11-10"
+            "percentile": 0.15279,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -7613,8 +7607,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.1529,
-              "date": "2025-11-10"
+              "percentile": 0.15279,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -7721,8 +7715,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.1529,
-            "date": "2025-11-10"
+            "percentile": 0.15279,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -7785,8 +7779,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.1529,
-              "date": "2025-11-10"
+              "percentile": 0.15279,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -7861,8 +7855,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.1529,
-            "date": "2025-11-10"
+            "percentile": 0.15279,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -7925,8 +7919,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.1529,
-              "date": "2025-11-10"
+              "percentile": 0.15279,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -8029,8 +8023,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.1529,
-            "date": "2025-11-10"
+            "percentile": 0.15279,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -8093,8 +8087,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.1529,
-              "date": "2025-11-10"
+              "percentile": 0.15279,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -8192,8 +8186,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.1529,
-            "date": "2025-11-10"
+            "percentile": 0.15279,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -8256,8 +8250,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.1529,
-              "date": "2025-11-10"
+              "percentile": 0.15279,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -8355,8 +8349,8 @@
           {
             "cve": "CVE-2025-27587",
             "epss": 0.00035,
-            "percentile": 0.09296,
-            "date": "2025-11-10"
+            "percentile": 0.09283,
+            "date": "2025-11-03"
           }
         ],
         "cwes": [
@@ -8403,8 +8397,8 @@
             {
               "cve": "CVE-2025-27587",
               "epss": 0.00035,
-              "percentile": 0.09296,
-              "date": "2025-11-10"
+              "percentile": 0.09283,
+              "date": "2025-11-03"
             }
           ],
           "cwes": [
@@ -8483,116 +8477,6 @@
         "upstreams": [
           {
             "name": "openssl"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-10966",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-10966",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "curl's code for managing SSH connections when SFTP was done using the wolfSSH powered backend was flawed and missed host verification mechanisms.  This prevents curl from detecting MITM attackers and more.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2025-10966",
-            "epss": 0.00016,
-            "percentile": 0.02652,
-            "date": "2025-11-10"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.0008000000000000001
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-10966",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-10966",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://curl.se/docs/CVE-2025-10966.html",
-            "https://curl.se/docs/CVE-2025-10966.json",
-            "https://hackerone.com/reports/3355218",
-            "http://www.openwall.com/lists/oss-security/2025/11/05/2"
-          ],
-          "description": "curl's code for managing SSH connections when SFTP was done using the wolfSSH\npowered backend was flawed and missed host verification mechanisms.\n\nThis prevents curl from detecting MITM attackers and more.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-              "metrics": {
-                "baseScore": 4.3,
-                "exploitabilityScore": 2.9,
-                "impactScore": 1.5
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-10966",
-              "epss": 0.00016,
-              "percentile": 0.02652,
-              "date": "2025-11-10"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "curl",
-              "version": "7.88.1-10+deb12u12"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-10966",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "24ac2ca249a444cf",
-        "name": "libcurl4",
-        "version": "7.88.1-10+deb12u12",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libcurl4",
-            "layerID": "sha256:891dbdd591f164fd4e1660f7b72e82c3d995057109207f08bad18b217a16df88",
-            "accessPath": "/var/lib/dpkg/status.d/libcurl4",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u12:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u12?arch=amd64&distro=debian-12&upstream=curl",
-        "upstreams": [
-          {
-            "name": "curl"
           }
         ]
       }
@@ -8909,87 +8793,87 @@
     "db": {
       "status": {
         "schemaVersion": "v6.1.3",
-        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.3_2025-11-11T00:25:59Z_1762845878.tar.zst?checksum=sha256%3Ad1670d44ca26c43130aaa698236d481a2455bcd35fa03409580ace6441b4a9cf",
-        "built": "2025-11-11T07:24:38Z",
+        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.3_2025-11-04T00:23:23Z_1762240357.tar.zst?checksum=sha256%3A78cb14287c52d273371812bc2dc528bc919bc99b4a675a207dfd928dc9b11e8e",
+        "built": "2025-11-04T07:12:37Z",
         "path": ".cache/grype/db/6/vulnerability.db",
         "valid": true
       },
       "providers": {
         "alma": {
-          "captured": "2025-11-11T00:25:59Z",
-          "input": "xxh64:b0db8dce7e55a2a0"
+          "captured": "2025-11-04T00:23:28Z",
+          "input": "xxh64:04b6495da9f6c62b"
         },
         "alpine": {
-          "captured": "2025-11-11T00:26:02Z",
-          "input": "xxh64:0fdf51b3d77e5b52"
+          "captured": "2025-11-04T00:23:24Z",
+          "input": "xxh64:a95ae127a972d204"
         },
         "amazon": {
-          "captured": "2025-11-11T00:26:01Z",
-          "input": "xxh64:c2f224239346bbf2"
+          "captured": "2025-11-04T00:23:32Z",
+          "input": "xxh64:d6c7f1dbe3721ab6"
         },
         "bitnami": {
-          "captured": "2025-11-11T00:26:12Z",
-          "input": "xxh64:88601259efdaf4de"
+          "captured": "2025-11-04T00:23:24Z",
+          "input": "xxh64:fc8e5d3c60e66df4"
         },
         "chainguard": {
-          "captured": "2025-11-11T00:26:15Z",
-          "input": "xxh64:e639a897198a8700"
+          "captured": "2025-11-04T00:23:30Z",
+          "input": "xxh64:0258349b73fab66e"
         },
         "chainguard-libraries": {
-          "captured": "2025-11-11T00:25:59Z",
-          "input": "xxh64:7acbcd688422f422"
+          "captured": "2025-11-04T00:23:24Z",
+          "input": "xxh64:233c72fc610d58f6"
         },
         "debian": {
-          "captured": "2025-11-11T00:26:13Z",
-          "input": "xxh64:dd361cc7733333f9"
+          "captured": "2025-11-04T00:23:50Z",
+          "input": "xxh64:5ac4460f88eeac9f"
         },
         "echo": {
-          "captured": "2025-11-11T00:26:11Z",
-          "input": "xxh64:de6bd3de78c2b0f9"
+          "captured": "2025-11-04T00:23:27Z",
+          "input": "xxh64:69da6411b2e92ac2"
         },
         "epss": {
-          "captured": "2025-11-11T00:26:04Z",
-          "input": "xxh64:228797625073dd5a"
+          "captured": "2025-11-04T00:23:23Z",
+          "input": "xxh64:9cff0c508d225ee8"
         },
         "github": {
-          "captured": "2025-11-11T00:26:20Z",
-          "input": "xxh64:388fdf2a577bf3e4"
+          "captured": "2025-11-04T00:23:24Z",
+          "input": "xxh64:a1239b20f59595e8"
         },
         "kev": {
-          "captured": "2025-11-11T00:26:05Z",
-          "input": "xxh64:86530a7f22f7bae7"
+          "captured": "2025-11-04T00:23:25Z",
+          "input": "xxh64:b51ce9b7f4d76473"
         },
         "mariner": {
-          "captured": "2025-11-11T00:26:06Z",
-          "input": "xxh64:bbaf11280df3f8bb"
+          "captured": "2025-11-04T00:23:44Z",
+          "input": "xxh64:b082de883de2295e"
         },
         "minimos": {
-          "captured": "2025-11-11T00:25:59Z",
-          "input": "xxh64:aa5a27f197fa1328"
+          "captured": "2025-11-04T00:23:27Z",
+          "input": "xxh64:a0c9017e1f55f74f"
         },
         "nvd": {
-          "captured": "2025-11-11T00:28:31Z",
-          "input": "xxh64:34547306ec50936d"
+          "captured": "2025-11-04T00:24:43Z",
+          "input": "xxh64:324b092f565db08a"
         },
         "oracle": {
-          "captured": "2025-11-11T00:26:08Z",
-          "input": "xxh64:505028cba1bb6cf9"
+          "captured": "2025-11-04T00:23:33Z",
+          "input": "xxh64:e6265996383dbca2"
         },
         "rhel": {
-          "captured": "2025-11-11T00:27:00Z",
-          "input": "xxh64:3b1d3f83a65c7794"
+          "captured": "2025-11-04T00:23:51Z",
+          "input": "xxh64:1487fd8635a270da"
         },
         "sles": {
-          "captured": "2025-11-11T00:26:32Z",
-          "input": "xxh64:2cb63ec10efb3347"
+          "captured": "2025-11-04T00:24:25Z",
+          "input": "xxh64:31d51943351acfcb"
         },
         "ubuntu": {
-          "captured": "2025-11-11T00:28:14Z",
-          "input": "xxh64:c30b1e2397b44fff"
+          "captured": "2025-11-04T00:24:33Z",
+          "input": "xxh64:0ec83e2be37c3971"
         },
         "wolfi": {
-          "captured": "2025-11-11T00:26:13Z",
-          "input": "xxh64:f9f08d008c7c2642"
+          "captured": "2025-11-04T00:23:32Z",
+          "input": "xxh64:737208464cf85d49"
         }
       }
     }
