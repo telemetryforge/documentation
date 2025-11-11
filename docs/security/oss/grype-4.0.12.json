@@ -25,9 +25,9 @@
         "epss": [
           {
             "cve": "CVE-2023-2953",
-            "epss": 0.01466,
-            "percentile": 0.80251,
-            "date": "2025-10-31"
+            "epss": 0.01149,
+            "percentile": 0.77795,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -55,7 +55,7 @@
           "state": "wont-fix"
         },
         "advisories": [],
-        "risk": 1.0995
+        "risk": 0.86175
       },
       "relatedVulnerabilities": [
         {
@@ -113,9 +113,9 @@
           "epss": [
             {
               "cve": "CVE-2023-2953",
-              "epss": 0.01466,
-              "percentile": 0.80251,
-              "date": "2025-10-31"
+              "epss": 0.01149,
+              "percentile": 0.77795,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -211,8 +211,8 @@
           {
             "cve": "CVE-2011-3389",
             "epss": 0.04338,
-            "percentile": 0.88396,
-            "date": "2025-10-31"
+            "percentile": 0.8839,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -445,8 +445,8 @@
             {
               "cve": "CVE-2011-3389",
               "epss": 0.04338,
-              "percentile": 0.88396,
-              "date": "2025-10-31"
+              "percentile": 0.8839,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -521,8 +521,8 @@
           {
             "cve": "CVE-2017-17740",
             "epss": 0.02838,
-            "percentile": 0.85691,
-            "date": "2025-10-31"
+            "percentile": 0.8571,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -589,8 +589,8 @@
             {
               "cve": "CVE-2017-17740",
               "epss": 0.02838,
-              "percentile": 0.85691,
-              "date": "2025-10-31"
+              "percentile": 0.8571,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -663,6 +663,141 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2015-3276",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2015-3276",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "The nss_parse_ciphers function in libraries/libldap/tls_m.c in OpenLDAP does not properly parse OpenSSL-style multi-keyword mode cipher strings, which might cause a weaker than intended cipher to be used and allow remote attackers to have unspecified impact via unknown vectors.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2015-3276",
+            "epss": 0.02368,
+            "percentile": 0.84408,
+            "date": "2025-11-10"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.11840000000000002
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2015-3276",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2015-3276",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "http://rhn.redhat.com/errata/RHSA-2015-2131.html",
+            "http://www.oracle.com/technetwork/topics/security/linuxbulletinoct2015-2719645.html",
+            "http://www.securitytracker.com/id/1034221",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=1238322",
+            "http://rhn.redhat.com/errata/RHSA-2015-2131.html",
+            "http://www.oracle.com/technetwork/topics/security/linuxbulletinoct2015-2719645.html",
+            "http://www.securitytracker.com/id/1034221",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=1238322"
+          ],
+          "description": "The nss_parse_ciphers function in libraries/libldap/tls_m.c in OpenLDAP does not properly parse OpenSSL-style multi-keyword mode cipher strings, which might cause a weaker than intended cipher to be used and allow remote attackers to have unspecified impact via unknown vectors.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2015-3276",
+              "epss": 0.02368,
+              "percentile": 0.84408,
+              "date": "2025-11-10"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "openldap",
+              "version": "2.5.13+dfsg-5"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2015-3276",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "919a44d8cbaa32e2",
+        "name": "libldap-2.5-0",
+        "version": "2.5.13+dfsg-5",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libldap-2.5-0",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
+            "accessPath": "/var/lib/dpkg/status.d/libldap-2.5-0",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libldap-2.5-0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap-2.5-0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5_0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5_0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap-2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap-2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libldap-2.5-0@2.5.13%2Bdfsg-5?arch=amd64&distro=debian-12&upstream=openldap",
+        "upstreams": [
+          {
+            "name": "openldap"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2018-20796",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-20796",
         "namespace": "debian:distro:debian:12",
@@ -674,8 +809,8 @@
           {
             "cve": "CVE-2018-20796",
             "epss": 0.01786,
-            "percentile": 0.82103,
-            "date": "2025-10-31"
+            "percentile": 0.82119,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -742,8 +877,8 @@
             {
               "cve": "CVE-2018-20796",
               "epss": 0.01786,
-              "percentile": 0.82103,
-              "date": "2025-10-31"
+              "percentile": 0.82119,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -826,141 +961,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2015-3276",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2015-3276",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "The nss_parse_ciphers function in libraries/libldap/tls_m.c in OpenLDAP does not properly parse OpenSSL-style multi-keyword mode cipher strings, which might cause a weaker than intended cipher to be used and allow remote attackers to have unspecified impact via unknown vectors.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2015-3276",
-            "epss": 0.01757,
-            "percentile": 0.81973,
-            "date": "2025-10-31"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.08785
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2015-3276",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2015-3276",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "http://rhn.redhat.com/errata/RHSA-2015-2131.html",
-            "http://www.oracle.com/technetwork/topics/security/linuxbulletinoct2015-2719645.html",
-            "http://www.securitytracker.com/id/1034221",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=1238322",
-            "http://rhn.redhat.com/errata/RHSA-2015-2131.html",
-            "http://www.oracle.com/technetwork/topics/security/linuxbulletinoct2015-2719645.html",
-            "http://www.securitytracker.com/id/1034221",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=1238322"
-          ],
-          "description": "The nss_parse_ciphers function in libraries/libldap/tls_m.c in OpenLDAP does not properly parse OpenSSL-style multi-keyword mode cipher strings, which might cause a weaker than intended cipher to be used and allow remote attackers to have unspecified impact via unknown vectors.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2015-3276",
-              "epss": 0.01757,
-              "percentile": 0.81973,
-              "date": "2025-10-31"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "openldap",
-              "version": "2.5.13+dfsg-5"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2015-3276",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "919a44d8cbaa32e2",
-        "name": "libldap-2.5-0",
-        "version": "2.5.13+dfsg-5",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libldap-2.5-0",
-            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
-            "accessPath": "/var/lib/dpkg/status.d/libldap-2.5-0",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libldap-2.5-0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap-2.5-0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5_0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5_0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap-2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap-2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libldap-2.5-0@2.5.13%2Bdfsg-5?arch=amd64&distro=debian-12&upstream=openldap",
-        "upstreams": [
-          {
-            "name": "openldap"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-9086",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-9086",
         "namespace": "debian:distro:debian:12",
@@ -984,9 +984,9 @@
         "epss": [
           {
             "cve": "CVE-2025-9086",
-            "epss": 0.00077,
-            "percentile": 0.23682,
-            "date": "2025-10-31"
+            "epss": 0.00073,
+            "percentile": 0.2251,
+            "date": "2025-11-10"
           }
         ],
         "fix": {
@@ -994,7 +994,7 @@
           "state": "wont-fix"
         },
         "advisories": [],
-        "risk": 0.05775
+        "risk": 0.05475
       },
       "relatedVulnerabilities": [
         {
@@ -1005,7 +1005,8 @@
           "urls": [
             "https://curl.se/docs/CVE-2025-9086.html",
             "https://curl.se/docs/CVE-2025-9086.json",
-            "https://hackerone.com/reports/3294999"
+            "https://hackerone.com/reports/3294999",
+            "http://www.openwall.com/lists/oss-security/2025/09/10/1"
           ],
           "description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\n   hostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\n   Since this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\n   boundary\n\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\n\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
           "cvss": [
@@ -1025,9 +1026,9 @@
           "epss": [
             {
               "cve": "CVE-2025-9086",
-              "epss": 0.00077,
-              "percentile": 0.23682,
-              "date": "2025-10-31"
+              "epss": 0.00073,
+              "percentile": 0.2251,
+              "date": "2025-11-10"
             }
           ]
         }
@@ -1083,6 +1084,136 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-0725",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-0725",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "When libcurl is asked to perform automatic gzip decompression of content-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option, **using zlib 1.2.0.3 or older**, an attacker-controlled integer overflow would make libcurl perform a buffer overflow.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-0725",
+            "epss": 0.00711,
+            "percentile": 0.7146,
+            "date": "2025-11-10"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-0725",
+            "cwe": "CWE-120",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.035550000000000005
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-0725",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-0725",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://curl.se/docs/CVE-2025-0725.html",
+            "https://curl.se/docs/CVE-2025-0725.json",
+            "https://hackerone.com/reports/2956023",
+            "http://www.openwall.com/lists/oss-security/2025/02/05/3",
+            "http://www.openwall.com/lists/oss-security/2025/02/06/2",
+            "http://www.openwall.com/lists/oss-security/2025/02/06/4",
+            "https://github.com/curl/curl/commit/76f83f0db23846e254d940ec7",
+            "https://security.netapp.com/advisory/ntap-20250306-0009/"
+          ],
+          "description": "When libcurl is asked to perform automatic gzip decompression of\ncontent-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option,\n**using zlib 1.2.0.3 or older**, an attacker-controlled integer overflow would\nmake libcurl perform a buffer overflow.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+              "metrics": {
+                "baseScore": 7.3,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.4
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-0725",
+              "epss": 0.00711,
+              "percentile": 0.7146,
+              "date": "2025-11-10"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-0725",
+              "cwe": "CWE-120",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "curl",
+              "version": "7.88.1-10+deb12u14"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-0725",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "7b756a4c6b6cb784",
+        "name": "libcurl4",
+        "version": "7.88.1-10+deb12u14",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libcurl4",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
+            "accessPath": "/var/lib/dpkg/status.d/libcurl4",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u14:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u14?arch=amd64&distro=debian-12&upstream=curl",
+        "upstreams": [
+          {
+            "name": "curl"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2019-1010023",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2019-1010023",
         "namespace": "debian:distro:debian:12",
@@ -1094,8 +1225,8 @@
           {
             "cve": "CVE-2019-1010023",
             "epss": 0.00703,
-            "percentile": 0.71298,
-            "date": "2025-10-31"
+            "percentile": 0.71246,
+            "date": "2025-11-10"
           }
         ],
         "fix": {
@@ -1166,8 +1297,8 @@
             {
               "cve": "CVE-2019-1010023",
               "epss": 0.00703,
-              "percentile": 0.71298,
-              "date": "2025-10-31"
+              "percentile": 0.71246,
+              "date": "2025-11-10"
             }
           ]
         }
@@ -1242,136 +1373,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-0725",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-0725",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "When libcurl is asked to perform automatic gzip decompression of content-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option, **using zlib 1.2.0.3 or older**, an attacker-controlled integer overflow would make libcurl perform a buffer overflow.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2025-0725",
-            "epss": 0.00537,
-            "percentile": 0.66677,
-            "date": "2025-10-31"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-0725",
-            "cwe": "CWE-120",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.026850000000000002
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-0725",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-0725",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://curl.se/docs/CVE-2025-0725.html",
-            "https://curl.se/docs/CVE-2025-0725.json",
-            "https://hackerone.com/reports/2956023",
-            "http://www.openwall.com/lists/oss-security/2025/02/05/3",
-            "http://www.openwall.com/lists/oss-security/2025/02/06/2",
-            "http://www.openwall.com/lists/oss-security/2025/02/06/4",
-            "https://github.com/curl/curl/commit/76f83f0db23846e254d940ec7",
-            "https://security.netapp.com/advisory/ntap-20250306-0009/"
-          ],
-          "description": "When libcurl is asked to perform automatic gzip decompression of\ncontent-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option,\n**using zlib 1.2.0.3 or older**, an attacker-controlled integer overflow would\nmake libcurl perform a buffer overflow.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
-              "metrics": {
-                "baseScore": 7.3,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.4
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-0725",
-              "epss": 0.00537,
-              "percentile": 0.66677,
-              "date": "2025-10-31"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-0725",
-              "cwe": "CWE-120",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "curl",
-              "version": "7.88.1-10+deb12u14"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-0725",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "7b756a4c6b6cb784",
-        "name": "libcurl4",
-        "version": "7.88.1-10+deb12u14",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libcurl4",
-            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
-            "accessPath": "/var/lib/dpkg/status.d/libcurl4",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u14:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u14?arch=amd64&distro=debian-12&upstream=curl",
-        "upstreams": [
-          {
-            "name": "curl"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2018-6829",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-6829",
         "namespace": "debian:distro:debian:12",
@@ -1383,8 +1384,8 @@
           {
             "cve": "CVE-2018-6829",
             "epss": 0.00534,
-            "percentile": 0.66554,
-            "date": "2025-10-31"
+            "percentile": 0.66488,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -1449,8 +1450,8 @@
             {
               "cve": "CVE-2018-6829",
               "epss": 0.00534,
-              "percentile": 0.66554,
-              "date": "2025-10-31"
+              "percentile": 0.66488,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -1510,6 +1511,158 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2010-4756",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2010-4756",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames, as demonstrated by glob expressions in STAT commands to an FTP daemon, a different vulnerability than CVE-2010-2632.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2010-4756",
+            "epss": 0.0052,
+            "percentile": 0.65923,
+            "date": "2025-11-10"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2010-4756",
+            "cwe": "CWE-399",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.026
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2010-4756",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2010-4756",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "http://cxib.net/stuff/glob-0day.c",
+            "http://securityreason.com/achievement_securityalert/89",
+            "http://securityreason.com/exploitalert/9223",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=681681",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4756",
+            "http://cxib.net/stuff/glob-0day.c",
+            "http://securityreason.com/achievement_securityalert/89",
+            "http://securityreason.com/exploitalert/9223",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=681681",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4756",
+            "https://security.netapp.com/advisory/ntap-20241108-0002/"
+          ],
+          "description": "The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames, as demonstrated by glob expressions in STAT commands to an FTP daemon, a different vulnerability than CVE-2010-2632.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+              "metrics": {
+                "baseScore": 4,
+                "exploitabilityScore": 8,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2010-4756",
+              "epss": 0.0052,
+              "percentile": 0.65923,
+              "date": "2025-11-10"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2010-4756",
+              "cwe": "CWE-399",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "glibc",
+              "version": "2.36-9+deb12u13"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2010-4756",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "b1f23f68887853e1",
+        "name": "libc6",
+        "version": "2.36-9+deb12u13",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libc6",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
+            "accessPath": "/var/lib/dpkg/status.d/libc6",
+            "annotations": {
+              "evidence": "primary"
+            }
+          },
+          {
+            "path": "/usr/share/doc/libc6/copyright",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
+            "accessPath": "/usr/share/doc/libc6/copyright",
+            "annotations": {
+              "evidence": "supporting"
+            }
+          },
+          {
+            "path": "/var/lib/dpkg/status.d/libc6.md5sums",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
+            "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
+            "annotations": {
+              "evidence": "supporting"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPL-2",
+          "LGPL-2.1"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u13:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u13?arch=amd64&distro=debian-12&upstream=glibc",
+        "upstreams": [
+          {
+            "name": "glibc"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2018-5709",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
         "namespace": "debian:distro:debian:12",
@@ -1521,8 +1674,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.00463,
-            "percentile": 0.63431,
-            "date": "2025-10-31"
+            "percentile": 0.63371,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -1583,8 +1736,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.00463,
-              "percentile": 0.63431,
-              "date": "2025-10-31"
+              "percentile": 0.63371,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -1668,8 +1821,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.00463,
-            "percentile": 0.63431,
-            "date": "2025-10-31"
+            "percentile": 0.63371,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -1730,8 +1883,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.00463,
-              "percentile": 0.63431,
-              "date": "2025-10-31"
+              "percentile": 0.63371,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -1806,8 +1959,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.00463,
-            "percentile": 0.63431,
-            "date": "2025-10-31"
+            "percentile": 0.63371,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -1868,8 +2021,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.00463,
-              "percentile": 0.63431,
-              "date": "2025-10-31"
+              "percentile": 0.63371,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -1949,8 +2102,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.00463,
-            "percentile": 0.63431,
-            "date": "2025-10-31"
+            "percentile": 0.63371,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -2011,8 +2164,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.00463,
-              "percentile": 0.63431,
-              "date": "2025-10-31"
+              "percentile": 0.63371,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -2076,6 +2229,130 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-10148",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-10148",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Medium",
+        "urls": [],
+        "description": "curl's websocket code did not update the 32 bit mask pattern for each new  outgoing frame as the specification says. Instead it used a fixed mask that persisted and was used throughout the entire connection.  A predictable mask pattern allows for a malicious server to induce traffic between the two communicating parties that could be interpreted by an involved proxy (configured or transparent) as genuine, real, HTTP traffic with content and thereby poison its cache. That cached poisoned content could then be served to all users of that proxy.",
+        "cvss": [
+          {
+            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "metrics": {
+              "baseScore": 5.3,
+              "exploitabilityScore": 3.9,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-10148",
+            "epss": 0.00037,
+            "percentile": 0.10445,
+            "date": "2025-11-10"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "wont-fix"
+        },
+        "advisories": [],
+        "risk": 0.019055
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-10148",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-10148",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://curl.se/docs/CVE-2025-10148.html",
+            "https://curl.se/docs/CVE-2025-10148.json",
+            "https://hackerone.com/reports/3330839",
+            "http://www.openwall.com/lists/oss-security/2025/09/10/2",
+            "http://www.openwall.com/lists/oss-security/2025/09/10/3"
+          ],
+          "description": "curl's websocket code did not update the 32 bit mask pattern for each new\n outgoing frame as the specification says. Instead it used a fixed mask that\npersisted and was used throughout the entire connection.\n\nA predictable mask pattern allows for a malicious server to induce traffic\nbetween the two communicating parties that could be interpreted by an involved\nproxy (configured or transparent) as genuine, real, HTTP traffic with content\nand thereby poison its cache. That cached poisoned content could then be\nserved to all users of that proxy.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+              "metrics": {
+                "baseScore": 5.3,
+                "exploitabilityScore": 3.9,
+                "impactScore": 1.5
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-10148",
+              "epss": 0.00037,
+              "percentile": 0.10445,
+              "date": "2025-11-10"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "curl",
+              "version": "7.88.1-10+deb12u14"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-10148",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "7b756a4c6b6cb784",
+        "name": "libcurl4",
+        "version": "7.88.1-10+deb12u14",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libcurl4",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
+            "accessPath": "/var/lib/dpkg/status.d/libcurl4",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u14:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u14?arch=amd64&distro=debian-12&upstream=curl",
+        "upstreams": [
+          {
+            "name": "curl"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2019-1010024",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2019-1010024",
         "namespace": "debian:distro:debian:12",
@@ -2087,8 +2364,8 @@
           {
             "cve": "CVE-2019-1010024",
             "epss": 0.00375,
-            "percentile": 0.58479,
-            "date": "2025-10-31"
+            "percentile": 0.58401,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -2157,8 +2434,8 @@
             {
               "cve": "CVE-2019-1010024",
               "epss": 0.00375,
-              "percentile": 0.58479,
-              "date": "2025-10-31"
+              "percentile": 0.58401,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -2241,279 +2518,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2010-4756",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2010-4756",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames, as demonstrated by glob expressions in STAT commands to an FTP daemon, a different vulnerability than CVE-2010-2632.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2010-4756",
-            "epss": 0.00373,
-            "percentile": 0.5837,
-            "date": "2025-10-31"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2010-4756",
-            "cwe": "CWE-399",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.01865
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2010-4756",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2010-4756",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "http://cxib.net/stuff/glob-0day.c",
-            "http://securityreason.com/achievement_securityalert/89",
-            "http://securityreason.com/exploitalert/9223",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=681681",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4756",
-            "http://cxib.net/stuff/glob-0day.c",
-            "http://securityreason.com/achievement_securityalert/89",
-            "http://securityreason.com/exploitalert/9223",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=681681",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4756"
-          ],
-          "description": "The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames, as demonstrated by glob expressions in STAT commands to an FTP daemon, a different vulnerability than CVE-2010-2632.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
-              "metrics": {
-                "baseScore": 4,
-                "exploitabilityScore": 8,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2010-4756",
-              "epss": 0.00373,
-              "percentile": 0.5837,
-              "date": "2025-10-31"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2010-4756",
-              "cwe": "CWE-399",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "glibc",
-              "version": "2.36-9+deb12u13"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2010-4756",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "b1f23f68887853e1",
-        "name": "libc6",
-        "version": "2.36-9+deb12u13",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libc6",
-            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
-            "accessPath": "/var/lib/dpkg/status.d/libc6",
-            "annotations": {
-              "evidence": "primary"
-            }
-          },
-          {
-            "path": "/usr/share/doc/libc6/copyright",
-            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
-            "accessPath": "/usr/share/doc/libc6/copyright",
-            "annotations": {
-              "evidence": "supporting"
-            }
-          },
-          {
-            "path": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
-            "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "annotations": {
-              "evidence": "supporting"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "GPL-2",
-          "LGPL-2.1"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u13:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u13?arch=amd64&distro=debian-12&upstream=glibc",
-        "upstreams": [
-          {
-            "name": "glibc"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-10148",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-10148",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Medium",
-        "urls": [],
-        "description": "curl's websocket code did not update the 32 bit mask pattern for each new  outgoing frame as the specification says. Instead it used a fixed mask that persisted and was used throughout the entire connection.  A predictable mask pattern allows for a malicious server to induce traffic between the two communicating parties that could be interpreted by an involved proxy (configured or transparent) as genuine, real, HTTP traffic with content and thereby poison its cache. That cached poisoned content could then be served to all users of that proxy.",
-        "cvss": [
-          {
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-            "metrics": {
-              "baseScore": 5.3,
-              "exploitabilityScore": 3.9,
-              "impactScore": 1.5
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-10148",
-            "epss": 0.00036,
-            "percentile": 0.09781,
-            "date": "2025-10-31"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "wont-fix"
-        },
-        "advisories": [],
-        "risk": 0.01854
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-10148",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-10148",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://curl.se/docs/CVE-2025-10148.html",
-            "https://curl.se/docs/CVE-2025-10148.json",
-            "https://hackerone.com/reports/3330839"
-          ],
-          "description": "curl's websocket code did not update the 32 bit mask pattern for each new\n outgoing frame as the specification says. Instead it used a fixed mask that\npersisted and was used throughout the entire connection.\n\nA predictable mask pattern allows for a malicious server to induce traffic\nbetween the two communicating parties that could be interpreted by an involved\nproxy (configured or transparent) as genuine, real, HTTP traffic with content\nand thereby poison its cache. That cached poisoned content could then be\nserved to all users of that proxy.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-              "metrics": {
-                "baseScore": 5.3,
-                "exploitabilityScore": 3.9,
-                "impactScore": 1.5
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-10148",
-              "epss": 0.00036,
-              "percentile": 0.09781,
-              "date": "2025-10-31"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "curl",
-              "version": "7.88.1-10+deb12u14"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-10148",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "7b756a4c6b6cb784",
-        "name": "libcurl4",
-        "version": "7.88.1-10+deb12u14",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libcurl4",
-            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
-            "accessPath": "/var/lib/dpkg/status.d/libcurl4",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u14:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u14?arch=amd64&distro=debian-12&upstream=curl",
-        "upstreams": [
-          {
-            "name": "curl"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2019-9192",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2019-9192",
         "namespace": "debian:distro:debian:12",
@@ -2525,8 +2529,8 @@
           {
             "cve": "CVE-2019-9192",
             "epss": 0.00353,
-            "percentile": 0.57093,
-            "date": "2025-10-31"
+            "percentile": 0.57001,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -2587,8 +2591,8 @@
             {
               "cve": "CVE-2019-9192",
               "epss": 0.00353,
-              "percentile": 0.57093,
-              "date": "2025-10-31"
+              "percentile": 0.57001,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -2682,8 +2686,8 @@
           {
             "cve": "CVE-2019-1010025",
             "epss": 0.00228,
-            "percentile": 0.45627,
-            "date": "2025-10-31"
+            "percentile": 0.45522,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -2750,8 +2754,8 @@
             {
               "cve": "CVE-2019-1010025",
               "epss": 0.00228,
-              "percentile": 0.45627,
-              "date": "2025-10-31"
+              "percentile": 0.45522,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -2845,8 +2849,8 @@
           {
             "cve": "CVE-2024-2236",
             "epss": 0.00222,
-            "percentile": 0.44786,
-            "date": "2025-10-31"
+            "percentile": 0.44675,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -2899,8 +2903,8 @@
             {
               "cve": "CVE-2024-2236",
               "epss": 0.00222,
-              "percentile": 0.44786,
-              "date": "2025-10-31"
+              "percentile": 0.44675,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -2971,8 +2975,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43114,
-            "date": "2025-10-31"
+            "percentile": 0.43032,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -3021,8 +3025,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43114,
-              "date": "2025-10-31"
+              "percentile": 0.43032,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -3106,8 +3110,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43114,
-            "date": "2025-10-31"
+            "percentile": 0.43032,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -3156,8 +3160,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43114,
-              "date": "2025-10-31"
+              "percentile": 0.43032,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -3232,8 +3236,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43114,
-            "date": "2025-10-31"
+            "percentile": 0.43032,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -3282,8 +3286,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43114,
-              "date": "2025-10-31"
+              "percentile": 0.43032,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -3363,8 +3367,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43114,
-            "date": "2025-10-31"
+            "percentile": 0.43032,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -3413,8 +3417,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43114,
-              "date": "2025-10-31"
+              "percentile": 0.43032,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -3489,8 +3493,8 @@
           {
             "cve": "CVE-2024-2379",
             "epss": 0.00205,
-            "percentile": 0.42855,
-            "date": "2025-10-31"
+            "percentile": 0.42747,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -3557,8 +3561,8 @@
             {
               "cve": "CVE-2024-2379",
               "epss": 0.00205,
-              "percentile": 0.42855,
-              "date": "2025-10-31"
+              "percentile": 0.42747,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -3633,8 +3637,8 @@
           {
             "cve": "CVE-2019-1010022",
             "epss": 0.00145,
-            "percentile": 0.35544,
-            "date": "2025-10-31"
+            "percentile": 0.35404,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -3699,8 +3703,8 @@
             {
               "cve": "CVE-2019-1010022",
               "epss": 0.00145,
-              "percentile": 0.35544,
-              "date": "2025-10-31"
+              "percentile": 0.35404,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -3794,8 +3798,8 @@
           {
             "cve": "CVE-2020-15719",
             "epss": 0.00135,
-            "percentile": 0.34139,
-            "date": "2025-10-31"
+            "percentile": 0.33964,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -3866,8 +3870,8 @@
             {
               "cve": "CVE-2020-15719",
               "epss": 0.00135,
-              "percentile": 0.34139,
-              "date": "2025-10-31"
+              "percentile": 0.33964,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -3951,8 +3955,8 @@
           {
             "cve": "CVE-2023-31437",
             "epss": 0.00128,
-            "percentile": 0.33024,
-            "date": "2025-10-31"
+            "percentile": 0.32838,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -4021,8 +4025,8 @@
             {
               "cve": "CVE-2023-31437",
               "epss": 0.00128,
-              "percentile": 0.33024,
-              "date": "2025-10-31"
+              "percentile": 0.32838,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -4103,8 +4107,8 @@
           {
             "cve": "CVE-2023-31437",
             "epss": 0.00128,
-            "percentile": 0.33024,
-            "date": "2025-10-31"
+            "percentile": 0.32838,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -4173,8 +4177,8 @@
             {
               "cve": "CVE-2023-31437",
               "epss": 0.00128,
-              "percentile": 0.33024,
-              "date": "2025-10-31"
+              "percentile": 0.32838,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -4250,9 +4254,9 @@
         "epss": [
           {
             "cve": "CVE-2017-14159",
-            "epss": 0.00113,
-            "percentile": 0.307,
-            "date": "2025-10-31"
+            "epss": 0.00106,
+            "percentile": 0.29286,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -4268,7 +4272,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.00565
+        "risk": 0.0053
       },
       "relatedVulnerabilities": [
         {
@@ -4312,9 +4316,9 @@
           "epss": [
             {
               "cve": "CVE-2017-14159",
-              "epss": 0.00113,
-              "percentile": 0.307,
-              "date": "2025-10-31"
+              "epss": 0.00106,
+              "percentile": 0.29286,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -4398,8 +4402,8 @@
           {
             "cve": "CVE-2023-31438",
             "epss": 0.001,
-            "percentile": 0.28499,
-            "date": "2025-10-31"
+            "percentile": 0.2834,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -4452,8 +4456,8 @@
             {
               "cve": "CVE-2023-31438",
               "epss": 0.001,
-              "percentile": 0.28499,
-              "date": "2025-10-31"
+              "percentile": 0.2834,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -4528,8 +4532,8 @@
           {
             "cve": "CVE-2023-31438",
             "epss": 0.001,
-            "percentile": 0.28499,
-            "date": "2025-10-31"
+            "percentile": 0.2834,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -4582,8 +4586,8 @@
             {
               "cve": "CVE-2023-31438",
               "epss": 0.001,
-              "percentile": 0.28499,
-              "date": "2025-10-31"
+              "percentile": 0.2834,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -4654,8 +4658,8 @@
           {
             "cve": "CVE-2023-31439",
             "epss": 0.00094,
-            "percentile": 0.27147,
-            "date": "2025-10-31"
+            "percentile": 0.26929,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -4708,8 +4712,8 @@
             {
               "cve": "CVE-2023-31439",
               "epss": 0.00094,
-              "percentile": 0.27147,
-              "date": "2025-10-31"
+              "percentile": 0.26929,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -4784,8 +4788,8 @@
           {
             "cve": "CVE-2023-31439",
             "epss": 0.00094,
-            "percentile": 0.27147,
-            "date": "2025-10-31"
+            "percentile": 0.26929,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -4838,8 +4842,8 @@
             {
               "cve": "CVE-2023-31439",
               "epss": 0.00094,
-              "percentile": 0.27147,
-              "date": "2025-10-31"
+              "percentile": 0.26929,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -4909,9 +4913,9 @@
         "epss": [
           {
             "cve": "CVE-2024-26461",
-            "epss": 0.00081,
-            "percentile": 0.24788,
-            "date": "2025-10-31"
+            "epss": 0.00062,
+            "percentile": 0.1929,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -4927,7 +4931,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.00405
+        "risk": 0.0031000000000000003
       },
       "relatedVulnerabilities": [
         {
@@ -4959,9 +4963,9 @@
           "epss": [
             {
               "cve": "CVE-2024-26461",
-              "epss": 0.00081,
-              "percentile": 0.24788,
-              "date": "2025-10-31"
+              "epss": 0.00062,
+              "percentile": 0.1929,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -5044,9 +5048,9 @@
         "epss": [
           {
             "cve": "CVE-2024-26461",
-            "epss": 0.00081,
-            "percentile": 0.24788,
-            "date": "2025-10-31"
+            "epss": 0.00062,
+            "percentile": 0.1929,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -5062,7 +5066,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.00405
+        "risk": 0.0031000000000000003
       },
       "relatedVulnerabilities": [
         {
@@ -5094,9 +5098,9 @@
           "epss": [
             {
               "cve": "CVE-2024-26461",
-              "epss": 0.00081,
-              "percentile": 0.24788,
-              "date": "2025-10-31"
+              "epss": 0.00062,
+              "percentile": 0.1929,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -5170,9 +5174,9 @@
         "epss": [
           {
             "cve": "CVE-2024-26461",
-            "epss": 0.00081,
-            "percentile": 0.24788,
-            "date": "2025-10-31"
+            "epss": 0.00062,
+            "percentile": 0.1929,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -5188,7 +5192,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.00405
+        "risk": 0.0031000000000000003
       },
       "relatedVulnerabilities": [
         {
@@ -5220,9 +5224,9 @@
           "epss": [
             {
               "cve": "CVE-2024-26461",
-              "epss": 0.00081,
-              "percentile": 0.24788,
-              "date": "2025-10-31"
+              "epss": 0.00062,
+              "percentile": 0.1929,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -5301,9 +5305,9 @@
         "epss": [
           {
             "cve": "CVE-2024-26461",
-            "epss": 0.00081,
-            "percentile": 0.24788,
-            "date": "2025-10-31"
+            "epss": 0.00062,
+            "percentile": 0.1929,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -5319,7 +5323,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.00405
+        "risk": 0.0031000000000000003
       },
       "relatedVulnerabilities": [
         {
@@ -5351,9 +5355,9 @@
           "epss": [
             {
               "cve": "CVE-2024-26461",
-              "epss": 0.00081,
-              "percentile": 0.24788,
-              "date": "2025-10-31"
+              "epss": 0.00062,
+              "percentile": 0.1929,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -5428,8 +5432,8 @@
           {
             "cve": "CVE-2013-4392",
             "epss": 0.00057,
-            "percentile": 0.17788,
-            "date": "2025-10-31"
+            "percentile": 0.17658,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -5498,8 +5502,8 @@
             {
               "cve": "CVE-2013-4392",
               "epss": 0.00057,
-              "percentile": 0.17788,
-              "date": "2025-10-31"
+              "percentile": 0.17658,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -5580,8 +5584,8 @@
           {
             "cve": "CVE-2013-4392",
             "epss": 0.00057,
-            "percentile": 0.17788,
-            "date": "2025-10-31"
+            "percentile": 0.17658,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -5650,8 +5654,8 @@
             {
               "cve": "CVE-2013-4392",
               "epss": 0.00057,
-              "percentile": 0.17788,
-              "date": "2025-10-31"
+              "percentile": 0.17658,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -5728,8 +5732,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.15245,
-            "date": "2025-10-31"
+            "percentile": 0.1529,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -5792,8 +5796,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.15245,
-              "date": "2025-10-31"
+              "percentile": 0.1529,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -5900,8 +5904,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.15245,
-            "date": "2025-10-31"
+            "percentile": 0.1529,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -5964,8 +5968,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.15245,
-              "date": "2025-10-31"
+              "percentile": 0.1529,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -6040,8 +6044,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.15245,
-            "date": "2025-10-31"
+            "percentile": 0.1529,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -6104,8 +6108,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.15245,
-              "date": "2025-10-31"
+              "percentile": 0.1529,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -6208,8 +6212,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.15245,
-            "date": "2025-10-31"
+            "percentile": 0.1529,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -6272,8 +6276,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.15245,
-              "date": "2025-10-31"
+              "percentile": 0.1529,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -6371,8 +6375,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.15245,
-            "date": "2025-10-31"
+            "percentile": 0.1529,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -6435,8 +6439,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.15245,
-              "date": "2025-10-31"
+              "percentile": 0.1529,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -6534,8 +6538,8 @@
           {
             "cve": "CVE-2025-27587",
             "epss": 0.00035,
-            "percentile": 0.09239,
-            "date": "2025-10-31"
+            "percentile": 0.09296,
+            "date": "2025-11-10"
           }
         ],
         "cwes": [
@@ -6582,8 +6586,8 @@
             {
               "cve": "CVE-2025-27587",
               "epss": 0.00035,
-              "percentile": 0.09239,
-              "date": "2025-10-31"
+              "percentile": 0.09296,
+              "date": "2025-11-10"
             }
           ],
           "cwes": [
@@ -6662,6 +6666,116 @@
         "upstreams": [
           {
             "name": "openssl"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-10966",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-10966",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "curl's code for managing SSH connections when SFTP was done using the wolfSSH powered backend was flawed and missed host verification mechanisms.  This prevents curl from detecting MITM attackers and more.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2025-10966",
+            "epss": 0.00016,
+            "percentile": 0.02652,
+            "date": "2025-11-10"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0008000000000000001
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-10966",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-10966",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://curl.se/docs/CVE-2025-10966.html",
+            "https://curl.se/docs/CVE-2025-10966.json",
+            "https://hackerone.com/reports/3355218",
+            "http://www.openwall.com/lists/oss-security/2025/11/05/2"
+          ],
+          "description": "curl's code for managing SSH connections when SFTP was done using the wolfSSH\npowered backend was flawed and missed host verification mechanisms.\n\nThis prevents curl from detecting MITM attackers and more.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+              "metrics": {
+                "baseScore": 4.3,
+                "exploitabilityScore": 2.9,
+                "impactScore": 1.5
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-10966",
+              "epss": 0.00016,
+              "percentile": 0.02652,
+              "date": "2025-11-10"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "curl",
+              "version": "7.88.1-10+deb12u14"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-10966",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "7b756a4c6b6cb784",
+        "name": "libcurl4",
+        "version": "7.88.1-10+deb12u14",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libcurl4",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
+            "accessPath": "/var/lib/dpkg/status.d/libcurl4",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u14:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u14?arch=amd64&distro=debian-12&upstream=curl",
+        "upstreams": [
+          {
+            "name": "curl"
           }
         ]
       }
@@ -6815,7 +6929,7 @@
   },
   "descriptor": {
     "name": "grype",
-    "version": "0.102.0",
+    "version": "0.103.0",
     "configuration": {
       "output": [
         "json"
@@ -6978,87 +7092,87 @@
     "db": {
       "status": {
         "schemaVersion": "v6.1.3",
-        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.3_2025-11-01T00:25:05Z_1761981068.tar.zst?checksum=sha256%3A342022f954eed2139cda8a3face3134497799453f03ff03035d04259e815d8a7",
-        "built": "2025-11-01T07:11:08Z",
+        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.3_2025-11-11T00:25:59Z_1762845878.tar.zst?checksum=sha256%3Ad1670d44ca26c43130aaa698236d481a2455bcd35fa03409580ace6441b4a9cf",
+        "built": "2025-11-11T07:24:38Z",
         "path": ".cache/grype/db/6/vulnerability.db",
         "valid": true
       },
       "providers": {
         "alma": {
-          "captured": "2025-11-01T00:25:18Z",
-          "input": "xxh64:04b6495da9f6c62b"
+          "captured": "2025-11-11T00:25:59Z",
+          "input": "xxh64:b0db8dce7e55a2a0"
         },
         "alpine": {
-          "captured": "2025-11-01T00:25:11Z",
-          "input": "xxh64:19b819cc77453034"
+          "captured": "2025-11-11T00:26:02Z",
+          "input": "xxh64:0fdf51b3d77e5b52"
         },
         "amazon": {
-          "captured": "2025-11-01T00:25:12Z",
-          "input": "xxh64:0589adc53b1aae7f"
+          "captured": "2025-11-11T00:26:01Z",
+          "input": "xxh64:c2f224239346bbf2"
         },
         "bitnami": {
-          "captured": "2025-11-01T00:25:11Z",
-          "input": "xxh64:ee086199cd288000"
+          "captured": "2025-11-11T00:26:12Z",
+          "input": "xxh64:88601259efdaf4de"
         },
         "chainguard": {
-          "captured": "2025-11-01T00:25:14Z",
-          "input": "xxh64:0ebd1896d318b965"
+          "captured": "2025-11-11T00:26:15Z",
+          "input": "xxh64:e639a897198a8700"
         },
         "chainguard-libraries": {
-          "captured": "2025-11-01T00:25:14Z",
-          "input": "xxh64:e87d182ba8e7d92d"
+          "captured": "2025-11-11T00:25:59Z",
+          "input": "xxh64:7acbcd688422f422"
         },
         "debian": {
-          "captured": "2025-11-01T00:25:24Z",
-          "input": "xxh64:5918380d8d72b05a"
+          "captured": "2025-11-11T00:26:13Z",
+          "input": "xxh64:dd361cc7733333f9"
         },
         "echo": {
-          "captured": "2025-11-01T00:25:05Z",
-          "input": "xxh64:de0ac3af8ecf80c6"
+          "captured": "2025-11-11T00:26:11Z",
+          "input": "xxh64:de6bd3de78c2b0f9"
         },
         "epss": {
-          "captured": "2025-11-01T00:25:20Z",
-          "input": "xxh64:2b3f2b0a68da1e28"
+          "captured": "2025-11-11T00:26:04Z",
+          "input": "xxh64:228797625073dd5a"
         },
         "github": {
-          "captured": "2025-11-01T00:25:15Z",
-          "input": "xxh64:673be3f1adcaf2dc"
+          "captured": "2025-11-11T00:26:20Z",
+          "input": "xxh64:388fdf2a577bf3e4"
         },
         "kev": {
-          "captured": "2025-11-01T00:25:06Z",
-          "input": "xxh64:b51ce9b7f4d76473"
+          "captured": "2025-11-11T00:26:05Z",
+          "input": "xxh64:86530a7f22f7bae7"
         },
         "mariner": {
-          "captured": "2025-11-01T00:25:07Z",
-          "input": "xxh64:df36d67f78dfd14b"
+          "captured": "2025-11-11T00:26:06Z",
+          "input": "xxh64:bbaf11280df3f8bb"
         },
         "minimos": {
-          "captured": "2025-11-01T00:25:09Z",
-          "input": "xxh64:1a407cda86861854"
+          "captured": "2025-11-11T00:25:59Z",
+          "input": "xxh64:aa5a27f197fa1328"
         },
         "nvd": {
-          "captured": "2025-11-01T00:26:23Z",
-          "input": "xxh64:4424490d13ec9717"
+          "captured": "2025-11-11T00:28:31Z",
+          "input": "xxh64:34547306ec50936d"
         },
         "oracle": {
-          "captured": "2025-11-01T00:25:11Z",
-          "input": "xxh64:e86c43f47d7f6a64"
+          "captured": "2025-11-11T00:26:08Z",
+          "input": "xxh64:505028cba1bb6cf9"
         },
         "rhel": {
-          "captured": "2025-11-01T00:25:39Z",
-          "input": "xxh64:98cec6a996cef501"
+          "captured": "2025-11-11T00:27:00Z",
+          "input": "xxh64:3b1d3f83a65c7794"
         },
         "sles": {
-          "captured": "2025-11-01T00:25:37Z",
-          "input": "xxh64:08e9d4b8ac30c34f"
+          "captured": "2025-11-11T00:26:32Z",
+          "input": "xxh64:2cb63ec10efb3347"
         },
         "ubuntu": {
-          "captured": "2025-11-01T00:26:14Z",
-          "input": "xxh64:562220a85fd62632"
+          "captured": "2025-11-11T00:28:14Z",
+          "input": "xxh64:c30b1e2397b44fff"
         },
         "wolfi": {
-          "captured": "2025-11-01T00:25:19Z",
-          "input": "xxh64:331fc2485bc37e9f"
+          "captured": "2025-11-11T00:26:13Z",
+          "input": "xxh64:f9f08d008c7c2642"
         }
       }
     }
