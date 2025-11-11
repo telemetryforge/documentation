@@ -1,15 +1,13 @@
-# Grype Vulnerabilities for ghcr.io/fluent/fluent-bit:4.0.10
+# Grype Vulnerabilities for ghcr.io/fluent/fluent-bit:4.1.1
 
-Unfiltered vulnerability scan results for ghcr.io/fluent/fluent-bit:4.0.10 using Grype.
+Unfiltered vulnerability scan results for ghcr.io/fluent/fluent-bit:4.1.1 using Grype.
 Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.html) or [VEX endpoint](https://docs.fluent.do/security/vex.json) for more information on vulnerabilities that have been reviewed.
 
 | Package | Version Installed | Vulnerability ID | Severity |
 | --- | --- | --- | --- |
 | libldap-2.5-0 | 2.5.13+dfsg-5 | [CVE-2023-2953](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2953) | High |
 | libcurl4 | 7.88.1-10+deb12u14 | [CVE-2025-9086](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086) | High |
-| libssl3 | 3.0.17-1~deb12u2 | [CVE-2025-9230](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9230) | High |
 | libcurl4 | 7.88.1-10+deb12u14 | [CVE-2025-10148](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-10148) | Medium |
-| libssl3 | 3.0.17-1~deb12u2 | [CVE-2025-9232](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9232) | Medium |
 | libgnutls30 | 3.7.9-2+deb12u5 | [CVE-2011-3389](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3389) | Negligible |
 | libldap-2.5-0 | 2.5.13+dfsg-5 | [CVE-2017-17740](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17740) | Negligible |
 | libldap-2.5-0 | 2.5.13+dfsg-5 | [CVE-2015-3276](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3276) | Negligible |
@@ -51,5 +49,5 @@ Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.h
 | libgcc-s1 | 12.2.0-14+deb12u1 | [CVE-2022-27943](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943) | Negligible |
 | libgomp1 | 12.2.0-14+deb12u1 | [CVE-2022-27943](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943) | Negligible |
 | libstdc++6 | 12.2.0-14+deb12u1 | [CVE-2022-27943](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943) | Negligible |
-| libssl3 | 3.0.17-1~deb12u2 | [CVE-2025-27587](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-27587) | Negligible |
+| libssl3 | 3.0.17-1~deb12u3 | [CVE-2025-27587](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-27587) | Negligible |
 | libcurl4 | 7.88.1-10+deb12u14 | [CVE-2025-10966](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-10966) | Negligible |

@@ -29,14 +29,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2024-7264",
-            "cwe": "CWE-125",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -94,14 +86,6 @@
               "epss": 0.05357,
               "percentile": 0.89621,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2024-7264",
-              "cwe": "CWE-125",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
             }
           ]
         }
@@ -199,14 +183,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2024-7264",
-            "cwe": "CWE-125",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -264,14 +240,6 @@
               "epss": 0.05357,
               "percentile": 0.89621,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2024-7264",
-              "cwe": "CWE-125",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
             }
           ]
         }
@@ -369,14 +337,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2024-56433",
-            "cwe": "CWE-1188",
-            "source": "cve@mitre.org",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -416,14 +376,6 @@
               "epss": 0.05074,
               "percentile": 0.89296,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2024-56433",
-              "cwe": "CWE-1188",
-              "source": "cve@mitre.org",
-              "type": "Secondary"
             }
           ]
         }
@@ -516,14 +468,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2024-34459",
-            "cwe": "CWE-122",
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -576,14 +520,6 @@
               "epss": 0.00847,
               "percentile": 0.74086,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2024-34459",
-              "cwe": "CWE-122",
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary"
             }
           ]
         }
@@ -670,14 +606,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2024-9681",
-            "cwe": "CWE-697",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -739,14 +667,6 @@
               "epss": 0.0069,
               "percentile": 0.70959,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2024-9681",
-              "cwe": "CWE-697",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
             }
           ]
         }
@@ -844,14 +764,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2024-9681",
-            "cwe": "CWE-697",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -913,14 +825,6 @@
               "epss": 0.0069,
               "percentile": 0.70959,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2024-9681",
-              "cwe": "CWE-697",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
             }
           ]
         }
@@ -1018,14 +922,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2024-41996",
-            "cwe": "CWE-295",
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "wont-fix"
@@ -1065,14 +961,6 @@
               "epss": 0.00434,
               "percentile": 0.62036,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2024-41996",
-              "cwe": "CWE-295",
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary"
             }
           ]
         }
@@ -1159,14 +1047,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2024-41996",
-            "cwe": "CWE-295",
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "wont-fix"
@@ -1206,14 +1086,6 @@
               "epss": 0.00434,
               "percentile": 0.62036,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2024-41996",
-              "cwe": "CWE-295",
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary"
             }
           ]
         }
@@ -1591,20 +1463,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2023-32636",
-            "cwe": "CWE-400",
-            "source": "secalert@redhat.com",
-            "type": "Secondary"
-          },
-          {
-            "cve": "CVE-2023-32636",
-            "cwe": "CWE-502",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -1659,20 +1517,6 @@
               "epss": 0.00165,
               "percentile": 0.37998,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2023-32636",
-              "cwe": "CWE-400",
-              "source": "secalert@redhat.com",
-              "type": "Secondary"
-            },
-            {
-              "cve": "CVE-2023-32636",
-              "cwe": "CWE-502",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
             }
           ]
         }
@@ -1759,14 +1603,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-52099",
-            "cwe": "CWE-190",
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -1806,14 +1642,6 @@
               "epss": 0.00139,
               "percentile": 0.34519,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-52099",
-              "cwe": "CWE-190",
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary"
             }
           ]
         }
@@ -1911,26 +1739,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-1632",
-            "cwe": "CWE-404",
-            "source": "cna@vuldb.com",
-            "type": "Secondary"
-          },
-          {
-            "cve": "CVE-2025-1632",
-            "cwe": "CWE-476",
-            "source": "cna@vuldb.com",
-            "type": "Secondary"
-          },
-          {
-            "cve": "CVE-2025-1632",
-            "cwe": "CWE-476",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -2006,26 +1814,6 @@
               "epss": 0.00168,
               "percentile": 0.38447,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-1632",
-              "cwe": "CWE-404",
-              "source": "cna@vuldb.com",
-              "type": "Secondary"
-            },
-            {
-              "cve": "CVE-2025-1632",
-              "cwe": "CWE-476",
-              "source": "cna@vuldb.com",
-              "type": "Secondary"
-            },
-            {
-              "cve": "CVE-2025-1632",
-              "cwe": "CWE-476",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
             }
           ]
         }
@@ -2112,20 +1900,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-27113",
-            "cwe": "CWE-476",
-            "source": "cve@mitre.org",
-            "type": "Secondary"
-          },
-          {
-            "cve": "CVE-2025-27113",
-            "cwe": "CWE-476",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -2185,20 +1959,6 @@
               "epss": 0.00153,
               "percentile": 0.36473,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-27113",
-              "cwe": "CWE-476",
-              "source": "cve@mitre.org",
-              "type": "Secondary"
-            },
-            {
-              "cve": "CVE-2025-27113",
-              "cwe": "CWE-476",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
             }
           ]
         }
@@ -2285,14 +2045,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2024-13176",
-            "cwe": "CWE-385",
-            "source": "openssl-security@openssl.org",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -2342,14 +2094,6 @@
               "epss": 0.00115,
               "percentile": 0.30788,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2024-13176",
-              "cwe": "CWE-385",
-              "source": "openssl-security@openssl.org",
-              "type": "Secondary"
             }
           ]
         }
@@ -2436,14 +2180,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2024-13176",
-            "cwe": "CWE-385",
-            "source": "openssl-security@openssl.org",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -2493,14 +2229,6 @@
               "epss": 0.00115,
               "percentile": 0.30788,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2024-13176",
-              "cwe": "CWE-385",
-              "source": "openssl-security@openssl.org",
-              "type": "Secondary"
             }
           ]
         }
@@ -2598,14 +2326,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-12863",
-            "cwe": "CWE-416",
-            "source": "secalert@redhat.com",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -2644,14 +2364,6 @@
               "epss": 0.00052,
               "percentile": 0.15936,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-12863",
-              "cwe": "CWE-416",
-              "source": "secalert@redhat.com",
-              "type": "Primary"
             }
           ]
         }
@@ -3012,14 +2724,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2023-45322",
-            "cwe": "CWE-416",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -3063,14 +2767,6 @@
               "epss": 0.00076,
               "percentile": 0.23275,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2023-45322",
-              "cwe": "CWE-416",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
             }
           ]
         }
@@ -3157,14 +2853,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2022-41409",
-            "cwe": "CWE-190",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -3205,14 +2893,6 @@
               "epss": 0.00061,
               "percentile": 0.18976,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2022-41409",
-              "cwe": "CWE-190",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
             }
           ]
         }
@@ -3299,14 +2979,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2022-41409",
-            "cwe": "CWE-190",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -3347,14 +3019,6 @@
               "epss": 0.00061,
               "percentile": 0.18976,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2022-41409",
-              "cwe": "CWE-190",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
             }
           ]
         }
@@ -3736,14 +3400,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-3360",
-            "cwe": "CWE-190",
-            "source": "secalert@redhat.com",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -3783,14 +3439,6 @@
               "epss": 0.00066,
               "percentile": 0.20581,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-3360",
-              "cwe": "CWE-190",
-              "source": "secalert@redhat.com",
-              "type": "Secondary"
             }
           ]
         }
@@ -3877,14 +3525,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2022-27943",
-            "cwe": "CWE-674",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -3939,14 +3579,6 @@
               "epss": 0.0005,
               "percentile": 0.1529,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2022-27943",
-              "cwe": "CWE-674",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
             }
           ]
         }
@@ -4038,14 +3670,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2022-27943",
-            "cwe": "CWE-674",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -4100,14 +3724,6 @@
               "epss": 0.0005,
               "percentile": 0.1529,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2022-27943",
-              "cwe": "CWE-674",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
             }
           ]
         }
@@ -4199,14 +3815,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-4598",
-            "cwe": "CWE-364",
-            "source": "secalert@redhat.com",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -4254,14 +3862,6 @@
               "epss": 0.0004,
               "percentile": 0.11644,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-4598",
-              "cwe": "CWE-364",
-              "source": "secalert@redhat.com",
-              "type": "Secondary"
             }
           ]
         }
@@ -4359,20 +3959,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-9230",
-            "cwe": "CWE-125",
-            "source": "openssl-security@openssl.org",
-            "type": "Secondary"
-          },
-          {
-            "cve": "CVE-2025-9230",
-            "cwe": "CWE-787",
-            "source": "openssl-security@openssl.org",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -4419,20 +4005,6 @@
               "epss": 0.00034,
               "percentile": 0.09174,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-9230",
-              "cwe": "CWE-125",
-              "source": "openssl-security@openssl.org",
-              "type": "Secondary"
-            },
-            {
-              "cve": "CVE-2025-9230",
-              "cwe": "CWE-787",
-              "source": "openssl-security@openssl.org",
-              "type": "Secondary"
             }
           ]
         }
@@ -4519,20 +4091,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-9230",
-            "cwe": "CWE-125",
-            "source": "openssl-security@openssl.org",
-            "type": "Secondary"
-          },
-          {
-            "cve": "CVE-2025-9230",
-            "cwe": "CWE-787",
-            "source": "openssl-security@openssl.org",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -4579,20 +4137,6 @@
               "epss": 0.00034,
               "percentile": 0.09174,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-9230",
-              "cwe": "CWE-125",
-              "source": "openssl-security@openssl.org",
-              "type": "Secondary"
-            },
-            {
-              "cve": "CVE-2025-9230",
-              "cwe": "CWE-787",
-              "source": "openssl-security@openssl.org",
-              "type": "Secondary"
             }
           ]
         }
@@ -4690,20 +4234,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2023-4156",
-            "cwe": "CWE-125",
-            "source": "secalert@redhat.com",
-            "type": "Secondary"
-          },
-          {
-            "cve": "CVE-2023-4156",
-            "cwe": "CWE-125",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -4756,20 +4286,6 @@
               "epss": 0.00031,
               "percentile": 0.07981,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2023-4156",
-              "cwe": "CWE-125",
-              "source": "secalert@redhat.com",
-              "type": "Secondary"
-            },
-            {
-              "cve": "CVE-2023-4156",
-              "cwe": "CWE-125",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
             }
           ]
         }
@@ -4856,14 +4372,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-9714",
-            "cwe": "CWE-674",
-            "source": "security@ubuntu.com",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -4914,14 +4422,6 @@
               "epss": 0.00021,
               "percentile": 0.04196,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-9714",
-              "cwe": "CWE-674",
-              "source": "security@ubuntu.com",
-              "type": "Secondary"
             }
           ]
         }
@@ -5282,14 +4782,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-9232",
-            "cwe": "CWE-125",
-            "source": "openssl-security@openssl.org",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -5333,14 +4825,6 @@
               "epss": 0.00025,
               "percentile": 0.0574,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-9232",
-              "cwe": "CWE-125",
-              "source": "openssl-security@openssl.org",
-              "type": "Secondary"
             }
           ]
         }
@@ -5427,14 +4911,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-9232",
-            "cwe": "CWE-125",
-            "source": "openssl-security@openssl.org",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -5478,14 +4954,6 @@
               "epss": 0.00025,
               "percentile": 0.0574,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-9232",
-              "cwe": "CWE-125",
-              "source": "openssl-security@openssl.org",
-              "type": "Secondary"
             }
           ]
         }
@@ -5583,14 +5051,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-5278",
-            "cwe": "CWE-121",
-            "source": "secalert@redhat.com",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -5636,14 +5096,6 @@
               "epss": 0.00016,
               "percentile": 0.02532,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-5278",
-              "cwe": "CWE-121",
-              "source": "secalert@redhat.com",
-              "type": "Secondary"
             }
           ]
         }
@@ -5741,14 +5193,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-6170",
-            "cwe": "CWE-121",
-            "source": "secalert@redhat.com",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -5800,14 +5244,6 @@
               "epss": 0.00027,
               "percentile": 0.06144,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-6170",
-              "cwe": "CWE-121",
-              "source": "secalert@redhat.com",
-              "type": "Secondary"
             }
           ]
         }
@@ -5894,20 +5330,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2023-30571",
-            "cwe": "CWE-362",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          },
-          {
-            "cve": "CVE-2023-30571",
-            "cwe": "CWE-362",
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "wont-fix"
@@ -5960,20 +5382,6 @@
               "epss": 0.00014,
               "percentile": 0.01858,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2023-30571",
-              "cwe": "CWE-362",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            },
-            {
-              "cve": "CVE-2023-30571",
-              "cwe": "CWE-362",
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary"
             }
           ]
         }
@@ -6060,20 +5468,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2024-0232",
-            "cwe": "CWE-416",
-            "source": "secalert@redhat.com",
-            "type": "Secondary"
-          },
-          {
-            "cve": "CVE-2024-0232",
-            "cwe": "CWE-416",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -6128,20 +5522,6 @@
               "epss": 0.00018,
               "percentile": 0.03293,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2024-0232",
-              "cwe": "CWE-416",
-              "source": "secalert@redhat.com",
-              "type": "Secondary"
-            },
-            {
-              "cve": "CVE-2024-0232",
-              "cwe": "CWE-416",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
             }
           ]
         }
@@ -6239,20 +5619,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-60753",
-            "cwe": "CWE-400",
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary"
-          },
-          {
-            "cve": "CVE-2025-60753",
-            "cwe": "CWE-835",
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -6291,20 +5657,6 @@
               "epss": 0.00013,
               "percentile": 0.01468,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-60753",
-              "cwe": "CWE-400",
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary"
-            },
-            {
-              "cve": "CVE-2025-60753",
-              "cwe": "CWE-835",
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary"
             }
           ]
         }
@@ -6391,14 +5743,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-30258",
-            "cwe": "CWE-754",
-            "source": "cve@mitre.org",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -6450,14 +5794,6 @@
               "epss": 0.00023,
               "percentile": 0.04954,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-30258",
-              "cwe": "CWE-754",
-              "source": "cve@mitre.org",
-              "type": "Secondary"
             }
           ]
         }
@@ -6544,14 +5880,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-5915",
-            "cwe": "CWE-122",
-            "source": "secalert@redhat.com",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -6604,14 +5932,6 @@
               "epss": 0.00018,
               "percentile": 0.03187,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-5915",
-              "cwe": "CWE-122",
-              "source": "secalert@redhat.com",
-              "type": "Primary"
             }
           ]
         }
@@ -6698,20 +6018,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2022-3219",
-            "cwe": "CWE-787",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          },
-          {
-            "cve": "CVE-2022-3219",
-            "cwe": "CWE-787",
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -6772,20 +6078,6 @@
               "epss": 0.00012,
               "percentile": 0.01323,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2022-3219",
-              "cwe": "CWE-787",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            },
-            {
-              "cve": "CVE-2022-3219",
-              "cwe": "CWE-787",
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary"
             }
           ]
         }
@@ -6872,14 +6164,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-5916",
-            "cwe": "CWE-190",
-            "source": "secalert@redhat.com",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -6932,14 +6216,6 @@
               "epss": 0.00015,
               "percentile": 0.02355,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-5916",
-              "cwe": "CWE-190",
-              "source": "secalert@redhat.com",
-              "type": "Primary"
             }
           ]
         }
@@ -7026,14 +6302,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-5918",
-            "cwe": "CWE-125",
-            "source": "secalert@redhat.com",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -7086,14 +6354,6 @@
               "epss": 0.00013,
               "percentile": 0.0145,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-5918",
-              "cwe": "CWE-125",
-              "source": "secalert@redhat.com",
-              "type": "Primary"
             }
           ]
         }
@@ -7180,14 +6440,6 @@
             "date": "2025-11-10"
           }
         ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-5917",
-            "cwe": "CWE-787",
-            "source": "secalert@redhat.com",
-            "type": "Primary"
-          }
-        ],
         "fix": {
           "versions": [],
           "state": "not-fixed"
@@ -7240,14 +6492,6 @@
               "epss": 0.00013,
               "percentile": 0.01514,
               "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-5917",
-              "cwe": "CWE-787",
-              "source": "secalert@redhat.com",
-              "type": "Primary"
             }
           ]
         }
@@ -7535,7 +6779,7 @@
   },
   "descriptor": {
     "name": "grype",
-    "version": "0.103.0",
+    "version": "0.99.1",
     "configuration": {
       "output": [
         "json"
