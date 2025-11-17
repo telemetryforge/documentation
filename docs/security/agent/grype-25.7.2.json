@@ -25,8 +25,8 @@
           {
             "cve": "CVE-2024-7264",
             "epss": 0.05357,
-            "percentile": 0.89621,
-            "date": "2025-11-10"
+            "percentile": 0.89631,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -92,8 +92,8 @@
             {
               "cve": "CVE-2024-7264",
               "epss": 0.05357,
-              "percentile": 0.89621,
-              "date": "2025-11-10"
+              "percentile": 0.89631,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -195,8 +195,8 @@
           {
             "cve": "CVE-2024-7264",
             "epss": 0.05357,
-            "percentile": 0.89621,
-            "date": "2025-11-10"
+            "percentile": 0.89631,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -262,8 +262,8 @@
             {
               "cve": "CVE-2024-7264",
               "epss": 0.05357,
-              "percentile": 0.89621,
-              "date": "2025-11-10"
+              "percentile": 0.89631,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -364,9 +364,9 @@
         "epss": [
           {
             "cve": "CVE-2024-56433",
-            "epss": 0.05074,
-            "percentile": 0.89296,
-            "date": "2025-11-10"
+            "epss": 0.05467,
+            "percentile": 0.89748,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -378,11 +378,25 @@
           }
         ],
         "fix": {
-          "versions": [],
-          "state": "not-fixed"
+          "versions": [
+            "2:4.9-15.el9"
+          ],
+          "state": "fixed",
+          "available": [
+            {
+              "version": "2:4.9-15.el9",
+              "date": "2025-11-12",
+              "kind": "first-observed"
+            }
+          ]
         },
-        "advisories": [],
-        "risk": 1.6744199999999998
+        "advisories": [
+          {
+            "id": "RHSA-2025:20559",
+            "link": "https://access.redhat.com/errata/RHSA-2025:20559"
+          }
+        ],
+        "risk": 1.8041099999999997
       },
       "relatedVulnerabilities": [
         {
@@ -413,9 +427,9 @@
           "epss": [
             {
               "cve": "CVE-2024-56433",
-              "epss": 0.05074,
-              "percentile": 0.89296,
-              "date": "2025-11-10"
+              "epss": 0.05467,
+              "percentile": 0.89748,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -445,7 +459,10 @@
           },
           "found": {
             "vulnerabilityID": "CVE-2024-56433",
-            "versionConstraint": "none (unknown)"
+            "versionConstraint": "< 2:4.9-15.el9 (rpm)"
+          },
+          "fix": {
+            "suggestedVersion": "2:4.9-15.el9"
           }
         }
       ],
@@ -512,8 +529,8 @@
           {
             "cve": "CVE-2024-52533",
             "epss": 0.02455,
-            "percentile": 0.84681,
-            "date": "2025-11-10"
+            "percentile": 0.84704,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -578,8 +595,8 @@
             {
               "cve": "CVE-2024-52533",
               "epss": 0.02455,
-              "percentile": 0.84681,
-              "date": "2025-11-10"
+              "percentile": 0.84704,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -673,8 +690,8 @@
           {
             "cve": "CVE-2024-34459",
             "epss": 0.00847,
-            "percentile": 0.74086,
-            "date": "2025-11-10"
+            "percentile": 0.74114,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -735,8 +752,8 @@
             {
               "cve": "CVE-2024-34459",
               "epss": 0.00847,
-              "percentile": 0.74086,
-              "date": "2025-11-10"
+              "percentile": 0.74114,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -827,8 +844,8 @@
           {
             "cve": "CVE-2024-9681",
             "epss": 0.0069,
-            "percentile": 0.70959,
-            "date": "2025-11-10"
+            "percentile": 0.70997,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -898,8 +915,8 @@
             {
               "cve": "CVE-2024-9681",
               "epss": 0.0069,
-              "percentile": 0.70959,
-              "date": "2025-11-10"
+              "percentile": 0.70997,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -1001,8 +1018,8 @@
           {
             "cve": "CVE-2024-9681",
             "epss": 0.0069,
-            "percentile": 0.70959,
-            "date": "2025-11-10"
+            "percentile": 0.70997,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -1072,8 +1089,8 @@
             {
               "cve": "CVE-2024-9681",
               "epss": 0.0069,
-              "percentile": 0.70959,
-              "date": "2025-11-10"
+              "percentile": 0.70997,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -1175,8 +1192,8 @@
           {
             "cve": "CVE-2024-41996",
             "epss": 0.00434,
-            "percentile": 0.62036,
-            "date": "2025-11-10"
+            "percentile": 0.62082,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -1224,8 +1241,8 @@
             {
               "cve": "CVE-2024-41996",
               "epss": 0.00434,
-              "percentile": 0.62036,
-              "date": "2025-11-10"
+              "percentile": 0.62082,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -1316,8 +1333,8 @@
           {
             "cve": "CVE-2024-41996",
             "epss": 0.00434,
-            "percentile": 0.62036,
-            "date": "2025-11-10"
+            "percentile": 0.62082,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -1365,8 +1382,8 @@
             {
               "cve": "CVE-2024-41996",
               "epss": 0.00434,
-              "percentile": 0.62036,
-              "date": "2025-11-10"
+              "percentile": 0.62082,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -1468,8 +1485,8 @@
           {
             "cve": "CVE-2024-11053",
             "epss": 0.00337,
-            "percentile": 0.55923,
-            "date": "2025-11-10"
+            "percentile": 0.55969,
+            "date": "2025-11-13"
           }
         ],
         "fix": {
@@ -1513,8 +1530,8 @@
             {
               "cve": "CVE-2024-11053",
               "epss": 0.00337,
-              "percentile": 0.55923,
-              "date": "2025-11-10"
+              "percentile": 0.55969,
+              "date": "2025-11-13"
             }
           ]
         }
@@ -1608,8 +1625,8 @@
           {
             "cve": "CVE-2024-11053",
             "epss": 0.00337,
-            "percentile": 0.55923,
-            "date": "2025-11-10"
+            "percentile": 0.55969,
+            "date": "2025-11-13"
           }
         ],
         "fix": {
@@ -1653,8 +1670,8 @@
             {
               "cve": "CVE-2024-11053",
               "epss": 0.00337,
-              "percentile": 0.55923,
-              "date": "2025-11-10"
+              "percentile": 0.55969,
+              "date": "2025-11-13"
             }
           ]
         }
@@ -1748,8 +1765,8 @@
           {
             "cve": "CVE-2025-32988",
             "epss": 0.0021,
-            "percentile": 0.43423,
-            "date": "2025-11-10"
+            "percentile": 0.43492,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -1831,8 +1848,8 @@
             {
               "cve": "CVE-2025-32988",
               "epss": 0.0021,
-              "percentile": 0.43423,
-              "date": "2025-11-10"
+              "percentile": 0.43492,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -1926,8 +1943,8 @@
           {
             "cve": "CVE-2025-32990",
             "epss": 0.00209,
-            "percentile": 0.43404,
-            "date": "2025-11-10"
+            "percentile": 0.43474,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -2009,8 +2026,8 @@
             {
               "cve": "CVE-2025-32990",
               "epss": 0.00209,
-              "percentile": 0.43404,
-              "date": "2025-11-10"
+              "percentile": 0.43474,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -2104,8 +2121,8 @@
           {
             "cve": "CVE-2025-6395",
             "epss": 0.00134,
-            "percentile": 0.3376,
-            "date": "2025-11-10"
+            "percentile": 0.33847,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -2175,8 +2192,8 @@
             {
               "cve": "CVE-2025-6395",
               "epss": 0.00134,
-              "percentile": 0.3376,
-              "date": "2025-11-10"
+              "percentile": 0.33847,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -2270,8 +2287,8 @@
           {
             "cve": "CVE-2023-32636",
             "epss": 0.00165,
-            "percentile": 0.37998,
-            "date": "2025-11-10"
+            "percentile": 0.38077,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -2340,8 +2357,8 @@
             {
               "cve": "CVE-2023-32636",
               "epss": 0.00165,
-              "percentile": 0.37998,
-              "date": "2025-11-10"
+              "percentile": 0.38077,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -2438,8 +2455,8 @@
           {
             "cve": "CVE-2025-52099",
             "epss": 0.00139,
-            "percentile": 0.34519,
-            "date": "2025-11-10"
+            "percentile": 0.34611,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -2487,8 +2504,8 @@
             {
               "cve": "CVE-2025-52099",
               "epss": 0.00139,
-              "percentile": 0.34519,
-              "date": "2025-11-10"
+              "percentile": 0.34611,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -2590,8 +2607,8 @@
           {
             "cve": "CVE-2025-4373",
             "epss": 0.00109,
-            "percentile": 0.2981,
-            "date": "2025-11-10"
+            "percentile": 0.29889,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -2665,8 +2682,8 @@
             {
               "cve": "CVE-2025-4373",
               "epss": 0.00109,
-              "percentile": 0.2981,
-              "date": "2025-11-10"
+              "percentile": 0.29889,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -2760,8 +2777,8 @@
           {
             "cve": "CVE-2025-1632",
             "epss": 0.00168,
-            "percentile": 0.38447,
-            "date": "2025-11-10"
+            "percentile": 0.38522,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -2857,8 +2874,8 @@
             {
               "cve": "CVE-2025-1632",
               "epss": 0.00168,
-              "percentile": 0.38447,
-              "date": "2025-11-10"
+              "percentile": 0.38522,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -2938,6 +2955,146 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-12863",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-12863",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "High",
+        "urls": [],
+        "description": "A flaw was found in the xmlSetTreeDoc() function of the libxml2 XML parsing library. This function is responsible for updating document pointers when XML nodes are moved between documents. Due to improper handling of namespace references, a namespace pointer may remain linked to a freed memory region when the original document is destroyed. As a result, subsequent operations that access the namespace can lead to a use-after-free condition, causing an application crash.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "metrics": {
+              "baseScore": 7.5,
+              "exploitabilityScore": 3.9,
+              "impactScore": 3.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-12863",
+            "epss": 0.00068,
+            "percentile": 0.21112,
+            "date": "2025-11-13"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-12863",
+            "cwe": "CWE-416",
+            "source": "secalert@redhat.com",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.051000000000000004
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-12863",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-12863",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-12863",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2413323"
+          ],
+          "description": "A flaw was found in the xmlSetTreeDoc() function of the libxml2 XML parsing library. This function is responsible for updating document pointers when XML nodes are moved between documents. Due to improper handling of namespace references, a namespace pointer may remain linked to a freed memory region when the original document is destroyed. As a result, subsequent operations that access the namespace can lead to a use-after-free condition, causing an application crash.",
+          "cvss": [
+            {
+              "source": "secalert@redhat.com",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-12863",
+              "epss": 0.00068,
+              "percentile": 0.21112,
+              "date": "2025-11-13"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-12863",
+              "cwe": "CWE-416",
+              "source": "secalert@redhat.com",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "libxml2",
+              "version": "0:2.9.13-10.el9_6"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-12863",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "cad7c140298c7fa1",
+        "name": "libxml2",
+        "version": "2.9.13-10.el9_6",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:ae5872a20ea86e6a5ad9645ef9a8b10c3a72f912eda3ccbf7db35c7bfa34be38",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "MIT"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libxml2:libxml2:2.9.13-10.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:libxml2:2.9.13-10.el9_6:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/libxml2@2.9.13-10.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libxml2-2.9.13-10.el9_6.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-27113",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-27113",
         "namespace": "redhat:distro:redhat:9",
@@ -2961,8 +3118,8 @@
           {
             "cve": "CVE-2025-27113",
             "epss": 0.00153,
-            "percentile": 0.36473,
-            "date": "2025-11-10"
+            "percentile": 0.3655,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -3036,8 +3193,8 @@
             {
               "cve": "CVE-2025-27113",
               "epss": 0.00153,
-              "percentile": 0.36473,
-              "date": "2025-11-10"
+              "percentile": 0.3655,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -3134,8 +3291,8 @@
           {
             "cve": "CVE-2024-13176",
             "epss": 0.00115,
-            "percentile": 0.30788,
-            "date": "2025-11-10"
+            "percentile": 0.30862,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -3193,8 +3350,8 @@
             {
               "cve": "CVE-2024-13176",
               "epss": 0.00115,
-              "percentile": 0.30788,
-              "date": "2025-11-10"
+              "percentile": 0.30862,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -3285,8 +3442,8 @@
           {
             "cve": "CVE-2024-13176",
             "epss": 0.00115,
-            "percentile": 0.30788,
-            "date": "2025-11-10"
+            "percentile": 0.30862,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -3344,8 +3501,8 @@
             {
               "cve": "CVE-2024-13176",
               "epss": 0.00115,
-              "percentile": 0.30788,
-              "date": "2025-11-10"
+              "percentile": 0.30862,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -3447,8 +3604,8 @@
           {
             "cve": "CVE-2025-32989",
             "epss": 0.00084,
-            "percentile": 0.25095,
-            "date": "2025-11-10"
+            "percentile": 0.25123,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -3516,8 +3673,8 @@
             {
               "cve": "CVE-2025-32989",
               "epss": 0.00084,
-              "percentile": 0.25095,
-              "date": "2025-11-10"
+              "percentile": 0.25123,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -3588,146 +3745,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-12863",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-12863",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "High",
-        "urls": [],
-        "description": "A flaw was found in the xmlSetTreeDoc() function of the libxml2 XML parsing library. This function is responsible for updating document pointers when XML nodes are moved between documents. Due to improper handling of namespace references, a namespace pointer may remain linked to a freed memory region when the original document is destroyed. As a result, subsequent operations that access the namespace can lead to a use-after-free condition, causing an application crash.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "metrics": {
-              "baseScore": 7.5,
-              "exploitabilityScore": 3.9,
-              "impactScore": 3.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-12863",
-            "epss": 0.00052,
-            "percentile": 0.15936,
-            "date": "2025-11-10"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-12863",
-            "cwe": "CWE-416",
-            "source": "secalert@redhat.com",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.03899999999999999
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-12863",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-12863",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2025-12863",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2413323"
-          ],
-          "description": "A flaw was found in the xmlSetTreeDoc() function of the libxml2 XML parsing library. This function is responsible for updating document pointers when XML nodes are moved between documents. Due to improper handling of namespace references, a namespace pointer may remain linked to a freed memory region when the original document is destroyed. As a result, subsequent operations that access the namespace can lead to a use-after-free condition, causing an application crash.",
-          "cvss": [
-            {
-              "source": "secalert@redhat.com",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-12863",
-              "epss": 0.00052,
-              "percentile": 0.15936,
-              "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-12863",
-              "cwe": "CWE-416",
-              "source": "secalert@redhat.com",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "libxml2",
-              "version": "0:2.9.13-10.el9_6"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-12863",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "cad7c140298c7fa1",
-        "name": "libxml2",
-        "version": "2.9.13-10.el9_6",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:ae5872a20ea86e6a5ad9645ef9a8b10c3a72f912eda3ccbf7db35c7bfa34be38",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "MIT"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libxml2:libxml2:2.9.13-10.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:libxml2:2.9.13-10.el9_6:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/libxml2@2.9.13-10.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libxml2-2.9.13-10.el9_6.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-9086",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9086",
         "namespace": "redhat:distro:redhat:9",
@@ -3751,8 +3768,8 @@
           {
             "cve": "CVE-2025-9086",
             "epss": 0.00073,
-            "percentile": 0.2251,
-            "date": "2025-11-10"
+            "percentile": 0.22607,
+            "date": "2025-11-13"
           }
         ],
         "fix": {
@@ -3793,8 +3810,8 @@
             {
               "cve": "CVE-2025-9086",
               "epss": 0.00073,
-              "percentile": 0.2251,
-              "date": "2025-11-10"
+              "percentile": 0.22607,
+              "date": "2025-11-13"
             }
           ]
         }
@@ -3888,8 +3905,8 @@
           {
             "cve": "CVE-2025-9086",
             "epss": 0.00073,
-            "percentile": 0.2251,
-            "date": "2025-11-10"
+            "percentile": 0.22607,
+            "date": "2025-11-13"
           }
         ],
         "fix": {
@@ -3930,8 +3947,8 @@
             {
               "cve": "CVE-2025-9086",
               "epss": 0.00073,
-              "percentile": 0.2251,
-              "date": "2025-11-10"
+              "percentile": 0.22607,
+              "date": "2025-11-13"
             }
           ]
         }
@@ -4025,8 +4042,8 @@
           {
             "cve": "CVE-2022-29458",
             "epss": 0.00079,
-            "percentile": 0.23948,
-            "date": "2025-11-10"
+            "percentile": 0.24003,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -4127,8 +4144,8 @@
             {
               "cve": "CVE-2022-29458",
               "epss": 0.00079,
-              "percentile": 0.23948,
-              "date": "2025-11-10"
+              "percentile": 0.24003,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -4239,8 +4256,8 @@
           {
             "cve": "CVE-2022-29458",
             "epss": 0.00079,
-            "percentile": 0.23948,
-            "date": "2025-11-10"
+            "percentile": 0.24003,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -4341,8 +4358,8 @@
             {
               "cve": "CVE-2022-29458",
               "epss": 0.00079,
-              "percentile": 0.23948,
-              "date": "2025-11-10"
+              "percentile": 0.24003,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -4453,8 +4470,8 @@
           {
             "cve": "CVE-2025-4207",
             "epss": 0.00065,
-            "percentile": 0.20358,
-            "date": "2025-11-10"
+            "percentile": 0.20431,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -4502,8 +4519,8 @@
             {
               "cve": "CVE-2025-4207",
               "epss": 0.00065,
-              "percentile": 0.20358,
-              "date": "2025-11-10"
+              "percentile": 0.20431,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -4594,8 +4611,8 @@
           {
             "cve": "CVE-2023-45322",
             "epss": 0.00076,
-            "percentile": 0.23275,
-            "date": "2025-11-10"
+            "percentile": 0.23348,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -4647,8 +4664,8 @@
             {
               "cve": "CVE-2023-45322",
               "epss": 0.00076,
-              "percentile": 0.23275,
-              "date": "2025-11-10"
+              "percentile": 0.23348,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -4739,8 +4756,8 @@
           {
             "cve": "CVE-2025-7425",
             "epss": 0.00039,
-            "percentile": 0.11325,
-            "date": "2025-11-10"
+            "percentile": 0.11388,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -4834,8 +4851,8 @@
             {
               "cve": "CVE-2025-7425",
               "epss": 0.00039,
-              "percentile": 0.11325,
-              "date": "2025-11-10"
+              "percentile": 0.11388,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -4929,8 +4946,8 @@
           {
             "cve": "CVE-2025-5914",
             "epss": 0.00038,
-            "percentile": 0.11033,
-            "date": "2025-11-10"
+            "percentile": 0.11111,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -5029,8 +5046,8 @@
             {
               "cve": "CVE-2025-5914",
               "epss": 0.00038,
-              "percentile": 0.11033,
-              "date": "2025-11-10"
+              "percentile": 0.11111,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -5124,8 +5141,8 @@
           {
             "cve": "CVE-2025-6965",
             "epss": 0.00037,
-            "percentile": 0.10529,
-            "date": "2025-11-10"
+            "percentile": 0.10608,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -5138,21 +5155,21 @@
         ],
         "fix": {
           "versions": [
-            "0:3.34.1-8.el9_6"
+            "0:3.34.1-9.el9_7"
           ],
           "state": "fixed",
           "available": [
             {
-              "version": "0:3.34.1-8.el9_6",
-              "date": "2025-07-30",
+              "version": "0:3.34.1-9.el9_7",
+              "date": "2025-11-12",
               "kind": "first-observed"
             }
           ]
         },
         "advisories": [
           {
-            "id": "RHSA-2025:11992",
-            "link": "https://access.redhat.com/errata/RHSA-2025:11992"
+            "id": "RHSA-2025:20936",
+            "link": "https://access.redhat.com/errata/RHSA-2025:20936"
           }
         ],
         "risk": 0.02812
@@ -5201,8 +5218,8 @@
             {
               "cve": "CVE-2025-6965",
               "epss": 0.00037,
-              "percentile": 0.10529,
-              "date": "2025-11-10"
+              "percentile": 0.10608,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -5232,10 +5249,10 @@
           },
           "found": {
             "vulnerabilityID": "CVE-2025-6965",
-            "versionConstraint": "< 0:3.34.1-8.el9_6 (rpm)"
+            "versionConstraint": "< 0:3.34.1-9.el9_7 (rpm)"
           },
           "fix": {
-            "suggestedVersion": "0:3.34.1-8.el9_6"
+            "suggestedVersion": "0:3.34.1-9.el9_7"
           }
         }
       ],
@@ -5307,8 +5324,8 @@
           {
             "cve": "CVE-2022-41409",
             "epss": 0.00061,
-            "percentile": 0.18976,
-            "date": "2025-11-10"
+            "percentile": 0.19053,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -5357,8 +5374,8 @@
             {
               "cve": "CVE-2022-41409",
               "epss": 0.00061,
-              "percentile": 0.18976,
-              "date": "2025-11-10"
+              "percentile": 0.19053,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -5449,8 +5466,8 @@
           {
             "cve": "CVE-2022-41409",
             "epss": 0.00061,
-            "percentile": 0.18976,
-            "date": "2025-11-10"
+            "percentile": 0.19053,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -5499,8 +5516,8 @@
             {
               "cve": "CVE-2022-41409",
               "epss": 0.00061,
-              "percentile": 0.18976,
-              "date": "2025-11-10"
+              "percentile": 0.19053,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -5601,9 +5618,9 @@
         "epss": [
           {
             "cve": "CVE-2023-50495",
-            "epss": 0.00052,
-            "percentile": 0.1617,
-            "date": "2025-11-10"
+            "epss": 0.00051,
+            "percentile": 0.15746,
+            "date": "2025-11-13"
           }
         ],
         "fix": {
@@ -5611,7 +5628,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0247
+        "risk": 0.024225
       },
       "relatedVulnerabilities": [
         {
@@ -5648,9 +5665,9 @@
           "epss": [
             {
               "cve": "CVE-2023-50495",
-              "epss": 0.00052,
-              "percentile": 0.1617,
-              "date": "2025-11-10"
+              "epss": 0.00051,
+              "percentile": 0.15746,
+              "date": "2025-11-13"
             }
           ]
         }
@@ -5743,9 +5760,9 @@
         "epss": [
           {
             "cve": "CVE-2023-50495",
-            "epss": 0.00052,
-            "percentile": 0.1617,
-            "date": "2025-11-10"
+            "epss": 0.00051,
+            "percentile": 0.15746,
+            "date": "2025-11-13"
           }
         ],
         "fix": {
@@ -5753,7 +5770,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0247
+        "risk": 0.024225
       },
       "relatedVulnerabilities": [
         {
@@ -5790,9 +5807,9 @@
           "epss": [
             {
               "cve": "CVE-2023-50495",
-              "epss": 0.00052,
-              "percentile": 0.1617,
-              "date": "2025-11-10"
+              "epss": 0.00051,
+              "percentile": 0.15746,
+              "date": "2025-11-13"
             }
           ]
         }
@@ -5863,147 +5880,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-3360",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-3360",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
-        "urls": [],
-        "description": "A flaw was found in GLib. An integer overflow and buffer under-read occur when parsing a long invalid ISO 8601 timestamp with the g_date_time_new_from_iso8601() function.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
-            "metrics": {
-              "baseScore": 3.7,
-              "exploitabilityScore": 2.3,
-              "impactScore": 1.5
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-3360",
-            "epss": 0.00066,
-            "percentile": 0.20581,
-            "date": "2025-11-10"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-3360",
-            "cwe": "CWE-190",
-            "source": "secalert@redhat.com",
-            "type": "Secondary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.022109999999999998
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-3360",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-3360",
-          "namespace": "nvd:cpe",
-          "severity": "Low",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2025-3360",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2357754",
-            "https://lists.debian.org/debian-lts-announce/2025/04/msg00024.html"
-          ],
-          "description": "A flaw was found in GLib. An integer overflow and buffer under-read occur when parsing a long invalid ISO 8601 timestamp with the g_date_time_new_from_iso8601() function.",
-          "cvss": [
-            {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
-              "metrics": {
-                "baseScore": 3.7,
-                "exploitabilityScore": 2.3,
-                "impactScore": 1.5
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-3360",
-              "epss": 0.00066,
-              "percentile": 0.20581,
-              "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-3360",
-              "cwe": "CWE-190",
-              "source": "secalert@redhat.com",
-              "type": "Secondary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "glib2",
-              "version": "0:2.68.4-16.el9"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-3360",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "04574712e6ead30e",
-        "name": "glib2",
-        "version": "2.68.4-16.el9",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:ae5872a20ea86e6a5ad9645ef9a8b10c3a72f912eda3ccbf7db35c7bfa34be38",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "LGPLv2+"
-        ],
-        "cpes": [
-          "cpe:2.3:a:redhat:glib2:2.68.4-16.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:glib2:glib2:2.68.4-16.el9:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/glib2@2.68.4-16.el9?arch=x86_64&distro=rhel-9.6&upstream=glib2-2.68.4-16.el9.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2022-27943",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2022-27943",
         "namespace": "redhat:distro:redhat:9",
@@ -6027,8 +5903,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.1529,
-            "date": "2025-11-10"
+            "percentile": 0.15385,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -6091,8 +5967,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.1529,
-              "date": "2025-11-10"
+              "percentile": 0.15385,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -6188,8 +6064,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.1529,
-            "date": "2025-11-10"
+            "percentile": 0.15385,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -6252,8 +6128,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.1529,
-              "date": "2025-11-10"
+              "percentile": 0.15385,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -6326,6 +6202,147 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-3360",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-3360",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "A flaw was found in GLib. An integer overflow and buffer under-read occur when parsing a long invalid ISO 8601 timestamp with the g_date_time_new_from_iso8601() function.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "metrics": {
+              "baseScore": 3.7,
+              "exploitabilityScore": 2.3,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-3360",
+            "epss": 0.00063,
+            "percentile": 0.19691,
+            "date": "2025-11-13"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-3360",
+            "cwe": "CWE-190",
+            "source": "secalert@redhat.com",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.021105
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-3360",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-3360",
+          "namespace": "nvd:cpe",
+          "severity": "Low",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-3360",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2357754",
+            "https://lists.debian.org/debian-lts-announce/2025/04/msg00024.html"
+          ],
+          "description": "A flaw was found in GLib. An integer overflow and buffer under-read occur when parsing a long invalid ISO 8601 timestamp with the g_date_time_new_from_iso8601() function.",
+          "cvss": [
+            {
+              "source": "secalert@redhat.com",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "metrics": {
+                "baseScore": 3.7,
+                "exploitabilityScore": 2.3,
+                "impactScore": 1.5
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-3360",
+              "epss": 0.00063,
+              "percentile": 0.19691,
+              "date": "2025-11-13"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-3360",
+              "cwe": "CWE-190",
+              "source": "secalert@redhat.com",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "glib2",
+              "version": "0:2.68.4-16.el9"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-3360",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "04574712e6ead30e",
+        "name": "glib2",
+        "version": "2.68.4-16.el9",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:ae5872a20ea86e6a5ad9645ef9a8b10c3a72f912eda3ccbf7db35c7bfa34be38",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "LGPLv2+"
+        ],
+        "cpes": [
+          "cpe:2.3:a:redhat:glib2:2.68.4-16.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:glib2:glib2:2.68.4-16.el9:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/glib2@2.68.4-16.el9?arch=x86_64&distro=rhel-9.6&upstream=glib2-2.68.4-16.el9.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-32414",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-32414",
         "namespace": "redhat:distro:redhat:9",
@@ -6349,8 +6366,8 @@
           {
             "cve": "CVE-2025-32414",
             "epss": 0.00039,
-            "percentile": 0.11433,
-            "date": "2025-11-10"
+            "percentile": 0.11509,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -6430,8 +6447,8 @@
             {
               "cve": "CVE-2025-32414",
               "epss": 0.00039,
-              "percentile": 0.11433,
-              "date": "2025-11-10"
+              "percentile": 0.11509,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -6531,8 +6548,8 @@
           {
             "cve": "CVE-2025-4598",
             "epss": 0.0004,
-            "percentile": 0.11644,
-            "date": "2025-11-10"
+            "percentile": 0.11723,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -6588,8 +6605,8 @@
             {
               "cve": "CVE-2025-4598",
               "epss": 0.0004,
-              "percentile": 0.11644,
-              "date": "2025-11-10"
+              "percentile": 0.11723,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -6691,8 +6708,8 @@
           {
             "cve": "CVE-2025-9230",
             "epss": 0.00034,
-            "percentile": 0.09174,
-            "date": "2025-11-10"
+            "percentile": 0.09274,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -6710,10 +6727,24 @@
           }
         ],
         "fix": {
-          "versions": [],
-          "state": "not-fixed"
+          "versions": [
+            "1:3.5.1-4.el9_7"
+          ],
+          "state": "fixed",
+          "available": [
+            {
+              "version": "1:3.5.1-4.el9_7",
+              "date": "2025-11-14",
+              "kind": "first-observed"
+            }
+          ]
         },
-        "advisories": [],
+        "advisories": [
+          {
+            "id": "RHSA-2025:21255",
+            "link": "https://access.redhat.com/errata/RHSA-2025:21255"
+          }
+        ],
         "risk": 0.01802
       },
       "relatedVulnerabilities": [
@@ -6753,8 +6784,8 @@
             {
               "cve": "CVE-2025-9230",
               "epss": 0.00034,
-              "percentile": 0.09174,
-              "date": "2025-11-10"
+              "percentile": 0.09274,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -6790,7 +6821,10 @@
           },
           "found": {
             "vulnerabilityID": "CVE-2025-9230",
-            "versionConstraint": "none (unknown)"
+            "versionConstraint": "< 1:3.5.1-4.el9_7 (rpm)"
+          },
+          "fix": {
+            "suggestedVersion": "1:3.5.1-4.el9_7"
           }
         }
       ],
@@ -6851,8 +6885,8 @@
           {
             "cve": "CVE-2025-9230",
             "epss": 0.00034,
-            "percentile": 0.09174,
-            "date": "2025-11-10"
+            "percentile": 0.09274,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -6870,10 +6904,24 @@
           }
         ],
         "fix": {
-          "versions": [],
-          "state": "not-fixed"
+          "versions": [
+            "1:3.5.1-4.el9_7"
+          ],
+          "state": "fixed",
+          "available": [
+            {
+              "version": "1:3.5.1-4.el9_7",
+              "date": "2025-11-14",
+              "kind": "first-observed"
+            }
+          ]
         },
-        "advisories": [],
+        "advisories": [
+          {
+            "id": "RHSA-2025:21255",
+            "link": "https://access.redhat.com/errata/RHSA-2025:21255"
+          }
+        ],
         "risk": 0.01802
       },
       "relatedVulnerabilities": [
@@ -6913,8 +6961,8 @@
             {
               "cve": "CVE-2025-9230",
               "epss": 0.00034,
-              "percentile": 0.09174,
-              "date": "2025-11-10"
+              "percentile": 0.09274,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -6950,7 +6998,10 @@
           },
           "found": {
             "vulnerabilityID": "CVE-2025-9230",
-            "versionConstraint": "none (unknown)"
+            "versionConstraint": "< 1:3.5.1-4.el9_7 (rpm)"
+          },
+          "fix": {
+            "suggestedVersion": "1:3.5.1-4.el9_7"
           }
         }
       ],
@@ -6999,172 +7050,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2023-4156",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2023-4156",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
-        "urls": [],
-        "description": "A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
-            "metrics": {
-              "baseScore": 6.1,
-              "exploitabilityScore": 1.9,
-              "impactScore": 4.3
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2023-4156",
-            "epss": 0.00031,
-            "percentile": 0.07981,
-            "date": "2025-11-10"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2023-4156",
-            "cwe": "CWE-125",
-            "source": "secalert@redhat.com",
-            "type": "Secondary"
-          },
-          {
-            "cve": "CVE-2023-4156",
-            "cwe": "CWE-125",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.014105
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2023-4156",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-4156",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2023-4156",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2215930",
-            "https://access.redhat.com/security/cve/CVE-2023-4156",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2215930"
-          ],
-          "description": "A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
-              "metrics": {
-                "baseScore": 7.1,
-                "exploitabilityScore": 1.9,
-                "impactScore": 5.2
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
-              "metrics": {
-                "baseScore": 4.4,
-                "exploitabilityScore": 1.9,
-                "impactScore": 2.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2023-4156",
-              "epss": 0.00031,
-              "percentile": 0.07981,
-              "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2023-4156",
-              "cwe": "CWE-125",
-              "source": "secalert@redhat.com",
-              "type": "Secondary"
-            },
-            {
-              "cve": "CVE-2023-4156",
-              "cwe": "CWE-125",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "gawk",
-              "version": "0:5.1.0-6.el9"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2023-4156",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "9dcf052ea12fdad7",
-        "name": "gawk",
-        "version": "5.1.0-6.el9",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:ae5872a20ea86e6a5ad9645ef9a8b10c3a72f912eda3ccbf7db35c7bfa34be38",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "GPLv3+ and GPLv2+ and LGPLv2+ and BSD"
-        ],
-        "cpes": [
-          "cpe:2.3:a:redhat:gawk:5.1.0-6.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:gawk:gawk:5.1.0-6.el9:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/gawk@5.1.0-6.el9?arch=x86_64&distro=rhel-9.6&upstream=gawk-5.1.0-6.el9.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-32415",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-32415",
         "namespace": "redhat:distro:redhat:9",
@@ -7187,9 +7072,9 @@
         "epss": [
           {
             "cve": "CVE-2025-32415",
-            "epss": 0.00022,
-            "percentile": 0.04648,
-            "date": "2025-11-10"
+            "epss": 0.00024,
+            "percentile": 0.05262,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -7225,7 +7110,7 @@
             "link": "https://access.redhat.com/errata/RHSA-2025:13428"
           }
         ],
-        "risk": 0.01375
+        "risk": 0.015000000000000001
       },
       "relatedVulnerabilities": [
         {
@@ -7268,9 +7153,9 @@
           "epss": [
             {
               "cve": "CVE-2025-32415",
-              "epss": 0.00022,
-              "percentile": 0.04648,
-              "date": "2025-11-10"
+              "epss": 0.00024,
+              "percentile": 0.05262,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -7347,6 +7232,172 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2023-4156",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2023-4156",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+            "metrics": {
+              "baseScore": 6.1,
+              "exploitabilityScore": 1.9,
+              "impactScore": 4.3
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2023-4156",
+            "epss": 0.00031,
+            "percentile": 0.08029,
+            "date": "2025-11-13"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2023-4156",
+            "cwe": "CWE-125",
+            "source": "secalert@redhat.com",
+            "type": "Secondary"
+          },
+          {
+            "cve": "CVE-2023-4156",
+            "cwe": "CWE-125",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.014105
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2023-4156",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2023-4156",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2023-4156",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2215930",
+            "https://access.redhat.com/security/cve/CVE-2023-4156",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2215930"
+          ],
+          "description": "A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
+              "metrics": {
+                "baseScore": 7.1,
+                "exploitabilityScore": 1.9,
+                "impactScore": 5.2
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "secalert@redhat.com",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+              "metrics": {
+                "baseScore": 4.4,
+                "exploitabilityScore": 1.9,
+                "impactScore": 2.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2023-4156",
+              "epss": 0.00031,
+              "percentile": 0.08029,
+              "date": "2025-11-13"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2023-4156",
+              "cwe": "CWE-125",
+              "source": "secalert@redhat.com",
+              "type": "Secondary"
+            },
+            {
+              "cve": "CVE-2023-4156",
+              "cwe": "CWE-125",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "gawk",
+              "version": "0:5.1.0-6.el9"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2023-4156",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "9dcf052ea12fdad7",
+        "name": "gawk",
+        "version": "5.1.0-6.el9",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:ae5872a20ea86e6a5ad9645ef9a8b10c3a72f912eda3ccbf7db35c7bfa34be38",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPLv3+ and GPLv2+ and LGPLv2+ and BSD"
+        ],
+        "cpes": [
+          "cpe:2.3:a:redhat:gawk:5.1.0-6.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:gawk:gawk:5.1.0-6.el9:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/gawk@5.1.0-6.el9?arch=x86_64&distro=rhel-9.6&upstream=gawk-5.1.0-6.el9.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-9714",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9714",
         "namespace": "redhat:distro:redhat:9",
@@ -7370,8 +7421,8 @@
           {
             "cve": "CVE-2025-9714",
             "epss": 0.00021,
-            "percentile": 0.04196,
-            "date": "2025-11-10"
+            "percentile": 0.04291,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -7430,8 +7481,8 @@
             {
               "cve": "CVE-2025-9714",
               "epss": 0.00021,
-              "percentile": 0.04196,
-              "date": "2025-11-10"
+              "percentile": 0.04291,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -7521,9 +7572,9 @@
         "epss": [
           {
             "cve": "CVE-2025-10966",
-            "epss": 0.00016,
-            "percentile": 0.02652,
-            "date": "2025-11-10"
+            "epss": 0.0002,
+            "percentile": 0.03921,
+            "date": "2025-11-13"
           }
         ],
         "fix": {
@@ -7531,7 +7582,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.008720000000000002
+        "risk": 0.0109
       },
       "relatedVulnerabilities": [
         {
@@ -7563,9 +7614,9 @@
           "epss": [
             {
               "cve": "CVE-2025-10966",
-              "epss": 0.00016,
-              "percentile": 0.02652,
-              "date": "2025-11-10"
+              "epss": 0.0002,
+              "percentile": 0.03921,
+              "date": "2025-11-13"
             }
           ]
         }
@@ -7658,9 +7709,9 @@
         "epss": [
           {
             "cve": "CVE-2025-10966",
-            "epss": 0.00016,
-            "percentile": 0.02652,
-            "date": "2025-11-10"
+            "epss": 0.0002,
+            "percentile": 0.03921,
+            "date": "2025-11-13"
           }
         ],
         "fix": {
@@ -7668,7 +7719,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.008720000000000002
+        "risk": 0.0109
       },
       "relatedVulnerabilities": [
         {
@@ -7700,9 +7751,9 @@
           "epss": [
             {
               "cve": "CVE-2025-10966",
-              "epss": 0.00016,
-              "percentile": 0.02652,
-              "date": "2025-11-10"
+              "epss": 0.0002,
+              "percentile": 0.03921,
+              "date": "2025-11-13"
             }
           ]
         }
@@ -7773,6 +7824,158 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-60753",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-60753",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Medium",
+        "urls": [],
+        "description": "A vulnerability in apply_substitution() function in libarchive's bsdtar allows crafted -s substitution rules to repeatedly match a zero-length substring and append replacements without advancing the input pointer. When the rule uses the global /g flag (or an explicitly empty pattern), this leads to unbounded output allocation and eventual process OOM (Denial of Service). Upgrade to libarchive 3.8.1 or apply a patch that prevents zero-length match loops or rejects empty patterns.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+            "metrics": {
+              "baseScore": 5.5,
+              "exploitabilityScore": 1.9,
+              "impactScore": 3.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-60753",
+            "epss": 0.00019,
+            "percentile": 0.03684,
+            "date": "2025-11-13"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-60753",
+            "cwe": "CWE-400",
+            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+            "type": "Secondary"
+          },
+          {
+            "cve": "CVE-2025-60753",
+            "cwe": "CWE-835",
+            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.009975000000000001
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-60753",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-60753",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://github.com/Papya-j/CVE/tree/main/CVE-2025-60753",
+            "https://github.com/libarchive/libarchive/issues/2725"
+          ],
+          "description": "An issue was discovered in libarchive bsdtar before version 3.8.1 in function apply_substitution in file tar/subst.c when processing crafted -s substitution rules. This can cause unbounded memory allocation and lead to denial of service (Out-of-Memory crash).",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+              "metrics": {
+                "baseScore": 5.5,
+                "exploitabilityScore": 1.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-60753",
+              "epss": 0.00019,
+              "percentile": 0.03684,
+              "date": "2025-11-13"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-60753",
+              "cwe": "CWE-400",
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary"
+            },
+            {
+              "cve": "CVE-2025-60753",
+              "cwe": "CWE-835",
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "libarchive",
+              "version": "0:3.5.3-5.el9_6"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-60753",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "026da1974d66f84e",
+        "name": "libarchive",
+        "version": "3.5.3-5.el9_6",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:ae5872a20ea86e6a5ad9645ef9a8b10c3a72f912eda3ccbf7db35c7bfa34be38",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libarchive:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libarchive-3.5.3-5.el9_6.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-9232",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9232",
         "namespace": "redhat:distro:redhat:9",
@@ -7796,8 +7999,8 @@
           {
             "cve": "CVE-2025-9232",
             "epss": 0.00025,
-            "percentile": 0.0574,
-            "date": "2025-11-10"
+            "percentile": 0.05847,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -7849,8 +8052,8 @@
             {
               "cve": "CVE-2025-9232",
               "epss": 0.00025,
-              "percentile": 0.0574,
-              "date": "2025-11-10"
+              "percentile": 0.05847,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -7941,8 +8144,8 @@
           {
             "cve": "CVE-2025-9232",
             "epss": 0.00025,
-            "percentile": 0.0574,
-            "date": "2025-11-10"
+            "percentile": 0.05847,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -7994,8 +8197,8 @@
             {
               "cve": "CVE-2025-9232",
               "epss": 0.00025,
-              "percentile": 0.0574,
-              "date": "2025-11-10"
+              "percentile": 0.05847,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -8097,8 +8300,8 @@
           {
             "cve": "CVE-2025-5278",
             "epss": 0.00016,
-            "percentile": 0.02532,
-            "date": "2025-11-10"
+            "percentile": 0.02609,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -8152,8 +8355,8 @@
             {
               "cve": "CVE-2025-5278",
               "epss": 0.00016,
-              "percentile": 0.02532,
-              "date": "2025-11-10"
+              "percentile": 0.02609,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -8232,159 +8435,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-6170",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-6170",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
-        "urls": [],
-        "description": "A flaw was found in the interactive shell of the xmllint command-line tool, used for parsing XML files. When a user inputs an overly long command, the program does not check the input size properly, which can cause it to crash. This issue might allow attackers to run harmful code in rare configurations without modern protections.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
-            "metrics": {
-              "baseScore": 2.5,
-              "exploitabilityScore": 1.1,
-              "impactScore": 1.5
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-6170",
-            "epss": 0.00027,
-            "percentile": 0.06144,
-            "date": "2025-11-10"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-6170",
-            "cwe": "CWE-121",
-            "source": "secalert@redhat.com",
-            "type": "Secondary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.007425
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-6170",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-6170",
-          "namespace": "nvd:cpe",
-          "severity": "Low",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2025-6170",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2372952",
-            "https://lists.debian.org/debian-lts-announce/2025/07/msg00014.html"
-          ],
-          "description": "A flaw was found in the interactive shell of the xmllint command-line tool, used for parsing XML files. When a user inputs an overly long command, the program does not check the input size properly, which can cause it to crash. This issue might allow attackers to run harmful code in rare configurations without modern protections.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
-              "metrics": {
-                "baseScore": 2.5,
-                "exploitabilityScore": 1.1,
-                "impactScore": 1.5
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
-              "metrics": {
-                "baseScore": 2.5,
-                "exploitabilityScore": 1.1,
-                "impactScore": 1.5
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-6170",
-              "epss": 0.00027,
-              "percentile": 0.06144,
-              "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-6170",
-              "cwe": "CWE-121",
-              "source": "secalert@redhat.com",
-              "type": "Secondary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "libxml2",
-              "version": "0:2.9.13-10.el9_6"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-6170",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "cad7c140298c7fa1",
-        "name": "libxml2",
-        "version": "2.9.13-10.el9_6",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:ae5872a20ea86e6a5ad9645ef9a8b10c3a72f912eda3ccbf7db35c7bfa34be38",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "MIT"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libxml2:libxml2:2.9.13-10.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:libxml2:2.9.13-10.el9_6:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/libxml2@2.9.13-10.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libxml2-2.9.13-10.el9_6.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2023-30571",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2023-30571",
         "namespace": "redhat:distro:redhat:9",
@@ -8408,8 +8458,8 @@
           {
             "cve": "CVE-2023-30571",
             "epss": 0.00014,
-            "percentile": 0.01858,
-            "date": "2025-11-10"
+            "percentile": 0.01896,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -8476,8 +8526,8 @@
             {
               "cve": "CVE-2023-30571",
               "epss": 0.00014,
-              "percentile": 0.01858,
-              "date": "2025-11-10"
+              "percentile": 0.01896,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -8574,8 +8624,8 @@
           {
             "cve": "CVE-2024-0232",
             "epss": 0.00018,
-            "percentile": 0.03293,
-            "date": "2025-11-10"
+            "percentile": 0.03363,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -8644,8 +8694,8 @@
             {
               "cve": "CVE-2024-0232",
               "epss": 0.00018,
-              "percentile": 0.03293,
-              "date": "2025-11-10"
+              "percentile": 0.03363,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -8730,158 +8780,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-60753",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-60753",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Medium",
-        "urls": [],
-        "description": "A vulnerability in apply_substitution() function in libarchive's bsdtar allows crafted -s substitution rules to repeatedly match a zero-length substring and append replacements without advancing the input pointer. When the rule uses the global /g flag (or an explicitly empty pattern), this leads to unbounded output allocation and eventual process OOM (Denial of Service). Upgrade to libarchive 3.8.1 or apply a patch that prevents zero-length match loops or rejects empty patterns.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-            "metrics": {
-              "baseScore": 5.5,
-              "exploitabilityScore": 1.9,
-              "impactScore": 3.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-60753",
-            "epss": 0.00013,
-            "percentile": 0.01468,
-            "date": "2025-11-10"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-60753",
-            "cwe": "CWE-400",
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary"
-          },
-          {
-            "cve": "CVE-2025-60753",
-            "cwe": "CWE-835",
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.0068249999999999995
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-60753",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-60753",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://github.com/Papya-j/CVE/tree/main/CVE-2025-60753",
-            "https://github.com/libarchive/libarchive/issues/2725"
-          ],
-          "description": "An issue was discovered in libarchive bsdtar before version 3.8.1 in function apply_substitution in file tar/subst.c when processing crafted -s substitution rules. This can cause unbounded memory allocation and lead to denial of service (Out-of-Memory crash).",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-              "metrics": {
-                "baseScore": 5.5,
-                "exploitabilityScore": 1.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-60753",
-              "epss": 0.00013,
-              "percentile": 0.01468,
-              "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-60753",
-              "cwe": "CWE-400",
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary"
-            },
-            {
-              "cve": "CVE-2025-60753",
-              "cwe": "CWE-835",
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "libarchive",
-              "version": "0:3.5.3-5.el9_6"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-60753",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "026da1974d66f84e",
-        "name": "libarchive",
-        "version": "3.5.3-5.el9_6",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:ae5872a20ea86e6a5ad9645ef9a8b10c3a72f912eda3ccbf7db35c7bfa34be38",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "BSD"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libarchive:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libarchive-3.5.3-5.el9_6.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-30258",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-30258",
         "namespace": "redhat:distro:redhat:9",
@@ -8904,9 +8802,9 @@
         "epss": [
           {
             "cve": "CVE-2025-30258",
-            "epss": 0.00023,
-            "percentile": 0.04954,
-            "date": "2025-11-10"
+            "epss": 0.00022,
+            "percentile": 0.04554,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -8922,7 +8820,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.006555000000000001
+        "risk": 0.00627
       },
       "relatedVulnerabilities": [
         {
@@ -8965,9 +8863,9 @@
           "epss": [
             {
               "cve": "CVE-2025-30258",
-              "epss": 0.00023,
-              "percentile": 0.04954,
-              "date": "2025-11-10"
+              "epss": 0.00022,
+              "percentile": 0.04554,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -9058,8 +8956,8 @@
           {
             "cve": "CVE-2025-5915",
             "epss": 0.00018,
-            "percentile": 0.03187,
-            "date": "2025-11-10"
+            "percentile": 0.03248,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -9120,8 +9018,8 @@
             {
               "cve": "CVE-2025-5915",
               "epss": 0.00018,
-              "percentile": 0.03187,
-              "date": "2025-11-10"
+              "percentile": 0.03248,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -9189,6 +9087,160 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-5916",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5916",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
+            "metrics": {
+              "baseScore": 3.9,
+              "exploitabilityScore": 1.4,
+              "impactScore": 2.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-5916",
+            "epss": 0.00016,
+            "percentile": 0.02565,
+            "date": "2025-11-13"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-5916",
+            "cwe": "CWE-190",
+            "source": "secalert@redhat.com",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.00552
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-5916",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5916",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-5916",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2370872",
+            "https://github.com/libarchive/libarchive/pull/2568",
+            "https://github.com/libarchive/libarchive/releases/tag/v3.8.0"
+          ],
+          "description": "A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:H",
+              "metrics": {
+                "baseScore": 5.6,
+                "exploitabilityScore": 1.4,
+                "impactScore": 4.3
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "secalert@redhat.com",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
+              "metrics": {
+                "baseScore": 3.9,
+                "exploitabilityScore": 1.4,
+                "impactScore": 2.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-5916",
+              "epss": 0.00016,
+              "percentile": 0.02565,
+              "date": "2025-11-13"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-5916",
+              "cwe": "CWE-190",
+              "source": "secalert@redhat.com",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "libarchive",
+              "version": "0:3.5.3-5.el9_6"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-5916",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "026da1974d66f84e",
+        "name": "libarchive",
+        "version": "3.5.3-5.el9_6",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:ae5872a20ea86e6a5ad9645ef9a8b10c3a72f912eda3ccbf7db35c7bfa34be38",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libarchive:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libarchive-3.5.3-5.el9_6.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2022-3219",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2022-3219",
         "namespace": "redhat:distro:redhat:9",
@@ -9212,8 +9264,8 @@
           {
             "cve": "CVE-2022-3219",
             "epss": 0.00012,
-            "percentile": 0.01323,
-            "date": "2025-11-10"
+            "percentile": 0.01354,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -9288,8 +9340,8 @@
             {
               "cve": "CVE-2022-3219",
               "epss": 0.00012,
-              "percentile": 0.01323,
-              "date": "2025-11-10"
+              "percentile": 0.01354,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -9363,160 +9415,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-5916",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5916",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
-        "urls": [],
-        "description": "A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
-            "metrics": {
-              "baseScore": 3.9,
-              "exploitabilityScore": 1.4,
-              "impactScore": 2.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-5916",
-            "epss": 0.00015,
-            "percentile": 0.02355,
-            "date": "2025-11-10"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-5916",
-            "cwe": "CWE-190",
-            "source": "secalert@redhat.com",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.005174999999999999
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-5916",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5916",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2025-5916",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2370872",
-            "https://github.com/libarchive/libarchive/pull/2568",
-            "https://github.com/libarchive/libarchive/releases/tag/v3.8.0"
-          ],
-          "description": "A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:H",
-              "metrics": {
-                "baseScore": 5.6,
-                "exploitabilityScore": 1.4,
-                "impactScore": 4.3
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
-              "metrics": {
-                "baseScore": 3.9,
-                "exploitabilityScore": 1.4,
-                "impactScore": 2.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-5916",
-              "epss": 0.00015,
-              "percentile": 0.02355,
-              "date": "2025-11-10"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-5916",
-              "cwe": "CWE-190",
-              "source": "secalert@redhat.com",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "libarchive",
-              "version": "0:3.5.3-5.el9_6"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-5916",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "026da1974d66f84e",
-        "name": "libarchive",
-        "version": "3.5.3-5.el9_6",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:ae5872a20ea86e6a5ad9645ef9a8b10c3a72f912eda3ccbf7db35c7bfa34be38",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "BSD"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libarchive:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libarchive-3.5.3-5.el9_6.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-5918",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5918",
         "namespace": "redhat:distro:redhat:9",
@@ -9540,8 +9438,8 @@
           {
             "cve": "CVE-2025-5918",
             "epss": 0.00013,
-            "percentile": 0.0145,
-            "date": "2025-11-10"
+            "percentile": 0.01519,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -9602,8 +9500,8 @@
             {
               "cve": "CVE-2025-5918",
               "epss": 0.00013,
-              "percentile": 0.0145,
-              "date": "2025-11-10"
+              "percentile": 0.01519,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -9694,8 +9592,8 @@
           {
             "cve": "CVE-2025-8058",
             "epss": 0.00009,
-            "percentile": 0.00568,
-            "date": "2025-11-10"
+            "percentile": 0.00563,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -9755,8 +9653,8 @@
             {
               "cve": "CVE-2025-8058",
               "epss": 0.00009,
-              "percentile": 0.00568,
-              "date": "2025-11-10"
+              "percentile": 0.00563,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -9850,8 +9748,8 @@
           {
             "cve": "CVE-2025-8058",
             "epss": 0.00009,
-            "percentile": 0.00568,
-            "date": "2025-11-10"
+            "percentile": 0.00563,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -9911,8 +9809,8 @@
             {
               "cve": "CVE-2025-8058",
               "epss": 0.00009,
-              "percentile": 0.00568,
-              "date": "2025-11-10"
+              "percentile": 0.00563,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -10017,8 +9915,8 @@
           {
             "cve": "CVE-2025-8058",
             "epss": 0.00009,
-            "percentile": 0.00568,
-            "date": "2025-11-10"
+            "percentile": 0.00563,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -10078,8 +9976,8 @@
             {
               "cve": "CVE-2025-8058",
               "epss": 0.00009,
-              "percentile": 0.00568,
-              "date": "2025-11-10"
+              "percentile": 0.00563,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -10188,8 +10086,8 @@
           {
             "cve": "CVE-2025-8058",
             "epss": 0.00009,
-            "percentile": 0.00568,
-            "date": "2025-11-10"
+            "percentile": 0.00563,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -10249,8 +10147,8 @@
             {
               "cve": "CVE-2025-8058",
               "epss": 0.00009,
-              "percentile": 0.00568,
-              "date": "2025-11-10"
+              "percentile": 0.00563,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -10336,6 +10234,159 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-6170",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-6170",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "A flaw was found in the interactive shell of the xmllint command-line tool, used for parsing XML files. When a user inputs an overly long command, the program does not check the input size properly, which can cause it to crash. This issue might allow attackers to run harmful code in rare configurations without modern protections.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
+            "metrics": {
+              "baseScore": 2.5,
+              "exploitabilityScore": 1.1,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-6170",
+            "epss": 0.00015,
+            "percentile": 0.02001,
+            "date": "2025-11-13"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-6170",
+            "cwe": "CWE-121",
+            "source": "secalert@redhat.com",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.004125
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-6170",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-6170",
+          "namespace": "nvd:cpe",
+          "severity": "Low",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-6170",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2372952",
+            "https://lists.debian.org/debian-lts-announce/2025/07/msg00014.html"
+          ],
+          "description": "A flaw was found in the interactive shell of the xmllint command-line tool, used for parsing XML files. When a user inputs an overly long command, the program does not check the input size properly, which can cause it to crash. This issue might allow attackers to run harmful code in rare configurations without modern protections.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
+              "metrics": {
+                "baseScore": 2.5,
+                "exploitabilityScore": 1.1,
+                "impactScore": 1.5
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "secalert@redhat.com",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
+              "metrics": {
+                "baseScore": 2.5,
+                "exploitabilityScore": 1.1,
+                "impactScore": 1.5
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-6170",
+              "epss": 0.00015,
+              "percentile": 0.02001,
+              "date": "2025-11-13"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-6170",
+              "cwe": "CWE-121",
+              "source": "secalert@redhat.com",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "libxml2",
+              "version": "0:2.9.13-10.el9_6"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-6170",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "cad7c140298c7fa1",
+        "name": "libxml2",
+        "version": "2.9.13-10.el9_6",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:ae5872a20ea86e6a5ad9645ef9a8b10c3a72f912eda3ccbf7db35c7bfa34be38",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "MIT"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libxml2:libxml2:2.9.13-10.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:libxml2:2.9.13-10.el9_6:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/libxml2@2.9.13-10.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libxml2-2.9.13-10.el9_6.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-5917",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5917",
         "namespace": "redhat:distro:redhat:9",
@@ -10358,9 +10409,9 @@
         "epss": [
           {
             "cve": "CVE-2025-5917",
-            "epss": 0.00013,
-            "percentile": 0.01514,
-            "date": "2025-11-10"
+            "epss": 0.00014,
+            "percentile": 0.01651,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -10376,7 +10427,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0037699999999999995
+        "risk": 0.004059999999999999
       },
       "relatedVulnerabilities": [
         {
@@ -10420,9 +10471,9 @@
           "epss": [
             {
               "cve": "CVE-2025-5917",
-              "epss": 0.00013,
-              "percentile": 0.01514,
-              "date": "2025-11-10"
+              "epss": 0.00014,
+              "percentile": 0.01651,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -10853,87 +10904,87 @@
     "db": {
       "status": {
         "schemaVersion": "v6.1.3",
-        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.3_2025-11-11T00:25:59Z_1762845878.tar.zst?checksum=sha256%3Ad1670d44ca26c43130aaa698236d481a2455bcd35fa03409580ace6441b4a9cf",
-        "built": "2025-11-11T07:24:38Z",
+        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.3_2025-11-14T00:26:32Z_1763118504.tar.zst?checksum=sha256%3A3d51ee68ad2c580a81fe7b5d230f5197b24299c0134d07d2ef544ad6e62e569e",
+        "built": "2025-11-14T11:08:24Z",
         "path": ".cache/grype/db/6/vulnerability.db",
         "valid": true
       },
       "providers": {
         "alma": {
-          "captured": "2025-11-11T00:25:59Z",
-          "input": "xxh64:b0db8dce7e55a2a0"
+          "captured": "2025-11-14T00:26:34Z",
+          "input": "xxh64:526fe33984f900f3"
         },
         "alpine": {
-          "captured": "2025-11-11T00:26:02Z",
-          "input": "xxh64:0fdf51b3d77e5b52"
+          "captured": "2025-11-14T00:26:39Z",
+          "input": "xxh64:9d2e0bdedab08cb5"
         },
         "amazon": {
-          "captured": "2025-11-11T00:26:01Z",
-          "input": "xxh64:c2f224239346bbf2"
+          "captured": "2025-11-14T00:26:35Z",
+          "input": "xxh64:5f3a91ab417d894e"
         },
         "bitnami": {
-          "captured": "2025-11-11T00:26:12Z",
-          "input": "xxh64:88601259efdaf4de"
+          "captured": "2025-11-14T00:26:35Z",
+          "input": "xxh64:5f283f91ece426df"
         },
         "chainguard": {
-          "captured": "2025-11-11T00:26:15Z",
-          "input": "xxh64:e639a897198a8700"
+          "captured": "2025-11-14T00:26:34Z",
+          "input": "xxh64:1daea4992da6cffb"
         },
         "chainguard-libraries": {
-          "captured": "2025-11-11T00:25:59Z",
-          "input": "xxh64:7acbcd688422f422"
+          "captured": "2025-11-14T00:26:32Z",
+          "input": "xxh64:aaa982c818857809"
         },
         "debian": {
-          "captured": "2025-11-11T00:26:13Z",
-          "input": "xxh64:dd361cc7733333f9"
+          "captured": "2025-11-14T00:26:51Z",
+          "input": "xxh64:b3807f59631e0921"
         },
         "echo": {
-          "captured": "2025-11-11T00:26:11Z",
-          "input": "xxh64:de6bd3de78c2b0f9"
+          "captured": "2025-11-14T00:26:33Z",
+          "input": "xxh64:0f35f7004313bff2"
         },
         "epss": {
-          "captured": "2025-11-11T00:26:04Z",
-          "input": "xxh64:228797625073dd5a"
+          "captured": "2025-11-14T00:26:38Z",
+          "input": "xxh64:dc3baa2bc4e5efde"
         },
         "github": {
-          "captured": "2025-11-11T00:26:20Z",
-          "input": "xxh64:388fdf2a577bf3e4"
+          "captured": "2025-11-14T00:26:43Z",
+          "input": "xxh64:e28daae1f28e2972"
         },
         "kev": {
-          "captured": "2025-11-11T00:26:05Z",
-          "input": "xxh64:86530a7f22f7bae7"
+          "captured": "2025-11-14T00:26:46Z",
+          "input": "xxh64:1100fb10203547b5"
         },
         "mariner": {
-          "captured": "2025-11-11T00:26:06Z",
-          "input": "xxh64:bbaf11280df3f8bb"
+          "captured": "2025-11-14T00:26:40Z",
+          "input": "xxh64:ae2a9eea36a2b482"
         },
         "minimos": {
-          "captured": "2025-11-11T00:25:59Z",
-          "input": "xxh64:aa5a27f197fa1328"
+          "captured": "2025-11-14T00:26:34Z",
+          "input": "xxh64:a27ddf0efbfc7519"
         },
         "nvd": {
-          "captured": "2025-11-11T00:28:31Z",
-          "input": "xxh64:34547306ec50936d"
+          "captured": "2025-11-14T00:29:13Z",
+          "input": "xxh64:39dbdf6666d1095b"
         },
         "oracle": {
-          "captured": "2025-11-11T00:26:08Z",
-          "input": "xxh64:505028cba1bb6cf9"
+          "captured": "2025-11-14T00:26:44Z",
+          "input": "xxh64:4b0f89b20a97555e"
         },
         "rhel": {
-          "captured": "2025-11-11T00:27:00Z",
-          "input": "xxh64:3b1d3f83a65c7794"
+          "captured": "2025-11-14T00:27:29Z",
+          "input": "xxh64:c05bacc663d1e147"
         },
         "sles": {
-          "captured": "2025-11-11T00:26:32Z",
-          "input": "xxh64:2cb63ec10efb3347"
+          "captured": "2025-11-14T00:27:03Z",
+          "input": "xxh64:cd053da36a1a77f4"
         },
         "ubuntu": {
-          "captured": "2025-11-11T00:28:14Z",
-          "input": "xxh64:c30b1e2397b44fff"
+          "captured": "2025-11-14T00:28:42Z",
+          "input": "xxh64:ca11634bb7a0571d"
         },
         "wolfi": {
-          "captured": "2025-11-11T00:26:13Z",
-          "input": "xxh64:f9f08d008c7c2642"
+          "captured": "2025-11-14T00:26:39Z",
+          "input": "xxh64:543071f87d925ec3"
         }
       }
     }
