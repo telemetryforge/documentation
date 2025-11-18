@@ -26,8 +26,8 @@
           {
             "cve": "CVE-2023-2953",
             "epss": 0.01149,
-            "percentile": 0.77795,
-            "date": "2025-11-10"
+            "percentile": 0.77825,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -114,8 +114,8 @@
             {
               "cve": "CVE-2023-2953",
               "epss": 0.01149,
-              "percentile": 0.77795,
-              "date": "2025-11-10"
+              "percentile": 0.77825,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -210,9 +210,9 @@
         "epss": [
           {
             "cve": "CVE-2011-3389",
-            "epss": 0.04338,
-            "percentile": 0.8839,
-            "date": "2025-11-10"
+            "epss": 0.04867,
+            "percentile": 0.89065,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -228,7 +228,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.21690000000000004
+        "risk": 0.24334999999999998
       },
       "relatedVulnerabilities": [
         {
@@ -444,9 +444,9 @@
           "epss": [
             {
               "cve": "CVE-2011-3389",
-              "epss": 0.04338,
-              "percentile": 0.8839,
-              "date": "2025-11-10"
+              "epss": 0.04867,
+              "percentile": 0.89065,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -521,8 +521,8 @@
           {
             "cve": "CVE-2017-17740",
             "epss": 0.02838,
-            "percentile": 0.8571,
-            "date": "2025-11-10"
+            "percentile": 0.85732,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -589,8 +589,8 @@
             {
               "cve": "CVE-2017-17740",
               "epss": 0.02838,
-              "percentile": 0.8571,
-              "date": "2025-11-10"
+              "percentile": 0.85732,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -674,8 +674,8 @@
           {
             "cve": "CVE-2015-3276",
             "epss": 0.02368,
-            "percentile": 0.84408,
-            "date": "2025-11-10"
+            "percentile": 0.8443,
+            "date": "2025-11-13"
           }
         ],
         "fix": {
@@ -732,8 +732,8 @@
             {
               "cve": "CVE-2015-3276",
               "epss": 0.02368,
-              "percentile": 0.84408,
-              "date": "2025-11-10"
+              "percentile": 0.8443,
+              "date": "2025-11-13"
             }
           ]
         }
@@ -809,8 +809,8 @@
           {
             "cve": "CVE-2018-20796",
             "epss": 0.01786,
-            "percentile": 0.82119,
-            "date": "2025-11-10"
+            "percentile": 0.82142,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -877,8 +877,8 @@
             {
               "cve": "CVE-2018-20796",
               "epss": 0.01786,
-              "percentile": 0.82119,
-              "date": "2025-11-10"
+              "percentile": 0.82142,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -985,8 +985,8 @@
           {
             "cve": "CVE-2025-9086",
             "epss": 0.00073,
-            "percentile": 0.2251,
-            "date": "2025-11-10"
+            "percentile": 0.22607,
+            "date": "2025-11-13"
           }
         ],
         "fix": {
@@ -1027,8 +1027,8 @@
             {
               "cve": "CVE-2025-9086",
               "epss": 0.00073,
-              "percentile": 0.2251,
-              "date": "2025-11-10"
+              "percentile": 0.22607,
+              "date": "2025-11-13"
             }
           ]
         }
@@ -1095,8 +1095,8 @@
           {
             "cve": "CVE-2025-0725",
             "epss": 0.00711,
-            "percentile": 0.7146,
-            "date": "2025-11-10"
+            "percentile": 0.71496,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -1149,8 +1149,8 @@
             {
               "cve": "CVE-2025-0725",
               "epss": 0.00711,
-              "percentile": 0.7146,
-              "date": "2025-11-10"
+              "percentile": 0.71496,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -1225,8 +1225,8 @@
           {
             "cve": "CVE-2019-1010023",
             "epss": 0.00703,
-            "percentile": 0.71246,
-            "date": "2025-11-10"
+            "percentile": 0.71283,
+            "date": "2025-11-13"
           }
         ],
         "fix": {
@@ -1297,8 +1297,8 @@
             {
               "cve": "CVE-2019-1010023",
               "epss": 0.00703,
-              "percentile": 0.71246,
-              "date": "2025-11-10"
+              "percentile": 0.71283,
+              "date": "2025-11-13"
             }
           ]
         }
@@ -1384,8 +1384,8 @@
           {
             "cve": "CVE-2018-6829",
             "epss": 0.00534,
-            "percentile": 0.66488,
-            "date": "2025-11-10"
+            "percentile": 0.66527,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -1450,8 +1450,8 @@
             {
               "cve": "CVE-2018-6829",
               "epss": 0.00534,
-              "percentile": 0.66488,
-              "date": "2025-11-10"
+              "percentile": 0.66527,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -1522,8 +1522,8 @@
           {
             "cve": "CVE-2010-4756",
             "epss": 0.0052,
-            "percentile": 0.65923,
-            "date": "2025-11-10"
+            "percentile": 0.65964,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -1579,8 +1579,8 @@
             {
               "cve": "CVE-2010-4756",
               "epss": 0.0052,
-              "percentile": 0.65923,
-              "date": "2025-11-10"
+              "percentile": 0.65964,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -1674,8 +1674,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.00463,
-            "percentile": 0.63371,
-            "date": "2025-11-10"
+            "percentile": 0.63408,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -1736,8 +1736,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.00463,
-              "percentile": 0.63371,
-              "date": "2025-11-10"
+              "percentile": 0.63408,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -1821,8 +1821,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.00463,
-            "percentile": 0.63371,
-            "date": "2025-11-10"
+            "percentile": 0.63408,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -1883,8 +1883,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.00463,
-              "percentile": 0.63371,
-              "date": "2025-11-10"
+              "percentile": 0.63408,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -1959,8 +1959,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.00463,
-            "percentile": 0.63371,
-            "date": "2025-11-10"
+            "percentile": 0.63408,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -2021,8 +2021,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.00463,
-              "percentile": 0.63371,
-              "date": "2025-11-10"
+              "percentile": 0.63408,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -2102,8 +2102,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.00463,
-            "percentile": 0.63371,
-            "date": "2025-11-10"
+            "percentile": 0.63408,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -2164,8 +2164,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.00463,
-              "percentile": 0.63371,
-              "date": "2025-11-10"
+              "percentile": 0.63408,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -2253,8 +2253,8 @@
           {
             "cve": "CVE-2025-10148",
             "epss": 0.00037,
-            "percentile": 0.10445,
-            "date": "2025-11-10"
+            "percentile": 0.10527,
+            "date": "2025-11-13"
           }
         ],
         "fix": {
@@ -2296,8 +2296,8 @@
             {
               "cve": "CVE-2025-10148",
               "epss": 0.00037,
-              "percentile": 0.10445,
-              "date": "2025-11-10"
+              "percentile": 0.10527,
+              "date": "2025-11-13"
             }
           ]
         }
@@ -2364,8 +2364,8 @@
           {
             "cve": "CVE-2019-1010024",
             "epss": 0.00375,
-            "percentile": 0.58401,
-            "date": "2025-11-10"
+            "percentile": 0.58446,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -2434,8 +2434,8 @@
             {
               "cve": "CVE-2019-1010024",
               "epss": 0.00375,
-              "percentile": 0.58401,
-              "date": "2025-11-10"
+              "percentile": 0.58446,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -2529,8 +2529,8 @@
           {
             "cve": "CVE-2019-9192",
             "epss": 0.00353,
-            "percentile": 0.57001,
-            "date": "2025-11-10"
+            "percentile": 0.57043,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -2591,8 +2591,8 @@
             {
               "cve": "CVE-2019-9192",
               "epss": 0.00353,
-              "percentile": 0.57001,
-              "date": "2025-11-10"
+              "percentile": 0.57043,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -2686,8 +2686,8 @@
           {
             "cve": "CVE-2019-1010025",
             "epss": 0.00228,
-            "percentile": 0.45522,
-            "date": "2025-11-10"
+            "percentile": 0.45578,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -2754,8 +2754,8 @@
             {
               "cve": "CVE-2019-1010025",
               "epss": 0.00228,
-              "percentile": 0.45522,
-              "date": "2025-11-10"
+              "percentile": 0.45578,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -2849,8 +2849,8 @@
           {
             "cve": "CVE-2024-2236",
             "epss": 0.00222,
-            "percentile": 0.44675,
-            "date": "2025-11-10"
+            "percentile": 0.44739,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -2903,8 +2903,8 @@
             {
               "cve": "CVE-2024-2236",
               "epss": 0.00222,
-              "percentile": 0.44675,
-              "date": "2025-11-10"
+              "percentile": 0.44739,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -2975,8 +2975,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43032,
-            "date": "2025-11-10"
+            "percentile": 0.43097,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -3025,8 +3025,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43032,
-              "date": "2025-11-10"
+              "percentile": 0.43097,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -3110,8 +3110,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43032,
-            "date": "2025-11-10"
+            "percentile": 0.43097,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -3160,8 +3160,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43032,
-              "date": "2025-11-10"
+              "percentile": 0.43097,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -3236,8 +3236,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43032,
-            "date": "2025-11-10"
+            "percentile": 0.43097,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -3286,8 +3286,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43032,
-              "date": "2025-11-10"
+              "percentile": 0.43097,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -3367,8 +3367,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43032,
-            "date": "2025-11-10"
+            "percentile": 0.43097,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -3417,8 +3417,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43032,
-              "date": "2025-11-10"
+              "percentile": 0.43097,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -3493,8 +3493,8 @@
           {
             "cve": "CVE-2024-2379",
             "epss": 0.00205,
-            "percentile": 0.42747,
-            "date": "2025-11-10"
+            "percentile": 0.42813,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -3561,8 +3561,8 @@
             {
               "cve": "CVE-2024-2379",
               "epss": 0.00205,
-              "percentile": 0.42747,
-              "date": "2025-11-10"
+              "percentile": 0.42813,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -3637,8 +3637,8 @@
           {
             "cve": "CVE-2019-1010022",
             "epss": 0.00145,
-            "percentile": 0.35404,
-            "date": "2025-11-10"
+            "percentile": 0.35487,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -3703,8 +3703,8 @@
             {
               "cve": "CVE-2019-1010022",
               "epss": 0.00145,
-              "percentile": 0.35404,
-              "date": "2025-11-10"
+              "percentile": 0.35487,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -3798,8 +3798,8 @@
           {
             "cve": "CVE-2020-15719",
             "epss": 0.00135,
-            "percentile": 0.33964,
-            "date": "2025-11-10"
+            "percentile": 0.34052,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -3870,8 +3870,8 @@
             {
               "cve": "CVE-2020-15719",
               "epss": 0.00135,
-              "percentile": 0.33964,
-              "date": "2025-11-10"
+              "percentile": 0.34052,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -3955,8 +3955,8 @@
           {
             "cve": "CVE-2023-31437",
             "epss": 0.00128,
-            "percentile": 0.32838,
-            "date": "2025-11-10"
+            "percentile": 0.32925,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -4025,8 +4025,8 @@
             {
               "cve": "CVE-2023-31437",
               "epss": 0.00128,
-              "percentile": 0.32838,
-              "date": "2025-11-10"
+              "percentile": 0.32925,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -4107,8 +4107,8 @@
           {
             "cve": "CVE-2023-31437",
             "epss": 0.00128,
-            "percentile": 0.32838,
-            "date": "2025-11-10"
+            "percentile": 0.32925,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -4177,8 +4177,8 @@
             {
               "cve": "CVE-2023-31437",
               "epss": 0.00128,
-              "percentile": 0.32838,
-              "date": "2025-11-10"
+              "percentile": 0.32925,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -4255,8 +4255,8 @@
           {
             "cve": "CVE-2017-14159",
             "epss": 0.00106,
-            "percentile": 0.29286,
-            "date": "2025-11-10"
+            "percentile": 0.29363,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -4317,8 +4317,8 @@
             {
               "cve": "CVE-2017-14159",
               "epss": 0.00106,
-              "percentile": 0.29286,
-              "date": "2025-11-10"
+              "percentile": 0.29363,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -4402,8 +4402,8 @@
           {
             "cve": "CVE-2023-31438",
             "epss": 0.001,
-            "percentile": 0.2834,
-            "date": "2025-11-10"
+            "percentile": 0.28426,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -4456,8 +4456,8 @@
             {
               "cve": "CVE-2023-31438",
               "epss": 0.001,
-              "percentile": 0.2834,
-              "date": "2025-11-10"
+              "percentile": 0.28426,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -4532,8 +4532,8 @@
           {
             "cve": "CVE-2023-31438",
             "epss": 0.001,
-            "percentile": 0.2834,
-            "date": "2025-11-10"
+            "percentile": 0.28426,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -4586,8 +4586,8 @@
             {
               "cve": "CVE-2023-31438",
               "epss": 0.001,
-              "percentile": 0.2834,
-              "date": "2025-11-10"
+              "percentile": 0.28426,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -4658,8 +4658,8 @@
           {
             "cve": "CVE-2023-31439",
             "epss": 0.00094,
-            "percentile": 0.26929,
-            "date": "2025-11-10"
+            "percentile": 0.26998,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -4712,8 +4712,8 @@
             {
               "cve": "CVE-2023-31439",
               "epss": 0.00094,
-              "percentile": 0.26929,
-              "date": "2025-11-10"
+              "percentile": 0.26998,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -4788,8 +4788,8 @@
           {
             "cve": "CVE-2023-31439",
             "epss": 0.00094,
-            "percentile": 0.26929,
-            "date": "2025-11-10"
+            "percentile": 0.26998,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -4842,8 +4842,8 @@
             {
               "cve": "CVE-2023-31439",
               "epss": 0.00094,
-              "percentile": 0.26929,
-              "date": "2025-11-10"
+              "percentile": 0.26998,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -4914,8 +4914,8 @@
           {
             "cve": "CVE-2024-26461",
             "epss": 0.00062,
-            "percentile": 0.1929,
-            "date": "2025-11-10"
+            "percentile": 0.19359,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -4964,8 +4964,8 @@
             {
               "cve": "CVE-2024-26461",
               "epss": 0.00062,
-              "percentile": 0.1929,
-              "date": "2025-11-10"
+              "percentile": 0.19359,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -5049,8 +5049,8 @@
           {
             "cve": "CVE-2024-26461",
             "epss": 0.00062,
-            "percentile": 0.1929,
-            "date": "2025-11-10"
+            "percentile": 0.19359,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -5099,8 +5099,8 @@
             {
               "cve": "CVE-2024-26461",
               "epss": 0.00062,
-              "percentile": 0.1929,
-              "date": "2025-11-10"
+              "percentile": 0.19359,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -5175,8 +5175,8 @@
           {
             "cve": "CVE-2024-26461",
             "epss": 0.00062,
-            "percentile": 0.1929,
-            "date": "2025-11-10"
+            "percentile": 0.19359,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -5225,8 +5225,8 @@
             {
               "cve": "CVE-2024-26461",
               "epss": 0.00062,
-              "percentile": 0.1929,
-              "date": "2025-11-10"
+              "percentile": 0.19359,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -5306,8 +5306,8 @@
           {
             "cve": "CVE-2024-26461",
             "epss": 0.00062,
-            "percentile": 0.1929,
-            "date": "2025-11-10"
+            "percentile": 0.19359,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -5356,8 +5356,8 @@
             {
               "cve": "CVE-2024-26461",
               "epss": 0.00062,
-              "percentile": 0.1929,
-              "date": "2025-11-10"
+              "percentile": 0.19359,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -5432,8 +5432,8 @@
           {
             "cve": "CVE-2013-4392",
             "epss": 0.00057,
-            "percentile": 0.17658,
-            "date": "2025-11-10"
+            "percentile": 0.17746,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -5502,8 +5502,8 @@
             {
               "cve": "CVE-2013-4392",
               "epss": 0.00057,
-              "percentile": 0.17658,
-              "date": "2025-11-10"
+              "percentile": 0.17746,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -5584,8 +5584,8 @@
           {
             "cve": "CVE-2013-4392",
             "epss": 0.00057,
-            "percentile": 0.17658,
-            "date": "2025-11-10"
+            "percentile": 0.17746,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -5654,8 +5654,8 @@
             {
               "cve": "CVE-2013-4392",
               "epss": 0.00057,
-              "percentile": 0.17658,
-              "date": "2025-11-10"
+              "percentile": 0.17746,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -5732,8 +5732,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.1529,
-            "date": "2025-11-10"
+            "percentile": 0.15385,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -5796,8 +5796,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.1529,
-              "date": "2025-11-10"
+              "percentile": 0.15385,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -5904,8 +5904,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.1529,
-            "date": "2025-11-10"
+            "percentile": 0.15385,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -5968,8 +5968,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.1529,
-              "date": "2025-11-10"
+              "percentile": 0.15385,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -6044,8 +6044,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.1529,
-            "date": "2025-11-10"
+            "percentile": 0.15385,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -6108,8 +6108,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.1529,
-              "date": "2025-11-10"
+              "percentile": 0.15385,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -6212,8 +6212,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.1529,
-            "date": "2025-11-10"
+            "percentile": 0.15385,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -6276,8 +6276,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.1529,
-              "date": "2025-11-10"
+              "percentile": 0.15385,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -6375,8 +6375,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.1529,
-            "date": "2025-11-10"
+            "percentile": 0.15385,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -6439,8 +6439,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.1529,
-              "date": "2025-11-10"
+              "percentile": 0.15385,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -6537,9 +6537,9 @@
         "epss": [
           {
             "cve": "CVE-2025-27587",
-            "epss": 0.00035,
-            "percentile": 0.09296,
-            "date": "2025-11-10"
+            "epss": 0.00032,
+            "percentile": 0.08578,
+            "date": "2025-11-13"
           }
         ],
         "cwes": [
@@ -6555,7 +6555,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0017500000000000003
+        "risk": 0.0016000000000000003
       },
       "relatedVulnerabilities": [
         {
@@ -6585,9 +6585,9 @@
           "epss": [
             {
               "cve": "CVE-2025-27587",
-              "epss": 0.00035,
-              "percentile": 0.09296,
-              "date": "2025-11-10"
+              "epss": 0.00032,
+              "percentile": 0.08578,
+              "date": "2025-11-13"
             }
           ],
           "cwes": [
@@ -6682,9 +6682,9 @@
         "epss": [
           {
             "cve": "CVE-2025-10966",
-            "epss": 0.00016,
-            "percentile": 0.02652,
-            "date": "2025-11-10"
+            "epss": 0.0002,
+            "percentile": 0.03921,
+            "date": "2025-11-13"
           }
         ],
         "fix": {
@@ -6692,7 +6692,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0008000000000000001
+        "risk": 0.001
       },
       "relatedVulnerabilities": [
         {
@@ -6724,9 +6724,9 @@
           "epss": [
             {
               "cve": "CVE-2025-10966",
-              "epss": 0.00016,
-              "percentile": 0.02652,
-              "date": "2025-11-10"
+              "epss": 0.0002,
+              "percentile": 0.03921,
+              "date": "2025-11-13"
             }
           ]
         }
@@ -6776,6 +6776,244 @@
         "upstreams": [
           {
             "name": "curl"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-12818",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-12818",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Medium",
+        "urls": [],
+        "cvss": [
+          {
+            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "metrics": {
+              "baseScore": 5.9,
+              "exploitabilityScore": 2.3,
+              "impactScore": 3.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-12818",
+            "cwe": "CWE-190",
+            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-12818",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-12818",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://www.postgresql.org/support/security/CVE-2025-12818/"
+          ],
+          "description": "Integer wraparound in multiple PostgreSQL libpq client library functions allows an application input provider or network peer to cause libpq to undersize an allocation and write out-of-bounds by hundreds of megabytes.  This results in a segmentation fault for the application using libpq.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
+          "cvss": [
+            {
+              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "metrics": {
+                "baseScore": 5.9,
+                "exploitabilityScore": 2.3,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-12818",
+              "cwe": "CWE-190",
+              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "postgresql-15",
+              "version": "15.14-0+deb12u1"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-12818",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "da0ab4ee51b298d8",
+        "name": "libpq5",
+        "version": "15.14-0+deb12u1",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libpq5",
+            "layerID": "sha256:c37bf7ef1af500ef329b6439c3d13f6008d5779df3433d8994325e53bb39b551",
+            "accessPath": "/var/lib/dpkg/status.d/libpq5",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libpq5:libpq5:15.14-0\\+deb12u1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libpq5@15.14-0%2Bdeb12u1?arch=amd64&distro=debian-12&upstream=postgresql-15",
+        "upstreams": [
+          {
+            "name": "postgresql-15"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-12817",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-12817",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Low",
+        "urls": [],
+        "cvss": [
+          {
+            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L",
+            "metrics": {
+              "baseScore": 3.1,
+              "exploitabilityScore": 1.7,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-12817",
+            "cwe": "CWE-862",
+            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-12817",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-12817",
+          "namespace": "nvd:cpe",
+          "severity": "Low",
+          "urls": [
+            "https://www.postgresql.org/support/security/CVE-2025-12817/"
+          ],
+          "description": "Missing authorization in PostgreSQL CREATE STATISTICS command allows a table owner to achieve denial of service against other CREATE STATISTICS users by creating in any schema.  A later CREATE STATISTICS for the same name, from a user having the CREATE privilege, would then fail.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
+          "cvss": [
+            {
+              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L",
+              "metrics": {
+                "baseScore": 3.1,
+                "exploitabilityScore": 1.7,
+                "impactScore": 1.5
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-12817",
+              "cwe": "CWE-862",
+              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "postgresql-15",
+              "version": "15.14-0+deb12u1"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-12817",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "da0ab4ee51b298d8",
+        "name": "libpq5",
+        "version": "15.14-0+deb12u1",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libpq5",
+            "layerID": "sha256:c37bf7ef1af500ef329b6439c3d13f6008d5779df3433d8994325e53bb39b551",
+            "accessPath": "/var/lib/dpkg/status.d/libpq5",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libpq5:libpq5:15.14-0\\+deb12u1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libpq5@15.14-0%2Bdeb12u1?arch=amd64&distro=debian-12&upstream=postgresql-15",
+        "upstreams": [
+          {
+            "name": "postgresql-15"
           }
         ]
       }
@@ -7092,87 +7330,87 @@
     "db": {
       "status": {
         "schemaVersion": "v6.1.3",
-        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.3_2025-11-11T00:25:59Z_1762845878.tar.zst?checksum=sha256%3Ad1670d44ca26c43130aaa698236d481a2455bcd35fa03409580ace6441b4a9cf",
-        "built": "2025-11-11T07:24:38Z",
+        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.3_2025-11-14T00:26:32Z_1763118504.tar.zst?checksum=sha256%3A3d51ee68ad2c580a81fe7b5d230f5197b24299c0134d07d2ef544ad6e62e569e",
+        "built": "2025-11-14T11:08:24Z",
         "path": ".cache/grype/db/6/vulnerability.db",
         "valid": true
       },
       "providers": {
         "alma": {
-          "captured": "2025-11-11T00:25:59Z",
-          "input": "xxh64:b0db8dce7e55a2a0"
+          "captured": "2025-11-14T00:26:34Z",
+          "input": "xxh64:526fe33984f900f3"
         },
         "alpine": {
-          "captured": "2025-11-11T00:26:02Z",
-          "input": "xxh64:0fdf51b3d77e5b52"
+          "captured": "2025-11-14T00:26:39Z",
+          "input": "xxh64:9d2e0bdedab08cb5"
         },
         "amazon": {
-          "captured": "2025-11-11T00:26:01Z",
-          "input": "xxh64:c2f224239346bbf2"
+          "captured": "2025-11-14T00:26:35Z",
+          "input": "xxh64:5f3a91ab417d894e"
         },
         "bitnami": {
-          "captured": "2025-11-11T00:26:12Z",
-          "input": "xxh64:88601259efdaf4de"
+          "captured": "2025-11-14T00:26:35Z",
+          "input": "xxh64:5f283f91ece426df"
         },
         "chainguard": {
-          "captured": "2025-11-11T00:26:15Z",
-          "input": "xxh64:e639a897198a8700"
+          "captured": "2025-11-14T00:26:34Z",
+          "input": "xxh64:1daea4992da6cffb"
         },
         "chainguard-libraries": {
-          "captured": "2025-11-11T00:25:59Z",
-          "input": "xxh64:7acbcd688422f422"
+          "captured": "2025-11-14T00:26:32Z",
+          "input": "xxh64:aaa982c818857809"
         },
         "debian": {
-          "captured": "2025-11-11T00:26:13Z",
-          "input": "xxh64:dd361cc7733333f9"
+          "captured": "2025-11-14T00:26:51Z",
+          "input": "xxh64:b3807f59631e0921"
         },
         "echo": {
-          "captured": "2025-11-11T00:26:11Z",
-          "input": "xxh64:de6bd3de78c2b0f9"
+          "captured": "2025-11-14T00:26:33Z",
+          "input": "xxh64:0f35f7004313bff2"
         },
         "epss": {
-          "captured": "2025-11-11T00:26:04Z",
-          "input": "xxh64:228797625073dd5a"
+          "captured": "2025-11-14T00:26:38Z",
+          "input": "xxh64:dc3baa2bc4e5efde"
         },
         "github": {
-          "captured": "2025-11-11T00:26:20Z",
-          "input": "xxh64:388fdf2a577bf3e4"
+          "captured": "2025-11-14T00:26:43Z",
+          "input": "xxh64:e28daae1f28e2972"
         },
         "kev": {
-          "captured": "2025-11-11T00:26:05Z",
-          "input": "xxh64:86530a7f22f7bae7"
+          "captured": "2025-11-14T00:26:46Z",
+          "input": "xxh64:1100fb10203547b5"
         },
         "mariner": {
-          "captured": "2025-11-11T00:26:06Z",
-          "input": "xxh64:bbaf11280df3f8bb"
+          "captured": "2025-11-14T00:26:40Z",
+          "input": "xxh64:ae2a9eea36a2b482"
         },
         "minimos": {
-          "captured": "2025-11-11T00:25:59Z",
-          "input": "xxh64:aa5a27f197fa1328"
+          "captured": "2025-11-14T00:26:34Z",
+          "input": "xxh64:a27ddf0efbfc7519"
         },
         "nvd": {
-          "captured": "2025-11-11T00:28:31Z",
-          "input": "xxh64:34547306ec50936d"
+          "captured": "2025-11-14T00:29:13Z",
+          "input": "xxh64:39dbdf6666d1095b"
         },
         "oracle": {
-          "captured": "2025-11-11T00:26:08Z",
-          "input": "xxh64:505028cba1bb6cf9"
+          "captured": "2025-11-14T00:26:44Z",
+          "input": "xxh64:4b0f89b20a97555e"
         },
         "rhel": {
-          "captured": "2025-11-11T00:27:00Z",
-          "input": "xxh64:3b1d3f83a65c7794"
+          "captured": "2025-11-14T00:27:29Z",
+          "input": "xxh64:c05bacc663d1e147"
         },
         "sles": {
-          "captured": "2025-11-11T00:26:32Z",
-          "input": "xxh64:2cb63ec10efb3347"
+          "captured": "2025-11-14T00:27:03Z",
+          "input": "xxh64:cd053da36a1a77f4"
         },
         "ubuntu": {
-          "captured": "2025-11-11T00:28:14Z",
-          "input": "xxh64:c30b1e2397b44fff"
+          "captured": "2025-11-14T00:28:42Z",
+          "input": "xxh64:ca11634bb7a0571d"
         },
         "wolfi": {
-          "captured": "2025-11-11T00:26:13Z",
-          "input": "xxh64:f9f08d008c7c2642"
+          "captured": "2025-11-14T00:26:39Z",
+          "input": "xxh64:543071f87d925ec3"
         }
       }
     }
