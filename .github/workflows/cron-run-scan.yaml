@@ -35,7 +35,7 @@ jobs:
             github-pat:projects/626836145334/secrets/GITHUB_CI_PAT
 
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           token: ${{ steps.get-secrets.outputs.github-pat }}
 
