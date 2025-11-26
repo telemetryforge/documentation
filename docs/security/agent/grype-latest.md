@@ -4,5 +4,4 @@ High and critical vulnerabilities not triaged for the latest version (ghcr.io/fl
 
 | Package | Version Installed | Vulnerability ID | Severity |
 | --- | --- | --- | --- |
-| libxml2 | 2.9.13-12.el9_6 | [CVE-2025-12863](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-12863) | High |
 | sqlite-libs | 3.34.1-8.el9_6 | [CVE-2025-6965](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6965) | High |
