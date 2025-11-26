@@ -25,9 +25,9 @@
         "epss": [
           {
             "cve": "CVE-2023-2953",
-            "epss": 0.01149,
-            "percentile": 0.77827,
-            "date": "2025-11-17"
+            "epss": 0.0118,
+            "percentile": 0.78121,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -55,7 +55,7 @@
           "state": "wont-fix"
         },
         "advisories": [],
-        "risk": 0.86175
+        "risk": 0.885
       },
       "relatedVulnerabilities": [
         {
@@ -64,15 +64,6 @@
           "namespace": "nvd:cpe",
           "severity": "High",
           "urls": [
-            "http://seclists.org/fulldisclosure/2023/Jul/47",
-            "http://seclists.org/fulldisclosure/2023/Jul/48",
-            "http://seclists.org/fulldisclosure/2023/Jul/52",
-            "https://access.redhat.com/security/cve/CVE-2023-2953",
-            "https://bugs.openldap.org/show_bug.cgi?id=9904",
-            "https://security.netapp.com/advisory/ntap-20230703-0005/",
-            "https://support.apple.com/kb/HT213843",
-            "https://support.apple.com/kb/HT213844",
-            "https://support.apple.com/kb/HT213845",
             "http://seclists.org/fulldisclosure/2023/Jul/47",
             "http://seclists.org/fulldisclosure/2023/Jul/48",
             "http://seclists.org/fulldisclosure/2023/Jul/52",
@@ -113,9 +104,9 @@
           "epss": [
             {
               "cve": "CVE-2023-2953",
-              "epss": 0.01149,
-              "percentile": 0.77827,
-              "date": "2025-11-17"
+              "epss": 0.0118,
+              "percentile": 0.78121,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -210,9 +201,9 @@
         "epss": [
           {
             "cve": "CVE-2011-3389",
-            "epss": 0.04994,
-            "percentile": 0.89204,
-            "date": "2025-11-17"
+            "epss": 0.04452,
+            "percentile": 0.88562,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -228,7 +219,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.2497
+        "risk": 0.22260000000000002
       },
       "relatedVulnerabilities": [
         {
@@ -259,109 +250,10 @@
             "http://lists.opensuse.org/opensuse-security-announce/2012-05/msg00009.html",
             "http://lists.opensuse.org/opensuse-security-announce/2020-01/msg00040.html",
             "http://marc.info/?l=bugtraq&m=132750579901589&w=2",
-            "http://marc.info/?l=bugtraq&m=132750579901589&w=2",
-            "http://marc.info/?l=bugtraq&m=132872385320240&w=2",
             "http://marc.info/?l=bugtraq&m=132872385320240&w=2",
             "http://marc.info/?l=bugtraq&m=133365109612558&w=2",
-            "http://marc.info/?l=bugtraq&m=133365109612558&w=2",
-            "http://marc.info/?l=bugtraq&m=133728004526190&w=2",
             "http://marc.info/?l=bugtraq&m=133728004526190&w=2",
             "http://marc.info/?l=bugtraq&m=134254866602253&w=2",
-            "http://marc.info/?l=bugtraq&m=134254957702612&w=2",
-            "http://marc.info/?l=bugtraq&m=134254957702612&w=2",
-            "http://my.opera.com/securitygroup/blog/2011/09/28/the-beast-ssl-tls-issue",
-            "http://osvdb.org/74829",
-            "http://rhn.redhat.com/errata/RHSA-2012-0508.html",
-            "http://rhn.redhat.com/errata/RHSA-2013-1455.html",
-            "http://secunia.com/advisories/45791",
-            "http://secunia.com/advisories/47998",
-            "http://secunia.com/advisories/48256",
-            "http://secunia.com/advisories/48692",
-            "http://secunia.com/advisories/48915",
-            "http://secunia.com/advisories/48948",
-            "http://secunia.com/advisories/49198",
-            "http://secunia.com/advisories/55322",
-            "http://secunia.com/advisories/55350",
-            "http://secunia.com/advisories/55351",
-            "http://security.gentoo.org/glsa/glsa-201203-02.xml",
-            "http://security.gentoo.org/glsa/glsa-201406-32.xml",
-            "http://support.apple.com/kb/HT4999",
-            "http://support.apple.com/kb/HT5001",
-            "http://support.apple.com/kb/HT5130",
-            "http://support.apple.com/kb/HT5281",
-            "http://support.apple.com/kb/HT5501",
-            "http://support.apple.com/kb/HT6150",
-            "http://technet.microsoft.com/security/advisory/2588513",
-            "http://vnhacker.blogspot.com/2011/09/beast.html",
-            "http://www.apcmedia.com/salestools/SJHN-7RKGNM/SJHN-7RKGNM_R4_EN.pdf",
-            "http://www.debian.org/security/2012/dsa-2398",
-            "http://www.educatedguesswork.org/2011/09/security_impact_of_the_rizzodu.html",
-            "http://www.ibm.com/developerworks/java/jdk/alerts/",
-            "http://www.imperialviolet.org/2011/09/23/chromeandbeast.html",
-            "http://www.insecure.cl/Beast-SSL.rar",
-            "http://www.kb.cert.org/vuls/id/864643",
-            "http://www.mandriva.com/security/advisories?name=MDVSA-2012:058",
-            "http://www.opera.com/docs/changelogs/mac/1151/",
-            "http://www.opera.com/docs/changelogs/mac/1160/",
-            "http://www.opera.com/docs/changelogs/unix/1151/",
-            "http://www.opera.com/docs/changelogs/unix/1160/",
-            "http://www.opera.com/docs/changelogs/windows/1151/",
-            "http://www.opera.com/docs/changelogs/windows/1160/",
-            "http://www.opera.com/support/kb/view/1004/",
-            "http://www.oracle.com/technetwork/topics/security/cpujan2015-1972971.html",
-            "http://www.oracle.com/technetwork/topics/security/cpujul2015-2367936.html",
-            "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html",
-            "http://www.redhat.com/support/errata/RHSA-2011-1384.html",
-            "http://www.redhat.com/support/errata/RHSA-2012-0006.html",
-            "http://www.securityfocus.com/bid/49388",
-            "http://www.securityfocus.com/bid/49778",
-            "http://www.securitytracker.com/id/1029190",
-            "http://www.securitytracker.com/id?1025997",
-            "http://www.securitytracker.com/id?1026103",
-            "http://www.securitytracker.com/id?1026704",
-            "http://www.ubuntu.com/usn/USN-1263-1",
-            "http://www.us-cert.gov/cas/techalerts/TA12-010A.html",
-            "https://blogs.oracle.com/sunsecurity/entry/multiple_vulnerabilities_in_fetchmail",
-            "https://bugzilla.novell.com/show_bug.cgi?id=719047",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=737506",
-            "https://cert-portal.siemens.com/productcert/pdf/ssa-556833.pdf",
-            "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2012/ms12-006",
-            "https://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c03839862",
-            "https://hermes.opensuse.org/messages/13154861",
-            "https://hermes.opensuse.org/messages/13155432",
-            "https://ics-cert.us-cert.gov/advisories/ICSMA-18-058-02",
-            "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A14752",
-            "http://blog.mozilla.com/security/2011/09/27/attack-against-tls-protected-communications/",
-            "http://blogs.technet.com/b/msrc/archive/2011/09/26/microsoft-releases-security-advisory-2588513.aspx",
-            "http://blogs.technet.com/b/srd/archive/2011/09/26/is-ssl-broken-more-about-security-advisory-2588513.aspx",
-            "http://curl.haxx.se/docs/adv_20120124B.html",
-            "http://downloads.asterisk.org/pub/security/AST-2016-001.html",
-            "http://ekoparty.org/2011/juliano-rizzo.php",
-            "http://eprint.iacr.org/2004/111",
-            "http://eprint.iacr.org/2006/136",
-            "http://googlechromereleases.blogspot.com/2011/10/chrome-stable-release.html",
-            "http://isc.sans.edu/diary/SSL+TLS+part+3+/11635",
-            "http://lists.apple.com/archives/Security-announce/2011//Oct/msg00001.html",
-            "http://lists.apple.com/archives/Security-announce/2011//Oct/msg00002.html",
-            "http://lists.apple.com/archives/security-announce/2012/Feb/msg00000.html",
-            "http://lists.apple.com/archives/security-announce/2012/Jul/msg00001.html",
-            "http://lists.apple.com/archives/security-announce/2012/May/msg00001.html",
-            "http://lists.apple.com/archives/security-announce/2012/Sep/msg00004.html",
-            "http://lists.apple.com/archives/security-announce/2013/Oct/msg00004.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2012-01/msg00049.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2012-01/msg00051.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2012-05/msg00009.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2020-01/msg00040.html",
-            "http://marc.info/?l=bugtraq&m=132750579901589&w=2",
-            "http://marc.info/?l=bugtraq&m=132750579901589&w=2",
-            "http://marc.info/?l=bugtraq&m=132872385320240&w=2",
-            "http://marc.info/?l=bugtraq&m=132872385320240&w=2",
-            "http://marc.info/?l=bugtraq&m=133365109612558&w=2",
-            "http://marc.info/?l=bugtraq&m=133365109612558&w=2",
-            "http://marc.info/?l=bugtraq&m=133728004526190&w=2",
-            "http://marc.info/?l=bugtraq&m=133728004526190&w=2",
-            "http://marc.info/?l=bugtraq&m=134254866602253&w=2",
-            "http://marc.info/?l=bugtraq&m=134254957702612&w=2",
             "http://marc.info/?l=bugtraq&m=134254957702612&w=2",
             "http://my.opera.com/securitygroup/blog/2011/09/28/the-beast-ssl-tls-issue",
             "http://osvdb.org/74829",
@@ -444,9 +336,9 @@
           "epss": [
             {
               "cve": "CVE-2011-3389",
-              "epss": 0.04994,
-              "percentile": 0.89204,
-              "date": "2025-11-17"
+              "epss": 0.04452,
+              "percentile": 0.88562,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -510,159 +402,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2017-17740",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2017-17740",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "contrib/slapd-modules/nops/nops.c in OpenLDAP through 2.4.45, when both the nops module and the memberof overlay are enabled, attempts to free a buffer that was allocated on the stack, which allows remote attackers to cause a denial of service (slapd crash) via a member MODDN operation.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2017-17740",
-            "epss": 0.02838,
-            "percentile": 0.85709,
-            "date": "2025-11-17"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2017-17740",
-            "cwe": "CWE-119",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.14190000000000003
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2017-17740",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2017-17740",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "http://lists.opensuse.org/opensuse-security-announce/2019-09/msg00053.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2019-09/msg00058.html",
-            "http://www.openldap.org/its/index.cgi/Incoming?id=8759",
-            "https://kc.mcafee.com/corporate/index?page=content&id=SB10365",
-            "https://www.oracle.com/security-alerts/cpuapr2022.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2019-09/msg00053.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2019-09/msg00058.html",
-            "http://www.openldap.org/its/index.cgi/Incoming?id=8759",
-            "https://kc.mcafee.com/corporate/index?page=content&id=SB10365",
-            "https://www.oracle.com/security-alerts/cpuapr2022.html"
-          ],
-          "description": "contrib/slapd-modules/nops/nops.c in OpenLDAP through 2.4.45, when both the nops module and the memberof overlay are enabled, attempts to free a buffer that was allocated on the stack, which allows remote attackers to cause a denial of service (slapd crash) via a member MODDN operation.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2017-17740",
-              "epss": 0.02838,
-              "percentile": 0.85709,
-              "date": "2025-11-17"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2017-17740",
-              "cwe": "CWE-119",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "openldap",
-              "version": "2.5.13+dfsg-5"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2017-17740",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "919a44d8cbaa32e2",
-        "name": "libldap-2.5-0",
-        "version": "2.5.13+dfsg-5",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libldap-2.5-0",
-            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
-            "accessPath": "/var/lib/dpkg/status.d/libldap-2.5-0",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libldap-2.5-0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap-2.5-0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5_0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5_0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap-2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap-2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libldap-2.5-0@2.5.13%2Bdfsg-5?arch=amd64&distro=debian-12&upstream=openldap",
-        "upstreams": [
-          {
-            "name": "openldap"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2015-3276",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2015-3276",
         "namespace": "debian:distro:debian:12",
@@ -673,9 +412,9 @@
         "epss": [
           {
             "cve": "CVE-2015-3276",
-            "epss": 0.02368,
-            "percentile": 0.84414,
-            "date": "2025-11-17"
+            "epss": 0.02852,
+            "percentile": 0.85739,
+            "date": "2025-11-24"
           }
         ],
         "fix": {
@@ -683,7 +422,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.11840000000000002
+        "risk": 0.1426
       },
       "relatedVulnerabilities": [
         {
@@ -692,10 +431,6 @@
           "namespace": "nvd:cpe",
           "severity": "High",
           "urls": [
-            "http://rhn.redhat.com/errata/RHSA-2015-2131.html",
-            "http://www.oracle.com/technetwork/topics/security/linuxbulletinoct2015-2719645.html",
-            "http://www.securitytracker.com/id/1034221",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=1238322",
             "http://rhn.redhat.com/errata/RHSA-2015-2131.html",
             "http://www.oracle.com/technetwork/topics/security/linuxbulletinoct2015-2719645.html",
             "http://www.securitytracker.com/id/1034221",
@@ -731,9 +466,9 @@
           "epss": [
             {
               "cve": "CVE-2015-3276",
-              "epss": 0.02368,
-              "percentile": 0.84414,
-              "date": "2025-11-17"
+              "epss": 0.02852,
+              "percentile": 0.85739,
+              "date": "2025-11-24"
             }
           ]
         }
@@ -809,8 +544,8 @@
           {
             "cve": "CVE-2018-20796",
             "epss": 0.01786,
-            "percentile": 0.8214,
-            "date": "2025-11-17"
+            "percentile": 0.82147,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -835,11 +570,6 @@
           "namespace": "nvd:cpe",
           "severity": "High",
           "urls": [
-            "http://www.securityfocus.com/bid/107160",
-            "https://debbugs.gnu.org/cgi/bugreport.cgi?bug=34141",
-            "https://lists.gnu.org/archive/html/bug-gnulib/2019-01/msg00108.html",
-            "https://security.netapp.com/advisory/ntap-20190315-0002/",
-            "https://support.f5.com/csp/article/K26346590?utm_source=f5support&amp%3Butm_medium=RSS",
             "http://www.securityfocus.com/bid/107160",
             "https://debbugs.gnu.org/cgi/bugreport.cgi?bug=34141",
             "https://lists.gnu.org/archive/html/bug-gnulib/2019-01/msg00108.html",
@@ -877,8 +607,8 @@
             {
               "cve": "CVE-2018-20796",
               "epss": 0.01786,
-              "percentile": 0.8214,
-              "date": "2025-11-17"
+              "percentile": 0.82147,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -961,6 +691,154 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2017-17740",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2017-17740",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "contrib/slapd-modules/nops/nops.c in OpenLDAP through 2.4.45, when both the nops module and the memberof overlay are enabled, attempts to free a buffer that was allocated on the stack, which allows remote attackers to cause a denial of service (slapd crash) via a member MODDN operation.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2017-17740",
+            "epss": 0.01643,
+            "percentile": 0.81389,
+            "date": "2025-11-24"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2017-17740",
+            "cwe": "CWE-119",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.08215
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2017-17740",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2017-17740",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "http://lists.opensuse.org/opensuse-security-announce/2019-09/msg00053.html",
+            "http://lists.opensuse.org/opensuse-security-announce/2019-09/msg00058.html",
+            "http://www.openldap.org/its/index.cgi/Incoming?id=8759",
+            "https://kc.mcafee.com/corporate/index?page=content&id=SB10365",
+            "https://www.oracle.com/security-alerts/cpuapr2022.html"
+          ],
+          "description": "contrib/slapd-modules/nops/nops.c in OpenLDAP through 2.4.45, when both the nops module and the memberof overlay are enabled, attempts to free a buffer that was allocated on the stack, which allows remote attackers to cause a denial of service (slapd crash) via a member MODDN operation.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2017-17740",
+              "epss": 0.01643,
+              "percentile": 0.81389,
+              "date": "2025-11-24"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2017-17740",
+              "cwe": "CWE-119",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "openldap",
+              "version": "2.5.13+dfsg-5"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2017-17740",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "919a44d8cbaa32e2",
+        "name": "libldap-2.5-0",
+        "version": "2.5.13+dfsg-5",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libldap-2.5-0",
+            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
+            "accessPath": "/var/lib/dpkg/status.d/libldap-2.5-0",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libldap-2.5-0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap-2.5-0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5_0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5_0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap-2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap-2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libldap-2.5-0@2.5.13%2Bdfsg-5?arch=amd64&distro=debian-12&upstream=openldap",
+        "upstreams": [
+          {
+            "name": "openldap"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-9086",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-9086",
         "namespace": "debian:distro:debian:12",
@@ -984,9 +862,9 @@
         "epss": [
           {
             "cve": "CVE-2025-9086",
-            "epss": 0.00073,
-            "percentile": 0.22495,
-            "date": "2025-11-17"
+            "epss": 0.00095,
+            "percentile": 0.27092,
+            "date": "2025-11-24"
           }
         ],
         "fix": {
@@ -994,7 +872,7 @@
           "state": "wont-fix"
         },
         "advisories": [],
-        "risk": 0.05475
+        "risk": 0.07125000000000001
       },
       "relatedVulnerabilities": [
         {
@@ -1026,9 +904,9 @@
           "epss": [
             {
               "cve": "CVE-2025-9086",
-              "epss": 0.00073,
-              "percentile": 0.22495,
-              "date": "2025-11-17"
+              "epss": 0.00095,
+              "percentile": 0.27092,
+              "date": "2025-11-24"
             }
           ]
         }
@@ -1108,8 +986,8 @@
           {
             "cve": "CVE-2025-8715",
             "epss": 0.00051,
-            "percentile": 0.15734,
-            "date": "2025-11-17"
+            "percentile": 0.15708,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -1164,8 +1042,8 @@
             {
               "cve": "CVE-2025-8715",
               "epss": 0.00051,
-              "percentile": 0.15734,
-              "date": "2025-11-17"
+              "percentile": 0.15708,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -1242,9 +1120,9 @@
         "epss": [
           {
             "cve": "CVE-2025-0725",
-            "epss": 0.00711,
-            "percentile": 0.71494,
-            "date": "2025-11-17"
+            "epss": 0.0077,
+            "percentile": 0.72716,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -1260,7 +1138,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.035550000000000005
+        "risk": 0.038500000000000006
       },
       "relatedVulnerabilities": [
         {
@@ -1296,9 +1174,9 @@
           "epss": [
             {
               "cve": "CVE-2025-0725",
-              "epss": 0.00711,
-              "percentile": 0.71494,
-              "date": "2025-11-17"
+              "epss": 0.0077,
+              "percentile": 0.72716,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -1372,9 +1250,9 @@
         "epss": [
           {
             "cve": "CVE-2019-1010023",
-            "epss": 0.00703,
-            "percentile": 0.71282,
-            "date": "2025-11-17"
+            "epss": 0.00722,
+            "percentile": 0.71751,
+            "date": "2025-11-24"
           }
         ],
         "fix": {
@@ -1382,7 +1260,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.03515
+        "risk": 0.0361
       },
       "relatedVulnerabilities": [
         {
@@ -1391,11 +1269,6 @@
           "namespace": "nvd:cpe",
           "severity": "High",
           "urls": [
-            "http://www.securityfocus.com/bid/109167",
-            "https://security-tracker.debian.org/tracker/CVE-2019-1010023",
-            "https://sourceware.org/bugzilla/show_bug.cgi?id=22851",
-            "https://support.f5.com/csp/article/K11932200?utm_source=f5support&amp%3Butm_medium=RSS",
-            "https://ubuntu.com/security/CVE-2019-1010023",
             "http://www.securityfocus.com/bid/109167",
             "https://security-tracker.debian.org/tracker/CVE-2019-1010023",
             "https://sourceware.org/bugzilla/show_bug.cgi?id=22851",
@@ -1444,9 +1317,9 @@
           "epss": [
             {
               "cve": "CVE-2019-1010023",
-              "epss": 0.00703,
-              "percentile": 0.71282,
-              "date": "2025-11-17"
+              "epss": 0.00722,
+              "percentile": 0.71751,
+              "date": "2025-11-24"
             }
           ]
         }
@@ -1521,6 +1394,267 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-10148",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-10148",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Medium",
+        "urls": [],
+        "description": "curl's websocket code did not update the 32 bit mask pattern for each new  outgoing frame as the specification says. Instead it used a fixed mask that persisted and was used throughout the entire connection.  A predictable mask pattern allows for a malicious server to induce traffic between the two communicating parties that could be interpreted by an involved proxy (configured or transparent) as genuine, real, HTTP traffic with content and thereby poison its cache. That cached poisoned content could then be served to all users of that proxy.",
+        "cvss": [
+          {
+            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "metrics": {
+              "baseScore": 5.3,
+              "exploitabilityScore": 3.9,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-10148",
+            "epss": 0.0007,
+            "percentile": 0.21439,
+            "date": "2025-11-24"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "wont-fix"
+        },
+        "advisories": [],
+        "risk": 0.03605
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-10148",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-10148",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://curl.se/docs/CVE-2025-10148.html",
+            "https://curl.se/docs/CVE-2025-10148.json",
+            "https://hackerone.com/reports/3330839",
+            "http://www.openwall.com/lists/oss-security/2025/09/10/2",
+            "http://www.openwall.com/lists/oss-security/2025/09/10/3",
+            "http://www.openwall.com/lists/oss-security/2025/09/10/4"
+          ],
+          "description": "curl's websocket code did not update the 32 bit mask pattern for each new\n outgoing frame as the specification says. Instead it used a fixed mask that\npersisted and was used throughout the entire connection.\n\nA predictable mask pattern allows for a malicious server to induce traffic\nbetween the two communicating parties that could be interpreted by an involved\nproxy (configured or transparent) as genuine, real, HTTP traffic with content\nand thereby poison its cache. That cached poisoned content could then be\nserved to all users of that proxy.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+              "metrics": {
+                "baseScore": 5.3,
+                "exploitabilityScore": 3.9,
+                "impactScore": 1.5
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-10148",
+              "epss": 0.0007,
+              "percentile": 0.21439,
+              "date": "2025-11-24"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "curl",
+              "version": "7.88.1-10+deb12u12"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-10148",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "24ac2ca249a444cf",
+        "name": "libcurl4",
+        "version": "7.88.1-10+deb12u12",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libcurl4",
+            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
+            "accessPath": "/var/lib/dpkg/status.d/libcurl4",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u12:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u12?arch=amd64&distro=debian-12&upstream=curl",
+        "upstreams": [
+          {
+            "name": "curl"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-12818",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-12818",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Medium",
+        "urls": [],
+        "description": "Integer wraparound in multiple PostgreSQL libpq client library functions allows an application input provider or network peer to cause libpq to undersize an allocation and write out-of-bounds by hundreds of megabytes.  This results in a segmentation fault for the application using libpq.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
+        "cvss": [
+          {
+            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "metrics": {
+              "baseScore": 5.9,
+              "exploitabilityScore": 2.3,
+              "impactScore": 3.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-12818",
+            "epss": 0.00052,
+            "percentile": 0.16221,
+            "date": "2025-11-24"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-12818",
+            "cwe": "CWE-190",
+            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "wont-fix"
+        },
+        "advisories": [],
+        "risk": 0.02834
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-12818",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-12818",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://www.postgresql.org/support/security/CVE-2025-12818/"
+          ],
+          "description": "Integer wraparound in multiple PostgreSQL libpq client library functions allows an application input provider or network peer to cause libpq to undersize an allocation and write out-of-bounds by hundreds of megabytes.  This results in a segmentation fault for the application using libpq.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
+          "cvss": [
+            {
+              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "metrics": {
+                "baseScore": 5.9,
+                "exploitabilityScore": 2.3,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-12818",
+              "epss": 0.00052,
+              "percentile": 0.16221,
+              "date": "2025-11-24"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-12818",
+              "cwe": "CWE-190",
+              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "postgresql-15",
+              "version": "15.13-0+deb12u1"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-12818",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "11769cd41fdc5daa",
+        "name": "libpq5",
+        "version": "15.13-0+deb12u1",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libpq5",
+            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
+            "accessPath": "/var/lib/dpkg/status.d/libpq5",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libpq5:libpq5:15.13-0\\+deb12u1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libpq5@15.13-0%2Bdeb12u1?arch=amd64&distro=debian-12&upstream=postgresql-15",
+        "upstreams": [
+          {
+            "name": "postgresql-15"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-3576",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-3576",
         "namespace": "debian:distro:debian:12",
@@ -1544,9 +1678,9 @@
         "epss": [
           {
             "cve": "CVE-2025-3576",
-            "epss": 0.00053,
-            "percentile": 0.16459,
-            "date": "2025-11-17"
+            "epss": 0.0005,
+            "percentile": 0.1554,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -1571,7 +1705,7 @@
           ]
         },
         "advisories": [],
-        "risk": 0.028885
+        "risk": 0.02725
       },
       "relatedVulnerabilities": [
         {
@@ -1614,9 +1748,9 @@
           "epss": [
             {
               "cve": "CVE-2025-3576",
-              "epss": 0.00053,
-              "percentile": 0.16459,
-              "date": "2025-11-17"
+              "epss": 0.0005,
+              "percentile": 0.1554,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -1715,9 +1849,9 @@
         "epss": [
           {
             "cve": "CVE-2025-3576",
-            "epss": 0.00053,
-            "percentile": 0.16459,
-            "date": "2025-11-17"
+            "epss": 0.0005,
+            "percentile": 0.1554,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -1742,7 +1876,7 @@
           ]
         },
         "advisories": [],
-        "risk": 0.028885
+        "risk": 0.02725
       },
       "relatedVulnerabilities": [
         {
@@ -1785,9 +1919,9 @@
           "epss": [
             {
               "cve": "CVE-2025-3576",
-              "epss": 0.00053,
-              "percentile": 0.16459,
-              "date": "2025-11-17"
+              "epss": 0.0005,
+              "percentile": 0.1554,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -1877,9 +2011,9 @@
         "epss": [
           {
             "cve": "CVE-2025-3576",
-            "epss": 0.00053,
-            "percentile": 0.16459,
-            "date": "2025-11-17"
+            "epss": 0.0005,
+            "percentile": 0.1554,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -1904,7 +2038,7 @@
           ]
         },
         "advisories": [],
-        "risk": 0.028885
+        "risk": 0.02725
       },
       "relatedVulnerabilities": [
         {
@@ -1947,9 +2081,9 @@
           "epss": [
             {
               "cve": "CVE-2025-3576",
-              "epss": 0.00053,
-              "percentile": 0.16459,
-              "date": "2025-11-17"
+              "epss": 0.0005,
+              "percentile": 0.1554,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -2044,9 +2178,9 @@
         "epss": [
           {
             "cve": "CVE-2025-3576",
-            "epss": 0.00053,
-            "percentile": 0.16459,
-            "date": "2025-11-17"
+            "epss": 0.0005,
+            "percentile": 0.1554,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -2071,7 +2205,7 @@
           ]
         },
         "advisories": [],
-        "risk": 0.028885
+        "risk": 0.02725
       },
       "relatedVulnerabilities": [
         {
@@ -2114,9 +2248,9 @@
           "epss": [
             {
               "cve": "CVE-2025-3576",
-              "epss": 0.00053,
-              "percentile": 0.16459,
-              "date": "2025-11-17"
+              "epss": 0.0005,
+              "percentile": 0.1554,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -2194,8 +2328,8 @@
           {
             "cve": "CVE-2018-6829",
             "epss": 0.00534,
-            "percentile": 0.66523,
-            "date": "2025-11-17"
+            "percentile": 0.66515,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -2220,10 +2354,6 @@
           "namespace": "nvd:cpe",
           "severity": "High",
           "urls": [
-            "https://github.com/weikengchen/attack-on-libgcrypt-elgamal",
-            "https://github.com/weikengchen/attack-on-libgcrypt-elgamal/wiki",
-            "https://lists.gnupg.org/pipermail/gcrypt-devel/2018-February/004394.html",
-            "https://www.oracle.com/security-alerts/cpujan2020.html",
             "https://github.com/weikengchen/attack-on-libgcrypt-elgamal",
             "https://github.com/weikengchen/attack-on-libgcrypt-elgamal/wiki",
             "https://lists.gnupg.org/pipermail/gcrypt-devel/2018-February/004394.html",
@@ -2260,8 +2390,8 @@
             {
               "cve": "CVE-2018-6829",
               "epss": 0.00534,
-              "percentile": 0.66523,
-              "date": "2025-11-17"
+              "percentile": 0.66515,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -2332,8 +2462,8 @@
           {
             "cve": "CVE-2010-4756",
             "epss": 0.0052,
-            "percentile": 0.65962,
-            "date": "2025-11-17"
+            "percentile": 0.65952,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -2363,11 +2493,6 @@
             "http://securityreason.com/exploitalert/9223",
             "https://bugzilla.redhat.com/show_bug.cgi?id=681681",
             "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4756",
-            "http://cxib.net/stuff/glob-0day.c",
-            "http://securityreason.com/achievement_securityalert/89",
-            "http://securityreason.com/exploitalert/9223",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=681681",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4756",
             "https://security.netapp.com/advisory/ntap-20241108-0002/"
           ],
           "description": "The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames, as demonstrated by glob expressions in STAT commands to an FTP daemon, a different vulnerability than CVE-2010-2632.",
@@ -2389,8 +2514,8 @@
             {
               "cve": "CVE-2010-4756",
               "epss": 0.0052,
-              "percentile": 0.65962,
-              "date": "2025-11-17"
+              "percentile": 0.65952,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -2473,6 +2598,712 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2018-5709",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2018-5709",
+            "epss": 0.00463,
+            "percentile": 0.63401,
+            "date": "2025-11-24"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2018-5709",
+            "cwe": "CWE-190",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.02315
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2018-5709",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
+          ],
+          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.0",
+              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2018-5709",
+              "epss": 0.00463,
+              "percentile": 0.63401,
+              "date": "2025-11-24"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2018-5709",
+              "cwe": "CWE-190",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "krb5",
+              "version": "1.20.1-2+deb12u3"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2018-5709",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "3472c9903aced6bd",
+        "name": "libgssapi-krb5-2",
+        "version": "1.20.1-2+deb12u3",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
+            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
+            "accessPath": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libgssapi-krb5-2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi-krb5-2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5_2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5_2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi-krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi-krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi_krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libgssapi:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libgssapi-krb5-2@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "upstreams": [
+          {
+            "name": "krb5"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2018-5709",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2018-5709",
+            "epss": 0.00463,
+            "percentile": 0.63401,
+            "date": "2025-11-24"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2018-5709",
+            "cwe": "CWE-190",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.02315
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2018-5709",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
+          ],
+          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.0",
+              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2018-5709",
+              "epss": 0.00463,
+              "percentile": 0.63401,
+              "date": "2025-11-24"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2018-5709",
+              "cwe": "CWE-190",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "krb5",
+              "version": "1.20.1-2+deb12u3"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2018-5709",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "dc5610a2a1a5ad4f",
+        "name": "libk5crypto3",
+        "version": "1.20.1-2+deb12u3",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libk5crypto3",
+            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
+            "accessPath": "/var/lib/dpkg/status.d/libk5crypto3",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libk5crypto3:libk5crypto3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libk5crypto3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "upstreams": [
+          {
+            "name": "krb5"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2018-5709",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2018-5709",
+            "epss": 0.00463,
+            "percentile": 0.63401,
+            "date": "2025-11-24"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2018-5709",
+            "cwe": "CWE-190",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.02315
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2018-5709",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
+          ],
+          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.0",
+              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2018-5709",
+              "epss": 0.00463,
+              "percentile": 0.63401,
+              "date": "2025-11-24"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2018-5709",
+              "cwe": "CWE-190",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "krb5",
+              "version": "1.20.1-2+deb12u3"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2018-5709",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "a9152735ac194d5d",
+        "name": "libkrb5-3",
+        "version": "1.20.1-2+deb12u3",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libkrb5-3",
+            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
+            "accessPath": "/var/lib/dpkg/status.d/libkrb5-3",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libkrb5-3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5-3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5_3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5_3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libkrb5:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libkrb5-3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "upstreams": [
+          {
+            "name": "krb5"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2018-5709",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2018-5709",
+            "epss": 0.00463,
+            "percentile": 0.63401,
+            "date": "2025-11-24"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2018-5709",
+            "cwe": "CWE-190",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.02315
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2018-5709",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
+            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
+          ],
+          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.0",
+              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "metrics": {
+                "baseScore": 5,
+                "exploitabilityScore": 10,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2018-5709",
+              "epss": 0.00463,
+              "percentile": 0.63401,
+              "date": "2025-11-24"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2018-5709",
+              "cwe": "CWE-190",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "krb5",
+              "version": "1.20.1-2+deb12u3"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2018-5709",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "04174b0fa1866e36",
+        "name": "libkrb5support0",
+        "version": "1.20.1-2+deb12u3",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libkrb5support0",
+            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
+            "accessPath": "/var/lib/dpkg/status.d/libkrb5support0",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libkrb5support0:libkrb5support0:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libkrb5support0@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
+        "upstreams": [
+          {
+            "name": "krb5"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-8714",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-8714",
+        "namespace": "debian:distro:debian:12",
+        "severity": "High",
+        "urls": [],
+        "description": "Untrusted data inclusion in pg_dump in PostgreSQL allows a malicious superuser of the origin server to inject arbitrary code for restore-time execution as the client operating system account running psql to restore the dump, via psql meta-commands.  pg_dumpall is also affected.  pg_restore is affected when used to generate a plain-format dump.  This is similar to MySQL CVE-2024-21096.  Versions before PostgreSQL 17.6, 16.10, 15.14, 14.19, and 13.22 are affected.",
+        "cvss": [
+          {
+            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "metrics": {
+              "baseScore": 8.8,
+              "exploitabilityScore": 2.9,
+              "impactScore": 5.9
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-8714",
+            "epss": 0.00025,
+            "percentile": 0.05771,
+            "date": "2025-11-24"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-8714",
+            "cwe": "CWE-829",
+            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [
+            "15.14-0+deb12u1"
+          ],
+          "state": "fixed",
+          "available": [
+            {
+              "version": "15.14-0+deb12u1",
+              "date": "2025-09-11",
+              "kind": "first-observed"
+            }
+          ]
+        },
+        "advisories": [],
+        "risk": 0.020375
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-8714",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-8714",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://www.postgresql.org/support/security/CVE-2025-8714/"
+          ],
+          "description": "Untrusted data inclusion in pg_dump in PostgreSQL allows a malicious superuser of the origin server to inject arbitrary code for restore-time execution as the client operating system account running psql to restore the dump, via psql meta-commands.  pg_dumpall is also affected.  pg_restore is affected when used to generate a plain-format dump.  This is similar to MySQL CVE-2024-21096.  Versions before PostgreSQL 17.6, 16.10, 15.14, 14.19, and 13.22 are affected.",
+          "cvss": [
+            {
+              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+              "metrics": {
+                "baseScore": 8.8,
+                "exploitabilityScore": 2.9,
+                "impactScore": 5.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-8714",
+              "epss": 0.00025,
+              "percentile": 0.05771,
+              "date": "2025-11-24"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-8714",
+              "cwe": "CWE-829",
+              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "postgresql-15",
+              "version": "15.13-0+deb12u1"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-8714",
+            "versionConstraint": "< 15.14-0+deb12u1 (deb)"
+          },
+          "fix": {
+            "suggestedVersion": "15.14-0+deb12u1"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "11769cd41fdc5daa",
+        "name": "libpq5",
+        "version": "15.13-0+deb12u1",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libpq5",
+            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
+            "accessPath": "/var/lib/dpkg/status.d/libpq5",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libpq5:libpq5:15.13-0\\+deb12u1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libpq5@15.13-0%2Bdeb12u1?arch=amd64&distro=debian-12&upstream=postgresql-15",
+        "upstreams": [
+          {
+            "name": "postgresql-15"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-9230",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-9230",
         "namespace": "debian:distro:debian:12",
@@ -2496,9 +3327,9 @@
         "epss": [
           {
             "cve": "CVE-2025-9230",
-            "epss": 0.00034,
-            "percentile": 0.09318,
-            "date": "2025-11-17"
+            "epss": 0.00025,
+            "percentile": 0.05728,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -2534,7 +3365,7 @@
             "link": "https://security-tracker.debian.org/tracker/DSA-6015-1"
           }
         ],
-        "risk": 0.025500000000000002
+        "risk": 0.01875
       },
       "relatedVulnerabilities": [
         {
@@ -2572,9 +3403,9 @@
           "epss": [
             {
               "cve": "CVE-2025-9230",
-              "epss": 0.00034,
-              "percentile": 0.09318,
-              "date": "2025-11-17"
+              "epss": 0.00025,
+              "percentile": 0.05728,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -2668,980 +3499,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2018-5709",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2018-5709",
-            "epss": 0.00463,
-            "percentile": 0.63404,
-            "date": "2025-11-17"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2018-5709",
-            "cwe": "CWE-190",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.02315
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2018-5709",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
-          ],
-          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.0",
-              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2018-5709",
-              "epss": 0.00463,
-              "percentile": 0.63404,
-              "date": "2025-11-17"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2018-5709",
-              "cwe": "CWE-190",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2018-5709",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "3472c9903aced6bd",
-        "name": "libgssapi-krb5-2",
-        "version": "1.20.1-2+deb12u3",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
-            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
-            "accessPath": "/var/lib/dpkg/status.d/libgssapi-krb5-2",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libgssapi-krb5-2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5-2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5_2:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5_2:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi-krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi_krb5:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi:libgssapi-krb5-2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libgssapi:libgssapi_krb5_2:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libgssapi-krb5-2@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
-        "upstreams": [
-          {
-            "name": "krb5"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2018-5709",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2018-5709",
-            "epss": 0.00463,
-            "percentile": 0.63404,
-            "date": "2025-11-17"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2018-5709",
-            "cwe": "CWE-190",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.02315
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2018-5709",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
-          ],
-          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.0",
-              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2018-5709",
-              "epss": 0.00463,
-              "percentile": 0.63404,
-              "date": "2025-11-17"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2018-5709",
-              "cwe": "CWE-190",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2018-5709",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "dc5610a2a1a5ad4f",
-        "name": "libk5crypto3",
-        "version": "1.20.1-2+deb12u3",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libk5crypto3",
-            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
-            "accessPath": "/var/lib/dpkg/status.d/libk5crypto3",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libk5crypto3:libk5crypto3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libk5crypto3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
-        "upstreams": [
-          {
-            "name": "krb5"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2018-5709",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2018-5709",
-            "epss": 0.00463,
-            "percentile": 0.63404,
-            "date": "2025-11-17"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2018-5709",
-            "cwe": "CWE-190",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.02315
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2018-5709",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
-          ],
-          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.0",
-              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2018-5709",
-              "epss": 0.00463,
-              "percentile": 0.63404,
-              "date": "2025-11-17"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2018-5709",
-              "cwe": "CWE-190",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2018-5709",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "a9152735ac194d5d",
-        "name": "libkrb5-3",
-        "version": "1.20.1-2+deb12u3",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libkrb5-3",
-            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
-            "accessPath": "/var/lib/dpkg/status.d/libkrb5-3",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libkrb5-3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5-3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5_3:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5_3:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5:libkrb5-3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libkrb5:libkrb5_3:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libkrb5-3@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
-        "upstreams": [
-          {
-            "name": "krb5"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2018-5709",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2018-5709",
-            "epss": 0.00463,
-            "percentile": 0.63404,
-            "date": "2025-11-17"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2018-5709",
-            "cwe": "CWE-190",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.02315
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2018-5709",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-5709",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E",
-            "https://github.com/poojamnit/Kerberos-V5-1.16-Vulnerabilities/tree/master/Integer%20Overflow",
-            "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E"
-          ],
-          "description": "An issue was discovered in MIT Kerberos 5 (aka krb5) through 1.16. There is a variable \"dbentry->n_key_data\" in kadmin/dbutil/dump.c that can store 16-bit data but unknowingly the developer has assigned a \"u4\" variable to it, which is for 32-bit data. An attacker can use this vulnerability to affect other artifacts of the database as we know that a Kerberos database dump file contains trusted data.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.0",
-              "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
-              "metrics": {
-                "baseScore": 5,
-                "exploitabilityScore": 10,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2018-5709",
-              "epss": 0.00463,
-              "percentile": 0.63404,
-              "date": "2025-11-17"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2018-5709",
-              "cwe": "CWE-190",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "krb5",
-              "version": "1.20.1-2+deb12u3"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2018-5709",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "04174b0fa1866e36",
-        "name": "libkrb5support0",
-        "version": "1.20.1-2+deb12u3",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libkrb5support0",
-            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
-            "accessPath": "/var/lib/dpkg/status.d/libkrb5support0",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libkrb5support0:libkrb5support0:1.20.1-2\\+deb12u3:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libkrb5support0@1.20.1-2%2Bdeb12u3?arch=amd64&distro=debian-12&upstream=krb5",
-        "upstreams": [
-          {
-            "name": "krb5"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-12818",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-12818",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Medium",
-        "urls": [],
-        "description": "Integer wraparound in multiple PostgreSQL libpq client library functions allows an application input provider or network peer to cause libpq to undersize an allocation and write out-of-bounds by hundreds of megabytes.  This results in a segmentation fault for the application using libpq.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
-        "cvss": [
-          {
-            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "metrics": {
-              "baseScore": 5.9,
-              "exploitabilityScore": 2.3,
-              "impactScore": 3.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-12818",
-            "epss": 0.0004,
-            "percentile": 0.11791,
-            "date": "2025-11-17"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-12818",
-            "cwe": "CWE-190",
-            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-            "type": "Secondary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.0218
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-12818",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-12818",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://www.postgresql.org/support/security/CVE-2025-12818/"
-          ],
-          "description": "Integer wraparound in multiple PostgreSQL libpq client library functions allows an application input provider or network peer to cause libpq to undersize an allocation and write out-of-bounds by hundreds of megabytes.  This results in a segmentation fault for the application using libpq.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
-          "cvss": [
-            {
-              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "metrics": {
-                "baseScore": 5.9,
-                "exploitabilityScore": 2.3,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-12818",
-              "epss": 0.0004,
-              "percentile": 0.11791,
-              "date": "2025-11-17"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-12818",
-              "cwe": "CWE-190",
-              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-              "type": "Secondary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "postgresql-15",
-              "version": "15.13-0+deb12u1"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-12818",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "11769cd41fdc5daa",
-        "name": "libpq5",
-        "version": "15.13-0+deb12u1",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libpq5",
-            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
-            "accessPath": "/var/lib/dpkg/status.d/libpq5",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libpq5:libpq5:15.13-0\\+deb12u1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libpq5@15.13-0%2Bdeb12u1?arch=amd64&distro=debian-12&upstream=postgresql-15",
-        "upstreams": [
-          {
-            "name": "postgresql-15"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-8714",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-8714",
-        "namespace": "debian:distro:debian:12",
-        "severity": "High",
-        "urls": [],
-        "description": "Untrusted data inclusion in pg_dump in PostgreSQL allows a malicious superuser of the origin server to inject arbitrary code for restore-time execution as the client operating system account running psql to restore the dump, via psql meta-commands.  pg_dumpall is also affected.  pg_restore is affected when used to generate a plain-format dump.  This is similar to MySQL CVE-2024-21096.  Versions before PostgreSQL 17.6, 16.10, 15.14, 14.19, and 13.22 are affected.",
-        "cvss": [
-          {
-            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-            "metrics": {
-              "baseScore": 8.8,
-              "exploitabilityScore": 2.9,
-              "impactScore": 5.9
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-8714",
-            "epss": 0.00025,
-            "percentile": 0.05776,
-            "date": "2025-11-17"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-8714",
-            "cwe": "CWE-829",
-            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-            "type": "Secondary"
-          }
-        ],
-        "fix": {
-          "versions": [
-            "15.14-0+deb12u1"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "15.14-0+deb12u1",
-              "date": "2025-09-11",
-              "kind": "first-observed"
-            }
-          ]
-        },
-        "advisories": [],
-        "risk": 0.020375
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-8714",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-8714",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://www.postgresql.org/support/security/CVE-2025-8714/"
-          ],
-          "description": "Untrusted data inclusion in pg_dump in PostgreSQL allows a malicious superuser of the origin server to inject arbitrary code for restore-time execution as the client operating system account running psql to restore the dump, via psql meta-commands.  pg_dumpall is also affected.  pg_restore is affected when used to generate a plain-format dump.  This is similar to MySQL CVE-2024-21096.  Versions before PostgreSQL 17.6, 16.10, 15.14, 14.19, and 13.22 are affected.",
-          "cvss": [
-            {
-              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-              "metrics": {
-                "baseScore": 8.8,
-                "exploitabilityScore": 2.9,
-                "impactScore": 5.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-8714",
-              "epss": 0.00025,
-              "percentile": 0.05776,
-              "date": "2025-11-17"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-8714",
-              "cwe": "CWE-829",
-              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-              "type": "Secondary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "postgresql-15",
-              "version": "15.13-0+deb12u1"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-8714",
-            "versionConstraint": "< 15.14-0+deb12u1 (deb)"
-          },
-          "fix": {
-            "suggestedVersion": "15.14-0+deb12u1"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "11769cd41fdc5daa",
-        "name": "libpq5",
-        "version": "15.13-0+deb12u1",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libpq5",
-            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
-            "accessPath": "/var/lib/dpkg/status.d/libpq5",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libpq5:libpq5:15.13-0\\+deb12u1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libpq5@15.13-0%2Bdeb12u1?arch=amd64&distro=debian-12&upstream=postgresql-15",
-        "upstreams": [
-          {
-            "name": "postgresql-15"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-10148",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-10148",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Medium",
-        "urls": [],
-        "description": "curl's websocket code did not update the 32 bit mask pattern for each new  outgoing frame as the specification says. Instead it used a fixed mask that persisted and was used throughout the entire connection.  A predictable mask pattern allows for a malicious server to induce traffic between the two communicating parties that could be interpreted by an involved proxy (configured or transparent) as genuine, real, HTTP traffic with content and thereby poison its cache. That cached poisoned content could then be served to all users of that proxy.",
-        "cvss": [
-          {
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-            "metrics": {
-              "baseScore": 5.3,
-              "exploitabilityScore": 3.9,
-              "impactScore": 1.5
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-10148",
-            "epss": 0.00037,
-            "percentile": 0.10508,
-            "date": "2025-11-17"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "wont-fix"
-        },
-        "advisories": [],
-        "risk": 0.019055
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-10148",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-10148",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://curl.se/docs/CVE-2025-10148.html",
-            "https://curl.se/docs/CVE-2025-10148.json",
-            "https://hackerone.com/reports/3330839",
-            "http://www.openwall.com/lists/oss-security/2025/09/10/2",
-            "http://www.openwall.com/lists/oss-security/2025/09/10/3"
-          ],
-          "description": "curl's websocket code did not update the 32 bit mask pattern for each new\n outgoing frame as the specification says. Instead it used a fixed mask that\npersisted and was used throughout the entire connection.\n\nA predictable mask pattern allows for a malicious server to induce traffic\nbetween the two communicating parties that could be interpreted by an involved\nproxy (configured or transparent) as genuine, real, HTTP traffic with content\nand thereby poison its cache. That cached poisoned content could then be\nserved to all users of that proxy.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-              "metrics": {
-                "baseScore": 5.3,
-                "exploitabilityScore": 3.9,
-                "impactScore": 1.5
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-10148",
-              "epss": 0.00037,
-              "percentile": 0.10508,
-              "date": "2025-11-17"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "curl",
-              "version": "7.88.1-10+deb12u12"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-10148",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "24ac2ca249a444cf",
-        "name": "libcurl4",
-        "version": "7.88.1-10+deb12u12",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libcurl4",
-            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
-            "accessPath": "/var/lib/dpkg/status.d/libcurl4",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u12:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u12?arch=amd64&distro=debian-12&upstream=curl",
-        "upstreams": [
-          {
-            "name": "curl"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2019-1010024",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2019-1010024",
         "namespace": "debian:distro:debian:12",
@@ -3653,8 +3510,8 @@
           {
             "cve": "CVE-2019-1010024",
             "epss": 0.00375,
-            "percentile": 0.58421,
-            "date": "2025-11-17"
+            "percentile": 0.58404,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -3679,12 +3536,6 @@
           "namespace": "nvd:cpe",
           "severity": "Medium",
           "urls": [
-            "http://www.securityfocus.com/bid/109162",
-            "https://security-tracker.debian.org/tracker/CVE-2019-1010024",
-            "https://sourceware.org/bugzilla/show_bug.cgi?id=22852",
-            "https://support.f5.com/csp/article/K06046097",
-            "https://support.f5.com/csp/article/K06046097?utm_source=f5support&amp%3Butm_medium=RSS",
-            "https://ubuntu.com/security/CVE-2019-1010024",
             "http://www.securityfocus.com/bid/109162",
             "https://security-tracker.debian.org/tracker/CVE-2019-1010024",
             "https://sourceware.org/bugzilla/show_bug.cgi?id=22852",
@@ -3723,8 +3574,8 @@
             {
               "cve": "CVE-2019-1010024",
               "epss": 0.00375,
-              "percentile": 0.58421,
-              "date": "2025-11-17"
+              "percentile": 0.58404,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -3818,8 +3669,8 @@
           {
             "cve": "CVE-2019-9192",
             "epss": 0.00353,
-            "percentile": 0.57014,
-            "date": "2025-11-17"
+            "percentile": 0.56994,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -3844,8 +3695,6 @@
           "namespace": "nvd:cpe",
           "severity": "High",
           "urls": [
-            "https://sourceware.org/bugzilla/show_bug.cgi?id=24269",
-            "https://support.f5.com/csp/article/K26346590?utm_source=f5support&amp%3Butm_medium=RSS",
             "https://sourceware.org/bugzilla/show_bug.cgi?id=24269",
             "https://support.f5.com/csp/article/K26346590?utm_source=f5support&amp%3Butm_medium=RSS"
           ],
@@ -3880,8 +3729,8 @@
             {
               "cve": "CVE-2019-9192",
               "epss": 0.00353,
-              "percentile": 0.57014,
-              "date": "2025-11-17"
+              "percentile": 0.56994,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -3964,6 +3813,171 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-8058",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-8058",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Medium",
+        "urls": [],
+        "description": "The regcomp function in the GNU C library version from 2.4 to 2.41 is  subject to a double free if some previous allocation fails. It can be  accomplished either by a malloc failure or by using an interposed malloc  that injects random malloc failures. The double free can allow buffer  manipulation depending of how the regex is constructed. This issue  affects all architectures and ABIs supported by the GNU C library.",
+        "cvss": [
+          {
+            "source": "3ff69d7a-14f2-4f67-a097-88dee7810d18",
+            "type": "Secondary",
+            "version": "4.0",
+            "vector": "CVSS:4.0/AV:L/AC:H/AT:P/PR:L/UI:P/VC:L/VI:L/VA:H/SC:L/SI:L/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+            "metrics": {
+              "baseScore": 5.9
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-8058",
+            "epss": 0.00031,
+            "percentile": 0.08048,
+            "date": "2025-11-24"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-8058",
+            "cwe": "CWE-415",
+            "source": "3ff69d7a-14f2-4f67-a097-88dee7810d18",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [
+            "2.36-9+deb12u13"
+          ],
+          "state": "fixed",
+          "available": [
+            {
+              "version": "2.36-9+deb12u13",
+              "date": "2025-09-11",
+              "kind": "first-observed"
+            }
+          ]
+        },
+        "advisories": [],
+        "risk": 0.016895
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-8058",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-8058",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://sourceware.org/bugzilla/show_bug.cgi?id=33185",
+            "https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f",
+            "http://www.openwall.com/lists/oss-security/2025/07/23/1"
+          ],
+          "description": "The regcomp function in the GNU C library version from 2.4 to 2.41 is \nsubject to a double free if some previous allocation fails. It can be \naccomplished either by a malloc failure or by using an interposed malloc\n that injects random malloc failures. The double free can allow buffer \nmanipulation depending of how the regex is constructed. This issue \naffects all architectures and ABIs supported by the GNU C library.",
+          "cvss": [
+            {
+              "source": "3ff69d7a-14f2-4f67-a097-88dee7810d18",
+              "type": "Secondary",
+              "version": "4.0",
+              "vector": "CVSS:4.0/AV:L/AC:H/AT:P/PR:L/UI:P/VC:L/VI:L/VA:H/SC:L/SI:L/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+              "metrics": {
+                "baseScore": 5.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-8058",
+              "epss": 0.00031,
+              "percentile": 0.08048,
+              "date": "2025-11-24"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-8058",
+              "cwe": "CWE-415",
+              "source": "3ff69d7a-14f2-4f67-a097-88dee7810d18",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "glibc",
+              "version": "2.36-9+deb12u10"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-8058",
+            "versionConstraint": "< 2.36-9+deb12u13 (deb)"
+          },
+          "fix": {
+            "suggestedVersion": "2.36-9+deb12u13"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "c924a822eab59d9a",
+        "name": "libc6",
+        "version": "2.36-9+deb12u10",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libc6",
+            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "accessPath": "/var/lib/dpkg/status.d/libc6",
+            "annotations": {
+              "evidence": "primary"
+            }
+          },
+          {
+            "path": "/usr/share/doc/libc6/copyright",
+            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "accessPath": "/usr/share/doc/libc6/copyright",
+            "annotations": {
+              "evidence": "supporting"
+            }
+          },
+          {
+            "path": "/var/lib/dpkg/status.d/libc6.md5sums",
+            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+            "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
+            "annotations": {
+              "evidence": "supporting"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPL-2",
+          "LGPL-2.1"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u10:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&upstream=glibc",
+        "upstreams": [
+          {
+            "name": "glibc"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-8713",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-8713",
         "namespace": "debian:distro:debian:12",
@@ -3988,8 +4002,8 @@
           {
             "cve": "CVE-2025-8713",
             "epss": 0.00047,
-            "percentile": 0.14183,
-            "date": "2025-11-17"
+            "percentile": 0.14154,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -4044,8 +4058,8 @@
             {
               "cve": "CVE-2025-8713",
               "epss": 0.00047,
-              "percentile": 0.14183,
-              "date": "2025-11-17"
+              "percentile": 0.14154,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -4136,8 +4150,8 @@
           {
             "cve": "CVE-2025-9232",
             "epss": 0.00025,
-            "percentile": 0.05914,
-            "date": "2025-11-17"
+            "percentile": 0.0596,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -4203,8 +4217,8 @@
             {
               "cve": "CVE-2025-9232",
               "epss": 0.00025,
-              "percentile": 0.05914,
-              "date": "2025-11-17"
+              "percentile": 0.0596,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -4292,6 +4306,142 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-12817",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-12817",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Low",
+        "urls": [],
+        "description": "Missing authorization in PostgreSQL CREATE STATISTICS command allows a table owner to achieve denial of service against other CREATE STATISTICS users by creating in any schema.  A later CREATE STATISTICS for the same name, from a user having the CREATE privilege, would then fail.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
+        "cvss": [
+          {
+            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L",
+            "metrics": {
+              "baseScore": 3.1,
+              "exploitabilityScore": 1.7,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-12817",
+            "epss": 0.0004,
+            "percentile": 0.1165,
+            "date": "2025-11-24"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-12817",
+            "cwe": "CWE-862",
+            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "wont-fix"
+        },
+        "advisories": [],
+        "risk": 0.012199999999999999
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-12817",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-12817",
+          "namespace": "nvd:cpe",
+          "severity": "Low",
+          "urls": [
+            "https://www.postgresql.org/support/security/CVE-2025-12817/"
+          ],
+          "description": "Missing authorization in PostgreSQL CREATE STATISTICS command allows a table owner to achieve denial of service against other CREATE STATISTICS users by creating in any schema.  A later CREATE STATISTICS for the same name, from a user having the CREATE privilege, would then fail.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
+          "cvss": [
+            {
+              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L",
+              "metrics": {
+                "baseScore": 3.1,
+                "exploitabilityScore": 1.7,
+                "impactScore": 1.5
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-12817",
+              "epss": 0.0004,
+              "percentile": 0.1165,
+              "date": "2025-11-24"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-12817",
+              "cwe": "CWE-862",
+              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "postgresql-15",
+              "version": "15.13-0+deb12u1"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-12817",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "11769cd41fdc5daa",
+        "name": "libpq5",
+        "version": "15.13-0+deb12u1",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libpq5",
+            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
+            "accessPath": "/var/lib/dpkg/status.d/libpq5",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libpq5:libpq5:15.13-0\\+deb12u1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libpq5@15.13-0%2Bdeb12u1?arch=amd64&distro=debian-12&upstream=postgresql-15",
+        "upstreams": [
+          {
+            "name": "postgresql-15"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2019-1010025",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2019-1010025",
         "namespace": "debian:distro:debian:12",
@@ -4303,8 +4453,8 @@
           {
             "cve": "CVE-2019-1010025",
             "epss": 0.00228,
-            "percentile": 0.4555,
-            "date": "2025-11-17"
+            "percentile": 0.45509,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -4329,11 +4479,6 @@
           "namespace": "nvd:cpe",
           "severity": "Medium",
           "urls": [
-            "https://security-tracker.debian.org/tracker/CVE-2019-1010025",
-            "https://sourceware.org/bugzilla/show_bug.cgi?id=22853",
-            "https://support.f5.com/csp/article/K06046097",
-            "https://support.f5.com/csp/article/K06046097?utm_source=f5support&amp%3Butm_medium=RSS",
-            "https://ubuntu.com/security/CVE-2019-1010025",
             "https://security-tracker.debian.org/tracker/CVE-2019-1010025",
             "https://sourceware.org/bugzilla/show_bug.cgi?id=22853",
             "https://support.f5.com/csp/article/K06046097",
@@ -4371,8 +4516,8 @@
             {
               "cve": "CVE-2019-1010025",
               "epss": 0.00228,
-              "percentile": 0.4555,
-              "date": "2025-11-17"
+              "percentile": 0.45509,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -4465,9 +4610,9 @@
         "epss": [
           {
             "cve": "CVE-2024-2236",
-            "epss": 0.00222,
-            "percentile": 0.44703,
-            "date": "2025-11-17"
+            "epss": 0.00228,
+            "percentile": 0.45448,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -4483,7 +4628,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.011100000000000002
+        "risk": 0.0114
       },
       "relatedVulnerabilities": [
         {
@@ -4495,8 +4640,6 @@
             "https://access.redhat.com/errata/RHSA-2024:9404",
             "https://access.redhat.com/errata/RHSA-2025:3530",
             "https://access.redhat.com/errata/RHSA-2025:3534",
-            "https://access.redhat.com/security/cve/CVE-2024-2236",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2245218",
             "https://access.redhat.com/security/cve/CVE-2024-2236",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2245218",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2268268"
@@ -4519,9 +4662,9 @@
           "epss": [
             {
               "cve": "CVE-2024-2236",
-              "epss": 0.00222,
-              "percentile": 0.44703,
-              "date": "2025-11-17"
+              "epss": 0.00228,
+              "percentile": 0.45448,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -4581,40 +4724,27 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-12817",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-12817",
+        "id": "CVE-2020-15719",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2020-15719",
         "namespace": "debian:distro:debian:12",
-        "severity": "Low",
+        "severity": "Negligible",
         "urls": [],
-        "description": "Missing authorization in PostgreSQL CREATE STATISTICS command allows a table owner to achieve denial of service against other CREATE STATISTICS users by creating in any schema.  A later CREATE STATISTICS for the same name, from a user having the CREATE privilege, would then fail.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
-        "cvss": [
-          {
-            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L",
-            "metrics": {
-              "baseScore": 3.1,
-              "exploitabilityScore": 1.7,
-              "impactScore": 1.5
-            },
-            "vendorMetadata": {}
-          }
-        ],
+        "description": "libldap in certain third-party OpenLDAP packages has a certificate-validation flaw when the third-party package is asserting RFC6125 support. It considers CN even when there is a non-matching subjectAltName (SAN). This is fixed in, for example, openldap-2.4.46-10.el8 in Red Hat Enterprise Linux.",
+        "cvss": [],
         "epss": [
           {
-            "cve": "CVE-2025-12817",
-            "epss": 0.00035,
-            "percentile": 0.09784,
-            "date": "2025-11-17"
+            "cve": "CVE-2020-15719",
+            "epss": 0.00216,
+            "percentile": 0.44081,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
           {
-            "cve": "CVE-2025-12817",
-            "cwe": "CWE-862",
-            "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-            "type": "Secondary"
+            "cve": "CVE-2020-15719",
+            "cwe": "CWE-295",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
           }
         ],
         "fix": {
@@ -4622,46 +4752,64 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.010674999999999999
+        "risk": 0.0108
       },
       "relatedVulnerabilities": [
         {
-          "id": "CVE-2025-12817",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-12817",
+          "id": "CVE-2020-15719",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2020-15719",
           "namespace": "nvd:cpe",
-          "severity": "Low",
+          "severity": "Medium",
           "urls": [
-            "https://www.postgresql.org/support/security/CVE-2025-12817/"
+            "http://lists.opensuse.org/opensuse-security-announce/2020-09/msg00033.html",
+            "http://lists.opensuse.org/opensuse-security-announce/2020-09/msg00059.html",
+            "https://access.redhat.com/errata/RHBA-2019:3674",
+            "https://bugs.openldap.org/show_bug.cgi?id=9266",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=1740070",
+            "https://kc.mcafee.com/corporate/index?page=content&id=SB10365",
+            "https://www.oracle.com/security-alerts/cpuapr2022.html"
           ],
-          "description": "Missing authorization in PostgreSQL CREATE STATISTICS command allows a table owner to achieve denial of service against other CREATE STATISTICS users by creating in any schema.  A later CREATE STATISTICS for the same name, from a user having the CREATE privilege, would then fail.  Versions before PostgreSQL 18.1, 17.7, 16.11, 15.15, 14.20, and 13.23 are affected.",
+          "description": "libldap in certain third-party OpenLDAP packages has a certificate-validation flaw when the third-party package is asserting RFC6125 support. It considers CN even when there is a non-matching subjectAltName (SAN). This is fixed in, for example, openldap-2.4.46-10.el8 in Red Hat Enterprise Linux.",
           "cvss": [
             {
-              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-              "type": "Secondary",
+              "source": "nvd@nist.gov",
+              "type": "Primary",
               "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:N",
               "metrics": {
-                "baseScore": 3.1,
+                "baseScore": 4.2,
                 "exploitabilityScore": 1.7,
-                "impactScore": 1.5
+                "impactScore": 2.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:H/Au:N/C:P/I:P/A:N",
+              "metrics": {
+                "baseScore": 4,
+                "exploitabilityScore": 5,
+                "impactScore": 5
               },
               "vendorMetadata": {}
             }
           ],
           "epss": [
             {
-              "cve": "CVE-2025-12817",
-              "epss": 0.00035,
-              "percentile": 0.09784,
-              "date": "2025-11-17"
+              "cve": "CVE-2020-15719",
+              "epss": 0.00216,
+              "percentile": 0.44081,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
             {
-              "cve": "CVE-2025-12817",
-              "cwe": "CWE-862",
-              "source": "f86ef6dc-4d3a-42ad-8f28-e6d5547a5007",
-              "type": "Secondary"
+              "cve": "CVE-2020-15719",
+              "cwe": "CWE-295",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
             }
           ]
         }
@@ -4676,27 +4824,27 @@
               "version": "12"
             },
             "package": {
-              "name": "postgresql-15",
-              "version": "15.13-0+deb12u1"
+              "name": "openldap",
+              "version": "2.5.13+dfsg-5"
             },
             "namespace": "debian:distro:debian:12"
           },
           "found": {
-            "vulnerabilityID": "CVE-2025-12817",
+            "vulnerabilityID": "CVE-2020-15719",
             "versionConstraint": "none (unknown)"
           }
         }
       ],
       "artifact": {
-        "id": "11769cd41fdc5daa",
-        "name": "libpq5",
-        "version": "15.13-0+deb12u1",
+        "id": "919a44d8cbaa32e2",
+        "name": "libldap-2.5-0",
+        "version": "2.5.13+dfsg-5",
         "type": "deb",
         "locations": [
           {
-            "path": "/var/lib/dpkg/status.d/libpq5",
+            "path": "/var/lib/dpkg/status.d/libldap-2.5-0",
             "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
-            "accessPath": "/var/lib/dpkg/status.d/libpq5",
+            "accessPath": "/var/lib/dpkg/status.d/libldap-2.5-0",
             "annotations": {
               "evidence": "primary"
             }
@@ -4705,12 +4853,154 @@
         "language": "",
         "licenses": [],
         "cpes": [
-          "cpe:2.3:a:libpq5:libpq5:15.13-0\\+deb12u1:*:*:*:*:*:*:*"
+          "cpe:2.3:a:libldap-2.5-0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap-2.5-0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5_0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5_0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap-2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap-2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap_2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
+          "cpe:2.3:a:libldap:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*"
         ],
-        "purl": "pkg:deb/debian/libpq5@15.13-0%2Bdeb12u1?arch=amd64&distro=debian-12&upstream=postgresql-15",
+        "purl": "pkg:deb/debian/libldap-2.5-0@2.5.13%2Bdfsg-5?arch=amd64&distro=debian-12&upstream=openldap",
         "upstreams": [
           {
-            "name": "postgresql-15"
+            "name": "openldap"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2024-2379",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2024-2379",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "libcurl skips the certificate verification for a QUIC connection under certain conditions, when built to use wolfSSL. If told to use an unknown/bad cipher or curve, the error path accidentally skips the verification and returns OK, thus ignoring any certificate problems.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2024-2379",
+            "epss": 0.00211,
+            "percentile": 0.43623,
+            "date": "2025-11-24"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2024-2379",
+            "cwe": "CWE-295",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.01055
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-2379",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-2379",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "http://seclists.org/fulldisclosure/2024/Jul/18",
+            "http://seclists.org/fulldisclosure/2024/Jul/19",
+            "http://seclists.org/fulldisclosure/2024/Jul/20",
+            "http://www.openwall.com/lists/oss-security/2024/03/27/2",
+            "https://curl.se/docs/CVE-2024-2379.html",
+            "https://curl.se/docs/CVE-2024-2379.json",
+            "https://hackerone.com/reports/2410774",
+            "https://security.netapp.com/advisory/ntap-20240531-0001/",
+            "https://support.apple.com/kb/HT214118",
+            "https://support.apple.com/kb/HT214119",
+            "https://support.apple.com/kb/HT214120"
+          ],
+          "description": "libcurl skips the certificate verification for a QUIC connection under certain conditions, when built to use wolfSSL. If told to use an unknown/bad cipher or curve, the error path accidentally skips the verification and returns OK, thus ignoring any certificate problems.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+              "metrics": {
+                "baseScore": 6.3,
+                "exploitabilityScore": 2.9,
+                "impactScore": 3.4
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2024-2379",
+              "epss": 0.00211,
+              "percentile": 0.43623,
+              "date": "2025-11-24"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2024-2379",
+              "cwe": "CWE-295",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "curl",
+              "version": "7.88.1-10+deb12u12"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-2379",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "24ac2ca249a444cf",
+        "name": "libcurl4",
+        "version": "7.88.1-10+deb12u12",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libcurl4",
+            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
+            "accessPath": "/var/lib/dpkg/status.d/libcurl4",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u12:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u12?arch=amd64&distro=debian-12&upstream=curl",
+        "upstreams": [
+          {
+            "name": "curl"
           }
         ]
       }
@@ -4728,8 +5018,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43064,
-            "date": "2025-11-17"
+            "percentile": 0.43011,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -4755,8 +5045,6 @@
           "severity": "Medium",
           "urls": [
             "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md",
-            "https://security.netapp.com/advisory/ntap-20240415-0010/",
-            "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md",
             "https://security.netapp.com/advisory/ntap-20240415-0010/"
           ],
           "description": "Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.",
@@ -4778,8 +5066,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43064,
-              "date": "2025-11-17"
+              "percentile": 0.43011,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -4863,8 +5151,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43064,
-            "date": "2025-11-17"
+            "percentile": 0.43011,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -4890,8 +5178,6 @@
           "severity": "Medium",
           "urls": [
             "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md",
-            "https://security.netapp.com/advisory/ntap-20240415-0010/",
-            "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md",
             "https://security.netapp.com/advisory/ntap-20240415-0010/"
           ],
           "description": "Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.",
@@ -4913,8 +5199,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43064,
-              "date": "2025-11-17"
+              "percentile": 0.43011,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -4989,8 +5275,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43064,
-            "date": "2025-11-17"
+            "percentile": 0.43011,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -5016,8 +5302,6 @@
           "severity": "Medium",
           "urls": [
             "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md",
-            "https://security.netapp.com/advisory/ntap-20240415-0010/",
-            "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md",
             "https://security.netapp.com/advisory/ntap-20240415-0010/"
           ],
           "description": "Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.",
@@ -5039,8 +5323,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43064,
-              "date": "2025-11-17"
+              "percentile": 0.43011,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -5120,8 +5404,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43064,
-            "date": "2025-11-17"
+            "percentile": 0.43011,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -5147,8 +5431,6 @@
           "severity": "Medium",
           "urls": [
             "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md",
-            "https://security.netapp.com/advisory/ntap-20240415-0010/",
-            "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md",
             "https://security.netapp.com/advisory/ntap-20240415-0010/"
           ],
           "description": "Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.",
@@ -5170,8 +5452,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43064,
-              "date": "2025-11-17"
+              "percentile": 0.43011,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -5235,150 +5517,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2024-2379",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2024-2379",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "libcurl skips the certificate verification for a QUIC connection under certain conditions, when built to use wolfSSL. If told to use an unknown/bad cipher or curve, the error path accidentally skips the verification and returns OK, thus ignoring any certificate problems.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2024-2379",
-            "epss": 0.00205,
-            "percentile": 0.42775,
-            "date": "2025-11-17"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2024-2379",
-            "cwe": "CWE-295",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.01025
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2024-2379",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-2379",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "http://seclists.org/fulldisclosure/2024/Jul/18",
-            "http://seclists.org/fulldisclosure/2024/Jul/19",
-            "http://seclists.org/fulldisclosure/2024/Jul/20",
-            "http://www.openwall.com/lists/oss-security/2024/03/27/2",
-            "https://curl.se/docs/CVE-2024-2379.html",
-            "https://curl.se/docs/CVE-2024-2379.json",
-            "https://hackerone.com/reports/2410774",
-            "https://security.netapp.com/advisory/ntap-20240531-0001/",
-            "https://support.apple.com/kb/HT214118",
-            "https://support.apple.com/kb/HT214119",
-            "https://support.apple.com/kb/HT214120",
-            "http://seclists.org/fulldisclosure/2024/Jul/18",
-            "http://seclists.org/fulldisclosure/2024/Jul/19",
-            "http://seclists.org/fulldisclosure/2024/Jul/20",
-            "http://www.openwall.com/lists/oss-security/2024/03/27/2",
-            "https://curl.se/docs/CVE-2024-2379.html",
-            "https://curl.se/docs/CVE-2024-2379.json",
-            "https://hackerone.com/reports/2410774",
-            "https://security.netapp.com/advisory/ntap-20240531-0001/",
-            "https://support.apple.com/kb/HT214118",
-            "https://support.apple.com/kb/HT214119",
-            "https://support.apple.com/kb/HT214120"
-          ],
-          "description": "libcurl skips the certificate verification for a QUIC connection under certain conditions, when built to use wolfSSL. If told to use an unknown/bad cipher or curve, the error path accidentally skips the verification and returns OK, thus ignoring any certificate problems.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
-              "metrics": {
-                "baseScore": 6.3,
-                "exploitabilityScore": 2.9,
-                "impactScore": 3.4
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2024-2379",
-              "epss": 0.00205,
-              "percentile": 0.42775,
-              "date": "2025-11-17"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2024-2379",
-              "cwe": "CWE-295",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "curl",
-              "version": "7.88.1-10+deb12u12"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2024-2379",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "24ac2ca249a444cf",
-        "name": "libcurl4",
-        "version": "7.88.1-10+deb12u12",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libcurl4",
-            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
-            "accessPath": "/var/lib/dpkg/status.d/libcurl4",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u12:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u12?arch=amd64&distro=debian-12&upstream=curl",
-        "upstreams": [
-          {
-            "name": "curl"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-4802",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-4802",
         "namespace": "debian:distro:debian:12",
@@ -5403,8 +5541,8 @@
           {
             "cve": "CVE-2025-4802",
             "epss": 0.0001,
-            "percentile": 0.00799,
-            "date": "2025-11-17"
+            "percentile": 0.00801,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -5463,8 +5601,8 @@
             {
               "cve": "CVE-2025-4802",
               "epss": 0.0001,
-              "percentile": 0.00799,
-              "date": "2025-11-17"
+              "percentile": 0.00801,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -5561,8 +5699,8 @@
           {
             "cve": "CVE-2019-1010022",
             "epss": 0.00145,
-            "percentile": 0.35445,
-            "date": "2025-11-17"
+            "percentile": 0.3541,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -5587,10 +5725,6 @@
           "namespace": "nvd:cpe",
           "severity": "Critical",
           "urls": [
-            "https://security-tracker.debian.org/tracker/CVE-2019-1010022",
-            "https://sourceware.org/bugzilla/show_bug.cgi?id=22850",
-            "https://sourceware.org/bugzilla/show_bug.cgi?id=22850#c3",
-            "https://ubuntu.com/security/CVE-2019-1010022",
             "https://security-tracker.debian.org/tracker/CVE-2019-1010022",
             "https://sourceware.org/bugzilla/show_bug.cgi?id=22850",
             "https://sourceware.org/bugzilla/show_bug.cgi?id=22850#c3",
@@ -5627,8 +5761,8 @@
             {
               "cve": "CVE-2019-1010022",
               "epss": 0.00145,
-              "percentile": 0.35445,
-              "date": "2025-11-17"
+              "percentile": 0.3541,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -5711,163 +5845,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2020-15719",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2020-15719",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "libldap in certain third-party OpenLDAP packages has a certificate-validation flaw when the third-party package is asserting RFC6125 support. It considers CN even when there is a non-matching subjectAltName (SAN). This is fixed in, for example, openldap-2.4.46-10.el8 in Red Hat Enterprise Linux.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2020-15719",
-            "epss": 0.00135,
-            "percentile": 0.34001,
-            "date": "2025-11-17"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2020-15719",
-            "cwe": "CWE-295",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.00675
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2020-15719",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2020-15719",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "http://lists.opensuse.org/opensuse-security-announce/2020-09/msg00033.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2020-09/msg00059.html",
-            "https://access.redhat.com/errata/RHBA-2019:3674",
-            "https://bugs.openldap.org/show_bug.cgi?id=9266",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=1740070",
-            "https://kc.mcafee.com/corporate/index?page=content&id=SB10365",
-            "https://www.oracle.com/security-alerts/cpuapr2022.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2020-09/msg00033.html",
-            "http://lists.opensuse.org/opensuse-security-announce/2020-09/msg00059.html",
-            "https://access.redhat.com/errata/RHBA-2019:3674",
-            "https://bugs.openldap.org/show_bug.cgi?id=9266",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=1740070",
-            "https://kc.mcafee.com/corporate/index?page=content&id=SB10365",
-            "https://www.oracle.com/security-alerts/cpuapr2022.html"
-          ],
-          "description": "libldap in certain third-party OpenLDAP packages has a certificate-validation flaw when the third-party package is asserting RFC6125 support. It considers CN even when there is a non-matching subjectAltName (SAN). This is fixed in, for example, openldap-2.4.46-10.el8 in Red Hat Enterprise Linux.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:N",
-              "metrics": {
-                "baseScore": 4.2,
-                "exploitabilityScore": 1.7,
-                "impactScore": 2.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:H/Au:N/C:P/I:P/A:N",
-              "metrics": {
-                "baseScore": 4,
-                "exploitabilityScore": 5,
-                "impactScore": 5
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2020-15719",
-              "epss": 0.00135,
-              "percentile": 0.34001,
-              "date": "2025-11-17"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2020-15719",
-              "cwe": "CWE-295",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "openldap",
-              "version": "2.5.13+dfsg-5"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2020-15719",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "919a44d8cbaa32e2",
-        "name": "libldap-2.5-0",
-        "version": "2.5.13+dfsg-5",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libldap-2.5-0",
-            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
-            "accessPath": "/var/lib/dpkg/status.d/libldap-2.5-0",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libldap-2.5-0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap-2.5-0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5_0:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5_0:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap-2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap-2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap_2.5:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap:libldap-2.5-0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*",
-          "cpe:2.3:a:libldap:libldap_2.5_0:2.5.13\\+dfsg-5:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libldap-2.5-0@2.5.13%2Bdfsg-5?arch=amd64&distro=debian-12&upstream=openldap",
-        "upstreams": [
-          {
-            "name": "openldap"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2023-31437",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2023-31437",
         "namespace": "debian:distro:debian:12",
@@ -5879,8 +5856,8 @@
           {
             "cve": "CVE-2023-31437",
             "epss": 0.00128,
-            "percentile": 0.32871,
-            "date": "2025-11-17"
+            "percentile": 0.32862,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -5911,9 +5888,6 @@
           "namespace": "nvd:cpe",
           "severity": "Medium",
           "urls": [
-            "https://github.com/kastel-security/Journald",
-            "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
-            "https://github.com/systemd/systemd/releases",
             "https://github.com/kastel-security/Journald",
             "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
             "https://github.com/systemd/systemd/releases"
@@ -5949,8 +5923,8 @@
             {
               "cve": "CVE-2023-31437",
               "epss": 0.00128,
-              "percentile": 0.32871,
-              "date": "2025-11-17"
+              "percentile": 0.32862,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -6031,8 +6005,8 @@
           {
             "cve": "CVE-2023-31437",
             "epss": 0.00128,
-            "percentile": 0.32871,
-            "date": "2025-11-17"
+            "percentile": 0.32862,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -6063,9 +6037,6 @@
           "namespace": "nvd:cpe",
           "severity": "Medium",
           "urls": [
-            "https://github.com/kastel-security/Journald",
-            "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
-            "https://github.com/systemd/systemd/releases",
             "https://github.com/kastel-security/Journald",
             "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
             "https://github.com/systemd/systemd/releases"
@@ -6101,8 +6072,8 @@
             {
               "cve": "CVE-2023-31437",
               "epss": 0.00128,
-              "percentile": 0.32871,
-              "date": "2025-11-17"
+              "percentile": 0.32862,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -6178,9 +6149,9 @@
         "epss": [
           {
             "cve": "CVE-2017-14159",
-            "epss": 0.00106,
-            "percentile": 0.293,
-            "date": "2025-11-17"
+            "epss": 0.00123,
+            "percentile": 0.32128,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -6196,7 +6167,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0053
+        "risk": 0.00615
       },
       "relatedVulnerabilities": [
         {
@@ -6205,8 +6176,6 @@
           "namespace": "nvd:cpe",
           "severity": "Medium",
           "urls": [
-            "http://www.openldap.org/its/index.cgi?findid=8703",
-            "https://www.oracle.com/security-alerts/cpuapr2022.html",
             "http://www.openldap.org/its/index.cgi?findid=8703",
             "https://www.oracle.com/security-alerts/cpuapr2022.html"
           ],
@@ -6240,9 +6209,9 @@
           "epss": [
             {
               "cve": "CVE-2017-14159",
-              "epss": 0.00106,
-              "percentile": 0.293,
-              "date": "2025-11-17"
+              "epss": 0.00123,
+              "percentile": 0.32128,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -6326,8 +6295,8 @@
           {
             "cve": "CVE-2023-31438",
             "epss": 0.001,
-            "percentile": 0.28362,
-            "date": "2025-11-17"
+            "percentile": 0.28356,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -6355,10 +6324,6 @@
             "https://github.com/kastel-security/Journald",
             "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
             "https://github.com/systemd/systemd/pull/28886",
-            "https://github.com/systemd/systemd/releases",
-            "https://github.com/kastel-security/Journald",
-            "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
-            "https://github.com/systemd/systemd/pull/28886",
             "https://github.com/systemd/systemd/releases"
           ],
           "description": "An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent \"a reply denying that any of the finding was a security vulnerability.\"",
@@ -6380,8 +6345,8 @@
             {
               "cve": "CVE-2023-31438",
               "epss": 0.001,
-              "percentile": 0.28362,
-              "date": "2025-11-17"
+              "percentile": 0.28356,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -6456,8 +6421,8 @@
           {
             "cve": "CVE-2023-31438",
             "epss": 0.001,
-            "percentile": 0.28362,
-            "date": "2025-11-17"
+            "percentile": 0.28356,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -6485,10 +6450,6 @@
             "https://github.com/kastel-security/Journald",
             "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
             "https://github.com/systemd/systemd/pull/28886",
-            "https://github.com/systemd/systemd/releases",
-            "https://github.com/kastel-security/Journald",
-            "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
-            "https://github.com/systemd/systemd/pull/28886",
             "https://github.com/systemd/systemd/releases"
           ],
           "description": "An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent \"a reply denying that any of the finding was a security vulnerability.\"",
@@ -6510,8 +6471,8 @@
             {
               "cve": "CVE-2023-31438",
               "epss": 0.001,
-              "percentile": 0.28362,
-              "date": "2025-11-17"
+              "percentile": 0.28356,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -6571,171 +6532,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-8058",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-8058",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Medium",
-        "urls": [],
-        "description": "The regcomp function in the GNU C library version from 2.4 to 2.41 is  subject to a double free if some previous allocation fails. It can be  accomplished either by a malloc failure or by using an interposed malloc  that injects random malloc failures. The double free can allow buffer  manipulation depending of how the regex is constructed. This issue  affects all architectures and ABIs supported by the GNU C library.",
-        "cvss": [
-          {
-            "source": "3ff69d7a-14f2-4f67-a097-88dee7810d18",
-            "type": "Secondary",
-            "version": "4.0",
-            "vector": "CVSS:4.0/AV:L/AC:H/AT:P/PR:L/UI:P/VC:L/VI:L/VA:H/SC:L/SI:L/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
-            "metrics": {
-              "baseScore": 5.9
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-8058",
-            "epss": 0.00009,
-            "percentile": 0.00566,
-            "date": "2025-11-17"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-8058",
-            "cwe": "CWE-415",
-            "source": "3ff69d7a-14f2-4f67-a097-88dee7810d18",
-            "type": "Secondary"
-          }
-        ],
-        "fix": {
-          "versions": [
-            "2.36-9+deb12u13"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "2.36-9+deb12u13",
-              "date": "2025-09-11",
-              "kind": "first-observed"
-            }
-          ]
-        },
-        "advisories": [],
-        "risk": 0.0049050000000000005
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-8058",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-8058",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://sourceware.org/bugzilla/show_bug.cgi?id=33185",
-            "https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f",
-            "http://www.openwall.com/lists/oss-security/2025/07/23/1"
-          ],
-          "description": "The regcomp function in the GNU C library version from 2.4 to 2.41 is \nsubject to a double free if some previous allocation fails. It can be \naccomplished either by a malloc failure or by using an interposed malloc\n that injects random malloc failures. The double free can allow buffer \nmanipulation depending of how the regex is constructed. This issue \naffects all architectures and ABIs supported by the GNU C library.",
-          "cvss": [
-            {
-              "source": "3ff69d7a-14f2-4f67-a097-88dee7810d18",
-              "type": "Secondary",
-              "version": "4.0",
-              "vector": "CVSS:4.0/AV:L/AC:H/AT:P/PR:L/UI:P/VC:L/VI:L/VA:H/SC:L/SI:L/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
-              "metrics": {
-                "baseScore": 5.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-8058",
-              "epss": 0.00009,
-              "percentile": 0.00566,
-              "date": "2025-11-17"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-8058",
-              "cwe": "CWE-415",
-              "source": "3ff69d7a-14f2-4f67-a097-88dee7810d18",
-              "type": "Secondary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "glibc",
-              "version": "2.36-9+deb12u10"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-8058",
-            "versionConstraint": "< 2.36-9+deb12u13 (deb)"
-          },
-          "fix": {
-            "suggestedVersion": "2.36-9+deb12u13"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "c924a822eab59d9a",
-        "name": "libc6",
-        "version": "2.36-9+deb12u10",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libc6",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
-            "accessPath": "/var/lib/dpkg/status.d/libc6",
-            "annotations": {
-              "evidence": "primary"
-            }
-          },
-          {
-            "path": "/usr/share/doc/libc6/copyright",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
-            "accessPath": "/usr/share/doc/libc6/copyright",
-            "annotations": {
-              "evidence": "supporting"
-            }
-          },
-          {
-            "path": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "layerID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
-            "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "annotations": {
-              "evidence": "supporting"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "GPL-2",
-          "LGPL-2.1"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u10:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64&distro=debian-12&upstream=glibc",
-        "upstreams": [
-          {
-            "name": "glibc"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2023-31439",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2023-31439",
         "namespace": "debian:distro:debian:12",
@@ -6747,8 +6543,8 @@
           {
             "cve": "CVE-2023-31439",
             "epss": 0.00094,
-            "percentile": 0.26898,
-            "date": "2025-11-17"
+            "percentile": 0.26827,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -6776,10 +6572,6 @@
             "https://github.com/kastel-security/Journald",
             "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
             "https://github.com/systemd/systemd/pull/28885",
-            "https://github.com/systemd/systemd/releases",
-            "https://github.com/kastel-security/Journald",
-            "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
-            "https://github.com/systemd/systemd/pull/28885",
             "https://github.com/systemd/systemd/releases"
           ],
           "description": "An issue was discovered in systemd 253. An attacker can modify the contents of past events in a sealed log file and then adjust the file such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent \"a reply denying that any of the finding was a security vulnerability.\"",
@@ -6801,8 +6593,8 @@
             {
               "cve": "CVE-2023-31439",
               "epss": 0.00094,
-              "percentile": 0.26898,
-              "date": "2025-11-17"
+              "percentile": 0.26827,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -6877,8 +6669,8 @@
           {
             "cve": "CVE-2023-31439",
             "epss": 0.00094,
-            "percentile": 0.26898,
-            "date": "2025-11-17"
+            "percentile": 0.26827,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -6906,10 +6698,6 @@
             "https://github.com/kastel-security/Journald",
             "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
             "https://github.com/systemd/systemd/pull/28885",
-            "https://github.com/systemd/systemd/releases",
-            "https://github.com/kastel-security/Journald",
-            "https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf",
-            "https://github.com/systemd/systemd/pull/28885",
             "https://github.com/systemd/systemd/releases"
           ],
           "description": "An issue was discovered in systemd 253. An attacker can modify the contents of past events in a sealed log file and then adjust the file such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent \"a reply denying that any of the finding was a security vulnerability.\"",
@@ -6931,8 +6719,8 @@
             {
               "cve": "CVE-2023-31439",
               "epss": 0.00094,
-              "percentile": 0.26898,
-              "date": "2025-11-17"
+              "percentile": 0.26827,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -7003,8 +6791,8 @@
           {
             "cve": "CVE-2024-26461",
             "epss": 0.00062,
-            "percentile": 0.19213,
-            "date": "2025-11-17"
+            "percentile": 0.19146,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -7030,8 +6818,6 @@
           "severity": "High",
           "urls": [
             "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md",
-            "https://security.netapp.com/advisory/ntap-20240415-0011/",
-            "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md",
             "https://security.netapp.com/advisory/ntap-20240415-0011/"
           ],
           "description": "Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.",
@@ -7053,8 +6839,8 @@
             {
               "cve": "CVE-2024-26461",
               "epss": 0.00062,
-              "percentile": 0.19213,
-              "date": "2025-11-17"
+              "percentile": 0.19146,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -7138,8 +6924,8 @@
           {
             "cve": "CVE-2024-26461",
             "epss": 0.00062,
-            "percentile": 0.19213,
-            "date": "2025-11-17"
+            "percentile": 0.19146,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -7165,8 +6951,6 @@
           "severity": "High",
           "urls": [
             "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md",
-            "https://security.netapp.com/advisory/ntap-20240415-0011/",
-            "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md",
             "https://security.netapp.com/advisory/ntap-20240415-0011/"
           ],
           "description": "Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.",
@@ -7188,8 +6972,8 @@
             {
               "cve": "CVE-2024-26461",
               "epss": 0.00062,
-              "percentile": 0.19213,
-              "date": "2025-11-17"
+              "percentile": 0.19146,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -7264,8 +7048,8 @@
           {
             "cve": "CVE-2024-26461",
             "epss": 0.00062,
-            "percentile": 0.19213,
-            "date": "2025-11-17"
+            "percentile": 0.19146,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -7291,8 +7075,6 @@
           "severity": "High",
           "urls": [
             "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md",
-            "https://security.netapp.com/advisory/ntap-20240415-0011/",
-            "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md",
             "https://security.netapp.com/advisory/ntap-20240415-0011/"
           ],
           "description": "Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.",
@@ -7314,8 +7096,8 @@
             {
               "cve": "CVE-2024-26461",
               "epss": 0.00062,
-              "percentile": 0.19213,
-              "date": "2025-11-17"
+              "percentile": 0.19146,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -7395,8 +7177,8 @@
           {
             "cve": "CVE-2024-26461",
             "epss": 0.00062,
-            "percentile": 0.19213,
-            "date": "2025-11-17"
+            "percentile": 0.19146,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -7422,8 +7204,6 @@
           "severity": "High",
           "urls": [
             "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md",
-            "https://security.netapp.com/advisory/ntap-20240415-0011/",
-            "https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md",
             "https://security.netapp.com/advisory/ntap-20240415-0011/"
           ],
           "description": "Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.",
@@ -7445,8 +7225,8 @@
             {
               "cve": "CVE-2024-26461",
               "epss": 0.00062,
-              "percentile": 0.19213,
-              "date": "2025-11-17"
+              "percentile": 0.19146,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -7521,8 +7301,8 @@
           {
             "cve": "CVE-2013-4392",
             "epss": 0.00057,
-            "percentile": 0.17637,
-            "date": "2025-11-17"
+            "percentile": 0.17606,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -7553,9 +7333,6 @@
           "namespace": "nvd:cpe",
           "severity": "Low",
           "urls": [
-            "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=725357",
-            "http://www.openwall.com/lists/oss-security/2013/10/01/9",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=859060",
             "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=725357",
             "http://www.openwall.com/lists/oss-security/2013/10/01/9",
             "https://bugzilla.redhat.com/show_bug.cgi?id=859060"
@@ -7591,8 +7368,8 @@
             {
               "cve": "CVE-2013-4392",
               "epss": 0.00057,
-              "percentile": 0.17637,
-              "date": "2025-11-17"
+              "percentile": 0.17606,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -7673,8 +7450,8 @@
           {
             "cve": "CVE-2013-4392",
             "epss": 0.00057,
-            "percentile": 0.17637,
-            "date": "2025-11-17"
+            "percentile": 0.17606,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -7705,9 +7482,6 @@
           "namespace": "nvd:cpe",
           "severity": "Low",
           "urls": [
-            "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=725357",
-            "http://www.openwall.com/lists/oss-security/2013/10/01/9",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=859060",
             "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=725357",
             "http://www.openwall.com/lists/oss-security/2013/10/01/9",
             "https://bugzilla.redhat.com/show_bug.cgi?id=859060"
@@ -7743,8 +7517,8 @@
             {
               "cve": "CVE-2013-4392",
               "epss": 0.00057,
-              "percentile": 0.17637,
-              "date": "2025-11-17"
+              "percentile": 0.17606,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -7820,9 +7594,9 @@
         "epss": [
           {
             "cve": "CVE-2022-27943",
-            "epss": 0.0005,
-            "percentile": 0.15279,
-            "date": "2025-11-17"
+            "epss": 0.00051,
+            "percentile": 0.1575,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -7838,7 +7612,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0025
+        "risk": 0.00255
       },
       "relatedVulnerabilities": [
         {
@@ -7847,9 +7621,6 @@
           "namespace": "nvd:cpe",
           "severity": "Medium",
           "urls": [
-            "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
-            "https://sourceware.org/bugzilla/show_bug.cgi?id=28995",
             "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039",
             "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
             "https://sourceware.org/bugzilla/show_bug.cgi?id=28995"
@@ -7884,9 +7655,9 @@
           "epss": [
             {
               "cve": "CVE-2022-27943",
-              "epss": 0.0005,
-              "percentile": 0.15279,
-              "date": "2025-11-17"
+              "epss": 0.00051,
+              "percentile": 0.1575,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -7992,9 +7763,9 @@
         "epss": [
           {
             "cve": "CVE-2022-27943",
-            "epss": 0.0005,
-            "percentile": 0.15279,
-            "date": "2025-11-17"
+            "epss": 0.00051,
+            "percentile": 0.1575,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -8010,7 +7781,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0025
+        "risk": 0.00255
       },
       "relatedVulnerabilities": [
         {
@@ -8019,9 +7790,6 @@
           "namespace": "nvd:cpe",
           "severity": "Medium",
           "urls": [
-            "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
-            "https://sourceware.org/bugzilla/show_bug.cgi?id=28995",
             "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039",
             "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
             "https://sourceware.org/bugzilla/show_bug.cgi?id=28995"
@@ -8056,9 +7824,9 @@
           "epss": [
             {
               "cve": "CVE-2022-27943",
-              "epss": 0.0005,
-              "percentile": 0.15279,
-              "date": "2025-11-17"
+              "epss": 0.00051,
+              "percentile": 0.1575,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -8132,9 +7900,9 @@
         "epss": [
           {
             "cve": "CVE-2022-27943",
-            "epss": 0.0005,
-            "percentile": 0.15279,
-            "date": "2025-11-17"
+            "epss": 0.00051,
+            "percentile": 0.1575,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -8150,7 +7918,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0025
+        "risk": 0.00255
       },
       "relatedVulnerabilities": [
         {
@@ -8159,9 +7927,6 @@
           "namespace": "nvd:cpe",
           "severity": "Medium",
           "urls": [
-            "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
-            "https://sourceware.org/bugzilla/show_bug.cgi?id=28995",
             "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039",
             "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
             "https://sourceware.org/bugzilla/show_bug.cgi?id=28995"
@@ -8196,9 +7961,9 @@
           "epss": [
             {
               "cve": "CVE-2022-27943",
-              "epss": 0.0005,
-              "percentile": 0.15279,
-              "date": "2025-11-17"
+              "epss": 0.00051,
+              "percentile": 0.1575,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -8300,9 +8065,9 @@
         "epss": [
           {
             "cve": "CVE-2022-27943",
-            "epss": 0.0005,
-            "percentile": 0.15279,
-            "date": "2025-11-17"
+            "epss": 0.00051,
+            "percentile": 0.1575,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -8318,7 +8083,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0025
+        "risk": 0.00255
       },
       "relatedVulnerabilities": [
         {
@@ -8327,9 +8092,6 @@
           "namespace": "nvd:cpe",
           "severity": "Medium",
           "urls": [
-            "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
-            "https://sourceware.org/bugzilla/show_bug.cgi?id=28995",
             "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039",
             "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
             "https://sourceware.org/bugzilla/show_bug.cgi?id=28995"
@@ -8364,9 +8126,9 @@
           "epss": [
             {
               "cve": "CVE-2022-27943",
-              "epss": 0.0005,
-              "percentile": 0.15279,
-              "date": "2025-11-17"
+              "epss": 0.00051,
+              "percentile": 0.1575,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -8463,9 +8225,9 @@
         "epss": [
           {
             "cve": "CVE-2022-27943",
-            "epss": 0.0005,
-            "percentile": 0.15279,
-            "date": "2025-11-17"
+            "epss": 0.00051,
+            "percentile": 0.1575,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -8481,7 +8243,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0025
+        "risk": 0.00255
       },
       "relatedVulnerabilities": [
         {
@@ -8490,9 +8252,6 @@
           "namespace": "nvd:cpe",
           "severity": "Medium",
           "urls": [
-            "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039",
-            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
-            "https://sourceware.org/bugzilla/show_bug.cgi?id=28995",
             "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039",
             "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/",
             "https://sourceware.org/bugzilla/show_bug.cgi?id=28995"
@@ -8527,9 +8286,9 @@
           "epss": [
             {
               "cve": "CVE-2022-27943",
-              "epss": 0.0005,
-              "percentile": 0.15279,
-              "date": "2025-11-17"
+              "epss": 0.00051,
+              "percentile": 0.1575,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -8626,9 +8385,9 @@
         "epss": [
           {
             "cve": "CVE-2025-27587",
-            "epss": 0.00032,
-            "percentile": 0.08662,
-            "date": "2025-11-17"
+            "epss": 0.00035,
+            "percentile": 0.09769,
+            "date": "2025-11-24"
           }
         ],
         "cwes": [
@@ -8644,7 +8403,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0016000000000000003
+        "risk": 0.0017500000000000003
       },
       "relatedVulnerabilities": [
         {
@@ -8674,9 +8433,9 @@
           "epss": [
             {
               "cve": "CVE-2025-27587",
-              "epss": 0.00032,
-              "percentile": 0.08662,
-              "date": "2025-11-17"
+              "epss": 0.00035,
+              "percentile": 0.09769,
+              "date": "2025-11-24"
             }
           ],
           "cwes": [
@@ -8771,9 +8530,9 @@
         "epss": [
           {
             "cve": "CVE-2025-10966",
-            "epss": 0.0002,
-            "percentile": 0.03952,
-            "date": "2025-11-17"
+            "epss": 0.00015,
+            "percentile": 0.02134,
+            "date": "2025-11-24"
           }
         ],
         "fix": {
@@ -8781,7 +8540,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.001
+        "risk": 0.0007499999999999999
       },
       "relatedVulnerabilities": [
         {
@@ -8813,9 +8572,9 @@
           "epss": [
             {
               "cve": "CVE-2025-10966",
-              "epss": 0.0002,
-              "percentile": 0.03952,
-              "date": "2025-11-17"
+              "epss": 0.00015,
+              "percentile": 0.02134,
+              "date": "2025-11-24"
             }
           ]
         }
@@ -8865,6 +8624,80 @@
         "upstreams": [
           {
             "name": "curl"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-9820",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-9820",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Unknown",
+        "urls": [],
+        "cvss": [],
+        "fix": {
+          "versions": [],
+          "state": "wont-fix"
+        },
+        "advisories": [],
+        "risk": 0
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-9820",
+          "dataSource": "nvd",
+          "namespace": "nvd:cpe",
+          "severity": "Unknown",
+          "urls": [],
+          "cvss": []
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "gnutls28",
+              "version": "3.7.9-2+deb12u5"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-9820",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "5458fd103c1e4fd3",
+        "name": "libgnutls30",
+        "version": "3.7.9-2+deb12u5",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libgnutls30",
+            "layerID": "sha256:d14e017542c6367905f426ac3c8499aaf190db45bba7a74ae4d62115bfe67064",
+            "accessPath": "/var/lib/dpkg/status.d/libgnutls30",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libgnutls30:libgnutls30:3.7.9-2\\+deb12u5:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u5?arch=amd64&distro=debian-12&upstream=gnutls28",
+        "upstreams": [
+          {
+            "name": "gnutls28"
           }
         ]
       }
@@ -9018,7 +8851,7 @@
   },
   "descriptor": {
     "name": "grype",
-    "version": "0.104.0",
+    "version": "0.104.1",
     "configuration": {
       "output": [
         "json"
@@ -9138,7 +8971,6 @@
       "registry": {
         "insecure-skip-tls-verify": false,
         "insecure-use-http": false,
-        "auth": null,
         "ca-cert": ""
       },
       "show-suppressed": false,
@@ -9182,87 +9014,87 @@
     "db": {
       "status": {
         "schemaVersion": "v6.1.3",
-        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.3_2025-11-18T00:27:18Z_1763450453.tar.zst?checksum=sha256%3Ab9e2b51397d2c946a9351a5666db4602e87ffc9b20280d738b008ed2b6a8de69",
-        "built": "2025-11-18T07:20:53Z",
+        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.3_2025-11-25T12:05:56Z_1764081572.tar.zst?checksum=sha256%3A3811e5c6b01ad09958ea0f20b10ad4a81ad0dbdb40e9e6de1393ffc3d9e63896",
+        "built": "2025-11-25T14:39:32Z",
         "path": ".cache/grype/db/6/vulnerability.db",
         "valid": true
       },
       "providers": {
         "alma": {
-          "captured": "2025-11-18T00:27:22Z",
-          "input": "xxh64:526fe33984f900f3"
+          "captured": "2025-11-25T12:06:24Z",
+          "input": "xxh64:cbfa4506897a58b3"
         },
         "alpine": {
-          "captured": "2025-11-18T00:27:25Z",
-          "input": "xxh64:0d91fbc43d51915a"
+          "captured": "2025-11-25T12:06:03Z",
+          "input": "xxh64:96dbcd8e02e4c411"
         },
         "amazon": {
-          "captured": "2025-11-18T00:27:31Z",
-          "input": "xxh64:ded0a18d0a2a19a4"
+          "captured": "2025-11-25T12:06:25Z",
+          "input": "xxh64:0e3f8bb700ea1f8a"
         },
         "bitnami": {
-          "captured": "2025-11-18T00:27:23Z",
-          "input": "xxh64:8779db51e63526b2"
+          "captured": "2025-11-25T12:06:18Z",
+          "input": "xxh64:49cbc0250e31aa0c"
         },
         "chainguard": {
-          "captured": "2025-11-18T00:27:18Z",
-          "input": "xxh64:5f8f5d09d1e78261"
+          "captured": "2025-11-25T12:06:03Z",
+          "input": "xxh64:911eb2785cdcfae5"
         },
         "chainguard-libraries": {
-          "captured": "2025-11-18T00:27:23Z",
-          "input": "xxh64:869515ec6b0bd4f2"
+          "captured": "2025-11-25T12:07:04Z",
+          "input": "xxh64:99d4937050ac1859"
         },
         "debian": {
-          "captured": "2025-11-18T00:27:33Z",
-          "input": "xxh64:08fa4119d049ea0b"
+          "captured": "2025-11-25T12:07:24Z",
+          "input": "xxh64:da3f17e22f195faf"
         },
         "echo": {
-          "captured": "2025-11-18T00:27:34Z",
-          "input": "xxh64:6c7585b40bb99fa1"
+          "captured": "2025-11-25T12:06:02Z",
+          "input": "xxh64:f5c4b9035b442e26"
         },
         "epss": {
-          "captured": "2025-11-18T00:27:27Z",
-          "input": "xxh64:3aa71cbab18f45ef"
+          "captured": "2025-11-25T12:06:13Z",
+          "input": "xxh64:6ab09b2296e3cf98"
         },
         "github": {
-          "captured": "2025-11-18T00:27:28Z",
-          "input": "xxh64:60f1473dd54046bf"
+          "captured": "2025-11-25T12:06:09Z",
+          "input": "xxh64:2783ec6a590d650a"
         },
         "kev": {
-          "captured": "2025-11-18T00:27:19Z",
-          "input": "xxh64:6aeb00af25349788"
+          "captured": "2025-11-25T12:05:56Z",
+          "input": "xxh64:be65bda8c3cf1a5c"
         },
         "mariner": {
-          "captured": "2025-11-18T00:27:25Z",
-          "input": "xxh64:d924b941db8ceb30"
+          "captured": "2025-11-25T12:06:08Z",
+          "input": "xxh64:7fc7c9f262acef12"
         },
         "minimos": {
-          "captured": "2025-11-18T00:27:19Z",
-          "input": "xxh64:2147133f2c2ae9ee"
+          "captured": "2025-11-25T12:06:07Z",
+          "input": "xxh64:58478954f1f956b1"
         },
         "nvd": {
-          "captured": "2025-11-18T00:29:50Z",
-          "input": "xxh64:a50af82265e9c2ef"
+          "captured": "2025-11-25T12:08:35Z",
+          "input": "xxh64:ce986bd36ff58d08"
         },
         "oracle": {
-          "captured": "2025-11-18T00:27:26Z",
-          "input": "xxh64:1060e3e8c65d46cd"
+          "captured": "2025-11-25T12:06:20Z",
+          "input": "xxh64:6a221b056cf04641"
         },
         "rhel": {
-          "captured": "2025-11-18T00:28:25Z",
-          "input": "xxh64:e3932bf943a8d4ca"
+          "captured": "2025-11-25T12:07:17Z",
+          "input": "xxh64:fff8f25acd497dd1"
         },
         "sles": {
-          "captured": "2025-11-18T00:27:48Z",
-          "input": "xxh64:fd183e09ef3fa451"
+          "captured": "2025-11-25T12:06:29Z",
+          "input": "xxh64:81aed8d41507e98b"
         },
         "ubuntu": {
-          "captured": "2025-11-18T00:29:34Z",
-          "input": "xxh64:2b349bea3ab0b168"
+          "captured": "2025-11-25T12:09:18Z",
+          "input": "xxh64:3c59487000b91dda"
         },
         "wolfi": {
-          "captured": "2025-11-18T00:27:24Z",
-          "input": "xxh64:6e6680f300e328f7"
+          "captured": "2025-11-25T12:07:06Z",
+          "input": "xxh64:071263fd4c4d8f8e"
         }
       }
     }

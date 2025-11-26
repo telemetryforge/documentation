@@ -5,18 +5,17 @@ Refer to the [triaged vulnerabilities](https://docs.fluent.do/security/triaged.h
 
 | Package | Version Installed | Vulnerability ID | Severity |
 | --- | --- | --- | --- |
-| libxml2 | 2.9.13-12.el9_6 | [CVE-2025-12863](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-12863) | High |
 | sqlite-libs | 3.34.1-8.el9_6 | [CVE-2025-6965](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6965) | High |
-| sqlite-libs | 3.34.1-8.el9_6 | [CVE-2025-52099](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-52099) | Medium |
 | curl-minimal | 7.76.1-31.el9_6.1 | [CVE-2025-9086](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086) | Medium |
 | libcurl-minimal | 7.76.1-31.el9_6.1 | [CVE-2025-9086](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086) | Medium |
+| sqlite-libs | 3.34.1-8.el9_6 | [CVE-2025-52099](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-52099) | Medium |
 | systemd-libs | 252-51.el9_6.2 | [CVE-2025-4598](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-4598) | Medium |
+| libxml2 | 2.9.13-12.el9_6 | [CVE-2025-9714](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9714) | Medium |
 | openssl | 1:3.2.2-6.el9_5.1 | [CVE-2025-9230](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9230) | Medium |
 | openssl-libs | 1:3.2.2-6.el9_5.1 | [CVE-2025-9230](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9230) | Medium |
-| libxml2 | 2.9.13-12.el9_6 | [CVE-2025-9714](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9714) | Medium |
+| libarchive | 3.5.3-6.el9_6 | [CVE-2025-60753](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-60753) | Medium |
 | curl-minimal | 7.76.1-31.el9_6.1 | [CVE-2025-10966](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-10966) | Medium |
 | libcurl-minimal | 7.76.1-31.el9_6.1 | [CVE-2025-10966](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-10966) | Medium |
-| libarchive | 3.5.3-6.el9_6 | [CVE-2025-60753](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-60753) | Medium |
 | coreutils-single | 8.32-39.el9 | [CVE-2025-5278](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5278) | Medium |
 | libarchive | 3.5.3-6.el9_6 | [CVE-2023-30571](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-30571) | Medium |
 | lz4-libs | 1.9.3-5.el9 | [CVE-2025-62813](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-62813) | Medium |
