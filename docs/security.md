@@ -16,7 +16,7 @@ FluentDo provides an agent with the following security and compliance considerat
 
 All images are signed with Cosign using both the keyless approach with Fulcio and a dedicated Cosign private key (from 25.10.3) integrated into Github Actions directly: <https://github.com/FluentDo/agent/blob/main/.github/workflows/call-build-containers.yaml>
 
-The private key is available here: <https://raw.githubusercontent.com/FluentDo/agent/refs/heads/main/cosign.pub>
+The public key is available here: <https://raw.githubusercontent.com/FluentDo/agent/refs/heads/main/cosign.pub>
 
 ```text
 -----BEGIN PUBLIC KEY-----
@@ -26,6 +26,39 @@ C7z4JI247+HFGdcJSNh9mSV3ZnlvH44fgqISireDyi8d0WVMf9oZhOHV6Q==
 ```
 
 To verify follow the instructions provided by Cosign: <https://docs.sigstore.dev/cosign/verifying/verify/>
+
+## GPG
+
+All Linux packages should be GPG-signed using the following [key](https://raw.githubusercontent.com/FluentDo/agent/refs/heads/main/gpg.pub):
+
+```text
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEaSmJyBYJKwYBBAHaRw8BAQdA49lnSs+5DCnHIelZ+tO0o++/XTtJ4WLAcdKJ
+AuTe0Za0GUZsdWVudERvIDxpbmZvQGZsdWVudC5kbz6ImQQTFgoAQRYhBH1kJTNw
+on+ay1bJRnPLZuBWY2diBQJpKYnIAhsDBQkFo5qABQsJCAcCAiICBhUKCQgLAgQW
+AgMBAh4HAheAAAoJEHPLZuBWY2diDyMBAKN68HcG0W3/I1Pyfpe5QF6vB+AJ7MzU
+rX2g1aO+ZKvjAP0RCtRO6/ekjJz7goM7Qf8HXMo9LMy5uibbVfvbpd8eArg4BGkp
+icgSCisGAQQBl1UBBQEBB0Cd6zD8Ah9Wq6BRu6mWddUm/1kvrc4G1rLsx3cpfovG
+LAMBCAeIfgQYFgoAJhYhBH1kJTNwon+ay1bJRnPLZuBWY2diBQJpKYnIAhsMBQkF
+o5qAAAoJEHPLZuBWY2diCT0BAPuC/5xN4aekvoJkrHxViQx322cCBygXtm1BaKA0
+ctVJAQD3kxej3zpHqNnpq+pIuCbU3hGa9aTslQxVDT15bMenDg==
+=VZR0
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
+The fingerprint looks like this:
+
+```text
+pub   ed25519 2025-11-28 [SC] [expires: 2028-11-27]
+      7D64 2533 70A2 7F9A CB56  C946 73CB 66E0 5663 6762
+uid           [ultimate] FluentDo <info@fluent.do>
+sub   cv25519 2025-11-28 [E] [expires: 2028-11-27]
+```
+
+In addition we generate `sha256` checksums for all packages and sign those files as well for all targets.
+
+This information is for releases `v25.12` and `v25.10.8` onwards, for earlier releases please contact us.
 
 ## CVEs
 
