@@ -20,7 +20,7 @@ jobs:
         run: ls -lR
         shell: bash
 
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         with:
           name: fluentdo-agent-documentation
           path: "*.tgz"
