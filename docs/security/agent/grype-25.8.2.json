@@ -24,9 +24,9 @@
         "epss": [
           {
             "cve": "CVE-2024-7264",
-            "epss": 0.05357,
-            "percentile": 0.89706,
-            "date": "2025-12-08"
+            "epss": 0.04044,
+            "percentile": 0.8812,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -42,7 +42,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 2.223155
+        "risk": 1.67826
       },
       "relatedVulnerabilities": [
         {
@@ -90,9 +90,9 @@
           "epss": [
             {
               "cve": "CVE-2024-7264",
-              "epss": 0.05357,
-              "percentile": 0.89706,
-              "date": "2025-12-08"
+              "epss": 0.04044,
+              "percentile": 0.8812,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -193,9 +193,9 @@
         "epss": [
           {
             "cve": "CVE-2024-7264",
-            "epss": 0.05357,
-            "percentile": 0.89706,
-            "date": "2025-12-08"
+            "epss": 0.04044,
+            "percentile": 0.8812,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -211,7 +211,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 2.223155
+        "risk": 1.67826
       },
       "relatedVulnerabilities": [
         {
@@ -259,9 +259,9 @@
           "epss": [
             {
               "cve": "CVE-2024-7264",
-              "epss": 0.05357,
-              "percentile": 0.89706,
-              "date": "2025-12-08"
+              "epss": 0.04044,
+              "percentile": 0.8812,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -363,8 +363,8 @@
           {
             "cve": "CVE-2024-56433",
             "epss": 0.05074,
-            "percentile": 0.89385,
-            "date": "2025-12-08"
+            "percentile": 0.8942,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -426,8 +426,8 @@
             {
               "cve": "CVE-2024-56433",
               "epss": 0.05074,
-              "percentile": 0.89385,
-              "date": "2025-12-08"
+              "percentile": 0.8942,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -527,8 +527,8 @@
           {
             "cve": "CVE-2024-9681",
             "epss": 0.01225,
-            "percentile": 0.78527,
-            "date": "2025-12-08"
+            "percentile": 0.78599,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -598,8 +598,8 @@
             {
               "cve": "CVE-2024-9681",
               "epss": 0.01225,
-              "percentile": 0.78527,
-              "date": "2025-12-08"
+              "percentile": 0.78599,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -701,8 +701,8 @@
           {
             "cve": "CVE-2024-9681",
             "epss": 0.01225,
-            "percentile": 0.78527,
-            "date": "2025-12-08"
+            "percentile": 0.78599,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -772,8 +772,8 @@
             {
               "cve": "CVE-2024-9681",
               "epss": 0.01225,
-              "percentile": 0.78527,
-              "date": "2025-12-08"
+              "percentile": 0.78599,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -875,8 +875,8 @@
           {
             "cve": "CVE-2024-34459",
             "epss": 0.00847,
-            "percentile": 0.74105,
-            "date": "2025-12-08"
+            "percentile": 0.74208,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -931,8 +931,8 @@
             {
               "cve": "CVE-2024-34459",
               "epss": 0.00847,
-              "percentile": 0.74105,
-              "date": "2025-12-08"
+              "percentile": 0.74208,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -1022,9 +1022,9 @@
         "epss": [
           {
             "cve": "CVE-2024-41996",
-            "epss": 0.00434,
-            "percentile": 0.62044,
-            "date": "2025-12-08"
+            "epss": 0.0069,
+            "percentile": 0.71127,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -1040,7 +1040,7 @@
           "state": "wont-fix"
         },
         "advisories": [],
-        "risk": 0.19313000000000002
+        "risk": 0.30705000000000005
       },
       "relatedVulnerabilities": [
         {
@@ -1071,9 +1071,9 @@
           "epss": [
             {
               "cve": "CVE-2024-41996",
-              "epss": 0.00434,
-              "percentile": 0.62044,
-              "date": "2025-12-08"
+              "epss": 0.0069,
+              "percentile": 0.71127,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -1163,9 +1163,9 @@
         "epss": [
           {
             "cve": "CVE-2024-41996",
-            "epss": 0.00434,
-            "percentile": 0.62044,
-            "date": "2025-12-08"
+            "epss": 0.0069,
+            "percentile": 0.71127,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -1181,7 +1181,7 @@
           "state": "wont-fix"
         },
         "advisories": [],
-        "risk": 0.19313000000000002
+        "risk": 0.30705000000000005
       },
       "relatedVulnerabilities": [
         {
@@ -1212,9 +1212,9 @@
           "epss": [
             {
               "cve": "CVE-2024-41996",
-              "epss": 0.00434,
-              "percentile": 0.62044,
-              "date": "2025-12-08"
+              "epss": 0.0069,
+              "percentile": 0.71127,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -1316,8 +1316,8 @@
           {
             "cve": "CVE-2024-11053",
             "epss": 0.00337,
-            "percentile": 0.55887,
-            "date": "2025-12-08"
+            "percentile": 0.55997,
+            "date": "2025-12-14"
           }
         ],
         "fix": {
@@ -1361,8 +1361,8 @@
             {
               "cve": "CVE-2024-11053",
               "epss": 0.00337,
-              "percentile": 0.55887,
-              "date": "2025-12-08"
+              "percentile": 0.55997,
+              "date": "2025-12-14"
             }
           ]
         }
@@ -1456,8 +1456,8 @@
           {
             "cve": "CVE-2024-11053",
             "epss": 0.00337,
-            "percentile": 0.55887,
-            "date": "2025-12-08"
+            "percentile": 0.55997,
+            "date": "2025-12-14"
           }
         ],
         "fix": {
@@ -1501,8 +1501,8 @@
             {
               "cve": "CVE-2024-11053",
               "epss": 0.00337,
-              "percentile": 0.55887,
-              "date": "2025-12-08"
+              "percentile": 0.55997,
+              "date": "2025-12-14"
             }
           ]
         }
@@ -1573,6 +1573,146 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-14087",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-14087",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Medium",
+        "urls": [],
+        "description": "A flaw was found in GLib (Gnome Lib). This vulnerability allows a remote attacker to cause heap corruption, leading to a denial of service or potential code execution via a buffer-underflow in the GVariant parser when processing maliciously crafted input strings.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+            "metrics": {
+              "baseScore": 5.6,
+              "exploitabilityScore": 2.3,
+              "impactScore": 3.4
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-14087",
+            "epss": 0.00197,
+            "percentile": 0.41855,
+            "date": "2025-12-14"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-14087",
+            "cwe": "CWE-190",
+            "source": "secalert@redhat.com",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.10441
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-14087",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-14087",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-14087",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2419093"
+          ],
+          "description": "A flaw was found in GLib (Gnome Lib). This vulnerability allows a remote attacker to cause heap corruption, leading to a denial of service or potential code execution via a buffer-underflow in the GVariant parser when processing maliciously crafted input strings.",
+          "cvss": [
+            {
+              "source": "secalert@redhat.com",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+              "metrics": {
+                "baseScore": 5.6,
+                "exploitabilityScore": 2.3,
+                "impactScore": 3.4
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-14087",
+              "epss": 0.00197,
+              "percentile": 0.41855,
+              "date": "2025-12-14"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-14087",
+              "cwe": "CWE-190",
+              "source": "secalert@redhat.com",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "glib2",
+              "version": "0:2.68.4-16.el9_6.2"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-14087",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "35f4edf399bccea5",
+        "name": "glib2",
+        "version": "2.68.4-16.el9_6.2",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "LGPLv2+"
+        ],
+        "cpes": [
+          "cpe:2.3:a:redhat:glib2:2.68.4-16.el9_6.2:*:*:*:*:*:*:*",
+          "cpe:2.3:a:glib2:glib2:2.68.4-16.el9_6.2:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/glib2@2.68.4-16.el9_6.2?arch=x86_64&distro=rhel-9.6&upstream=glib2-2.68.4-16.el9_6.2.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2023-32636",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2023-32636",
         "namespace": "redhat:distro:redhat:9",
@@ -1596,8 +1736,8 @@
           {
             "cve": "CVE-2023-32636",
             "epss": 0.00165,
-            "percentile": 0.3796,
-            "date": "2025-12-08"
+            "percentile": 0.38062,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -1663,8 +1803,8 @@
             {
               "cve": "CVE-2023-32636",
               "epss": 0.00165,
-              "percentile": 0.3796,
-              "date": "2025-12-08"
+              "percentile": 0.38062,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -1761,8 +1901,8 @@
           {
             "cve": "CVE-2025-32990",
             "epss": 0.0011,
-            "percentile": 0.29919,
-            "date": "2025-12-08"
+            "percentile": 0.30071,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -1845,8 +1985,8 @@
             {
               "cve": "CVE-2025-32990",
               "epss": 0.0011,
-              "percentile": 0.29919,
-              "date": "2025-12-08"
+              "percentile": 0.30071,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -1940,8 +2080,8 @@
           {
             "cve": "CVE-2025-1632",
             "epss": 0.00188,
-            "percentile": 0.40736,
-            "date": "2025-12-08"
+            "percentile": 0.40872,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -2036,8 +2176,8 @@
             {
               "cve": "CVE-2025-1632",
               "epss": 0.00188,
-              "percentile": 0.40736,
-              "date": "2025-12-08"
+              "percentile": 0.40872,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -2140,8 +2280,8 @@
           {
             "cve": "CVE-2025-27113",
             "epss": 0.00184,
-            "percentile": 0.40338,
-            "date": "2025-12-08"
+            "percentile": 0.40434,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -2215,8 +2355,8 @@
             {
               "cve": "CVE-2025-27113",
               "epss": 0.00184,
-              "percentile": 0.40338,
-              "date": "2025-12-08"
+              "percentile": 0.40434,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -2313,8 +2453,8 @@
           {
             "cve": "CVE-2025-9086",
             "epss": 0.00095,
-            "percentile": 0.27039,
-            "date": "2025-12-08"
+            "percentile": 0.27178,
+            "date": "2025-12-14"
           }
         ],
         "fix": {
@@ -2355,8 +2495,8 @@
             {
               "cve": "CVE-2025-9086",
               "epss": 0.00095,
-              "percentile": 0.27039,
-              "date": "2025-12-08"
+              "percentile": 0.27178,
+              "date": "2025-12-14"
             }
           ]
         }
@@ -2450,8 +2590,8 @@
           {
             "cve": "CVE-2025-9086",
             "epss": 0.00095,
-            "percentile": 0.27039,
-            "date": "2025-12-08"
+            "percentile": 0.27178,
+            "date": "2025-12-14"
           }
         ],
         "fix": {
@@ -2492,8 +2632,8 @@
             {
               "cve": "CVE-2025-9086",
               "epss": 0.00095,
-              "percentile": 0.27039,
-              "date": "2025-12-08"
+              "percentile": 0.27178,
+              "date": "2025-12-14"
             }
           ]
         }
@@ -2587,8 +2727,8 @@
           {
             "cve": "CVE-2025-32988",
             "epss": 0.00083,
-            "percentile": 0.2446,
-            "date": "2025-12-08"
+            "percentile": 0.24589,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -2671,8 +2811,8 @@
             {
               "cve": "CVE-2025-32988",
               "epss": 0.00083,
-              "percentile": 0.2446,
-              "date": "2025-12-08"
+              "percentile": 0.24589,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -2766,8 +2906,8 @@
           {
             "cve": "CVE-2024-13176",
             "epss": 0.00123,
-            "percentile": 0.32173,
-            "date": "2025-12-08"
+            "percentile": 0.32308,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -2825,8 +2965,8 @@
             {
               "cve": "CVE-2024-13176",
               "epss": 0.00123,
-              "percentile": 0.32173,
-              "date": "2025-12-08"
+              "percentile": 0.32308,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -2917,8 +3057,8 @@
           {
             "cve": "CVE-2024-13176",
             "epss": 0.00123,
-            "percentile": 0.32173,
-            "date": "2025-12-08"
+            "percentile": 0.32308,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -2976,8 +3116,8 @@
             {
               "cve": "CVE-2024-13176",
               "epss": 0.00123,
-              "percentile": 0.32173,
-              "date": "2025-12-08"
+              "percentile": 0.32308,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -3079,8 +3219,8 @@
           {
             "cve": "CVE-2025-5914",
             "epss": 0.00054,
-            "percentile": 0.16875,
-            "date": "2025-12-08"
+            "percentile": 0.17051,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -3180,8 +3320,8 @@
             {
               "cve": "CVE-2025-5914",
               "epss": 0.00054,
-              "percentile": 0.16875,
-              "date": "2025-12-08"
+              "percentile": 0.17051,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -3274,9 +3414,9 @@
         "epss": [
           {
             "cve": "CVE-2025-4207",
-            "epss": 0.0007,
-            "percentile": 0.21421,
-            "date": "2025-12-08"
+            "epss": 0.00067,
+            "percentile": 0.2082,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -3292,7 +3432,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.03815
+        "risk": 0.036515
       },
       "relatedVulnerabilities": [
         {
@@ -3323,9 +3463,9 @@
           "epss": [
             {
               "cve": "CVE-2025-4207",
-              "epss": 0.0007,
-              "percentile": 0.21421,
-              "date": "2025-12-08"
+              "epss": 0.00067,
+              "percentile": 0.2082,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -3416,8 +3556,8 @@
           {
             "cve": "CVE-2025-6395",
             "epss": 0.00059,
-            "percentile": 0.18503,
-            "date": "2025-12-08"
+            "percentile": 0.18686,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -3488,8 +3628,8 @@
             {
               "cve": "CVE-2025-6395",
               "epss": 0.00059,
-              "percentile": 0.18503,
-              "date": "2025-12-08"
+              "percentile": 0.18686,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -3583,8 +3723,8 @@
           {
             "cve": "CVE-2023-45322",
             "epss": 0.00076,
-            "percentile": 0.2303,
-            "date": "2025-12-08"
+            "percentile": 0.23163,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -3633,8 +3773,8 @@
             {
               "cve": "CVE-2023-45322",
               "epss": 0.00076,
-              "percentile": 0.2303,
-              "date": "2025-12-08"
+              "percentile": 0.23163,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -3725,8 +3865,8 @@
           {
             "cve": "CVE-2025-12818",
             "epss": 0.00052,
-            "percentile": 0.16278,
-            "date": "2025-12-08"
+            "percentile": 0.16429,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -3772,8 +3912,8 @@
             {
               "cve": "CVE-2025-12818",
               "epss": 0.00052,
-              "percentile": 0.16278,
-              "date": "2025-12-08"
+              "percentile": 0.16429,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -3864,8 +4004,8 @@
           {
             "cve": "CVE-2025-32989",
             "epss": 0.00055,
-            "percentile": 0.17175,
-            "date": "2025-12-08"
+            "percentile": 0.17349,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -3934,8 +4074,8 @@
             {
               "cve": "CVE-2025-32989",
               "epss": 0.00055,
-              "percentile": 0.17175,
-              "date": "2025-12-08"
+              "percentile": 0.17349,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -4006,189 +4146,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-6965",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-6965",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "High",
-        "urls": [],
-        "description": "A memory corruption flaw was found in SQLite. Under specific conditions a query can be generated where the number of aggregate terms could exceed the number of columns available. This issue could lead to memory corruption and subsequent unintended behavior.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:L",
-            "metrics": {
-              "baseScore": 7.7,
-              "exploitabilityScore": 1.8,
-              "impactScore": 5.3
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-6965",
-            "epss": 0.00036,
-            "percentile": 0.10056,
-            "date": "2025-12-08"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-6965",
-            "cwe": "CWE-197",
-            "source": "cve-coordination@google.com",
-            "type": "Secondary"
-          }
-        ],
-        "fix": {
-          "versions": [
-            "0:3.34.1-9.el9_7"
-          ],
-          "state": "fixed",
-          "available": [
-            {
-              "version": "0:3.34.1-9.el9_7",
-              "date": "2025-11-12",
-              "kind": "first-observed"
-            }
-          ]
-        },
-        "advisories": [
-          {
-            "id": "RHSA-2025:20936",
-            "link": "https://access.redhat.com/errata/RHSA-2025:20936"
-          }
-        ],
-        "risk": 0.027360000000000002
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-6965",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-6965",
-          "namespace": "nvd:cpe",
-          "severity": "Critical",
-          "urls": [
-            "https://www.sqlite.org/src/info/5508b56fd24016c13981ec280ecdd833007c9d8dd595edb295b984c2b487b5c8",
-            "http://seclists.org/fulldisclosure/2025/Sep/49",
-            "http://seclists.org/fulldisclosure/2025/Sep/53",
-            "http://seclists.org/fulldisclosure/2025/Sep/56",
-            "http://seclists.org/fulldisclosure/2025/Sep/57",
-            "http://seclists.org/fulldisclosure/2025/Sep/58",
-            "http://www.openwall.com/lists/oss-security/2025/09/06/1"
-          ],
-          "description": "There exists a vulnerability in SQLite versions before 3.50.2 where the number of aggregate terms could exceed the number of columns available. This could lead to a memory corruption issue. We recommend upgrading to version 3.50.2 or above.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-              "metrics": {
-                "baseScore": 9.8,
-                "exploitabilityScore": 3.9,
-                "impactScore": 5.9
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "cve-coordination@google.com",
-              "type": "Secondary",
-              "version": "4.0",
-              "vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:L/UI:N/VC:L/VI:H/VA:L/SC:L/SI:H/SA:L/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:N/AU:N/R:U/V:D/RE:L/U:Green",
-              "metrics": {
-                "baseScore": 7.2
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-6965",
-              "epss": 0.00036,
-              "percentile": 0.10056,
-              "date": "2025-12-08"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-6965",
-              "cwe": "CWE-197",
-              "source": "cve-coordination@google.com",
-              "type": "Secondary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "sqlite",
-              "version": "3.34.1-8.el9_6"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-6965",
-            "versionConstraint": "< 0:3.34.1-9.el9_7 (rpm)"
-          },
-          "fix": {
-            "suggestedVersion": "0:3.34.1-9.el9_7"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "589dcf3821f954e5",
-        "name": "sqlite-libs",
-        "version": "3.34.1-8.el9_6",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "Public Domain"
-        ],
-        "cpes": [
-          "cpe:2.3:a:sqlite-libs:sqlite-libs:3.34.1-8.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:sqlite-libs:sqlite_libs:3.34.1-8.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:sqlite_libs:sqlite-libs:3.34.1-8.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:sqlite_libs:sqlite_libs:3.34.1-8.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:sqlite-libs:3.34.1-8.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:sqlite_libs:3.34.1-8.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:sqlite:sqlite-libs:3.34.1-8.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:sqlite:sqlite_libs:3.34.1-8.el9_6:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/sqlite-libs@3.34.1-8.el9_6?arch=x86_64&distro=rhel-9.6&upstream=sqlite-3.34.1-8.el9_6.src.rpm",
-        "upstreams": [
-          {
-            "name": "sqlite",
-            "version": "3.34.1-8.el9_6"
-          }
-        ],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2022-41409",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2022-41409",
         "namespace": "redhat:distro:redhat:9",
@@ -4212,8 +4169,8 @@
           {
             "cve": "CVE-2022-41409",
             "epss": 0.00061,
-            "percentile": 0.18892,
-            "date": "2025-12-08"
+            "percentile": 0.19071,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -4260,8 +4217,8 @@
             {
               "cve": "CVE-2022-41409",
               "epss": 0.00061,
-              "percentile": 0.18892,
-              "date": "2025-12-08"
+              "percentile": 0.19071,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -4352,8 +4309,8 @@
           {
             "cve": "CVE-2022-41409",
             "epss": 0.00061,
-            "percentile": 0.18892,
-            "date": "2025-12-08"
+            "percentile": 0.19071,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -4400,8 +4357,8 @@
             {
               "cve": "CVE-2022-41409",
               "epss": 0.00061,
-              "percentile": 0.18892,
-              "date": "2025-12-08"
+              "percentile": 0.19071,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -4503,8 +4460,8 @@
           {
             "cve": "CVE-2023-50495",
             "epss": 0.00051,
-            "percentile": 0.15675,
-            "date": "2025-12-08"
+            "percentile": 0.15858,
+            "date": "2025-12-14"
           }
         ],
         "fix": {
@@ -4546,8 +4503,8 @@
             {
               "cve": "CVE-2023-50495",
               "epss": 0.00051,
-              "percentile": 0.15675,
-              "date": "2025-12-08"
+              "percentile": 0.15858,
+              "date": "2025-12-14"
             }
           ]
         }
@@ -4641,8 +4598,8 @@
           {
             "cve": "CVE-2023-50495",
             "epss": 0.00051,
-            "percentile": 0.15675,
-            "date": "2025-12-08"
+            "percentile": 0.15858,
+            "date": "2025-12-14"
           }
         ],
         "fix": {
@@ -4684,8 +4641,8 @@
             {
               "cve": "CVE-2023-50495",
               "epss": 0.00051,
-              "percentile": 0.15675,
-              "date": "2025-12-08"
+              "percentile": 0.15858,
+              "date": "2025-12-14"
             }
           ]
         }
@@ -4756,6 +4713,147 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-3360",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-3360",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "A flaw was found in GLib. An integer overflow and buffer under-read occur when parsing a long invalid ISO 8601 timestamp with the g_date_time_new_from_iso8601() function.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "metrics": {
+              "baseScore": 3.7,
+              "exploitabilityScore": 2.3,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-3360",
+            "epss": 0.00068,
+            "percentile": 0.2117,
+            "date": "2025-12-14"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-3360",
+            "cwe": "CWE-190",
+            "source": "secalert@redhat.com",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.022779999999999998
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-3360",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-3360",
+          "namespace": "nvd:cpe",
+          "severity": "Low",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-3360",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2357754",
+            "https://lists.debian.org/debian-lts-announce/2025/04/msg00024.html"
+          ],
+          "description": "A flaw was found in GLib. An integer overflow and buffer under-read occur when parsing a long invalid ISO 8601 timestamp with the g_date_time_new_from_iso8601() function.",
+          "cvss": [
+            {
+              "source": "secalert@redhat.com",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "metrics": {
+                "baseScore": 3.7,
+                "exploitabilityScore": 2.3,
+                "impactScore": 1.5
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-3360",
+              "epss": 0.00068,
+              "percentile": 0.2117,
+              "date": "2025-12-14"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-3360",
+              "cwe": "CWE-190",
+              "source": "secalert@redhat.com",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "glib2",
+              "version": "0:2.68.4-16.el9_6.2"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-3360",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "35f4edf399bccea5",
+        "name": "glib2",
+        "version": "2.68.4-16.el9_6.2",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "LGPLv2+"
+        ],
+        "cpes": [
+          "cpe:2.3:a:redhat:glib2:2.68.4-16.el9_6.2:*:*:*:*:*:*:*",
+          "cpe:2.3:a:glib2:glib2:2.68.4-16.el9_6.2:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/glib2@2.68.4-16.el9_6.2?arch=x86_64&distro=rhel-9.6&upstream=glib2-2.68.4-16.el9_6.2.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2022-27943",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2022-27943",
         "namespace": "redhat:distro:redhat:9",
@@ -4779,8 +4877,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.15342,
-            "date": "2025-12-08"
+            "percentile": 0.15519,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -4840,8 +4938,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.15342,
-              "date": "2025-12-08"
+              "percentile": 0.15519,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -4937,8 +5035,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.15342,
-            "date": "2025-12-08"
+            "percentile": 0.15519,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -4998,8 +5096,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.15342,
-              "date": "2025-12-08"
+              "percentile": 0.15519,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -5072,147 +5170,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-3360",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-3360",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
-        "urls": [],
-        "description": "A flaw was found in GLib. An integer overflow and buffer under-read occur when parsing a long invalid ISO 8601 timestamp with the g_date_time_new_from_iso8601() function.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
-            "metrics": {
-              "baseScore": 3.7,
-              "exploitabilityScore": 2.3,
-              "impactScore": 1.5
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-3360",
-            "epss": 0.00063,
-            "percentile": 0.19531,
-            "date": "2025-12-08"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-3360",
-            "cwe": "CWE-190",
-            "source": "secalert@redhat.com",
-            "type": "Secondary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.021105
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-3360",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-3360",
-          "namespace": "nvd:cpe",
-          "severity": "Low",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2025-3360",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2357754",
-            "https://lists.debian.org/debian-lts-announce/2025/04/msg00024.html"
-          ],
-          "description": "A flaw was found in GLib. An integer overflow and buffer under-read occur when parsing a long invalid ISO 8601 timestamp with the g_date_time_new_from_iso8601() function.",
-          "cvss": [
-            {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
-              "metrics": {
-                "baseScore": 3.7,
-                "exploitabilityScore": 2.3,
-                "impactScore": 1.5
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-3360",
-              "epss": 0.00063,
-              "percentile": 0.19531,
-              "date": "2025-12-08"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-3360",
-              "cwe": "CWE-190",
-              "source": "secalert@redhat.com",
-              "type": "Secondary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "glib2",
-              "version": "0:2.68.4-16.el9_6.2"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-3360",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "35f4edf399bccea5",
-        "name": "glib2",
-        "version": "2.68.4-16.el9_6.2",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "LGPLv2+"
-        ],
-        "cpes": [
-          "cpe:2.3:a:redhat:glib2:2.68.4-16.el9_6.2:*:*:*:*:*:*:*",
-          "cpe:2.3:a:glib2:glib2:2.68.4-16.el9_6.2:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/glib2@2.68.4-16.el9_6.2?arch=x86_64&distro=rhel-9.6&upstream=glib2-2.68.4-16.el9_6.2.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-4598",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-4598",
         "namespace": "redhat:distro:redhat:9",
@@ -5235,9 +5192,9 @@
         "epss": [
           {
             "cve": "CVE-2025-4598",
-            "epss": 0.00043,
-            "percentile": 0.12971,
-            "date": "2025-12-08"
+            "epss": 0.00042,
+            "percentile": 0.12535,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -5267,7 +5224,7 @@
             "link": "https://access.redhat.com/errata/RHSA-2025:22660"
           }
         ],
-        "risk": 0.020855
+        "risk": 0.02037
       },
       "relatedVulnerabilities": [
         {
@@ -5308,9 +5265,9 @@
           "epss": [
             {
               "cve": "CVE-2025-4598",
-              "epss": 0.00043,
-              "percentile": 0.12971,
-              "date": "2025-12-08"
+              "epss": 0.00042,
+              "percentile": 0.12535,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -5392,6 +5349,146 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-14512",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-14512",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Medium",
+        "urls": [],
+        "description": "A flaw was found in glib. This vulnerability allows a heap buffer overflow and denial-of-service (DoS) via an integer overflow in GLib's GIO (GLib Input/Output) escape_byte_string() function when processing malicious file or remote filesystem attribute values.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+            "metrics": {
+              "baseScore": 6.5,
+              "exploitabilityScore": 2.9,
+              "impactScore": 3.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-14512",
+            "epss": 0.00034,
+            "percentile": 0.09609,
+            "date": "2025-12-14"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-14512",
+            "cwe": "CWE-190",
+            "source": "secalert@redhat.com",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.01955
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-14512",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-14512",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-14512",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2421339"
+          ],
+          "description": "A flaw was found in glib. This vulnerability allows a heap buffer overflow and denial-of-service (DoS) via an integer overflow in GLib's GIO (GLib Input/Output) escape_byte_string() function when processing malicious file or remote filesystem attribute values.",
+          "cvss": [
+            {
+              "source": "secalert@redhat.com",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+              "metrics": {
+                "baseScore": 6.5,
+                "exploitabilityScore": 2.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-14512",
+              "epss": 0.00034,
+              "percentile": 0.09609,
+              "date": "2025-12-14"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-14512",
+              "cwe": "CWE-190",
+              "source": "secalert@redhat.com",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "glib2",
+              "version": "0:2.68.4-16.el9_6.2"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-14512",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "35f4edf399bccea5",
+        "name": "glib2",
+        "version": "2.68.4-16.el9_6.2",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "LGPLv2+"
+        ],
+        "cpes": [
+          "cpe:2.3:a:redhat:glib2:2.68.4-16.el9_6.2:*:*:*:*:*:*:*",
+          "cpe:2.3:a:glib2:glib2:2.68.4-16.el9_6.2:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/glib2@2.68.4-16.el9_6.2?arch=x86_64&distro=rhel-9.6&upstream=glib2-2.68.4-16.el9_6.2.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-29478",
         "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-29478",
         "namespace": "nvd:cpe",
@@ -5417,9 +5514,9 @@
         "epss": [
           {
             "cve": "CVE-2025-29478",
-            "epss": 0.00033,
-            "percentile": 0.09066,
-            "date": "2025-12-08"
+            "epss": 0.00034,
+            "percentile": 0.09478,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -5435,7 +5532,7 @@
           "state": ""
         },
         "advisories": [],
-        "risk": 0.017325
+        "risk": 0.01785
       },
       "relatedVulnerabilities": [],
       "matchDetails": [
@@ -5487,6 +5584,189 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-6965",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-6965",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "High",
+        "urls": [],
+        "description": "A memory corruption flaw was found in SQLite. Under specific conditions a query can be generated where the number of aggregate terms could exceed the number of columns available. This issue could lead to memory corruption and subsequent unintended behavior.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:L",
+            "metrics": {
+              "baseScore": 7.7,
+              "exploitabilityScore": 1.8,
+              "impactScore": 5.3
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-6965",
+            "epss": 0.00022,
+            "percentile": 0.05249,
+            "date": "2025-12-14"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-6965",
+            "cwe": "CWE-197",
+            "source": "cve-coordination@google.com",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [
+            "0:3.34.1-9.el9_7"
+          ],
+          "state": "fixed",
+          "available": [
+            {
+              "version": "0:3.34.1-9.el9_7",
+              "date": "2025-11-12",
+              "kind": "first-observed"
+            }
+          ]
+        },
+        "advisories": [
+          {
+            "id": "RHSA-2025:20936",
+            "link": "https://access.redhat.com/errata/RHSA-2025:20936"
+          }
+        ],
+        "risk": 0.01672
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-6965",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-6965",
+          "namespace": "nvd:cpe",
+          "severity": "Critical",
+          "urls": [
+            "https://www.sqlite.org/src/info/5508b56fd24016c13981ec280ecdd833007c9d8dd595edb295b984c2b487b5c8",
+            "http://seclists.org/fulldisclosure/2025/Sep/49",
+            "http://seclists.org/fulldisclosure/2025/Sep/53",
+            "http://seclists.org/fulldisclosure/2025/Sep/56",
+            "http://seclists.org/fulldisclosure/2025/Sep/57",
+            "http://seclists.org/fulldisclosure/2025/Sep/58",
+            "http://www.openwall.com/lists/oss-security/2025/09/06/1"
+          ],
+          "description": "There exists a vulnerability in SQLite versions before 3.50.2 where the number of aggregate terms could exceed the number of columns available. This could lead to a memory corruption issue. We recommend upgrading to version 3.50.2 or above.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "metrics": {
+                "baseScore": 9.8,
+                "exploitabilityScore": 3.9,
+                "impactScore": 5.9
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "cve-coordination@google.com",
+              "type": "Secondary",
+              "version": "4.0",
+              "vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:L/UI:N/VC:L/VI:H/VA:L/SC:L/SI:H/SA:L/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:N/AU:N/R:U/V:D/RE:L/U:Green",
+              "metrics": {
+                "baseScore": 7.2
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-6965",
+              "epss": 0.00022,
+              "percentile": 0.05249,
+              "date": "2025-12-14"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-6965",
+              "cwe": "CWE-197",
+              "source": "cve-coordination@google.com",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "sqlite",
+              "version": "3.34.1-8.el9_6"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-6965",
+            "versionConstraint": "< 0:3.34.1-9.el9_7 (rpm)"
+          },
+          "fix": {
+            "suggestedVersion": "0:3.34.1-9.el9_7"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "589dcf3821f954e5",
+        "name": "sqlite-libs",
+        "version": "3.34.1-8.el9_6",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "Public Domain"
+        ],
+        "cpes": [
+          "cpe:2.3:a:sqlite-libs:sqlite-libs:3.34.1-8.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:sqlite-libs:sqlite_libs:3.34.1-8.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:sqlite_libs:sqlite-libs:3.34.1-8.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:sqlite_libs:sqlite_libs:3.34.1-8.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:sqlite-libs:3.34.1-8.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:sqlite_libs:3.34.1-8.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:sqlite:sqlite-libs:3.34.1-8.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:sqlite:sqlite_libs:3.34.1-8.el9_6:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/sqlite-libs@3.34.1-8.el9_6?arch=x86_64&distro=rhel-9.6&upstream=sqlite-3.34.1-8.el9_6.src.rpm",
+        "upstreams": [
+          {
+            "name": "sqlite",
+            "version": "3.34.1-8.el9_6"
+          }
+        ],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2023-4156",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2023-4156",
         "namespace": "redhat:distro:redhat:9",
@@ -5510,8 +5790,8 @@
           {
             "cve": "CVE-2023-4156",
             "epss": 0.00031,
-            "percentile": 0.08315,
-            "date": "2025-12-08"
+            "percentile": 0.08475,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -5576,8 +5856,8 @@
             {
               "cve": "CVE-2023-4156",
               "epss": 0.00031,
-              "percentile": 0.08315,
-              "date": "2025-12-08"
+              "percentile": 0.08475,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -5674,8 +5954,8 @@
           {
             "cve": "CVE-2025-9230",
             "epss": 0.00026,
-            "percentile": 0.06325,
-            "date": "2025-12-08"
+            "percentile": 0.06473,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -5750,8 +6030,8 @@
             {
               "cve": "CVE-2025-9230",
               "epss": 0.00026,
-              "percentile": 0.06325,
-              "date": "2025-12-08"
+              "percentile": 0.06473,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -5851,8 +6131,8 @@
           {
             "cve": "CVE-2025-9230",
             "epss": 0.00026,
-            "percentile": 0.06325,
-            "date": "2025-12-08"
+            "percentile": 0.06473,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -5927,8 +6207,8 @@
             {
               "cve": "CVE-2025-9230",
               "epss": 0.00026,
-              "percentile": 0.06325,
-              "date": "2025-12-08"
+              "percentile": 0.06473,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -6039,8 +6319,8 @@
           {
             "cve": "CVE-2025-9714",
             "epss": 0.00024,
-            "percentile": 0.05538,
-            "date": "2025-12-08"
+            "percentile": 0.05691,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -6113,8 +6393,8 @@
             {
               "cve": "CVE-2025-9714",
               "epss": 0.00024,
-              "percentile": 0.05538,
-              "date": "2025-12-08"
+              "percentile": 0.05691,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -6208,8 +6488,8 @@
           {
             "cve": "CVE-2025-60753",
             "epss": 0.0002,
-            "percentile": 0.04572,
-            "date": "2025-12-08"
+            "percentile": 0.04699,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -6262,8 +6542,8 @@
             {
               "cve": "CVE-2025-60753",
               "epss": 0.0002,
-              "percentile": 0.04572,
-              "date": "2025-12-08"
+              "percentile": 0.04699,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -6363,8 +6643,8 @@
           {
             "cve": "CVE-2025-29477",
             "epss": 0.00019,
-            "percentile": 0.04018,
-            "date": "2025-12-08"
+            "percentile": 0.04132,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -6455,8 +6735,8 @@
           {
             "cve": "CVE-2025-13601",
             "epss": 0.00015,
-            "percentile": 0.02404,
-            "date": "2025-12-08"
+            "percentile": 0.02458,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -6505,8 +6785,8 @@
             {
               "cve": "CVE-2025-13601",
               "epss": 0.00015,
-              "percentile": 0.02404,
-              "date": "2025-12-08"
+              "percentile": 0.02458,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -6574,461 +6854,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-5915",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5915",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
-        "urls": [],
-        "description": "A vulnerability has been identified in the libarchive library. This flaw can lead to a heap buffer over-read due to the size of a filter block potentially exceeding the Lempel-Ziv-Storer-Schieber (LZSS) window. This means the library may attempt to read beyond the allocated memory buffer, which can result in unpredictable program behavior, crashes (denial of service), or the disclosure of sensitive information from adjacent memory regions.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
-            "metrics": {
-              "baseScore": 3.9,
-              "exploitabilityScore": 1.4,
-              "impactScore": 2.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-5915",
-            "epss": 0.00026,
-            "percentile": 0.06308,
-            "date": "2025-12-08"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-5915",
-            "cwe": "CWE-122",
-            "source": "secalert@redhat.com",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.008969999999999999
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-5915",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5915",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2025-5915",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2370865",
-            "https://github.com/libarchive/libarchive/pull/2599",
-            "https://github.com/libarchive/libarchive/releases/tag/v3.8.0"
-          ],
-          "description": "A vulnerability has been identified in the libarchive library. This flaw can lead to a heap buffer over-read due to the size of a filter block potentially exceeding the Lempel-Ziv-Storer-Schieber (LZSS) window. This means the library may attempt to read beyond the allocated memory buffer, which can result in unpredictable program behavior, crashes (denial of service), or the disclosure of sensitive information from adjacent memory regions.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:H",
-              "metrics": {
-                "baseScore": 6.6,
-                "exploitabilityScore": 1.4,
-                "impactScore": 5.2
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
-              "metrics": {
-                "baseScore": 3.9,
-                "exploitabilityScore": 1.4,
-                "impactScore": 2.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-5915",
-              "epss": 0.00026,
-              "percentile": 0.06308,
-              "date": "2025-12-08"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-5915",
-              "cwe": "CWE-122",
-              "source": "secalert@redhat.com",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "libarchive",
-              "version": "0:3.5.3-5.el9_6"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-5915",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "026da1974d66f84e",
-        "name": "libarchive",
-        "version": "3.5.3-5.el9_6",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "BSD"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libarchive:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libarchive-3.5.3-5.el9_6.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-9232",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9232",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
-        "urls": [],
-        "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
-            "metrics": {
-              "baseScore": 3.1,
-              "exploitabilityScore": 1.7,
-              "impactScore": 1.5
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-9232",
-            "epss": 0.00027,
-            "percentile": 0.06518,
-            "date": "2025-12-08"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-9232",
-            "cwe": "CWE-125",
-            "source": "openssl-security@openssl.org",
-            "type": "Secondary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.008235
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-9232",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9232",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35",
-            "https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b",
-            "https://github.com/openssl/openssl/commit/7cf21a30513c9e43c4bc3836c237cf086e194af3",
-            "https://github.com/openssl/openssl/commit/89e790ac431125a4849992858490bed6b225eadf",
-            "https://github.com/openssl/openssl/commit/bbf38c034cdabd0a13330abcc4855c866f53d2e0",
-            "https://openssl-library.org/news/secadv/20250930.txt",
-            "http://www.openwall.com/lists/oss-security/2025/09/30/5"
-          ],
-          "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\n\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\n\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\n\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\n\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "metrics": {
-                "baseScore": 5.9,
-                "exploitabilityScore": 2.3,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-9232",
-              "epss": 0.00027,
-              "percentile": 0.06518,
-              "date": "2025-12-08"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-9232",
-              "cwe": "CWE-125",
-              "source": "openssl-security@openssl.org",
-              "type": "Secondary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "openssl",
-              "version": "1:3.2.2-6.el9_5.1"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-9232",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "7dc75dc862d10c78",
-        "name": "openssl",
-        "version": "1:3.2.2-6.el9_5.1",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "ASL 2.0"
-        ],
-        "cpes": [
-          "cpe:2.3:a:openssl:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/openssl@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": 1,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-9232",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9232",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
-        "urls": [],
-        "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
-            "metrics": {
-              "baseScore": 3.1,
-              "exploitabilityScore": 1.7,
-              "impactScore": 1.5
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-9232",
-            "epss": 0.00027,
-            "percentile": 0.06518,
-            "date": "2025-12-08"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-9232",
-            "cwe": "CWE-125",
-            "source": "openssl-security@openssl.org",
-            "type": "Secondary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.008235
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-9232",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9232",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35",
-            "https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b",
-            "https://github.com/openssl/openssl/commit/7cf21a30513c9e43c4bc3836c237cf086e194af3",
-            "https://github.com/openssl/openssl/commit/89e790ac431125a4849992858490bed6b225eadf",
-            "https://github.com/openssl/openssl/commit/bbf38c034cdabd0a13330abcc4855c866f53d2e0",
-            "https://openssl-library.org/news/secadv/20250930.txt",
-            "http://www.openwall.com/lists/oss-security/2025/09/30/5"
-          ],
-          "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\n\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\n\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\n\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\n\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "metrics": {
-                "baseScore": 5.9,
-                "exploitabilityScore": 2.3,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-9232",
-              "epss": 0.00027,
-              "percentile": 0.06518,
-              "date": "2025-12-08"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-9232",
-              "cwe": "CWE-125",
-              "source": "openssl-security@openssl.org",
-              "type": "Secondary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "openssl",
-              "version": "3.2.2-6.el9_5.1"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-9232",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "58e683943e8aac02",
-        "name": "openssl-libs",
-        "version": "1:3.2.2-6.el9_5.1",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "ASL 2.0"
-        ],
-        "cpes": [
-          "cpe:2.3:a:openssl-libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl-libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl_libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl_libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:openssl:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
-        "upstreams": [
-          {
-            "name": "openssl",
-            "version": "3.2.2-6.el9_5.1"
-          }
-        ],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": 1,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-10966",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-10966",
         "namespace": "redhat:distro:redhat:9",
@@ -7051,9 +6876,9 @@
         "epss": [
           {
             "cve": "CVE-2025-10966",
-            "epss": 0.00015,
-            "percentile": 0.02167,
-            "date": "2025-12-08"
+            "epss": 0.00017,
+            "percentile": 0.03228,
+            "date": "2025-12-14"
           }
         ],
         "fix": {
@@ -7061,7 +6886,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.008175
+        "risk": 0.009265000000000002
       },
       "relatedVulnerabilities": [
         {
@@ -7093,9 +6918,9 @@
           "epss": [
             {
               "cve": "CVE-2025-10966",
-              "epss": 0.00015,
-              "percentile": 0.02167,
-              "date": "2025-12-08"
+              "epss": 0.00017,
+              "percentile": 0.03228,
+              "date": "2025-12-14"
             }
           ]
         }
@@ -7188,9 +7013,9 @@
         "epss": [
           {
             "cve": "CVE-2025-10966",
-            "epss": 0.00015,
-            "percentile": 0.02167,
-            "date": "2025-12-08"
+            "epss": 0.00017,
+            "percentile": 0.03228,
+            "date": "2025-12-14"
           }
         ],
         "fix": {
@@ -7198,7 +7023,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.008175
+        "risk": 0.009265000000000002
       },
       "relatedVulnerabilities": [
         {
@@ -7230,9 +7055,9 @@
           "epss": [
             {
               "cve": "CVE-2025-10966",
-              "epss": 0.00015,
-              "percentile": 0.02167,
-              "date": "2025-12-08"
+              "epss": 0.00017,
+              "percentile": 0.03228,
+              "date": "2025-12-14"
             }
           ]
         }
@@ -7303,12 +7128,467 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-5915",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5915",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "A vulnerability has been identified in the libarchive library. This flaw can lead to a heap buffer over-read due to the size of a filter block potentially exceeding the Lempel-Ziv-Storer-Schieber (LZSS) window. This means the library may attempt to read beyond the allocated memory buffer, which can result in unpredictable program behavior, crashes (denial of service), or the disclosure of sensitive information from adjacent memory regions.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
+            "metrics": {
+              "baseScore": 3.9,
+              "exploitabilityScore": 1.4,
+              "impactScore": 2.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-5915",
+            "epss": 0.00026,
+            "percentile": 0.06449,
+            "date": "2025-12-14"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-5915",
+            "cwe": "CWE-122",
+            "source": "secalert@redhat.com",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.008969999999999999
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-5915",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-5915",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-5915",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2370865",
+            "https://github.com/libarchive/libarchive/pull/2599",
+            "https://github.com/libarchive/libarchive/releases/tag/v3.8.0"
+          ],
+          "description": "A vulnerability has been identified in the libarchive library. This flaw can lead to a heap buffer over-read due to the size of a filter block potentially exceeding the Lempel-Ziv-Storer-Schieber (LZSS) window. This means the library may attempt to read beyond the allocated memory buffer, which can result in unpredictable program behavior, crashes (denial of service), or the disclosure of sensitive information from adjacent memory regions.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:H",
+              "metrics": {
+                "baseScore": 6.6,
+                "exploitabilityScore": 1.4,
+                "impactScore": 5.2
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "secalert@redhat.com",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
+              "metrics": {
+                "baseScore": 3.9,
+                "exploitabilityScore": 1.4,
+                "impactScore": 2.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-5915",
+              "epss": 0.00026,
+              "percentile": 0.06449,
+              "date": "2025-12-14"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-5915",
+              "cwe": "CWE-122",
+              "source": "secalert@redhat.com",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "libarchive",
+              "version": "0:3.5.3-5.el9_6"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-5915",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "026da1974d66f84e",
+        "name": "libarchive",
+        "version": "3.5.3-5.el9_6",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libarchive:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:libarchive:3.5.3-5.el9_6:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&distro=rhel-9.6&upstream=libarchive-3.5.3-5.el9_6.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-9232",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9232",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
+            "metrics": {
+              "baseScore": 3.1,
+              "exploitabilityScore": 1.7,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-9232",
+            "epss": 0.00027,
+            "percentile": 0.06662,
+            "date": "2025-12-14"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-9232",
+            "cwe": "CWE-125",
+            "source": "openssl-security@openssl.org",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.008235
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-9232",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9232",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35",
+            "https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b",
+            "https://github.com/openssl/openssl/commit/7cf21a30513c9e43c4bc3836c237cf086e194af3",
+            "https://github.com/openssl/openssl/commit/89e790ac431125a4849992858490bed6b225eadf",
+            "https://github.com/openssl/openssl/commit/bbf38c034cdabd0a13330abcc4855c866f53d2e0",
+            "https://openssl-library.org/news/secadv/20250930.txt",
+            "http://www.openwall.com/lists/oss-security/2025/09/30/5"
+          ],
+          "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\n\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\n\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\n\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\n\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "metrics": {
+                "baseScore": 5.9,
+                "exploitabilityScore": 2.3,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-9232",
+              "epss": 0.00027,
+              "percentile": 0.06662,
+              "date": "2025-12-14"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-9232",
+              "cwe": "CWE-125",
+              "source": "openssl-security@openssl.org",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "openssl",
+              "version": "1:3.2.2-6.el9_5.1"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-9232",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "7dc75dc862d10c78",
+        "name": "openssl",
+        "version": "1:3.2.2-6.el9_5.1",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "ASL 2.0"
+        ],
+        "cpes": [
+          "cpe:2.3:a:openssl:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:openssl:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/openssl@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": 1,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-9232",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-9232",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
+            "metrics": {
+              "baseScore": 3.1,
+              "exploitabilityScore": 1.7,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-9232",
+            "epss": 0.00027,
+            "percentile": 0.06662,
+            "date": "2025-12-14"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-9232",
+            "cwe": "CWE-125",
+            "source": "openssl-security@openssl.org",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.008235
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-9232",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9232",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35",
+            "https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b",
+            "https://github.com/openssl/openssl/commit/7cf21a30513c9e43c4bc3836c237cf086e194af3",
+            "https://github.com/openssl/openssl/commit/89e790ac431125a4849992858490bed6b225eadf",
+            "https://github.com/openssl/openssl/commit/bbf38c034cdabd0a13330abcc4855c866f53d2e0",
+            "https://openssl-library.org/news/secadv/20250930.txt",
+            "http://www.openwall.com/lists/oss-security/2025/09/30/5"
+          ],
+          "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\n\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\n\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\n\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\n\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "metrics": {
+                "baseScore": 5.9,
+                "exploitabilityScore": 2.3,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-9232",
+              "epss": 0.00027,
+              "percentile": 0.06662,
+              "date": "2025-12-14"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-9232",
+              "cwe": "CWE-125",
+              "source": "openssl-security@openssl.org",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "openssl",
+              "version": "3.2.2-6.el9_5.1"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-9232",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "58e683943e8aac02",
+        "name": "openssl-libs",
+        "version": "1:3.2.2-6.el9_5.1",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "ASL 2.0"
+        ],
+        "cpes": [
+          "cpe:2.3:a:openssl-libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl-libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl_libs:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl_libs:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:openssl:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:openssl-libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:openssl_libs:1\\:3.2.2-6.el9_5.1:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/openssl-libs@3.2.2-6.el9_5.1?arch=x86_64&distro=rhel-9.6&epoch=1&upstream=openssl-3.2.2-6.el9_5.1.src.rpm",
+        "upstreams": [
+          {
+            "name": "openssl",
+            "version": "3.2.2-6.el9_5.1"
+          }
+        ],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": 1,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-5916",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5916",
         "namespace": "redhat:distro:redhat:9",
         "severity": "Low",
         "urls": [],
-        "description": "A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive.",
+        "description": "A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive. This bug affects libarchive versions prior to 3.8.0.",
         "cvss": [
           {
             "type": "Secondary",
@@ -7326,8 +7606,8 @@
           {
             "cve": "CVE-2025-5916",
             "epss": 0.00023,
-            "percentile": 0.05223,
-            "date": "2025-12-08"
+            "percentile": 0.05378,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -7335,7 +7615,7 @@
             "cve": "CVE-2025-5916",
             "cwe": "CWE-190",
             "source": "secalert@redhat.com",
-            "type": "Primary"
+            "type": "Secondary"
           }
         ],
         "fix": {
@@ -7357,7 +7637,7 @@
             "https://github.com/libarchive/libarchive/pull/2568",
             "https://github.com/libarchive/libarchive/releases/tag/v3.8.0"
           ],
-          "description": "A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive.",
+          "description": "A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive. This bug affects libarchive versions prior to 3.8.0.",
           "cvss": [
             {
               "source": "nvd@nist.gov",
@@ -7388,8 +7668,8 @@
             {
               "cve": "CVE-2025-5916",
               "epss": 0.00023,
-              "percentile": 0.05223,
-              "date": "2025-12-08"
+              "percentile": 0.05378,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -7397,7 +7677,7 @@
               "cve": "CVE-2025-5916",
               "cwe": "CWE-190",
               "source": "secalert@redhat.com",
-              "type": "Primary"
+              "type": "Secondary"
             }
           ]
         }
@@ -7457,6 +7737,586 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-14104",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-14104",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Medium",
+        "urls": [],
+        "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+            "metrics": {
+              "baseScore": 6.1,
+              "exploitabilityScore": 1.9,
+              "impactScore": 4.3
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-14104",
+            "epss": 0.00014,
+            "percentile": 0.01837,
+            "date": "2025-12-14"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-14104",
+            "cwe": "CWE-125",
+            "source": "secalert@redhat.com",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.007769999999999997
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-14104",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-14104",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-14104",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2419369"
+          ],
+          "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
+          "cvss": [
+            {
+              "source": "secalert@redhat.com",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+              "metrics": {
+                "baseScore": 6.1,
+                "exploitabilityScore": 1.9,
+                "impactScore": 4.3
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-14104",
+              "epss": 0.00014,
+              "percentile": 0.01837,
+              "date": "2025-12-14"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-14104",
+              "cwe": "CWE-125",
+              "source": "secalert@redhat.com",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "util-linux",
+              "version": "2.37.4-21.el9"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-14104",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "09371eedc2b9d95d",
+        "name": "libblkid",
+        "version": "2.37.4-21.el9",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "LGPLv2+"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libblkid:libblkid:2.37.4-21.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:libblkid:2.37.4-21.el9:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/libblkid@2.37.4-21.el9?arch=x86_64&distro=rhel-9.6&upstream=util-linux-2.37.4-21.el9.src.rpm",
+        "upstreams": [
+          {
+            "name": "util-linux",
+            "version": "2.37.4-21.el9"
+          }
+        ],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-14104",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-14104",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Medium",
+        "urls": [],
+        "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+            "metrics": {
+              "baseScore": 6.1,
+              "exploitabilityScore": 1.9,
+              "impactScore": 4.3
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-14104",
+            "epss": 0.00014,
+            "percentile": 0.01837,
+            "date": "2025-12-14"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-14104",
+            "cwe": "CWE-125",
+            "source": "secalert@redhat.com",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.007769999999999997
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-14104",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-14104",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-14104",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2419369"
+          ],
+          "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
+          "cvss": [
+            {
+              "source": "secalert@redhat.com",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+              "metrics": {
+                "baseScore": 6.1,
+                "exploitabilityScore": 1.9,
+                "impactScore": 4.3
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-14104",
+              "epss": 0.00014,
+              "percentile": 0.01837,
+              "date": "2025-12-14"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-14104",
+              "cwe": "CWE-125",
+              "source": "secalert@redhat.com",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "util-linux",
+              "version": "2.37.4-21.el9"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-14104",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "403e3b854fc89f1e",
+        "name": "libmount",
+        "version": "2.37.4-21.el9",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "LGPLv2+"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libmount:libmount:2.37.4-21.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:libmount:2.37.4-21.el9:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/libmount@2.37.4-21.el9?arch=x86_64&distro=rhel-9.6&upstream=util-linux-2.37.4-21.el9.src.rpm",
+        "upstreams": [
+          {
+            "name": "util-linux",
+            "version": "2.37.4-21.el9"
+          }
+        ],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-14104",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-14104",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Medium",
+        "urls": [],
+        "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+            "metrics": {
+              "baseScore": 6.1,
+              "exploitabilityScore": 1.9,
+              "impactScore": 4.3
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-14104",
+            "epss": 0.00014,
+            "percentile": 0.01837,
+            "date": "2025-12-14"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-14104",
+            "cwe": "CWE-125",
+            "source": "secalert@redhat.com",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.007769999999999997
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-14104",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-14104",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-14104",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2419369"
+          ],
+          "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
+          "cvss": [
+            {
+              "source": "secalert@redhat.com",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+              "metrics": {
+                "baseScore": 6.1,
+                "exploitabilityScore": 1.9,
+                "impactScore": 4.3
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-14104",
+              "epss": 0.00014,
+              "percentile": 0.01837,
+              "date": "2025-12-14"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-14104",
+              "cwe": "CWE-125",
+              "source": "secalert@redhat.com",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "util-linux",
+              "version": "2.37.4-21.el9"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-14104",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "7069d90382d7c593",
+        "name": "libsmartcols",
+        "version": "2.37.4-21.el9",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "LGPLv2+"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libsmartcols:libsmartcols:2.37.4-21.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:libsmartcols:2.37.4-21.el9:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/libsmartcols@2.37.4-21.el9?arch=x86_64&distro=rhel-9.6&upstream=util-linux-2.37.4-21.el9.src.rpm",
+        "upstreams": [
+          {
+            "name": "util-linux",
+            "version": "2.37.4-21.el9"
+          }
+        ],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-14104",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-14104",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Medium",
+        "urls": [],
+        "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+            "metrics": {
+              "baseScore": 6.1,
+              "exploitabilityScore": 1.9,
+              "impactScore": 4.3
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-14104",
+            "epss": 0.00014,
+            "percentile": 0.01837,
+            "date": "2025-12-14"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-14104",
+            "cwe": "CWE-125",
+            "source": "secalert@redhat.com",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.007769999999999997
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-14104",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-14104",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://access.redhat.com/security/cve/CVE-2025-14104",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2419369"
+          ],
+          "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
+          "cvss": [
+            {
+              "source": "secalert@redhat.com",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+              "metrics": {
+                "baseScore": 6.1,
+                "exploitabilityScore": 1.9,
+                "impactScore": 4.3
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-14104",
+              "epss": 0.00014,
+              "percentile": 0.01837,
+              "date": "2025-12-14"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-14104",
+              "cwe": "CWE-125",
+              "source": "secalert@redhat.com",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "util-linux",
+              "version": "2.37.4-21.el9"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-14104",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "07c41562e2bee55f",
+        "name": "libuuid",
+        "version": "2.37.4-21.el9",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "BSD"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libuuid:libuuid:2.37.4-21.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:libuuid:2.37.4-21.el9:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/libuuid@2.37.4-21.el9?arch=x86_64&distro=rhel-9.6&upstream=util-linux-2.37.4-21.el9.src.rpm",
+        "upstreams": [
+          {
+            "name": "util-linux",
+            "version": "2.37.4-21.el9"
+          }
+        ],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2025-5278",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5278",
         "namespace": "redhat:distro:redhat:9",
@@ -7480,8 +8340,8 @@
           {
             "cve": "CVE-2025-5278",
             "epss": 0.00016,
-            "percentile": 0.02744,
-            "date": "2025-12-08"
+            "percentile": 0.02784,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -7534,8 +8394,8 @@
             {
               "cve": "CVE-2025-5278",
               "epss": 0.00016,
-              "percentile": 0.02744,
-              "date": "2025-12-08"
+              "percentile": 0.02784,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -7637,8 +8497,8 @@
           {
             "cve": "CVE-2023-30571",
             "epss": 0.00014,
-            "percentile": 0.01987,
-            "date": "2025-12-08"
+            "percentile": 0.02021,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -7703,8 +8563,8 @@
             {
               "cve": "CVE-2023-30571",
               "epss": 0.00014,
-              "percentile": 0.01987,
-              "date": "2025-12-08"
+              "percentile": 0.02021,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -7778,6 +8638,159 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2025-30258",
+        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-30258",
+        "namespace": "redhat:distro:redhat:9",
+        "severity": "Low",
+        "urls": [],
+        "description": "A flaw was found in GnuPG. In affected versions, if a user chooses to import a certificate with certain crafted subkey data that lacks a valid backsig or that has incorrect usage flags, the user loses the ability to verify signatures made from certain other signing keys, leading to a verification denial of service.",
+        "cvss": [
+          {
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L",
+            "metrics": {
+              "baseScore": 2.7,
+              "exploitabilityScore": 1.1,
+              "impactScore": 1.5
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-30258",
+            "epss": 0.00025,
+            "percentile": 0.05983,
+            "date": "2025-12-14"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2025-30258",
+            "cwe": "CWE-754",
+            "source": "cve@mitre.org",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.007125000000000001
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-30258",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-30258",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://dev.gnupg.org/T7527",
+            "https://dev.gnupg.org/rG48978ccb4e20866472ef18436a32744350a65158",
+            "https://lists.gnupg.org/pipermail/gnupg-announce/2025q1/000491.html"
+          ],
+          "description": "In GnuPG before 2.5.5, if a user chooses to import a certificate with certain crafted subkey data that lacks a valid backsig or that has incorrect usage flags, the user loses the ability to verify signatures made from certain other signing keys, aka a \"verification DoS.\"",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "metrics": {
+                "baseScore": 4.7,
+                "exploitabilityScore": 1.1,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            },
+            {
+              "source": "cve@mitre.org",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L",
+              "metrics": {
+                "baseScore": 2.7,
+                "exploitabilityScore": 1.1,
+                "impactScore": 1.5
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-30258",
+              "epss": 0.00025,
+              "percentile": 0.05983,
+              "date": "2025-12-14"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2025-30258",
+              "cwe": "CWE-754",
+              "source": "cve@mitre.org",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "rpm-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "redhat",
+              "version": "9.6"
+            },
+            "package": {
+              "name": "gnupg2",
+              "version": "0:2.3.3-4.el9"
+            },
+            "namespace": "redhat:distro:redhat:9"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-30258",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "4796aaf427df0782",
+        "name": "gnupg2",
+        "version": "2.3.3-4.el9",
+        "type": "rpm",
+        "locations": [
+          {
+            "path": "/var/lib/rpm/rpmdb.sqlite",
+            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
+            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPLv3+"
+        ],
+        "cpes": [
+          "cpe:2.3:a:gnupg2:gnupg2:2.3.3-4.el9:*:*:*:*:*:*:*",
+          "cpe:2.3:a:redhat:gnupg2:2.3.3-4.el9:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:rpm/redhat/gnupg2@2.3.3-4.el9?arch=x86_64&distro=rhel-9.6&upstream=gnupg2-2.3.3-4.el9.src.rpm",
+        "upstreams": [],
+        "metadataType": "RpmMetadata",
+        "metadata": {
+          "epoch": null,
+          "modularityLabel": ""
+        }
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2024-0232",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2024-0232",
         "namespace": "redhat:distro:redhat:9",
@@ -7801,8 +8814,8 @@
           {
             "cve": "CVE-2024-0232",
             "epss": 0.00018,
-            "percentile": 0.03943,
-            "date": "2025-12-08"
+            "percentile": 0.03785,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -7869,8 +8882,8 @@
             {
               "cve": "CVE-2024-0232",
               "epss": 0.00018,
-              "percentile": 0.03943,
-              "date": "2025-12-08"
+              "percentile": 0.03785,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -7955,586 +8968,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-14104",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-14104",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Medium",
-        "urls": [],
-        "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
-            "metrics": {
-              "baseScore": 6.1,
-              "exploitabilityScore": 1.9,
-              "impactScore": 4.3
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-14104",
-            "epss": 0.00012,
-            "percentile": 0.01368,
-            "date": "2025-12-08"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-14104",
-            "cwe": "CWE-125",
-            "source": "secalert@redhat.com",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.006659999999999999
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-14104",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-14104",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2025-14104",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2419369"
-          ],
-          "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
-          "cvss": [
-            {
-              "source": "secalert@redhat.com",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
-              "metrics": {
-                "baseScore": 6.1,
-                "exploitabilityScore": 1.9,
-                "impactScore": 4.3
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-14104",
-              "epss": 0.00012,
-              "percentile": 0.01368,
-              "date": "2025-12-08"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-14104",
-              "cwe": "CWE-125",
-              "source": "secalert@redhat.com",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "util-linux",
-              "version": "2.37.4-21.el9"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-14104",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "09371eedc2b9d95d",
-        "name": "libblkid",
-        "version": "2.37.4-21.el9",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "LGPLv2+"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libblkid:libblkid:2.37.4-21.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:libblkid:2.37.4-21.el9:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/libblkid@2.37.4-21.el9?arch=x86_64&distro=rhel-9.6&upstream=util-linux-2.37.4-21.el9.src.rpm",
-        "upstreams": [
-          {
-            "name": "util-linux",
-            "version": "2.37.4-21.el9"
-          }
-        ],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-14104",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-14104",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Medium",
-        "urls": [],
-        "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
-            "metrics": {
-              "baseScore": 6.1,
-              "exploitabilityScore": 1.9,
-              "impactScore": 4.3
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-14104",
-            "epss": 0.00012,
-            "percentile": 0.01368,
-            "date": "2025-12-08"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-14104",
-            "cwe": "CWE-125",
-            "source": "secalert@redhat.com",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.006659999999999999
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-14104",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-14104",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2025-14104",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2419369"
-          ],
-          "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
-          "cvss": [
-            {
-              "source": "secalert@redhat.com",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
-              "metrics": {
-                "baseScore": 6.1,
-                "exploitabilityScore": 1.9,
-                "impactScore": 4.3
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-14104",
-              "epss": 0.00012,
-              "percentile": 0.01368,
-              "date": "2025-12-08"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-14104",
-              "cwe": "CWE-125",
-              "source": "secalert@redhat.com",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "util-linux",
-              "version": "2.37.4-21.el9"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-14104",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "403e3b854fc89f1e",
-        "name": "libmount",
-        "version": "2.37.4-21.el9",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "LGPLv2+"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libmount:libmount:2.37.4-21.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:libmount:2.37.4-21.el9:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/libmount@2.37.4-21.el9?arch=x86_64&distro=rhel-9.6&upstream=util-linux-2.37.4-21.el9.src.rpm",
-        "upstreams": [
-          {
-            "name": "util-linux",
-            "version": "2.37.4-21.el9"
-          }
-        ],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-14104",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-14104",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Medium",
-        "urls": [],
-        "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
-            "metrics": {
-              "baseScore": 6.1,
-              "exploitabilityScore": 1.9,
-              "impactScore": 4.3
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-14104",
-            "epss": 0.00012,
-            "percentile": 0.01368,
-            "date": "2025-12-08"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-14104",
-            "cwe": "CWE-125",
-            "source": "secalert@redhat.com",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.006659999999999999
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-14104",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-14104",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2025-14104",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2419369"
-          ],
-          "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
-          "cvss": [
-            {
-              "source": "secalert@redhat.com",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
-              "metrics": {
-                "baseScore": 6.1,
-                "exploitabilityScore": 1.9,
-                "impactScore": 4.3
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-14104",
-              "epss": 0.00012,
-              "percentile": 0.01368,
-              "date": "2025-12-08"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-14104",
-              "cwe": "CWE-125",
-              "source": "secalert@redhat.com",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "util-linux",
-              "version": "2.37.4-21.el9"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-14104",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "7069d90382d7c593",
-        "name": "libsmartcols",
-        "version": "2.37.4-21.el9",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "LGPLv2+"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libsmartcols:libsmartcols:2.37.4-21.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:libsmartcols:2.37.4-21.el9:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/libsmartcols@2.37.4-21.el9?arch=x86_64&distro=rhel-9.6&upstream=util-linux-2.37.4-21.el9.src.rpm",
-        "upstreams": [
-          {
-            "name": "util-linux",
-            "version": "2.37.4-21.el9"
-          }
-        ],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
-        "id": "CVE-2025-14104",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-14104",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Medium",
-        "urls": [],
-        "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
-            "metrics": {
-              "baseScore": 6.1,
-              "exploitabilityScore": 1.9,
-              "impactScore": 4.3
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-14104",
-            "epss": 0.00012,
-            "percentile": 0.01368,
-            "date": "2025-12-08"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-14104",
-            "cwe": "CWE-125",
-            "source": "secalert@redhat.com",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.006659999999999999
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-14104",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-14104",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://access.redhat.com/security/cve/CVE-2025-14104",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2419369"
-          ],
-          "description": "A flaw was found in util-linux. This vulnerability allows a heap buffer overread when processing 256-byte usernames, specifically within the `setpwnam()` function, affecting SUID (Set User ID) login-utils utilities writing to the password database.",
-          "cvss": [
-            {
-              "source": "secalert@redhat.com",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
-              "metrics": {
-                "baseScore": 6.1,
-                "exploitabilityScore": 1.9,
-                "impactScore": 4.3
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-14104",
-              "epss": 0.00012,
-              "percentile": 0.01368,
-              "date": "2025-12-08"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-14104",
-              "cwe": "CWE-125",
-              "source": "secalert@redhat.com",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "util-linux",
-              "version": "2.37.4-21.el9"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-14104",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "07c41562e2bee55f",
-        "name": "libuuid",
-        "version": "2.37.4-21.el9",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "BSD"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libuuid:libuuid:2.37.4-21.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:libuuid:2.37.4-21.el9:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/libuuid@2.37.4-21.el9?arch=x86_64&distro=rhel-9.6&upstream=util-linux-2.37.4-21.el9.src.rpm",
-        "upstreams": [
-          {
-            "name": "util-linux",
-            "version": "2.37.4-21.el9"
-          }
-        ],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-5918",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2025-5918",
         "namespace": "redhat:distro:redhat:9",
@@ -8558,8 +8991,8 @@
           {
             "cve": "CVE-2025-5918",
             "epss": 0.00019,
-            "percentile": 0.04035,
-            "date": "2025-12-08"
+            "percentile": 0.04307,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -8620,8 +9053,8 @@
             {
               "cve": "CVE-2025-5918",
               "epss": 0.00019,
-              "percentile": 0.04035,
-              "date": "2025-12-08"
+              "percentile": 0.04307,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -8689,159 +9122,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-30258",
-        "dataSource": "https://access.redhat.com/security/cve/CVE-2025-30258",
-        "namespace": "redhat:distro:redhat:9",
-        "severity": "Low",
-        "urls": [],
-        "description": "A flaw was found in GnuPG. In affected versions, if a user chooses to import a certificate with certain crafted subkey data that lacks a valid backsig or that has incorrect usage flags, the user loses the ability to verify signatures made from certain other signing keys, leading to a verification denial of service.",
-        "cvss": [
-          {
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L",
-            "metrics": {
-              "baseScore": 2.7,
-              "exploitabilityScore": 1.1,
-              "impactScore": 1.5
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-30258",
-            "epss": 0.00022,
-            "percentile": 0.0509,
-            "date": "2025-12-08"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2025-30258",
-            "cwe": "CWE-754",
-            "source": "cve@mitre.org",
-            "type": "Secondary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.00627
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-30258",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-30258",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://dev.gnupg.org/T7527",
-            "https://dev.gnupg.org/rG48978ccb4e20866472ef18436a32744350a65158",
-            "https://lists.gnupg.org/pipermail/gnupg-announce/2025q1/000491.html"
-          ],
-          "description": "In GnuPG before 2.5.5, if a user chooses to import a certificate with certain crafted subkey data that lacks a valid backsig or that has incorrect usage flags, the user loses the ability to verify signatures made from certain other signing keys, aka a \"verification DoS.\"",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
-              "metrics": {
-                "baseScore": 4.7,
-                "exploitabilityScore": 1.1,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            },
-            {
-              "source": "cve@mitre.org",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:N/A:L",
-              "metrics": {
-                "baseScore": 2.7,
-                "exploitabilityScore": 1.1,
-                "impactScore": 1.5
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-30258",
-              "epss": 0.00022,
-              "percentile": 0.0509,
-              "date": "2025-12-08"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2025-30258",
-              "cwe": "CWE-754",
-              "source": "cve@mitre.org",
-              "type": "Secondary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "rpm-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "redhat",
-              "version": "9.6"
-            },
-            "package": {
-              "name": "gnupg2",
-              "version": "0:2.3.3-4.el9"
-            },
-            "namespace": "redhat:distro:redhat:9"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-30258",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "4796aaf427df0782",
-        "name": "gnupg2",
-        "version": "2.3.3-4.el9",
-        "type": "rpm",
-        "locations": [
-          {
-            "path": "/var/lib/rpm/rpmdb.sqlite",
-            "layerID": "sha256:780001ea1a42e8b21b6f25c2a7ec8f0383247d69089019c716e7a7c0993ba62c",
-            "accessPath": "/var/lib/rpm/rpmdb.sqlite",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "GPLv3+"
-        ],
-        "cpes": [
-          "cpe:2.3:a:gnupg2:gnupg2:2.3.3-4.el9:*:*:*:*:*:*:*",
-          "cpe:2.3:a:redhat:gnupg2:2.3.3-4.el9:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:rpm/redhat/gnupg2@2.3.3-4.el9?arch=x86_64&distro=rhel-9.6&upstream=gnupg2-2.3.3-4.el9.src.rpm",
-        "upstreams": [],
-        "metadataType": "RpmMetadata",
-        "metadata": {
-          "epoch": null,
-          "modularityLabel": ""
-        }
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2022-3219",
         "dataSource": "https://access.redhat.com/security/cve/CVE-2022-3219",
         "namespace": "redhat:distro:redhat:9",
@@ -8865,8 +9145,8 @@
           {
             "cve": "CVE-2022-3219",
             "epss": 0.00012,
-            "percentile": 0.01392,
-            "date": "2025-12-08"
+            "percentile": 0.01397,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -8935,8 +9215,8 @@
             {
               "cve": "CVE-2022-3219",
               "epss": 0.00012,
-              "percentile": 0.01392,
-              "date": "2025-12-08"
+              "percentile": 0.01397,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -9015,7 +9295,7 @@
         "namespace": "redhat:distro:redhat:9",
         "severity": "Low",
         "urls": [],
-        "description": "A vulnerability has been identified in the libarchive library. This flaw involves an 'off-by-one' miscalculation when handling prefixes and suffixes for file names. This can lead to a 1-byte write overflow. While seemingly small, such an overflow can corrupt adjacent memory, leading to unpredictable program behavior, crashes, or in specific circumstances, could be leveraged as a building block for more sophisticated exploitation.",
+        "description": "A vulnerability has been identified in the libarchive library. This flaw involves an 'off-by-one' miscalculation when handling prefixes and suffixes for file names. This can lead to a 1-byte write overflow. While seemingly small, such an overflow can corrupt adjacent memory, leading to unpredictable program behavior, crashes, or in specific circumstances, could be leveraged as a building block for more sophisticated exploitation. This bug affects libarchive versions prior to 3.8.0.",
         "cvss": [
           {
             "type": "Secondary",
@@ -9033,8 +9313,8 @@
           {
             "cve": "CVE-2025-5917",
             "epss": 0.00019,
-            "percentile": 0.04271,
-            "date": "2025-12-08"
+            "percentile": 0.04396,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -9042,7 +9322,7 @@
             "cve": "CVE-2025-5917",
             "cwe": "CWE-787",
             "source": "secalert@redhat.com",
-            "type": "Primary"
+            "type": "Secondary"
           }
         ],
         "fix": {
@@ -9064,7 +9344,7 @@
             "https://github.com/libarchive/libarchive/pull/2588",
             "https://github.com/libarchive/libarchive/releases/tag/v3.8.0"
           ],
-          "description": "A vulnerability has been identified in the libarchive library. This flaw involves an 'off-by-one' miscalculation when handling prefixes and suffixes for file names. This can lead to a 1-byte write overflow. While seemingly small, such an overflow can corrupt adjacent memory, leading to unpredictable program behavior, crashes, or in specific circumstances, could be leveraged as a building block for more sophisticated exploitation.",
+          "description": "A vulnerability has been identified in the libarchive library. This flaw involves an 'off-by-one' miscalculation when handling prefixes and suffixes for file names. This can lead to a 1-byte write overflow. While seemingly small, such an overflow can corrupt adjacent memory, leading to unpredictable program behavior, crashes, or in specific circumstances, could be leveraged as a building block for more sophisticated exploitation. This bug affects libarchive versions prior to 3.8.0.",
           "cvss": [
             {
               "source": "nvd@nist.gov",
@@ -9095,8 +9375,8 @@
             {
               "cve": "CVE-2025-5917",
               "epss": 0.00019,
-              "percentile": 0.04271,
-              "date": "2025-12-08"
+              "percentile": 0.04396,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -9104,7 +9384,7 @@
               "cve": "CVE-2025-5917",
               "cwe": "CWE-787",
               "source": "secalert@redhat.com",
-              "type": "Primary"
+              "type": "Secondary"
             }
           ]
         }
@@ -9187,8 +9467,8 @@
           {
             "cve": "CVE-2025-6170",
             "epss": 0.00017,
-            "percentile": 0.03335,
-            "date": "2025-12-08"
+            "percentile": 0.03384,
+            "date": "2025-12-14"
           }
         ],
         "cwes": [
@@ -9248,8 +9528,8 @@
             {
               "cve": "CVE-2025-6170",
               "epss": 0.00017,
-              "percentile": 0.03335,
-              "date": "2025-12-08"
+              "percentile": 0.03384,
+              "date": "2025-12-14"
             }
           ],
           "cwes": [
@@ -9771,87 +10051,87 @@
     "db": {
       "status": {
         "schemaVersion": "v6.1.3",
-        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.3_2025-12-09T00:25:52Z_1765268367.tar.zst?checksum=sha256%3A51814573170102e6540b9d8dee91bbad92d2cf04624c3ff7a69e593fe003d369",
-        "built": "2025-12-09T08:19:27Z",
+        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.3_2025-12-15T00:26:22Z_1765786837.tar.zst?checksum=sha256%3A819b50d22f073b9ab2ad3c00d212207037c07e1de037f81b528b58717b758db2",
+        "built": "2025-12-15T08:20:37Z",
         "path": ".cache/grype/db/6/vulnerability.db",
         "valid": true
       },
       "providers": {
         "alma": {
-          "captured": "2025-12-09T00:25:52Z",
-          "input": "xxh64:66cef248d03c2e40"
+          "captured": "2025-12-15T00:26:29Z",
+          "input": "xxh64:3bae44c7a22f7a7a"
         },
         "alpine": {
-          "captured": "2025-12-09T00:26:06Z",
-          "input": "xxh64:cdd1fb58c0ce838f"
+          "captured": "2025-12-15T00:26:22Z",
+          "input": "xxh64:a6910ebae352b990"
         },
         "amazon": {
-          "captured": "2025-12-09T00:26:17Z",
-          "input": "xxh64:ce4dbc9078ece43e"
+          "captured": "2025-12-15T00:26:33Z",
+          "input": "xxh64:d9332811ab10da09"
         },
         "bitnami": {
-          "captured": "2025-12-09T00:25:53Z",
-          "input": "xxh64:70fd979cb4b1a01e"
+          "captured": "2025-12-15T00:26:31Z",
+          "input": "xxh64:1ecf12b668dea077"
         },
         "chainguard": {
-          "captured": "2025-12-09T00:25:56Z",
-          "input": "xxh64:160b0b779db1c33f"
+          "captured": "2025-12-15T00:26:33Z",
+          "input": "xxh64:c788b1823558ccdc"
         },
         "chainguard-libraries": {
-          "captured": "2025-12-09T00:25:57Z",
-          "input": "xxh64:63dc059a9440533f"
+          "captured": "2025-12-15T00:26:33Z",
+          "input": "xxh64:61125e10198fff74"
         },
         "debian": {
-          "captured": "2025-12-09T00:26:12Z",
-          "input": "xxh64:50edac69a425bb42"
+          "captured": "2025-12-15T00:26:33Z",
+          "input": "xxh64:3a0aef0ee5db3f38"
         },
         "echo": {
-          "captured": "2025-12-09T00:26:00Z",
-          "input": "xxh64:14dc1a29b5101ea3"
+          "captured": "2025-12-15T00:26:34Z",
+          "input": "xxh64:b407f1052619408a"
         },
         "epss": {
-          "captured": "2025-12-09T00:26:04Z",
-          "input": "xxh64:be6a12d524f12871"
+          "captured": "2025-12-15T00:26:28Z",
+          "input": "xxh64:05fd1e2ee709d2a5"
         },
         "github": {
-          "captured": "2025-12-09T00:26:03Z",
-          "input": "xxh64:2a5d52bd0756ef34"
+          "captured": "2025-12-15T00:26:44Z",
+          "input": "xxh64:3c7fd996a88f1c66"
         },
         "kev": {
-          "captured": "2025-12-09T00:25:59Z",
-          "input": "xxh64:4233aae65ff1a981"
+          "captured": "2025-12-15T00:26:23Z",
+          "input": "xxh64:ed425533655d771d"
         },
         "mariner": {
-          "captured": "2025-12-09T00:26:06Z",
-          "input": "xxh64:d5054c217c402c60"
+          "captured": "2025-12-15T00:26:32Z",
+          "input": "xxh64:6fdbff1192df3158"
         },
         "minimos": {
-          "captured": "2025-12-09T00:26:03Z",
-          "input": "xxh64:97862cbbb4f3ff16"
+          "captured": "2025-12-15T00:26:30Z",
+          "input": "xxh64:66fa9397e7abbbe3"
         },
         "nvd": {
-          "captured": "2025-12-09T00:28:55Z",
-          "input": "xxh64:d70f2a129873e67c"
+          "captured": "2025-12-15T00:29:34Z",
+          "input": "xxh64:52a15157244d2eb4"
         },
         "oracle": {
-          "captured": "2025-12-09T00:25:59Z",
-          "input": "xxh64:985af29608ad97bb"
+          "captured": "2025-12-15T00:26:29Z",
+          "input": "xxh64:a3297070ed6c54c1"
         },
         "rhel": {
-          "captured": "2025-12-09T00:26:54Z",
-          "input": "xxh64:75120dea55fec189"
+          "captured": "2025-12-15T00:27:19Z",
+          "input": "xxh64:e625d0086bf187f1"
         },
         "sles": {
-          "captured": "2025-12-09T00:26:20Z",
-          "input": "xxh64:fb195d01e79c8dbd"
+          "captured": "2025-12-15T00:26:44Z",
+          "input": "xxh64:baf8228a110f8ba2"
         },
         "ubuntu": {
-          "captured": "2025-12-09T00:28:48Z",
-          "input": "xxh64:75c1a691c8a1eb72"
+          "captured": "2025-12-15T00:27:45Z",
+          "input": "xxh64:dd0f79d777310979"
         },
         "wolfi": {
-          "captured": "2025-12-09T00:25:52Z",
-          "input": "xxh64:7f117f3093dddfc5"
+          "captured": "2025-12-15T00:26:25Z",
+          "input": "xxh64:7f14313934ae61bb"
         }
       }
     }
