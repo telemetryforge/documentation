@@ -26,8 +26,8 @@
           {
             "cve": "CVE-2023-2953",
             "epss": 0.01466,
-            "percentile": 0.80389,
-            "date": "2025-12-15"
+            "percentile": 0.80423,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -105,8 +105,8 @@
             {
               "cve": "CVE-2023-2953",
               "epss": 0.01466,
-              "percentile": 0.80389,
-              "date": "2025-12-15"
+              "percentile": 0.80423,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -202,8 +202,8 @@
           {
             "cve": "CVE-2011-3389",
             "epss": 0.03795,
-            "percentile": 0.87688,
-            "date": "2025-12-15"
+            "percentile": 0.8771,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -337,8 +337,8 @@
             {
               "cve": "CVE-2011-3389",
               "epss": 0.03795,
-              "percentile": 0.87688,
-              "date": "2025-12-15"
+              "percentile": 0.8771,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -413,8 +413,8 @@
           {
             "cve": "CVE-2015-3276",
             "epss": 0.02852,
-            "percentile": 0.85775,
-            "date": "2025-12-15"
+            "percentile": 0.85796,
+            "date": "2025-12-21"
           }
         ],
         "fix": {
@@ -467,8 +467,8 @@
             {
               "cve": "CVE-2015-3276",
               "epss": 0.02852,
-              "percentile": 0.85775,
-              "date": "2025-12-15"
+              "percentile": 0.85796,
+              "date": "2025-12-21"
             }
           ]
         }
@@ -544,8 +544,8 @@
           {
             "cve": "CVE-2018-20796",
             "epss": 0.01669,
-            "percentile": 0.81616,
-            "date": "2025-12-15"
+            "percentile": 0.81642,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -607,8 +607,8 @@
             {
               "cve": "CVE-2018-20796",
               "epss": 0.01669,
-              "percentile": 0.81616,
-              "date": "2025-12-15"
+              "percentile": 0.81642,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -702,8 +702,8 @@
           {
             "cve": "CVE-2017-17740",
             "epss": 0.01643,
-            "percentile": 0.81467,
-            "date": "2025-12-15"
+            "percentile": 0.81495,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -765,8 +765,8 @@
             {
               "cve": "CVE-2017-17740",
               "epss": 0.01643,
-              "percentile": 0.81467,
-              "date": "2025-12-15"
+              "percentile": 0.81495,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -839,129 +839,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2025-9086",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-9086",
-        "namespace": "debian:distro:debian:12",
-        "severity": "High",
-        "urls": [],
-        "description": "1. A cookie is set using the `secure` keyword for `https://target` 2. curl is redirected to or otherwise made to speak with `http://target` (same    hostname, but using clear text HTTP) using the same cookie set 3. The same cookie name is set - but with just a slash as path (`path='/'`).    Since this site is not secure, the cookie *should* just be ignored. 4. A bug in the path comparison logic makes curl read outside a heap buffer    boundary  The bug either causes a crash or it potentially makes the comparison come to the wrong conclusion and lets the clear-text site override the contents of the secure cookie, contrary to expectations and depending on the memory contents immediately following the single-byte allocation that holds the path.  The presumed and correct behavior would be to plainly ignore the second set of the cookie since it was already set as secure on a secure host so overriding it on an insecure host should not be okay.",
-        "cvss": [
-          {
-            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-            "type": "Secondary",
-            "version": "3.1",
-            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-            "metrics": {
-              "baseScore": 7.5,
-              "exploitabilityScore": 3.9,
-              "impactScore": 3.6
-            },
-            "vendorMetadata": {}
-          }
-        ],
-        "epss": [
-          {
-            "cve": "CVE-2025-9086",
-            "epss": 0.00095,
-            "percentile": 0.27151,
-            "date": "2025-12-15"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "wont-fix"
-        },
-        "advisories": [],
-        "risk": 0.07125000000000001
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2025-9086",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9086",
-          "namespace": "nvd:cpe",
-          "severity": "High",
-          "urls": [
-            "https://curl.se/docs/CVE-2025-9086.html",
-            "https://curl.se/docs/CVE-2025-9086.json",
-            "https://hackerone.com/reports/3294999",
-            "http://www.openwall.com/lists/oss-security/2025/09/10/1"
-          ],
-          "description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\n   hostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\n   Since this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\n   boundary\n\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\n\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
-          "cvss": [
-            {
-              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-              "metrics": {
-                "baseScore": 7.5,
-                "exploitabilityScore": 3.9,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2025-9086",
-              "epss": 0.00095,
-              "percentile": 0.27151,
-              "date": "2025-12-15"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "curl",
-              "version": "7.88.1-10+deb12u14"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2025-9086",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "7b756a4c6b6cb784",
-        "name": "libcurl4",
-        "version": "7.88.1-10+deb12u14",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libcurl4",
-            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
-            "accessPath": "/var/lib/dpkg/status.d/libcurl4",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u14:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u14?arch=amd64&distro=debian-12&upstream=curl",
-        "upstreams": [
-          {
-            "name": "curl"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2019-9192",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2019-9192",
         "namespace": "debian:distro:debian:12",
@@ -973,8 +850,8 @@
           {
             "cve": "CVE-2019-9192",
             "epss": 0.00942,
-            "percentile": 0.75628,
-            "date": "2025-12-15"
+            "percentile": 0.75678,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -1033,8 +910,8 @@
             {
               "cve": "CVE-2019-9192",
               "epss": 0.00942,
-              "percentile": 0.75628,
-              "date": "2025-12-15"
+              "percentile": 0.75678,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -1128,8 +1005,8 @@
           {
             "cve": "CVE-2025-0725",
             "epss": 0.00904,
-            "percentile": 0.7508,
-            "date": "2025-12-15"
+            "percentile": 0.75132,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -1182,8 +1059,8 @@
             {
               "cve": "CVE-2025-0725",
               "epss": 0.00904,
-              "percentile": 0.7508,
-              "date": "2025-12-15"
+              "percentile": 0.75132,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -1271,8 +1148,8 @@
           {
             "cve": "CVE-2025-10148",
             "epss": 0.0007,
-            "percentile": 0.21504,
-            "date": "2025-12-15"
+            "percentile": 0.21642,
+            "date": "2025-12-21"
           }
         ],
         "fix": {
@@ -1315,8 +1192,8 @@
             {
               "cve": "CVE-2025-10148",
               "epss": 0.0007,
-              "percentile": 0.21504,
-              "date": "2025-12-15"
+              "percentile": 0.21642,
+              "date": "2025-12-21"
             }
           ]
         }
@@ -1372,153 +1249,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2010-4756",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2010-4756",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames, as demonstrated by glob expressions in STAT commands to an FTP daemon, a different vulnerability than CVE-2010-2632.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2010-4756",
-            "epss": 0.00691,
-            "percentile": 0.71128,
-            "date": "2025-12-15"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2010-4756",
-            "cwe": "CWE-399",
-            "source": "nvd@nist.gov",
-            "type": "Primary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.034550000000000004
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2010-4756",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2010-4756",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "http://cxib.net/stuff/glob-0day.c",
-            "http://securityreason.com/achievement_securityalert/89",
-            "http://securityreason.com/exploitalert/9223",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=681681",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4756",
-            "https://security.netapp.com/advisory/ntap-20241108-0002/"
-          ],
-          "description": "The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames, as demonstrated by glob expressions in STAT commands to an FTP daemon, a different vulnerability than CVE-2010-2632.",
-          "cvss": [
-            {
-              "source": "nvd@nist.gov",
-              "type": "Primary",
-              "version": "2.0",
-              "vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
-              "metrics": {
-                "baseScore": 4,
-                "exploitabilityScore": 8,
-                "impactScore": 2.9
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2010-4756",
-              "epss": 0.00691,
-              "percentile": 0.71128,
-              "date": "2025-12-15"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2010-4756",
-              "cwe": "CWE-399",
-              "source": "nvd@nist.gov",
-              "type": "Primary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-indirect-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "glibc",
-              "version": "2.36-9+deb12u13"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2010-4756",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "b1f23f68887853e1",
-        "name": "libc6",
-        "version": "2.36-9+deb12u13",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libc6",
-            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
-            "accessPath": "/var/lib/dpkg/status.d/libc6",
-            "annotations": {
-              "evidence": "primary"
-            }
-          },
-          {
-            "path": "/usr/share/doc/libc6/copyright",
-            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
-            "accessPath": "/usr/share/doc/libc6/copyright",
-            "annotations": {
-              "evidence": "supporting"
-            }
-          },
-          {
-            "path": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
-            "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
-            "annotations": {
-              "evidence": "supporting"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [
-          "GPL-2",
-          "LGPL-2.1"
-        ],
-        "cpes": [
-          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u13:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u13?arch=amd64&distro=debian-12&upstream=glibc",
-        "upstreams": [
-          {
-            "name": "glibc"
-          }
-        ]
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2025-12818",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-12818",
         "namespace": "debian:distro:debian:12",
@@ -1543,8 +1273,8 @@
           {
             "cve": "CVE-2025-12818",
             "epss": 0.00057,
-            "percentile": 0.1792,
-            "date": "2025-12-15"
+            "percentile": 0.18068,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -1590,8 +1320,8 @@
             {
               "cve": "CVE-2025-12818",
               "epss": 0.00057,
-              "percentile": 0.1792,
-              "date": "2025-12-15"
+              "percentile": 0.18068,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -1666,8 +1396,8 @@
           {
             "cve": "CVE-2018-6829",
             "epss": 0.00577,
-            "percentile": 0.6804,
-            "date": "2025-12-15"
+            "percentile": 0.68094,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -1728,8 +1458,8 @@
             {
               "cve": "CVE-2018-6829",
               "epss": 0.00577,
-              "percentile": 0.6804,
-              "date": "2025-12-15"
+              "percentile": 0.68094,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -1800,8 +1530,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.00463,
-            "percentile": 0.63493,
-            "date": "2025-12-15"
+            "percentile": 0.63563,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -1860,8 +1590,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.00463,
-              "percentile": 0.63493,
-              "date": "2025-12-15"
+              "percentile": 0.63563,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -1945,8 +1675,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.00463,
-            "percentile": 0.63493,
-            "date": "2025-12-15"
+            "percentile": 0.63563,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -2005,8 +1735,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.00463,
-              "percentile": 0.63493,
-              "date": "2025-12-15"
+              "percentile": 0.63563,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -2081,8 +1811,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.00463,
-            "percentile": 0.63493,
-            "date": "2025-12-15"
+            "percentile": 0.63563,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -2141,8 +1871,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.00463,
-              "percentile": 0.63493,
-              "date": "2025-12-15"
+              "percentile": 0.63563,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -2222,8 +1952,8 @@
           {
             "cve": "CVE-2018-5709",
             "epss": 0.00463,
-            "percentile": 0.63493,
-            "date": "2025-12-15"
+            "percentile": 0.63563,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -2282,8 +2012,8 @@
             {
               "cve": "CVE-2018-5709",
               "epss": 0.00463,
-              "percentile": 0.63493,
-              "date": "2025-12-15"
+              "percentile": 0.63563,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -2358,8 +2088,8 @@
           {
             "cve": "CVE-2019-1010024",
             "epss": 0.00364,
-            "percentile": 0.57833,
-            "date": "2025-12-15"
+            "percentile": 0.57878,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -2422,8 +2152,8 @@
             {
               "cve": "CVE-2019-1010024",
               "epss": 0.00364,
-              "percentile": 0.57833,
-              "date": "2025-12-15"
+              "percentile": 0.57878,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -2532,8 +2262,8 @@
           {
             "cve": "CVE-2025-29478",
             "epss": 0.00034,
-            "percentile": 0.09393,
-            "date": "2025-12-15"
+            "percentile": 0.09506,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -2612,8 +2342,8 @@
           {
             "cve": "CVE-2019-1010025",
             "epss": 0.00356,
-            "percentile": 0.57254,
-            "date": "2025-12-15"
+            "percentile": 0.57309,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -2675,8 +2405,8 @@
             {
               "cve": "CVE-2019-1010025",
               "epss": 0.00356,
-              "percentile": 0.57254,
-              "date": "2025-12-15"
+              "percentile": 0.57309,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -2770,8 +2500,8 @@
           {
             "cve": "CVE-2019-1010023",
             "epss": 0.00346,
-            "percentile": 0.56596,
-            "date": "2025-12-15"
+            "percentile": 0.56652,
+            "date": "2025-12-21"
           }
         ],
         "fix": {
@@ -2837,8 +2567,8 @@
             {
               "cve": "CVE-2019-1010023",
               "epss": 0.00346,
-              "percentile": 0.56596,
-              "date": "2025-12-15"
+              "percentile": 0.56652,
+              "date": "2025-12-21"
             }
           ]
         }
@@ -2860,6 +2590,276 @@
           },
           "found": {
             "vulnerabilityID": "CVE-2019-1010023",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "b1f23f68887853e1",
+        "name": "libc6",
+        "version": "2.36-9+deb12u13",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libc6",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
+            "accessPath": "/var/lib/dpkg/status.d/libc6",
+            "annotations": {
+              "evidence": "primary"
+            }
+          },
+          {
+            "path": "/usr/share/doc/libc6/copyright",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
+            "accessPath": "/usr/share/doc/libc6/copyright",
+            "annotations": {
+              "evidence": "supporting"
+            }
+          },
+          {
+            "path": "/var/lib/dpkg/status.d/libc6.md5sums",
+            "layerID": "sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
+            "accessPath": "/var/lib/dpkg/status.d/libc6.md5sums",
+            "annotations": {
+              "evidence": "supporting"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [
+          "GPL-2",
+          "LGPL-2.1"
+        ],
+        "cpes": [
+          "cpe:2.3:a:libc6:libc6:2.36-9\\+deb12u13:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u13?arch=amd64&distro=debian-12&upstream=glibc",
+        "upstreams": [
+          {
+            "name": "glibc"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2025-9086",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2025-9086",
+        "namespace": "debian:distro:debian:12",
+        "severity": "High",
+        "urls": [],
+        "description": "1. A cookie is set using the `secure` keyword for `https://target` 2. curl is redirected to or otherwise made to speak with `http://target` (same    hostname, but using clear text HTTP) using the same cookie set 3. The same cookie name is set - but with just a slash as path (`path='/'`).    Since this site is not secure, the cookie *should* just be ignored. 4. A bug in the path comparison logic makes curl read outside a heap buffer    boundary  The bug either causes a crash or it potentially makes the comparison come to the wrong conclusion and lets the clear-text site override the contents of the secure cookie, contrary to expectations and depending on the memory contents immediately following the single-byte allocation that holds the path.  The presumed and correct behavior would be to plainly ignore the second set of the cookie since it was already set as secure on a secure host so overriding it on an insecure host should not be okay.",
+        "cvss": [
+          {
+            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+            "type": "Secondary",
+            "version": "3.1",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "metrics": {
+              "baseScore": 7.5,
+              "exploitabilityScore": 3.9,
+              "impactScore": 3.6
+            },
+            "vendorMetadata": {}
+          }
+        ],
+        "epss": [
+          {
+            "cve": "CVE-2025-9086",
+            "epss": 0.00022,
+            "percentile": 0.05126,
+            "date": "2025-12-21"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "wont-fix"
+        },
+        "advisories": [],
+        "risk": 0.0165
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2025-9086",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2025-9086",
+          "namespace": "nvd:cpe",
+          "severity": "High",
+          "urls": [
+            "https://curl.se/docs/CVE-2025-9086.html",
+            "https://curl.se/docs/CVE-2025-9086.json",
+            "https://hackerone.com/reports/3294999",
+            "http://www.openwall.com/lists/oss-security/2025/09/10/1"
+          ],
+          "description": "1. A cookie is set using the `secure` keyword for `https://target`\n2. curl is redirected to or otherwise made to speak with `http://target` (same\n   hostname, but using clear text HTTP) using the same cookie set\n3. The same cookie name is set - but with just a slash as path (`path='/'`).\n   Since this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\n   boundary\n\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\n\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
+          "cvss": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "metrics": {
+                "baseScore": 7.5,
+                "exploitabilityScore": 3.9,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2025-9086",
+              "epss": 0.00022,
+              "percentile": 0.05126,
+              "date": "2025-12-21"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "curl",
+              "version": "7.88.1-10+deb12u14"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2025-9086",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "7b756a4c6b6cb784",
+        "name": "libcurl4",
+        "version": "7.88.1-10+deb12u14",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libcurl4",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
+            "accessPath": "/var/lib/dpkg/status.d/libcurl4",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libcurl4:libcurl4:7.88.1-10\\+deb12u14:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u14?arch=amd64&distro=debian-12&upstream=curl",
+        "upstreams": [
+          {
+            "name": "curl"
+          }
+        ]
+      }
+    },
+    {
+      "vulnerability": {
+        "id": "CVE-2010-4756",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2010-4756",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames, as demonstrated by glob expressions in STAT commands to an FTP daemon, a different vulnerability than CVE-2010-2632.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2010-4756",
+            "epss": 0.00319,
+            "percentile": 0.5447,
+            "date": "2025-12-21"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2010-4756",
+            "cwe": "CWE-399",
+            "source": "nvd@nist.gov",
+            "type": "Primary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.015950000000000002
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2010-4756",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2010-4756",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "http://cxib.net/stuff/glob-0day.c",
+            "http://securityreason.com/achievement_securityalert/89",
+            "http://securityreason.com/exploitalert/9223",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=681681",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4756",
+            "https://security.netapp.com/advisory/ntap-20241108-0002/"
+          ],
+          "description": "The glob implementation in the GNU C Library (aka glibc or libc6) allows remote authenticated users to cause a denial of service (CPU and memory consumption) via crafted glob expressions that do not match any pathnames, as demonstrated by glob expressions in STAT commands to an FTP daemon, a different vulnerability than CVE-2010-2632.",
+          "cvss": [
+            {
+              "source": "nvd@nist.gov",
+              "type": "Primary",
+              "version": "2.0",
+              "vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+              "metrics": {
+                "baseScore": 4,
+                "exploitabilityScore": 8,
+                "impactScore": 2.9
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2010-4756",
+              "epss": 0.00319,
+              "percentile": 0.5447,
+              "date": "2025-12-21"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2010-4756",
+              "cwe": "CWE-399",
+              "source": "nvd@nist.gov",
+              "type": "Primary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-indirect-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "glibc",
+              "version": "2.36-9+deb12u13"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2010-4756",
             "versionConstraint": "none (unknown)"
           }
         }
@@ -2937,8 +2937,8 @@
           {
             "cve": "CVE-2025-12817",
             "epss": 0.00046,
-            "percentile": 0.14034,
-            "date": "2025-12-15"
+            "percentile": 0.14172,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -2984,8 +2984,8 @@
             {
               "cve": "CVE-2025-12817",
               "epss": 0.00046,
-              "percentile": 0.14034,
-              "date": "2025-12-15"
+              "percentile": 0.14172,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -3049,130 +3049,6 @@
     },
     {
       "vulnerability": {
-        "id": "CVE-2024-2236",
-        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2024-2236",
-        "namespace": "debian:distro:debian:12",
-        "severity": "Negligible",
-        "urls": [],
-        "description": "A timing-based side-channel flaw was found in libgcrypt's RSA implementation. This issue may allow a remote attacker to initiate a Bleichenbacher-style attack, which can lead to the decryption of RSA ciphertexts.",
-        "cvss": [],
-        "epss": [
-          {
-            "cve": "CVE-2024-2236",
-            "epss": 0.00222,
-            "percentile": 0.44727,
-            "date": "2025-12-15"
-          }
-        ],
-        "cwes": [
-          {
-            "cve": "CVE-2024-2236",
-            "cwe": "CWE-208",
-            "source": "secalert@redhat.com",
-            "type": "Secondary"
-          }
-        ],
-        "fix": {
-          "versions": [],
-          "state": "not-fixed"
-        },
-        "advisories": [],
-        "risk": 0.011100000000000002
-      },
-      "relatedVulnerabilities": [
-        {
-          "id": "CVE-2024-2236",
-          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-2236",
-          "namespace": "nvd:cpe",
-          "severity": "Medium",
-          "urls": [
-            "https://access.redhat.com/errata/RHSA-2024:9404",
-            "https://access.redhat.com/errata/RHSA-2025:3530",
-            "https://access.redhat.com/errata/RHSA-2025:3534",
-            "https://access.redhat.com/security/cve/CVE-2024-2236",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2245218",
-            "https://bugzilla.redhat.com/show_bug.cgi?id=2268268"
-          ],
-          "description": "A timing-based side-channel flaw was found in libgcrypt's RSA implementation. This issue may allow a remote attacker to initiate a Bleichenbacher-style attack, which can lead to the decryption of RSA ciphertexts.",
-          "cvss": [
-            {
-              "source": "secalert@redhat.com",
-              "type": "Secondary",
-              "version": "3.1",
-              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
-              "metrics": {
-                "baseScore": 5.9,
-                "exploitabilityScore": 2.3,
-                "impactScore": 3.6
-              },
-              "vendorMetadata": {}
-            }
-          ],
-          "epss": [
-            {
-              "cve": "CVE-2024-2236",
-              "epss": 0.00222,
-              "percentile": 0.44727,
-              "date": "2025-12-15"
-            }
-          ],
-          "cwes": [
-            {
-              "cve": "CVE-2024-2236",
-              "cwe": "CWE-208",
-              "source": "secalert@redhat.com",
-              "type": "Secondary"
-            }
-          ]
-        }
-      ],
-      "matchDetails": [
-        {
-          "type": "exact-direct-match",
-          "matcher": "dpkg-matcher",
-          "searchedBy": {
-            "distro": {
-              "type": "debian",
-              "version": "12"
-            },
-            "package": {
-              "name": "libgcrypt20",
-              "version": "1.10.1-3"
-            },
-            "namespace": "debian:distro:debian:12"
-          },
-          "found": {
-            "vulnerabilityID": "CVE-2024-2236",
-            "versionConstraint": "none (unknown)"
-          }
-        }
-      ],
-      "artifact": {
-        "id": "aa143951e2980797",
-        "name": "libgcrypt20",
-        "version": "1.10.1-3",
-        "type": "deb",
-        "locations": [
-          {
-            "path": "/var/lib/dpkg/status.d/libgcrypt20",
-            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
-            "accessPath": "/var/lib/dpkg/status.d/libgcrypt20",
-            "annotations": {
-              "evidence": "primary"
-            }
-          }
-        ],
-        "language": "",
-        "licenses": [],
-        "cpes": [
-          "cpe:2.3:a:libgcrypt20:libgcrypt20:1.10.1-3:*:*:*:*:*:*:*"
-        ],
-        "purl": "pkg:deb/debian/libgcrypt20@1.10.1-3?arch=amd64&distro=debian-12",
-        "upstreams": []
-      }
-    },
-    {
-      "vulnerability": {
         "id": "CVE-2020-15719",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2020-15719",
         "namespace": "debian:distro:debian:12",
@@ -3184,8 +3060,8 @@
           {
             "cve": "CVE-2020-15719",
             "epss": 0.00216,
-            "percentile": 0.44125,
-            "date": "2025-12-15"
+            "percentile": 0.44188,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -3249,8 +3125,8 @@
             {
               "cve": "CVE-2020-15719",
               "epss": 0.00216,
-              "percentile": 0.44125,
-              "date": "2025-12-15"
+              "percentile": 0.44188,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -3334,8 +3210,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43043,
-            "date": "2025-12-15"
+            "percentile": 0.43111,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -3382,8 +3258,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43043,
-              "date": "2025-12-15"
+              "percentile": 0.43111,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -3467,8 +3343,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43043,
-            "date": "2025-12-15"
+            "percentile": 0.43111,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -3515,8 +3391,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43043,
-              "date": "2025-12-15"
+              "percentile": 0.43111,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -3591,8 +3467,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43043,
-            "date": "2025-12-15"
+            "percentile": 0.43111,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -3639,8 +3515,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43043,
-              "date": "2025-12-15"
+              "percentile": 0.43111,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -3720,8 +3596,8 @@
           {
             "cve": "CVE-2024-26458",
             "epss": 0.00206,
-            "percentile": 0.43043,
-            "date": "2025-12-15"
+            "percentile": 0.43111,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -3768,8 +3644,8 @@
             {
               "cve": "CVE-2024-26458",
               "epss": 0.00206,
-              "percentile": 0.43043,
-              "date": "2025-12-15"
+              "percentile": 0.43111,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -3844,8 +3720,8 @@
           {
             "cve": "CVE-2024-2379",
             "epss": 0.00205,
-            "percentile": 0.42737,
-            "date": "2025-12-15"
+            "percentile": 0.42801,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -3901,8 +3777,8 @@
             {
               "cve": "CVE-2024-2379",
               "epss": 0.00205,
-              "percentile": 0.42737,
-              "date": "2025-12-15"
+              "percentile": 0.42801,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -3992,8 +3868,8 @@
           {
             "cve": "CVE-2025-29477",
             "epss": 0.00019,
-            "percentile": 0.04084,
-            "date": "2025-12-15"
+            "percentile": 0.04185,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -4061,6 +3937,130 @@
     },
     {
       "vulnerability": {
+        "id": "CVE-2024-2236",
+        "dataSource": "https://security-tracker.debian.org/tracker/CVE-2024-2236",
+        "namespace": "debian:distro:debian:12",
+        "severity": "Negligible",
+        "urls": [],
+        "description": "A timing-based side-channel flaw was found in libgcrypt's RSA implementation. This issue may allow a remote attacker to initiate a Bleichenbacher-style attack, which can lead to the decryption of RSA ciphertexts.",
+        "cvss": [],
+        "epss": [
+          {
+            "cve": "CVE-2024-2236",
+            "epss": 0.0019,
+            "percentile": 0.41196,
+            "date": "2025-12-21"
+          }
+        ],
+        "cwes": [
+          {
+            "cve": "CVE-2024-2236",
+            "cwe": "CWE-208",
+            "source": "secalert@redhat.com",
+            "type": "Secondary"
+          }
+        ],
+        "fix": {
+          "versions": [],
+          "state": "not-fixed"
+        },
+        "advisories": [],
+        "risk": 0.0095
+      },
+      "relatedVulnerabilities": [
+        {
+          "id": "CVE-2024-2236",
+          "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2024-2236",
+          "namespace": "nvd:cpe",
+          "severity": "Medium",
+          "urls": [
+            "https://access.redhat.com/errata/RHSA-2024:9404",
+            "https://access.redhat.com/errata/RHSA-2025:3530",
+            "https://access.redhat.com/errata/RHSA-2025:3534",
+            "https://access.redhat.com/security/cve/CVE-2024-2236",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2245218",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2268268"
+          ],
+          "description": "A timing-based side-channel flaw was found in libgcrypt's RSA implementation. This issue may allow a remote attacker to initiate a Bleichenbacher-style attack, which can lead to the decryption of RSA ciphertexts.",
+          "cvss": [
+            {
+              "source": "secalert@redhat.com",
+              "type": "Secondary",
+              "version": "3.1",
+              "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+              "metrics": {
+                "baseScore": 5.9,
+                "exploitabilityScore": 2.3,
+                "impactScore": 3.6
+              },
+              "vendorMetadata": {}
+            }
+          ],
+          "epss": [
+            {
+              "cve": "CVE-2024-2236",
+              "epss": 0.0019,
+              "percentile": 0.41196,
+              "date": "2025-12-21"
+            }
+          ],
+          "cwes": [
+            {
+              "cve": "CVE-2024-2236",
+              "cwe": "CWE-208",
+              "source": "secalert@redhat.com",
+              "type": "Secondary"
+            }
+          ]
+        }
+      ],
+      "matchDetails": [
+        {
+          "type": "exact-direct-match",
+          "matcher": "dpkg-matcher",
+          "searchedBy": {
+            "distro": {
+              "type": "debian",
+              "version": "12"
+            },
+            "package": {
+              "name": "libgcrypt20",
+              "version": "1.10.1-3"
+            },
+            "namespace": "debian:distro:debian:12"
+          },
+          "found": {
+            "vulnerabilityID": "CVE-2024-2236",
+            "versionConstraint": "none (unknown)"
+          }
+        }
+      ],
+      "artifact": {
+        "id": "aa143951e2980797",
+        "name": "libgcrypt20",
+        "version": "1.10.1-3",
+        "type": "deb",
+        "locations": [
+          {
+            "path": "/var/lib/dpkg/status.d/libgcrypt20",
+            "layerID": "sha256:417b18e12362eb08bbee953a1a4ffe7152162c98178006fd3274e3a6e11d36df",
+            "accessPath": "/var/lib/dpkg/status.d/libgcrypt20",
+            "annotations": {
+              "evidence": "primary"
+            }
+          }
+        ],
+        "language": "",
+        "licenses": [],
+        "cpes": [
+          "cpe:2.3:a:libgcrypt20:libgcrypt20:1.10.1-3:*:*:*:*:*:*:*"
+        ],
+        "purl": "pkg:deb/debian/libgcrypt20@1.10.1-3?arch=amd64&distro=debian-12",
+        "upstreams": []
+      }
+    },
+    {
+      "vulnerability": {
         "id": "CVE-2019-1010022",
         "dataSource": "https://security-tracker.debian.org/tracker/CVE-2019-1010022",
         "namespace": "debian:distro:debian:12",
@@ -4072,8 +4072,8 @@
           {
             "cve": "CVE-2019-1010022",
             "epss": 0.00145,
-            "percentile": 0.35413,
-            "date": "2025-12-15"
+            "percentile": 0.35486,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -4134,8 +4134,8 @@
             {
               "cve": "CVE-2019-1010022",
               "epss": 0.00145,
-              "percentile": 0.35413,
-              "date": "2025-12-15"
+              "percentile": 0.35486,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -4229,8 +4229,8 @@
           {
             "cve": "CVE-2023-31437",
             "epss": 0.00128,
-            "percentile": 0.32907,
-            "date": "2025-12-15"
+            "percentile": 0.32987,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -4296,8 +4296,8 @@
             {
               "cve": "CVE-2023-31437",
               "epss": 0.00128,
-              "percentile": 0.32907,
-              "date": "2025-12-15"
+              "percentile": 0.32987,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -4378,8 +4378,8 @@
           {
             "cve": "CVE-2023-31437",
             "epss": 0.00128,
-            "percentile": 0.32907,
-            "date": "2025-12-15"
+            "percentile": 0.32987,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -4445,8 +4445,8 @@
             {
               "cve": "CVE-2023-31437",
               "epss": 0.00128,
-              "percentile": 0.32907,
-              "date": "2025-12-15"
+              "percentile": 0.32987,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -4523,8 +4523,8 @@
           {
             "cve": "CVE-2017-14159",
             "epss": 0.00123,
-            "percentile": 0.32198,
-            "date": "2025-12-15"
+            "percentile": 0.32264,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -4583,8 +4583,8 @@
             {
               "cve": "CVE-2017-14159",
               "epss": 0.00123,
-              "percentile": 0.32198,
-              "date": "2025-12-15"
+              "percentile": 0.32264,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -4668,8 +4668,8 @@
           {
             "cve": "CVE-2023-31438",
             "epss": 0.001,
-            "percentile": 0.28437,
-            "date": "2025-12-15"
+            "percentile": 0.28491,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -4718,8 +4718,8 @@
             {
               "cve": "CVE-2023-31438",
               "epss": 0.001,
-              "percentile": 0.28437,
-              "date": "2025-12-15"
+              "percentile": 0.28491,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -4794,8 +4794,8 @@
           {
             "cve": "CVE-2023-31438",
             "epss": 0.001,
-            "percentile": 0.28437,
-            "date": "2025-12-15"
+            "percentile": 0.28491,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -4844,8 +4844,8 @@
             {
               "cve": "CVE-2023-31438",
               "epss": 0.001,
-              "percentile": 0.28437,
-              "date": "2025-12-15"
+              "percentile": 0.28491,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -4916,8 +4916,8 @@
           {
             "cve": "CVE-2023-31439",
             "epss": 0.00094,
-            "percentile": 0.26877,
-            "date": "2025-12-15"
+            "percentile": 0.26945,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -4966,8 +4966,8 @@
             {
               "cve": "CVE-2023-31439",
               "epss": 0.00094,
-              "percentile": 0.26877,
-              "date": "2025-12-15"
+              "percentile": 0.26945,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -5042,8 +5042,8 @@
           {
             "cve": "CVE-2023-31439",
             "epss": 0.00094,
-            "percentile": 0.26877,
-            "date": "2025-12-15"
+            "percentile": 0.26945,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -5092,8 +5092,8 @@
             {
               "cve": "CVE-2023-31439",
               "epss": 0.00094,
-              "percentile": 0.26877,
-              "date": "2025-12-15"
+              "percentile": 0.26945,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -5163,9 +5163,9 @@
         "epss": [
           {
             "cve": "CVE-2024-26461",
-            "epss": 0.00062,
-            "percentile": 0.19368,
-            "date": "2025-12-15"
+            "epss": 0.00081,
+            "percentile": 0.24428,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -5181,7 +5181,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0031000000000000003
+        "risk": 0.00405
       },
       "relatedVulnerabilities": [
         {
@@ -5211,9 +5211,9 @@
           "epss": [
             {
               "cve": "CVE-2024-26461",
-              "epss": 0.00062,
-              "percentile": 0.19368,
-              "date": "2025-12-15"
+              "epss": 0.00081,
+              "percentile": 0.24428,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -5296,9 +5296,9 @@
         "epss": [
           {
             "cve": "CVE-2024-26461",
-            "epss": 0.00062,
-            "percentile": 0.19368,
-            "date": "2025-12-15"
+            "epss": 0.00081,
+            "percentile": 0.24428,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -5314,7 +5314,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0031000000000000003
+        "risk": 0.00405
       },
       "relatedVulnerabilities": [
         {
@@ -5344,9 +5344,9 @@
           "epss": [
             {
               "cve": "CVE-2024-26461",
-              "epss": 0.00062,
-              "percentile": 0.19368,
-              "date": "2025-12-15"
+              "epss": 0.00081,
+              "percentile": 0.24428,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -5420,9 +5420,9 @@
         "epss": [
           {
             "cve": "CVE-2024-26461",
-            "epss": 0.00062,
-            "percentile": 0.19368,
-            "date": "2025-12-15"
+            "epss": 0.00081,
+            "percentile": 0.24428,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -5438,7 +5438,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0031000000000000003
+        "risk": 0.00405
       },
       "relatedVulnerabilities": [
         {
@@ -5468,9 +5468,9 @@
           "epss": [
             {
               "cve": "CVE-2024-26461",
-              "epss": 0.00062,
-              "percentile": 0.19368,
-              "date": "2025-12-15"
+              "epss": 0.00081,
+              "percentile": 0.24428,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -5549,9 +5549,9 @@
         "epss": [
           {
             "cve": "CVE-2024-26461",
-            "epss": 0.00062,
-            "percentile": 0.19368,
-            "date": "2025-12-15"
+            "epss": 0.00081,
+            "percentile": 0.24428,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -5567,7 +5567,7 @@
           "state": "not-fixed"
         },
         "advisories": [],
-        "risk": 0.0031000000000000003
+        "risk": 0.00405
       },
       "relatedVulnerabilities": [
         {
@@ -5597,9 +5597,9 @@
           "epss": [
             {
               "cve": "CVE-2024-26461",
-              "epss": 0.00062,
-              "percentile": 0.19368,
-              "date": "2025-12-15"
+              "epss": 0.00081,
+              "percentile": 0.24428,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -5674,8 +5674,8 @@
           {
             "cve": "CVE-2013-4392",
             "epss": 0.00057,
-            "percentile": 0.17808,
-            "date": "2025-12-15"
+            "percentile": 0.17957,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -5741,8 +5741,8 @@
             {
               "cve": "CVE-2013-4392",
               "epss": 0.00057,
-              "percentile": 0.17808,
-              "date": "2025-12-15"
+              "percentile": 0.17957,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -5823,8 +5823,8 @@
           {
             "cve": "CVE-2013-4392",
             "epss": 0.00057,
-            "percentile": 0.17808,
-            "date": "2025-12-15"
+            "percentile": 0.17957,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -5890,8 +5890,8 @@
             {
               "cve": "CVE-2013-4392",
               "epss": 0.00057,
-              "percentile": 0.17808,
-              "date": "2025-12-15"
+              "percentile": 0.17957,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -5968,8 +5968,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.15487,
-            "date": "2025-12-15"
+            "percentile": 0.15644,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -6029,8 +6029,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.15487,
-              "date": "2025-12-15"
+              "percentile": 0.15644,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -6137,8 +6137,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.15487,
-            "date": "2025-12-15"
+            "percentile": 0.15644,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -6198,8 +6198,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.15487,
-              "date": "2025-12-15"
+              "percentile": 0.15644,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -6274,8 +6274,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.15487,
-            "date": "2025-12-15"
+            "percentile": 0.15644,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -6335,8 +6335,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.15487,
-              "date": "2025-12-15"
+              "percentile": 0.15644,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -6439,8 +6439,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.15487,
-            "date": "2025-12-15"
+            "percentile": 0.15644,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -6500,8 +6500,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.15487,
-              "date": "2025-12-15"
+              "percentile": 0.15644,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -6599,8 +6599,8 @@
           {
             "cve": "CVE-2022-27943",
             "epss": 0.0005,
-            "percentile": 0.15487,
-            "date": "2025-12-15"
+            "percentile": 0.15644,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -6660,8 +6660,8 @@
             {
               "cve": "CVE-2022-27943",
               "epss": 0.0005,
-              "percentile": 0.15487,
-              "date": "2025-12-15"
+              "percentile": 0.15644,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -6759,8 +6759,8 @@
           {
             "cve": "CVE-2025-27587",
             "epss": 0.00035,
-            "percentile": 0.10027,
-            "date": "2025-12-15"
+            "percentile": 0.10136,
+            "date": "2025-12-21"
           }
         ],
         "cwes": [
@@ -6807,8 +6807,8 @@
             {
               "cve": "CVE-2025-27587",
               "epss": 0.00035,
-              "percentile": 0.10027,
-              "date": "2025-12-15"
+              "percentile": 0.10136,
+              "date": "2025-12-21"
             }
           ],
           "cwes": [
@@ -6904,8 +6904,8 @@
           {
             "cve": "CVE-2025-10966",
             "epss": 0.00017,
-            "percentile": 0.03214,
-            "date": "2025-12-15"
+            "percentile": 0.03267,
+            "date": "2025-12-21"
           }
         ],
         "fix": {
@@ -6946,8 +6946,8 @@
             {
               "cve": "CVE-2025-10966",
               "epss": 0.00017,
-              "percentile": 0.03214,
-              "date": "2025-12-15"
+              "percentile": 0.03267,
+              "date": "2025-12-21"
             }
           ]
         }
@@ -7387,87 +7387,87 @@
     "db": {
       "status": {
         "schemaVersion": "v6.1.3",
-        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.3_2025-12-16T00:25:11Z_1765880790.tar.zst?checksum=sha256%3Aa8bb3ef2cc68f242e78cda1e451f290ff56a23b1063de65d22a0ac20e16ae5bd",
-        "built": "2025-12-16T10:26:30Z",
+        "from": "https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.3_2025-12-22T00:27:55Z_1766391539.tar.zst?checksum=sha256%3A8076a64ce3be63762b0192083d4274b361d17866fb275d81279878e26df22461",
+        "built": "2025-12-22T08:18:59Z",
         "path": ".cache/grype/db/6/vulnerability.db",
         "valid": true
       },
       "providers": {
         "alma": {
-          "captured": "2025-12-16T00:25:17Z",
-          "input": "xxh64:3bae44c7a22f7a7a"
+          "captured": "2025-12-22T00:28:14Z",
+          "input": "xxh64:a0d50876ed3bfef6"
         },
         "alpine": {
-          "captured": "2025-12-16T00:25:13Z",
-          "input": "xxh64:0d94cc3d895e96e4"
+          "captured": "2025-12-22T00:28:10Z",
+          "input": "xxh64:340ab042b574ff97"
         },
         "amazon": {
-          "captured": "2025-12-16T00:25:14Z",
-          "input": "xxh64:96351b3c21f16cdd"
+          "captured": "2025-12-22T00:28:04Z",
+          "input": "xxh64:f299fe06e0e6f002"
         },
         "bitnami": {
-          "captured": "2025-12-16T00:25:26Z",
-          "input": "xxh64:01d096e52d6c584d"
+          "captured": "2025-12-22T00:28:00Z",
+          "input": "xxh64:86b88681a2b79ab2"
         },
         "chainguard": {
-          "captured": "2025-12-16T00:25:19Z",
-          "input": "xxh64:aeb142b1fabd05ef"
+          "captured": "2025-12-22T00:27:58Z",
+          "input": "xxh64:94b7e6823d05b5ad"
         },
         "chainguard-libraries": {
-          "captured": "2025-12-16T00:25:25Z",
-          "input": "xxh64:131c1a3e98113468"
+          "captured": "2025-12-22T00:28:04Z",
+          "input": "xxh64:ebaf858a1147e15d"
         },
         "debian": {
-          "captured": "2025-12-16T00:25:24Z",
-          "input": "xxh64:9c5942d58a5f0d0a"
+          "captured": "2025-12-22T00:28:11Z",
+          "input": "xxh64:72e468916a0b0480"
         },
         "echo": {
-          "captured": "2025-12-16T00:25:20Z",
-          "input": "xxh64:e65ed35a7a7899d0"
+          "captured": "2025-12-22T00:28:17Z",
+          "input": "xxh64:1f327c0363c50625"
         },
         "epss": {
-          "captured": "2025-12-16T00:25:21Z",
-          "input": "xxh64:c443dbaf0209cf17"
+          "captured": "2025-12-22T00:28:00Z",
+          "input": "xxh64:aa02b2d97883583c"
         },
         "github": {
-          "captured": "2025-12-16T00:25:21Z",
-          "input": "xxh64:640038905439d285"
+          "captured": "2025-12-22T00:28:06Z",
+          "input": "xxh64:b4fc4f2075b65b49"
         },
         "kev": {
-          "captured": "2025-12-16T00:25:11Z",
-          "input": "xxh64:c28f5b32e2103243"
+          "captured": "2025-12-22T00:27:59Z",
+          "input": "xxh64:da74a9d3152b0332"
         },
         "mariner": {
-          "captured": "2025-12-16T00:25:18Z",
-          "input": "xxh64:647810a8c07a63eb"
+          "captured": "2025-12-22T00:27:56Z",
+          "input": "xxh64:cc87a72977707391"
         },
         "minimos": {
-          "captured": "2025-12-16T00:25:20Z",
-          "input": "xxh64:24ca3b7889974a27"
+          "captured": "2025-12-22T00:27:55Z",
+          "input": "xxh64:b96814e11a96a684"
         },
         "nvd": {
-          "captured": "2025-12-16T00:28:18Z",
-          "input": "xxh64:8ee1877e9a9e680b"
+          "captured": "2025-12-22T00:31:28Z",
+          "input": "xxh64:c312c00616bec812"
         },
         "oracle": {
-          "captured": "2025-12-16T00:25:23Z",
-          "input": "xxh64:a4416b6b3e4250df"
+          "captured": "2025-12-22T00:28:06Z",
+          "input": "xxh64:0da07f07bcee7701"
         },
         "rhel": {
-          "captured": "2025-12-16T00:26:07Z",
-          "input": "xxh64:9911b1a567d8f57c"
+          "captured": "2025-12-22T00:29:00Z",
+          "input": "xxh64:2e675c98f65a1e23"
         },
         "sles": {
-          "captured": "2025-12-16T00:25:43Z",
-          "input": "xxh64:1b717d5f2e45fdee"
+          "captured": "2025-12-22T00:28:27Z",
+          "input": "xxh64:88e89da9b71f5756"
         },
         "ubuntu": {
-          "captured": "2025-12-16T00:27:14Z",
-          "input": "xxh64:2d3097578288b46f"
+          "captured": "2025-12-22T00:29:49Z",
+          "input": "xxh64:af2ef829b80846f0"
         },
         "wolfi": {
-          "captured": "2025-12-16T00:25:19Z",
-          "input": "xxh64:f85923693eb62700"
+          "captured": "2025-12-22T00:28:06Z",
+          "input": "xxh64:3774cf56e75820bd"
         }
       }
     }
