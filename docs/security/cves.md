@@ -156,6 +156,15 @@ Full unfiltered reports are shown below, covering all severities and without any
 - [CycloneDX JSON SBOM](agent/cyclonedx-25.12.4.cdx.json)
 - [SPDX JSON SBOM](agent/spdx-25.12.4.spdx.json)
 
+### Agent Version: 25.12.5
+
+- [Grype Markdown Report](agent/grype-25.12.5.md)
+- [Grype JSON Report](agent/grype-25.12.5.json)
+
+- [Syft JSON SBOM](agent/syft-25.12.5.json)
+- [CycloneDX JSON SBOM](agent/cyclonedx-25.12.5.cdx.json)
+- [SPDX JSON SBOM](agent/spdx-25.12.5.spdx.json)
+
 ### Agent Version: 25.7.1
 
 - [Grype Markdown Report](agent/grype-25.7.1.md)
