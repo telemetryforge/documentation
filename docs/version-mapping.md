@@ -1,10 +1,10 @@
-# Opensource mapping to FluentDo Agent versions
+# Opensource mapping to Agent versions
 
-The following shows the underlying [OSS version of Fluent Bit](https://github.com/fluent/fluent-bit/releases) that the FluentDo agent is based on.
+The following shows the underlying [OSS version of Fluent Bit](https://github.com/fluent/fluent-bit/releases) that the Agent is based on.
 
 ## Version mapping table
 
-| FluentDo Agent Version | OSS Version Base |
+| Agent Version | OSS Version Base |
 | ---------------------- | ---------------- |
 | 26.1.1 | 4.1.0 |
 | 25.12.4 | 4.1.0 |

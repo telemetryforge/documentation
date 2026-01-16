@@ -3,7 +3,7 @@ on:
   workflow_call:
     inputs:
       agent-version:
-        description: 'The version of the FluentDo agent to add'
+        description: 'The version of the Agent to add'
         required: true
         type: string
       oss-version:
@@ -42,7 +42,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
-            repository: fluentdo/documentation
+            repository: telemetryforge/documentation
             token: ${{ steps.get-secrets.outputs.github-pat }}
 
       - name: Install tools
@@ -89,7 +89,7 @@ jobs:
           token: ${{ steps.get-secrets.outputs.github-pat }}
           labels: ci,automerge
           body: |
-            Mapping version added for FluentDo agent ${{ inputs.agent-version }}:
+            Mapping version added for agent ${{ inputs.agent-version }}:
             - Agent Version: `${{ inputs.agent-version }}`
             - OSS Version: `${{ inputs.oss-version }}`
 

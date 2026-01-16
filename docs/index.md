@@ -1,8 +1,8 @@
-# FluentDo Agent Documentation
+# Telemetry Forge Agent Documentation
 
-## What is FluentDo Agent?
+## What is our Agent?
 
-FluentDo Agent is an **enterprise-hardened distribution of Fluent Bit**, maintained by core OSS maintainers. It delivers production-ready log processing with enhanced security, reduced footprint, and enterprise support.
+The Telemetry Forge Agent is an **enterprise-hardened distribution of Fluent Bit**, maintained by core OSS maintainers. It delivers production-ready log processing with enhanced security, reduced footprint, and enterprise support.
 
 ### Key Differentiators
 
@@ -26,7 +26,7 @@ FluentDo Agent is an **enterprise-hardened distribution of Fluent Bit**, maintai
 ## Documentation
 
 - [Supported Platforms](./supported-platforms.md) - Verified OS and architecture support
-- [Version Mapping](./version-mapping.md) - FluentDo to OSS Fluent Bit version alignment
+- [Version Mapping](./version-mapping.md) - Agent to OSS Fluent Bit version alignment
 - [Security](./security.md) - Hardening features and CVE management
 - [OSS Fluent Bit Docs](https://docs.fluentbit.io) - Core documentation reference
 
@@ -59,7 +59,7 @@ Available directly via [Red Hat catalog](https://catalog.redhat.com/software/con
 
 ## Build Optimisations
 
-FluentDo Agent is **70% smaller than OSS Fluent Bit** through:
+Our Agent is **70% smaller than OSS Fluent Bit** through:
 
 - **Reduced scope** - Only production-essential plugins included
 - **Secure defaults** - Vendor-specific and risky plugins disabled

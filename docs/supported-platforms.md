@@ -1,8 +1,8 @@
 # Supported Platforms
 
-The FluentDo agent supports all major architectures including `x86_64` and `arm64` as well as optionally `riscv64`, `s390x` and others.
+Our Agent supports all major architectures including `x86_64` and `arm64` as well as optionally `riscv64`, `s390x` and others.
 
-Releases can be found or watched here: <https://github.com/FluentDo/agent>
+Releases can be found or watched here: <https://github.com/telemetryforge/agent>
 
 Packages are available via [https://packages.fluent.do](https://packages.fluent.do/index.html).
 
@@ -16,7 +16,7 @@ We test against a matrix of vanilla Kubernetes versions along with the various d
 
 ## Container images
 
-All images are built from our Github repo and available via ghcr.io: `ghcr.io/fluentdo/agent`
+All images are built from our Github repo and available via ghcr.io: `ghcr.io/telemetryforge/agent`
 
 * UBI-based image: uses the `version` tag
 * Distroless image (closer match to OSS): uses the `version-slim` tag

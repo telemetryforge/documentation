@@ -32,9 +32,9 @@ fi
 # Handle version string with or without a v prefix - we just want semver
 if [[ "$NEW_AGENT_VERSION" =~ ^v?([0-9]+\.[0-9]+\.[0-9]+)$ ]] ; then
     NEW_AGENT_VERSION=${BASH_REMATCH[1]}
-    echo "Valid FluentDo agent version string: $NEW_AGENT_VERSION"
+    echo "Valid Agent version string: $NEW_AGENT_VERSION"
 else
-    echo "ERROR: Invalid FluentDo agent semver string: $NEW_AGENT_VERSION"
+    echo "ERROR: Invalid Agent semver string: $NEW_AGENT_VERSION"
     exit 1
 fi
 
@@ -52,12 +52,12 @@ fi
 
 # Update the mapping file with the new version
 if grep -q "| $NEW_AGENT_VERSION |" "$MAPPING_FILE"; then
-    echo "ERROR: Mapping for FluentDo Agent version $NEW_AGENT_VERSION already exists in $MAPPING_FILE."
+    echo "ERROR: Mapping for Agent version $NEW_AGENT_VERSION already exists in $MAPPING_FILE."
     exit 1
 fi
 
 # Find the table header line and insert the new mapping after it
-HEADER_LINE=$(grep -n "|FluentDo Agent Version|" "$MAPPING_FILE" | cut -d: -f1)
+HEADER_LINE=$(grep -n "| Agent Version |" "$MAPPING_FILE" | cut -d: -f1)
 if [[ -z "$HEADER_LINE" ]]; then
     echo "ERROR: Header line not found in $MAPPING_FILE."
     exit 1

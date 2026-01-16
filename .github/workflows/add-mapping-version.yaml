@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       agent-version:
-        description: "The version of the FluentDo agent to add"
+        description: "The version of the agent to add"
         required: true
         type: string
       oss-version:

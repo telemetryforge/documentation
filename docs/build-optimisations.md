@@ -1,6 +1,6 @@
 # Build Optimisations
 
-FluentDo Agent is **~70% smaller than OSS Fluent Bit** through strategic optimisations while maintaining security and performance.
+Our Agent is **~70% smaller than OSS Fluent Bit** through strategic optimisations while maintaining security and performance.
 
 ## Optimisation Techniques
 
@@ -52,7 +52,7 @@ set(CMAKE_C_FLAGS "${SAVED_CMAKE_C_FLAGS}")
 
 ## Size Impact
 
-| Metric | OSS Fluent Bit | FluentDo Agent | Reduction |
+| Metric | OSS Fluent Bit | Telemetry Forge Agent | Reduction |
 |--------|---------------|----------------|-----------|
 | Docker Image Size | ~500MB | ~150MB | ~70% |
 | Binary Size | ~50-60MB | ~15-20MB | ~67% |
@@ -81,6 +81,6 @@ set(CMAKE_C_FLAGS "${SAVED_CMAKE_C_FLAGS}")
 
 If you need plugins that are disabled by default, you can:
 
-1. **Request a custom build** from FluentDo support with specific plugins enabled
+1. **Request a custom build** from our commercial support with specific plugins enabled
 2. **Use OSS Fluent Bit** if vendor-specific plugins are required
 3. **Build from source** with your required configuration

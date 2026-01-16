@@ -14,7 +14,7 @@ done
 SCRIPT_DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
 REPO_ROOT=${REPO_ROOT:-$SCRIPT_DIR/..}
 GENERATED_DOC_DIR=${GENERATED_DOC_DIR:-$REPO_ROOT/site}
-OUTPUT_FILE=${OUTPUT_FILE:-$REPO_ROOT/fluentdo-agent-documentation.tgz}
+OUTPUT_FILE=${OUTPUT_FILE:-$REPO_ROOT/agent-documentation.tgz}
 
 rm -rf "$GENERATED_DOC_DIR" "$REPO_ROOT/.cache"
 
