@@ -44,7 +44,7 @@ processors:
 ### Configuration Parameters
 
 | Parameter | Type | Default | Description |
-|-----------|------|---------|-------------|
+| --------- | ---- | ------- | ----------- |
 | `ttl` | Time | 3600s | Time to live for deduplication entries |
 | `cache_size` | Size | 100M | RocksDB block cache size |
 | `write_buffer_size` | Size | 64M | Write buffer size for batching |
@@ -67,7 +67,7 @@ Here's a full configuration example showing how to enable deduplication with met
 service:
   flush: 1
   log_level: info
-  
+
   # Enable HTTP server for metrics endpoint
   http_server: on
   http_listen: 0.0.0.0
@@ -86,18 +86,18 @@ pipeline:
             cache_size: 100M         # 100MB cache
             write_buffer_size: 64M   # 64MB write buffer
             compact_interval: 300s   # Compact every 5 minutes
-            
+
             # Fields to ignore when calculating hash
             ignore_fields:
               - timestamp
               - request_id
               - session_id
-            
+
             # Regex patterns for fields to ignore
             ignore_regexes:
               - ".*_time$"
               - "^trace_.*"
-      
+
     - name: systemd
       tag: system.logs
       systemd_filter: _SYSTEMD_UNIT=nginx.service
@@ -150,12 +150,12 @@ The processor uses bloom filters and hash indexing to minimize disk I/O, ensurin
 | `fluentbit_processor_dedup_live_data_size_bytes` | Gauge | Size of live data in RocksDB (excluding expired entries) |
 | `fluentbit_processor_dedup_compactions_total` | Counter | Total number of database compactions performed |
 
-
 ## Use Cases
 
 ### 1. Kubernetes Log Collection
 
 Ignore pod-specific fields while deduplicating application logs:
+
 ```yaml
 ignore_fields:
   - kubernetes.pod_id
@@ -167,6 +167,7 @@ ignore_regexes:
 ### 2. Load Balancer Access Logs
 
 Deduplicate health check spam:
+
 ```yaml
 ignore_fields:
   - timestamp
@@ -177,6 +178,7 @@ ignore_fields:
 ### 3. Application Error Logs
 
 Catch repeated errors while preserving first occurrence:
+
 ```yaml
 ttl: 3600s  # 1 hour window
 ignore_fields:
@@ -184,7 +186,6 @@ ignore_fields:
   - thread_id
   - request_context
 ```
-
 
 ## Future Work
 
@@ -196,8 +197,8 @@ ignore_fields:
 ## Getting Started
 
 1. Enable the deduplication processor in your Fluent Bit configuration
-2. Attach it to any input that experiences duplicate logs  
+2. Attach it to any input that experiences duplicate logs
 3. Configure TTL and field filtering based on your use case
 4. Monitor deduplication effectiveness via Prometheus metrics
 
-For additional support and enterprise features, contact the FluentDo team.
+For additional support and enterprise features, contact our team.

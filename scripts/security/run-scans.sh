@@ -149,13 +149,13 @@ function generateReports() {
 
 # Run grype for each Agent version
 for agent_version in "${AGENT_VERSIONS[@]}"; do
-	generateReports "$agent_version" "agent" "ghcr.io/fluentdo/agent"
+	generateReports "$agent_version" "agent" "ghcr.io/telemetryforge/agent"
 done
 
 # Get latest release version of the agent from GitHub API using gh client
 # We require GITHUB_TOKEN to be set in the environment for this to work reliably
 # See https://docs.github.com/en/rest/releases/releases?apiVersion=2022-1128#get-the-latest-release
-LATEST_AGENT_VERSION=$(gh api /repos/fluentdo/agent/releases/latest | jq -r .tag_name)
+LATEST_AGENT_VERSION=$(gh api /repos/telemetryforge/agent/releases/latest | jq -r .tag_name)
 # Remove any leading 'v' from the version
 LATEST_AGENT_VERSION=${LATEST_AGENT_VERSION#v}
 # Trim any whitespace
@@ -170,7 +170,7 @@ else
 	echo "Latest agent version from GitHub API is: $LATEST_AGENT_VERSION"
 	echo "Generating latest agent version scan with VEX filtering for version: $LATEST_AGENT_VERSION"
 
-	grype "ghcr.io/fluentdo/agent:$LATEST_AGENT_VERSION" \
+	grype "ghcr.io/telemetryforge/agent:$LATEST_AGENT_VERSION" \
 		--output template \
 		--template "$TEMPLATE_DIR/grype-markdown-table-above-high.tmpl" \
 		--file "$CVE_DIR/agent/grype-latest.md" \

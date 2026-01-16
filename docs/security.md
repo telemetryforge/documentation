@@ -1,6 +1,6 @@
 # Security information
 
-FluentDo provides an agent with the following security and compliance considerations:
+We provide an agent with the following security and compliance considerations:
 
 - 24-month LTS support
 - Weekly releases for CVEs and critical bugs
@@ -14,9 +14,9 @@ FluentDo provides an agent with the following security and compliance considerat
 
 ## Cosign
 
-All images are signed with Cosign using both the keyless approach with Fulcio and a dedicated Cosign private key (from 25.10.3) integrated into Github Actions directly: <https://github.com/FluentDo/agent/blob/main/.github/workflows/call-build-containers.yaml>
+All images are signed with Cosign using both the keyless approach with Fulcio and a dedicated Cosign private key (from 25.10.3) integrated into Github Actions directly: <https://github.com/telemetryforge/agent/blob/main/.github/workflows/call-build-containers.yaml>
 
-The public key is available here: <https://raw.githubusercontent.com/FluentDo/agent/refs/heads/main/cosign.pub>
+The public key is available here: <https://raw.githubusercontent.com/telemetryforge/agent/refs/heads/main/cosign.pub>
 
 ```text
 -----BEGIN PUBLIC KEY-----
@@ -29,7 +29,7 @@ To verify follow the instructions provided by Cosign: <https://docs.sigstore.dev
 
 ## GPG
 
-All Linux packages should be GPG-signed using the following [key](https://raw.githubusercontent.com/FluentDo/agent/refs/heads/main/gpg.pub):
+All Linux packages should be GPG-signed using the following [key](https://raw.githubusercontent.com/telemetryforge/agent/refs/heads/main/gpg.pub):
 
 ```text
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -62,7 +62,7 @@ This information is for releases `v25.12` and `v25.10.8` onwards, for earlier re
 
 ## CVEs
 
-We triage and resolve all CVEs reported against the FluentDo agent (and to some degree OSS too), please see [this page](./security/cves.md).
+We triage and resolve all CVEs reported against the Agent (and to some degree OSS too), please see [this page](./security/cves.md).
 
 We provide triaged CVE reports both as a [web page](./security/triaged.md) or a [VEX endpoint](./security/vex.json) for easy inclusion in security tooling deployed in your infrastructure.
 
@@ -107,7 +107,7 @@ To minimize attack surface and binary size, the following 17 plugins are **disab
 
 - `FLB_IN_CALYPTIA_FLEET` - Calyptia fleet management (vendor-specific)
 - `FLB_IN_DOCKER` - Docker container metrics
-- `FLB_IN_DOCKER_EVENTS` - Docker events monitoring 
+- `FLB_IN_DOCKER_EVENTS` - Docker events monitoring
 - `FLB_IN_EXEC_WASI` - WebAssembly System Interface executor
 - `FLB_IN_MQTT` - MQTT broker input
 - `FLB_IN_NETIF` - Network interface statistics
