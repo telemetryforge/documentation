@@ -56,6 +56,8 @@ uid           [ultimate] FluentDo <info@fluent.do>
 sub   cv25519 2025-11-28 [E] [expires: 2028-11-27]
 ```
 
+Note: FluentDo was the original name before rebranding as Telemetry Forge.
+
 In addition we generate `sha256` checksums for all packages and sign those files as well for all targets.
 
 This information is for releases `v25.12` and `v25.10.8` onwards, for earlier releases please contact us.
@@ -69,7 +71,7 @@ We provide triaged CVE reports both as a [web page](./security/triaged.md) or a 
 The VEX endpoint can be downloaded and used like so:
 
 ```shell
-curl -sSfLO https://docs.fluent.do/security/vex.json
+curl -sSfLO https://docs.telemetryforge.io/security/vex.json
 trivy image fluent/fluent-bit:4.0.9 --vex vex.json
 grype fluent/fluent-bit:4.0.9 --vex vex.json
 ```

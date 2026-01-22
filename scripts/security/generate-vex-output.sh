@@ -34,7 +34,7 @@ REPO_ROOT=${REPO_ROOT:-$SCRIPT_DIR/../..}
 CVE_DIR=${CVE_DIR:-$REPO_ROOT/docs/security}
 OUTPUT_MD=${OUTPUT_MD:-"$CVE_DIR/triaged.md"}
 TRIAGED_DIR=${TRIAGED_DIR:-"$CVE_DIR/triaged"}
-AUTHOR=${AUTHOR:-"info@fluent.do"}
+AUTHOR=${AUTHOR:-"info@telemetryforge.io"}
 
 COMBINED_VEX_FILE=${COMBINED_VEX_FILE:-"$CVE_DIR/vex.json"}
 RELATIVE_VEX_PATH=$(realpath --relative-to="$(dirname "$OUTPUT_MD")" "$COMBINED_VEX_FILE")

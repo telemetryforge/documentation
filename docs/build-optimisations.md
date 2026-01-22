@@ -53,7 +53,7 @@ set(CMAKE_C_FLAGS "${SAVED_CMAKE_C_FLAGS}")
 ## Size Impact
 
 | Metric | OSS Fluent Bit | Telemetry Forge Agent | Reduction |
-|--------|---------------|----------------|-----------|
+| ------ | -------------- | --------------------- | --------- |
 | Docker Image Size | ~500MB | ~150MB | ~70% |
 | Binary Size | ~50-60MB | ~15-20MB | ~67% |
 | Memory Usage | ~50-70MB RSS | ~20-30MB RSS | ~57% |

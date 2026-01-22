@@ -16,7 +16,7 @@ Using CVE-2023-2953 as an example, we do the following:
     vexctl create --product="pkg:oci/fluent-bit" \
                 --vuln="CVE-2023-2953" \
                 --status="under_investigation" \
-                --author="info@fluent.do" \
+                --author="info@telemetryforge.io" \
                  | tee investigation.vex.json
     ```
 
@@ -29,7 +29,7 @@ Using CVE-2023-2953 as an example, we do the following:
                 --vuln="CVE-2023-2953" \
                 --status="not_affected" \
                 --justification="vulnerable_code_not_in_execute_path" \
-                --author="info@fluent.do" \
+                --author="info@telemetryforge.io" \
                 --impact-statement="Fluent Bit does not use this component directly or in the way affected in the CVE." \
                  | tee triaged.vex.json
     ```
@@ -51,7 +51,7 @@ The generation process will loop through all CVE directories and merge any VEX f
 
 ```shell
 cd docs/security/triaged/CVE-2023-2953
-vexctl merge --author="info@fluent.do" \
+vexctl merge --author="info@telemetryforge.io" \
             investigation.vex.json \
             triaged.vex.json | tee vex.json
 ```
