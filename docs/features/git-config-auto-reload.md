@@ -17,13 +17,12 @@ The plugin also exposes Prometheus-compatible metrics for monitoring repository 
 ## Configuration Options
 
 | Parameter | Type | Required | Default | Description |
-|-----------|------|----------|---------|-------------|
+| --------- | ---- | -------- | ------- | ----------- |
 | `repo` | String | Yes | - | Git repository URL (HTTPS, SSH, or file://) |
 | `ref` | String | No | `main` | Git reference: branch name, tag, or commit SHA |
 | `path` | String | Yes | - | Path to configuration file within the repository |
 | `clone_path` | String | No | `/tmp/fluentbit-git-repo` | Local directory for git clone and state storage |
 | `poll_interval` | Integer | No | `60` | Polling interval in seconds to check for updates |
-
 
 The Git repository URL. Supports multiple protocols:
 
@@ -32,10 +31,11 @@ The Git repository URL. Supports multiple protocols:
 - **Local file**: `file:///path/to/repo`
 
 For private repositories:
+
 - **HTTPS**: Use personal access tokens in the URL: `https://token@github.com/user/repo.git`
 - **SSH**: Configure SSH keys in `~/.ssh/` (requires `id_rsa` or `id_ed25519`)
 
-#### `ref`
+### `ref`
 
 The Git reference to track. Can be:
 
@@ -50,6 +50,7 @@ The plugin monitors this reference for changes. When the commit SHA at this ref 
 Path to the configuration file within the repository, relative to the repository root.
 
 Examples:
+
 - `fluent-bit.yaml`
 - `config/production.yaml`
 - `environments/prod/fluent-bit.conf`
@@ -57,6 +58,7 @@ Examples:
 #### `clone_path`
 
 Local directory where:
+
 - The Git repository is cloned
 - SHA-based configuration files are stored
 - The state file (`.last_sha`) is stored
@@ -68,6 +70,7 @@ The directory will be created if it doesn't exist. Must be writable by the Fluen
 How frequently (in seconds) to check the remote repository for changes.
 
 Recommended values:
+
 - **Development/Testing**: 5-10 seconds
 - **Production**: 60-300 seconds
 
@@ -155,11 +158,13 @@ pipeline:
 ### State Persistence
 
 The plugin stores the last processed commit SHA in a state file:
-```
+
+```shell
 {clone_path}/.last_sha
 ```
 
 This state file:
+
 - Persists across Fluent Bit restarts
 - Prevents unnecessary reloads when restarting with unchanged configuration
 - Contains a 40-character SHA-1 commit hash
@@ -178,11 +183,13 @@ When a configuration change is detected:
 ### Change Detection
 
 The plugin uses Git commit SHAs for change detection:
+
 - Fetches the commit SHA at the specified `ref`
 - Compares with the last processed SHA from state file
 - If different, triggers sync and reload
 
 This approach works with:
+
 - Branch updates (SHA changes when new commits are pushed)
 - Tag updates (if tag is moved to a different commit)
 - Direct SHA monitoring (only reloads if you manually update the `ref` parameter)
@@ -194,7 +201,7 @@ The plugin exposes Prometheus-compatible metrics for monitoring repository polli
 ### Available Metrics
 
 | Metric | Type | Labels | Description |
-|--------|------|--------|-------------|
+| ------ | ---- | ------ | ----------- |
 | `fluentbit_git_config_last_poll_timestamp_seconds` | Gauge | `name` | Unix timestamp of the last repository poll |
 | `fluentbit_git_config_last_reload_timestamp_seconds` | Gauge | `name` | Unix timestamp of the last configuration reload |
 | `fluentbit_git_config_poll_errors_total` | Counter | `name` | Total number of repository poll errors |
@@ -210,7 +217,8 @@ curl http://localhost:2020/api/v1/metrics/prometheus
 ```
 
 Example output:
-```
+
+```text
 # HELP fluentbit_git_config_last_poll_timestamp_seconds Unix timestamp of last repository poll
 # TYPE fluentbit_git_config_last_poll_timestamp_seconds gauge
 fluentbit_git_config_last_poll_timestamp_seconds{name="git_config.0"} 1696349234
@@ -237,6 +245,7 @@ fluentbit_git_config_info{sha="abc123def",repo="https://github.com/myorg/configs
 You can use these metrics with monitoring systems like Prometheus and Grafana:
 
 **Prometheus Alert Examples:**
+
 ```yaml
 groups:
   - name: fluent_bit_git_config
@@ -301,6 +310,7 @@ customs:
 ```
 
 Requirements:
+
 - SSH keys configured in `~/.ssh/id_rsa` or `~/.ssh/id_ed25519`
 - Proper permissions: `chmod 600 ~/.ssh/id_rsa`
 - Known hosts configured: `ssh-keyscan github.com >> ~/.ssh/known_hosts`
@@ -322,6 +332,7 @@ The plugin is designed to be resilient to transient errors:
 - **Too infrequent**: Delays detection of configuration changes
 
 Choose based on your requirements:
+
 - Critical production systems: 60-120 seconds
 - Active development: 5-10 seconds
 - Stable environments: 300-600 seconds
@@ -335,16 +346,17 @@ Choose based on your requirements:
 ### Repository Size
 
 Large repositories with extensive history may slow initial cloning. Consider:
+
 - Using shallow clones (future enhancement)
 - Keeping configuration repositories small and focused
 - Using separate repositories for configuration vs. application code
 
 ## Troubleshooting
 
-
 ### Authentication Failures
 
 For SSH:
+
 ```bash
 # Test SSH connection
 ssh -T git@github.com
@@ -355,6 +367,7 @@ chmod 600 ~/.ssh/id_rsa
 ```
 
 For HTTPS with token:
+
 ```bash
 # Test git access
 git ls-remote https://token@github.com/user/repo.git
@@ -363,12 +376,14 @@ git ls-remote https://token@github.com/user/repo.git
 ### Changes Not Detected
 
 Enable debug logging to see polling activity:
+
 ```yaml
 service:
   log_level: debug
 ```
 
 Check:
+
 - Remote repository actually has new commits
 - `ref` points to the branch/tag you expect
 - Polling interval hasn't elapsed yet
@@ -378,6 +393,7 @@ Check:
 ### Reload Failures
 
 Check:
+
 - Configuration file syntax is valid
 - All referenced plugins are available
 - File paths and permissions are correct
@@ -386,11 +402,13 @@ Check:
 ### High Error Rates
 
 Monitor the error metrics:
+
 ```bash
 curl -s http://localhost:2020/api/v1/metrics/prometheus | grep -E "git_config_(poll|sync)_errors"
 ```
 
 Common causes:
+
 - Network connectivity issues
 - Authentication failures
 - Repository access problems

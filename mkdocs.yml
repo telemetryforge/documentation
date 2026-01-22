@@ -77,9 +77,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/telemetryforge
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/fluent-do
+      link: https://www.linkedin.com/company/telemetry-forge
     - icon: fontawesome/solid/paper-plane
-      link: mailto:info@fluent.do
+      link: mailto:info@telemetryforge.io
 copyright: >
   Copyright &copy; 2026 Telemetry Forge
   <a href="#__consent">Change cookie settings</a>

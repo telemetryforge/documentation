@@ -4,9 +4,9 @@ Our Agent supports all major architectures including `x86_64` and `arm64` as wel
 
 Releases can be found or watched here: <https://github.com/telemetryforge/agent>
 
-Packages are available via [https://packages.fluent.do](https://packages.fluent.do/index.html).
+Packages are available via [https://packages.telemetryforge.io](https://packages.telemetryforge.io/index.html).
 
-Please [contact us](mailto:info@fluent.do) for full details.
+Please [contact us](mailto:info@telemetryforge.io) for full details.
 
 ## Kubernetes versions
 
@@ -33,23 +33,23 @@ Hardened container images are provided for:
 
 Packages as well as public VM images (or AMIs) are available for the following Enterprise OS Versions:
 
-|OS | Versions Supported | Notes |
-|---|--------------------|-------|
-|RHEL|7.x, 8.x, 9.x, 10.x|RHEL compatibility via CentOS 7 then Alma Linux 8-10. |
-|CentOS|6.x, 7.x||
-|CentOS Stream|8, 9, 10|Upstream dependencies no longer guaranteed to be RHEL-compatible.|
-|Alma Linux| 8, 9, 10| RHEL–compatible without breaking changes from CentOS stream. |
-|Rocky Linux| 8, 9, 10| RHEL–compatible without breaking changes from CentOS stream. |
-|SUSE Linux Enterprise Server (SLES)|12, 15||
-|Ubuntu LTS|18.04, 20.04, 22.04, 24.04||
-|Debian|10,11,12,13||
-|Mariner/Azure Linux|2,3||
-|Amazon Linux|2023||
-|Windows|2022,2025| Server versions but compatible with desktop equivalents |
-|macOS|14,15|Apple and Intel Silicon|
+| OS | Versions Supported | Notes |
+| -- | ------------------ | ----- |
+| RHEL | 7.x, 8.x, 9.x, 10.x | RHEL compatibility via CentOS 7 then Alma Linux 8-10. |
+| CentOS | 6.x, 7.x | |
+| CentOS Stream | 8, 9, 10 | Upstream dependencies no longer guaranteed to be RHEL-compatible. |
+| Alma Linux | 8, 9, 10 | RHEL–compatible without breaking changes from CentOS stream. |
+| Rocky Linux | 8, 9, 10 | RHEL–compatible without breaking changes from CentOS stream. |
+| SUSE Linux Enterprise Server (SLES) | 12, 15 | |
+| Ubuntu LTS | 18.04, 20.04, 22.04, 24.04 | |
+| Debian | 10,11,12,13 | |
+| Mariner/Azure Linux | 2,3 | |
+| Amazon Linux | 2023 | |
+| Windows | 2022,2025 | Server versions but compatible with desktop equivalents |
+| macOS | 14,15 | Apple and Intel Silicon |
 
 ARM64 and AMD64 variants are provided where applicable.
 
 Part of our support package includes testing against the specific use cases or configurations you may require.
 
-Installation of packages is available via [https://packages.fluent.do](https://packages.fluent.do/index.html).
+Installation of packages is available via [https://packages.telemetryforge.io](https://packages.telemetryforge.io/index.html).

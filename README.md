@@ -1,6 +1,6 @@
 # documentation
 
-This repo contains the docs provided by <https://docs.fluent.do>.
+This repo contains the docs provided by <https://docs.telemetryforge.io>.
 Documentation is generated via `mkdocs` and hosted in Vercel.
 
 ## Security reporting

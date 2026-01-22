@@ -97,4 +97,4 @@ Our Agent is **70% smaller than OSS Fluent Bit** through:
 
 ### Contact
 
-For custom builds, white-label solutions, or enterprise support: **<info@fluent.do>**
+For custom builds, white-label solutions, or enterprise support: **<info@telemetryforge.io>**

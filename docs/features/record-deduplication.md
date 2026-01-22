@@ -142,7 +142,7 @@ The processor uses bloom filters and hash indexing to minimize disk I/O, ensurin
 ### Prometheus Metrics
 
 | Metric Name | Type | Description |
-|-------------|------|-------------|
+| ----------- | ---- | ----------- |
 | `fluentbit_processor_dedup_records_processed_total` | Counter | Total number of records processed by the deduplication processor |
 | `fluentbit_processor_dedup_records_removed_total` | Counter | Total number of duplicate records removed |
 | `fluentbit_processor_dedup_records_kept_total` | Counter | Total number of unique records kept |
