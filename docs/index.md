@@ -6,11 +6,11 @@ The Telemetry Forge Agent is an **enterprise-hardened distribution of Fluent Bit
 
 ### Key Differentiators
 
-✅ **70% smaller than OSS Fluent Bit** - Optimised for production deployments
-✅ **Security-hardened by default** - FORTIFY_SOURCE, stack protection, and reduced attack surface
-✅ **24-month LTS support** - Weekly security patches and critical bug fixes
-✅ **Enterprise features** - Advanced deduplication, AI filtering, and compliance tools
-✅ **Fully supported** - Direct access to core Fluent Bit maintainers
+- ✅ **70% smaller than OSS Fluent Bit** - Optimised for production deployments
+- ✅ **Security-hardened by default** - FORTIFY_SOURCE, stack protection, and reduced attack surface
+- ✅ **24-month LTS support** - Weekly security patches and critical bug fixes
+- ✅ **Enterprise features** - Advanced deduplication, AI filtering, and compliance tools
+- ✅ **Fully supported** - Direct access to core Fluent Bit maintainers
 
 ### Main features
 
